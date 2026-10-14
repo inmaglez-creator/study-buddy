@@ -92,9 +92,15 @@
     {
       "id": "french-oct",
       "asignatura": "french",
-      "titulo": "French exam",
+      "titulo": "French exam · Unités 1–3",
       "fecha": "2026-10-16",
-      "temas": []
+      "temas": [
+        "classroom",
+        "numbers-alphabet-days",
+        "family-possessives",
+        "house",
+        "avoir-etre"
+      ]
     },
     {
       "id": "computing-test-1",

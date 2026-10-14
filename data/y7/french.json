@@ -1,1 +1,1699 @@
-{ "temas": [] }
+{
+  "temas": [
+    {
+      "id": "classroom",
+      "titulo": "Unité 1 · In the classroom",
+      "resumen": [
+        "## Classroom objects",
+        "French nouns are **masculine** (un) or **feminine** (une). Learn every word with its *un* or *une*.",
+        "- Masculine: un cahier, un carnet, un cartable, un classeur, un clavier, un crayon, un feutre, un livre, un ordinateur (portable), un portable, un sac (à dos), un stylo, un surligneur, un tableau (interactif), un taille-crayon.",
+        "- Feminine: une calculatrice, une chaise, une fenêtre, une feuille (de papier), une gomme, une porte, une règle, une table, une tablette, une trousse.",
+        "",
+        "## Classroom commands",
+        "Écoute (listen), répète (repeat), regarde (look), lis (read), écris (write), chante (sing). To the whole class: écoutez, répétez, regardez, lisez, écrivez."
+      ],
+      "notas": [
+        {
+          "seccion": "Masculine or feminine?",
+          "tarjetas": [
+            {
+              "etiqueta": "🔵 un",
+              "titulo": "Masculine words",
+              "puntos": [
+                "Use **un** for 'a'",
+                "un **stylo**, un **livre**, un **cahier**"
+              ]
+            },
+            {
+              "etiqueta": "🔴 une",
+              "titulo": "Feminine words",
+              "puntos": [
+                "Use **une** for 'a'",
+                "une **règle**, une **gomme**, une **trousse**"
+              ]
+            },
+            {
+              "etiqueta": "💡 Tip",
+              "titulo": "Learn the word with un/une",
+              "puntos": [
+                "Say **une calculatrice**, not just *calculatrice*",
+                "The gender doesn't always match the ending"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Classroom objects",
+          "chips": {
+            "titulo": "🔵 Masculine (un)",
+            "items": [
+              "un cahier = exercise book",
+              "un carnet = notebook",
+              "un cartable = school bag",
+              "un classeur = ring binder",
+              "un clavier = keyboard",
+              "un crayon = pencil",
+              "un feutre = felt-tip pen",
+              "un livre = book",
+              "un ordinateur (portable) = (laptop) computer",
+              "un portable = mobile phone",
+              "un sac (à dos) = bag (rucksack)",
+              "un stylo = pen",
+              "un surligneur = highlighter",
+              "un tableau (interactif) = (interactive) whiteboard",
+              "un taille-crayon = pencil sharpener"
+            ]
+          }
+        },
+        {
+          "chips": {
+            "titulo": "🔴 Feminine (une)",
+            "items": [
+              "une calculatrice = calculator",
+              "une chaise = chair",
+              "une fenêtre = window",
+              "une feuille (de papier) = sheet of paper",
+              "une gomme = rubber",
+              "une porte = door",
+              "une règle = ruler",
+              "une table = table",
+              "une tablette = tablet",
+              "une trousse = pencil case"
+            ]
+          }
+        },
+        {
+          "seccion": "Commands",
+          "tarjetas": [
+            {
+              "etiqueta": "👂 Listen & speak",
+              "titulo": "Écoute et répète",
+              "puntos": [
+                "**Écoute** = listen",
+                "**Répète** = repeat",
+                "**Chante** = sing"
+              ]
+            },
+            {
+              "etiqueta": "👀 Read & write",
+              "titulo": "Lis et écris",
+              "puntos": [
+                "**Regarde** = look",
+                "**Lis** = read",
+                "**Écris** = write"
+              ]
+            },
+            {
+              "etiqueta": "👥 Whole class",
+              "titulo": "Add -ez",
+              "puntos": [
+                "To one person: **écoute**",
+                "To the class: **écoutez**, **répétez**, **regardez**",
+                "Irregular: lis → **lisez**, écris → **écrivez**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "un stylo",
+          "r": "a pen"
+        },
+        {
+          "p": "un crayon",
+          "r": "a pencil"
+        },
+        {
+          "p": "un cahier",
+          "r": "an exercise book"
+        },
+        {
+          "p": "un cartable",
+          "r": "a school bag"
+        },
+        {
+          "p": "un taille-crayon",
+          "r": "a pencil sharpener"
+        },
+        {
+          "p": "un surligneur",
+          "r": "a highlighter"
+        },
+        {
+          "p": "une trousse",
+          "r": "a pencil case"
+        },
+        {
+          "p": "une gomme",
+          "r": "a rubber"
+        },
+        {
+          "p": "une règle",
+          "r": "a ruler"
+        },
+        {
+          "p": "une calculatrice",
+          "r": "a calculator"
+        },
+        {
+          "p": "une fenêtre",
+          "r": "a window"
+        },
+        {
+          "p": "Écoute et répète",
+          "r": "Listen and repeat"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'un stylo'?",
+          "opciones": [
+            "A pen",
+            "A pencil",
+            "A ruler",
+            "A book"
+          ],
+          "correcta": 0,
+          "explicacion": "A pencil is un crayon."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'une trousse'?",
+          "opciones": [
+            "A pencil case",
+            "A school bag",
+            "A rubber",
+            "A door"
+          ],
+          "correcta": 0,
+          "explicacion": "A school bag is un cartable."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'a ruler' in French?",
+          "opciones": [
+            "une règle",
+            "une gomme",
+            "un crayon",
+            "une feuille"
+          ],
+          "correcta": 0,
+          "explicacion": "Une gomme is a rubber."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'a pencil sharpener' in French?",
+          "opciones": [
+            "un taille-crayon",
+            "un surligneur",
+            "un feutre",
+            "un classeur"
+          ],
+          "correcta": 0,
+          "explicacion": "Taille = cut/sharpen + crayon = pencil."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'une fenêtre'?",
+          "opciones": [
+            "A window",
+            "A door",
+            "A table",
+            "A chair"
+          ],
+          "correcta": 0,
+          "explicacion": "A door is une porte."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'un cahier'?",
+          "opciones": [
+            "An exercise book",
+            "A keyboard",
+            "A ring binder",
+            "A calculator"
+          ],
+          "correcta": 0,
+          "explicacion": "A keyboard is un clavier; a ring binder is un classeur."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'un portable'?",
+          "opciones": [
+            "A mobile phone",
+            "A school bag",
+            "A whiteboard",
+            "A pen"
+          ],
+          "correcta": 0,
+          "explicacion": "Un ordinateur portable is a laptop."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word is FEMININE?",
+          "opciones": [
+            "calculatrice",
+            "cahier",
+            "livre",
+            "stylo"
+          ],
+          "correcta": 0,
+          "explicacion": "It is une calculatrice."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word is MASCULINE?",
+          "opciones": [
+            "classeur",
+            "chaise",
+            "gomme",
+            "porte"
+          ],
+          "correcta": 0,
+          "explicacion": "It is un classeur."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Règle' is masculine: un règle.",
+          "correcta": false,
+          "explicacion": "It is feminine: une règle."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Livre' is masculine: un livre.",
+          "correcta": true,
+          "explicacion": "Un livre = a book."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Écoute et répète' mean?",
+          "opciones": [
+            "Listen and repeat",
+            "Look and write",
+            "Read and sing",
+            "Listen and write"
+          ],
+          "correcta": 0,
+          "explicacion": "Écoute = listen, répète = repeat."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Écris' mean?",
+          "opciones": [
+            "Write",
+            "Read",
+            "Look",
+            "Sing"
+          ],
+          "correcta": 0,
+          "explicacion": "Lis = read, regarde = look, chante = sing."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Your teacher speaks to the whole class. Which is correct?",
+          "opciones": [
+            "Regardez!",
+            "Regarde!",
+            "Regardes!",
+            "Regarder!"
+          ],
+          "correcta": 0,
+          "explicacion": "To the whole class, add -ez."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "How do you say 'a rubber' in French? (Include un or une.)",
+          "claves": [
+            "une gomme"
+          ],
+          "modelo": "une gomme",
+          "explicacion": "Gomme is feminine."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "How do you say 'a book' in French? (Include un or une.)",
+          "claves": [
+            "un livre"
+          ],
+          "modelo": "un livre",
+          "explicacion": "Livre is masculine."
+        }
+      ]
+    },
+    {
+      "id": "numbers-alphabet-days",
+      "titulo": "Unités 1–2 · Numbers, alphabet and days",
+      "resumen": [
+        "## Numbers 0–20",
+        "zéro, un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix, onze, douze, treize, quatorze, quinze, seize, dix-sept, dix-huit, dix-neuf, vingt.",
+        "",
+        "## Numbers 20–60",
+        "vingt, vingt-et-un, vingt-deux … vingt-neuf, trente, quarante, cinquante, soixante. For 31, 41, 51 use **et un**: trente-et-un. Other numbers use a hyphen: quarante-cinq.",
+        "",
+        "## Days of the week",
+        "lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche. They are written with a **small letter** and the week starts on Monday.",
+        "",
+        "## The alphabet",
+        "Song: 'Moi, je sais l'alphabet… Ça continue comment?' (How does it continue?)"
+      ],
+      "notas": [
+        {
+          "seccion": "Numbers 0–20",
+          "chips": {
+            "titulo": "Learn these by heart",
+            "items": [
+              "0 zéro",
+              "1 un",
+              "2 deux",
+              "3 trois",
+              "4 quatre",
+              "5 cinq",
+              "6 six",
+              "7 sept",
+              "8 huit",
+              "9 neuf",
+              "10 dix",
+              "11 onze",
+              "12 douze",
+              "13 treize",
+              "14 quatorze",
+              "15 quinze",
+              "16 seize",
+              "17 dix-sept",
+              "18 dix-huit",
+              "19 dix-neuf",
+              "20 vingt"
+            ]
+          }
+        },
+        {
+          "seccion": "Numbers 20–60",
+          "chips": {
+            "titulo": "The tens",
+            "items": [
+              "20 **vingt**",
+              "30 **trente**",
+              "40 **quarante**",
+              "50 **cinquante**",
+              "60 **soixante**"
+            ]
+          },
+          "tarjetas": [
+            {
+              "etiqueta": "1️⃣ Ending in 1",
+              "titulo": "Add et-un",
+              "puntos": [
+                "21 **vingt-et-un**",
+                "31 **trente-et-un**",
+                "51 **cinquante-et-un**"
+              ]
+            },
+            {
+              "etiqueta": "➕ Other numbers",
+              "titulo": "Ten + hyphen + unit",
+              "puntos": [
+                "22 **vingt-deux**",
+                "37 **trente-sept**",
+                "45 **quarante-cinq**",
+                "58 **cinquante-huit**"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Watch out",
+              "titulo": "Tricky ones",
+              "puntos": [
+                "17 = **dix-sept** (10 + 7)",
+                "16 = **seize** (one word)",
+                "**cinq** (5) ≠ **cinquante** (50)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Days of the week",
+          "chips": {
+            "titulo": "Monday → Sunday",
+            "items": [
+              "lundi = Monday",
+              "mardi = Tuesday",
+              "mercredi = Wednesday",
+              "jeudi = Thursday",
+              "vendredi = Friday",
+              "samedi = Saturday",
+              "dimanche = Sunday"
+            ]
+          },
+          "tarjetas": [
+            {
+              "etiqueta": "🔡 Small letters",
+              "titulo": "No capital",
+              "puntos": [
+                "Write **lundi**, not *Lundi*",
+                "The French week starts on **Monday**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "L'alphabet",
+          "tarjetas": [
+            {
+              "etiqueta": "🎵 The song",
+              "titulo": "Moi, je sais l'alphabet",
+              "puntos": [
+                "**Ça continue comment?** = How does it continue?",
+                "**Est-ce que c'est bon?** = Is it right?",
+                "**C'est tout** = That's all"
+              ]
+            },
+            {
+              "etiqueta": "🔤 26 letters",
+              "titulo": "Same letters as English",
+              "puntos": [
+                "A, B, C … X, Y, Z",
+                "W is said **double vé**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "quinze",
+          "r": "15"
+        },
+        {
+          "p": "douze",
+          "r": "12"
+        },
+        {
+          "p": "dix-sept",
+          "r": "17"
+        },
+        {
+          "p": "vingt-et-un",
+          "r": "21"
+        },
+        {
+          "p": "trente",
+          "r": "30"
+        },
+        {
+          "p": "quarante",
+          "r": "40"
+        },
+        {
+          "p": "cinquante",
+          "r": "50"
+        },
+        {
+          "p": "soixante",
+          "r": "60"
+        },
+        {
+          "p": "mercredi",
+          "r": "Wednesday"
+        },
+        {
+          "p": "jeudi",
+          "r": "Thursday"
+        },
+        {
+          "p": "dimanche",
+          "r": "Sunday"
+        },
+        {
+          "p": "Ça continue comment?",
+          "r": "How does it continue?"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'quinze'?",
+          "opciones": [
+            "15",
+            "14",
+            "50",
+            "5"
+          ],
+          "correcta": 0,
+          "explicacion": "14 is quatorze, 50 is cinquante."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'douze'?",
+          "opciones": [
+            "12",
+            "2",
+            "11",
+            "20"
+          ],
+          "correcta": 0,
+          "explicacion": "11 is onze, 20 is vingt."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 17 in French?",
+          "opciones": [
+            "dix-sept",
+            "seize",
+            "sept-dix",
+            "soixante-dix"
+          ],
+          "correcta": 0,
+          "explicacion": "Dix-sept = ten + seven."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 21 in French?",
+          "opciones": [
+            "vingt-et-un",
+            "vingt-un",
+            "deux-un",
+            "vingt-deux"
+          ],
+          "correcta": 0,
+          "explicacion": "Numbers ending in 1 use et-un."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'quarante'?",
+          "opciones": [
+            "40",
+            "14",
+            "4",
+            "30"
+          ],
+          "correcta": 0,
+          "explicacion": "Quatre = 4, quatorze = 14, quarante = 40."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'cinquante'?",
+          "opciones": [
+            "50",
+            "5",
+            "15",
+            "60"
+          ],
+          "correcta": 0,
+          "explicacion": "Cinq = 5, quinze = 15, soixante = 60."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 60 in French?",
+          "opciones": [
+            "soixante",
+            "seize",
+            "six",
+            "cinquante"
+          ],
+          "correcta": 0,
+          "explicacion": "Seize = 16, six = 6."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 45 in French?",
+          "opciones": [
+            "quarante-cinq",
+            "quatorze-cinq",
+            "cinquante-quatre",
+            "quarante-et-cinq"
+          ],
+          "correcta": 0,
+          "explicacion": "Quarante (40) + cinq (5)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'trente-huit'?",
+          "opciones": [
+            "38",
+            "83",
+            "28",
+            "48"
+          ],
+          "correcta": 0,
+          "explicacion": "Trente = 30, huit = 8."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'vingt-neuf' + 'un'?",
+          "opciones": [
+            "trente",
+            "vingt-dix",
+            "dix-neuf",
+            "quarante"
+          ],
+          "correcta": 0,
+          "explicacion": "29 + 1 = 30 = trente."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'mercredi' mean?",
+          "opciones": [
+            "Wednesday",
+            "Monday",
+            "Tuesday",
+            "Friday"
+          ],
+          "correcta": 0,
+          "explicacion": "Lundi = Monday, mardi = Tuesday, vendredi = Friday."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'Sunday' in French?",
+          "opciones": [
+            "dimanche",
+            "samedi",
+            "lundi",
+            "jeudi"
+          ],
+          "correcta": 0,
+          "explicacion": "Samedi = Saturday."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which day comes after 'jeudi'?",
+          "opciones": [
+            "vendredi",
+            "mercredi",
+            "samedi",
+            "mardi"
+          ],
+          "correcta": 0,
+          "explicacion": "Jeudi (Thursday) → vendredi (Friday)."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In French, the days of the week are written with a capital letter.",
+          "correcta": false,
+          "explicacion": "They use a small letter: lundi, mardi…"
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In the alphabet song, what does 'Ça continue comment?' mean?",
+          "opciones": [
+            "How does it continue?",
+            "Is it right?",
+            "That's all!",
+            "I know the alphabet"
+          ],
+          "correcta": 0,
+          "explicacion": "'Est-ce que c'est bon?' = Is it right?"
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The French alphabet has the same 26 letters as the English alphabet.",
+          "correcta": true,
+          "explicacion": "The letters are the same; their names sound different."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write the number 50 in French.",
+          "claves": [
+            "cinquante"
+          ],
+          "modelo": "cinquante",
+          "explicacion": "Don't mix it up with cinq (5) or quinze (15)."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write 'Tuesday' in French.",
+          "claves": [
+            "mardi"
+          ],
+          "modelo": "mardi",
+          "explicacion": "Small letter in French."
+        }
+      ]
+    },
+    {
+      "id": "family-possessives",
+      "titulo": "Unité 3 · My family (mon, ma, mes)",
+      "resumen": [
+        "## Family",
+        "la famille, un père, une mère, un beau-père (stepfather), une belle-mère (stepmother), un frère, une sœur, un demi-frère, une demi-sœur, un(e) cousin(e), un grand-père, une grand-mère, des parents, des grands-parents, un oncle, une tante.",
+        "Tu as des frères et sœurs? = Do you have any brothers and sisters? Je suis fils unique / fille unique / enfant unique = I am an only son / daughter / child.",
+        "",
+        "## Possessive adjectives",
+        "They agree with the noun that follows: **mon** (masculine), **ma** (feminine), **mes** (plural) = my; **ton, ta, tes** = your; **son, sa, ses** = his/her. Before a feminine word starting with a vowel use mon/ton/son: mon amie."
+      ],
+      "notas": [
+        {
+          "seccion": "La famille",
+          "chips": {
+            "titulo": "Family words",
+            "items": [
+              "un père = father",
+              "une mère = mother",
+              "un frère = brother",
+              "une sœur = sister",
+              "un grand-père = grandfather",
+              "une grand-mère = grandmother",
+              "un oncle = uncle",
+              "une tante = aunt",
+              "un(e) cousin(e) = cousin",
+              "des parents = parents",
+              "des grands-parents = grandparents"
+            ]
+          },
+          "tarjetas": [
+            {
+              "etiqueta": "👨‍👩‍👧 Step & half",
+              "titulo": "beau / belle / demi",
+              "puntos": [
+                "un **beau-père** = stepfather",
+                "une **belle-mère** = stepmother",
+                "un **demi-frère** = stepbrother / half brother",
+                "une **demi-sœur** = stepsister / half sister"
+              ]
+            },
+            {
+              "etiqueta": "💬 Ask & answer",
+              "titulo": "Brothers and sisters?",
+              "puntos": [
+                "**Tu as des frères et sœurs?** = Do you have any brothers and sisters?",
+                "**Je suis fille unique** = I'm an only daughter",
+                "**fils unique** = only son · **enfant unique** = only child"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Possessive adjectives",
+          "tarjetas": [
+            {
+              "etiqueta": "🙋 my",
+              "titulo": "mon · ma · mes",
+              "puntos": [
+                "**mon** père (masculine)",
+                "**ma** mère (feminine)",
+                "**mes** parents (plural)"
+              ]
+            },
+            {
+              "etiqueta": "👉 your",
+              "titulo": "ton · ta · tes",
+              "puntos": [
+                "**ton** frère",
+                "**ta** sœur",
+                "**tes** cousins"
+              ]
+            },
+            {
+              "etiqueta": "🧑 his / her",
+              "titulo": "son · sa · ses",
+              "puntos": [
+                "**son** oncle = his/her uncle",
+                "**sa** tante = his/her aunt",
+                "**ses** grands-parents"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Vowel rule",
+              "titulo": "ma → mon before a vowel",
+              "puntos": [
+                "**mon** amie (not ma amie)",
+                "It makes it easier to say"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "une sœur",
+          "r": "a sister"
+        },
+        {
+          "p": "un frère",
+          "r": "a brother"
+        },
+        {
+          "p": "une tante",
+          "r": "an aunt"
+        },
+        {
+          "p": "un oncle",
+          "r": "an uncle"
+        },
+        {
+          "p": "un beau-père",
+          "r": "a stepfather"
+        },
+        {
+          "p": "une demi-sœur",
+          "r": "a stepsister / half sister"
+        },
+        {
+          "p": "des grands-parents",
+          "r": "grandparents"
+        },
+        {
+          "p": "Je suis fille unique",
+          "r": "I am an only daughter"
+        },
+        {
+          "p": "Tu as des frères et sœurs?",
+          "r": "Do you have any brothers and sisters?"
+        },
+        {
+          "p": "my (masculine / feminine / plural)",
+          "r": "mon / ma / mes"
+        },
+        {
+          "p": "your (masculine / feminine / plural)",
+          "r": "ton / ta / tes"
+        },
+        {
+          "p": "his/her (masculine / feminine / plural)",
+          "r": "son / sa / ses"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'une tante'?",
+          "opciones": [
+            "An aunt",
+            "An uncle",
+            "A cousin",
+            "A grandmother"
+          ],
+          "correcta": 0,
+          "explicacion": "An uncle is un oncle."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'a grandfather' in French?",
+          "opciones": [
+            "un grand-père",
+            "un beau-père",
+            "un grand-frère",
+            "une grand-mère"
+          ],
+          "correcta": 0,
+          "explicacion": "Un beau-père is a stepfather."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'un beau-père'?",
+          "opciones": [
+            "A stepfather",
+            "A grandfather",
+            "A handsome father",
+            "An uncle"
+          ],
+          "correcta": 0,
+          "explicacion": "Beau-père = stepfather; belle-mère = stepmother."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'une demi-sœur'?",
+          "opciones": [
+            "A stepsister or half sister",
+            "A cousin",
+            "A twin sister",
+            "An aunt"
+          ],
+          "correcta": 0,
+          "explicacion": "Demi = half."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Tu as des frères et sœurs?' mean?",
+          "opciones": [
+            "Do you have any brothers and sisters?",
+            "Who are your parents?",
+            "Is this your brother?",
+            "How old is your sister?"
+          ],
+          "correcta": 0,
+          "explicacion": "Tu as = you have."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A girl has no brothers or sisters. What does she say?",
+          "opciones": [
+            "Je suis fille unique.",
+            "Je suis fils unique.",
+            "J'ai une sœur.",
+            "Je suis une cousine."
+          ],
+          "correcta": 0,
+          "explicacion": "Fils unique is for a boy."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'des grands-parents'?",
+          "opciones": [
+            "Grandparents",
+            "Big parents",
+            "Parents",
+            "Great-grandparents"
+          ],
+          "correcta": 0,
+          "explicacion": "Des parents = parents."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: ___ mère (my mother)",
+          "opciones": [
+            "ma",
+            "mon",
+            "mes",
+            "ta"
+          ],
+          "correcta": 0,
+          "explicacion": "Mère is feminine, so 'my' is ma."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: ___ frère (my brother)",
+          "opciones": [
+            "mon",
+            "ma",
+            "mes",
+            "ton"
+          ],
+          "correcta": 0,
+          "explicacion": "Frère is masculine, so 'my' is mon."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: ___ grands-parents (my grandparents)",
+          "opciones": [
+            "mes",
+            "mon",
+            "ma",
+            "tes"
+          ],
+          "correcta": 0,
+          "explicacion": "Plural, so 'my' is mes."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'your sister' (talking to a friend)?",
+          "opciones": [
+            "ta sœur",
+            "ton sœur",
+            "tes sœur",
+            "ma sœur"
+          ],
+          "correcta": 0,
+          "explicacion": "Sœur is feminine: ta."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'ses cousins' mean?",
+          "opciones": [
+            "His/her cousins",
+            "My cousins",
+            "Your cousins",
+            "Their cousin"
+          ],
+          "correcta": 0,
+          "explicacion": "Son/sa/ses = his or her."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Mes' is used before plural nouns.",
+          "correcta": true,
+          "explicacion": "mes parents, mes cousins."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Ma' means 'my' before a masculine noun.",
+          "correcta": false,
+          "explicacion": "Ma is for feminine nouns; mon is masculine."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is correct for 'my friend' (a girl)?",
+          "opciones": [
+            "mon amie",
+            "ma amie",
+            "mes amie",
+            "ta amie"
+          ],
+          "correcta": 0,
+          "explicacion": "Before a vowel, ma becomes mon."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "How do you say 'my sister' in French?",
+          "claves": [
+            "ma soeur",
+            "ma sœur"
+          ],
+          "modelo": "ma sœur",
+          "explicacion": "Sœur is feminine, so ma."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "How do you say 'your parents' in French (talking to a friend)?",
+          "claves": [
+            "tes parents"
+          ],
+          "modelo": "tes parents",
+          "explicacion": "Plural, so tes."
+        }
+      ]
+    },
+    {
+      "id": "house",
+      "titulo": "Unités 2–3 · My house (and 'at', 'in')",
+      "resumen": [
+        "## Rooms",
+        "le salon (living room), la salle de séjour (lounge/sitting room), la cuisine (kitchen), la salle de bains (bathroom), la chambre (bedroom), les toilettes (toilet), le garage, le jardin (garden), le balcon (balcony).",
+        "",
+        "## Furniture and technology",
+        "un bureau (desk), un canapé (sofa), un coussin (cushion), une chaise, un lit (bed), une table (de nuit) (bedside table); un clavier (keyboard), un écran (screen), une imprimante (printer), un jeu vidéo, un texto (text message), le wifi.",
+        "",
+        "## At, in",
+        "- **à** + town: J'habite **à** Madrid. **à la maison** = at home.",
+        "- **en** + feminine country: **en** France, **en** Espagne. **au** + masculine country: **au** Portugal.",
+        "- **dans** = in/inside: **dans** la chambre."
+      ],
+      "notas": [
+        {
+          "seccion": "Les pièces (rooms)",
+          "chips": {
+            "titulo": "Rooms",
+            "items": [
+              "le salon = living room",
+              "la salle de séjour = lounge",
+              "la cuisine = kitchen",
+              "la salle de bains = bathroom",
+              "la chambre = bedroom",
+              "les toilettes = toilet",
+              "le garage = garage",
+              "le jardin = garden",
+              "le balcon = balcony"
+            ]
+          }
+        },
+        {
+          "seccion": "Furniture & technology",
+          "chips": {
+            "titulo": "🛋️ Furniture",
+            "items": [
+              "un bureau = desk",
+              "un canapé = sofa",
+              "un coussin = cushion",
+              "une chaise = chair",
+              "un lit = bed",
+              "une table (de nuit) = (bedside) table"
+            ]
+          }
+        },
+        {
+          "chips": {
+            "titulo": "💻 Technology",
+            "items": [
+              "un clavier = keyboard",
+              "un écran = screen",
+              "une imprimante = printer",
+              "un jeu vidéo = video game",
+              "un texto = text message",
+              "le wifi = wifi"
+            ]
+          }
+        },
+        {
+          "seccion": "How to say 'at' and 'in'",
+          "tarjetas": [
+            {
+              "etiqueta": "🏙️ à",
+              "titulo": "Towns, and 'at home'",
+              "puntos": [
+                "J'habite **à** Madrid",
+                "J'habite **à** Londres",
+                "**à la maison** = at home"
+              ]
+            },
+            {
+              "etiqueta": "🌍 en / au",
+              "titulo": "Countries",
+              "puntos": [
+                "**en** + feminine country: **en** France, **en** Espagne",
+                "**au** + masculine country: **au** Portugal"
+              ]
+            },
+            {
+              "etiqueta": "📦 dans",
+              "titulo": "Inside",
+              "puntos": [
+                "**dans** la chambre = in the bedroom",
+                "**dans** le jardin = in the garden"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "la cuisine",
+          "r": "the kitchen"
+        },
+        {
+          "p": "la chambre",
+          "r": "the bedroom"
+        },
+        {
+          "p": "la salle de bains",
+          "r": "the bathroom"
+        },
+        {
+          "p": "le salon",
+          "r": "the living room"
+        },
+        {
+          "p": "le jardin",
+          "r": "the garden"
+        },
+        {
+          "p": "un lit",
+          "r": "a bed"
+        },
+        {
+          "p": "un canapé",
+          "r": "a sofa"
+        },
+        {
+          "p": "un bureau",
+          "r": "a desk"
+        },
+        {
+          "p": "une imprimante",
+          "r": "a printer"
+        },
+        {
+          "p": "un écran",
+          "r": "a screen"
+        },
+        {
+          "p": "J'habite à Madrid",
+          "r": "I live in Madrid"
+        },
+        {
+          "p": "en France",
+          "r": "in France"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'la cuisine'?",
+          "opciones": [
+            "The kitchen",
+            "The bedroom",
+            "The bathroom",
+            "The garden"
+          ],
+          "correcta": 0,
+          "explicacion": "Cuisine = kitchen (and cooking)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'la chambre'?",
+          "opciones": [
+            "The bedroom",
+            "The kitchen",
+            "The living room",
+            "The garage"
+          ],
+          "correcta": 0,
+          "explicacion": "It doesn't mean 'chamber' here: it's the bedroom."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'the bathroom' in French?",
+          "opciones": [
+            "la salle de bains",
+            "la salle de séjour",
+            "les toilettes",
+            "la cuisine"
+          ],
+          "correcta": 0,
+          "explicacion": "La salle de séjour is the lounge."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'le jardin'?",
+          "opciones": [
+            "The garden",
+            "The garage",
+            "The balcony",
+            "The living room"
+          ],
+          "correcta": 0,
+          "explicacion": "Le balcon = the balcony."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'un lit'?",
+          "opciones": [
+            "A bed",
+            "A desk",
+            "A sofa",
+            "A cushion"
+          ],
+          "correcta": 0,
+          "explicacion": "Un canapé = a sofa."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'un canapé'?",
+          "opciones": [
+            "A sofa",
+            "A chair",
+            "A bed",
+            "A bedside table"
+          ],
+          "correcta": 0,
+          "explicacion": "Une chaise = a chair."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'un bureau'?",
+          "opciones": [
+            "A desk",
+            "A bedroom",
+            "A bathroom",
+            "A keyboard"
+          ],
+          "correcta": 0,
+          "explicacion": "Un clavier = a keyboard."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'une imprimante'?",
+          "opciones": [
+            "A printer",
+            "A screen",
+            "A video game",
+            "A text message"
+          ],
+          "correcta": 0,
+          "explicacion": "Un écran = a screen."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'un texto'?",
+          "opciones": [
+            "A text message",
+            "A textbook",
+            "A keyboard",
+            "A video game"
+          ],
+          "correcta": 0,
+          "explicacion": "Un jeu vidéo = a video game."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: J'habite ___ Madrid. (I live in Madrid)",
+          "opciones": [
+            "à",
+            "en",
+            "au",
+            "dans"
+          ],
+          "correcta": 0,
+          "explicacion": "Use à before a town or city."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: J'habite ___ France. (I live in France)",
+          "opciones": [
+            "en",
+            "à",
+            "au",
+            "le"
+          ],
+          "correcta": 0,
+          "explicacion": "Use en before a feminine country."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: J'habite ___ Portugal.",
+          "opciones": [
+            "au",
+            "en",
+            "à",
+            "dans"
+          ],
+          "correcta": 0,
+          "explicacion": "Portugal is masculine: au."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'in the bedroom'?",
+          "opciones": [
+            "dans la chambre",
+            "à la chambre",
+            "en chambre",
+            "au chambre"
+          ],
+          "correcta": 0,
+          "explicacion": "Dans = inside."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'à la maison' mean?",
+          "opciones": [
+            "At home",
+            "In the garden",
+            "In France",
+            "To the kitchen"
+          ],
+          "correcta": 0,
+          "explicacion": "La maison = the house/home."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Les toilettes' is a plural word.",
+          "correcta": true,
+          "explicacion": "The book marks it (f pl): feminine plural."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "You say 'J'habite en Londres'.",
+          "correcta": false,
+          "explicacion": "London is a city: J'habite à Londres."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "How do you say 'the kitchen' in French?",
+          "claves": [
+            "la cuisine"
+          ],
+          "modelo": "la cuisine",
+          "explicacion": "Feminine: la."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Translate: 'I live in Spain.'",
+          "pista": "Espagne is a feminine country.",
+          "claves": [
+            "en espagne"
+          ],
+          "modelo": "J'habite en Espagne.",
+          "explicacion": "En + feminine country."
+        }
+      ]
+    },
+    {
+      "id": "avoir-etre",
+      "titulo": "Grammar · avoir and être (singular)",
+      "resumen": [
+        "## avoir = to have",
+        "j'ai (I have), tu as (you have), il/elle/on a (he/she/one has).",
+        "We use avoir for age: **J'ai onze ans** = I am eleven (literally 'I have eleven years').",
+        "",
+        "## être = to be",
+        "je suis (I am), tu es (you are), il/elle/on est (he/she/one is).",
+        "Je suis fille unique. Il est grand."
+      ],
+      "notas": [
+        {
+          "seccion": "The two most important verbs",
+          "tarjetas": [
+            {
+              "etiqueta": "🎒 avoir",
+              "titulo": "to have",
+              "puntos": [
+                "**j'ai** = I have",
+                "**tu as** = you have",
+                "**il / elle / on a** = he / she / one has"
+              ]
+            },
+            {
+              "etiqueta": "🙂 être",
+              "titulo": "to be",
+              "puntos": [
+                "**je suis** = I am",
+                "**tu es** = you are",
+                "**il / elle / on est** = he / she / one is"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Watch out!",
+          "tarjetas": [
+            {
+              "etiqueta": "🎂 Age",
+              "titulo": "Use avoir, not être",
+              "puntos": [
+                "**J'ai onze ans** = I am 11",
+                "Tu as quel âge? = How old are you?",
+                "Not *Je suis onze*"
+              ]
+            },
+            {
+              "etiqueta": "✂️ je → j'",
+              "titulo": "Before a vowel",
+              "puntos": [
+                "**j'ai**, not *je ai*",
+                "But **je suis** (s is a consonant)"
+              ]
+            },
+            {
+              "etiqueta": "🔀 Don't mix them up",
+              "titulo": "a / as / est / es",
+              "puntos": [
+                "il **a** = he **has**",
+                "il **est** = he **is**",
+                "tu **as** = you **have** · tu **es** = you **are**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "j'ai",
+          "r": "I have"
+        },
+        {
+          "p": "tu as",
+          "r": "you have"
+        },
+        {
+          "p": "il a / elle a",
+          "r": "he has / she has"
+        },
+        {
+          "p": "je suis",
+          "r": "I am"
+        },
+        {
+          "p": "tu es",
+          "r": "you are"
+        },
+        {
+          "p": "il est / elle est",
+          "r": "he is / she is"
+        },
+        {
+          "p": "J'ai onze ans",
+          "r": "I am eleven (years old)"
+        },
+        {
+          "p": "avoir / être",
+          "r": "to have / to be"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'avoir' mean?",
+          "opciones": [
+            "To have",
+            "To be",
+            "To live",
+            "To go"
+          ],
+          "correcta": 0,
+          "explicacion": "Être = to be."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'être' mean?",
+          "opciones": [
+            "To be",
+            "To have",
+            "To eat",
+            "To listen"
+          ],
+          "correcta": 0,
+          "explicacion": "Avoir = to have."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'I have'?",
+          "opciones": [
+            "j'ai",
+            "je suis",
+            "je ai",
+            "j'as"
+          ],
+          "correcta": 0,
+          "explicacion": "Je becomes j' before a vowel."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'you have' (to a friend)?",
+          "opciones": [
+            "tu as",
+            "tu es",
+            "tu a",
+            "tu ai"
+          ],
+          "correcta": 0,
+          "explicacion": "Tu es = you are."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'she has'?",
+          "opciones": [
+            "elle a",
+            "elle est",
+            "elle as",
+            "elle ai"
+          ],
+          "correcta": 0,
+          "explicacion": "Elle est = she is."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'I am'?",
+          "opciones": [
+            "je suis",
+            "j'ai",
+            "je es",
+            "je est"
+          ],
+          "correcta": 0,
+          "explicacion": "Être: je suis, tu es, il est."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'you are' (to a friend)?",
+          "opciones": [
+            "tu es",
+            "tu as",
+            "tu est",
+            "tu suis"
+          ],
+          "correcta": 0,
+          "explicacion": "Tu as = you have."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'he is'?",
+          "opciones": [
+            "il est",
+            "il a",
+            "il es",
+            "il suis"
+          ],
+          "correcta": 0,
+          "explicacion": "Il a = he has."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'I am eleven' in French?",
+          "opciones": [
+            "J'ai onze ans.",
+            "Je suis onze ans.",
+            "Je suis onze.",
+            "J'ai onze."
+          ],
+          "correcta": 0,
+          "explicacion": "French uses avoir for age: 'I have eleven years'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Tu ___ des frères et sœurs?",
+          "opciones": [
+            "as",
+            "es",
+            "a",
+            "ai"
+          ],
+          "correcta": 0,
+          "explicacion": "Avoir: tu as."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Je ___ fille unique.",
+          "opciones": [
+            "suis",
+            "ai",
+            "es",
+            "est"
+          ],
+          "correcta": 0,
+          "explicacion": "Être: je suis."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Elle ___ une sœur.",
+          "opciones": [
+            "a",
+            "est",
+            "as",
+            "es"
+          ],
+          "correcta": 0,
+          "explicacion": "She has a sister: elle a."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Il est' means 'he has'.",
+          "correcta": false,
+          "explicacion": "Il est = he is; il a = he has."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "You write 'j'ai', not 'je ai'.",
+          "correcta": true,
+          "explicacion": "Je shortens to j' before a vowel."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write the singular of 'avoir' (I, you, he).",
+          "claves": [
+            "j'ai",
+            "tu as",
+            "il a",
+            "elle a",
+            "on a"
+          ],
+          "minimo": 3,
+          "modelo": "j'ai, tu as, il/elle a",
+          "explicacion": "Learn them as a chant: j'ai, tu as, il a."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write the singular of 'être' (I, you, he).",
+          "claves": [
+            "je suis",
+            "tu es",
+            "il est",
+            "elle est",
+            "on est"
+          ],
+          "minimo": 3,
+          "modelo": "je suis, tu es, il/elle est",
+          "explicacion": "Learn them as a chant: je suis, tu es, il est."
+        }
+      ]
+    }
+  ]
+}

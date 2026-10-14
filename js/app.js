@@ -376,7 +376,7 @@ function vistaProgreso() {
 
 // ---------- Test ----------
 
-const normalizar = s => String(s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+const normalizar = s => String(s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[’‘`´]/g, "'");
 
 // Respuesta corta: correcta si contiene al menos `minimo` de las palabras clave.
 // Las claves numéricas tienen que aparecer como número completo ("5" no vale dentro de "25").
