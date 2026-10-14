@@ -45,6 +45,12 @@
       "color": "#e67700"
     },
     {
+      "id": "computing",
+      "nombre": "Computing",
+      "icono": "💻",
+      "color": "#495057"
+    },
+    {
       "id": "lengua",
       "nombre": "Lengua",
       "icono": "✏️",
@@ -59,6 +65,18 @@
   ],
   "examenes": [
     {
+      "id": "science-cells",
+      "asignatura": "science",
+      "titulo": "Science test · Unit 1 Cells",
+      "fecha": "2026-10-13",
+      "temas": [
+        "plant-cells",
+        "animal-cells",
+        "specialised-cells",
+        "cells-tissues-organs"
+      ]
+    },
+    {
       "id": "maths-section-1",
       "asignatura": "maths",
       "titulo": "Maths test · Section 1 (Units 1–5)",
@@ -72,16 +90,46 @@
       ]
     },
     {
-      "id": "science-cells",
-      "asignatura": "science",
-      "titulo": "Science test · Unit 1 Cells",
-      "fecha": "2026-10-13",
-      "temas": [
-        "plant-cells",
-        "animal-cells",
-        "specialised-cells",
-        "cells-tissues-organs"
-      ]
+      "id": "french-oct",
+      "asignatura": "french",
+      "titulo": "French exam",
+      "fecha": "2026-10-16",
+      "temas": []
+    },
+    {
+      "id": "computing-test-1",
+      "asignatura": "computing",
+      "titulo": "Computing test",
+      "fecha": "2026-10-20",
+      "temas": []
+    },
+    {
+      "id": "german-oct",
+      "asignatura": "german",
+      "titulo": "German exam",
+      "fecha": "2026-10-20",
+      "temas": []
+    },
+    {
+      "id": "geography-unit-1",
+      "asignatura": "geography",
+      "titulo": "Geography test · Unit 1",
+      "fecha": "2026-10-21",
+      "temas": []
+    },
+    {
+      "id": "english-reading-comprehension",
+      "asignatura": "english",
+      "titulo": "Reading comprehension",
+      "fecha": "2026-10-27",
+      "temas": []
+    },
+    {
+      "id": "history-unit-1",
+      "asignatura": "history",
+      "titulo": "History test · Unit 1",
+      "fecha": "2026-10-29",
+      "temas": []
     }
   ]
 }

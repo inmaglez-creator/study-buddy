@@ -208,10 +208,10 @@ function tarjetaExamen(e) {
           <b>${e.final ? '🏆' : esc(a.icono)} ${esc(e.titulo || a.nombre)}</b>
           <div class="suave pequeño">${esc(a.nombre)} · ${e.final ? 'Everything from the year so far' : fmtFecha(e.fecha)}</div>
           <div class="pequeño suave">
-            ${!e.final && temas.length <= 2
+            ${!temas.length ? '📷 Revision materials coming soon' : !e.final && temas.length <= 2
               ? `Topics: ${temas.map(t => esc(t.titulo.split(' · ').pop())).join(', ')}`
               : `${temas.length} ${temas.length === 1 ? 'topic' : 'topics'}`}
-            · ${nPreguntas} ${nPreguntas === 1 ? 'question' : 'questions'}
+            ${temas.length ? `· ${nPreguntas} ${nPreguntas === 1 ? 'question' : 'questions'}` : ''}
           </div>
         </div>
         ${e.final ? '' : cuenta(diasHasta(e.fecha))}
