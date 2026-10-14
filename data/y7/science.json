@@ -1,0 +1,1475 @@
+{
+  "temas": [
+    {
+      "id": "plant-cells",
+      "titulo": "1.1 · Plant cells",
+      "resumen": [
+        "All living organisms are made of **cells**. Cells are so small that we need a **microscope** to **magnify** them.",
+        "",
+        "## Parts of a plant cell",
+        "- **Cell wall**: strong and stiff, holds the cell in shape. Made of **cellulose**.",
+        "- **Cell membrane**: thin and flexible, lies inside the cell wall, controls what goes in and out.",
+        "- **Cytoplasm**: like clear jelly; chemical reactions that keep the cell alive happen here.",
+        "- **Nucleus**: controls the activities of the cell.",
+        "- **Sap vacuole**: large space filled with **cell sap** (sugars and other substances dissolved in water).",
+        "- **Chloroplasts**: where plants make their food (photosynthesis). Green because they contain **chlorophyll**.",
+        "- **Mitochondria** (singular: mitochondrion): energy is released from food.",
+        "",
+        "## Microscopes",
+        "Parts: eyepiece, coarse and fine focussing knobs, objective lenses (low, medium, high power), stage, mirror.",
+        "To look at onion cells: put a thin layer of onion in a drop of water on a slide, lower a **cover slip** without air bubbles, start with the **smallest objective lens**, then focus.",
+        "Onion cells are not green because they have no chloroplasts (they grow underground, away from light).",
+        "A model of a cell has **strengths** and **limitations** (weaknesses)."
+      ],
+      "notas": [
+        {
+          "seccion": "What are cells?",
+          "tarjetas": [
+            {
+              "etiqueta": "🧱 Cells",
+              "titulo": "Tiny 'boxes'",
+              "puntos": [
+                "All living organisms are made of **cells**",
+                "Too small to see with your eyes alone"
+              ]
+            },
+            {
+              "etiqueta": "🔬 Microscope",
+              "titulo": "Magnifies",
+              "puntos": [
+                "Makes cells look much **bigger** than they are",
+                "Scientists use it to see very small things"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Parts of a plant cell",
+          "tarjetas": [
+            {
+              "etiqueta": "🧱 Cell wall",
+              "titulo": "Strong and stiff",
+              "puntos": [
+                "Holds the cell in **shape**",
+                "Made of **cellulose**",
+                "Only in plant cells"
+              ]
+            },
+            {
+              "etiqueta": "🫧 Cell membrane",
+              "titulo": "Thin and flexible",
+              "puntos": [
+                "Like the skin of a soap bubble",
+                "Controls what goes **in and out**",
+                "Lies inside the cell wall"
+              ]
+            },
+            {
+              "etiqueta": "🟦 Cytoplasm",
+              "titulo": "Clear jelly",
+              "puntos": [
+                "**Chemical reactions** happen here",
+                "They keep the cell alive"
+              ]
+            },
+            {
+              "etiqueta": "🎯 Nucleus",
+              "titulo": "Control centre",
+              "puntos": [
+                "**Controls** the activities of the cell"
+              ]
+            },
+            {
+              "etiqueta": "💧 Sap vacuole",
+              "titulo": "Large space",
+              "puntos": [
+                "Filled with **cell sap**",
+                "Sugars dissolved in water"
+              ]
+            },
+            {
+              "etiqueta": "🌿 Chloroplast",
+              "titulo": "Food factory",
+              "puntos": [
+                "Plants **make their food** here",
+                "Green because of **chlorophyll**",
+                "Only in cells that get sunlight"
+              ]
+            },
+            {
+              "etiqueta": "⚡ Mitochondria",
+              "titulo": "Energy",
+              "puntos": [
+                "**Energy is released** from food",
+                "Singular: **mitochondrion**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Using a microscope",
+          "chips": {
+            "titulo": "Parts of a microscope",
+            "items": [
+              "**Eyepiece**",
+              "**Coarse** focussing knob",
+              "**Fine** focussing knob",
+              "**Objective lenses**: low, medium, high power",
+              "**Stage**",
+              "**Mirror**"
+            ]
+          },
+          "tarjetas": [
+            {
+              "etiqueta": "🧅 Onion cells",
+              "titulo": "Making a slide",
+              "puntos": [
+                "Thin onion layer in a **drop of water**",
+                "Lower a **cover slip** – no air bubbles",
+                "Start with the **smallest** objective lens",
+                "Cut **away** from your fingers"
+              ]
+            },
+            {
+              "etiqueta": "❓ Why not green?",
+              "titulo": "Onion cells",
+              "puntos": [
+                "No **chloroplasts**",
+                "Onion bulbs grow underground, away from light"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What are all living organisms made of?",
+          "r": "Cells"
+        },
+        {
+          "p": "What does a microscope do?",
+          "r": "It magnifies things so they look much bigger"
+        },
+        {
+          "p": "Function of the cell wall",
+          "r": "Holds the plant cell in shape (strong and stiff)"
+        },
+        {
+          "p": "What is the cell wall made of?",
+          "r": "Cellulose"
+        },
+        {
+          "p": "Function of the cell membrane",
+          "r": "Controls what goes in and out of the cell"
+        },
+        {
+          "p": "What happens in the cytoplasm?",
+          "r": "Chemical reactions that keep the cell alive"
+        },
+        {
+          "p": "Function of the nucleus",
+          "r": "Controls the activities of the cell"
+        },
+        {
+          "p": "What is in the sap vacuole?",
+          "r": "Cell sap: sugars and other substances dissolved in water"
+        },
+        {
+          "p": "What happens in chloroplasts?",
+          "r": "Plants make their food (photosynthesis)"
+        },
+        {
+          "p": "Why are chloroplasts green?",
+          "r": "They contain chlorophyll"
+        },
+        {
+          "p": "Function of mitochondria",
+          "r": "Energy is released from food"
+        },
+        {
+          "p": "What is a cover slip?",
+          "r": "A very thin piece of glass placed over the sample on a slide"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Which part holds a plant cell in shape?",
+          "opciones": [
+            "Cell wall",
+            "Cell membrane",
+            "Cytoplasm",
+            "Nucleus"
+          ],
+          "correcta": 0,
+          "explicacion": "The cell wall is strong and stiff."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What substance are plant cell walls made of?",
+          "opciones": [
+            "Cellulose",
+            "Chlorophyll",
+            "Cell sap",
+            "Mucus"
+          ],
+          "correcta": 0,
+          "explicacion": "Chlorophyll is the green substance in chloroplasts."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which part controls what goes in and out of the cell?",
+          "opciones": [
+            "Cell membrane",
+            "Cell wall",
+            "Nucleus",
+            "Sap vacuole"
+          ],
+          "correcta": 0,
+          "explicacion": "The membrane is thin and flexible, like the skin of a soap bubble."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where do the chemical reactions that keep the cell alive happen?",
+          "opciones": [
+            "Cytoplasm",
+            "Cell wall",
+            "Sap vacuole",
+            "Cell membrane"
+          ],
+          "correcta": 0,
+          "explicacion": "The cytoplasm is like clear jelly."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which part controls the activities of the cell?",
+          "opciones": [
+            "Nucleus",
+            "Mitochondrion",
+            "Chloroplast",
+            "Cytoplasm"
+          ],
+          "correcta": 0,
+          "explicacion": "The nucleus is the control centre."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where do plants make their food?",
+          "opciones": [
+            "Chloroplasts",
+            "Mitochondria",
+            "Sap vacuole",
+            "Nucleus"
+          ],
+          "correcta": 0,
+          "explicacion": "Chloroplasts carry out photosynthesis."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why are chloroplasts green?",
+          "opciones": [
+            "They contain chlorophyll",
+            "They contain cellulose",
+            "They are full of cell sap",
+            "They absorb water"
+          ],
+          "correcta": 0,
+          "explicacion": "Chlorophyll is a green substance."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Inside which part is energy released from food?",
+          "opciones": [
+            "Mitochondria",
+            "Chloroplasts",
+            "Cell wall",
+            "Sap vacuole"
+          ],
+          "correcta": 0,
+          "explicacion": "All plant (and animal) cells have mitochondria."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the liquid inside the sap vacuole called?",
+          "opciones": [
+            "Cell sap",
+            "Cytoplasm",
+            "Mucus",
+            "Chlorophyll"
+          ],
+          "correcta": 0,
+          "explicacion": "It is a solution of sugars and other substances in water."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The cell membrane is strong and stiff.",
+          "correcta": false,
+          "explicacion": "The cell wall is strong and stiff; the membrane is thin and flexible."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The singular of 'mitochondria' is 'mitochondrion'.",
+          "correcta": true,
+          "explicacion": "One mitochondrion, many mitochondria."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which part of the microscope do you look down?",
+          "opciones": [
+            "Eyepiece",
+            "Stage",
+            "Mirror",
+            "Objective lens"
+          ],
+          "correcta": 0,
+          "explicacion": "The slide goes on the stage; you look through the eyepiece."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where do you put the slide on a microscope?",
+          "opciones": [
+            "On the stage",
+            "On the eyepiece",
+            "On the mirror",
+            "On the focussing knob"
+          ],
+          "correcta": 0,
+          "explicacion": "Put it with the sample over the hole in the stage."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which objective lens should you start with?",
+          "opciones": [
+            "The smallest (low power)",
+            "The largest (high power)",
+            "The medium one",
+            "It doesn't matter"
+          ],
+          "correcta": 0,
+          "explicacion": "Start with low power, then turn to a bigger lens for more magnification."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why should you lower the cover slip gently over the onion?",
+          "opciones": [
+            "To avoid air bubbles",
+            "To make the cells green",
+            "To stain the cells",
+            "To make the slide warmer"
+          ],
+          "correcta": 0,
+          "explicacion": "Air bubbles make it hard to see the cells."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why do onion cells not look green?",
+          "opciones": [
+            "They have no chloroplasts",
+            "They have no nucleus",
+            "They have no cell wall",
+            "They are dead"
+          ],
+          "correcta": 0,
+          "explicacion": "Onion bulbs grow underground, away from light, so they don't need chloroplasts."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "When cutting the onion, you should point the blade away from you.",
+          "correcta": true,
+          "explicacion": "So if the knife slips you don't cut your fingers."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Describe two differences between a cell wall and a cell membrane.",
+          "pista": "Think about how strong they are, what they do and which cells have them.",
+          "claves": [
+            "stiff",
+            "strong",
+            "flexible",
+            "thin",
+            "shape",
+            "in and out",
+            "cellulose",
+            "only plant",
+            "all cells",
+            "outside",
+            "inside"
+          ],
+          "minimo": 2,
+          "modelo": "The cell wall is strong and stiff, holds the cell in shape, is made of cellulose and is only in plant cells. The cell membrane is thin and flexible, controls what goes in and out, and is in all cells.",
+          "explicacion": "Any two clear differences are correct."
+        }
+      ]
+    },
+    {
+      "id": "animal-cells",
+      "titulo": "1.2 · Animal cells",
+      "resumen": [
+        "All animals, including you, are made of cells (about 100 trillion in a person).",
+        "",
+        "## Similarities with plant cells",
+        "Animal cells also have a **cell membrane**, **cytoplasm**, **mitochondria** and a **nucleus**.",
+        "",
+        "## Differences",
+        "Animal cells do **not** have a cell wall, chloroplasts or a large sap vacuole. Their shape is often irregular or round.",
+        "",
+        "## Looking at cheek cells",
+        "Rub a cotton bud inside your cheek, rub it on a slide, add a drop of **methylene blue**. It **stains** the cells blue so they are easier to see. Wear **safety glasses**."
+      ],
+      "notas": [
+        {
+          "seccion": "Animal cells",
+          "tarjetas": [
+            {
+              "etiqueta": "🧍 You!",
+              "titulo": "Made of cells",
+              "puntos": [
+                "All animals are made of cells",
+                "About **100 trillion** in a person"
+              ]
+            },
+            {
+              "etiqueta": "✅ Same as plants",
+              "titulo": "Shared parts",
+              "puntos": [
+                "**Cell membrane**",
+                "**Cytoplasm**",
+                "**Mitochondria**",
+                "**Nucleus**"
+              ]
+            },
+            {
+              "etiqueta": "❌ Not in animals",
+              "titulo": "Only in plant cells",
+              "puntos": [
+                "**Cell wall**",
+                "**Chloroplasts**",
+                "Large **sap vacuole**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Plant or animal?",
+          "tarjetas": [
+            {
+              "etiqueta": "🌿 Plant cell",
+              "titulo": "Look for…",
+              "puntos": [
+                "Regular, box-like shape",
+                "Thick **cell wall**",
+                "Green **chloroplasts**",
+                "Large vacuole"
+              ]
+            },
+            {
+              "etiqueta": "🐾 Animal cell",
+              "titulo": "Look for…",
+              "puntos": [
+                "Irregular or round shape",
+                "Only a thin membrane",
+                "No chloroplasts, no large vacuole"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Looking at cheek cells",
+          "tarjetas": [
+            {
+              "etiqueta": "🧪 Method",
+              "titulo": "Step by step",
+              "puntos": [
+                "Cotton bud inside your **cheek**",
+                "Rub it on a clean slide",
+                "Add **methylene blue**",
+                "Cover slip → microscope"
+              ]
+            },
+            {
+              "etiqueta": "🔵 Stain",
+              "titulo": "Methylene blue",
+              "puntos": [
+                "A **dye** that **stains** cells blue",
+                "Makes them **easier to see**",
+                "Wear **safety glasses**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Four parts that animal and plant cells both have",
+          "r": "Cell membrane, cytoplasm, mitochondria, nucleus"
+        },
+        {
+          "p": "Three parts animal cells do NOT have",
+          "r": "Cell wall, chloroplasts, large sap vacuole"
+        },
+        {
+          "p": "Roughly how many cells are in a person?",
+          "r": "About 100 trillion"
+        },
+        {
+          "p": "What does it mean to stain cells?",
+          "r": "Add a dye so they are easier to see"
+        },
+        {
+          "p": "Which stain is used for cheek cells?",
+          "r": "Methylene blue"
+        },
+        {
+          "p": "How do you collect cheek cells?",
+          "r": "Gently rub a cotton bud along the inside of your cheek"
+        },
+        {
+          "p": "Safety for the cheek cell practical",
+          "r": "Wear safety glasses"
+        },
+        {
+          "p": "Easiest way to tell a plant cell from an animal cell",
+          "r": "Plant cells have a cell wall (and often chloroplasts)"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Which part do animal cells NOT have?",
+          "opciones": [
+            "Cell wall",
+            "Cell membrane",
+            "Nucleus",
+            "Cytoplasm"
+          ],
+          "correcta": 0,
+          "explicacion": "Only plant cells have a cell wall."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is found in BOTH plant and animal cells?",
+          "opciones": [
+            "Mitochondria",
+            "Chloroplasts",
+            "Cell wall",
+            "Large sap vacuole"
+          ],
+          "correcta": 0,
+          "explicacion": "Both release energy from food in mitochondria."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Animal cells have chloroplasts.",
+          "correcta": false,
+          "explicacion": "Animals don't make their own food by photosynthesis."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Animal cells have a nucleus and cytoplasm, just like plant cells.",
+          "correcta": true,
+          "explicacion": "They also share the cell membrane and mitochondria."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Roughly how many cells are there in a person?",
+          "opciones": [
+            "About 100 trillion",
+            "About 100",
+            "About 1 million",
+            "About 100 thousand"
+          ],
+          "correcta": 0,
+          "explicacion": "100 000 000 000 000 cells!"
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is methylene blue added to cheek cells?",
+          "opciones": [
+            "To stain them so they are easier to see",
+            "To kill bacteria",
+            "To make them bigger",
+            "To stop air bubbles"
+          ],
+          "correcta": 0,
+          "explicacion": "Methylene blue is a dye."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you collect cheek cells?",
+          "opciones": [
+            "Gently rub a cotton bud inside your cheek",
+            "Cut a small piece of skin",
+            "Use a drop of saliva on paper",
+            "Peel a layer from your lip"
+          ],
+          "correcta": 0,
+          "explicacion": "This collects some loose cells safely."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What safety equipment should you wear when using methylene blue?",
+          "opciones": [
+            "Safety glasses",
+            "Gloves only",
+            "A face mask",
+            "Nothing"
+          ],
+          "correcta": 0,
+          "explicacion": "The book says: put on your safety glasses."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A cell has a round shape, a nucleus and no cell wall. What kind of cell is it?",
+          "opciones": [
+            "An animal cell",
+            "A plant cell",
+            "A palisade cell",
+            "A root hair cell"
+          ],
+          "correcta": 0,
+          "explicacion": "No cell wall means it is an animal cell."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A cell has a box-like shape, a cell wall and chloroplasts. What kind of cell is it?",
+          "opciones": [
+            "A plant cell",
+            "An animal cell",
+            "A red blood cell",
+            "A neurone"
+          ],
+          "correcta": 0,
+          "explicacion": "Cell wall and chloroplasts are plant features."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "You change a model plant cell into an animal cell. What should you remove?",
+          "opciones": [
+            "The cell wall, chloroplasts and large vacuole",
+            "The nucleus",
+            "The cytoplasm",
+            "The mitochondria"
+          ],
+          "correcta": 0,
+          "explicacion": "Those three parts are only in plant cells."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "There are five parts of a plant cell beginning with 'c'. Which of these is NOT one of them?",
+          "opciones": [
+            "Nucleus",
+            "Chloroplast",
+            "Cytoplasm",
+            "Cell wall"
+          ],
+          "correcta": 0,
+          "explicacion": "Cell wall, cell membrane, cytoplasm and chloroplast all begin with 'c'. The nucleus does not."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "You can see cheek cells on the slide with your eyes before using the microscope.",
+          "correcta": false,
+          "explicacion": "They are too small to see until you use the microscope."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Describe two ways you can tell a cell is an animal cell and not a plant cell.",
+          "claves": [
+            "wall",
+            "chloroplast",
+            "vacuole",
+            "shape",
+            "irregular",
+            "round"
+          ],
+          "minimo": 2,
+          "modelo": "It has no cell wall, no chloroplasts and no large sap vacuole (and it has an irregular shape).",
+          "explicacion": "Any two of these."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name the four parts that both plant and animal cells have.",
+          "claves": [
+            "membrane",
+            "cytoplasm",
+            "mitochondri",
+            "nucleus"
+          ],
+          "minimo": 4,
+          "modelo": "Cell membrane, cytoplasm, mitochondria and nucleus.",
+          "explicacion": "Learn these four!"
+        }
+      ]
+    },
+    {
+      "id": "specialised-cells",
+      "titulo": "1.3 · Specialised cells",
+      "resumen": [
+        "Each kind of cell has a **function** (the job it does). A **specialised** cell has a structure that helps it do its function well: it is **adapted**.",
+        "",
+        "## Specialised animal cells",
+        "- **Red blood cell**: carries oxygen. Small, to fit through tiny **capillaries**. Full of the red **pigment haemoglobin**, which carries oxygen. **No nucleus**, leaving more space for haemoglobin.",
+        "- **Neurone**: carries **electrical signals** around the body (e.g. from the brain to muscles). Long **axon** for fast signals; **dendrites** collect signals from other nerve cells.",
+        "- **Ciliated cell**: has tiny hairs called **cilia** that move. Lines the tubes to the lungs. Other cells make sticky **mucus** that traps dust and bacteria; cilia sweep it up to the mouth.",
+        "",
+        "## Specialised plant cells",
+        "- **Root hair cell**: on the outside of roots; **absorbs** water from the soil. Long thin extension. No chloroplasts (no light underground).",
+        "- **Palisade cell**: in leaves; makes food by photosynthesis. Lots of **chloroplasts** with chlorophyll, which absorbs energy from sunlight."
+      ],
+      "notas": [
+        {
+          "seccion": "Key ideas",
+          "tarjetas": [
+            {
+              "etiqueta": "🎯 Function",
+              "titulo": "The job a cell does",
+              "puntos": [
+                "Each kind of cell has a particular **function**"
+              ]
+            },
+            {
+              "etiqueta": "🛠️ Specialised",
+              "titulo": "Adapted for its job",
+              "puntos": [
+                "Its **structure** helps it do its function well",
+                "We say it is **adapted**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Specialised animal cells",
+          "tarjetas": [
+            {
+              "etiqueta": "🩸 Red blood cell",
+              "titulo": "Carries oxygen",
+              "puntos": [
+                "**Small** → fits through tiny **capillaries**",
+                "Red pigment **haemoglobin** carries oxygen",
+                "**No nucleus** → more space for haemoglobin"
+              ]
+            },
+            {
+              "etiqueta": "⚡ Neurone",
+              "titulo": "Carries electrical signals",
+              "puntos": [
+                "Brain → muscles, so they move",
+                "Long **axon**: signals travel fast",
+                "**Dendrites** collect signals from other nerve cells",
+                "Part of the **nervous system**"
+              ]
+            },
+            {
+              "etiqueta": "🌾 Ciliated cell",
+              "titulo": "Sweeps mucus",
+              "puntos": [
+                "Tiny moving hairs called **cilia**",
+                "Line the tubes to the **lungs**",
+                "**Mucus** traps dust and bacteria",
+                "Cilia sweep it up to the mouth"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Specialised plant cells",
+          "tarjetas": [
+            {
+              "etiqueta": "🌱 Root hair cell",
+              "titulo": "Absorbs water",
+              "puntos": [
+                "On the outside of **roots**",
+                "Long, thin **extension** → water moves in easily",
+                "**No chloroplasts**: no light underground"
+              ]
+            },
+            {
+              "etiqueta": "🍃 Palisade cell",
+              "titulo": "Makes food",
+              "puntos": [
+                "In **leaves**",
+                "Lots of **chloroplasts** with chlorophyll",
+                "Chlorophyll absorbs energy from **sunlight**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Water's path into a root hair cell",
+            "items": [
+              "Soil",
+              "→ cell wall",
+              "→ cell membrane",
+              "→ cytoplasm",
+              "→ sap vacuole"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is the function of a cell?",
+          "r": "The job it does, or the role it plays"
+        },
+        {
+          "p": "What does 'specialised' mean?",
+          "r": "Having a structure that helps the cell carry out its function"
+        },
+        {
+          "p": "Function of a red blood cell",
+          "r": "Carries oxygen around the body"
+        },
+        {
+          "p": "What is haemoglobin?",
+          "r": "A red pigment in red blood cells that carries oxygen"
+        },
+        {
+          "p": "Why do red blood cells have no nucleus?",
+          "r": "More space for haemoglobin"
+        },
+        {
+          "p": "Function of a neurone",
+          "r": "Carries electrical signals from one part of the body to another"
+        },
+        {
+          "p": "Axon",
+          "r": "A very long strand of cytoplasm in a neurone; signals travel along it quickly"
+        },
+        {
+          "p": "Dendrites",
+          "r": "Short strands that collect signals from other nerve cells"
+        },
+        {
+          "p": "What are cilia?",
+          "r": "Tiny moving hairs on ciliated cells"
+        },
+        {
+          "p": "What does mucus do in the airways?",
+          "r": "Traps dust and bacteria"
+        },
+        {
+          "p": "Function of a root hair cell",
+          "r": "Absorbs water from the soil"
+        },
+        {
+          "p": "Function of a palisade cell",
+          "r": "Makes food by photosynthesis"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is meant by the 'function' of a cell?",
+          "opciones": [
+            "The job it does",
+            "Its size",
+            "Its colour",
+            "Where it is found"
+          ],
+          "correcta": 0,
+          "explicacion": "Function = the job or role of the cell."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A cell with a structure that helps it do its job really well is…",
+          "opciones": [
+            "specialised",
+            "unicellular",
+            "magnified",
+            "stained"
+          ],
+          "correcta": 0,
+          "explicacion": "We also say it is adapted to its function."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which cell carries oxygen around the body?",
+          "opciones": [
+            "Red blood cell",
+            "Neurone",
+            "Ciliated cell",
+            "Palisade cell"
+          ],
+          "correcta": 0,
+          "explicacion": "It contains haemoglobin."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the red pigment in red blood cells called?",
+          "opciones": [
+            "Haemoglobin",
+            "Chlorophyll",
+            "Methylene blue",
+            "Mucus"
+          ],
+          "correcta": 0,
+          "explicacion": "Haemoglobin carries oxygen."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why do red blood cells have no nucleus?",
+          "opciones": [
+            "To leave more space for haemoglobin",
+            "So they can move faster",
+            "Because they are plant cells",
+            "So they can make food"
+          ],
+          "correcta": 0,
+          "explicacion": "More haemoglobin means more oxygen can be carried."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why are red blood cells smaller than most other cells?",
+          "opciones": [
+            "To get through tiny capillaries",
+            "To hold more mucus",
+            "To absorb water",
+            "To make food"
+          ],
+          "correcta": 0,
+          "explicacion": "This lets them deliver oxygen to every part of the body."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does a neurone carry?",
+          "opciones": [
+            "Electrical signals",
+            "Oxygen",
+            "Water",
+            "Mucus"
+          ],
+          "correcta": 0,
+          "explicacion": "For example from the brain to muscles."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the long strand of cytoplasm in a neurone called?",
+          "opciones": [
+            "Axon",
+            "Dendrite",
+            "Cilia",
+            "Capillary"
+          ],
+          "correcta": 0,
+          "explicacion": "Electrical signals travel along the axon very quickly."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What do dendrites do?",
+          "opciones": [
+            "Collect signals from other nerve cells",
+            "Carry oxygen",
+            "Sweep mucus",
+            "Absorb water"
+          ],
+          "correcta": 0,
+          "explicacion": "Dendrites are short strands of cytoplasm."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which body system are neurones part of?",
+          "opciones": [
+            "Nervous system",
+            "Digestive system",
+            "Respiratory system",
+            "Skeletal system"
+          ],
+          "correcta": 0,
+          "explicacion": "Neurones are nerve cells."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which cell moves mucus up through the airways?",
+          "opciones": [
+            "Ciliated cell",
+            "Red blood cell",
+            "Root hair cell",
+            "Palisade cell"
+          ],
+          "correcta": 0,
+          "explicacion": "Its cilia sweep the mucus up to the back of the mouth."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Mucus traps dust and bacteria to stop them going into your lungs.",
+          "correcta": true,
+          "explicacion": "The cilia then sweep the mucus away."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which cell absorbs water from the soil?",
+          "opciones": [
+            "Root hair cell",
+            "Palisade cell",
+            "Ciliated cell",
+            "Red blood cell"
+          ],
+          "correcta": 0,
+          "explicacion": "Its long, thin extension lets water move in easily."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why don't root hair cells contain chloroplasts?",
+          "opciones": [
+            "They are underground, where there is no light",
+            "They don't need water",
+            "They are animal cells",
+            "They have no cell wall"
+          ],
+          "correcta": 0,
+          "explicacion": "Chloroplasts need light to make food."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which cell makes food by photosynthesis in leaves?",
+          "opciones": [
+            "Palisade cell",
+            "Root hair cell",
+            "Neurone",
+            "Ciliated cell"
+          ],
+          "correcta": 0,
+          "explicacion": "Palisade cells have lots of chloroplasts."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How is a palisade cell adapted to its function?",
+          "opciones": [
+            "It has lots of chloroplasts",
+            "It has no nucleus",
+            "It has cilia",
+            "It has a long axon"
+          ],
+          "correcta": 0,
+          "explicacion": "The chlorophyll absorbs energy from sunlight."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Red blood cells, neurones and ciliated cells all have a cell wall.",
+          "correcta": false,
+          "explicacion": "They are animal cells, so none of them has a cell wall."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "List two things that red blood cells, neurones and ciliated cells have in common.",
+          "claves": [
+            "membrane",
+            "cytoplasm",
+            "wall",
+            "chloroplast",
+            "animal",
+            "specialised"
+          ],
+          "minimo": 2,
+          "modelo": "They all have a cell membrane and cytoplasm; none has a cell wall or chloroplasts (they are all specialised animal cells).",
+          "explicacion": "Remember: red blood cells have no nucleus, so 'nucleus' is not common to all three."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Water moves from the soil into the sap vacuole of a root hair cell. Name, in order, the parts it passes through.",
+          "claves": [
+            "wall",
+            "membrane",
+            "cytoplasm",
+            "vacuole"
+          ],
+          "minimo": 4,
+          "modelo": "Cell wall → cell membrane → cytoplasm → sap vacuole.",
+          "explicacion": "From the outside of the cell to the inside."
+        }
+      ]
+    },
+    {
+      "id": "cells-tissues-organs",
+      "titulo": "1.4 · Cells, tissues and organs",
+      "resumen": [
+        "Living things are called **organisms**.",
+        "",
+        "## From cells to organisms",
+        "- **Tissue**: a group of similar cells working together to carry out a function. Examples: **onion epidermis**, **ciliated epithelium** (lines the tubes to the lungs).",
+        "- **Organ**: a structure made of several different tissues working together. Examples: brain, heart, stomach, muscles; in plants: leaves, roots, flowers.",
+        "- **Organ system**: a set of organs working together for the same function, e.g. the circulatory system (heart and blood vessels), digestive, respiratory, skeletal systems.",
+        "- A leaf contains an **upper epidermis**, **palisade layer**, **spongy layer** and **lower epidermis**.",
+        "",
+        "## Cell discovery timeline",
+        "- 1625 Galileo builds the first microscope.",
+        "- 1665 Robert Hooke looks at cork and names the little compartments **cells**.",
+        "- 1670 Anton van Leeuwenhoek improves the microscope and sees living cells in pond water.",
+        "- 1833 Robert Brown discovers the nucleus in plant cells.",
+        "- 1838 Schleiden: all plant tissues are made of cells; Schwann: animal tissues too.",
+        "- 1845 Carl Heinrich Braun: cells are the basic unit of all life.",
+        "- 1855 Rudolf Virchow: all cells come only from other cells."
+      ],
+      "notas": [
+        {
+          "seccion": "Levels of organisation",
+          "chips": {
+            "titulo": "Smallest → biggest",
+            "items": [
+              "🧫 **Cell**",
+              "→ 🧱 **Tissue**",
+              "→ ❤️ **Organ**",
+              "→ 🔄 **Organ system**",
+              "→ 🧍 **Organism**"
+            ]
+          },
+          "tarjetas": [
+            {
+              "etiqueta": "🧱 Tissue",
+              "titulo": "Similar cells together",
+              "puntos": [
+                "A group of **similar cells** with the same function",
+                "**Onion epidermis**",
+                "**Ciliated epithelium**: lines the tubes to the lungs"
+              ]
+            },
+            {
+              "etiqueta": "❤️ Organ",
+              "titulo": "Different tissues together",
+              "puntos": [
+                "Made of **several different tissues**",
+                "Animals: brain, heart, stomach, muscles",
+                "Plants: **leaves, roots, flowers**"
+              ]
+            },
+            {
+              "etiqueta": "🔄 Organ system",
+              "titulo": "Organs together",
+              "puntos": [
+                "Organs working for the **same function**",
+                "Heart + blood vessels = **circulatory** system",
+                "Also digestive, respiratory, skeletal"
+              ]
+            },
+            {
+              "etiqueta": "🧍 Organism",
+              "titulo": "A living thing",
+              "puntos": [
+                "Plants and animals",
+                "May contain many organ systems, organs and tissues"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Inside a leaf (a plant organ)",
+          "chips": {
+            "titulo": "Layers from top to bottom",
+            "items": [
+              "**Upper epidermis**",
+              "**Palisade layer**",
+              "**Spongy layer**",
+              "**Lower epidermis**"
+            ]
+          }
+        },
+        {
+          "seccion": "Cell discovery timeline",
+          "tarjetas": [
+            {
+              "etiqueta": "🔭 1625",
+              "titulo": "Galileo Galilei",
+              "puntos": [
+                "Builds the **first microscope**"
+              ]
+            },
+            {
+              "etiqueta": "🪵 1665",
+              "titulo": "Robert Hooke",
+              "puntos": [
+                "Looks at **cork**",
+                "Names the compartments **cells**"
+              ]
+            },
+            {
+              "etiqueta": "💧 1670",
+              "titulo": "Anton van Leeuwenhoek",
+              "puntos": [
+                "Improves the microscope",
+                "Sees **living cells** in pond water"
+              ]
+            },
+            {
+              "etiqueta": "🎯 1833",
+              "titulo": "Robert Brown",
+              "puntos": [
+                "Discovers the **nucleus** in plant cells"
+              ]
+            },
+            {
+              "etiqueta": "🌿🐾 1838",
+              "titulo": "Schleiden & Schwann",
+              "puntos": [
+                "All **plant** tissues are made of cells (Schleiden)",
+                "**Animal** tissues too (Schwann)"
+              ]
+            },
+            {
+              "etiqueta": "🧬 1845 · 1855",
+              "titulo": "Braun & Virchow",
+              "puntos": [
+                "Braun: cells are the **basic unit of all life**",
+                "Virchow: all cells come **from other cells**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is an organism?",
+          "r": "A living thing (e.g. a plant or an animal)"
+        },
+        {
+          "p": "What is a tissue?",
+          "r": "A group of similar cells working together to carry out a function"
+        },
+        {
+          "p": "What is an organ?",
+          "r": "A structure made of several different tissues working together"
+        },
+        {
+          "p": "What is an organ system?",
+          "r": "A set of organs working together to carry out the same function"
+        },
+        {
+          "p": "Give two examples of plant organs",
+          "r": "Leaves, roots, flowers"
+        },
+        {
+          "p": "What is ciliated epithelium?",
+          "r": "The tissue lining the tubes to the lungs"
+        },
+        {
+          "p": "The four layers of a leaf, top to bottom",
+          "r": "Upper epidermis, palisade layer, spongy layer, lower epidermis"
+        },
+        {
+          "p": "Who named cells, and when?",
+          "r": "Robert Hooke, 1665 (looking at cork)"
+        },
+        {
+          "p": "Who discovered the nucleus?",
+          "r": "Robert Brown, 1833"
+        },
+        {
+          "p": "What did Virchow say in 1855?",
+          "r": "All cells only come from other cells"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a group of similar cells working together called?",
+          "opciones": [
+            "Tissue",
+            "Organ",
+            "Organ system",
+            "Organism"
+          ],
+          "correcta": 0,
+          "explicacion": "For example, onion epidermis or ciliated epithelium."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A structure made of several different tissues working together is…",
+          "opciones": [
+            "an organ",
+            "a tissue",
+            "a cell",
+            "an organism"
+          ],
+          "correcta": 0,
+          "explicacion": "The brain, heart and stomach are organs."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A set of organs working together for the same function is…",
+          "opciones": [
+            "an organ system",
+            "a tissue",
+            "an organism",
+            "a specialised cell"
+          ],
+          "correcta": 0,
+          "explicacion": "For example, the circulatory system."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a living thing called?",
+          "opciones": [
+            "An organism",
+            "An organ",
+            "A tissue",
+            "A system"
+          ],
+          "correcta": 0,
+          "explicacion": "Animals and plants are organisms."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Put these in order from smallest to biggest.",
+          "opciones": [
+            "Cell → tissue → organ → organ system",
+            "Tissue → cell → organ → organ system",
+            "Cell → organ → tissue → organ system",
+            "Organ → tissue → cell → organ system"
+          ],
+          "correcta": 0,
+          "explicacion": "Cells make tissues, tissues make organs, organs make systems."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "The stomach is an example of…",
+          "opciones": [
+            "an organ",
+            "a tissue",
+            "a cell",
+            "an organ system"
+          ],
+          "correcta": 0,
+          "explicacion": "It is made of several kinds of tissue."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "The heart and blood vessels are all part of the same…",
+          "opciones": [
+            "organ system",
+            "tissue",
+            "cell",
+            "leaf"
+          ],
+          "correcta": 0,
+          "explicacion": "The circulatory system."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is a plant organ?",
+          "opciones": [
+            "Leaf",
+            "Palisade cell",
+            "Onion epidermis",
+            "Chloroplast"
+          ],
+          "correcta": 0,
+          "explicacion": "Leaves, roots and flowers are plant organs."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does ciliated epithelium do?",
+          "opciones": [
+            "Lines the tubes to the lungs and moves mucus",
+            "Absorbs water from the soil",
+            "Makes food in leaves",
+            "Carries oxygen in the blood"
+          ],
+          "correcta": 0,
+          "explicacion": "Its cilia all wave together, like grass in the wind."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which layer of a leaf is just under the upper epidermis?",
+          "opciones": [
+            "Palisade layer",
+            "Spongy layer",
+            "Lower epidermis",
+            "Root hair layer"
+          ],
+          "correcta": 0,
+          "explicacion": "Upper epidermis → palisade → spongy → lower epidermis."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "An organ is made of only one type of tissue.",
+          "correcta": false,
+          "explicacion": "An organ is made of several different tissues."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who looked at cork in 1665 and called the little compartments 'cells'?",
+          "opciones": [
+            "Robert Hooke",
+            "Galileo Galilei",
+            "Robert Brown",
+            "Rudolf Virchow"
+          ],
+          "correcta": 0,
+          "explicacion": "Hooke used an early microscope."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who discovered the nucleus in plant cells in 1833?",
+          "opciones": [
+            "Robert Brown",
+            "Robert Hooke",
+            "Theodor Schwann",
+            "Anton van Leeuwenhoek"
+          ],
+          "correcta": 0,
+          "explicacion": "Brown saw it in plant cells."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who improved the microscope and saw living cells in pond water?",
+          "opciones": [
+            "Anton van Leeuwenhoek",
+            "Galileo Galilei",
+            "Matthias Schleiden",
+            "Carl Heinrich Braun"
+          ],
+          "correcta": 0,
+          "explicacion": "This was around 1670."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What did Rudolf Virchow say in 1855?",
+          "opciones": [
+            "All cells only come from other cells",
+            "All plants are made of cells",
+            "Cells have a nucleus",
+            "Microscopes can see cells"
+          ],
+          "correcta": 0,
+          "explicacion": "Cells come from the division of existing cells."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Galileo Galilei built the first microscope in 1625.",
+          "correcta": true,
+          "explicacion": "This is the first step in the book's timeline."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Explain the difference between a tissue and an organ.",
+          "claves": [
+            "similar cells",
+            "same",
+            "different tissues",
+            "several tissues",
+            "many tissues"
+          ],
+          "minimo": 2,
+          "modelo": "A tissue is a group of similar cells working together; an organ is made of several different tissues working together.",
+          "explicacion": "Tissues are the building blocks of organs."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name two organs in the human body.",
+          "claves": [
+            "brain",
+            "heart",
+            "stomach",
+            "intestine",
+            "lung",
+            "muscle",
+            "liver",
+            "kidney",
+            "skin"
+          ],
+          "minimo": 2,
+          "modelo": "For example: brain, heart, stomach, intestines, lungs.",
+          "explicacion": "Any two human organs."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1891 @@
+{
+  "temas": [
+    {
+      "id": "calculations",
+      "titulo": "Unit 1 · Addition, subtraction, multiplication and division",
+      "resumen": [
+        "Being able to calculate **without a calculator** is an important skill. Always check your answer with an **estimate**.",
+        "",
+        "## Mental methods",
+        "- **Number bonds** to 10 or 100: 52 + 68 → the units 2 and 8 make 10, so 50 + 60 + 10 = **120**.",
+        "- **Same units**: 146 − 36 → 6 − 6 = 0, so it is the same as 140 − 30 = **110**.",
+        "- **Borrowed numbers (rounding)**: 79 + 32 → 80 + 32 = 112, then take away the 1 you added: **111**.",
+        "- 118 − 44 → 120 − 44 = 76, then take away the 2 you added: **74**.",
+        "",
+        "## Subtracting negative numbers",
+        "Subtracting a negative number is the same as **adding** it: 10 − (−3) = 10 + 3 = **13**.",
+        "So subtracting a negative number makes the answer **bigger**.",
+        "",
+        "## Estimating",
+        "Round each number to the nearest 10, 100 or 1000 to make the calculation easier.",
+        "- 286 + 407 ≈ 300 + 400 = **700**",
+        "- An estimate helps you spot wrong answers: 1121 + 788 − 210 − (−592) ≈ 1000 + 800 − 200 + 600 = 2200, so an answer of 1291 must be wrong.",
+        "",
+        "## Multiplication and division with negative numbers",
+        "- A **negative × positive** gives a **negative** answer: (−3) × 4 = −12",
+        "- A **negative ÷ positive** gives a **negative** answer: −12 ÷ 4 = −3",
+        "",
+        "## Using a fact you know",
+        "If 36 × 18 = 648, then 648 ÷ 18 = 36, −36 × 18 = −648 and 18 × 18 = 324 (half of 648)."
+      ],
+      "notas": [
+        {
+          "seccion": "Mental methods",
+          "tarjetas": [
+            {
+              "etiqueta": "🔟 Number bonds",
+              "titulo": "Make 10 or 100",
+              "puntos": [
+                "Look for units that add to **10**",
+                "52 + 68 → 2 + 8 = 10",
+                "50 + 60 + 10 = **120**"
+              ]
+            },
+            {
+              "etiqueta": "🟰 Same units",
+              "titulo": "Cancel the units",
+              "puntos": [
+                "146 − 36 → 6 − 6 = 0",
+                "Same as 140 − 30",
+                "= **110**"
+              ]
+            },
+            {
+              "etiqueta": "🔁 Borrowed numbers",
+              "titulo": "Round, then adjust",
+              "puntos": [
+                "79 + 32 → 80 + 32 = 112, **−1** → **111**",
+                "118 − 44 → 120 − 44 = 76, **−2** → **74**",
+                "Always undo what you borrowed"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Negative numbers",
+          "tarjetas": [
+            {
+              "etiqueta": "➖➖ Subtracting a negative",
+              "titulo": "= adding",
+              "puntos": [
+                "10 − (−3) = 10 + 3 = **13**",
+                "43 − (−17) = **60**",
+                "The answer gets **bigger**"
+              ]
+            },
+            {
+              "etiqueta": "✖️ Multiply / divide",
+              "titulo": "Negative with positive",
+              "puntos": [
+                "Negative × positive = **negative**",
+                "(−3) × 4 = **−12**",
+                "Negative ÷ positive = **negative**: −12 ÷ 4 = **−3**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Estimating & checking",
+          "tarjetas": [
+            {
+              "etiqueta": "≈ Estimate",
+              "titulo": "Round first",
+              "puntos": [
+                "Round to the nearest **10, 100 or 1000**",
+                "286 + 407 ≈ 300 + 400 = **700**",
+                "Use it to spot wrong answers"
+              ]
+            },
+            {
+              "etiqueta": "🧠 Use a known fact",
+              "titulo": "36 × 18 = 648",
+              "puntos": [
+                "648 ÷ 18 = **36**",
+                "−36 × 18 = **−648**",
+                "18 × 18 = **324** (half of 648)"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Quick ×÷ tricks",
+            "items": [
+              "240 × 90 → 24 × 9 = 216 → **21 600**",
+              "3600 ÷ 60 = 360 ÷ 6 = **60**",
+              "4900 ÷ 70 = **70**",
+              "150 × 5 = **750**"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is a number bond to 10?",
+          "r": "Two numbers that add up to 10, e.g. 2 and 8"
+        },
+        {
+          "p": "How do you work out 79 + 32 with a borrowed number?",
+          "r": "80 + 32 = 112, then subtract 1 → 111"
+        },
+        {
+          "p": "10 − (−3) = ?",
+          "r": "13 (subtracting a negative = adding)"
+        },
+        {
+          "p": "Does subtracting a negative number make the answer bigger or smaller?",
+          "r": "Bigger"
+        },
+        {
+          "p": "Why do we estimate?",
+          "r": "To check that an answer is roughly right"
+        },
+        {
+          "p": "How do you estimate 286 + 407?",
+          "r": "Round to the nearest 100: 300 + 400 = 700"
+        },
+        {
+          "p": "Negative × positive = ?",
+          "r": "Negative, e.g. (−3) × 4 = −12"
+        },
+        {
+          "p": "Negative ÷ positive = ?",
+          "r": "Negative, e.g. −12 ÷ 4 = −3"
+        },
+        {
+          "p": "What is an integer?",
+          "r": "A whole number (positive, negative or zero)"
+        },
+        {
+          "p": "If 36 × 18 = 648, what is 648 ÷ 18?",
+          "r": "36"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Use number bonds to work out 52 + 68.",
+          "opciones": [
+            "120",
+            "110",
+            "130",
+            "1110"
+          ],
+          "correcta": 0,
+          "explicacion": "2 + 8 = 10, so 50 + 60 + 10 = 120."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Using a borrowed number, what is 79 + 32?",
+          "opciones": [
+            "111",
+            "112",
+            "101",
+            "121"
+          ],
+          "correcta": 0,
+          "explicacion": "80 + 32 = 112, then subtract the 1 you added: 111."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Without a calculator, work out 118 − 44.",
+          "opciones": [
+            "74",
+            "76",
+            "84",
+            "72"
+          ],
+          "correcta": 0,
+          "explicacion": "120 − 44 = 76, then subtract the 2 you added to 118: 74."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 10 − (−3)?",
+          "opciones": [
+            "13",
+            "7",
+            "−13",
+            "−7"
+          ],
+          "correcta": 0,
+          "explicacion": "Subtracting a negative is the same as adding: 10 + 3 = 13."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 43 − (−17)?",
+          "opciones": [
+            "60",
+            "26",
+            "−60",
+            "−26"
+          ],
+          "correcta": 0,
+          "explicacion": "43 + 17 = 60."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is −77 − (−57)?",
+          "opciones": [
+            "−20",
+            "20",
+            "−134",
+            "134"
+          ],
+          "correcta": 0,
+          "explicacion": "−77 + 57 = −20."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is −81 − (−161)?",
+          "opciones": [
+            "80",
+            "−80",
+            "242",
+            "−242"
+          ],
+          "correcta": 0,
+          "explicacion": "−81 + 161 = 80."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Subtracting a negative number makes the answer bigger.",
+          "correcta": true,
+          "explicacion": "Subtracting a negative is the same as adding a positive."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Estimate 286 + 407 by rounding to the nearest hundred.",
+          "opciones": [
+            "700",
+            "600",
+            "690",
+            "800"
+          ],
+          "correcta": 0,
+          "explicacion": "300 + 400 = 700."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A car's distance meter reads 1421 km. The family drive 289 km. What does it read at the end?",
+          "opciones": [
+            "1710 km",
+            "1700 km",
+            "1610 km",
+            "1132 km"
+          ],
+          "correcta": 0,
+          "explicacion": "1421 + 289 = 1710 km."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A jug holds 725 ml of water. Two 230 ml glasses are poured. How much water is left?",
+          "opciones": [
+            "265 ml",
+            "495 ml",
+            "35 ml",
+            "460 ml"
+          ],
+          "correcta": 0,
+          "explicacion": "2 × 230 = 460 ml, and 725 − 460 = 265 ml."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out 240 × 90.",
+          "opciones": [
+            "21 600",
+            "2160",
+            "216 000",
+            "2400"
+          ],
+          "correcta": 0,
+          "explicacion": "24 × 9 = 216, then add two zeros: 21 600."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out 3600 ÷ 60.",
+          "opciones": [
+            "60",
+            "6",
+            "600",
+            "36"
+          ],
+          "correcta": 0,
+          "explicacion": "360 ÷ 6 = 60."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A chocolate bar is 4 pieces wide and 12 pieces long. Amir needs 336 pieces. How many bars should he buy?",
+          "opciones": [
+            "7",
+            "6",
+            "8",
+            "28"
+          ],
+          "correcta": 0,
+          "explicacion": "Each bar has 4 × 12 = 48 pieces, and 336 ÷ 48 = 7."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A shop has 19 tricycles and 112 bicycles. How many wheels are there in total?",
+          "opciones": [
+            "281",
+            "262",
+            "224",
+            "393"
+          ],
+          "correcta": 0,
+          "explicacion": "19 × 3 = 57 and 112 × 2 = 224; 57 + 224 = 281."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "360 chairs are arranged in rows of 20. How many rows are there?",
+          "opciones": [
+            "18",
+            "16",
+            "20",
+            "180"
+          ],
+          "correcta": 0,
+          "explicacion": "360 ÷ 20 = 18."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A lift can carry 500 kg. Six people have masses 62, 88, 79, 91, 86 and 92 kg. What is their total mass?",
+          "opciones": [
+            "498 kg — it is safe",
+            "502 kg — it is not safe",
+            "406 kg — it is safe",
+            "508 kg — it is not safe"
+          ],
+          "correcta": 0,
+          "explicacion": "62 + 88 + 79 + 91 + 86 = 406, plus 92 = 498 kg, which is under 500 kg."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is (−3) × 4?",
+          "opciones": [
+            "−12",
+            "12",
+            "−7",
+            "1"
+          ],
+          "correcta": 0,
+          "explicacion": "A negative × a positive gives a negative answer."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is −12 ÷ 4?",
+          "opciones": [
+            "−3",
+            "3",
+            "−8",
+            "−48"
+          ],
+          "correcta": 0,
+          "explicacion": "A negative ÷ a positive gives a negative answer."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A negative number multiplied by a positive number gives a positive answer.",
+          "correcta": false,
+          "explicacion": "Negative × positive = negative."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "36 × 18 = 648. Use this to work out −648 ÷ 9.",
+          "opciones": [
+            "−72",
+            "72",
+            "−36",
+            "−81"
+          ],
+          "correcta": 0,
+          "explicacion": "648 ÷ 18 = 36, so 648 ÷ 9 = 72 (9 is half of 18). Negative ÷ positive is negative: −72."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "A child buys five packets of sweets, each containing 80 sweets. How many sweets do they buy in total?",
+          "claves": [
+            "400"
+          ],
+          "modelo": "400 sweets (5 × 80 = 400).",
+          "explicacion": "5 × 8 = 40, then add a zero."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "A pupil says 1121 + 788 − 210 − (−592) = 1291. Explain why this answer must be wrong.",
+          "pista": "Round each number first.",
+          "claves": [
+            "2200",
+            "estimat",
+            "round",
+            "too small",
+            "too low",
+            "bigger",
+            "larger",
+            "about"
+          ],
+          "modelo": "Rounding gives 1000 + 800 − 200 + 600 = 2200. The answer should be about 2200, so 1291 is far too small.",
+          "explicacion": "An estimate is a quick way to check an answer."
+        }
+      ]
+    },
+    {
+      "id": "2d-shapes",
+      "titulo": "Unit 2 · Properties of two-dimensional shapes",
+      "resumen": [
+        "## Polygons",
+        "A **polygon** is any closed 2D shape made of straight lines. Triangles and quadrilaterals are polygons.",
+        "A **regular polygon** has all sides the same length and all interior angles equal (e.g. a square, an equilateral triangle).",
+        "- 5 sides: **pentagon** · 6 sides: **hexagon** · 8 sides: **octagon**",
+        "",
+        "## Quadrilaterals",
+        "- **Square**: all sides equal, all angles 90°, both pairs of opposite sides parallel, diagonals equal and cross at right angles.",
+        "- **Rectangle**: opposite sides equal, all angles 90°, diagonals equal (but they do **not** cross at right angles).",
+        "- **Parallelogram**: opposite sides equal and parallel; no right angles; diagonals not equal.",
+        "- **Rhombus**: all four sides equal, opposite sides parallel, diagonals cross at right angles.",
+        "- **Kite**: two pairs of equal adjacent sides, **no** parallel sides, diagonals cross at right angles.",
+        "- **Trapezium**: only **one** pair of parallel sides.",
+        "",
+        "## Congruent shapes",
+        "**Congruent** shapes are identical: corresponding sides and angles are equal.",
+        "- Two congruent isosceles right-angled triangles can make a **square**, a **parallelogram** or a bigger triangle.",
+        "- Two congruent equilateral triangles make a **rhombus**.",
+        "",
+        "## Symmetry",
+        "A regular polygon with *n* sides has **n lines of symmetry** and **rotational symmetry of order n**. An equilateral triangle has 3 lines of symmetry and rotational symmetry of order 3.",
+        "",
+        "## Parts of a circle",
+        "- **Centre**; **circumference** (the perimeter of a circle).",
+        "- **Radius** (plural **radii**): centre to circumference. **Diameter**: a chord through the centre = 2 × radius.",
+        "- **Chord**: a straight line joining two points on the circumference.",
+        "- **Arc**: part of the circumference.",
+        "- **Sector**: area between two radii and an arc. **Segment**: area between an arc and a chord.",
+        "- **Tangent**: a straight line that touches the circle at one point. The angle between a radius and a tangent is **90°**."
+      ],
+      "notas": [
+        {
+          "seccion": "Polygons",
+          "tarjetas": [
+            {
+              "etiqueta": "🔷 Polygon",
+              "titulo": "Closed, straight sides",
+              "puntos": [
+                "Any closed 2D shape made of **straight lines**",
+                "Triangles and quadrilaterals are polygons"
+              ]
+            },
+            {
+              "etiqueta": "⭐ Regular",
+              "titulo": "All equal",
+              "puntos": [
+                "All **sides** equal",
+                "All **angles** equal",
+                "e.g. square, equilateral triangle"
+              ]
+            },
+            {
+              "etiqueta": "🔢 Names",
+              "titulo": "Count the sides",
+              "puntos": [
+                "5 → **pentagon**",
+                "6 → **hexagon**",
+                "8 → **octagon**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Quadrilaterals",
+          "tarjetas": [
+            {
+              "etiqueta": "⬛ Square",
+              "titulo": "Has everything",
+              "puntos": [
+                "All sides equal, all angles 90°",
+                "2 pairs of parallel sides",
+                "Diagonals **equal** and at **right angles**"
+              ]
+            },
+            {
+              "etiqueta": "▭ Rectangle",
+              "titulo": "Right angles",
+              "puntos": [
+                "Opposite sides equal, all angles 90°",
+                "Diagonals **equal**",
+                "Diagonals **not** at right angles"
+              ]
+            },
+            {
+              "etiqueta": "▱ Parallelogram",
+              "titulo": "Pushed-over rectangle",
+              "puntos": [
+                "Opposite sides equal and **parallel**",
+                "No right angles",
+                "Diagonals not equal"
+              ]
+            },
+            {
+              "etiqueta": "◆ Rhombus",
+              "titulo": "Pushed-over square",
+              "puntos": [
+                "**All 4 sides** equal",
+                "Opposite sides parallel",
+                "Diagonals at **right angles**"
+              ]
+            },
+            {
+              "etiqueta": "🪁 Kite",
+              "titulo": "Two pairs of adjacent sides",
+              "puntos": [
+                "**No** parallel sides",
+                "Diagonals at **right angles**"
+              ]
+            },
+            {
+              "etiqueta": "⏢ Trapezium",
+              "titulo": "One pair",
+              "puntos": [
+                "Only **one** pair of parallel sides"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Congruence & symmetry",
+          "tarjetas": [
+            {
+              "etiqueta": "🟰 Congruent",
+              "titulo": "Identical shapes",
+              "puntos": [
+                "Same shape and size",
+                "Corresponding sides and angles **equal**",
+                "2 equilateral triangles → **rhombus**",
+                "2 isosceles right-angled triangles → **square** or **parallelogram**"
+              ]
+            },
+            {
+              "etiqueta": "🔄 Symmetry",
+              "titulo": "Regular polygon with n sides",
+              "puntos": [
+                "**n** lines of symmetry",
+                "Rotational symmetry of **order n**",
+                "Equilateral triangle: 3 and 3 · Square: 4 and 4"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Parts of a circle",
+          "chips": {
+            "titulo": "Learn these words",
+            "items": [
+              "**Centre**",
+              "**Circumference** = perimeter",
+              "**Radius** (plural radii): centre → edge",
+              "**Diameter** = 2 × radius, through the centre",
+              "**Chord**: joins 2 points on the edge",
+              "**Arc**: part of the circumference",
+              "**Sector**: 2 radii + arc",
+              "**Segment**: arc + chord",
+              "**Tangent**: touches at 1 point",
+              "Radius ⟂ tangent = **90°**"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is a polygon?",
+          "r": "A closed 2D shape made of straight lines"
+        },
+        {
+          "p": "What makes a polygon regular?",
+          "r": "All sides equal and all interior angles equal"
+        },
+        {
+          "p": "How many sides does an octagon have?",
+          "r": "8"
+        },
+        {
+          "p": "Which quadrilateral has only one pair of parallel sides?",
+          "r": "Trapezium"
+        },
+        {
+          "p": "Which quadrilaterals have diagonals that cross at right angles?",
+          "r": "Square, rhombus and kite"
+        },
+        {
+          "p": "What does congruent mean?",
+          "r": "Identical: same shape and size, corresponding sides and angles equal"
+        },
+        {
+          "p": "Lines of symmetry and rotational order of a regular hexagon?",
+          "r": "6 lines of symmetry, order 6"
+        },
+        {
+          "p": "Circumference",
+          "r": "The perimeter of a circle"
+        },
+        {
+          "p": "Chord",
+          "r": "A straight line joining two points on the circumference"
+        },
+        {
+          "p": "Sector",
+          "r": "The area enclosed by two radii and an arc"
+        },
+        {
+          "p": "Segment",
+          "r": "The area enclosed by an arc and a chord"
+        },
+        {
+          "p": "Tangent",
+          "r": "A straight line that touches the circumference at one point"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a polygon?",
+          "opciones": [
+            "A closed 2D shape made of straight lines",
+            "Any shape with curved sides",
+            "A 3D shape with flat faces",
+            "A shape with exactly four sides"
+          ],
+          "correcta": 0,
+          "explicacion": "Triangles and quadrilaterals are both polygons."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A polygon is regular when…",
+          "opciones": [
+            "all its sides and all its angles are equal",
+            "it has an even number of sides",
+            "it has at least one right angle",
+            "its sides are parallel"
+          ],
+          "correcta": 0,
+          "explicacion": "A square and an equilateral triangle are regular polygons."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many sides does a hexagon have?",
+          "opciones": [
+            "6",
+            "5",
+            "7",
+            "8"
+          ],
+          "correcta": 0,
+          "explicacion": "'Hex' means 6."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which quadrilateral has diagonals that cross at right angles but NO parallel sides?",
+          "opciones": [
+            "Kite",
+            "Rhombus",
+            "Rectangle",
+            "Parallelogram"
+          ],
+          "correcta": 0,
+          "explicacion": "A rhombus also has perpendicular diagonals, but its opposite sides are parallel."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The diagonals of a rectangle cross at right angles.",
+          "correcta": false,
+          "explicacion": "A rectangle's diagonals are equal in length but do not cross at right angles (unless it is a square)."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A rhombus has four sides of equal length.",
+          "correcta": true,
+          "explicacion": "A rhombus is like a 'pushed over' square."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which quadrilateral has exactly one pair of parallel sides?",
+          "opciones": [
+            "Trapezium",
+            "Parallelogram",
+            "Rhombus",
+            "Square"
+          ],
+          "correcta": 0,
+          "explicacion": "The others all have two pairs of parallel sides."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A parallelogram has both pairs of opposite sides parallel.",
+          "correcta": true,
+          "explicacion": "That is where its name comes from."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many lines of symmetry does a regular pentagon have?",
+          "opciones": [
+            "5",
+            "1",
+            "2",
+            "10"
+          ],
+          "correcta": 0,
+          "explicacion": "A regular polygon with n sides has n lines of symmetry."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the order of rotational symmetry of a square?",
+          "opciones": [
+            "4",
+            "1",
+            "2",
+            "8"
+          ],
+          "correcta": 0,
+          "explicacion": "It looks the same 4 times in a full turn."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "If two shapes are congruent, their corresponding sides and angles are equal.",
+          "correcta": true,
+          "explicacion": "Congruent shapes are identical in shape and size."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Two congruent equilateral triangles are joined so one side of each fully touches. Which quadrilateral do they make?",
+          "opciones": [
+            "Rhombus",
+            "Square",
+            "Rectangle",
+            "Trapezium"
+          ],
+          "correcta": 0,
+          "explicacion": "All four outside sides are equal, but the angles are 60° and 120°."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A regular hexagon and an equilateral triangle are drawn inside a circle, sharing three vertices. How many lines of symmetry does the pattern have?",
+          "opciones": [
+            "3",
+            "1",
+            "6",
+            "9"
+          ],
+          "correcta": 0,
+          "explicacion": "The triangle only keeps 3 of the hexagon's 6 lines of symmetry."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A chord that passes through the centre of a circle is called a…",
+          "opciones": [
+            "diameter",
+            "radius",
+            "tangent",
+            "segment"
+          ],
+          "correcta": 0,
+          "explicacion": "The diameter is the longest chord: 2 × the radius."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "The area enclosed by two radii and an arc is called a…",
+          "opciones": [
+            "sector",
+            "segment",
+            "chord",
+            "tangent"
+          ],
+          "correcta": 0,
+          "explicacion": "A segment is between an arc and a chord."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the angle between a radius and a tangent at the point where they meet?",
+          "opciones": [
+            "90°",
+            "45°",
+            "180°",
+            "60°"
+          ],
+          "correcta": 0,
+          "explicacion": "A tangent is always at right angles to the radius."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the perimeter of a circle called?",
+          "opciones": [
+            "Circumference",
+            "Diameter",
+            "Arc",
+            "Area"
+          ],
+          "correcta": 0,
+          "explicacion": "An arc is only part of the circumference."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What is the plural of the word 'radius'?",
+          "claves": [
+            "radii"
+          ],
+          "modelo": "Radii",
+          "explicacion": "One radius, two radii."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write a sentence linking the words 'diameter' and 'chord'.",
+          "pista": "Where does a diameter go?",
+          "claves": [
+            "centre",
+            "center",
+            "middle",
+            "longest"
+          ],
+          "modelo": "A diameter is a chord that passes through the centre of the circle (it is the longest chord).",
+          "explicacion": "Every diameter is a chord, but not every chord is a diameter."
+        }
+      ]
+    },
+    {
+      "id": "data-collection",
+      "titulo": "Unit 3 · Data collection and sampling",
+      "resumen": [
+        "## Types of data",
+        "- **Quantitative data** can be measured with numbers. It is either discrete or continuous.",
+        "- **Discrete data** can only take specific values, e.g. the number of students in a class (30 is possible, 30.2 is not).",
+        "- **Continuous data** can take any value in a range, e.g. time, mass, height, temperature. It is only as accurate as the measurement: 10.228 s is to three **decimal places**.",
+        "- **Categorical data** is put into groups (categories), e.g. hair colour, type of transport, football team.",
+        "",
+        "## Population and samples",
+        "- The **population** is everybody the survey is about (e.g. everyone in your school), not the whole country.",
+        "- Asking everyone can be too time-consuming or expensive, so we ask a **sample**.",
+        "- The **sample size** is the number of people asked.",
+        "- A sample should be **representative**: its results should be similar to the results of the whole population.",
+        "- Ways to choose: every 10th person on a list, or a **random number generator** (fair: everyone has the same chance).",
+        "- A sample is not representative if it only includes one group (e.g. one class out of a whole school) or if the sample is too small (20 out of 1500).",
+        "- If groups have different sizes, take the sample **in proportion** to their sizes.",
+        "",
+        "## Interviews and questionnaires",
+        "**Interview** – advantages: detailed answers, the interviewer can clarify misunderstandings, higher response rate. Disadvantages: needs a skilled interviewer, time-consuming and expensive, smaller sample size.",
+        "",
+        "**Questionnaire** – advantages: can reach a lot of people, cheap, quick, easy to analyse, good for sensitive topics. Disadvantages: not suitable for complex questions, impersonal, some people don't return it, questions may be misunderstood or ignored, answers may be biased.",
+        "",
+        "Good questions are clear, ask one thing at a time and have answer boxes that are easy to analyse."
+      ],
+      "notas": [
+        {
+          "seccion": "Types of data",
+          "tarjetas": [
+            {
+              "etiqueta": "🔢 Discrete",
+              "titulo": "Specific values",
+              "puntos": [
+                "Counted, often whole numbers",
+                "Number of people, pages, shoe size",
+                "30 students ✔ · 30.2 ✘"
+              ]
+            },
+            {
+              "etiqueta": "📏 Continuous",
+              "titulo": "Any value in a range",
+              "puntos": [
+                "Measured",
+                "Time, mass, height, temperature, speed",
+                "10.228 s = **3 decimal places**"
+              ]
+            },
+            {
+              "etiqueta": "🏷️ Categorical",
+              "titulo": "Groups",
+              "puntos": [
+                "Not numbers",
+                "Hair colour, transport, gender, football team"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Sampling",
+          "tarjetas": [
+            {
+              "etiqueta": "👥 Population",
+              "titulo": "Everyone it's about",
+              "puntos": [
+                "Could be your school or your class",
+                "Not the whole country!"
+              ]
+            },
+            {
+              "etiqueta": "🎯 Sample",
+              "titulo": "Some of the population",
+              "puntos": [
+                "**Sample size** = how many are asked",
+                "Must be **representative**: similar results to the whole population",
+                "Asking everyone is too slow or expensive"
+              ]
+            },
+            {
+              "etiqueta": "🎲 Fair choice",
+              "titulo": "Random is best",
+              "puntos": [
+                "Random number generator",
+                "Every 10th person on a list",
+                "In **proportion** to group sizes"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Not representative",
+              "titulo": "Watch out for…",
+              "puntos": [
+                "Only one class or group",
+                "Sample too small (20 out of 1500)",
+                "Same number from groups of different sizes"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Interviews vs questionnaires",
+          "tarjetas": [
+            {
+              "etiqueta": "🎤 Interview",
+              "titulo": "Asking face to face",
+              "puntos": [
+                "✔ Detailed answers",
+                "✔ Can clarify misunderstandings",
+                "✔ Higher response rate",
+                "✘ Needs a skilled interviewer",
+                "✘ Time-consuming and expensive",
+                "✘ Smaller sample"
+              ]
+            },
+            {
+              "etiqueta": "📝 Questionnaire",
+              "titulo": "Printed questions",
+              "puntos": [
+                "✔ Many people, cheap, quick",
+                "✔ Easy to analyse",
+                "✔ Good for sensitive topics",
+                "✘ Not for complex questions",
+                "✘ Some aren't returned",
+                "✘ Questions may be misunderstood"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Discrete data",
+          "r": "Data that can only take specific values (e.g. number of people)"
+        },
+        {
+          "p": "Continuous data",
+          "r": "Data that can take any value in a range (e.g. time, height, mass)"
+        },
+        {
+          "p": "Categorical data",
+          "r": "Data put into groups (e.g. hair colour, type of transport)"
+        },
+        {
+          "p": "Quantitative data",
+          "r": "Data that can be measured with numbers (discrete or continuous)"
+        },
+        {
+          "p": "Population",
+          "r": "Everybody the data collection is about"
+        },
+        {
+          "p": "Sample size",
+          "r": "The number of people in the population who are asked"
+        },
+        {
+          "p": "Representative sample",
+          "r": "A sample whose results are similar to those of the whole population"
+        },
+        {
+          "p": "One advantage of interviews",
+          "r": "Detailed answers / interviewer can clarify / higher response rate"
+        },
+        {
+          "p": "One advantage of questionnaires",
+          "r": "Cheap, quick, reach many people, easy to analyse"
+        },
+        {
+          "p": "One disadvantage of questionnaires",
+          "r": "People may not return them or may misunderstand questions"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "The mass of a baby (kg) is which type of data?",
+          "opciones": [
+            "Continuous",
+            "Discrete",
+            "Categorical",
+            "None of these"
+          ],
+          "correcta": 0,
+          "explicacion": "Mass can take any value in a range."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "The number of people attending a concert is which type of data?",
+          "opciones": [
+            "Discrete",
+            "Continuous",
+            "Categorical",
+            "None of these"
+          ],
+          "correcta": 0,
+          "explicacion": "You can only have whole numbers of people."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "The type of transport students use to get to school is which type of data?",
+          "opciones": [
+            "Categorical",
+            "Discrete",
+            "Continuous",
+            "None of these"
+          ],
+          "correcta": 0,
+          "explicacion": "Bus, car, walk… are groups, not numbers."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "The shoe size of students in your class is which type of data?",
+          "opciones": [
+            "Discrete",
+            "Continuous",
+            "Categorical",
+            "None of these"
+          ],
+          "correcta": 0,
+          "explicacion": "Shoe sizes only come in specific values."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "The temperature at midday (°C) is which type of data?",
+          "opciones": [
+            "Continuous",
+            "Discrete",
+            "Categorical",
+            "None of these"
+          ],
+          "correcta": 0,
+          "explicacion": "Temperature can take any value."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The height of students in a class (cm) is discrete data.",
+          "correcta": false,
+          "explicacion": "Height is measured, so it is continuous."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The number of pages in a book is discrete data.",
+          "correcta": true,
+          "explicacion": "Pages are counted in whole numbers."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is categorical data?",
+          "opciones": [
+            "Data put into groups",
+            "Data that can take any value",
+            "Data with only whole numbers",
+            "Data from a questionnaire"
+          ],
+          "correcta": 0,
+          "explicacion": "Examples: hair colour, football team supported."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A sprinter's time is 10.228 seconds. How many decimal places is this to?",
+          "opciones": [
+            "3",
+            "2",
+            "4",
+            "5"
+          ],
+          "correcta": 0,
+          "explicacion": "There are three digits after the decimal point."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a representative sample?",
+          "opciones": [
+            "A sample whose results are similar to the whole population",
+            "A sample of the first 10 people on a list",
+            "A sample of everyone in the country",
+            "The biggest sample possible"
+          ],
+          "correcta": 0,
+          "explicacion": "That is the aim when you don't ask the whole population."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why do we often ask a sample instead of the whole population?",
+          "opciones": [
+            "Asking everyone is too time-consuming or expensive",
+            "Samples always give exact answers",
+            "The population is always very small",
+            "It is the law"
+          ],
+          "correcta": 0,
+          "explicacion": "A representative sample gives similar results for much less effort."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A school has 1500 students. A teacher asks only the students in his next class which clubs they want. Why is this not representative?",
+          "opciones": [
+            "It only includes one class, so other ages and groups are left out",
+            "The class is too big",
+            "Clubs are categorical data",
+            "He should use an interview"
+          ],
+          "correcta": 0,
+          "explicacion": "The sample is small and from just one group of the school."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is the fairest way to pick a sample from a class list?",
+          "opciones": [
+            "Use a random number generator",
+            "Choose the first 10 names",
+            "Choose your friends",
+            "Choose whoever volunteers"
+          ],
+          "correcta": 0,
+          "explicacion": "Random selection gives everyone the same chance."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "An athletics club has 100 members: 20 male under 14, 60 female under 14, 5 male over 14 and 15 female over 14. In a representative sample of 20, how many should be female under 14?",
+          "opciones": [
+            "12",
+            "5",
+            "15",
+            "60"
+          ],
+          "correcta": 0,
+          "explicacion": "20 is 1/5 of 100, so take 1/5 of each group: 60 ÷ 5 = 12."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Interviews usually produce a higher response rate than questionnaires.",
+          "correcta": true,
+          "explicacion": "The interviewer is there to get the answers."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is an advantage of a questionnaire?",
+          "opciones": [
+            "It is relatively cheap and quick",
+            "Detailed answers can be given",
+            "The interviewer can clarify misunderstandings",
+            "It is good for complex questions"
+          ],
+          "correcta": 0,
+          "explicacion": "The other three are advantages of interviews (or a disadvantage of questionnaires)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A questionnaire is given to 20 students in a school of 1500. What is the main criticism?",
+          "opciones": [
+            "The sample is too small to be representative",
+            "The sample is too big",
+            "Questionnaires can't be used in schools",
+            "It should only use categorical data"
+          ],
+          "correcta": 0,
+          "explicacion": "20 out of 1500 is far too few to represent the school."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give one disadvantage of using interviews to collect data.",
+          "claves": [
+            "time",
+            "expensive",
+            "cost",
+            "skilled",
+            "small",
+            "fewer",
+            "bias"
+          ],
+          "modelo": "Interviews are time-consuming and expensive, need a skilled interviewer, and usually have a smaller sample size.",
+          "explicacion": "Any one of these is correct."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name the three types of data in this unit.",
+          "claves": [
+            "discrete",
+            "continuous",
+            "categorical"
+          ],
+          "minimo": 3,
+          "modelo": "Discrete, continuous and categorical.",
+          "explicacion": "Discrete and continuous are both quantitative."
+        }
+      ]
+    },
+    {
+      "id": "area-of-a-triangle",
+      "titulo": "Unit 4 · Area of a triangle",
+      "resumen": [
+        "## The formula",
+        "A triangle is **half of a rectangle** drawn around it, so:",
+        "**Area of a triangle = ½ × base length × perpendicular height**",
+        "- The **perpendicular height** is measured at **right angles** to the base.",
+        "- Any side can be the base, as long as the height is measured at right angles to it.",
+        "- You don't need the sloping sides: a triangle with base 8 cm, height 3 cm and a side of 4 cm has area ½ × 8 × 3 = **12 cm²**.",
+        "- Area is measured in square units, e.g. **cm²**.",
+        "",
+        "## Working backwards",
+        "If you know the area, you can find a missing length: base = 2 × area ÷ height.",
+        "Example: area 100 cm² and base 20 cm → height = 200 ÷ 20 = **10 cm**.",
+        "",
+        "## Triangles with the same base and height",
+        "Triangles on the same base between two parallel lines all have the same height, so they all have the **same area**.",
+        "",
+        "## Compound shapes",
+        "A **compound shape** is made from two or more simpler shapes. Split it up, find each area and add them.",
+        "Example: a rectangle 8 cm × 3 cm plus a triangle with base 3 cm and height 12 − 8 = 4 cm → 24 + 6 = **30 cm²**."
+      ],
+      "notas": [
+        {
+          "seccion": "The formula",
+          "tarjetas": [
+            {
+              "etiqueta": "📐 Formula",
+              "titulo": "Area = ½ × base × height",
+              "puntos": [
+                "A triangle is **half** of the rectangle around it",
+                "Answer in **cm²** (square units)"
+              ]
+            },
+            {
+              "etiqueta": "⟂ Height",
+              "titulo": "Perpendicular height",
+              "puntos": [
+                "Measured at **right angles** to the base",
+                "Any side can be the base",
+                "Ignore the sloping sides"
+              ]
+            },
+            {
+              "etiqueta": "✏️ Example",
+              "titulo": "Base 8 cm, height 3 cm",
+              "puntos": [
+                "½ × 8 × 3 = **12 cm²**",
+                "The 4 cm side is **not** needed"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Working backwards",
+          "tarjetas": [
+            {
+              "etiqueta": "🔙 Missing length",
+              "titulo": "Base or height",
+              "puntos": [
+                "Base = 2 × area ÷ height",
+                "Area 100, base 20 → height **10 cm**",
+                "Area 55, height 11 → base **10 cm**"
+              ]
+            },
+            {
+              "etiqueta": "∥ Same base",
+              "titulo": "Between parallel lines",
+              "puntos": [
+                "Same base + same height",
+                "→ **same area**, whatever the shape"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Compound shapes",
+          "tarjetas": [
+            {
+              "etiqueta": "🧩 Split it",
+              "titulo": "Simpler shapes",
+              "puntos": [
+                "Split into rectangles and triangles",
+                "Find each area",
+                "**Add** them together"
+              ]
+            },
+            {
+              "etiqueta": "✏️ Example",
+              "titulo": "Rectangle + triangle",
+              "puntos": [
+                "Rectangle 8 × 3 = 24 cm²",
+                "Triangle ½ × 3 × 4 = 6 cm²",
+                "Total **30 cm²**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Formula for the area of a triangle",
+          "r": "½ × base × perpendicular height"
+        },
+        {
+          "p": "What is the perpendicular height?",
+          "r": "The height measured at right angles to the base"
+        },
+        {
+          "p": "Why is a triangle's area half of base × height?",
+          "r": "The triangle is half of the rectangle drawn around it"
+        },
+        {
+          "p": "Units of area",
+          "r": "Square units, e.g. cm² or m²"
+        },
+        {
+          "p": "What is a compound shape?",
+          "r": "A shape made from two or more simpler shapes"
+        },
+        {
+          "p": "How do you find the area of a compound shape?",
+          "r": "Split it into simple shapes, find each area and add them"
+        },
+        {
+          "p": "How do you find the base if you know the area and height?",
+          "r": "Base = 2 × area ÷ height"
+        },
+        {
+          "p": "Triangles on the same base between parallel lines…",
+          "r": "…have the same height, so the same area"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the formula for the area of a triangle?",
+          "opciones": [
+            "½ × base × perpendicular height",
+            "base × height",
+            "base + height",
+            "2 × base × height"
+          ],
+          "correcta": 0,
+          "explicacion": "A triangle is half of the rectangle around it."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A right-angled triangle has a base of 4 cm and a height of 3 cm. What is its area?",
+          "opciones": [
+            "6 cm²",
+            "12 cm²",
+            "7 cm²",
+            "3.5 cm²"
+          ],
+          "correcta": 0,
+          "explicacion": "½ × 4 × 3 = 6 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A triangle has a base of 8 cm, a perpendicular height of 5 cm and a sloping side of 8 cm. What is its area?",
+          "opciones": [
+            "20 cm²",
+            "40 cm²",
+            "32 cm²",
+            "26 cm²"
+          ],
+          "correcta": 0,
+          "explicacion": "½ × 8 × 5 = 20 cm². The sloping side is not needed."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A triangle has a base of 11 cm and a perpendicular height of 10 cm. What is its area?",
+          "opciones": [
+            "55 cm²",
+            "110 cm²",
+            "21 cm²",
+            "60 cm²"
+          ],
+          "correcta": 0,
+          "explicacion": "½ × 11 × 10 = 55 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A triangle has a base of 7.2 cm and a perpendicular height of 4.8 cm. What is its area?",
+          "opciones": [
+            "17.28 cm²",
+            "34.56 cm²",
+            "12 cm²",
+            "6 cm²"
+          ],
+          "correcta": 0,
+          "explicacion": "7.2 × 4.8 = 34.56, and half of that is 17.28 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A triangle has an area of 100 cm² and a base of 20 cm. What is its perpendicular height?",
+          "opciones": [
+            "10 cm",
+            "5 cm",
+            "20 cm",
+            "80 cm"
+          ],
+          "correcta": 0,
+          "explicacion": "Height = 2 × 100 ÷ 20 = 10 cm."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A triangle has an area of 15 cm² and a perpendicular height of 15 cm. What is its base?",
+          "opciones": [
+            "2 cm",
+            "1 cm",
+            "15 cm",
+            "30 cm"
+          ],
+          "correcta": 0,
+          "explicacion": "Base = 2 × 15 ÷ 15 = 2 cm."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A triangle has an area of 55 cm² and a perpendicular height of 11 cm. What is its base?",
+          "opciones": [
+            "10 cm",
+            "5 cm",
+            "44 cm",
+            "22 cm"
+          ],
+          "correcta": 0,
+          "explicacion": "Base = 2 × 55 ÷ 11 = 10 cm."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The height of a triangle is always measured at right angles to the base.",
+          "correcta": true,
+          "explicacion": "This is called the perpendicular height."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Three triangles share the same base and lie between the same two parallel lines. The tallest-looking one has the biggest area.",
+          "correcta": false,
+          "explicacion": "They all have the same base and the same perpendicular height, so they all have the same area."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A shape is a rectangle 15 cm wide and 4 cm tall with a triangle on top. The total height of the shape is 8 cm. What is its area?",
+          "opciones": [
+            "90 cm²",
+            "120 cm²",
+            "60 cm²",
+            "80 cm²"
+          ],
+          "correcta": 0,
+          "explicacion": "Rectangle: 15 × 4 = 60. Triangle: ½ × 15 × 4 = 30. Total 90 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A kite has diagonals of 30 cm and 20 cm that cross at right angles. What is its area?",
+          "opciones": [
+            "300 cm²",
+            "600 cm²",
+            "150 cm²",
+            "50 cm²"
+          ],
+          "correcta": 0,
+          "explicacion": "Split it into two triangles with base 30 cm and height 10 cm: 2 × 150 = 300 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A shape is made of a rectangle 22 cm × 4 cm with a triangle on each end. Each triangle has a base of 4 cm and a height of 4 cm. What is the total area?",
+          "opciones": [
+            "104 cm²",
+            "88 cm²",
+            "96 cm²",
+            "120 cm²"
+          ],
+          "correcta": 0,
+          "explicacion": "Rectangle 88 + two triangles of 8 = 104 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "The first Sierpinski triangle has an area of 64 cm². In the next pattern, the middle quarter is cut out (white). What is the area of the black triangles?",
+          "opciones": [
+            "48 cm²",
+            "32 cm²",
+            "16 cm²",
+            "56 cm²"
+          ],
+          "correcta": 0,
+          "explicacion": "3 of the 4 small triangles stay black: ¾ × 64 = 48 cm²."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Two identical right-angled triangles (legs x cm and 8 cm) are placed inside a square of side 8 cm. Half of the square is not covered. Find x.",
+          "pista": "Square area = 64 cm². What area do the two triangles cover?",
+          "claves": [
+            "4"
+          ],
+          "modelo": "x = 4 cm. The triangles cover 32 cm², so each is 16 cm²: ½ × x × 8 = 16, so x = 4.",
+          "explicacion": "Work backwards from the area."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write the formula for the area of a triangle.",
+          "claves": [
+            "base",
+            "height"
+          ],
+          "minimo": 2,
+          "modelo": "Area = ½ × base × perpendicular height",
+          "explicacion": "Remember the ½!"
+        }
+      ]
+    },
+    {
+      "id": "order-of-operations",
+      "titulo": "Unit 5 · Order of operations",
+      "resumen": [
+        "When a calculation has more than one operation, you must do them in the right order:",
+        "- **B**rackets first",
+        "- **I**ndices (powers) next, e.g. 8² = 64",
+        "- **D**ivision and **M**ultiplication",
+        "- **A**ddition and **S**ubtraction last",
+        "This is often remembered as **BIDMAS**.",
+        "",
+        "## Worked examples",
+        "- 25 − (2 + 3) × 4 = 25 − 5 × 4 = 25 − 20 = **5**",
+        "- 22 + (3 + 5)² × 2 = 22 + 8² × 2 = 22 + 64 × 2 = 22 + 128 = **150**",
+        "- 3 × 2² = 3 × 4 = **12** (not 36: the power is done before multiplying)",
+        "",
+        "## Brackets change the answer",
+        "- (3 + 2) × 5 + 4 = **29**, but 3 + 2 × (5 + 4) = **21**",
+        "- Brackets are sometimes not needed: in 8 + (2 × 6) the multiplication would be done first anyway."
+      ],
+      "notas": [
+        {
+          "seccion": "BIDMAS",
+          "chips": {
+            "titulo": "Do the operations in this order",
+            "items": [
+              "1️⃣ **B**rackets",
+              "2️⃣ **I**ndices (powers)",
+              "3️⃣ **D**ivision & **M**ultiplication",
+              "4️⃣ **A**ddition & **S**ubtraction"
+            ]
+          }
+        },
+        {
+          "seccion": "Worked examples",
+          "tarjetas": [
+            {
+              "etiqueta": "( ) Brackets first",
+              "titulo": "25 − (2 + 3) × 4",
+              "puntos": [
+                "= 25 − 5 × 4",
+                "= 25 − 20",
+                "= **5**"
+              ]
+            },
+            {
+              "etiqueta": "² Then powers",
+              "titulo": "22 + (3 + 5)² × 2",
+              "puntos": [
+                "= 22 + 8² × 2",
+                "= 22 + 64 × 2",
+                "= 22 + 128 = **150**"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Common mistake",
+              "titulo": "3 × 2²",
+              "puntos": [
+                "Power first: 3 × 4 = **12** ✔",
+                "Not (3 × 2)² = 36 ✘"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Brackets change the answer",
+          "tarjetas": [
+            {
+              "etiqueta": "🔀 Same numbers",
+              "titulo": "3 + 2 × 5 + 4",
+              "puntos": [
+                "No brackets: 3 + 10 + 4 = **17**",
+                "(3 + 2) × 5 + 4 = **29**",
+                "3 + 2 × (5 + 4) = **21**"
+              ]
+            },
+            {
+              "etiqueta": "🤔 Needed?",
+              "titulo": "Only if they change the order",
+              "puntos": [
+                "8 + (2 × 6): **not needed**",
+                "(3 + 2)² − 6 = 19: **needed**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What does BIDMAS stand for?",
+          "r": "Brackets, Indices, Division, Multiplication, Addition, Subtraction"
+        },
+        {
+          "p": "What do you do first in a calculation?",
+          "r": "Brackets"
+        },
+        {
+          "p": "Indices means…",
+          "r": "Powers, e.g. 4² = 16"
+        },
+        {
+          "p": "3 × 2² = ?",
+          "r": "12 (power first: 3 × 4)"
+        },
+        {
+          "p": "25 − (2 + 3) × 4 = ?",
+          "r": "5"
+        },
+        {
+          "p": "Are the brackets needed in 8 + (2 × 6)?",
+          "r": "No – multiplication is done before addition anyway"
+        },
+        {
+          "p": "4 + 3 × 2 − 1 = ?",
+          "r": "9"
+        },
+        {
+          "p": "(4 + 4)² ÷ (8 − 4) = ?",
+          "r": "16"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out 4 + 3 × 2 − 1.",
+          "opciones": [
+            "9",
+            "13",
+            "11",
+            "7"
+          ],
+          "correcta": 0,
+          "explicacion": "3 × 2 = 6 first, then 4 + 6 − 1 = 9."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out 6 × 2 + 4 × 3.",
+          "opciones": [
+            "24",
+            "48",
+            "60",
+            "36"
+          ],
+          "correcta": 0,
+          "explicacion": "12 + 12 = 24."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out 3 × 5 − 2 − 7.",
+          "opciones": [
+            "6",
+            "20",
+            "−6",
+            "16"
+          ],
+          "correcta": 0,
+          "explicacion": "15 − 2 − 7 = 6."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out 8 + 4 × 8 − 40.",
+          "opciones": [
+            "0",
+            "56",
+            "−8",
+            "16"
+          ],
+          "correcta": 0,
+          "explicacion": "4 × 8 = 32, then 8 + 32 − 40 = 0."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out 6 − 2 × 3 × 4.",
+          "opciones": [
+            "−18",
+            "48",
+            "0",
+            "18"
+          ],
+          "correcta": 0,
+          "explicacion": "2 × 3 × 4 = 24, then 6 − 24 = −18."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out 7 × (4 + 2) − 3.",
+          "opciones": [
+            "39",
+            "28",
+            "35",
+            "45"
+          ],
+          "correcta": 0,
+          "explicacion": "Brackets: 6. Then 7 × 6 = 42, and 42 − 3 = 39."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out 8 + (6 + 3) ÷ 3.",
+          "opciones": [
+            "11",
+            "5.7",
+            "17",
+            "3"
+          ],
+          "correcta": 0,
+          "explicacion": "Brackets: 9. Then 9 ÷ 3 = 3, and 8 + 3 = 11."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out 16 ÷ (2 + 2)² + 8.",
+          "opciones": [
+            "9",
+            "12",
+            "0.5",
+            "24"
+          ],
+          "correcta": 0,
+          "explicacion": "Brackets: 4. Power: 16. Then 16 ÷ 16 = 1, and 1 + 8 = 9."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out 4 + 4 × 4 − 4.",
+          "opciones": [
+            "16",
+            "28",
+            "0",
+            "12"
+          ],
+          "correcta": 0,
+          "explicacion": "4 × 4 = 16, then 4 + 16 − 4 = 16."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out (4 + 4)² ÷ (8 − 4).",
+          "opciones": [
+            "16",
+            "4",
+            "64",
+            "32"
+          ],
+          "correcta": 0,
+          "explicacion": "8² = 64 and 8 − 4 = 4, so 64 ÷ 4 = 16."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Work out 22 + (3 + 5)² × 2.",
+          "opciones": [
+            "150",
+            "260",
+            "120",
+            "86"
+          ],
+          "correcta": 0,
+          "explicacion": "8² = 64, 64 × 2 = 128, 22 + 128 = 150."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Carla says 3 × 2² = 12. Ibrahim says it is 36. Who is right?",
+          "opciones": [
+            "Carla",
+            "Ibrahim",
+            "Both",
+            "Neither"
+          ],
+          "correcta": 0,
+          "explicacion": "Indices come before multiplication: 3 × 4 = 12. Ibrahim worked out (3 × 2)² by mistake."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where do the brackets go to make 3 + 2 × 5 + 4 = 29?",
+          "opciones": [
+            "(3 + 2) × 5 + 4",
+            "3 + 2 × (5 + 4)",
+            "3 + (2 × 5) + 4",
+            "(3 + 2 × 5) + 4"
+          ],
+          "correcta": 0,
+          "explicacion": "5 × 5 + 4 = 29."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where do the brackets go to make 3 + 2 × 5 + 4 = 21?",
+          "opciones": [
+            "3 + 2 × (5 + 4)",
+            "(3 + 2) × 5 + 4",
+            "(3 + 2) × (5 + 4)",
+            "3 + (2 × 5 + 4)"
+          ],
+          "correcta": 0,
+          "explicacion": "3 + 2 × 9 = 3 + 18 = 21."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which signs make 7 ☐ 6 ☐ 3 = 39?",
+          "opciones": [
+            "7 × 6 − 3",
+            "7 + 6 × 3",
+            "7 × (6 − 3)",
+            "7 + 6 + 3"
+          ],
+          "correcta": 0,
+          "explicacion": "42 − 3 = 39."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In 8 + (2 × 6) = 20, the brackets are necessary.",
+          "correcta": false,
+          "explicacion": "Multiplication is done before addition anyway: 8 + 12 = 20."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In (3 + 2)² − 6 = 19, the brackets are necessary.",
+          "correcta": true,
+          "explicacion": "Without them: 3 + 4 − 6 = 1, not 19."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What does BIDMAS stand for?",
+          "claves": [
+            "bracket",
+            "ind",
+            "div",
+            "mult",
+            "add",
+            "sub"
+          ],
+          "minimo": 5,
+          "modelo": "Brackets, Indices, Division, Multiplication, Addition, Subtraction.",
+          "explicacion": "Indices are powers, like ²."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Work out 25 − (2 + 3) × 4.",
+          "claves": [
+            "5"
+          ],
+          "modelo": "5  (brackets: 5; then 5 × 4 = 20; then 25 − 20 = 5)",
+          "explicacion": "Brackets, then multiplication, then subtraction."
+        }
+      ]
+    }
+  ]
+}

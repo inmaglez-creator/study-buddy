@@ -1,0 +1,917 @@
+'use strict';
+
+const app = document.getElementById('app');
+const selectorCurso = document.getElementById('selector-curso');
+const estado = { cursos: [], curso: null };
+
+// ---------- Utilidades ----------
+
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => (
+  { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+));
+
+function barajar(lista) {
+  const a = [...lista];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function leer(clave) {
+  try { return JSON.parse(localStorage.getItem(clave)); } catch { return null; }
+}
+
+function guardar(clave, valor) {
+  try { localStorage.setItem(clave, JSON.stringify(valor)); } catch { /* sin almacenamiento */ }
+}
+
+async function cargarJSON(ruta) {
+  const r = await fetch(ruta, { cache: 'no-cache' });
+  if (!r.ok) throw new Error(`Could not load ${ruta} (${r.status})`);
+  return r.json();
+}
+
+const inline = s => esc(s)
+  .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+  .replace(/\*(.+?)\*/g, '<em>$1</em>');
+
+// Markdown mínimo para los resúmenes: "## título", "- lista", "**negrita**", "*cursiva*".
+function markdown(texto) {
+  const lineas = (Array.isArray(texto) ? texto.join('\n') : String(texto ?? '')).split('\n');
+  let html = '';
+  let parrafo = [];
+  let enLista = false;
+  const cerrarParrafo = () => {
+    if (parrafo.length) html += `<p>${inline(parrafo.join(' '))}</p>`;
+    parrafo = [];
+  };
+  const cerrarLista = () => {
+    if (enLista) html += '</ul>';
+    enLista = false;
+  };
+  for (const bruta of lineas) {
+    const l = bruta.trim();
+    if (l.startsWith('## ')) {
+      cerrarParrafo(); cerrarLista();
+      html += `<h3>${inline(l.slice(3))}</h3>`;
+    } else if (/^[-•] /.test(l)) {
+      cerrarParrafo();
+      if (!enLista) { html += '<ul>'; enLista = true; }
+      html += `<li>${inline(l.slice(2))}</li>`;
+    } else if (!l) {
+      cerrarParrafo(); cerrarLista();
+    } else {
+      cerrarLista();
+      parrafo.push(l);
+    }
+  }
+  cerrarParrafo(); cerrarLista();
+  return html;
+}
+
+// ---------- Fechas ----------
+
+function hoy() {
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);
+  return d;
+}
+
+function fecha(iso) {
+  const [y, m, d] = iso.split('-').map(Number);
+  return new Date(y, m - 1, d);
+}
+
+const diasHasta = iso => Math.round((fecha(iso) - hoy()) / 86400000);
+const fmtFecha = iso => fecha(iso).toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
+
+// ---------- Datos ----------
+
+const asignatura = id => estado.curso.asignaturas.find(a => a.id === id);
+const tema = (a, id) => a?.temas.find(t => t.id === id);
+// El examen de fin de curso de cada asignatura no se apunta en curso.json:
+// junta todos los temas (y por tanto todo el banco de preguntas) de la asignatura.
+const PREFIJO_FINAL = 'final-';
+
+const examenFinal = a => ({
+  id: PREFIJO_FINAL + a.id,
+  asignatura: a.id,
+  titulo: `${a.nombre} — End-of-year exam`,
+  final: true,
+  temas: [],
+});
+
+function examen(id) {
+  const real = (estado.curso.examenes || []).find(e => e.id === id);
+  if (real) return real;
+  const a = id.startsWith(PREFIJO_FINAL) ? asignatura(id.slice(PREFIJO_FINAL.length)) : null;
+  return a ? examenFinal(a) : undefined;
+}
+
+const examenesOrdenados = () => [...(estado.curso.examenes || [])]
+  .filter(e => asignatura(e.asignatura))
+  .sort((x, y) => x.fecha.localeCompare(y.fecha));
+
+function temasDeExamen(e) {
+  const a = asignatura(e.asignatura);
+  if (!e.temas?.length) return a.temas;
+  return e.temas.map(id => tema(a, id)).filter(Boolean);
+}
+
+const tieneNotas = t => Boolean(t.notas?.length || t.resumen);
+
+const preguntasDe = (temas) => temas.flatMap(t => t.preguntas || []);
+
+const tarjetasDe = (a, temas) => temas.flatMap(t =>
+  (t.tarjetas || []).map(c => ({ ...c, asig: a.id, tema: t.id }))
+);
+
+async function cargarCursos() {
+  estado.cursos = (await cargarJSON('data/cursos.json')).cursos;
+  selectorCurso.innerHTML = estado.cursos
+    .map(c => `<option value="${esc(c.id)}">${esc(c.nombre)}</option>`).join('');
+}
+
+async function cambiarCurso(id) {
+  const curso = await cargarJSON(`data/${id}/curso.json`);
+  curso.asignaturas = await Promise.all(curso.asignaturas.map(async a => {
+    try {
+      const datos = await cargarJSON(`data/${id}/${a.id}.json`);
+      return { ...a, temas: datos.temas || [] };
+    } catch (e) {
+      console.warn(e);
+      return { ...a, temas: [] };
+    }
+  }));
+  estado.curso = curso;
+  selectorCurso.value = id;
+  guardar('cursoActivo', id);
+}
+
+// ---------- Progreso (se guarda en este dispositivo) ----------
+
+const claveProgreso = () => `progreso:${estado.curso.id}`;
+
+function progresoTema(asigId, temaId) {
+  const p = leer(claveProgreso()) || {};
+  return { leido: false, sabidas: [], mejorNota: null, ...(p[asigId]?.[temaId]) };
+}
+
+function actualizarTema(asigId, temaId, cambio) {
+  const p = leer(claveProgreso()) || {};
+  const t = { leido: false, sabidas: [], mejorNota: null, ...(p[asigId]?.[temaId]) };
+  cambio(t);
+  p[asigId] = { ...(p[asigId] || {}), [temaId]: t };
+  guardar(claveProgreso(), p);
+}
+
+function porcentajeTema(a, t) {
+  const p = progresoTema(a.id, t.id);
+  const partes = [];
+  if (tieneNotas(t)) partes.push(p.leido ? 1 : 0);
+  if (t.tarjetas?.length) partes.push(t.tarjetas.filter(c => p.sabidas.includes(c.p)).length / t.tarjetas.length);
+  if (t.preguntas?.length) partes.push((p.mejorNota ?? 0) / 100);
+  if (!partes.length) return 0;
+  return Math.round(partes.reduce((s, x) => s + x, 0) / partes.length * 100);
+}
+
+function porcentajeAsignatura(a) {
+  if (!a.temas.length) return 0;
+  return Math.round(a.temas.reduce((s, t) => s + porcentajeTema(a, t), 0) / a.temas.length);
+}
+
+// ---------- Piezas de interfaz ----------
+
+const barra = pct => `<div class="barra"><i style="width:${pct}%"></i></div>`;
+const volver = (href, texto) => `<a class="volver" href="${href}">← ${esc(texto)}</a>`;
+
+function cuenta(d) {
+  if (d < 0) return '<div class="cuenta"><b>✓</b><small>done</small></div>';
+  if (d === 0) return '<div class="cuenta hoy"><b>TODAY</b><small>good luck!</small></div>';
+  return `<div class="cuenta ${d <= 7 ? 'pronto' : ''}"><b>${d}</b><small>${d === 1 ? 'day' : 'days'}</small></div>`;
+}
+
+function tarjetaExamen(e) {
+  const a = asignatura(e.asignatura);
+  const temas = temasDeExamen(e);
+  const nPreguntas = preguntasDe(temas).length;
+  const hayTarjetas = tarjetasDe(a, temas).length > 0;
+  const hayNotas = temas.some(tieneNotas);
+  const activo = condicion => condicion ? '' : 'desactivado';
+  const base = `#/examenes/${esc(e.id)}`;
+  return `
+    <div class="tarjeta examen" style="--c:${esc(a.color)}">
+      <div class="fila">
+        <div class="crece">
+          <b>${e.final ? '🏆' : esc(a.icono)} ${esc(e.titulo || a.nombre)}</b>
+          <div class="suave pequeño">${esc(a.nombre)} · ${e.final ? (temas.length === 1 ? '1 topic' : `all ${temas.length} topics`) : fmtFecha(e.fecha)}</div>
+          ${e.temas?.length ? `<div class="pequeño">Topics: ${temas.map(t => esc(t.titulo)).join(', ')}</div>` : ''}
+          <div class="pequeño suave">${nPreguntas} ${nPreguntas === 1 ? 'question' : 'questions'} in the bank</div>
+        </div>
+        ${e.final ? '' : cuenta(diasHasta(e.fecha))}
+      </div>
+      <div class="acciones recursos">
+        <a class="boton principal ${activo(nPreguntas)}" href="${base}/test">▶ Practice online</a>
+        <a class="boton ${activo(nPreguntas)}" href="${base}/imprimir">🖨 Print PDF</a>
+        <a class="boton ${activo(hayNotas)}" href="${base}/notas">📖 Notes</a>
+        <a class="boton ${activo(hayTarjetas)}" href="${base}/tarjetas">🃏 Flashcards</a>
+      </div>
+    </div>`;
+}
+
+const finalesDisponibles = () => estado.curso.asignaturas.filter(a => preguntasDe(a.temas).length).map(examenFinal);
+
+// ---------- Vistas ----------
+
+function vistaInicio() {
+  const proximos = examenesOrdenados().filter(e => diasHasta(e.fecha) >= 0).slice(0, 3);
+  app.innerHTML = `
+    <h1>${esc(estado.curso.nombre)}</h1>
+    ${proximos.length ? `<h2>Upcoming exams</h2><div class="lista">${proximos.map(tarjetaExamen).join('')}</div>` : ''}
+    <h2>Subjects</h2>
+    <div class="rejilla">
+      ${estado.curso.asignaturas.map(a => {
+        const pct = porcentajeAsignatura(a);
+        const n = a.temas.length;
+        return `
+          <a class="tarjeta asignatura" style="--c:${esc(a.color)}" href="#/a/${esc(a.id)}">
+            <div class="icono">${esc(a.icono)}</div>
+            <div class="nombre">${esc(a.nombre)}</div>
+            <div class="suave pequeño">${n} ${n === 1 ? 'topic' : 'topics'}${n ? ` · ${pct}%` : ''}</div>
+            ${barra(pct)}
+          </a>`;
+      }).join('')}
+    </div>`;
+}
+
+function vistaExamenes() {
+  const todos = examenesOrdenados();
+  const proximos = todos.filter(e => diasHasta(e.fecha) >= 0);
+  const pasados = todos.filter(e => diasHasta(e.fecha) < 0).reverse();
+  const finales = finalesDisponibles();
+  app.innerHTML = `
+    <h1>Exams</h1>
+    ${proximos.length
+      ? `<div class="lista">${proximos.map(tarjetaExamen).join('')}</div>`
+      : '<p class="vacio">No upcoming exams yet.</p>'}
+    ${finales.length ? `
+      <h2>End-of-year exams</h2>
+      <p class="suave pequeño">Every topic you add goes into these question banks.</p>
+      <div class="lista">${finales.map(tarjetaExamen).join('')}</div>` : ''}
+    ${pasados.length ? `<h2>Past exams</h2><div class="lista">${pasados.map(tarjetaExamen).join('')}</div>` : ''}`;
+}
+
+function vistaAsignatura(a) {
+  const examenes = examenesOrdenados().filter(e => e.asignatura === a.id && diasHasta(e.fecha) >= 0);
+  const hayPreguntas = preguntasDe(a.temas).length > 0;
+  app.innerHTML = `
+    ${volver('#/', 'Home')}
+    <h1>${esc(a.icono)} ${esc(a.nombre)}</h1>
+    ${examenes.length ? `<div class="lista">${examenes.map(tarjetaExamen).join('')}</div>` : ''}
+    <h2>Topics</h2>
+    ${a.temas.length ? `
+      <div class="lista" style="--c:${esc(a.color)}">
+        ${a.temas.map((t, i) => {
+          const pct = porcentajeTema(a, t);
+          return `
+            <a class="tarjeta" href="#/a/${esc(a.id)}/t/${esc(t.id)}">
+              <div class="fila">
+                <div class="crece"><b>${i + 1}. ${esc(t.titulo)}</b></div>
+                <span class="etiqueta ${pct === 100 ? 'ok' : ''}">${pct}%</span>
+              </div>
+              ${barra(pct)}
+            </a>`;
+        }).join('')}
+      </div>
+      ${hayPreguntas ? `<h2>End-of-year exam</h2><div class="lista">${tarjetaExamen(examenFinal(a))}</div>` : ''}
+    ` : '<p class="vacio">No topics yet.</p>'}`;
+}
+
+function vistaTema(a, t) {
+  const p = progresoTema(a.id, t.id);
+  const nTarjetas = t.tarjetas?.length || 0;
+  const nSabidas = (t.tarjetas || []).filter(c => p.sabidas.includes(c.p)).length;
+  const nPreguntas = t.preguntas?.length || 0;
+  const base = `#/a/${esc(a.id)}/t/${esc(t.id)}`;
+  app.innerHTML = `
+    ${volver(`#/a/${esc(a.id)}`, a.nombre)}
+    <h1>${esc(t.titulo)}</h1>
+    <div class="lista">
+      <a class="tarjeta modo ${tieneNotas(t) ? '' : 'desactivado'}" href="${base}/resumen">
+        <span class="icono">📖</span>
+        <div class="crece"><b>Notes</b><div class="estado">${tieneNotas(t) ? (p.leido ? 'Read ✓' : 'Not read yet') : 'Not available'}</div></div>
+      </a>
+      <a class="tarjeta modo ${nTarjetas ? '' : 'desactivado'}" href="${base}/tarjetas">
+        <span class="icono">🃏</span>
+        <div class="crece"><b>Flashcards</b><div class="estado">${nTarjetas ? `${nSabidas} of ${nTarjetas} known` : 'Not available'}</div></div>
+      </a>
+      <a class="tarjeta modo ${nPreguntas ? '' : 'desactivado'}" href="${base}/test">
+        <span class="icono">📝</span>
+        <div class="crece"><b>Quiz</b><div class="estado">${nPreguntas ? `${nPreguntas} questions${p.mejorNota !== null ? ` · best score ${p.mejorNota}%` : ''}` : 'Not available'}</div></div>
+      </a>
+    </div>`;
+}
+
+function vistaResumen(a, t) {
+  app.classList.add('ancho');
+  const base = `#/a/${esc(a.id)}/t/${esc(t.id)}`;
+  const pintar = () => {
+    const leido = progresoTema(a.id, t.id).leido;
+    app.innerHTML = `
+      ${volver(base, t.titulo)}
+      <h1>📖 ${esc(t.titulo)}</h1>
+      <div style="--c:${esc(a.color)}">${notasHTML(t)}</div>
+      <div class="acciones">
+        <button class="boton ${leido ? '' : 'principal'} ancho" id="leido">${leido ? 'Read ✓' : '✓ Mark as read'}</button>
+        ${t.tarjetas?.length ? `<a class="boton ancho" href="${base}/tarjetas">Next: flashcards →</a>` : ''}
+      </div>`;
+    document.getElementById('leido').addEventListener('click', () => {
+      actualizarTema(a.id, t.id, p => { p.leido = !p.leido; });
+      pintar();
+    });
+  };
+  pintar();
+}
+
+function vistaProgreso() {
+  const asigs = estado.curso.asignaturas.filter(a => a.temas.length);
+  app.innerHTML = `
+    <h1>Progress</h1>
+    <p class="suave pequeño">Progress is saved on this device.</p>
+    ${asigs.length ? asigs.map(a => `
+      <h2>${esc(a.icono)} ${esc(a.nombre)} · ${porcentajeAsignatura(a)}%</h2>
+      <div class="lista" style="--c:${esc(a.color)}">
+        ${a.temas.map(t => {
+          const p = progresoTema(a.id, t.id);
+          const n = t.tarjetas?.length || 0;
+          const s = (t.tarjetas || []).filter(c => p.sabidas.includes(c.p)).length;
+          return `
+            <a class="tarjeta" href="#/a/${esc(a.id)}/t/${esc(t.id)}">
+              <b>${esc(t.titulo)}</b>
+              <div class="suave pequeño">
+                📖 ${p.leido ? 'read' : 'not read'} · 🃏 ${s}/${n} · 📝 ${p.mejorNota !== null ? `${p.mejorNota}%` : 'not done'}
+              </div>
+              ${barra(porcentajeTema(a, t))}
+            </a>`;
+        }).join('')}
+      </div>`).join('') : '<p class="vacio">No topics in this year group yet.</p>'}
+    <div class="acciones"><button class="boton ancho" id="borrar">Reset progress for this year</button></div>`;
+  const borrar = document.getElementById('borrar');
+  borrar.addEventListener('click', () => {
+    if (!borrar.dataset.confirmar) {
+      borrar.dataset.confirmar = '1';
+      borrar.textContent = 'Tap again to delete everything';
+      return;
+    }
+    try { localStorage.removeItem(claveProgreso()); } catch { /* sin almacenamiento */ }
+    render();
+  });
+}
+
+// ---------- Test ----------
+
+const normalizar = s => String(s ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+
+// Respuesta corta: correcta si contiene al menos `minimo` de las palabras clave.
+// Las claves numéricas tienen que aparecer como número completo ("5" no vale dentro de "25").
+function evaluarCorta(q, texto) {
+  const t = normalizar(texto);
+  const contiene = clave => {
+    const k = normalizar(clave);
+    if (/^-?\d+([.,]\d+)?$/.test(k)) return new RegExp(`(^|[^\\d.,])${k.replace(/[.]/g, '\\.')}(?![\\d]|[.,]\\d)`).test(t);
+    return t.includes(k);
+  };
+  return q.claves.filter(contiene).length >= (q.minimo || 1);
+}
+
+// Una respuesta es: índice de opción (opcion/vf) o { texto, ok } (corta).
+const esCorrecta = (q, r) => q.tipo === 'corta' ? r?.ok === true : r === q.correcta;
+
+function prepararPregunta(q) {
+  if (q.tipo === 'corta') {
+    return { original: q, tipo: 'corta', enunciado: q.enunciado, pista: q.pista, claves: q.claves, minimo: q.minimo, modelo: q.modelo, explicacion: q.explicacion };
+  }
+  if (q.tipo === 'vf') {
+    return { original: q, tipo: 'opcion', enunciado: q.enunciado, opciones: ['True', 'False'], correcta: q.correcta ? 0 : 1, explicacion: q.explicacion };
+  }
+  const orden = barajar(q.opciones.map((_, k) => k));
+  return {
+    original: q,
+    tipo: 'opcion',
+    enunciado: q.enunciado,
+    opciones: orden.map(k => q.opciones[k]),
+    correcta: orden.indexOf(q.correcta),
+    explicacion: q.explicacion,
+  };
+}
+
+function mensajeNota(nota) {
+  if (nota >= 90) return 'Excellent! 🏆';
+  if (nota >= 70) return 'Great job! 💪';
+  if (nota >= 50) return 'Pass – keep revising 👍';
+  return 'Needs a bit more revision 📖';
+}
+
+const PREGUNTAS_POR_TEST = 20;
+
+// Elige hasta `max` preguntas repartidas por igual entre los grupos (uno por tema).
+function elegirPreguntas(grupos, max = PREGUNTAS_POR_TEST) {
+  const colas = barajar(grupos.filter(g => g.length).map(g => barajar(g)));
+  const elegidas = [];
+  while (elegidas.length < max && colas.some(c => c.length)) {
+    for (const c of colas) {
+      if (c.length && elegidas.length < max) elegidas.push(c.shift());
+    }
+  }
+  return barajar(elegidas);
+}
+
+function ejecutarTest({ titulo, grupos, salir, alTerminar }) {
+  const total = grupos.reduce((s, g) => s + g.length, 0);
+  if (!total) {
+    app.innerHTML = `${volver(salir, 'Back')}<p class="vacio">No questions yet.</p>`;
+    return;
+  }
+  let modo, lista, respuestas, i, completo;
+
+  function inicio() {
+    window.scrollTo(0, 0);
+    app.innerHTML = `
+      ${volver(salir, 'Back')}
+      <h1>📝 ${esc(titulo)}</h1>
+      <p class="suave">${Math.min(PREGUNTAS_POR_TEST, total)} random questions from a bank of ${total}.</p>
+      <div class="lista">
+        <button class="tarjeta modo" id="modo-practica">
+          <span class="icono">🎯</span>
+          <div class="crece"><b>Practice mode</b><div class="estado">Check each answer as you go</div></div>
+        </button>
+        <button class="tarjeta modo" id="modo-examen">
+          <span class="icono">⏱️</span>
+          <div class="crece"><b>Exam mode</b><div class="estado">Answer everything, then submit to get your mark</div></div>
+        </button>
+      </div>`;
+    document.getElementById('modo-practica').addEventListener('click', () => { modo = 'practica'; empezar(elegirPreguntas(grupos), true); });
+    document.getElementById('modo-examen').addEventListener('click', () => { modo = 'examen'; empezar(elegirPreguntas(grupos), true); });
+  }
+
+  function empezar(qs, esCompleto) {
+    lista = qs.map(prepararPregunta);
+    respuestas = new Array(lista.length).fill(null);
+    i = 0;
+    completo = esCompleto;
+    if (modo === 'examen') pintarExamen(); else pintar();
+  }
+
+  // ----- Modo práctica: una pregunta cada vez, corrección inmediata -----
+
+  function pintar() {
+    if (i >= lista.length) return resultado();
+    const q = lista[i];
+    window.scrollTo(0, 0);
+    app.innerHTML = `
+      <a class="volver" href="${salir}">✕ Exit</a>
+      <div class="progreso-test"><span>${esc(titulo)}</span><span>${i + 1} / ${lista.length}</span></div>
+      ${barra(i / lista.length * 100)}
+      <div class="enunciado">${esc(q.enunciado)}</div>
+      ${q.tipo === 'corta' ? `
+        ${q.pista ? `<div class="pista">💡 ${esc(q.pista)}</div>` : ''}
+        <textarea class="respuesta-corta" id="corta" rows="3" placeholder="Write your answer here..."></textarea>
+        <button class="boton principal ancho" id="comprobar">Check answer</button>
+      ` : `
+        <div class="opciones">
+          ${q.opciones.map((o, k) => `<button class="opcion" data-k="${k}">${esc(o)}</button>`).join('')}
+        </div>`}
+      <div id="feedback"></div>`;
+    app.querySelectorAll('.opcion').forEach(b => b.addEventListener('click', () => responder(Number(b.dataset.k))));
+    document.getElementById('comprobar')?.addEventListener('click', () => {
+      const caja = document.getElementById('corta');
+      const texto = caja.value.trim();
+      if (!texto) { caja.focus(); return; }
+      caja.disabled = true;
+      document.getElementById('comprobar').remove();
+      respuestas[i] = { texto, ok: evaluarCorta(q, texto) };
+      mostrarFeedback();
+    });
+  }
+
+  function responder(k) {
+    const q = lista[i];
+    respuestas[i] = k;
+    app.querySelectorAll('.opcion').forEach(b => {
+      const n = Number(b.dataset.k);
+      b.disabled = true;
+      if (n === q.correcta) b.classList.add('correcta');
+      else if (n === k) b.classList.add('incorrecta');
+    });
+    mostrarFeedback();
+  }
+
+  function mostrarFeedback() {
+    const q = lista[i];
+    const ok = esCorrecta(q, respuestas[i]);
+    let solucion = '';
+    if (q.tipo === 'corta') solucion = `<div>Model answer: <b>${esc(q.modelo)}</b></div>`;
+    else if (!ok) solucion = `<div>The answer is: <b>${esc(q.opciones[q.correcta])}</b></div>`;
+    document.getElementById('feedback').innerHTML = `
+      <div class="feedback ${ok ? 'ok' : 'mal'}">
+        <b>${ok ? '✅ Correct!' : '❌ Not quite'}</b>
+        ${solucion}
+        ${q.explicacion ? `<div class="pequeño">${esc(q.explicacion)}</div>` : ''}
+        ${q.tipo === 'corta' && !ok ? '<button class="boton" id="me-vale" style="margin-top:8px">My answer was right too ✓</button>' : ''}
+      </div>
+      <button class="boton principal ancho" id="siguiente" style="margin-top:12px">
+        ${i + 1 < lista.length ? 'Next →' : 'See result'}
+      </button>`;
+    document.getElementById('me-vale')?.addEventListener('click', () => { respuestas[i].ok = true; mostrarFeedback(); });
+    const sig = document.getElementById('siguiente');
+    sig.addEventListener('click', () => { i++; pintar(); });
+    sig.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  // ----- Modo examen: todas las preguntas y corrección al enviar -----
+
+  function pintarExamen() {
+    window.scrollTo(0, 0);
+    let avisado = false;
+    app.innerHTML = `
+      <a class="volver" href="${salir}">✕ Exit</a>
+      <div class="progreso-test"><span>${esc(titulo)}</span><span id="contestadas">0 / ${lista.length} answered</span></div>
+      <div class="lista" style="margin-top:12px">
+        ${lista.map((q, n) => `
+          <div class="tarjeta">
+            <div class="suave pequeño">Question ${n + 1}</div>
+            <div class="enunciado enunciado-examen">${esc(q.enunciado)}</div>
+            ${q.tipo === 'corta' ? `
+              ${q.pista ? `<div class="pista">💡 ${esc(q.pista)}</div>` : ''}
+              <textarea class="respuesta-corta" data-n="${n}" rows="3" placeholder="Write your answer here..."></textarea>
+            ` : `
+              <div class="opciones">
+                ${q.opciones.map((o, k) => `<button class="opcion" data-n="${n}" data-k="${k}">${esc(o)}</button>`).join('')}
+              </div>`}
+          </div>`).join('')}
+      </div>
+      <p class="feedback mal" id="aviso-envio" hidden></p>
+      <div class="acciones"><button class="boton principal ancho" id="enviar">Submit answers</button></div>`;
+    const contador = document.getElementById('contestadas');
+    const contar = () => {
+      contador.textContent = `${respuestas.filter(r => r !== null).length} / ${lista.length} answered`;
+    };
+    app.querySelectorAll('.opcion').forEach(b => b.addEventListener('click', () => {
+      const n = Number(b.dataset.n);
+      respuestas[n] = Number(b.dataset.k);
+      app.querySelectorAll(`.opcion[data-n="${n}"]`).forEach(o => o.classList.toggle('elegida', o === b));
+      contar();
+    }));
+    app.querySelectorAll('.respuesta-corta').forEach(caja => caja.addEventListener('input', () => {
+      const texto = caja.value.trim();
+      respuestas[Number(caja.dataset.n)] = texto ? { texto, ok: null } : null;
+      contar();
+    }));
+    document.getElementById('enviar').addEventListener('click', () => {
+      const sinContestar = respuestas.filter(r => r === null).length;
+      if (sinContestar && !avisado) {
+        avisado = true;
+        const aviso = document.getElementById('aviso-envio');
+        aviso.textContent = `You have ${sinContestar} unanswered ${sinContestar === 1 ? 'question' : 'questions'}. Tap Submit again to finish anyway.`;
+        aviso.hidden = false;
+        return;
+      }
+      lista.forEach((q, n) => {
+        if (q.tipo === 'corta' && respuestas[n]) respuestas[n].ok = evaluarCorta(q, respuestas[n].texto);
+      });
+      resultado();
+    });
+  }
+
+  // ----- Resultado -----
+
+  function resultado() {
+    const aciertos = lista.filter((q, n) => esCorrecta(q, respuestas[n])).length;
+    const fallos = lista.map((q, n) => ({ q, k: respuestas[n], n })).filter(f => !esCorrecta(f.q, f.k));
+    const tuRespuesta = f => {
+      if (f.k === null) return '<i>no answer</i>';
+      return esc(f.q.tipo === 'corta' ? f.k.texto : f.q.opciones[f.k]);
+    };
+    const solucion = q => q.tipo === 'corta'
+      ? `Model answer: <b>${esc(q.modelo)}</b>`
+      : `Correct answer: <b>${esc(q.opciones[q.correcta])}</b>`;
+    const nota = Math.round(aciertos / lista.length * 100);
+    if (completo) alTerminar?.(nota);
+    window.scrollTo(0, 0);
+    app.innerHTML = `
+      <a class="volver" href="${salir}">← Back</a>
+      <p class="nota">${nota}%</p>
+      <p style="text-align:center"><b>${mensajeNota(nota)}</b><br>
+        <span class="suave">${aciertos} of ${lista.length} correct</span></p>
+      <div class="acciones">
+        <button class="boton principal ancho" id="nuevas">🔁 New random questions</button>
+        ${fallos.length ? `<button class="boton ancho" id="repetir-fallos">Practise mistakes only (${fallos.length})</button>` : ''}
+        <button class="boton ancho" id="cambiar-modo">Change mode</button>
+      </div>
+      ${fallos.length ? `
+        <h2>Review your mistakes</h2>
+        <div class="lista">
+          ${fallos.map(f => `
+            <div class="tarjeta fallo">
+              <b>${esc(f.q.enunciado)}</b>
+              <div class="pequeño">Your answer: ${tuRespuesta(f)}</div>
+              <div class="pequeño">${solucion(f.q)}</div>
+              ${f.q.explicacion ? `<div class="pequeño suave">${esc(f.q.explicacion)}</div>` : ''}
+              ${f.q.tipo === 'corta' && f.k ? `<button class="boton" data-me-vale="${f.n}" style="margin-top:8px">My answer was right too ✓</button>` : ''}
+            </div>`).join('')}
+        </div>` : ''}`;
+    app.querySelectorAll('[data-me-vale]').forEach(b => b.addEventListener('click', () => {
+      respuestas[Number(b.dataset.meVale)].ok = true;
+      resultado();
+    }));
+    document.getElementById('nuevas').addEventListener('click', () => empezar(elegirPreguntas(grupos), true));
+    document.getElementById('repetir-fallos')?.addEventListener('click', () =>
+      empezar(barajar(fallos.map(f => f.q.original)), false));
+    document.getElementById('cambiar-modo').addEventListener('click', inicio);
+  }
+
+  inicio();
+}
+
+function testTema(a, t) {
+  ejecutarTest({
+    titulo: t.titulo,
+    grupos: [t.preguntas || []],
+    salir: `#/a/${esc(a.id)}/t/${esc(t.id)}`,
+    alTerminar: nota => actualizarTema(a.id, t.id, p => { p.mejorNota = Math.max(p.mejorNota ?? 0, nota); }),
+  });
+}
+
+function testExamen(e) {
+  const a = asignatura(e.asignatura);
+  ejecutarTest({ titulo: e.titulo || a.nombre, grupos: temasDeExamen(e).map(t => t.preguntas || []), salir: '#/examenes' });
+}
+
+// ---------- Notas y examen imprimible ----------
+
+// Notas visuales de un tema: bloques con tarjetas (etiqueta, título, puntos) y chips.
+// Si el tema no tiene `notas`, se muestra su `resumen`.
+function notasHTML(t) {
+  if (!t.notas?.length) return `<div class="tarjeta resumen">${markdown(t.resumen)}</div>`;
+  return t.notas.map(s => `
+    <section class="bloque-notas">
+      ${s.seccion ? `<h3 class="titulo-bloque">${inline(s.seccion)}</h3>` : ''}
+      ${s.tarjetas?.length ? `
+        <div class="rejilla-notas">
+          ${s.tarjetas.map(n => `
+            <div class="nota-visual">
+              ${n.etiqueta ? `<span class="nota-etiqueta">${inline(n.etiqueta)}</span>` : ''}
+              ${n.titulo ? `<h4>${inline(n.titulo)}</h4>` : ''}
+              ${n.puntos?.length ? `<ul>${n.puntos.map(p => `<li>${inline(p)}</li>`).join('')}</ul>` : ''}
+            </div>`).join('')}
+        </div>` : ''}
+      ${s.chips?.items?.length ? `
+        <div class="nota-visual">
+          ${s.chips.titulo ? `<h4>${inline(s.chips.titulo)}</h4>` : ''}
+          <div class="chips">${s.chips.items.map(c => `<span class="chip">${inline(c)}</span>`).join('')}</div>
+        </div>` : ''}
+    </section>`).join('');
+}
+
+function vistaNotasExamen(e) {
+  const a = asignatura(e.asignatura);
+  const temas = temasDeExamen(e).filter(tieneNotas);
+  let activa = 0;
+  app.classList.add('ancho');
+  const pintar = () => {
+    const t = temas[activa];
+    const leido = progresoTema(a.id, t.id).leido;
+    app.innerHTML = `
+      ${volver('#/examenes', 'Exams')}
+      <h1>📖 ${esc(e.titulo || a.nombre)}</h1>
+      <p class="suave pequeño">Revision notes · ${temas.length} ${temas.length === 1 ? 'topic' : 'topics'}</p>
+      <div style="--c:${esc(a.color)}">
+        ${temas.length > 1 ? `
+          <div class="pestanas" role="tablist">
+            ${temas.map((x, n) => `<button class="pestana ${n === activa ? 'activa' : ''}" role="tab" aria-selected="${n === activa}" data-n="${n}">${esc(x.titulo.split(' · ').pop())}</button>`).join('')}
+          </div>` : ''}
+        <h2>${esc(t.titulo)}</h2>
+        ${notasHTML(t)}
+      </div>
+      <div class="acciones">
+        <button class="boton ${leido ? '' : 'principal'} ancho" id="leido">${leido ? 'Read ✓' : '✓ Mark this topic as read'}</button>
+        ${activa + 1 < temas.length ? '<button class="boton ancho" id="siguiente-tema">Next topic →</button>' : ''}
+      </div>`;
+    app.querySelector('.pestana.activa')?.scrollIntoView({ block: 'nearest', inline: 'center' });
+    app.querySelectorAll('.pestana').forEach(b => b.addEventListener('click', () => { activa = Number(b.dataset.n); pintar(); }));
+    document.getElementById('leido').addEventListener('click', () => {
+      actualizarTema(a.id, t.id, p => { p.leido = !p.leido; });
+      pintar();
+    });
+    document.getElementById('siguiente-tema')?.addEventListener('click', () => { activa++; pintar(); window.scrollTo(0, 0); });
+  };
+  if (!temas.length) {
+    app.innerHTML = `${volver('#/examenes', 'Exams')}<p class="vacio">No notes yet.</p>`;
+    return;
+  }
+  pintar();
+}
+
+function vistaImprimir(e) {
+  const a = asignatura(e.asignatura);
+  const titulo = e.titulo || a.nombre;
+  const letras = 'ABCDEFGH';
+  const pintar = () => {
+    const lista = elegirPreguntas(temasDeExamen(e).map(t => t.preguntas || [])).map(prepararPregunta);
+    app.innerHTML = `
+      <div class="no-imprimir">
+        ${volver('#/examenes', 'Exams')}
+        <div class="acciones">
+          <button class="boton principal" id="imprimir">🖨 Print / Save as PDF</button>
+          <button class="boton" id="otras">🔁 New questions</button>
+        </div>
+        <p class="feedback pequeño" id="aviso-imprimir" hidden></p>
+      </div>
+      <article class="hoja">
+        <header class="hoja-cabecera">
+          <h1>${esc(titulo)}</h1>
+          <p>${esc(estado.curso.nombre)} · ${esc(a.nombre)} · ${lista.length} questions</p>
+          <div class="hoja-datos">
+            <span>Name: ______________________</span>
+            <span>Date: ____________</span>
+            <span>Score: ____ / ${lista.length}</span>
+          </div>
+        </header>
+        <ol class="hoja-preguntas">
+          ${lista.map(q => `
+            <li>
+              <p class="hoja-enunciado">${esc(q.enunciado)}</p>
+              ${q.tipo === 'corta'
+                ? '<div class="hoja-lineas"><span></span><span></span><span></span></div>'
+                : `<ul class="hoja-opciones">${q.opciones.map((o, k) => `<li><span class="casilla"></span>${letras[k]}. ${esc(o)}</li>`).join('')}</ul>`}
+            </li>`).join('')}
+        </ol>
+        <section class="hoja-soluciones">
+          <h2>Answer key</h2>
+          <ol>
+            ${lista.map(q => `
+              <li>${q.tipo === 'corta' ? esc(q.modelo) : `<b>${letras[q.correcta]}</b>. ${esc(q.opciones[q.correcta])}`}
+                ${q.explicacion ? `<span class="suave"> — ${esc(q.explicacion)}</span>` : ''}</li>`).join('')}
+          </ol>
+        </section>
+      </article>`;
+    document.getElementById('imprimir').addEventListener('click', () => {
+      window.print();
+      let incrustada = true;
+      try { incrustada = window.self !== window.top; } catch { /* incrustada */ }
+      if (incrustada) {
+        const aviso = document.getElementById('aviso-imprimir');
+        aviso.textContent = 'If the print window didn’t open, printing isn’t available in this preview. It works on the published website.';
+        aviso.hidden = false;
+      }
+    });
+    document.getElementById('otras').addEventListener('click', pintar);
+  };
+  pintar();
+}
+
+// ---------- Tarjetas de repaso ----------
+
+function ejecutarTarjetas({ titulo, tarjetas, salir }) {
+  if (!tarjetas.length) {
+    app.innerHTML = `${volver(salir, 'Back')}<p class="vacio">No flashcards yet.</p>`;
+    return;
+  }
+  const sabe = c => progresoTema(c.asig, c.tema).sabidas.includes(c.p);
+  let cola, total;
+
+  const empezar = soloPendientes => {
+    const pendientes = tarjetas.filter(c => !sabe(c));
+    cola = barajar(soloPendientes && pendientes.length ? pendientes : tarjetas);
+    total = cola.length;
+    pintar();
+  };
+
+  function pintar() {
+    if (!cola.length) return final();
+    const c = cola[0];
+    app.innerHTML = `
+      <a class="volver" href="${salir}">✕ Exit</a>
+      <div class="progreso-test"><span>${esc(titulo)}</span><span>${cola.length} left</span></div>
+      ${barra((total - cola.length) / total * 100)}
+      <div class="carta" id="carta">
+        <div class="carta-interior">
+          <div class="cara"><small>Question · tap to flip</small>${esc(c.p)}</div>
+          <div class="cara detras"><small>Answer</small>${esc(c.r)}</div>
+        </div>
+      </div>
+      <div class="botones-carta">
+        <button class="boton repasar" id="repasar">🔁 Again</button>
+        <button class="boton sabe" id="sabe">✅ I know it</button>
+      </div>`;
+    const carta = document.getElementById('carta');
+    carta.addEventListener('click', () => carta.classList.toggle('girada'));
+    document.getElementById('repasar').addEventListener('click', () => {
+      actualizarTema(c.asig, c.tema, p => { p.sabidas = p.sabidas.filter(x => x !== c.p); });
+      cola.push(cola.shift());
+      pintar();
+    });
+    document.getElementById('sabe').addEventListener('click', () => {
+      actualizarTema(c.asig, c.tema, p => { if (!p.sabidas.includes(c.p)) p.sabidas.push(c.p); });
+      cola.shift();
+      pintar();
+    });
+  }
+
+  function final() {
+    app.innerHTML = `
+      <a class="volver" href="${salir}">← Back</a>
+      <p class="nota">🎉</p>
+      <p style="text-align:center"><b>You’ve gone through all the cards!</b></p>
+      <div class="acciones">
+        <button class="boton principal ancho" id="otra">🔁 Go through them all again</button>
+        <a class="boton ancho" href="${salir}">Back</a>
+      </div>`;
+    document.getElementById('otra').addEventListener('click', () => empezar(false));
+  }
+
+  empezar(true);
+}
+
+function tarjetasTema(a, t) {
+  ejecutarTarjetas({ titulo: t.titulo, tarjetas: tarjetasDe(a, [t]), salir: `#/a/${esc(a.id)}/t/${esc(t.id)}` });
+}
+
+function tarjetasExamen(e) {
+  const a = asignatura(e.asignatura);
+  ejecutarTarjetas({ titulo: e.titulo || a.nombre, tarjetas: tarjetasDe(a, temasDeExamen(e)), salir: '#/examenes' });
+}
+
+// ---------- Navegación ----------
+
+function noEncontrado() {
+  app.innerHTML = `${volver('#/', 'Home')}<p class="vacio">Page not found.</p>`;
+}
+
+function mostrarError(e) {
+  console.error(e);
+  const local = location.protocol === 'file:'
+    ? '<br><br>The file was opened directly. Open the site from GitHub Pages or a local server (see the README).'
+    : '';
+  app.innerHTML = `<p class="vacio">⚠️ ${esc(e.message)}${local}</p>`;
+}
+
+function marcarNav(seccion) {
+  const actual = seccion === 'examenes' || seccion === 'progreso' ? seccion : 'inicio';
+  document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('activo', a.dataset.nav === actual));
+}
+
+function render() {
+  const [r0, r1, r2, r3, r4] = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
+  marcarNav(r0);
+  app.classList.remove('ancho');
+  window.scrollTo(0, 0);
+  try {
+    if (!r0) return vistaInicio();
+    if (r0 === 'progreso') return vistaProgreso();
+    if (r0 === 'examenes') {
+      if (!r1) return vistaExamenes();
+      const e = examen(r1);
+      if (e && r2 === 'test') return testExamen(e);
+      if (e && r2 === 'tarjetas') return tarjetasExamen(e);
+      if (e && r2 === 'notas') return vistaNotasExamen(e);
+      if (e && r2 === 'imprimir') return vistaImprimir(e);
+    }
+    if (r0 === 'a') {
+      const a = asignatura(r1);
+      if (a && !r2) return vistaAsignatura(a);
+      const t = r2 === 't' ? tema(a, r3) : null;
+      if (t && !r4) return vistaTema(a, t);
+      if (t && r4 === 'resumen' && tieneNotas(t)) return vistaResumen(a, t);
+      if (t && r4 === 'tarjetas') return tarjetasTema(a, t);
+      if (t && r4 === 'test') return testTema(a, t);
+    }
+    noEncontrado();
+  } catch (e) {
+    mostrarError(e);
+  }
+}
+
+selectorCurso.addEventListener('change', async () => {
+  try {
+    await cambiarCurso(selectorCurso.value);
+    if (location.hash && location.hash !== '#/') location.hash = '#/';
+    else render();
+  } catch (e) {
+    mostrarError(e);
+  }
+});
+
+(async function iniciar() {
+  try {
+    await cargarCursos();
+    const guardado = leer('cursoActivo');
+    await cambiarCurso(estado.cursos.some(c => c.id === guardado) ? guardado : estado.cursos[0].id);
+    window.addEventListener('hashchange', render);
+    render();
+  } catch (e) {
+    mostrarError(e);
+  }
+})();

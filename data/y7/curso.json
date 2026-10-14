@@ -1,0 +1,87 @@
+{
+  "id": "y7",
+  "nombre": "Year 7",
+  "asignaturas": [
+    {
+      "id": "english",
+      "nombre": "English",
+      "icono": "📖",
+      "color": "#c2255c"
+    },
+    {
+      "id": "maths",
+      "nombre": "Maths",
+      "icono": "📐",
+      "color": "#3b5bdb"
+    },
+    {
+      "id": "science",
+      "nombre": "Science",
+      "icono": "🔬",
+      "color": "#2b8a3e"
+    },
+    {
+      "id": "geography",
+      "nombre": "Geography",
+      "icono": "🌍",
+      "color": "#0c8599"
+    },
+    {
+      "id": "history",
+      "nombre": "History",
+      "icono": "🏛️",
+      "color": "#9c36b5"
+    },
+    {
+      "id": "french",
+      "nombre": "French",
+      "icono": "🥐",
+      "color": "#1971c2"
+    },
+    {
+      "id": "german",
+      "nombre": "German",
+      "icono": "🥨",
+      "color": "#e67700"
+    },
+    {
+      "id": "lengua",
+      "nombre": "Lengua",
+      "icono": "✏️",
+      "color": "#e8590c"
+    },
+    {
+      "id": "conocimiento-medio",
+      "nombre": "Conocimiento del Medio",
+      "icono": "🌱",
+      "color": "#5c940d"
+    }
+  ],
+  "examenes": [
+    {
+      "id": "maths-section-1",
+      "asignatura": "maths",
+      "titulo": "Maths test · Section 1 (Units 1–5)",
+      "fecha": "2026-10-14",
+      "temas": [
+        "calculations",
+        "2d-shapes",
+        "data-collection",
+        "area-of-a-triangle",
+        "order-of-operations"
+      ]
+    },
+    {
+      "id": "science-cells",
+      "asignatura": "science",
+      "titulo": "Science test · Unit 1 Cells",
+      "fecha": "2026-10-13",
+      "temas": [
+        "plant-cells",
+        "animal-cells",
+        "specialised-cells",
+        "cells-tissues-organs"
+      ]
+    }
+  ]
+}

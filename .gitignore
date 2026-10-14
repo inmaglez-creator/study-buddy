@@ -1,0 +1,5 @@
+# Configuración local
+.claude/
+
+# Archivos de referencia que no son parte de la web
+y6_sats_landing_3.html
