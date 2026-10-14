@@ -1,6 +1,6 @@
 {
-  "name": "Exam Prep",
-  "short_name": "Exam Prep",
+  "name": "Study Buddy",
+  "short_name": "Study Buddy",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f5f6fa",

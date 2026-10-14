@@ -1,4 +1,4 @@
-# Estudia Exámenes
+# Study Buddy
 
 Web estática (HTML + CSS + JS sin dependencias ni compilación) para preparar exámenes desde el móvil. Se publica en GitHub Pages. El contenido vive en `data/` como JSON.
 

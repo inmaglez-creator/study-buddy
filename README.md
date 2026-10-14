@@ -1,6 +1,6 @@
-# 📚 Exam Prep
+# 📚 Study Buddy
 
-**Web:** https://inmaglez-creator.github.io/exam-prep/
+**Web:** https://inmaglez-creator.github.io/study-buddy/
 
 Para compartirla, basta con mandar ese enlace. No hace falta cuenta ni contraseña, y cada persona guarda su propio progreso en su móvil u ordenador.
 
