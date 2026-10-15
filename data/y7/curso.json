@@ -175,6 +175,15 @@
         "how-did-harold-die",
         "key-words-history"
       ]
+    },
+    {
+      "id": "english-book-project",
+      "asignatura": "english",
+      "titulo": "English · Book project (poster + reading log)",
+      "fecha": "2026-11-23",
+      "temas": [
+        "book-project"
+      ]
     }
   ]
 }
