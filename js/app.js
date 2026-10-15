@@ -225,6 +225,8 @@ function tarjetaExamen(e) {
     </div>`;
 }
 
+const listaDe = e => e.final ? '#/finales' : '#/examenes';
+
 const finalesDisponibles = () => estado.curso.asignaturas.filter(a => preguntasDe(a.temas).length).map(examenFinal);
 
 // ---------- Vistas ----------
@@ -254,17 +256,22 @@ function vistaExamenes() {
   const todos = examenesOrdenados();
   const proximos = todos.filter(e => diasHasta(e.fecha) >= 0);
   const pasados = todos.filter(e => diasHasta(e.fecha) < 0).reverse();
-  const finales = finalesDisponibles();
   app.innerHTML = `
     <h1>Exams</h1>
     ${proximos.length
       ? `<div class="lista">${proximos.map(tarjetaExamen).join('')}</div>`
       : '<p class="vacio">No upcoming exams yet.</p>'}
-    ${finales.length ? `
-      <h2>End-of-year exams</h2>
-      <p class="suave pequeño">Every topic you add goes into these question banks.</p>
-      <div class="lista">${finales.map(tarjetaExamen).join('')}</div>` : ''}
     ${pasados.length ? `<h2>Past exams</h2><div class="lista">${pasados.map(tarjetaExamen).join('')}</div>` : ''}`;
+}
+
+function vistaFinales() {
+  const finales = finalesDisponibles();
+  app.innerHTML = `
+    <h1>🏆 End-of-year exams</h1>
+    <p class="suave">One exam per subject with everything from the year so far. Every topic you add goes into these question banks.</p>
+    ${finales.length
+      ? `<div class="lista">${finales.map(tarjetaExamen).join('')}</div>`
+      : '<p class="vacio">No subjects with questions yet.</p>'}`;
 }
 
 function vistaAsignatura(a) {
@@ -650,7 +657,7 @@ function testTema(a, t) {
 
 function testExamen(e) {
   const a = asignatura(e.asignatura);
-  ejecutarTest({ titulo: e.titulo || a.nombre, grupos: temasDeExamen(e).map(t => t.preguntas || []), salir: '#/examenes' });
+  ejecutarTest({ titulo: e.titulo || a.nombre, grupos: temasDeExamen(e).map(t => t.preguntas || []), salir: listaDe(e) });
 }
 
 // ---------- Notas y examen imprimible ----------
@@ -688,7 +695,7 @@ function vistaNotasExamen(e) {
     const t = temas[activa];
     const leido = progresoTema(a.id, t.id).leido;
     app.innerHTML = `
-      ${volver('#/examenes', 'Exams')}
+      ${volver(listaDe(e), e.final ? 'End of year' : 'Exams')}
       <h1>📖 ${esc(e.titulo || a.nombre)}</h1>
       <p class="suave pequeño">Revision notes · ${temas.length} ${temas.length === 1 ? 'topic' : 'topics'}</p>
       <div style="--c:${esc(a.color)}">
@@ -712,7 +719,7 @@ function vistaNotasExamen(e) {
     document.getElementById('siguiente-tema')?.addEventListener('click', () => { activa++; pintar(); window.scrollTo(0, 0); });
   };
   if (!temas.length) {
-    app.innerHTML = `${volver('#/examenes', 'Exams')}<p class="vacio">No notes yet.</p>`;
+    app.innerHTML = `${volver(listaDe(e), e.final ? 'End of year' : 'Exams')}<p class="vacio">No notes yet.</p>`;
     return;
   }
   pintar();
@@ -726,7 +733,7 @@ function vistaImprimir(e) {
     const lista = elegirPreguntas(temasDeExamen(e).map(t => t.preguntas || [])).map(prepararPregunta);
     app.innerHTML = `
       <div class="no-imprimir">
-        ${volver('#/examenes', 'Exams')}
+        ${volver(listaDe(e), e.final ? 'End of year' : 'Exams')}
         <div class="acciones">
           <button class="boton principal" id="imprimir">🖨 Print / Save as PDF</button>
           <button class="boton" id="otras">🔁 New questions</button>
@@ -845,7 +852,7 @@ function tarjetasTema(a, t) {
 
 function tarjetasExamen(e) {
   const a = asignatura(e.asignatura);
-  ejecutarTarjetas({ titulo: e.titulo || a.nombre, tarjetas: tarjetasDe(a, temasDeExamen(e)), salir: '#/examenes' });
+  ejecutarTarjetas({ titulo: e.titulo || a.nombre, tarjetas: tarjetasDe(a, temasDeExamen(e)), salir: listaDe(e) });
 }
 
 // ---------- Navegación ----------
@@ -863,18 +870,19 @@ function mostrarError(e) {
 }
 
 function marcarNav(seccion) {
-  const actual = seccion === 'examenes' || seccion === 'progreso' ? seccion : 'inicio';
+  const actual = ['examenes', 'finales', 'progreso'].includes(seccion) ? seccion : 'inicio';
   document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('activo', a.dataset.nav === actual));
 }
 
 function render() {
   const [r0, r1, r2, r3, r4] = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
-  marcarNav(r0);
+  marcarNav(r0 === 'examenes' && r1?.startsWith(PREFIJO_FINAL) ? 'finales' : r0);
   app.classList.remove('ancho');
   window.scrollTo(0, 0);
   try {
     if (!r0) return vistaInicio();
     if (r0 === 'progreso') return vistaProgreso();
+    if (r0 === 'finales') return vistaFinales();
     if (r0 === 'examenes') {
       if (!r1) return vistaExamenes();
       const e = examen(r1);
