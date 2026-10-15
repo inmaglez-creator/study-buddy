@@ -46,3 +46,11 @@ Igual que el hub de Y6 SATs: **▶ Practice online** (test), **🖨 Print PDF** 
 ## Probar en local
 
 `python -m http.server 8765` y abrir http://localhost:8765 (no funciona abriendo `index.html` directamente, por el `fetch` de los JSON).
+
+## Fuentes de información
+
+Las fotos y listas de cada examen están en el repositorio **privado** `inmaglez-creator/study-buddy-fuentes`, clonado en `fuentes-informacion/` (ignorado aquí). Estructura: `year-<n>/<asignatura>/<AAAA-MM-DD>_<examen>/`. No subir nunca esas fotos a este repositorio, que es público.
+
+## Secciones de la web
+
+Inicio · **Exams** (exámenes en curso y pasados) · **End of year** (`#/finales`: un examen global por asignatura con todo su banco) · Progress.
