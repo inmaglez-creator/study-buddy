@@ -147,9 +147,17 @@
     {
       "id": "english-reading-comprehension",
       "asignatura": "english",
-      "titulo": "Reading comprehension",
+      "titulo": "English · Reading comprehension (Horror and Suspense)",
       "fecha": "2026-10-27",
-      "temas": []
+      "temas": [
+        "horror-suspense-genre",
+        "reading-fiction",
+        "setting-five-senses",
+        "nouns-adjectives",
+        "vocabulary-synonyms",
+        "sentences-conjunctions",
+        "spag"
+      ]
     },
     {
       "id": "history-unit-1",

@@ -1,1 +1,520 @@
-{ "temas": [] }
+{
+  "temas": [
+    {
+      "id": "horror-suspense-genre",
+      "titulo": "Spine-Chilling Suspense · The horror toolbox",
+      "resumen": [
+        "Horror and suspense writers use a **toolbox of techniques** to build **tension** and make the reader feel scared or uneasy.",
+        "",
+        "## Setting and atmosphere",
+        "- Typical settings: an abandoned house, a graveyard, a dark forest, a cellar, an empty corridor.",
+        "- **Pathetic fallacy**: the weather reflects the mood (a storm, thick fog, a howling wind).",
+        "- **Darkness, silence** and **isolation** (a character alone, far from help).",
+        "",
+        "## Language techniques",
+        "- **Short sentences** to create tension: *Silence. Then a creak.*",
+        "- **Ellipsis** (…) to leave the reader waiting.",
+        "- **Rhetorical questions**: *What was that noise?*",
+        "- **Personification**: *The wind screamed through the trees.*",
+        "- **Simile**: *as cold as ice*, *like a ghost*; **metaphor**: *The corridor was a long, dark throat.*",
+        "- **Onomatopoeia**: creak, thud, drip, bang.",
+        "- **The five senses** to describe what the character sees, hears, smells, touches and tastes.",
+        "",
+        "## Structure",
+        "Opening (normal life / setting) → build-up (something strange) → **climax** (the scariest moment) → resolution or **cliffhanger** (the story ends at a tense moment, without an answer)."
+      ],
+      "notas": [
+        {
+          "seccion": "Setting the scene",
+          "tarjetas": [
+            { "etiqueta": "🏚️ Settings", "titulo": "Classic horror places", "puntos": ["Abandoned **house**, **cellar**, attic", "**Graveyard**, dark **forest**", "Empty corridor at **night**"] },
+            { "etiqueta": "⛈️ Pathetic fallacy", "titulo": "Weather = mood", "puntos": ["**Storm**, thunder, **fog**", "Howling **wind**", "The weather matches the fear"] },
+            { "etiqueta": "🧍 Isolation", "titulo": "Alone and helpless", "puntos": ["Character on their **own**", "Phone dead, door locked", "No one can **hear** them"] }
+          ]
+        },
+        {
+          "seccion": "Language techniques",
+          "tarjetas": [
+            { "etiqueta": "✂️ Short sentences", "titulo": "Build tension", "puntos": ["*Silence. Then a creak.*", "Make the reader **hold their breath**"] },
+            { "etiqueta": "… Ellipsis", "titulo": "Leave them waiting", "puntos": ["*The door slowly opened…*", "Creates **suspense**"] },
+            { "etiqueta": "❓ Rhetorical question", "titulo": "No answer expected", "puntos": ["*Who was there?*", "Puts the reader in the character's **head**"] },
+            { "etiqueta": "👻 Personification", "titulo": "Objects act like people", "puntos": ["*The wind **screamed***", "*The house **watched** her*"] },
+            { "etiqueta": "🪞 Simile / metaphor", "titulo": "Comparisons", "puntos": ["Simile uses **like / as**: *as cold as ice*", "Metaphor says it **is**: *the corridor was a throat*"] },
+            { "etiqueta": "💥 Onomatopoeia", "titulo": "Sound words", "puntos": ["**creak**, **thud**, **drip**", "**bang**, **scratch**, **whisper**"] }
+          ]
+        },
+        {
+          "seccion": "Story structure",
+          "chips": { "titulo": "How a suspense story is built", "items": ["1️⃣ **Opening** – setting and character", "2️⃣ **Build-up** – something strange happens", "3️⃣ **Climax** – the scariest moment", "4️⃣ **Resolution** or **cliffhanger**"] }
+        }
+      ],
+      "tarjetas": [
+        { "p": "Pathetic fallacy", "r": "When the weather reflects the mood, e.g. a storm in a scary scene" },
+        { "p": "Why use short sentences in horror?", "r": "To build tension and make the reader feel nervous" },
+        { "p": "Ellipsis", "r": "Three dots (…) that leave the reader waiting" },
+        { "p": "Rhetorical question", "r": "A question that doesn't expect an answer, e.g. 'What was that?'" },
+        { "p": "Personification", "r": "Giving human actions to objects, e.g. 'the wind screamed'" },
+        { "p": "Simile", "r": "A comparison using 'like' or 'as', e.g. 'as cold as ice'" },
+        { "p": "Metaphor", "r": "Saying something IS something else, e.g. 'the corridor was a dark throat'" },
+        { "p": "Onomatopoeia", "r": "Words that sound like what they describe: creak, thud, drip" },
+        { "p": "Cliffhanger", "r": "An ending at a tense moment, with no answer" },
+        { "p": "Climax", "r": "The most exciting or scary moment of the story" },
+        { "p": "Isolation", "r": "When a character is alone and far from help" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "'Thunder crashed and rain lashed the windows as Mia crept into the cellar.' Which technique is used?", "opciones": ["Pathetic fallacy", "Rhetorical question", "Onomatopoeia only", "Alliteration"], "correcta": 0, "explicacion": "The stormy weather reflects the scary mood." },
+        { "tipo": "opcion", "enunciado": "Why do horror writers often use very short sentences?", "opciones": ["To build tension", "To explain things in detail", "To make the story funny", "To save paper"], "correcta": 0, "explicacion": "Short sentences make the reader hold their breath." },
+        { "tipo": "opcion", "enunciado": "'The old house watched her with its broken eyes.' Which technique is this?", "opciones": ["Personification", "Simile", "Onomatopoeia", "Ellipsis"], "correcta": 0, "explicacion": "A house can't watch – it is given a human action." },
+        { "tipo": "opcion", "enunciado": "'Her hands were as cold as ice.' Which technique is this?", "opciones": ["Simile", "Metaphor", "Personification", "Rhetorical question"], "correcta": 0, "explicacion": "It compares using 'as'." },
+        { "tipo": "opcion", "enunciado": "'The corridor was a long, dark throat waiting to swallow him.' Which technique is this?", "opciones": ["Metaphor", "Simile", "Onomatopoeia", "Pathetic fallacy"], "correcta": 0, "explicacion": "It says the corridor IS a throat (no 'like' or 'as')." },
+        { "tipo": "opcion", "enunciado": "Which word is an example of onomatopoeia?", "opciones": ["Creak", "Dark", "Lonely", "Slowly"], "correcta": 0, "explicacion": "It sounds like the noise it describes." },
+        { "tipo": "opcion", "enunciado": "'What was that noise behind the door?' Which technique is this?", "opciones": ["Rhetorical question", "Simile", "Exclamation", "Metaphor"], "correcta": 0, "explicacion": "It puts the reader inside the character's mind." },
+        { "tipo": "opcion", "enunciado": "'Slowly, the handle began to turn…' What is the effect of the ellipsis?", "opciones": ["It leaves the reader in suspense", "It shows the sentence is a question", "It shows someone is speaking", "It lists items"], "correcta": 0, "explicacion": "We want to know what happens next." },
+        { "tipo": "opcion", "enunciado": "Which setting is MOST typical of a horror story?", "opciones": ["An abandoned house at midnight", "A sunny beach at noon", "A busy supermarket", "A school sports day"], "correcta": 0, "explicacion": "Darkness, isolation and old buildings create fear." },
+        { "tipo": "opcion", "enunciado": "What is a cliffhanger?", "opciones": ["An ending at a tense moment without an answer", "A happy ending", "The first paragraph", "A list of characters"], "correcta": 0, "explicacion": "It makes the reader want more." },
+        { "tipo": "opcion", "enunciado": "What is the climax of a story?", "opciones": ["The most exciting or scary moment", "The title", "The opening description", "The moral"], "correcta": 0, "explicacion": "It comes after the build-up." },
+        { "tipo": "opcion", "enunciado": "Why do horror writers often leave a character alone?", "opciones": ["Isolation makes them vulnerable and increases fear", "To save time", "Because there are no other characters", "To make it a comedy"], "correcta": 0, "explicacion": "No one can help them." },
+        { "tipo": "vf", "enunciado": "A simile compares two things using 'like' or 'as'.", "correcta": true, "explicacion": "e.g. 'pale like a ghost'." },
+        { "tipo": "vf", "enunciado": "Pathetic fallacy means using a lot of long sentences.", "correcta": false, "explicacion": "It means the weather reflects the mood." },
+        { "tipo": "corta", "enunciado": "Name three techniques from the horror 'toolbox'.", "claves": ["short sentence", "ellipsis", "rhetorical", "personification", "simile", "metaphor", "onomatopoeia", "pathetic fallacy", "senses", "cliffhanger", "isolation"], "minimo": 3, "modelo": "Any three: short sentences, ellipsis, rhetorical questions, personification, similes, metaphors, onomatopoeia, pathetic fallacy, the five senses, cliffhangers.", "explicacion": "Use them in your own writing too." },
+        { "tipo": "corta", "enunciado": "Write a sentence using personification to describe the wind in a scary story.", "claves": ["wind"], "minimo": 1, "modelo": "e.g. The wind screamed through the broken windows.", "explicacion": "Give the wind a human action: screamed, whispered, moaned, grabbed." }
+      ]
+    },
+    {
+      "id": "reading-fiction",
+      "titulo": "Reading comprehension · Fiction, characters and feelings",
+      "resumen": [
+        "## How to answer comprehension questions",
+        "- **Read the extract twice**: once for the story, once looking for details.",
+        "- **Retrieve**: find information that is stated directly (who, where, when).",
+        "- **Infer**: work out what is **not** said directly, using clues – what a character does, says, looks like and how they react.",
+        "- **Use evidence**: back up your answer with a **quotation** from the text.",
+        "- **PEE**: Point – Evidence – Explain.",
+        "",
+        "## Characters and their feelings",
+        "Writers **show, not tell**: instead of *She was scared*, they write *Her hands trembled and her heart hammered in her chest.*",
+        "Clues: **actions** (froze, crept, ran), **body language** (trembling, sweating, wide eyes), **speech** (whispered, stammered, screamed), **thoughts**.",
+        "",
+        "## Feelings vocabulary",
+        "scared → nervous, anxious, uneasy, frightened, terrified, petrified · brave, determined, curious, confused, relieved, lonely, desperate."
+      ],
+      "notas": [
+        {
+          "seccion": "Answering questions",
+          "tarjetas": [
+            { "etiqueta": "🔎 Retrieve", "titulo": "Find it in the text", "puntos": ["Information is **stated** directly", "Who? Where? When? What?", "Copy the key words"] },
+            { "etiqueta": "🕵️ Infer", "titulo": "Read between the lines", "puntos": ["Work out what is **not said**", "Use **clues**: actions, words, reactions", "e.g. *trembling hands* → scared"] },
+            { "etiqueta": "📌 PEE", "titulo": "Point – Evidence – Explain", "puntos": ["**Point**: answer the question", "**Evidence**: a short quotation", "**Explain**: what it shows"] }
+          ]
+        },
+        {
+          "seccion": "Show, don't tell",
+          "tarjetas": [
+            { "etiqueta": "🚫 Tell", "titulo": "Boring", "puntos": ["*She was scared.*"] },
+            { "etiqueta": "✅ Show", "titulo": "Better", "puntos": ["*Her hands **trembled** and her heart **hammered**.*", "The reader **infers** the feeling"] },
+            { "etiqueta": "🧩 Clues to feelings", "titulo": "Look for…", "puntos": ["**Actions**: froze, crept, fled", "**Body**: shaking, sweating, wide eyes", "**Speech**: whispered, stammered, screamed"] }
+          ]
+        },
+        {
+          "seccion": "Feelings vocabulary",
+          "chips": { "titulo": "From a little scared to very scared", "items": ["uneasy", "nervous", "anxious", "frightened", "scared", "terrified", "petrified"] }
+        },
+        {
+          "chips": { "titulo": "Other feelings", "items": ["brave", "determined", "curious", "confused", "relieved", "lonely", "desperate", "suspicious"] }
+        }
+      ],
+      "tarjetas": [
+        { "p": "Retrieve", "r": "Find information that is stated directly in the text" },
+        { "p": "Infer", "r": "Work out something that is not said directly, using clues" },
+        { "p": "PEE", "r": "Point – Evidence – Explain" },
+        { "p": "Show, don't tell", "r": "Describe actions and reactions instead of naming the feeling" },
+        { "p": "'Her knees shook and she couldn't speak.' How does she feel?", "r": "Terrified / very scared" },
+        { "p": "'He grinned and pushed the door wide open.' How does he feel?", "r": "Confident / brave / curious" },
+        { "p": "'She let out a long breath and smiled.' How does she feel?", "r": "Relieved" },
+        { "p": "A stronger word for 'scared'", "r": "Terrified or petrified" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "'Tom froze. His heart hammered against his ribs and his hands were slippery with sweat.' How does Tom feel?", "opciones": ["Terrified", "Bored", "Excited", "Angry"], "correcta": 0, "explicacion": "Freezing, a pounding heart and sweat show fear." },
+        { "tipo": "opcion", "enunciado": "'Ella let out a long breath and her shoulders dropped. It was only the cat.' How does Ella feel now?", "opciones": ["Relieved", "Terrified", "Furious", "Lonely"], "correcta": 0, "explicacion": "The danger is gone." },
+        { "tipo": "opcion", "enunciado": "'Despite the shaking in her legs, Priya gripped the torch and stepped into the darkness.' Which word best describes Priya?", "opciones": ["Brave", "Lazy", "Relieved", "Bored"], "correcta": 0, "explicacion": "She is scared but goes on anyway." },
+        { "tipo": "opcion", "enunciado": "'Sam tilted his head and leaned closer to the strange box. What could be inside?' How does Sam feel?", "opciones": ["Curious", "Terrified", "Sad", "Relieved"], "correcta": 0, "explicacion": "He wants to find out more." },
+        { "tipo": "opcion", "enunciado": "What does it mean to 'infer'?", "opciones": ["Work out something not stated directly, using clues", "Copy a sentence from the text", "Count the paragraphs", "Find the title"], "correcta": 0, "explicacion": "'Retrieve' means finding information that is stated." },
+        { "tipo": "opcion", "enunciado": "What does 'PEE' stand for when answering questions?", "opciones": ["Point, Evidence, Explain", "Plan, Edit, End", "Paragraph, Example, Ending", "Point, Example, End"], "correcta": 0, "explicacion": "Always back up your point with evidence." },
+        { "tipo": "opcion", "enunciado": "Which sentence SHOWS rather than TELLS that a character is scared?", "opciones": ["Her teeth chattered and she couldn't move.", "She was very scared.", "She felt fear.", "She was frightened."], "correcta": 0, "explicacion": "The reader infers the feeling from her body." },
+        { "tipo": "opcion", "enunciado": "Which word is the STRONGEST?", "opciones": ["Petrified", "Nervous", "Uneasy", "Worried"], "correcta": 0, "explicacion": "Petrified = so scared you can't move." },
+        { "tipo": "opcion", "enunciado": "'\"W-w-who's there?\" Jake stammered.' What does the way he speaks suggest?", "opciones": ["He is frightened", "He is happy", "He is angry", "He is tired"], "correcta": 0, "explicacion": "Stammering shows nerves." },
+        { "tipo": "opcion", "enunciado": "'The house was silent. Then, from upstairs, came a slow, heavy thud.' What is the writer trying to make the reader feel?", "opciones": ["Tense and nervous", "Calm and relaxed", "Amused", "Bored"], "correcta": 0, "explicacion": "Silence followed by a sudden sound builds suspense." },
+        { "tipo": "opcion", "enunciado": "When you answer a comprehension question, what should you include to prove your answer?", "opciones": ["A short quotation from the text", "Your own story", "A drawing", "Nothing"], "correcta": 0, "explicacion": "Evidence makes your answer convincing." },
+        { "tipo": "opcion", "enunciado": "'Nobody had visited Grandma's cottage for years.' What can you infer about the cottage?", "opciones": ["It is probably empty, dusty and neglected", "It is brand new", "It is full of people", "It is in a city centre"], "correcta": 0, "explicacion": "'For years' suggests it has been abandoned." },
+        { "tipo": "vf", "enunciado": "'Retrieve' means finding information that is stated directly in the text.", "correcta": true, "explicacion": "Infer = work it out from clues." },
+        { "tipo": "vf", "enunciado": "Good writers always tell the reader exactly how a character feels, e.g. 'He was scared.'", "correcta": false, "explicacion": "Good writers show feelings through actions and reactions." },
+        { "tipo": "corta", "enunciado": "'Maya's hands trembled as she reached for the door handle.' How does Maya feel? Give one word.", "claves": ["scared", "afraid", "frightened", "nervous", "terrified", "anxious", "petrified", "fear", "uneasy", "worried"], "minimo": 1, "modelo": "Scared / nervous / frightened – her hands are trembling.", "explicacion": "Trembling hands are a clue to fear." },
+        { "tipo": "corta", "enunciado": "Rewrite 'He was scared' to SHOW the feeling instead of telling it.", "claves": ["heart", "hand", "shak", "trembl", "froze", "sweat", "breath", "knees", "teeth", "legs", "pale", "eyes"], "minimo": 1, "modelo": "e.g. His heart pounded and his knees began to shake.", "explicacion": "Describe the body, actions or speech." }
+      ]
+    },
+    {
+      "id": "setting-five-senses",
+      "titulo": "Setting and writing with the five senses",
+      "resumen": [
+        "## Setting",
+        "The **setting** is **where** and **when** a story takes place, and the **atmosphere** (mood) of that place.",
+        "- **Place**: a haunted mansion, a forest, a cellar.",
+        "- **Time**: midnight, a winter evening, long ago.",
+        "- **Weather and light**: fog, storms, flickering candles, moonlight.",
+        "- **Atmosphere**: tense, eerie, gloomy, threatening.",
+        "",
+        "## The five senses",
+        "Describe what the character can:",
+        "- 👀 **see** – *shadows crawled across the walls*",
+        "- 👂 **hear** – *a floorboard creaked overhead*",
+        "- 👃 **smell** – *the air stank of damp and decay*",
+        "- ✋ **touch / feel** – *the icy handle stung her fingers*",
+        "- 👅 **taste** – *the metallic taste of fear filled his mouth*",
+        "Using the senses puts the reader **inside** the scene."
+      ],
+      "notas": [
+        {
+          "seccion": "Setting",
+          "tarjetas": [
+            { "etiqueta": "📍 Place", "titulo": "Where?", "puntos": ["Haunted **mansion**, **cellar**", "Dark **forest**, **graveyard**"] },
+            { "etiqueta": "🕛 Time", "titulo": "When?", "puntos": ["**Midnight**, a winter **evening**", "Long ago"] },
+            { "etiqueta": "🌫️ Atmosphere", "titulo": "What does it feel like?", "puntos": ["**eerie**, **gloomy**, **tense**", "**threatening**, **sinister**"] }
+          ]
+        },
+        {
+          "seccion": "The five senses",
+          "tarjetas": [
+            { "etiqueta": "👀 Sight", "titulo": "See", "puntos": ["*Shadows crawled across the walls.*"] },
+            { "etiqueta": "👂 Sound", "titulo": "Hear", "puntos": ["*A floorboard creaked overhead.*"] },
+            { "etiqueta": "👃 Smell", "titulo": "Smell", "puntos": ["*The air stank of damp and decay.*"] },
+            { "etiqueta": "✋ Touch", "titulo": "Feel", "puntos": ["*The icy handle stung her fingers.*"] },
+            { "etiqueta": "👅 Taste", "titulo": "Taste", "puntos": ["*The metallic taste of fear filled his mouth.*"] }
+          ]
+        },
+        {
+          "seccion": "Atmosphere words",
+          "chips": { "titulo": "Use these to describe a setting", "items": ["eerie", "gloomy", "sinister", "desolate", "abandoned", "musty", "crumbling", "shadowy", "deserted", "silent", "menacing"] }
+        }
+      ],
+      "tarjetas": [
+        { "p": "Setting", "r": "Where and when a story happens, and its atmosphere" },
+        { "p": "Atmosphere", "r": "The mood or feeling of a place, e.g. eerie, tense" },
+        { "p": "The five senses", "r": "Sight, hearing, smell, touch, taste" },
+        { "p": "'A floorboard creaked overhead.' Which sense?", "r": "Hearing" },
+        { "p": "'The air stank of damp.' Which sense?", "r": "Smell" },
+        { "p": "'The icy handle stung her fingers.' Which sense?", "r": "Touch" },
+        { "p": "Eerie", "r": "Strange and frightening" },
+        { "p": "Desolate", "r": "Empty, bleak and lonely" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "What is the setting of a story?", "opciones": ["Where and when it takes place", "The main character", "The ending", "The title"], "correcta": 0, "explicacion": "It also includes the atmosphere." },
+        { "tipo": "opcion", "enunciado": "'A thick fog crept between the gravestones as the church bell struck midnight.' Where is the story set?", "opciones": ["A graveyard", "A beach", "A school", "A forest"], "correcta": 0, "explicacion": "Gravestones and a church tell us." },
+        { "tipo": "opcion", "enunciado": "In the same sentence, WHEN is it set?", "opciones": ["At midnight", "At noon", "In the morning", "At sunset"], "correcta": 0, "explicacion": "The bell struck midnight." },
+        { "tipo": "opcion", "enunciado": "'A floorboard creaked somewhere above her.' Which sense is used?", "opciones": ["Hearing", "Sight", "Smell", "Taste"], "correcta": 0, "explicacion": "A creak is a sound." },
+        { "tipo": "opcion", "enunciado": "'The room stank of damp and rotting wood.' Which sense is used?", "opciones": ["Smell", "Touch", "Hearing", "Taste"], "correcta": 0, "explicacion": "Stank = a bad smell." },
+        { "tipo": "opcion", "enunciado": "'The stone wall was slimy and freezing under his fingers.' Which sense is used?", "opciones": ["Touch", "Sight", "Hearing", "Smell"], "correcta": 0, "explicacion": "He feels it with his fingers." },
+        { "tipo": "opcion", "enunciado": "'A sour, metallic taste filled her mouth.' Which sense is used?", "opciones": ["Taste", "Smell", "Sight", "Touch"], "correcta": 0, "explicacion": "Writers often use taste to show fear." },
+        { "tipo": "opcion", "enunciado": "'Long shadows stretched across the dusty floor.' Which sense is used?", "opciones": ["Sight", "Hearing", "Taste", "Smell"], "correcta": 0, "explicacion": "We see the shadows." },
+        { "tipo": "opcion", "enunciado": "Why do writers use the five senses in descriptions?", "opciones": ["To put the reader inside the scene", "To make the text shorter", "To list facts", "To explain grammar"], "correcta": 0, "explicacion": "The reader can imagine it vividly." },
+        { "tipo": "opcion", "enunciado": "Which word best describes a scary, strange atmosphere?", "opciones": ["Eerie", "Cheerful", "Sunny", "Cosy"], "correcta": 0, "explicacion": "Eerie = strange and frightening." },
+        { "tipo": "opcion", "enunciado": "What does 'desolate' mean?", "opciones": ["Empty, bleak and lonely", "Busy and noisy", "Warm and friendly", "Brightly lit"], "correcta": 0, "explicacion": "e.g. a desolate moor." },
+        { "tipo": "opcion", "enunciado": "Which sentence creates the most suspenseful setting?", "opciones": ["The abandoned mansion loomed out of the fog, its windows dark and broken.", "The house was big.", "It was a nice day at the park.", "The school was open."], "correcta": 0, "explicacion": "Precise adjectives and a gloomy atmosphere." },
+        { "tipo": "vf", "enunciado": "The setting only means the place, not the time.", "correcta": false, "explicacion": "It includes place, time and atmosphere." },
+        { "tipo": "vf", "enunciado": "'The candle flickered and died.' uses the sense of sight.", "correcta": true, "explicacion": "We see the candle go out." },
+        { "tipo": "corta", "enunciado": "Name the five senses.", "claves": ["sight", "see", "hear", "sound", "smell", "touch", "feel", "taste"], "minimo": 5, "modelo": "Sight, hearing, smell, touch and taste.", "explicacion": "Use as many as you can in descriptive writing." },
+        { "tipo": "corta", "enunciado": "Write a sentence about a haunted house using the sense of SOUND.", "claves": ["creak", "hear", "howl", "whisper", "bang", "scream", "drip", "footstep", "thud", "scratch", "sound", "noise", "echo", "moan"], "minimo": 1, "modelo": "e.g. Somewhere upstairs, a door creaked slowly open.", "explicacion": "Onomatopoeia works well here." }
+      ]
+    },
+    {
+      "id": "nouns-adjectives",
+      "titulo": "Nouns and adjectives",
+      "resumen": [
+        "## Nouns – naming words",
+        "- **Common nouns**: everyday things – *house, door, ghost*.",
+        "- **Proper nouns**: names of particular people, places, days, months – always a **capital letter**: *Sofia, London, Monday, October*.",
+        "- **Abstract nouns**: things you can't see or touch – feelings and ideas: *fear, terror, courage, silence, darkness*.",
+        "- **Collective nouns**: a group – *a flock of birds, a swarm of bees, a pack of wolves*.",
+        "",
+        "## Adjectives – describing words",
+        "Adjectives describe nouns: *the **old**, **creaking** door*. Choose **precise** adjectives: *big* → *enormous, gigantic*; *scary* → *terrifying, sinister*.",
+        "- An **expanded noun phrase** adds detail to a noun: *the crumbling house on the hill*.",
+        "- Use commas between two or more adjectives: *a dark, narrow corridor*.",
+        "- Comparatives and superlatives: *dark → darker → darkest*; *terrifying → more terrifying → most terrifying*."
+      ],
+      "notas": [
+        {
+          "seccion": "Types of noun",
+          "tarjetas": [
+            { "etiqueta": "🏠 Common", "titulo": "Everyday things", "puntos": ["house, door, ghost, candle", "No capital letter"] },
+            { "etiqueta": "🅰️ Proper", "titulo": "Names", "puntos": ["**Sofia**, **London**, **Monday**", "Always a **capital letter**"] },
+            { "etiqueta": "💭 Abstract", "titulo": "Can't touch it", "puntos": ["Feelings and ideas", "**fear**, **terror**, **courage**", "**silence**, **darkness**"] },
+            { "etiqueta": "🐺 Collective", "titulo": "A group", "puntos": ["a **pack** of wolves", "a **swarm** of bees", "a **flock** of birds"] }
+          ]
+        },
+        {
+          "seccion": "Adjectives",
+          "tarjetas": [
+            { "etiqueta": "🎨 Adjective", "titulo": "Describes a noun", "puntos": ["the **old**, **creaking** door", "Comma between adjectives"] },
+            { "etiqueta": "🎯 Be precise", "titulo": "Upgrade your words", "puntos": ["big → **enormous**", "scary → **sinister**, **terrifying**", "dark → **pitch-black**"] },
+            { "etiqueta": "➕ Expanded noun phrase", "titulo": "More detail", "puntos": ["**the crumbling house on the hill**", "adjectives + noun + extra detail"] },
+            { "etiqueta": "📈 Comparing", "titulo": "-er / -est", "puntos": ["dark → dark**er** → dark**est**", "more / most terrifying"] }
+          ]
+        },
+        {
+          "seccion": "Horror adjectives",
+          "chips": { "titulo": "Use these!", "items": ["sinister", "eerie", "gloomy", "crumbling", "decaying", "ghostly", "menacing", "blood-curdling", "spine-chilling", "deserted", "shadowy", "ghastly"] }
+        }
+      ],
+      "tarjetas": [
+        { "p": "Noun", "r": "A naming word for a person, place, thing or idea" },
+        { "p": "Proper noun", "r": "The name of a particular person, place, day or month – capital letter" },
+        { "p": "Abstract noun", "r": "Something you can't see or touch, e.g. fear, courage" },
+        { "p": "Collective noun", "r": "A word for a group, e.g. a pack of wolves" },
+        { "p": "Adjective", "r": "A word that describes a noun" },
+        { "p": "Expanded noun phrase", "r": "A noun with extra detail, e.g. the crumbling house on the hill" },
+        { "p": "A more precise word for 'big'", "r": "Enormous, gigantic, colossal" },
+        { "p": "Superlative of 'dark'", "r": "Darkest" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "Which word is a noun? 'The ghost drifted silently.'", "opciones": ["ghost", "drifted", "silently", "the"], "correcta": 0, "explicacion": "Drifted is a verb, silently an adverb." },
+        { "tipo": "opcion", "enunciado": "Which is a proper noun?", "opciones": ["London", "city", "castle", "darkness"], "correcta": 0, "explicacion": "It names a particular place – capital letter." },
+        { "tipo": "opcion", "enunciado": "Which is an abstract noun?", "opciones": ["fear", "door", "candle", "spider"], "correcta": 0, "explicacion": "You can't see or touch fear." },
+        { "tipo": "opcion", "enunciado": "Which is a collective noun?", "opciones": ["pack (of wolves)", "wolf", "howl", "forest"], "correcta": 0, "explicacion": "A word for a group." },
+        { "tipo": "opcion", "enunciado": "Which word is an adjective? 'The ancient door creaked open.'", "opciones": ["ancient", "door", "creaked", "open"], "correcta": 0, "explicacion": "It describes the door." },
+        { "tipo": "opcion", "enunciado": "How many adjectives are there? 'The cold, dark, silent cellar.'", "opciones": ["3", "1", "2", "4"], "correcta": 0, "explicacion": "Cold, dark and silent describe the cellar." },
+        { "tipo": "opcion", "enunciado": "Which is the most precise adjective for a scary place?", "opciones": ["sinister", "nice", "big", "good"], "correcta": 0, "explicacion": "Sinister suggests evil or danger." },
+        { "tipo": "opcion", "enunciado": "Which is an expanded noun phrase?", "opciones": ["the crumbling house on the hill", "the house", "house", "it ran"], "correcta": 0, "explicacion": "It adds detail before and after the noun." },
+        { "tipo": "opcion", "enunciado": "Which sentence uses commas correctly between adjectives?", "opciones": ["It was a dark, narrow corridor.", "It was a dark narrow, corridor.", "It was, a dark narrow corridor.", "It was a, dark narrow corridor."], "correcta": 0, "explicacion": "Commas go between the adjectives." },
+        { "tipo": "opcion", "enunciado": "Which word needs a capital letter?", "opciones": ["october", "ghost", "midnight", "graveyard"], "correcta": 0, "explicacion": "Months are proper nouns: October." },
+        { "tipo": "opcion", "enunciado": "What is the superlative of 'terrifying'?", "opciones": ["most terrifying", "terrifyingest", "more terrifying", "terrifyinger"], "correcta": 0, "explicacion": "Long adjectives use more / most." },
+        { "tipo": "opcion", "enunciado": "'Silence filled the room.' What type of noun is 'silence'?", "opciones": ["Abstract", "Proper", "Collective", "Common concrete"], "correcta": 0, "explicacion": "You can't touch or see silence." },
+        { "tipo": "vf", "enunciado": "Proper nouns always start with a capital letter.", "correcta": true, "explicacion": "Names, places, days, months." },
+        { "tipo": "vf", "enunciado": "'Courage' is a common concrete noun.", "correcta": false, "explicacion": "It is abstract – a quality, not an object." },
+        { "tipo": "corta", "enunciado": "Write two abstract nouns linked to horror stories.", "claves": ["fear", "terror", "horror", "dread", "panic", "courage", "silence", "darkness", "anxiety", "evil", "death", "danger"], "minimo": 2, "modelo": "e.g. fear, terror, dread, panic, darkness, silence.", "explicacion": "Feelings and ideas." },
+        { "tipo": "corta", "enunciado": "Give a more powerful synonym for the adjective 'scary'.", "claves": ["terrifying", "frightening", "sinister", "eerie", "spine-chilling", "blood-curdling", "horrifying", "creepy", "menacing", "chilling", "petrifying", "ghastly"], "minimo": 1, "modelo": "e.g. terrifying, sinister, spine-chilling, blood-curdling.", "explicacion": "Precise vocabulary gets more marks." }
+      ]
+    },
+    {
+      "id": "vocabulary-synonyms",
+      "titulo": "Vocabulary and synonyms",
+      "resumen": [
+        "A **synonym** is a word with the **same or similar meaning**: *scared – frightened – terrified*. An **antonym** has the **opposite** meaning: *dark – light*.",
+        "Using **precise vocabulary** makes writing more powerful.",
+        "",
+        "## Useful horror word banks",
+        "- **scared**: frightened, terrified, petrified, horrified, uneasy",
+        "- **dark**: gloomy, shadowy, pitch-black, murky, dim",
+        "- **walked**: crept, tiptoed, staggered, crawled, stumbled",
+        "- **said**: whispered, muttered, screamed, gasped, stammered",
+        "- **looked**: stared, peered, glanced, glared",
+        "- **old**: ancient, crumbling, decaying, derelict",
+        "- **big**: enormous, gigantic, towering, colossal",
+        "- **noise**: creak, thud, howl, shriek, rustle",
+        "",
+        "## Working out meanings",
+        "Use **context** (the words around it), the **root word** and **prefixes/suffixes**: *un-*, *dis-* (opposites), *-less* (without), *-ful* (full of)."
+      ],
+      "notas": [
+        {
+          "seccion": "Synonyms and antonyms",
+          "tarjetas": [
+            { "etiqueta": "🟰 Synonym", "titulo": "Same / similar meaning", "puntos": ["scared → **terrified**", "dark → **gloomy**"] },
+            { "etiqueta": "↔️ Antonym", "titulo": "Opposite meaning", "puntos": ["dark ↔ **light**", "brave ↔ **cowardly**"] },
+            { "etiqueta": "🧩 Context", "titulo": "Work out new words", "puntos": ["Read the words **around** it", "Look at the **root** word", "Prefix **un-**/**dis-** = not; **-less** = without"] }
+          ]
+        },
+        {
+          "seccion": "Word banks",
+          "chips": { "titulo": "Instead of 'walked'", "items": ["crept", "tiptoed", "staggered", "crawled", "stumbled", "edged", "fled"] }
+        },
+        {
+          "chips": { "titulo": "Instead of 'said'", "items": ["whispered", "muttered", "screamed", "gasped", "stammered", "shrieked", "hissed"] }
+        },
+        {
+          "chips": { "titulo": "Instead of 'looked'", "items": ["stared", "peered", "glanced", "glared", "gazed", "squinted"] }
+        },
+        {
+          "chips": { "titulo": "Instead of 'dark' / 'old'", "items": ["gloomy", "shadowy", "pitch-black", "murky", "ancient", "crumbling", "decaying", "derelict"] }
+        }
+      ],
+      "tarjetas": [
+        { "p": "Synonym", "r": "A word with the same or similar meaning" },
+        { "p": "Antonym", "r": "A word with the opposite meaning" },
+        { "p": "Synonym for 'walked' quietly", "r": "Crept / tiptoed" },
+        { "p": "Synonym for 'said' quietly", "r": "Whispered / muttered" },
+        { "p": "Synonym for 'looked' closely", "r": "Peered / stared" },
+        { "p": "Derelict", "r": "Abandoned and falling apart" },
+        { "p": "Murky", "r": "Dark and dirty, hard to see through" },
+        { "p": "Prefix 'un-'", "r": "Means 'not', e.g. unlocked, unknown" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "What is a synonym?", "opciones": ["A word with the same or similar meaning", "A word with the opposite meaning", "A naming word", "A sound word"], "correcta": 0, "explicacion": "An antonym is the opposite." },
+        { "tipo": "opcion", "enunciado": "Which is a synonym for 'terrified'?", "opciones": ["petrified", "calm", "relaxed", "bored"], "correcta": 0, "explicacion": "Both mean extremely scared." },
+        { "tipo": "opcion", "enunciado": "Which is an antonym of 'brave'?", "opciones": ["cowardly", "bold", "fearless", "daring"], "correcta": 0, "explicacion": "Bold, fearless and daring are synonyms." },
+        { "tipo": "opcion", "enunciado": "Which word best replaces 'walked' to show someone moving very quietly?", "opciones": ["tiptoed", "stomped", "marched", "ran"], "correcta": 0, "explicacion": "Tiptoed = walked softly on your toes." },
+        { "tipo": "opcion", "enunciado": "Which word best replaces 'said' when someone speaks very quietly?", "opciones": ["whispered", "screamed", "shouted", "roared"], "correcta": 0, "explicacion": "Also: muttered." },
+        { "tipo": "opcion", "enunciado": "Which word best replaces 'looked' when someone looks closely through a small gap?", "opciones": ["peered", "glanced", "ignored", "blinked"], "correcta": 0, "explicacion": "Glanced = a quick look." },
+        { "tipo": "opcion", "enunciado": "Which is a synonym for 'dark'?", "opciones": ["gloomy", "bright", "sunny", "dazzling"], "correcta": 0, "explicacion": "Also: shadowy, murky, pitch-black." },
+        { "tipo": "opcion", "enunciado": "'The derelict factory had been empty for decades.' What does 'derelict' mean?", "opciones": ["Abandoned and falling apart", "Brand new", "Busy and noisy", "Painted bright colours"], "correcta": 0, "explicacion": "The context 'empty for decades' helps." },
+        { "tipo": "opcion", "enunciado": "'Mist rose from the murky water of the lake.' What does 'murky' mean?", "opciones": ["Dark and hard to see through", "Crystal clear", "Hot", "Shallow"], "correcta": 0, "explicacion": "Murky = dark and dirty." },
+        { "tipo": "opcion", "enunciado": "What does the prefix 'un-' mean in 'unlocked'?", "opciones": ["not", "again", "before", "full of"], "correcta": 0, "explicacion": "Unlocked = not locked." },
+        { "tipo": "opcion", "enunciado": "What does the suffix '-less' mean in 'fearless'?", "opciones": ["without", "full of", "again", "very"], "correcta": 0, "explicacion": "Fearless = without fear." },
+        { "tipo": "opcion", "enunciado": "Which word is a synonym for 'old'?", "opciones": ["ancient", "modern", "new", "fresh"], "correcta": 0, "explicacion": "Also: crumbling, decaying." },
+        { "tipo": "vf", "enunciado": "'Enormous' and 'gigantic' are synonyms.", "correcta": true, "explicacion": "Both mean very big." },
+        { "tipo": "vf", "enunciado": "'Whispered' and 'screamed' are synonyms.", "correcta": false, "explicacion": "They are opposites in volume." },
+        { "tipo": "corta", "enunciado": "Give two synonyms for 'scared'.", "claves": ["frightened", "terrified", "petrified", "afraid", "horrified", "fearful", "nervous", "anxious", "alarmed", "uneasy", "spooked"], "minimo": 2, "modelo": "e.g. frightened, terrified, petrified, horrified.", "explicacion": "Choose the strongest for horror writing." },
+        { "tipo": "corta", "enunciado": "Give a synonym for 'looked'.", "claves": ["stared", "peered", "glanced", "glared", "gazed", "squinted", "watched", "observed", "peeked"], "minimo": 1, "modelo": "e.g. stared, peered, glanced, glared.", "explicacion": "Each shows a different way of looking." }
+      ]
+    },
+    {
+      "id": "sentences-conjunctions",
+      "titulo": "Sentences, conjunctions and subordinate clauses",
+      "resumen": [
+        "## Clauses",
+        "A **clause** is a group of words with a **subject** and a **verb**. A **main clause** makes sense on its own.",
+        "",
+        "## Three types of sentence",
+        "- **Simple**: one main clause – *The door creaked.*",
+        "- **Compound**: two main clauses joined by a **co-ordinating conjunction** (**FANBOYS**: for, and, nor, but, or, yet, so) – *The door creaked **and** the candle went out.*",
+        "- **Complex (multi-clause)**: a main clause + a **subordinate clause** – *The candle went out **when** the door creaked.*",
+        "",
+        "## Subordinating conjunctions – I SAW A WABUB!",
+        "**I**f, **S**ince, **A**s, **W**hen, **A**lthough, **W**hile, **A**fter, **B**efore, **U**ntil, **B**ecause.",
+        "- A subordinating conjunction is the **first word** of a subordinate clause.",
+        "- A **subordinate clause** does **not make sense on its own**, but always has a subject and a verb (*after she smiled* ✓; *after Christmas* ✗ – no verb, so 'after' is a preposition).",
+        "- If the subordinate clause comes **first**, put a **comma** after it: ***When the bell rang**, the pupils sped into school.*"
+      ],
+      "notas": [
+        {
+          "seccion": "Types of sentence",
+          "tarjetas": [
+            { "etiqueta": "1️⃣ Simple", "titulo": "One main clause", "puntos": ["*The door creaked.*", "One subject + one verb"] },
+            { "etiqueta": "➕ Compound", "titulo": "Two main clauses", "puntos": ["Joined by **FANBOYS**", "*The door creaked **and** the candle died.*", "Both halves make sense alone"] },
+            { "etiqueta": "🔗 Complex", "titulo": "Main + subordinate", "puntos": ["*The candle died **when** the door creaked.*", "Also called **multi-clause**"] }
+          ]
+        },
+        {
+          "seccion": "Conjunctions",
+          "chips": { "titulo": "FANBOYS – co-ordinating", "items": ["**F**or", "**A**nd", "**N**or", "**B**ut", "**O**r", "**Y**et", "**S**o"] }
+        },
+        {
+          "chips": { "titulo": "I SAW A WABUB! – subordinating", "items": ["**I**f", "**S**ince", "**A**s", "**W**hen", "**A**lthough", "**W**hile", "**A**fter", "**B**efore", "**U**ntil", "**B**ecause"] }
+        },
+        {
+          "seccion": "Subordinate clauses",
+          "tarjetas": [
+            { "etiqueta": "🧩 Needs help", "titulo": "Doesn't make sense alone", "puntos": ["*because it was ravenous* …?", "Needs a **main clause**"] },
+            { "etiqueta": "🔤 Subject + verb", "titulo": "Always has both", "puntos": ["*after **she smiled*** ✔ clause", "*after Christmas* ✘ (preposition)"] },
+            { "etiqueta": "， Comma rule", "titulo": "Subordinate clause first?", "puntos": ["***When the bell rang**, the pupils ran in.*", "Comma where the subordinate clause **ends**", "No comma needed if it comes second"] }
+          ]
+        }
+      ],
+      "tarjetas": [
+        { "p": "Clause", "r": "A group of words with a subject and a verb" },
+        { "p": "Simple sentence", "r": "One main clause" },
+        { "p": "Compound sentence", "r": "Two main clauses joined by a co-ordinating conjunction (FANBOYS)" },
+        { "p": "Complex sentence", "r": "A main clause + a subordinate clause" },
+        { "p": "FANBOYS", "r": "For, And, Nor, But, Or, Yet, So" },
+        { "p": "I SAW A WABUB!", "r": "If, Since, As, When, Although, While, After, Before, Until, Because" },
+        { "p": "Subordinate clause", "r": "A clause that doesn't make sense on its own; starts with a subordinating conjunction" },
+        { "p": "When do you need a comma in a complex sentence?", "r": "When the subordinate clause comes first" },
+        { "p": "'after Christmas' – is it a subordinate clause?", "r": "No – there is no verb; 'after' is a preposition" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "What type of sentence is 'The wolf howled.'?", "opciones": ["Simple", "Compound", "Complex", "Question"], "correcta": 0, "explicacion": "One main clause." },
+        { "tipo": "opcion", "enunciado": "What type of sentence is 'The wolf howled and the children ran.'?", "opciones": ["Compound", "Simple", "Complex", "Command"], "correcta": 0, "explicacion": "Two main clauses joined by 'and'." },
+        { "tipo": "opcion", "enunciado": "What type of sentence is 'The children ran because the wolf howled.'?", "opciones": ["Complex", "Simple", "Compound", "Exclamation"], "correcta": 0, "explicacion": "'because the wolf howled' is a subordinate clause." },
+        { "tipo": "opcion", "enunciado": "Which is a co-ordinating conjunction (FANBOYS)?", "opciones": ["but", "because", "although", "when"], "correcta": 0, "explicacion": "The others are subordinating." },
+        { "tipo": "opcion", "enunciado": "Which is a subordinating conjunction (I SAW A WABUB)?", "opciones": ["although", "and", "or", "so"], "correcta": 0, "explicacion": "And, or, so are FANBOYS." },
+        { "tipo": "opcion", "enunciado": "What does the 'U' in I SAW A WABUB stand for?", "opciones": ["Until", "Unless", "Under", "Up"], "correcta": 0, "explicacion": "If, Since, As, When, Although, While, After, Before, Until, Because." },
+        { "tipo": "opcion", "enunciado": "Find the subordinate clause: 'The eager pupils sped into school when the bell rang.'", "opciones": ["when the bell rang", "The eager pupils", "sped into school", "The eager pupils sped into school"], "correcta": 0, "explicacion": "It starts with the subordinating conjunction 'when'." },
+        { "tipo": "opcion", "enunciado": "Find the subordinating conjunction: 'Whales give birth to live young as they are mammals.'", "opciones": ["as", "give", "they", "to"], "correcta": 0, "explicacion": "'as they are mammals' gives the reason." },
+        { "tipo": "opcion", "enunciado": "Which sentence is punctuated correctly?", "opciones": ["When the bell rang, the pupils sped into school.", "When the bell rang the pupils, sped into school.", "When, the bell rang the pupils sped into school.", "When the bell, rang the pupils sped into school."], "correcta": 0, "explicacion": "The comma goes where the subordinate clause ends." },
+        { "tipo": "opcion", "enunciado": "Which of these is a subordinate clause?", "opciones": ["after she smiled", "after Christmas", "the dark forest", "very quietly"], "correcta": 0, "explicacion": "It has a subject (she) and a verb (smiled)." },
+        { "tipo": "opcion", "enunciado": "Choose the best conjunction: '___ he was thrown from his saddle, Henry was wary of riding his horse.'", "opciones": ["Since", "And", "But", "Or"], "correcta": 0, "explicacion": "'After' would also work." },
+        { "tipo": "opcion", "enunciado": "Choose the best conjunction: 'The rugby team lost the game ___ they hadn't trained.'", "opciones": ["because", "although", "until", "or"], "correcta": 0, "explicacion": "It gives the reason." },
+        { "tipo": "opcion", "enunciado": "Choose the best conjunction: '___ it was expensive, the couple enjoyed their meal.'", "opciones": ["Although", "Because", "So", "And"], "correcta": 0, "explicacion": "Although shows a contrast." },
+        { "tipo": "vf", "enunciado": "A subordinate clause makes sense on its own.", "correcta": false, "explicacion": "It needs a main clause." },
+        { "tipo": "vf", "enunciado": "A compound sentence is made of two main clauses.", "correcta": true, "explicacion": "Joined by a FANBOYS conjunction." },
+        { "tipo": "corta", "enunciado": "Write the ten subordinating conjunctions in I SAW A WABUB!", "claves": ["if", "since", "as", "when", "although", "while", "after", "before", "until", "because"], "minimo": 8, "modelo": "If, Since, As, When, Although, While, After, Before, Until, Because.", "explicacion": "At least 8 to count as correct." },
+        { "tipo": "corta", "enunciado": "Write a complex sentence about a haunted house that STARTS with 'Although'.", "claves": ["although", ","], "minimo": 2, "modelo": "e.g. Although she was terrified, Ella pushed open the creaking door.", "explicacion": "Remember the comma after the subordinate clause." }
+      ]
+    },
+    {
+      "id": "spag",
+      "titulo": "Spelling, punctuation and grammar (SPaG)",
+      "resumen": [
+        "## Punctuation",
+        "- **Capital letters**: start of a sentence, names (proper nouns), 'I'.",
+        "- **Full stop** . at the end of a statement · **question mark** ? · **exclamation mark** ! for shock or surprise.",
+        "- **Commas**: in lists, after a subordinate clause at the start, between adjectives.",
+        "- **Apostrophes**: **contraction** (missing letters: *don't = do not*, *it's = it is*) and **possession** (belonging: *the ghost's chain*; plural *the ghosts' chains*).",
+        "- **Speech marks** \"…\": around the words spoken; new speaker = new line; punctuation goes **inside**: *\"Who's there?\" she whispered.*",
+        "- **Ellipsis** … for suspense.",
+        "",
+        "## Tricky spellings",
+        "- **their** (belongs to them) / **there** (place) / **they're** (they are)",
+        "- **its** (belongs to it) / **it's** (it is)",
+        "- **your** / **you're** (you are) · **where** / **were** / **wear** · **to** / **too** / **two**",
+        "",
+        "## Grammar",
+        "Keep the same **tense** (stories are usually in the **past tense**). Paragraph when the **time, place, topic or speaker** changes (**TiPToP**)."
+      ],
+      "notas": [
+        {
+          "seccion": "Punctuation",
+          "tarjetas": [
+            { "etiqueta": "🔠 Capitals", "titulo": "When?", "puntos": ["Start of a **sentence**", "**Names**, places, days", "The word **I**"] },
+            { "etiqueta": "❗ End marks", "titulo": ". ? !", "puntos": ["**.** statement", "**?** question", "**!** shock or surprise"] },
+            { "etiqueta": "， Commas", "titulo": "Three uses", "puntos": ["**Lists**: cold, dark and silent", "After a subordinate clause at the **start**", "Between **adjectives**"] }
+          ]
+        },
+        {
+          "seccion": "Apostrophes and speech",
+          "tarjetas": [
+            { "etiqueta": "✂️ Contraction", "titulo": "Missing letters", "puntos": ["**don't** = do not", "**it's** = it is", "**couldn't** = could not"] },
+            { "etiqueta": "👻 Possession", "titulo": "Belonging", "puntos": ["the **ghost's** chain (one ghost)", "the **ghosts'** chains (many)", "**its** has NO apostrophe for belonging"] },
+            { "etiqueta": "💬 Speech marks", "titulo": "\"Who's there?\" she whispered.", "puntos": ["Around the **spoken words**", "Punctuation **inside** the marks", "New speaker = **new line**"] }
+          ]
+        },
+        {
+          "seccion": "Tricky spellings",
+          "chips": { "titulo": "Homophones", "items": ["**their** = belongs to them", "**there** = a place", "**they're** = they are", "**its** = belongs to it", "**it's** = it is", "**your** / **you're**", "**where** / **were** / **wear**", "**to** / **too** / **two**"] }
+        },
+        {
+          "seccion": "Paragraphs",
+          "chips": { "titulo": "TiPToP – new paragraph when…", "items": ["**Ti**me changes", "**P**lace changes", "**To**pic changes", "**P**erson speaking changes"] }
+        }
+      ],
+      "tarjetas": [
+        { "p": "Contraction apostrophe", "r": "Shows missing letters, e.g. don't = do not" },
+        { "p": "Possessive apostrophe", "r": "Shows belonging, e.g. the ghost's chain" },
+        { "p": "its or it's: 'The house lost ___ roof.'", "r": "its (belongs to it)" },
+        { "p": "their / there / they're", "r": "belongs to them / a place / they are" },
+        { "p": "Where does punctuation go with speech marks?", "r": "Inside the speech marks" },
+        { "p": "TiPToP", "r": "New paragraph for a change of Time, Place, Topic or Person speaking" },
+        { "p": "Which tense are most stories written in?", "r": "The past tense" },
+        { "p": "Exclamation mark", "r": "Shows shock, surprise or strong feeling" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "Which sentence is correct?", "opciones": ["They're hiding over there.", "Their hiding over they're.", "There hiding over their.", "They're hiding over their."], "correcta": 0, "explicacion": "They're = they are; there = place." },
+        { "tipo": "opcion", "enunciado": "Choose the correct word: 'The old house had lost ___ roof.'", "opciones": ["its", "it's", "its'", "it is"], "correcta": 0, "explicacion": "Its (no apostrophe) = belonging to it." },
+        { "tipo": "opcion", "enunciado": "Choose the correct word: '___ getting dark – we should go home.'", "opciones": ["It's", "Its", "Its'", "It"], "correcta": 0, "explicacion": "It's = it is." },
+        { "tipo": "opcion", "enunciado": "Which word uses an apostrophe for possession?", "opciones": ["the ghost's chain", "don't", "can't", "it's late"], "correcta": 0, "explicacion": "The chain belongs to the ghost." },
+        { "tipo": "opcion", "enunciado": "What is the contraction of 'could not'?", "opciones": ["couldn't", "could'nt", "coul'dnt", "couldnt'"], "correcta": 0, "explicacion": "The apostrophe replaces the missing 'o'." },
+        { "tipo": "opcion", "enunciado": "Which is punctuated correctly?", "opciones": ["\"Who's there?\" she whispered.", "\"Who's there\"? she whispered.", "Who's there? \"she whispered.\"", "\"Who's there? she whispered.\""], "correcta": 0, "explicacion": "The question mark goes inside the speech marks." },
+        { "tipo": "opcion", "enunciado": "Which sentence needs an exclamation mark?", "opciones": ["Run, it's coming", "The door was brown", "She went to bed", "It was Tuesday"], "correcta": 0, "explicacion": "It shows urgency and fear." },
+        { "tipo": "opcion", "enunciado": "Which word needs a capital letter? 'on friday, sofia visited the castle.'", "opciones": ["on, friday and sofia", "castle", "visited", "the"], "correcta": 0, "explicacion": "Start of the sentence, a day and a name." },
+        { "tipo": "opcion", "enunciado": "Which sentence uses commas correctly in a list?", "opciones": ["The cellar was cold, damp and silent.", "The cellar was cold damp, and silent.", "The cellar, was cold damp and silent.", "The cellar was, cold, damp, and, silent."], "correcta": 0, "explicacion": "Commas between items; 'and' before the last one." },
+        { "tipo": "opcion", "enunciado": "Choose the correct word: 'I can see a light over ___.'", "opciones": ["there", "their", "they're", "the're"], "correcta": 0, "explicacion": "There = a place." },
+        { "tipo": "opcion", "enunciado": "Which sentence stays in the past tense?", "opciones": ["She opened the door and screamed.", "She opens the door and screamed.", "She opened the door and screams.", "She open the door and scream."], "correcta": 0, "explicacion": "Don't switch tenses in the middle." },
+        { "tipo": "opcion", "enunciado": "When should you start a new paragraph?", "opciones": ["When the time, place, topic or speaker changes", "After every sentence", "Only at the end", "Every five words"], "correcta": 0, "explicacion": "Remember TiPToP." },
+        { "tipo": "opcion", "enunciado": "Which word is spelled correctly?", "opciones": ["definitely", "definately", "defenitely", "definitly"], "correcta": 0, "explicacion": "There is 'finite' inside definitely." },
+        { "tipo": "vf", "enunciado": "'Its' with no apostrophe shows that something belongs to it.", "correcta": true, "explicacion": "It's (with apostrophe) = it is." },
+        { "tipo": "vf", "enunciado": "In speech, punctuation goes outside the speech marks.", "correcta": false, "explicacion": "It goes inside: \"Help!\" he cried." },
+        { "tipo": "corta", "enunciado": "Write the contraction of 'do not'.", "claves": ["don't", "dont"], "modelo": "don't", "explicacion": "The apostrophe replaces the missing 'o'." },
+        { "tipo": "corta", "enunciado": "What do the letters of TiPToP stand for?", "claves": ["time", "place", "topic", "person", "speaker"], "minimo": 4, "modelo": "Time, Place, Topic, Person (speaker) – reasons to start a new paragraph.", "explicacion": "Use it when writing your story." }
+      ]
+    }
+  ]
+}
