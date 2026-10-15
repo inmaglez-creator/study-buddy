@@ -1,1 +1,1389 @@
-{ "temas": [] }
+{
+  "temas": [
+    {
+      "id": "python-idle-print",
+      "titulo": "Python 1 · IDLE, print() and errors",
+      "resumen": [
+        "**Python** is a text-based programming language: you type real code instead of dragging blocks like in Scratch.",
+        "",
+        "## IDLE Python",
+        "- The **Shell** window shows the output (and lets you type answers).",
+        "- Always write your code in a new **Editor** window: **File → New File**.",
+        "- To run it press **F5** or **Run → Run Module**. The output appears in the Shell.",
+        "",
+        "## print()",
+        "print(\"Hello World\") displays Hello World.",
+        "- **print** is written with a lower-case **p**.",
+        "- The text goes inside **brackets ( )** and **speech marks**.",
+        "- You can use single ' ' or double \" \" speech marks, but you **must not mix them** on the same text.",
+        "",
+        "## Most common errors",
+        "- 'Print' is not defined → you used a capital **P**.",
+        "- Invalid syntax → no speech marks, or speech marks missing on one side.",
+        "- EOL while scanning string literal → single speech mark on one side and double on the other.",
+        "- Missing parentheses in call to 'print' → no brackets, or a closing bracket without an opening one.",
+        "- Unexpected EOF while parsing → opening bracket but no closing bracket."
+      ],
+      "notas": [
+        {
+          "seccion": "What is Python?",
+          "tarjetas": [
+            {
+              "etiqueta": "🐍 Python",
+              "titulo": "A text-based language",
+              "puntos": [
+                "You **type** real code",
+                "Scratch: you **drag and drop** blocks",
+                "Straightforward and fairly easy to learn"
+              ]
+            },
+            {
+              "etiqueta": "💻 IDLE",
+              "titulo": "Where we write Python",
+              "puntos": [
+                "Search for **IDLE Python** on the computer",
+                "Used by beginners **and** professionals"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Shell and Editor",
+          "tarjetas": [
+            {
+              "etiqueta": "🖥️ Shell",
+              "titulo": "Shows the output",
+              "puntos": [
+                "The window that opens first",
+                "Results of your program appear here",
+                "You type your answers to input() here"
+              ]
+            },
+            {
+              "etiqueta": "📝 Editor",
+              "titulo": "Where you write code",
+              "puntos": [
+                "**File → New File**",
+                "Write all your code here",
+                "Save it in your *python* folder"
+              ]
+            },
+            {
+              "etiqueta": "▶️ Run",
+              "titulo": "See the result",
+              "puntos": [
+                "Press **F5**",
+                "or **Run → Run Module**",
+                "Output appears in the **Shell**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "print()",
+          "tarjetas": [
+            {
+              "etiqueta": "✅ Correct",
+              "titulo": "print(\"Hello World\")",
+              "puntos": [
+                "Lower-case **p**",
+                "**Brackets** ( ) around the text",
+                "**Speech marks** at both ends"
+              ]
+            },
+            {
+              "etiqueta": "💬 Speech marks",
+              "titulo": "' ' or \" \"",
+              "puntos": [
+                "print('Hello') ✔",
+                "print(\"Hello\") ✔",
+                "print('Hello\") ✘ – don't mix them!"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Most common errors",
+          "tarjetas": [
+            {
+              "etiqueta": "🅿️ 'Print' is not defined",
+              "titulo": "Capital P",
+              "puntos": [
+                "Print(\"Hi\") ✘",
+                "Use a lower-case **p**"
+              ]
+            },
+            {
+              "etiqueta": "❌ Invalid syntax",
+              "titulo": "Speech marks missing",
+              "puntos": [
+                "No speech marks at all",
+                "or missing on one side"
+              ]
+            },
+            {
+              "etiqueta": "🔀 EOL while scanning…",
+              "titulo": "Mixed speech marks",
+              "puntos": [
+                "Single ' on one side",
+                "Double \" on the other"
+              ]
+            },
+            {
+              "etiqueta": "( ) Missing parentheses…",
+              "titulo": "Brackets missing",
+              "puntos": [
+                "No brackets: print \"Hi\"",
+                "or closing bracket but no opening one"
+              ]
+            },
+            {
+              "etiqueta": "🔚 Unexpected EOF…",
+              "titulo": "Bracket not closed",
+              "puntos": [
+                "Opening bracket used",
+                "but no closing bracket"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is Python?",
+          "r": "A text-based computer programming language"
+        },
+        {
+          "p": "What is the difference between Python and Scratch?",
+          "r": "In Python you type code; in Scratch you drag and drop blocks"
+        },
+        {
+          "p": "Which window shows the output?",
+          "r": "The Shell"
+        },
+        {
+          "p": "How do you open a window to write your code?",
+          "r": "File → New File"
+        },
+        {
+          "p": "How do you run a program in IDLE?",
+          "r": "Press F5 or Run → Run Module"
+        },
+        {
+          "p": "What does print() do?",
+          "r": "It displays (outputs) a message on the screen"
+        },
+        {
+          "p": "Error: 'Print' is not defined",
+          "r": "You used a capital P instead of a lower-case p"
+        },
+        {
+          "p": "Error: EOL while scanning string literal",
+          "r": "A single speech mark on one side and a double on the other"
+        },
+        {
+          "p": "Error: Unexpected EOF while parsing",
+          "r": "An opening bracket but no closing bracket"
+        },
+        {
+          "p": "Error: Missing parentheses in call to 'print'",
+          "r": "No brackets (or a closing bracket without an opening one)"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is Python?",
+          "opciones": [
+            "A text-based programming language",
+            "A drag-and-drop block language",
+            "A type of computer",
+            "A web browser"
+          ],
+          "correcta": 0,
+          "explicacion": "Scratch is the drag-and-drop one."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How is Python different from Scratch?",
+          "opciones": [
+            "In Python you type the code",
+            "Python only works on tablets",
+            "In Python you drag blocks",
+            "Python has no errors"
+          ],
+          "correcta": 0,
+          "explicacion": "Python uses real typed code."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In IDLE, which window shows the output of your program?",
+          "opciones": [
+            "The Shell",
+            "The Editor",
+            "The File menu",
+            "The Run menu"
+          ],
+          "correcta": 0,
+          "explicacion": "You write in the Editor and see results in the Shell."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you open a new window to write your code?",
+          "opciones": [
+            "File → New File",
+            "Run → Run Module",
+            "Edit → Copy",
+            "Press F1"
+          ],
+          "correcta": 0,
+          "explicacion": "All your code is written in the new file."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which key runs your program in IDLE?",
+          "opciones": [
+            "F5",
+            "F1",
+            "Enter",
+            "Esc"
+          ],
+          "correcta": 0,
+          "explicacion": "Or click Run → Run Module."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which line of code is correct?",
+          "opciones": [
+            "print(\"Hello World\")",
+            "Print(\"Hello World\")",
+            "print \"Hello World\"",
+            "print(Hello World)"
+          ],
+          "correcta": 0,
+          "explicacion": "Lower-case p, brackets and speech marks."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What will print('Hello World') display?",
+          "opciones": [
+            "Hello World",
+            "'Hello World'",
+            "print('Hello World')",
+            "An error"
+          ],
+          "correcta": 0,
+          "explicacion": "Single speech marks work too; they are not displayed."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "You type Print(\"Hello World\"). Which error appears?",
+          "opciones": [
+            "'Print' is not defined",
+            "Invalid syntax",
+            "Unexpected EOF while parsing",
+            "Nothing, it works"
+          ],
+          "correcta": 0,
+          "explicacion": "print must have a lower-case p."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "You type print('Hello World\"). What is wrong?",
+          "opciones": [
+            "The speech marks are mixed",
+            "The p should be a capital",
+            "There are no brackets",
+            "Nothing"
+          ],
+          "correcta": 0,
+          "explicacion": "The error is 'EOL while scanning string literal'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Unexpected EOF while parsing' mean?",
+          "opciones": [
+            "You opened a bracket but didn't close it",
+            "You used a capital P",
+            "You used no speech marks",
+            "The program is too long"
+          ],
+          "correcta": 0,
+          "explicacion": "EOF = end of file: Python reached the end still waiting for )."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "You type print \"Hello World\" (no brackets). Which error appears?",
+          "opciones": [
+            "Missing parentheses in call to 'print'",
+            "'Print' is not defined",
+            "EOL while scanning string literal",
+            "Unexpected EOF while parsing"
+          ],
+          "correcta": 0,
+          "explicacion": "Parentheses = brackets."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "You type print(Hello World) with no speech marks. Which error appears?",
+          "opciones": [
+            "Invalid syntax",
+            "'Print' is not defined",
+            "Unexpected EOF while parsing",
+            "No error"
+          ],
+          "correcta": 0,
+          "explicacion": "Text must be inside speech marks."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In Python you can use single or double speech marks, as long as you don't mix them.",
+          "correcta": true,
+          "explicacion": "Start and finish with the same kind."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "You should write your code directly in the Shell window.",
+          "correcta": false,
+          "explicacion": "Write it in a new file (File → New File), then run it."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which program outputs the name of a football team?",
+          "opciones": [
+            "print(\"Real Madrid\")",
+            "print(Real Madrid)",
+            "Print(\"Real Madrid\")",
+            "print(\"Real Madrid')"
+          ],
+          "correcta": 0,
+          "explicacion": "Lower-case p, brackets and matching speech marks."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write the Python code to display: Hello World",
+          "claves": [
+            "print",
+            "hello world"
+          ],
+          "minimo": 2,
+          "modelo": "print(\"Hello World\")",
+          "explicacion": "Remember: lower-case p, brackets and speech marks."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name the two ways to run a program in IDLE.",
+          "claves": [
+            "f5",
+            "run module"
+          ],
+          "minimo": 2,
+          "modelo": "Press F5, or click Run → Run Module.",
+          "explicacion": "The output appears in the Shell."
+        }
+      ]
+    },
+    {
+      "id": "python-variables",
+      "titulo": "Python 2 · New lines and variables",
+      "resumen": [
+        "## Printing on new lines",
+        "Each print() starts a new line. You can also use **\\n** (backslash n) inside the text to start a new line: print('I live at\\n123 Little House\\nThe Big Town').",
+        "⚠️ It must be a **backslash \\**. With a forward slash **/n** Python just prints the characters /n.",
+        "",
+        "## Variables and values",
+        "A **variable** is a named box that stores a **value**: forename=\"Sam\". forename is the variable, \"Sam\" is the value. print(forename) displays Sam (no speech marks around a variable!).",
+        "- **+** joins text with nothing in between: print(forename+surname) → SamSmith.",
+        "- Add a space: print(colour+\" \"+animal) → brown dog.",
+        "- A **comma** adds a space automatically: print(colour, item) → red shirt.",
+        "- Variable names are **case sensitive**: Forename and forename are different.",
+        "",
+        "## Rules for naming variables",
+        "1. Choose a **sensible** name. 2. **No spaces**. 3. For two or more words, start the first word with a lower-case letter and the next words with a capital: **firstName**, **favouriteColour**."
+      ],
+      "notas": [
+        {
+          "seccion": "New lines",
+          "tarjetas": [
+            {
+              "etiqueta": "↩️ One print per line",
+              "titulo": "Several print()",
+              "puntos": [
+                "print('I live at')",
+                "print('123 Little House')",
+                "Each print() → a new line"
+              ]
+            },
+            {
+              "etiqueta": "\\n Backslash n",
+              "titulo": "New line inside the text",
+              "puntos": [
+                "print('Line 1**\\n**Line 2')",
+                "Line 1 and Line 2 on separate lines",
+                "Use the **backslash \\**"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ / or \\ ?",
+              "titulo": "Forward slash doesn't work",
+              "puntos": [
+                "'/n' just prints **/n** on the screen",
+                "Only **\\n** makes a new line"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Variables and values",
+          "tarjetas": [
+            {
+              "etiqueta": "📦 Variable",
+              "titulo": "A named box",
+              "puntos": [
+                "**forename**=\"Sam\"",
+                "forename is the **variable**",
+                "\"Sam\" is the **value**"
+              ]
+            },
+            {
+              "etiqueta": "🖨️ Printing it",
+              "titulo": "No speech marks!",
+              "puntos": [
+                "print(forename) → **Sam**",
+                "print(\"forename\") → **forename**"
+              ]
+            },
+            {
+              "etiqueta": "🔠 Case sensitive",
+              "titulo": "F ≠ f",
+              "puntos": [
+                "**Forename** and **forename** are different",
+                "Use exactly the same name every time"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Joining text",
+          "tarjetas": [
+            {
+              "etiqueta": "➕ Plus",
+              "titulo": "Joins with no space",
+              "puntos": [
+                "print(forename+surname)",
+                "→ **SamSmith**"
+              ]
+            },
+            {
+              "etiqueta": "➕\" \"➕ Add a space",
+              "titulo": "Put a space in the middle",
+              "puntos": [
+                "print(colour+\" \"+animal)",
+                "→ **brown dog**"
+              ]
+            },
+            {
+              "etiqueta": ", Comma",
+              "titulo": "Adds a space for you",
+              "puntos": [
+                "print(colour, item)",
+                "→ **red shirt**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Naming variables",
+          "chips": {
+            "titulo": "Three rules",
+            "items": [
+              "1️⃣ Choose a **sensible** name",
+              "2️⃣ **No spaces**",
+              "3️⃣ Two words → **firstName** (small letter, then capital)",
+              "✔ favouriteColour",
+              "✘ favourite colour",
+              "✘ x"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "How do you start a new line inside printed text?",
+          "r": "\\n (backslash n)"
+        },
+        {
+          "p": "What does '/n' (forward slash) do?",
+          "r": "Nothing special – it just prints /n"
+        },
+        {
+          "p": "What is a variable?",
+          "r": "A named place (box) that stores a value"
+        },
+        {
+          "p": "In forename=\"Sam\", what is the value?",
+          "r": "\"Sam\""
+        },
+        {
+          "p": "forename=\"Sam\" · print(forename)",
+          "r": "Sam"
+        },
+        {
+          "p": "print(forename+surname) with Sam and Smith",
+          "r": "SamSmith (no space)"
+        },
+        {
+          "p": "print(colour, item) with red and shirt",
+          "r": "red shirt (the comma adds a space)"
+        },
+        {
+          "p": "Three rules for naming variables",
+          "r": "Sensible name, no spaces, firstName style for two words"
+        },
+        {
+          "p": "Are Forename and forename the same variable?",
+          "r": "No – Python is case sensitive"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Which code starts a new line inside the text?",
+          "opciones": [
+            "\\n",
+            "/n",
+            "//",
+            "nl"
+          ],
+          "correcta": 0,
+          "explicacion": "Backslash n is the new-line code."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does print('I live at/n123 Little House') display?",
+          "opciones": [
+            "I live at/n123 Little House (on one line)",
+            "Two separate lines",
+            "An error",
+            "Nothing"
+          ],
+          "correcta": 0,
+          "explicacion": "A forward slash is just a character; only \\n makes a new line."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "You write three print() lines. How many lines of output do you get?",
+          "opciones": [
+            "3",
+            "1",
+            "2",
+            "0"
+          ],
+          "correcta": 0,
+          "explicacion": "Each print() starts on a new line."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In colour=\"brown\", what is 'colour'?",
+          "opciones": [
+            "A variable",
+            "A value",
+            "A command",
+            "An error"
+          ],
+          "correcta": 0,
+          "explicacion": "\"brown\" is the value stored in it."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In animal=\"dog\", what is \"dog\"?",
+          "opciones": [
+            "A value",
+            "A variable",
+            "A command",
+            "A bracket"
+          ],
+          "correcta": 0,
+          "explicacion": "animal is the variable."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "forename=\"Sam\"  print(forename)  What is displayed?",
+          "opciones": [
+            "Sam",
+            "forename",
+            "\"Sam\"",
+            "An error"
+          ],
+          "correcta": 0,
+          "explicacion": "Printing a variable shows the value inside it."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "forename=\"Sam\"  print(\"forename\")  What is displayed?",
+          "opciones": [
+            "forename",
+            "Sam",
+            "\"Sam\"",
+            "An error"
+          ],
+          "correcta": 0,
+          "explicacion": "With speech marks it is just text, not the variable."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "forename=\"Sam\"  surname=\"Smith\"  print(forename+surname)  What is displayed?",
+          "opciones": [
+            "SamSmith",
+            "Sam Smith",
+            "forename+surname",
+            "Sam+Smith"
+          ],
+          "correcta": 0,
+          "explicacion": "+ joins the text with no space."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "colour=\"brown\"  animal=\"dog\"  print(colour+\" \"+animal)  What is displayed?",
+          "opciones": [
+            "brown dog",
+            "browndog",
+            "colour animal",
+            "brown+dog"
+          ],
+          "correcta": 0,
+          "explicacion": "The \" \" adds a space."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "flavour=\"cherry\"  drink=\"cola\"  print(flavour, drink)  What is displayed?",
+          "opciones": [
+            "cherry cola",
+            "cherrycola",
+            "flavour drink",
+            "cherry, cola"
+          ],
+          "correcta": 0,
+          "explicacion": "A comma adds a space between the values."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which program outputs 'red shirt'?",
+          "opciones": [
+            "colour=\"red\"  item=\"shirt\"  print(colour, item)",
+            "colour=\"red\"  item=\"shirt\"  print(colour+item)",
+            "print(colour, item)",
+            "colour=red  item=shirt  print(colour item)"
+          ],
+          "correcta": 0,
+          "explicacion": "colour+item would give redshirt."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "You write Forename=\"Sam\" and then print(forename). What happens?",
+          "opciones": [
+            "An error: forename is not defined",
+            "It prints Sam",
+            "It prints forename",
+            "It prints Forename"
+          ],
+          "correcta": 0,
+          "explicacion": "Python is case sensitive: F and f are different."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is the best variable name for someone's favourite colour?",
+          "opciones": [
+            "favouriteColour",
+            "favourite colour",
+            "x",
+            "FAVOURITE COLOUR!"
+          ],
+          "correcta": 0,
+          "explicacion": "Sensible, no spaces, first word lower case and second word capitalised."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is 'first name' NOT a valid variable name?",
+          "opciones": [
+            "It has a space",
+            "It is too long",
+            "It has no capital letter",
+            "It is not sensible"
+          ],
+          "correcta": 0,
+          "explicacion": "Variable names can't contain spaces: use firstName."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A variable stores a value that you can use later in your program.",
+          "correcta": true,
+          "explicacion": "Like a labelled box."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'/n' and '\\n' do the same thing in Python.",
+          "correcta": false,
+          "explicacion": "Only \\n (backslash) makes a new line."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write the three rules for naming variables.",
+          "claves": [
+            "sensible",
+            "space",
+            "capital",
+            "upper",
+            "lower",
+            "camel"
+          ],
+          "minimo": 3,
+          "modelo": "1) Choose a sensible name. 2) Don't use spaces. 3) For two or more words, lower-case first letter then capital for the next words (e.g. firstName).",
+          "explicacion": "Example: favouriteColour."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write code that stores \"Madrid\" in a variable called city and then prints it.",
+          "claves": [
+            "city",
+            "madrid",
+            "print(city)",
+            "print (city)"
+          ],
+          "minimo": 3,
+          "modelo": "city=\"Madrid\"  print(city)",
+          "explicacion": "No speech marks around the variable in print."
+        }
+      ]
+    },
+    {
+      "id": "python-input",
+      "titulo": "Python 3 · input() and chat bots",
+      "resumen": [
+        "## input()",
+        "name=input(\"What is your first name?\") shows the question in the Shell, waits for the user to type, and stores the answer in the variable **name**.",
+        "- Add a **space** at the end of the question so the answer doesn't touch it: input(\"What is your first name? \").",
+        "",
+        "## Using the answer",
+        "name=input(\"What is your first name? \")",
+        "greeting=\"Nice to meet you \"",
+        "print(greeting+name) → Nice to meet you Sam",
+        "",
+        "## A chat bot",
+        "Ask several questions with input() and use the answers in print(): print(name+\", are you really \"+age+\" years old?\")."
+      ],
+      "notas": [
+        {
+          "seccion": "input()",
+          "tarjetas": [
+            {
+              "etiqueta": "⌨️ What it does",
+              "titulo": "Asks the user",
+              "puntos": [
+                "Shows a **question** in the Shell",
+                "**Waits** for the user to type",
+                "**Stores** the answer in a variable"
+              ]
+            },
+            {
+              "etiqueta": "📦 The code",
+              "titulo": "name=input(\"…\")",
+              "puntos": [
+                "**name** = the variable",
+                "**input** = ask the user",
+                "the question goes in **speech marks**"
+              ]
+            },
+            {
+              "etiqueta": "␣ Add a space",
+              "titulo": "Looks nicer",
+              "puntos": [
+                "\"What is your first name?**␣**\"",
+                "Leave a space before the closing speech mark",
+                "so the answer doesn't touch the question"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Using the answer",
+          "tarjetas": [
+            {
+              "etiqueta": "👋 Greeting",
+              "titulo": "Join it with +",
+              "puntos": [
+                "greeting=\"Nice to meet you \"",
+                "print(greeting+name)",
+                "→ **Nice to meet you Sam**"
+              ]
+            },
+            {
+              "etiqueta": "🍦 In the middle",
+              "titulo": "Text + answer + text",
+              "puntos": [
+                "flavour=input(\"What is your favourite ice cream flavour? \")",
+                "print(flavour+\" is tasty but I prefer bubblegum flavour\")"
+              ]
+            },
+            {
+              "etiqueta": "🤖 Chat bot",
+              "titulo": "Several questions",
+              "puntos": [
+                "name=input(…)  age=input(…)",
+                "print(name+\", are you really \"+age+\" years old?\")",
+                "Watch the **spaces** inside the speech marks"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What does input() do?",
+          "r": "Asks the user a question and stores what they type"
+        },
+        {
+          "p": "name=input(\"What is your first name? \") – where is the answer stored?",
+          "r": "In the variable name"
+        },
+        {
+          "p": "Where does the user type the answer?",
+          "r": "In the Shell"
+        },
+        {
+          "p": "Why add a space at the end of the question?",
+          "r": "So there is a gap between the question and the answer"
+        },
+        {
+          "p": "greeting=\"Nice to meet you \" · name is Sam · print(greeting+name)",
+          "r": "Nice to meet you Sam"
+        },
+        {
+          "p": "What symbol joins a variable and text in print()?",
+          "r": "+"
+        },
+        {
+          "p": "What is a chat bot?",
+          "r": "A program that has a conversation by asking questions and replying"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What does input() do?",
+          "opciones": [
+            "Asks the user to type something",
+            "Prints a message",
+            "Saves the program",
+            "Deletes a variable"
+          ],
+          "correcta": 0,
+          "explicacion": "The answer is stored in a variable."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "name=input(\"What is your first name? \") – where is the user's answer stored?",
+          "opciones": [
+            "In the variable name",
+            "In the Shell",
+            "In the question",
+            "It isn't stored"
+          ],
+          "correcta": 0,
+          "explicacion": "The variable on the left stores the answer."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where does the user type their answer to input()?",
+          "opciones": [
+            "In the Shell",
+            "In the Editor",
+            "In the File menu",
+            "In a new file"
+          ],
+          "correcta": 0,
+          "explicacion": "The program runs in the Shell."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why do we write \"What is your first name? \" with a space at the end?",
+          "opciones": [
+            "So the answer doesn't touch the question",
+            "Python needs it to work",
+            "To make the variable longer",
+            "To print on a new line"
+          ],
+          "correcta": 0,
+          "explicacion": "It only improves how the output looks."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "name=input(\"What is your first name? \")  greeting=\"Nice to meet you \"  print(greeting+name). The user types Sofia. What is displayed?",
+          "opciones": [
+            "Nice to meet you Sofia",
+            "Nice to meet youSofia",
+            "greeting+name",
+            "Nice to meet you name"
+          ],
+          "correcta": 0,
+          "explicacion": "The greeting already ends with a space."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "greeting=\"Hello\"  name=\"Sam\"  print(greeting+name). What is displayed?",
+          "opciones": [
+            "HelloSam",
+            "Hello Sam",
+            "Hello+Sam",
+            "greeting name"
+          ],
+          "correcta": 0,
+          "explicacion": "There is no space in \"Hello\", so the words touch."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which line asks for a favourite subject and stores it?",
+          "opciones": [
+            "subject=input(\"What is your favourite subject? \")",
+            "input=subject(\"What is your favourite subject? \")",
+            "print(\"What is your favourite subject? \")",
+            "subject=print(\"What is your favourite subject? \")"
+          ],
+          "correcta": 0,
+          "explicacion": "variable = input(\"question\")."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "flavour=input(\"Favourite flavour? \")  The user types mint. Which line prints 'mint is tasty but I prefer bubblegum flavour'?",
+          "opciones": [
+            "print(flavour+\" is tasty but I prefer bubblegum flavour\")",
+            "print(\"flavour is tasty but I prefer bubblegum flavour\")",
+            "print(flavour+\"is tasty but I prefer bubblegum flavour\")",
+            "input(flavour+\" is tasty\")"
+          ],
+          "correcta": 0,
+          "explicacion": "The text starts with a space so it doesn't touch the answer."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "name is Ana and age is 12. What does print(name+\", are you really \"+age+\" years old?\") display?",
+          "opciones": [
+            "Ana, are you really 12 years old?",
+            "Ana,are you really12years old?",
+            "name, are you really age years old?",
+            "An error"
+          ],
+          "correcta": 0,
+          "explicacion": "The spaces inside the speech marks keep the words apart."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "hero=input(\"Which superhero would you like to play? \")  Which line prints 'I would rather play Antman but I think … would be a great character'?",
+          "opciones": [
+            "print(\"I would rather play Antman but I think \"+hero+\" would be a great character\")",
+            "print(\"I would rather play Antman but I think hero would be a great character\")",
+            "print(\"I would rather play Antman but I think\"+hero+\"would be a great character\")",
+            "input(\"I would rather play Antman\")"
+          ],
+          "correcta": 0,
+          "explicacion": "Join text + variable + text with +, keeping spaces inside the speech marks."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "input() waits for the user to type before the program continues.",
+          "correcta": true,
+          "explicacion": "It stops until the user presses Enter."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In print(greeting+name), greeting and name must be in speech marks.",
+          "correcta": false,
+          "explicacion": "They are variables, so no speech marks."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a chat bot?",
+          "opciones": [
+            "A program that has a conversation with the user",
+            "A robot that types",
+            "A type of virus",
+            "A Python error"
+          ],
+          "correcta": 0,
+          "explicacion": "Our chat bot asks questions and replies using the answers."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "shoe=input(\"What size shoes do you wear? \")  The user types 38. What does print(\"Do you think that size \"+shoe+\" shoes are large or small?\") display?",
+          "opciones": [
+            "Do you think that size 38 shoes are large or small?",
+            "Do you think that size shoe shoes are large or small?",
+            "Do you think that size38shoes are large or small?",
+            "38"
+          ],
+          "correcta": 0,
+          "explicacion": "The variable shoe holds 38."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write a line of code that asks 'How old are you?' and stores the answer in a variable called age.",
+          "claves": [
+            "age",
+            "input",
+            "how old are you"
+          ],
+          "minimo": 3,
+          "modelo": "age=input(\"How old are you? \")",
+          "explicacion": "variable = input(\"question \")"
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Explain what this code does: name=input(\"What is your first name? \")",
+          "claves": [
+            "ask",
+            "question",
+            "type",
+            "store",
+            "save",
+            "name",
+            "user"
+          ],
+          "minimo": 2,
+          "modelo": "It asks the user for their first name and stores what they type in the variable name.",
+          "explicacion": "input() asks; the variable stores."
+        }
+      ]
+    },
+    {
+      "id": "python-if-else",
+      "titulo": "Python 4 · If…Else and Elif",
+      "resumen": [
+        "## If…Else",
+        "Lets the program make a **decision**:",
+        "colour=input(\"What is your favourite colour? \")",
+        "if colour==\"red\":",
+        "    print(\"Red is also my favourite colour\")",
+        "else:",
+        "    print(colour+\" is a nice colour but I prefer red myself\")",
+        "- **==** (two equals) checks if two things are equal. **=** (one equals) stores a value.",
+        "- Put a **colon :** after the if and else lines.",
+        "- The lines inside are **indented** (moved in).",
+        "- The comparison is exact: \"Red\" is not the same as \"red\".",
+        "",
+        "## Elif (else + if)",
+        "Checks more options. Python checks each one in order; if none match, it runs the final **else**."
+      ],
+      "notas": [
+        {
+          "seccion": "If…Else",
+          "tarjetas": [
+            {
+              "etiqueta": "🔀 Decision",
+              "titulo": "Two possible answers",
+              "puntos": [
+                "**if** the condition is true → first message",
+                "**else** → the other message",
+                "Only **one** of them runs"
+              ]
+            },
+            {
+              "etiqueta": "🟰 = or == ?",
+              "titulo": "Store or compare",
+              "puntos": [
+                "**=** stores: colour=\"red\"",
+                "**==** compares: if colour==\"red\":",
+                "Use **==** in if"
+              ]
+            },
+            {
+              "etiqueta": "📐 Layout",
+              "titulo": "Colon and indent",
+              "puntos": [
+                "**:** at the end of if and else",
+                "Lines inside are **indented**",
+                "else has **no** condition"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Example",
+          "tarjetas": [
+            {
+              "etiqueta": "🥤 Drinks",
+              "titulo": "cola or lemonade?",
+              "puntos": [
+                "drink=input(\"Do you prefer cola or lemonade? \")",
+                "if drink==\"cola\":  → print(\"I don't like fizzy drinks\")",
+                "else:  → print(\"Me too…\")"
+              ]
+            },
+            {
+              "etiqueta": "🔡 Exact match",
+              "titulo": "Capitals matter",
+              "puntos": [
+                "\"Red\" ≠ \"red\"",
+                "\"Brazil\" ≠ \"brazil\"",
+                "Type exactly what the program checks"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Elif = else + if",
+          "tarjetas": [
+            {
+              "etiqueta": "🪜 Many options",
+              "titulo": "Check one by one",
+              "puntos": [
+                "**if** colour==\"red\":",
+                "**elif** colour==\"blue\":",
+                "**elif** colour==\"green\":",
+                "**else**: (none of them)"
+              ]
+            },
+            {
+              "etiqueta": "✅ Rules",
+              "titulo": "How it works",
+              "puntos": [
+                "Starts with **one if**",
+                "As many **elif** as you need",
+                "**else** at the end catches everything else"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What does an if…else statement do?",
+          "r": "Makes a decision: runs one block if the condition is true, the other if not"
+        },
+        {
+          "p": "= or == ?",
+          "r": "= stores a value; == checks if two things are equal"
+        },
+        {
+          "p": "What goes at the end of an if line?",
+          "r": "A colon :"
+        },
+        {
+          "p": "What is elif short for?",
+          "r": "else + if"
+        },
+        {
+          "p": "When does the else part run?",
+          "r": "When none of the if/elif conditions are true"
+        },
+        {
+          "p": "Is \"Red\" the same as \"red\" in Python?",
+          "r": "No – capitals matter"
+        },
+        {
+          "p": "What are the lines inside an if called / how are they written?",
+          "r": "The block – they are indented"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What does an if…else statement let a program do?",
+          "opciones": [
+            "Make a decision",
+            "Repeat forever",
+            "Draw a picture",
+            "Save a file"
+          ],
+          "correcta": 0,
+          "explicacion": "It chooses which code to run."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which symbol checks if two things are equal?",
+          "opciones": [
+            "==",
+            "=",
+            "+",
+            ":"
+          ],
+          "correcta": 0,
+          "explicacion": "= stores a value; == compares."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which line is correct?",
+          "opciones": [
+            "if colour==\"red\":",
+            "if colour=\"red\":",
+            "if colour==\"red\"",
+            "If colour==\"red\":"
+          ],
+          "correcta": 0,
+          "explicacion": "Lower-case if, == and a colon at the end."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "colour=input(\"What is your favourite colour? \")  if colour==\"red\": print(\"Red is also my favourite colour\")  else: print(colour+\" is a nice colour but I prefer red myself\"). The user types blue. What is displayed?",
+          "opciones": [
+            "blue is a nice colour but I prefer red myself",
+            "Red is also my favourite colour",
+            "Both messages",
+            "Nothing"
+          ],
+          "correcta": 0,
+          "explicacion": "blue is not red, so the else part runs."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Same colour program. The user types red. What is displayed?",
+          "opciones": [
+            "Red is also my favourite colour",
+            "red is a nice colour but I prefer red myself",
+            "Both messages",
+            "An error"
+          ],
+          "correcta": 0,
+          "explicacion": "The condition is true, so only the if part runs."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Same colour program. The user types Red (capital R). What is displayed?",
+          "opciones": [
+            "Red is a nice colour but I prefer red myself",
+            "Red is also my favourite colour",
+            "An error",
+            "Nothing"
+          ],
+          "correcta": 0,
+          "explicacion": "\"Red\" is not exactly \"red\", so the else part runs."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "drink=input(\"Do you prefer cola or lemonade? \")  if drink==\"cola\": print(\"I don't like fizzy drinks\")  else: print(\"Me too. As I don't like fizzy drinks\"). The user types lemonade. What is displayed?",
+          "opciones": [
+            "Me too. As I don't like fizzy drinks",
+            "I don't like fizzy drinks",
+            "lemonade",
+            "Nothing"
+          ],
+          "correcta": 0,
+          "explicacion": "lemonade ≠ cola, so else runs."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'elif' short for?",
+          "opciones": [
+            "else + if",
+            "elephant if",
+            "end line if",
+            "else finish"
+          ],
+          "correcta": 0,
+          "explicacion": "It lets you check more options."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "if colour==\"red\" … elif colour==\"blue\": print(\"I like blue but I prefer red myself\") … elif colour==\"green\" … else … The user types blue. What is displayed?",
+          "opciones": [
+            "I like blue but I prefer red myself",
+            "Red is my favourite colour as well",
+            "I quite like that colour but I prefer red myself",
+            "Nothing"
+          ],
+          "correcta": 0,
+          "explicacion": "The first elif matches."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Same elif program. The user types yellow. Which part runs?",
+          "opciones": [
+            "The else",
+            "The if",
+            "The first elif",
+            "None of them"
+          ],
+          "correcta": 0,
+          "explicacion": "If no option matches, the final else runs."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many 'else' parts can an if…elif…else have?",
+          "opciones": [
+            "One, at the end",
+            "One for each elif",
+            "None",
+            "Two"
+          ],
+          "correcta": 0,
+          "explicacion": "One if, many elif, one else."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What goes at the end of 'else'?",
+          "opciones": [
+            ":",
+            ";",
+            "==",
+            "()"
+          ],
+          "correcta": 0,
+          "explicacion": "else:"
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The lines inside an if are indented (moved to the right).",
+          "correcta": true,
+          "explicacion": "Indentation shows which lines belong to the if."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In an if…else, both messages are printed.",
+          "correcta": false,
+          "explicacion": "Only one part runs."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A program asks 'Argentina or Brazil?' but stores the answer in a variable called drink. What is the problem?",
+          "opciones": [
+            "The variable name isn't sensible",
+            "It causes an error",
+            "if can't be used with countries",
+            "Nothing at all"
+          ],
+          "correcta": 0,
+          "explicacion": "It works, but a sensible name would be team."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What is the difference between = and == in Python?",
+          "claves": [
+            "store",
+            "save",
+            "give",
+            "assign",
+            "compar",
+            "check",
+            "equal"
+          ],
+          "minimo": 2,
+          "modelo": "= stores a value in a variable; == compares two things to check if they are equal.",
+          "explicacion": "Use == in an if."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write the first line of an if that checks if the variable game is \"Roblox\".",
+          "claves": [
+            "if",
+            "game",
+            "==",
+            "roblox",
+            ":"
+          ],
+          "minimo": 5,
+          "modelo": "if game==\"Roblox\":",
+          "explicacion": "if + variable + == + value + colon."
+        }
+      ]
+    }
+  ]
+}

@@ -105,9 +105,14 @@
     {
       "id": "computing-test-1",
       "asignatura": "computing",
-      "titulo": "Computing test",
+      "titulo": "Computing test · Introduction to Python",
       "fecha": "2026-10-20",
-      "temas": []
+      "temas": [
+        "python-idle-print",
+        "python-variables",
+        "python-input",
+        "python-if-else"
+      ]
     },
     {
       "id": "german-oct",
