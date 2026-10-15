@@ -25,64 +25,374 @@
         {
           "seccion": "Chronology",
           "tarjetas": [
-            { "etiqueta": "🕰️ Chronology", "titulo": "When things happened", "puntos": ["Knowing **when** helps work out **how** and **why**", "**Chronological order** = earliest first", "Shown on a **timeline**"] },
-            { "etiqueta": "📦 Periods", "titulo": "Chunks of time", "puntos": ["Iron Age, **Middle Ages**", "Tudor times, Victorian Britain", "Also words like **age, era, times**"] },
-            { "etiqueta": "✝️ BC / AD", "titulo": "Before and after Christ", "puntos": ["**BC / BCE** = before the birth of Jesus", "**AD / CE** = after it", "BC counts down: 2600 BC is **older** than 776 BC"] }
+            {
+              "etiqueta": "🕰️ Chronology",
+              "titulo": "When things happened",
+              "puntos": [
+                "Knowing **when** helps work out **how** and **why**",
+                "**Chronological order** = earliest first",
+                "Shown on a **timeline**"
+              ]
+            },
+            {
+              "etiqueta": "📦 Periods",
+              "titulo": "Chunks of time",
+              "puntos": [
+                "Iron Age, **Middle Ages**",
+                "Tudor times, Victorian Britain",
+                "Also words like **age, era, times**"
+              ]
+            },
+            {
+              "etiqueta": "✝️ BC / AD",
+              "titulo": "Before and after Christ",
+              "puntos": [
+                "**BC / BCE** = before the birth of Jesus",
+                "**AD / CE** = after it",
+                "BC counts down: 2600 BC is **older** than 776 BC"
+              ]
+            }
           ]
         },
         {
           "seccion": "Which century?",
           "tarjetas": [
-            { "etiqueta": "🧮 The trick", "titulo": "Cover up and add one", "puntos": ["Cover the last **two** digits", "Add **1** to the first two", "1348 → 13 + 1 = **14th century**"] },
-            { "etiqueta": "✏️ Examples", "titulo": "Practice", "puntos": ["1066 → **11th**", "1170 → **12th** · 1265 → **13th**", "1492 → **15th** · 1509 → **16th**"] }
+            {
+              "etiqueta": "🧮 The trick",
+              "titulo": "Cover up and add one",
+              "puntos": [
+                "Cover the last **two** digits",
+                "Add **1** to the first two",
+                "1348 → 13 + 1 = **14th century**"
+              ]
+            },
+            {
+              "etiqueta": "✏️ Examples",
+              "titulo": "Practice",
+              "puntos": [
+                "1066 → **11th**",
+                "1170 → **12th** · 1265 → **13th**",
+                "1492 → **15th** · 1509 → **16th**"
+              ]
+            }
           ]
         },
         {
           "seccion": "This book: 1066–1558",
           "tarjetas": [
-            { "etiqueta": "🏰 Middle Ages", "titulo": "c. 1066 – 1485", "puntos": ["Also called the **medieval** period", "Latin for **'middle'**", "Between the **Roman Empire** and modern times"] },
-            { "etiqueta": "👑 Early Tudor period", "titulo": "After 1485", "puntos": ["The **Tudors**: a royal family", "**Henry VIII**, 'Bloody' Queen **Mary**"] }
+            {
+              "etiqueta": "🏰 Middle Ages",
+              "titulo": "c. 1066 – 1485",
+              "puntos": [
+                "Also called the **medieval** period",
+                "Latin for **'middle'**",
+                "Between the **Roman Empire** and modern times"
+              ]
+            },
+            {
+              "etiqueta": "👑 Early Tudor period",
+              "titulo": "After 1485",
+              "puntos": [
+                "The **Tudors**: a royal family",
+                "**Henry VIII**, 'Bloody' Queen **Mary**"
+              ]
+            }
           ],
-          "chips": { "titulo": "Key dates 1066–1558", "items": ["**1066** Hastings", "**1070s** Tower of London", "**1095** Crusades", "**1170** Becket murdered", "**1215** Magna Carta", "**1265** first parliament", "**1283** Wales conquered", "**1337** Hundred Years War", "**1348** Black Death", "**1381** Peasants' Revolt", "**1455** Wars of the Roses", "**1485** Henry VII (Bosworth)", "**1492** Columbus", "**1509** Henry VIII", "**1558** Elizabeth I"] }
+          "chips": {
+            "titulo": "Key dates 1066–1558",
+            "items": [
+              "**1066** Hastings",
+              "**1070s** Tower of London",
+              "**1095** Crusades",
+              "**1170** Becket murdered",
+              "**1215** Magna Carta",
+              "**1265** first parliament",
+              "**1283** Wales conquered",
+              "**1337** Hundred Years War",
+              "**1348** Black Death",
+              "**1381** Peasants' Revolt",
+              "**1455** Wars of the Roses",
+              "**1485** Henry VII (Bosworth)",
+              "**1492** Columbus",
+              "**1509** Henry VIII",
+              "**1558** Elizabeth I"
+            ]
+          }
         },
         {
           "seccion": "The big timeline",
-          "chips": { "titulo": "World history", "items": ["c. **2600 BC** Great Pyramid", "**776 BC** first Olympics", "**221 BC** Great Wall of China", "c. **4 BC** birth of Jesus", "c. **AD 570** Muhammad born", "**AD 793** Viking raids", "c. **1300** gunpowder in cannons", "**1415** Agincourt", "**1666** Great Fire of London", "**1837** Queen Victoria", "**1939** Second World War", "**1969** Moon landing"] }
+          "chips": {
+            "titulo": "World history",
+            "items": [
+              "c. **2600 BC** Great Pyramid",
+              "**776 BC** first Olympics",
+              "**221 BC** Great Wall of China",
+              "c. **4 BC** birth of Jesus",
+              "c. **AD 570** Muhammad born",
+              "**AD 793** Viking raids",
+              "c. **1300** gunpowder in cannons",
+              "**1415** Agincourt",
+              "**1666** Great Fire of London",
+              "**1837** Queen Victoria",
+              "**1939** Second World War",
+              "**1969** Moon landing"
+            ]
+          }
         }
       ],
       "tarjetas": [
-        { "p": "Chronology", "r": "The study of when things happened" },
-        { "p": "Chronological order", "r": "Events in the correct time order, earliest first" },
-        { "p": "BC", "r": "Before Christ – before the birth of Jesus" },
-        { "p": "AD", "r": "After the birth of Jesus (Anno Domini)" },
-        { "p": "How do you find the century of a year?", "r": "Cover the last two digits and add one" },
-        { "p": "Which century is 1348?", "r": "The 14th century" },
-        { "p": "The Middle Ages", "r": "About 1066 to 1485 – also called the medieval period" },
-        { "p": "What does 'medieval' mean?", "r": "'Middle' (from Latin)" },
-        { "p": "1215", "r": "Magna Carta is signed" },
-        { "p": "1348", "r": "The Black Death reaches Britain" },
-        { "p": "1485", "r": "Henry Tudor (Henry VII) wins the Battle of Bosworth Field" },
-        { "p": "1558", "r": "Elizabeth I begins her 44-year reign" }
+        {
+          "p": "Chronology",
+          "r": "The study of when things happened"
+        },
+        {
+          "p": "Chronological order",
+          "r": "Events in the correct time order, earliest first"
+        },
+        {
+          "p": "BC",
+          "r": "Before Christ – before the birth of Jesus"
+        },
+        {
+          "p": "AD",
+          "r": "After the birth of Jesus (Anno Domini)"
+        },
+        {
+          "p": "How do you find the century of a year?",
+          "r": "Cover the last two digits and add one"
+        },
+        {
+          "p": "Which century is 1348?",
+          "r": "The 14th century"
+        },
+        {
+          "p": "The Middle Ages",
+          "r": "About 1066 to 1485 – also called the medieval period"
+        },
+        {
+          "p": "What does 'medieval' mean?",
+          "r": "'Middle' (from Latin)"
+        },
+        {
+          "p": "1215",
+          "r": "Magna Carta is signed"
+        },
+        {
+          "p": "1348",
+          "r": "The Black Death reaches Britain"
+        },
+        {
+          "p": "1485",
+          "r": "Henry Tudor (Henry VII) wins the Battle of Bosworth Field"
+        },
+        {
+          "p": "1558",
+          "r": "Elizabeth I begins her 44-year reign"
+        }
       ],
       "preguntas": [
-        { "tipo": "opcion", "enunciado": "What is chronology?", "opciones": ["The study of when things happened", "The study of old buildings", "The study of maps", "The study of kings"], "correcta": 0, "explicacion": "Knowing when things happened helps us work out how and why." },
-        { "tipo": "opcion", "enunciado": "What does 'chronological order' mean?", "opciones": ["In the correct time order, earliest first", "In alphabetical order", "In order of importance", "Latest first"], "correcta": 0, "explicacion": "A timeline shows events in chronological order." },
-        { "tipo": "opcion", "enunciado": "Which century is the year 1170 in?", "opciones": ["12th century", "11th century", "17th century", "13th century"], "correcta": 0, "explicacion": "Cover '70', add one to 11 → 12." },
-        { "tipo": "opcion", "enunciado": "Which century is the year 1492 in?", "opciones": ["15th century", "14th century", "16th century", "49th century"], "correcta": 0, "explicacion": "14 + 1 = 15." },
-        { "tipo": "opcion", "enunciado": "Which century was the Battle of Hastings (1066) in?", "opciones": ["11th century", "10th century", "12th century", "16th century"], "correcta": 0, "explicacion": "10 + 1 = 11." },
-        { "tipo": "opcion", "enunciado": "Which century was the Peasants' Revolt (1381) in?", "opciones": ["14th century", "13th century", "15th century", "18th century"], "correcta": 0, "explicacion": "13 + 1 = 14." },
-        { "tipo": "opcion", "enunciado": "Which is the EARLIEST?", "opciones": ["2600 BC – Great Pyramid", "776 BC – first Olympic Games", "221 BC – Great Wall of China", "AD 793 – Viking raids"], "correcta": 0, "explicacion": "BC years count down, so the biggest BC number is the oldest." },
-        { "tipo": "opcion", "enunciado": "What does 'medieval' mean?", "opciones": ["Middle", "Old", "Royal", "Dark"], "correcta": 0, "explicacion": "From Latin: the Middle Ages come between the Roman Empire and modern times." },
-        { "tipo": "opcion", "enunciado": "Roughly which years are the Middle Ages in Britain?", "opciones": ["1066 to 1485", "AD 43 to 410", "1485 to 1603", "1837 to 1901"], "correcta": 0, "explicacion": "After them comes the early Tudor period." },
-        { "tipo": "opcion", "enunciado": "When was Magna Carta signed?", "opciones": ["1215", "1066", "1265", "1348"], "correcta": 0, "explicacion": "1265 = the first parliament meets." },
-        { "tipo": "opcion", "enunciado": "What happened in 1348?", "opciones": ["The Black Death reached Britain", "The Battle of Hastings", "Columbus landed in the Americas", "Magna Carta was signed"], "correcta": 0, "explicacion": "A killer plague." },
-        { "tipo": "opcion", "enunciado": "Who became King of England in 1485 after the Battle of Bosworth Field?", "opciones": ["Henry Tudor (Henry VII)", "Henry VIII", "Richard III", "William of Normandy"], "correcta": 0, "explicacion": "He beat Richard III; he was the first Tudor king." },
-        { "tipo": "opcion", "enunciado": "How long did the Hundred Years War actually last?", "opciones": ["116 years", "100 years", "44 years", "16 years"], "correcta": 0, "explicacion": "1337 to 1453." },
-        { "tipo": "opcion", "enunciado": "Put in chronological order: first parliament, Battle of Hastings, Henry VIII becomes king.", "opciones": ["Hastings (1066) → first parliament (1265) → Henry VIII (1509)", "First parliament → Hastings → Henry VIII", "Henry VIII → Hastings → first parliament", "Hastings → Henry VIII → first parliament"], "correcta": 0, "explicacion": "Earliest first." },
-        { "tipo": "vf", "enunciado": "Years with BC after them refer to the time before the birth of Jesus Christ.", "correcta": true, "explicacion": "AD refers to the time after his birth." },
-        { "tipo": "vf", "enunciado": "Elizabeth I began her reign in 1558 and reigned for 44 years.", "correcta": true, "explicacion": "1558 is where this book ends." },
-        { "tipo": "corta", "enunciado": "Which century is the year 1509 in?", "claves": ["16", "sixteenth"], "modelo": "The 16th century (15 + 1).", "explicacion": "Cover the last two digits and add one." },
-        { "tipo": "corta", "enunciado": "Put these periods in chronological order: Iron Age, Stone Age, Bronze Age.", "claves": ["stone", "bronze", "iron"], "minimo": 3, "modelo": "Stone Age → Bronze Age → Iron Age.", "explicacion": "Named after what tools were made from." }
+        {
+          "tipo": "opcion",
+          "enunciado": "What is chronology?",
+          "opciones": [
+            "The study of when things happened",
+            "The study of old buildings",
+            "The study of maps",
+            "The study of kings"
+          ],
+          "correcta": 0,
+          "explicacion": "Knowing when things happened helps us work out how and why."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'chronological order' mean?",
+          "opciones": [
+            "In the correct time order, earliest first",
+            "In alphabetical order",
+            "In order of importance",
+            "Latest first"
+          ],
+          "correcta": 0,
+          "explicacion": "A timeline shows events in chronological order."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which century is the year 1170 in?",
+          "opciones": [
+            "12th century",
+            "11th century",
+            "17th century",
+            "13th century"
+          ],
+          "correcta": 0,
+          "explicacion": "Cover '70', add one to 11 → 12."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which century is the year 1492 in?",
+          "opciones": [
+            "15th century",
+            "14th century",
+            "16th century",
+            "49th century"
+          ],
+          "correcta": 0,
+          "explicacion": "14 + 1 = 15."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which century was the Battle of Hastings (1066) in?",
+          "opciones": [
+            "11th century",
+            "10th century",
+            "12th century",
+            "16th century"
+          ],
+          "correcta": 0,
+          "explicacion": "10 + 1 = 11."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which century was the Peasants' Revolt (1381) in?",
+          "opciones": [
+            "14th century",
+            "13th century",
+            "15th century",
+            "18th century"
+          ],
+          "correcta": 0,
+          "explicacion": "13 + 1 = 14."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is the EARLIEST?",
+          "opciones": [
+            "2600 BC – Great Pyramid",
+            "776 BC – first Olympic Games",
+            "221 BC – Great Wall of China",
+            "AD 793 – Viking raids"
+          ],
+          "correcta": 0,
+          "explicacion": "BC years count down, so the biggest BC number is the oldest."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'medieval' mean?",
+          "opciones": [
+            "Middle",
+            "Old",
+            "Royal",
+            "Dark"
+          ],
+          "correcta": 0,
+          "explicacion": "From Latin: the Middle Ages come between the Roman Empire and modern times."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Roughly which years are the Middle Ages in Britain?",
+          "opciones": [
+            "1066 to 1485",
+            "AD 43 to 410",
+            "1485 to 1603",
+            "1837 to 1901"
+          ],
+          "correcta": 0,
+          "explicacion": "After them comes the early Tudor period."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "When was Magna Carta signed?",
+          "opciones": [
+            "1215",
+            "1066",
+            "1265",
+            "1348"
+          ],
+          "correcta": 0,
+          "explicacion": "1265 = the first parliament meets."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What happened in 1348?",
+          "opciones": [
+            "The Black Death reached Britain",
+            "The Battle of Hastings",
+            "Columbus landed in the Americas",
+            "Magna Carta was signed"
+          ],
+          "correcta": 0,
+          "explicacion": "A killer plague."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who became King of England in 1485 after the Battle of Bosworth Field?",
+          "opciones": [
+            "Henry Tudor (Henry VII)",
+            "Henry VIII",
+            "Richard III",
+            "William of Normandy"
+          ],
+          "correcta": 0,
+          "explicacion": "He beat Richard III; he was the first Tudor king."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How long did the Hundred Years War actually last?",
+          "opciones": [
+            "116 years",
+            "100 years",
+            "44 years",
+            "16 years"
+          ],
+          "correcta": 0,
+          "explicacion": "1337 to 1453."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Put in chronological order: first parliament, Battle of Hastings, Henry VIII becomes king.",
+          "opciones": [
+            "Hastings (1066) → first parliament (1265) → Henry VIII (1509)",
+            "First parliament → Hastings → Henry VIII",
+            "Henry VIII → Hastings → first parliament",
+            "Hastings → Henry VIII → first parliament"
+          ],
+          "correcta": 0,
+          "explicacion": "Earliest first."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Years with BC after them refer to the time before the birth of Jesus Christ.",
+          "correcta": true,
+          "explicacion": "AD refers to the time after his birth."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Elizabeth I began her reign in 1558 and reigned for 44 years.",
+          "correcta": true,
+          "explicacion": "1558 is where this book ends."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Which century is the year 1509 in?",
+          "claves": [
+            "16",
+            "sixteenth"
+          ],
+          "modelo": "The 16th century (15 + 1).",
+          "explicacion": "Cover the last two digits and add one."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Put these periods in chronological order: Iron Age, Stone Age, Bronze Age.",
+          "claves": [
+            "stone",
+            "bronze",
+            "iron"
+          ],
+          "minimo": 3,
+          "modelo": "Stone Age → Bronze Age → Iron Age.",
+          "explicacion": "Named after what tools were made from."
+        }
       ]
     },
     {
@@ -108,70 +418,402 @@
         {
           "seccion": "The British Isles",
           "tarjetas": [
-            { "etiqueta": "🏝️ 5000+ islands", "titulo": "North-west of Europe", "puntos": ["Fewer than **200** inhabited", "Biggest: **Great Britain** and **Ireland**", "Rùm had **22** people in 2011"] },
-            { "etiqueta": "🦴 Evidence", "titulo": "How we know", "puntos": ["No writing at that time", "**Artefacts**: bone, stone, fossils, pottery", "Experts build a picture"] }
+            {
+              "etiqueta": "🏝️ 5000+ islands",
+              "titulo": "North-west of Europe",
+              "puntos": [
+                "Fewer than **200** inhabited",
+                "Biggest: **Great Britain** and **Ireland**",
+                "Rùm had **22** people in 2011"
+              ]
+            },
+            {
+              "etiqueta": "🦴 Evidence",
+              "titulo": "How we know",
+              "puntos": [
+                "No writing at that time",
+                "**Artefacts**: bone, stone, fossils, pottery",
+                "Experts build a picture"
+              ]
+            }
           ]
         },
         {
           "seccion": "The first people",
           "tarjetas": [
-            { "etiqueta": "🌉 Land bridge", "titulo": "Walk to Europe", "puntos": ["Sea level was **lower**", "Animals and people walked across", "Around **8500 BC** ice melted → **island**"] },
-            { "etiqueta": "🏹 Hunter-gatherers", "titulo": "~500,000 years ago", "puntos": ["Britain's first **immigrants**", "Hunted animals, gathered nuts and fruit", "Caves, huts, fire, **flint tools**"] },
-            { "etiqueta": "🌾 Farmers", "titulo": "~7000 years ago", "puntos": ["Grew **wheat and barley**", "Kept pigs, sheep, goats, dogs", "Cleared woodland, permanent homes"] }
+            {
+              "etiqueta": "🌉 Land bridge",
+              "titulo": "Walk to Europe",
+              "puntos": [
+                "Sea level was **lower**",
+                "Animals and people walked across",
+                "Around **8500 BC** ice melted → **island**"
+              ]
+            },
+            {
+              "etiqueta": "🏹 Hunter-gatherers",
+              "titulo": "~500,000 years ago",
+              "puntos": [
+                "Britain's first **immigrants**",
+                "Hunted animals, gathered nuts and fruit",
+                "Caves, huts, fire, **flint tools**"
+              ]
+            },
+            {
+              "etiqueta": "🌾 Farmers",
+              "titulo": "~7000 years ago",
+              "puntos": [
+                "Grew **wheat and barley**",
+                "Kept pigs, sheep, goats, dogs",
+                "Cleared woodland, permanent homes"
+              ]
+            }
           ]
         },
         {
           "seccion": "Stone → Bronze → Iron",
-          "chips": { "titulo": "Named after the tools", "items": ["🪨 **Stone Age** – wood and stone tools", "🏺 c. **2500 BC** Beaker people", "🥉 **Bronze Age** – copper + tin", "⚒️ c. **800 BC** **Iron Age**"] }
+          "chips": {
+            "titulo": "Named after the tools",
+            "items": [
+              "🪨 **Stone Age** – wood and stone tools",
+              "🏺 c. **2500 BC** Beaker people",
+              "🥉 **Bronze Age** – copper + tin",
+              "⚒️ c. **800 BC** **Iron Age**"
+            ]
+          }
         },
         {
           "seccion": "Invaders and settlers",
           "tarjetas": [
-            { "etiqueta": "🌀 Celts", "titulo": "c. 500 BC", "puntos": ["From **central Europe**", "**Druids**: Halloween, May Day", "Farmers, built forts"] },
-            { "etiqueta": "🏛️ Romans", "titulo": "AD 43 – c. 410", "puntos": ["From **Italy**, ~400 years", "**Roads**, towns: Chester, York, Bath", "Calendars, coins, bricks; 'peace', 'street'"] },
-            { "etiqueta": "⚔️ Anglo-Saxons", "titulo": "From AD 410", "puntos": ["**Angles, Saxons, Jutes**", "From Denmark and N. Germany", "England = **'Angle-land'**; -ton, -ham, -wich"] },
-            { "etiqueta": "🛶 Vikings", "titulo": "Late 8th century", "puntos": ["From **Scandinavia**: raids, then settled (865)", "**Alfred the Great** of Wessex fought them", "Viking area = the **Danelaw**"] }
+            {
+              "etiqueta": "🌀 Celts",
+              "titulo": "c. 500 BC",
+              "puntos": [
+                "From **central Europe**",
+                "**Druids**: Halloween, May Day",
+                "Farmers, built forts"
+              ]
+            },
+            {
+              "etiqueta": "🏛️ Romans",
+              "titulo": "AD 43 – c. 410",
+              "puntos": [
+                "From **Italy**, ~400 years",
+                "**Roads**, towns: Chester, York, Bath",
+                "Calendars, coins, bricks; 'peace', 'street'"
+              ]
+            },
+            {
+              "etiqueta": "⚔️ Anglo-Saxons",
+              "titulo": "From AD 410",
+              "puntos": [
+                "**Angles, Saxons, Jutes**",
+                "From Denmark and N. Germany",
+                "England = **'Angle-land'**; -ton, -ham, -wich"
+              ]
+            },
+            {
+              "etiqueta": "🛶 Vikings",
+              "titulo": "Late 8th century",
+              "puntos": [
+                "From **Scandinavia**: raids, then settled (865)",
+                "**Alfred the Great** of Wessex fought them",
+                "Viking area = the **Danelaw**"
+              ]
+            }
           ]
         },
         {
           "seccion": "Names",
-          "chips": { "titulo": "Where the names come from", "items": ["**Britain** ← Pretannia (Greeks) → Britannia (Romans)", "**England** ← 'Angle-land'", "**Scotland** ← the **Scotti** tribe", "**Essex** ← East Saxons"] }
+          "chips": {
+            "titulo": "Where the names come from",
+            "items": [
+              "**Britain** ← Pretannia (Greeks) → Britannia (Romans)",
+              "**England** ← 'Angle-land'",
+              "**Scotland** ← the **Scotti** tribe",
+              "**Essex** ← East Saxons"
+            ]
+          }
         }
       ],
       "tarjetas": [
-        { "p": "How many islands make up the British Isles?", "r": "Over 5000 (fewer than 200 inhabited)" },
-        { "p": "Artefact", "r": "An object made by people in the past, e.g. pottery or tools" },
-        { "p": "Hunter-gatherers", "r": "People who lived by hunting animals and gathering food" },
-        { "p": "What was the land bridge?", "r": "Land linking Britain to Europe when the sea level was lower" },
-        { "p": "When did Britain become an island?", "r": "After about 8500 BC, when the ice melted" },
-        { "p": "Bronze is made from…", "r": "Copper and tin" },
-        { "p": "When did the Romans invade?", "r": "AD 43" },
-        { "p": "When did the Romans leave?", "r": "About AD 410" },
-        { "p": "Angles, Saxons and Jutes are known as…", "r": "The Anglo-Saxons" },
-        { "p": "The Danelaw", "r": "The area of England controlled by the Vikings" },
-        { "p": "Alfred the Great", "r": "King of Wessex who beat the Vikings in battle" },
-        { "p": "Scotland is named after…", "r": "The Scotti tribe" }
+        {
+          "p": "How many islands make up the British Isles?",
+          "r": "Over 5000 (fewer than 200 inhabited)"
+        },
+        {
+          "p": "Artefact",
+          "r": "An object made by people in the past, e.g. pottery or tools"
+        },
+        {
+          "p": "Hunter-gatherers",
+          "r": "People who lived by hunting animals and gathering food"
+        },
+        {
+          "p": "What was the land bridge?",
+          "r": "Land linking Britain to Europe when the sea level was lower"
+        },
+        {
+          "p": "When did Britain become an island?",
+          "r": "After about 8500 BC, when the ice melted"
+        },
+        {
+          "p": "Bronze is made from…",
+          "r": "Copper and tin"
+        },
+        {
+          "p": "When did the Romans invade?",
+          "r": "AD 43"
+        },
+        {
+          "p": "When did the Romans leave?",
+          "r": "About AD 410"
+        },
+        {
+          "p": "Angles, Saxons and Jutes are known as…",
+          "r": "The Anglo-Saxons"
+        },
+        {
+          "p": "The Danelaw",
+          "r": "The area of England controlled by the Vikings"
+        },
+        {
+          "p": "Alfred the Great",
+          "r": "King of Wessex who beat the Vikings in battle"
+        },
+        {
+          "p": "Scotland is named after…",
+          "r": "The Scotti tribe"
+        }
       ],
       "preguntas": [
-        { "tipo": "opcion", "enunciado": "How many islands make up the British Isles?", "opciones": ["Over 5000", "About 200", "Exactly 2", "About 50"], "correcta": 0, "explicacion": "But fewer than 200 are inhabited." },
-        { "tipo": "opcion", "enunciado": "Why don't we know much about the first people in Britain?", "opciones": ["They didn't write things down", "They lived underwater", "They spoke Latin", "All their bones disappeared"], "correcta": 0, "explicacion": "Historians use evidence like bones, stone, fossils and pottery." },
-        { "tipo": "opcion", "enunciado": "What were Britain's earliest immigrants (about half a million years ago)?", "opciones": ["Hunter-gatherers", "Farmers", "Romans", "Vikings"], "correcta": 0, "explicacion": "They hunted animals and gathered nuts and fruit." },
-        { "tipo": "opcion", "enunciado": "What happened to the land bridge?", "opciones": ["It disappeared under water as the ice melted and the sea level rose", "The Romans destroyed it", "It became Ireland", "It is still there today"], "correcta": 0, "explicacion": "Around 8500 BC; Britain became an island." },
-        { "tipo": "opcion", "enunciado": "About 7000 years ago, what important change happened?", "opciones": ["People learned to farm", "People learned to read", "The Romans arrived", "Iron was discovered"], "correcta": 0, "explicacion": "New settlers brought wheat and barley seeds and animals." },
-        { "tipo": "opcion", "enunciado": "Why were the Beaker people called that?", "opciones": ["Because of their decorated pottery", "Because they drank a lot", "Because of their helmets", "Because they lived near rivers"], "correcta": 0, "explicacion": "They arrived around 2500 BC." },
-        { "tipo": "opcion", "enunciado": "Bronze is made by mixing copper with…", "opciones": ["tin", "iron", "gold", "silver"], "correcta": 0, "explicacion": "That's why it is called the Bronze Age." },
-        { "tipo": "opcion", "enunciado": "When did the Romans invade Britain?", "opciones": ["AD 43", "AD 410", "500 BC", "AD 793"], "correcta": 0, "explicacion": "They stayed for around 400 years." },
-        { "tipo": "opcion", "enunciado": "Which of these did the Romans bring to Britain?", "opciones": ["Coins, calendars and bricks", "Halloween and May Day", "The words 'cat' and 'dog'", "The Danelaw"], "correcta": 0, "explicacion": "Halloween and May Day come from the Celts." },
-        { "tipo": "opcion", "enunciado": "Which tribes are known as the Anglo-Saxons?", "opciones": ["Angles, Saxons and Jutes", "Celts and Picts", "Romans and Gauls", "Vikings and Normans"], "correcta": 0, "explicacion": "From modern-day Denmark and northern Germany." },
-        { "tipo": "opcion", "enunciado": "Where does the name 'England' come from?", "opciones": ["'Angle-land' – land of the Angles", "The Romans' name Britannia", "The Scotti tribe", "The Celtic word for green"], "correcta": 0, "explicacion": "The Anglo-Saxons gave England its name." },
-        { "tipo": "opcion", "enunciado": "A town ending in '-ham' or '-ton' was probably…", "opciones": ["named by the Anglo-Saxons", "built by the Romans", "a Viking camp", "a Celtic fort"], "correcta": 0, "explicacion": "Also -wich, -worth, -burn, -hurst." },
-        { "tipo": "opcion", "enunciado": "What was the Danelaw?", "opciones": ["The area of England controlled by the Vikings", "A Roman road", "A Saxon law court", "A Celtic religion"], "correcta": 0, "explicacion": "In the north and east of England." },
-        { "tipo": "opcion", "enunciado": "Which Anglo-Saxon king beat the Vikings in battle?", "opciones": ["Alfred the Great", "Edward the Confessor", "Harold Godwinson", "William"], "correcta": 0, "explicacion": "He ruled Wessex, in the south-west." },
-        { "tipo": "opcion", "enunciado": "Put these invaders in chronological order.", "opciones": ["Celts → Romans → Anglo-Saxons → Vikings", "Romans → Celts → Vikings → Anglo-Saxons", "Vikings → Anglo-Saxons → Romans → Celts", "Anglo-Saxons → Celts → Romans → Vikings"], "correcta": 0, "explicacion": "500 BC, AD 43, AD 410, late 8th century." },
-        { "tipo": "vf", "enunciado": "Scotland was named after the Picts, the largest tribe.", "correcta": false, "explicacion": "The Picts were the largest, but it was named after the Scotti." },
-        { "tipo": "vf", "enunciado": "Many English words, such as 'bed', 'cat' and 'dog', come from Anglo-Saxon.", "correcta": true, "explicacion": "Anglo-Saxon is one of the base languages of English." },
-        { "tipo": "corta", "enunciado": "Name two things the Romans brought to Britain.", "claves": ["road", "town", "calendar", "coin", "brick", "pea", "wine", "grape", "carrot", "cat", "law"], "minimo": 2, "modelo": "Any two: roads, towns, calendars, coins, bricks, peas, wine, grapes, carrots, cats.", "explicacion": "Many roads still follow Roman roads." },
-        { "tipo": "corta", "enunciado": "Explain how Britain became an island.", "claves": ["ice", "melt", "sea", "rose", "land bridge", "water"], "minimo": 2, "modelo": "Around 8500 BC the ice melted, the sea level rose and the land bridge to Europe disappeared under water.", "explicacion": "Before that, people could walk to Europe." }
+        {
+          "tipo": "opcion",
+          "enunciado": "How many islands make up the British Isles?",
+          "opciones": [
+            "Over 5000",
+            "About 200",
+            "Exactly 2",
+            "About 50"
+          ],
+          "correcta": 0,
+          "explicacion": "But fewer than 200 are inhabited."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why don't we know much about the first people in Britain?",
+          "opciones": [
+            "They didn't write things down",
+            "They lived underwater",
+            "They spoke Latin",
+            "All their bones disappeared"
+          ],
+          "correcta": 0,
+          "explicacion": "Historians use evidence like bones, stone, fossils and pottery."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What were Britain's earliest immigrants (about half a million years ago)?",
+          "opciones": [
+            "Hunter-gatherers",
+            "Farmers",
+            "Romans",
+            "Vikings"
+          ],
+          "correcta": 0,
+          "explicacion": "They hunted animals and gathered nuts and fruit."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What happened to the land bridge?",
+          "opciones": [
+            "It disappeared under water as the ice melted and the sea level rose",
+            "The Romans destroyed it",
+            "It became Ireland",
+            "It is still there today"
+          ],
+          "correcta": 0,
+          "explicacion": "Around 8500 BC; Britain became an island."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "About 7000 years ago, what important change happened?",
+          "opciones": [
+            "People learned to farm",
+            "People learned to read",
+            "The Romans arrived",
+            "Iron was discovered"
+          ],
+          "correcta": 0,
+          "explicacion": "New settlers brought wheat and barley seeds and animals."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why were the Beaker people called that?",
+          "opciones": [
+            "Because of their decorated pottery",
+            "Because they drank a lot",
+            "Because of their helmets",
+            "Because they lived near rivers"
+          ],
+          "correcta": 0,
+          "explicacion": "They arrived around 2500 BC."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Bronze is made by mixing copper with…",
+          "opciones": [
+            "tin",
+            "iron",
+            "gold",
+            "silver"
+          ],
+          "correcta": 0,
+          "explicacion": "That's why it is called the Bronze Age."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "When did the Romans invade Britain?",
+          "opciones": [
+            "AD 43",
+            "AD 410",
+            "500 BC",
+            "AD 793"
+          ],
+          "correcta": 0,
+          "explicacion": "They stayed for around 400 years."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these did the Romans bring to Britain?",
+          "opciones": [
+            "Coins, calendars and bricks",
+            "Halloween and May Day",
+            "The words 'cat' and 'dog'",
+            "The Danelaw"
+          ],
+          "correcta": 0,
+          "explicacion": "Halloween and May Day come from the Celts."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which tribes are known as the Anglo-Saxons?",
+          "opciones": [
+            "Angles, Saxons and Jutes",
+            "Celts and Picts",
+            "Romans and Gauls",
+            "Vikings and Normans"
+          ],
+          "correcta": 0,
+          "explicacion": "From modern-day Denmark and northern Germany."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where does the name 'England' come from?",
+          "opciones": [
+            "'Angle-land' – land of the Angles",
+            "The Romans' name Britannia",
+            "The Scotti tribe",
+            "The Celtic word for green"
+          ],
+          "correcta": 0,
+          "explicacion": "The Anglo-Saxons gave England its name."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A town ending in '-ham' or '-ton' was probably…",
+          "opciones": [
+            "named by the Anglo-Saxons",
+            "built by the Romans",
+            "a Viking camp",
+            "a Celtic fort"
+          ],
+          "correcta": 0,
+          "explicacion": "Also -wich, -worth, -burn, -hurst."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What was the Danelaw?",
+          "opciones": [
+            "The area of England controlled by the Vikings",
+            "A Roman road",
+            "A Saxon law court",
+            "A Celtic religion"
+          ],
+          "correcta": 0,
+          "explicacion": "In the north and east of England."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which Anglo-Saxon king beat the Vikings in battle?",
+          "opciones": [
+            "Alfred the Great",
+            "Edward the Confessor",
+            "Harold Godwinson",
+            "William"
+          ],
+          "correcta": 0,
+          "explicacion": "He ruled Wessex, in the south-west."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Put these invaders in chronological order.",
+          "opciones": [
+            "Celts → Romans → Anglo-Saxons → Vikings",
+            "Romans → Celts → Vikings → Anglo-Saxons",
+            "Vikings → Anglo-Saxons → Romans → Celts",
+            "Anglo-Saxons → Celts → Romans → Vikings"
+          ],
+          "correcta": 0,
+          "explicacion": "500 BC, AD 43, AD 410, late 8th century."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Scotland was named after the Picts, the largest tribe.",
+          "correcta": false,
+          "explicacion": "The Picts were the largest, but it was named after the Scotti."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Many English words, such as 'bed', 'cat' and 'dog', come from Anglo-Saxon.",
+          "correcta": true,
+          "explicacion": "Anglo-Saxon is one of the base languages of English."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name two things the Romans brought to Britain.",
+          "claves": [
+            "road",
+            "town",
+            "calendar",
+            "coin",
+            "brick",
+            "pea",
+            "wine",
+            "grape",
+            "carrot",
+            "cat",
+            "law"
+          ],
+          "minimo": 2,
+          "modelo": "Any two: roads, towns, calendars, coins, bricks, peas, wine, grapes, carrots, cats.",
+          "explicacion": "Many roads still follow Roman roads."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Explain how Britain became an island.",
+          "claves": [
+            "ice",
+            "melt",
+            "sea",
+            "rose",
+            "land bridge",
+            "water"
+          ],
+          "minimo": 2,
+          "modelo": "Around 8500 BC the ice melted, the sea level rose and the land bridge to Europe disappeared under water.",
+          "explicacion": "Before that, people could walk to Europe."
+        }
       ]
     },
     {
@@ -194,64 +836,376 @@
         {
           "seccion": "Who ruled?",
           "tarjetas": [
-            { "etiqueta": "👑 King", "titulo": "Edward the Confessor", "puntos": ["United England from **1042**", "Made a **saint** in 1161", "Friends in **Normandy**"] },
-            { "etiqueta": "🗣️ Witan", "titulo": "The king's advisers", "puntos": ["Earls, thegns, bishops", "Helped the king **rule**"] },
-            { "etiqueta": "🏰 Earl", "titulo": "Ran an earldom", "puntos": ["Head of a rich family", "Looked after an area for the king", "e.g. **Harold** – Wessex"] }
+            {
+              "etiqueta": "👑 King",
+              "titulo": "Edward the Confessor",
+              "puntos": [
+                "United England from **1042**",
+                "Made a **saint** in 1161",
+                "Friends in **Normandy**"
+              ]
+            },
+            {
+              "etiqueta": "🗣️ Witan",
+              "titulo": "The king's advisers",
+              "puntos": [
+                "Earls, thegns, bishops",
+                "Helped the king **rule**"
+              ]
+            },
+            {
+              "etiqueta": "🏰 Earl",
+              "titulo": "Ran an earldom",
+              "puntos": [
+                "Head of a rich family",
+                "Looked after an area for the king",
+                "e.g. **Harold** – Wessex"
+              ]
+            }
           ]
         },
         {
           "seccion": "Anglo-Saxon society",
-          "chips": { "titulo": "From top to bottom", "items": ["👑 **King**", "🏰 **Earls** – earldoms", "🛡️ **Thegns** ('thane') – local landowners", "🌾 **Ceorls** ('churl') – ordinary villagers", "⛓️ **Thralls** – enslaved people"] },
+          "chips": {
+            "titulo": "From top to bottom",
+            "items": [
+              "👑 **King**",
+              "🏰 **Earls** – earldoms",
+              "🛡️ **Thegns** ('thane') – local landowners",
+              "🌾 **Ceorls** ('churl') – ordinary villagers",
+              "⛓️ **Thralls** – enslaved people"
+            ]
+          },
           "tarjetas": [
-            { "etiqueta": "👨‍👩‍👧 Population", "titulo": "About 1.5 million", "puntos": ["Most lived in small **villages**", "Only ~15 towns over 1000 people", "Only **8** towns over 3000"] },
-            { "etiqueta": "⛓️ Thralls", "titulo": "Who were they?", "puntos": ["**Prisoners** of war", "**Lawbreakers**", "People who couldn't pay **debts**"] }
+            {
+              "etiqueta": "👨‍👩‍👧 Population",
+              "titulo": "About 1.5 million",
+              "puntos": [
+                "Most lived in small **villages**",
+                "Only ~15 towns over 1000 people",
+                "Only **8** towns over 3000"
+              ]
+            },
+            {
+              "etiqueta": "⛓️ Thralls",
+              "titulo": "Who were they?",
+              "puntos": [
+                "**Prisoners** of war",
+                "**Lawbreakers**",
+                "People who couldn't pay **debts**"
+              ]
+            }
           ]
         },
         {
           "seccion": "Achievements",
           "tarjetas": [
-            { "etiqueta": "🪙 Coins", "titulo": "Instead of bartering", "puntos": ["Own coins from the **700s**", "Easier **trade**", "Showed kings' wealth"] },
-            { "etiqueta": "💎 Crafts", "titulo": "Highly skilled", "puntos": ["**Alfred Jewel**: 'Alfred had me made'", "Jewellery, iron tools, a lyre"] },
-            { "etiqueta": "📜 Writing", "titulo": "Books and chronicles", "puntos": ["**Monks** wrote **chronicles**", "Poem **Beowulf**", "Letters from King **Offa**"] }
+            {
+              "etiqueta": "🪙 Coins",
+              "titulo": "Instead of bartering",
+              "puntos": [
+                "Own coins from the **700s**",
+                "Easier **trade**",
+                "Showed kings' wealth"
+              ]
+            },
+            {
+              "etiqueta": "💎 Crafts",
+              "titulo": "Highly skilled",
+              "puntos": [
+                "**Alfred Jewel**: 'Alfred had me made'",
+                "Jewellery, iron tools, a lyre"
+              ]
+            },
+            {
+              "etiqueta": "📜 Writing",
+              "titulo": "Books and chronicles",
+              "puntos": [
+                "**Monks** wrote **chronicles**",
+                "Poem **Beowulf**",
+                "Letters from King **Offa**"
+              ]
+            }
           ]
         },
         {
           "seccion": "A rich prize for invaders",
-          "chips": { "titulo": "Natural resources", "items": ["🐑 **Wool** – sold all over Europe", "🌾 Wheat", "🐟 Fish", "🧂 **Salt** – Cheshire", "⛏️ **Tin** – Cornwall", "🥈 Silver – coins", "Lead", "Iron", "Copper", "🍯 Honey"] }
+          "chips": {
+            "titulo": "Natural resources",
+            "items": [
+              "🐑 **Wool** – sold all over Europe",
+              "🌾 Wheat",
+              "🐟 Fish",
+              "🧂 **Salt** – Cheshire",
+              "⛏️ **Tin** – Cornwall",
+              "🥈 Silver – coins",
+              "Lead",
+              "Iron",
+              "Copper",
+              "🍯 Honey"
+            ]
+          }
         }
       ],
       "tarjetas": [
-        { "p": "Witan", "r": "A group of advisers who helped the Anglo-Saxon king" },
-        { "p": "Earl", "r": "Head of a rich family who ran an area (earldom) for the king" },
-        { "p": "Thegn", "r": "A local landowner (pronounced 'thane')" },
-        { "p": "Ceorl", "r": "An ordinary villager who owned enough land to grow food" },
-        { "p": "Thrall", "r": "An enslaved person" },
-        { "p": "Population of Anglo-Saxon England", "r": "About 1.5 million" },
-        { "p": "Who ruled England from 1042?", "r": "Edward the Confessor" },
-        { "p": "Chronicle", "r": "An official diary kept by monks" },
-        { "p": "The Alfred Jewel", "r": "A gold and crystal pointer: 'Alfred had me made'" },
-        { "p": "Bartering", "r": "Exchanging goods for other goods (no coins)" },
-        { "p": "Why was England attractive to invaders?", "r": "Rich natural resources (tin, wool, silver…) and skilled craft workers" }
+        {
+          "p": "Witan",
+          "r": "A group of advisers who helped the Anglo-Saxon king"
+        },
+        {
+          "p": "Earl",
+          "r": "Head of a rich family who ran an area (earldom) for the king"
+        },
+        {
+          "p": "Thegn",
+          "r": "A local landowner (pronounced 'thane')"
+        },
+        {
+          "p": "Ceorl",
+          "r": "An ordinary villager who owned enough land to grow food"
+        },
+        {
+          "p": "Thrall",
+          "r": "An enslaved person"
+        },
+        {
+          "p": "Population of Anglo-Saxon England",
+          "r": "About 1.5 million"
+        },
+        {
+          "p": "Who ruled England from 1042?",
+          "r": "Edward the Confessor"
+        },
+        {
+          "p": "Chronicle",
+          "r": "An official diary kept by monks"
+        },
+        {
+          "p": "The Alfred Jewel",
+          "r": "A gold and crystal pointer: 'Alfred had me made'"
+        },
+        {
+          "p": "Bartering",
+          "r": "Exchanging goods for other goods (no coins)"
+        },
+        {
+          "p": "Why was England attractive to invaders?",
+          "r": "Rich natural resources (tin, wool, silver…) and skilled craft workers"
+        }
       ],
       "preguntas": [
-        { "tipo": "opcion", "enunciado": "What was the Witan?", "opciones": ["A group of advisers who helped the king", "An Anglo-Saxon army", "A type of coin", "A Viking settlement"], "correcta": 0, "explicacion": "Earls, thegns and bishops sat on it." },
-        { "tipo": "opcion", "enunciado": "Who ruled England from 1042 until January 1066?", "opciones": ["Edward the Confessor", "Harold Godwinson", "Alfred the Great", "William of Normandy"], "correcta": 0, "explicacion": "He was made a saint in 1161." },
-        { "tipo": "opcion", "enunciado": "What was an earldom?", "opciones": ["The area of land an earl looked after", "A large castle", "A church", "A Viking ship"], "correcta": 0, "explicacion": "Earls ran it on behalf of the king." },
-        { "tipo": "opcion", "enunciado": "What were thegns?", "opciones": ["Local landowners", "Enslaved people", "Monks", "Foreign soldiers"], "correcta": 0, "explicacion": "Pronounced 'thane'." },
-        { "tipo": "opcion", "enunciado": "Ordinary Anglo-Saxon villagers were called…", "opciones": ["ceorls", "thralls", "thegns", "earls"], "correcta": 0, "explicacion": "Pronounced 'churl'." },
-        { "tipo": "opcion", "enunciado": "Who were thralls?", "opciones": ["Enslaved people", "Rich landowners", "Royal advisers", "Craft workers"], "correcta": 0, "explicacion": "War prisoners, lawbreakers or people unable to pay debts." },
-        { "tipo": "opcion", "enunciado": "What was the population of Anglo-Saxon England?", "opciones": ["About 1.5 million", "About 15 million", "About 150 million", "About 1500"], "correcta": 0, "explicacion": "Most people lived in small villages." },
-        { "tipo": "opcion", "enunciado": "Edward the Confessor took advice from friends in which area of France?", "opciones": ["Normandy", "Paris", "Brittany", "Burgundy"], "correcta": 0, "explicacion": "His mother was from Normandy." },
-        { "tipo": "opcion", "enunciado": "What is bartering?", "opciones": ["Exchanging goods for other goods", "Paying with coins", "Writing a chronicle", "Building a church"], "correcta": 0, "explicacion": "Coins made trading easier." },
-        { "tipo": "opcion", "enunciado": "What are the words written on the Alfred Jewel?", "opciones": ["'Alfred had me made'", "'God save the king'", "'Alfred the Great'", "'Made in Wessex'"], "correcta": 0, "explicacion": "It was used as a pointer for reading." },
-        { "tipo": "opcion", "enunciado": "What were chronicles?", "opciones": ["Official diaries kept by monks", "Anglo-Saxon coins", "Viking ships", "Royal crowns"], "correcta": 0, "explicacion": "They wrote about religion, politics, kings, gossip and weather." },
-        { "tipo": "opcion", "enunciado": "Which famous Anglo-Saxon poem tells of a heroic warrior?", "opciones": ["Beowulf", "Magna Carta", "The Bayeux Tapestry", "The Domesday Book"], "correcta": 0, "explicacion": "Anglo-Saxons loved poems, songs and stories." },
-        { "tipo": "opcion", "enunciado": "By 1066, England supplied most of Europe's…", "opciones": ["tin", "gold", "spices", "silk"], "correcta": 0, "explicacion": "From Cornwall's tin mines." },
-        { "tipo": "opcion", "enunciado": "Why might Anglo-Saxon England be attractive to invaders?", "opciones": ["It had rich natural resources and skilled craft workers", "It had no army", "It had no towns", "It was very hot"], "correcta": 0, "explicacion": "Wool, tin, silver, salt, wheat, fish…" },
-        { "tipo": "vf", "enunciado": "Poorer Anglo-Saxon women worked on the farms just as hard as the men.", "correcta": true, "explicacion": "Rich women stayed at home weaving and sewing." },
-        { "tipo": "vf", "enunciado": "Most Anglo-Saxons lived in large towns.", "correcta": false, "explicacion": "Nearly everybody lived in small villages and worked on the land." },
-        { "tipo": "corta", "enunciado": "Name the groups in Anglo-Saxon society from the top (after the king) to the bottom.", "claves": ["earl", "thegn", "ceorl", "thrall"], "minimo": 4, "modelo": "Earls → thegns → ceorls → thralls.", "explicacion": "King at the very top." },
-        { "tipo": "corta", "enunciado": "Name two natural resources that made England rich.", "claves": ["wool", "wheat", "fish", "salt", "tin", "silver", "lead", "iron", "copper", "honey"], "minimo": 2, "modelo": "Any two: wool, wheat, fish, salt, tin, silver, lead, iron, copper, honey.", "explicacion": "See Map H." }
+        {
+          "tipo": "opcion",
+          "enunciado": "What was the Witan?",
+          "opciones": [
+            "A group of advisers who helped the king",
+            "An Anglo-Saxon army",
+            "A type of coin",
+            "A Viking settlement"
+          ],
+          "correcta": 0,
+          "explicacion": "Earls, thegns and bishops sat on it."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who ruled England from 1042 until January 1066?",
+          "opciones": [
+            "Edward the Confessor",
+            "Harold Godwinson",
+            "Alfred the Great",
+            "William of Normandy"
+          ],
+          "correcta": 0,
+          "explicacion": "He was made a saint in 1161."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What was an earldom?",
+          "opciones": [
+            "The area of land an earl looked after",
+            "A large castle",
+            "A church",
+            "A Viking ship"
+          ],
+          "correcta": 0,
+          "explicacion": "Earls ran it on behalf of the king."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What were thegns?",
+          "opciones": [
+            "Local landowners",
+            "Enslaved people",
+            "Monks",
+            "Foreign soldiers"
+          ],
+          "correcta": 0,
+          "explicacion": "Pronounced 'thane'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Ordinary Anglo-Saxon villagers were called…",
+          "opciones": [
+            "ceorls",
+            "thralls",
+            "thegns",
+            "earls"
+          ],
+          "correcta": 0,
+          "explicacion": "Pronounced 'churl'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who were thralls?",
+          "opciones": [
+            "Enslaved people",
+            "Rich landowners",
+            "Royal advisers",
+            "Craft workers"
+          ],
+          "correcta": 0,
+          "explicacion": "War prisoners, lawbreakers or people unable to pay debts."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What was the population of Anglo-Saxon England?",
+          "opciones": [
+            "About 1.5 million",
+            "About 15 million",
+            "About 150 million",
+            "About 1500"
+          ],
+          "correcta": 0,
+          "explicacion": "Most people lived in small villages."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Edward the Confessor took advice from friends in which area of France?",
+          "opciones": [
+            "Normandy",
+            "Paris",
+            "Brittany",
+            "Burgundy"
+          ],
+          "correcta": 0,
+          "explicacion": "His mother was from Normandy."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is bartering?",
+          "opciones": [
+            "Exchanging goods for other goods",
+            "Paying with coins",
+            "Writing a chronicle",
+            "Building a church"
+          ],
+          "correcta": 0,
+          "explicacion": "Coins made trading easier."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What are the words written on the Alfred Jewel?",
+          "opciones": [
+            "'Alfred had me made'",
+            "'God save the king'",
+            "'Alfred the Great'",
+            "'Made in Wessex'"
+          ],
+          "correcta": 0,
+          "explicacion": "It was used as a pointer for reading."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What were chronicles?",
+          "opciones": [
+            "Official diaries kept by monks",
+            "Anglo-Saxon coins",
+            "Viking ships",
+            "Royal crowns"
+          ],
+          "correcta": 0,
+          "explicacion": "They wrote about religion, politics, kings, gossip and weather."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which famous Anglo-Saxon poem tells of a heroic warrior?",
+          "opciones": [
+            "Beowulf",
+            "Magna Carta",
+            "The Bayeux Tapestry",
+            "The Domesday Book"
+          ],
+          "correcta": 0,
+          "explicacion": "Anglo-Saxons loved poems, songs and stories."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "By 1066, England supplied most of Europe's…",
+          "opciones": [
+            "tin",
+            "gold",
+            "spices",
+            "silk"
+          ],
+          "correcta": 0,
+          "explicacion": "From Cornwall's tin mines."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why might Anglo-Saxon England be attractive to invaders?",
+          "opciones": [
+            "It had rich natural resources and skilled craft workers",
+            "It had no army",
+            "It had no towns",
+            "It was very hot"
+          ],
+          "correcta": 0,
+          "explicacion": "Wool, tin, silver, salt, wheat, fish…"
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Poorer Anglo-Saxon women worked on the farms just as hard as the men.",
+          "correcta": true,
+          "explicacion": "Rich women stayed at home weaving and sewing."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Most Anglo-Saxons lived in large towns.",
+          "correcta": false,
+          "explicacion": "Nearly everybody lived in small villages and worked on the land."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name the groups in Anglo-Saxon society from the top (after the king) to the bottom.",
+          "claves": [
+            "earl",
+            "thegn",
+            "ceorl",
+            "thrall"
+          ],
+          "minimo": 4,
+          "modelo": "Earls → thegns → ceorls → thralls.",
+          "explicacion": "King at the very top."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name two natural resources that made England rich.",
+          "claves": [
+            "wool",
+            "wheat",
+            "fish",
+            "salt",
+            "tin",
+            "silver",
+            "lead",
+            "iron",
+            "copper",
+            "honey"
+          ],
+          "minimo": 2,
+          "modelo": "Any two: wool, wheat, fish, salt, tin, silver, lead, iron, copper, honey.",
+          "explicacion": "See Map H."
+        }
       ]
     },
     {
@@ -276,54 +1230,310 @@
         {
           "seccion": "January 1066",
           "tarjetas": [
-            { "etiqueta": "⚰️ 5 January 1066", "titulo": "Edward dies", "puntos": ["Aged **62**", "**No children**", "No strict rules about who comes next"] },
-            { "etiqueta": "📜 Traditions", "titulo": "Who should be king?", "puntos": ["The king's **son**", "A **male relative**", "The **dying king's choice**", "The **Witan's** choice"] }
+            {
+              "etiqueta": "⚰️ 5 January 1066",
+              "titulo": "Edward dies",
+              "puntos": [
+                "Aged **62**",
+                "**No children**",
+                "No strict rules about who comes next"
+              ]
+            },
+            {
+              "etiqueta": "📜 Traditions",
+              "titulo": "Who should be king?",
+              "puntos": [
+                "The king's **son**",
+                "A **male relative**",
+                "The **dying king's choice**",
+                "The **Witan's** choice"
+              ]
+            }
           ]
         },
         {
           "seccion": "The three contenders",
           "tarjetas": [
-            { "etiqueta": "🇫🇷 The Norman", "titulo": "William of Normandy", "puntos": ["Duke of **Normandy**, strong army", "Edward **promised** him the throne (**1051**)", "Harold visited him in **1064**"] },
-            { "etiqueta": "🏴 The Englishman", "titulo": "Harold Godwinson", "puntos": ["**Earl of Wessex**", "Sister married to **Edward**", "Witan's choice; **deathbed promise**"] },
-            { "etiqueta": "🛡️ The Viking", "titulo": "Harald Hardrada", "puntos": ["**King of Norway**, 'the Ruthless'", "Link: **Canute** ruled Norway and England", "Supported by **Tostig**"] }
+            {
+              "etiqueta": "🇫🇷 The Norman",
+              "titulo": "William of Normandy",
+              "puntos": [
+                "Duke of **Normandy**, strong army",
+                "Edward **promised** him the throne (**1051**)",
+                "Harold visited him in **1064**"
+              ]
+            },
+            {
+              "etiqueta": "🏴 The Englishman",
+              "titulo": "Harold Godwinson",
+              "puntos": [
+                "**Earl of Wessex**",
+                "Sister married to **Edward**",
+                "Witan's choice; **deathbed promise**"
+              ]
+            },
+            {
+              "etiqueta": "🛡️ The Viking",
+              "titulo": "Harald Hardrada",
+              "puntos": [
+                "**King of Norway**, 'the Ruthless'",
+                "Link: **Canute** ruled Norway and England",
+                "Supported by **Tostig**"
+              ]
+            }
           ]
         },
         {
           "seccion": "Harold's advantage",
           "tarjetas": [
-            { "etiqueta": "👑 6 January 1066", "titulo": "Crowned at once", "puntos": ["Harold was **already in England**", "William and Hardrada were **across the sea**", "They would both come for him…"] }
+            {
+              "etiqueta": "👑 6 January 1066",
+              "titulo": "Crowned at once",
+              "puntos": [
+                "Harold was **already in England**",
+                "William and Hardrada were **across the sea**",
+                "They would both come for him…"
+              ]
+            }
           ]
         }
       ],
       "tarjetas": [
-        { "p": "When did Edward the Confessor die?", "r": "5 January 1066" },
-        { "p": "Why was there a problem after Edward's death?", "r": "He had no children" },
-        { "p": "William of Normandy's claim", "r": "Edward promised him the throne in 1051; Harold promised to support him in 1064" },
-        { "p": "Harold Godwinson's claim", "r": "Earl of Wessex; the Witan wanted him; Edward promised him on his deathbed" },
-        { "p": "Harald Hardrada's claim", "r": "King of Norway; Canute had ruled both; supported by Tostig" },
-        { "p": "What does 'Hardrada' mean?", "r": "'Hard ruler'" },
-        { "p": "Tostig", "r": "Harold's brother, who supported Hardrada" },
-        { "p": "When was Harold crowned?", "r": "6 January 1066, the day after Edward died" },
-        { "p": "Edgar", "r": "Edward's great-nephew – only a teenager, too young" }
+        {
+          "p": "When did Edward the Confessor die?",
+          "r": "5 January 1066"
+        },
+        {
+          "p": "Why was there a problem after Edward's death?",
+          "r": "He had no children"
+        },
+        {
+          "p": "William of Normandy's claim",
+          "r": "Edward promised him the throne in 1051; Harold promised to support him in 1064"
+        },
+        {
+          "p": "Harold Godwinson's claim",
+          "r": "Earl of Wessex; the Witan wanted him; Edward promised him on his deathbed"
+        },
+        {
+          "p": "Harald Hardrada's claim",
+          "r": "King of Norway; Canute had ruled both; supported by Tostig"
+        },
+        {
+          "p": "What does 'Hardrada' mean?",
+          "r": "'Hard ruler'"
+        },
+        {
+          "p": "Tostig",
+          "r": "Harold's brother, who supported Hardrada"
+        },
+        {
+          "p": "When was Harold crowned?",
+          "r": "6 January 1066, the day after Edward died"
+        },
+        {
+          "p": "Edgar",
+          "r": "Edward's great-nephew – only a teenager, too young"
+        }
       ],
       "preguntas": [
-        { "tipo": "opcion", "enunciado": "When did Edward the Confessor die?", "opciones": ["January 1066", "October 1066", "December 1065", "September 1066"], "correcta": 0, "explicacion": "5 January 1066." },
-        { "tipo": "opcion", "enunciado": "Why was there a problem when Edward died?", "opciones": ["He had no children", "He had too many sons", "He was killed in battle", "He lived in Normandy"], "correcta": 0, "explicacion": "There were no strict rules about who should rule next." },
-        { "tipo": "opcion", "enunciado": "Why couldn't Edgar, Edward's great-nephew, become king?", "opciones": ["He was a teenager without experience or military skill", "He lived in Norway", "He was a Viking", "He was a woman"], "correcta": 0, "explicacion": "Three other men claimed the throne instead." },
-        { "tipo": "opcion", "enunciado": "Who was the Duke of Normandy?", "opciones": ["William", "Harold", "Harald", "Tostig"], "correcta": 0, "explicacion": "The most powerful part of France." },
-        { "tipo": "opcion", "enunciado": "William claimed Edward had promised him the throne in which year?", "opciones": ["1051", "1066", "1035", "1064"], "correcta": 0, "explicacion": "In 1064 Harold visited William." },
-        { "tipo": "opcion", "enunciado": "What was Harold Godwinson's position?", "opciones": ["Earl of Wessex", "King of Norway", "Duke of Normandy", "Archbishop"], "correcta": 0, "explicacion": "One of the most powerful men in England." },
-        { "tipo": "opcion", "enunciado": "What was Harold's link to King Edward?", "opciones": ["His sister was married to Edward", "He was Edward's son", "He was Edward's cousin", "He had no link"], "correcta": 0, "explicacion": "Harold was Edward's brother-in-law." },
-        { "tipo": "opcion", "enunciado": "Who did the Witan want as king?", "opciones": ["Harold Godwinson", "William of Normandy", "Harald Hardrada", "Edgar"], "correcta": 0, "explicacion": "He was the only Englishman claiming the throne." },
-        { "tipo": "opcion", "enunciado": "Harald Hardrada was king of which country?", "opciones": ["Norway", "Denmark", "France", "Sweden"], "correcta": 0, "explicacion": "He was the most feared warrior in Europe." },
-        { "tipo": "opcion", "enunciado": "What does 'Hardrada' mean?", "opciones": ["Hard ruler", "Brave Viking", "King of the sea", "Red beard"], "correcta": 0, "explicacion": "His nickname was 'the Ruthless'." },
-        { "tipo": "opcion", "enunciado": "Who supported Harald Hardrada's claim?", "opciones": ["Tostig, Harold's brother", "The Witan", "The Pope", "Edward the Confessor"], "correcta": 0, "explicacion": "Tostig had fallen out with Harold and wanted revenge." },
-        { "tipo": "opcion", "enunciado": "What was Hardrada's link to the English throne?", "opciones": ["A Viking, Canute, had ruled Norway and England", "Edward was his father", "He had lived in England", "He was married to Edward's sister"], "correcta": 0, "explicacion": "Canute ruled both from 1016 to 1035." },
-        { "tipo": "opcion", "enunciado": "What was Harold's big advantage over his rivals?", "opciones": ["He was already in England", "He had the biggest army", "He had ships", "The Pope supported him"], "correcta": 0, "explicacion": "He was crowned the very next day." },
-        { "tipo": "vf", "enunciado": "Most people in medieval times believed a monarch should be male.", "correcta": true, "explicacion": "One of the traditions of the time." },
-        { "tipo": "vf", "enunciado": "Edward the Confessor had lived in Normandy from 1016 to 1041.", "correcta": true, "explicacion": "William sent soldiers to help him return to England." },
-        { "tipo": "corta", "enunciado": "Name the three men who wanted to be King of England in 1066.", "claves": ["william", "harold", "hardrada"], "minimo": 3, "modelo": "William of Normandy, Harold Godwinson and Harald Hardrada.", "explicacion": "The Norman, the Englishman and the Viking." },
-        { "tipo": "corta", "enunciado": "Give one reason why Harold Godwinson had a strong claim.", "claves": ["witan", "english", "deathbed", "promise", "sister", "wessex", "earl", "already"], "minimo": 1, "modelo": "The Witan wanted him; Edward promised him the kingdom on his deathbed; he was the only Englishman; his sister was married to Edward.", "explicacion": "Any one reason." }
+        {
+          "tipo": "opcion",
+          "enunciado": "When did Edward the Confessor die?",
+          "opciones": [
+            "January 1066",
+            "October 1066",
+            "December 1065",
+            "September 1066"
+          ],
+          "correcta": 0,
+          "explicacion": "5 January 1066."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why was there a problem when Edward died?",
+          "opciones": [
+            "He had no children",
+            "He had too many sons",
+            "He was killed in battle",
+            "He lived in Normandy"
+          ],
+          "correcta": 0,
+          "explicacion": "There were no strict rules about who should rule next."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why couldn't Edgar, Edward's great-nephew, become king?",
+          "opciones": [
+            "He was a teenager without experience or military skill",
+            "He lived in Norway",
+            "He was a Viking",
+            "He was a woman"
+          ],
+          "correcta": 0,
+          "explicacion": "Three other men claimed the throne instead."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who was the Duke of Normandy?",
+          "opciones": [
+            "William",
+            "Harold",
+            "Harald",
+            "Tostig"
+          ],
+          "correcta": 0,
+          "explicacion": "The most powerful part of France."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "William claimed Edward had promised him the throne in which year?",
+          "opciones": [
+            "1051",
+            "1066",
+            "1035",
+            "1064"
+          ],
+          "correcta": 0,
+          "explicacion": "In 1064 Harold visited William."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What was Harold Godwinson's position?",
+          "opciones": [
+            "Earl of Wessex",
+            "King of Norway",
+            "Duke of Normandy",
+            "Archbishop"
+          ],
+          "correcta": 0,
+          "explicacion": "One of the most powerful men in England."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What was Harold's link to King Edward?",
+          "opciones": [
+            "His sister was married to Edward",
+            "He was Edward's son",
+            "He was Edward's cousin",
+            "He had no link"
+          ],
+          "correcta": 0,
+          "explicacion": "Harold was Edward's brother-in-law."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who did the Witan want as king?",
+          "opciones": [
+            "Harold Godwinson",
+            "William of Normandy",
+            "Harald Hardrada",
+            "Edgar"
+          ],
+          "correcta": 0,
+          "explicacion": "He was the only Englishman claiming the throne."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Harald Hardrada was king of which country?",
+          "opciones": [
+            "Norway",
+            "Denmark",
+            "France",
+            "Sweden"
+          ],
+          "correcta": 0,
+          "explicacion": "He was the most feared warrior in Europe."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Hardrada' mean?",
+          "opciones": [
+            "Hard ruler",
+            "Brave Viking",
+            "King of the sea",
+            "Red beard"
+          ],
+          "correcta": 0,
+          "explicacion": "His nickname was 'the Ruthless'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who supported Harald Hardrada's claim?",
+          "opciones": [
+            "Tostig, Harold's brother",
+            "The Witan",
+            "The Pope",
+            "Edward the Confessor"
+          ],
+          "correcta": 0,
+          "explicacion": "Tostig had fallen out with Harold and wanted revenge."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What was Hardrada's link to the English throne?",
+          "opciones": [
+            "A Viking, Canute, had ruled Norway and England",
+            "Edward was his father",
+            "He had lived in England",
+            "He was married to Edward's sister"
+          ],
+          "correcta": 0,
+          "explicacion": "Canute ruled both from 1016 to 1035."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What was Harold's big advantage over his rivals?",
+          "opciones": [
+            "He was already in England",
+            "He had the biggest army",
+            "He had ships",
+            "The Pope supported him"
+          ],
+          "correcta": 0,
+          "explicacion": "He was crowned the very next day."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Most people in medieval times believed a monarch should be male.",
+          "correcta": true,
+          "explicacion": "One of the traditions of the time."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Edward the Confessor had lived in Normandy from 1016 to 1041.",
+          "correcta": true,
+          "explicacion": "William sent soldiers to help him return to England."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name the three men who wanted to be King of England in 1066.",
+          "claves": [
+            "william",
+            "harold",
+            "hardrada"
+          ],
+          "minimo": 3,
+          "modelo": "William of Normandy, Harold Godwinson and Harald Hardrada.",
+          "explicacion": "The Norman, the Englishman and the Viking."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give one reason why Harold Godwinson had a strong claim.",
+          "claves": [
+            "witan",
+            "english",
+            "deathbed",
+            "promise",
+            "sister",
+            "wessex",
+            "earl",
+            "already"
+          ],
+          "minimo": 1,
+          "modelo": "The Witan wanted him; Edward promised him the kingdom on his deathbed; he was the only Englishman; his sister was married to Edward.",
+          "explicacion": "Any one reason."
+        }
       ]
     },
     {
@@ -347,129 +1557,758 @@
       "notas": [
         {
           "seccion": "September 1066",
-          "chips": { "titulo": "In chronological order", "items": ["⛵ Vikings leave Norway in **300** ships", "🌊 Sail up the **Humber** and River Ouse", "📅 **18 Sept**: land near York", "⚔️ **20 Sept**: **Battle of Fulford** – Edwin and Morcar defeated", "🏰 Vikings take **York**", "🏃 Harold marches **300 km in 4 days**", "⚔️ **25 Sept**: **Stamford Bridge**", "💀 Hardrada and Tostig killed", "⛵ Vikings go home in **24** ships", "📣 William lands near **Hastings**"] }
+          "chips": {
+            "titulo": "In chronological order",
+            "items": [
+              "⛵ Vikings leave Norway in **300** ships",
+              "🌊 Sail up the **Humber** and River Ouse",
+              "📅 **18 Sept**: land near York",
+              "⚔️ **20 Sept**: **Battle of Fulford** – Edwin and Morcar defeated",
+              "🏰 Vikings take **York**",
+              "🏃 Harold marches **300 km in 4 days**",
+              "⚔️ **25 Sept**: **Stamford Bridge**",
+              "💀 Hardrada and Tostig killed",
+              "⛵ Vikings go home in **24** ships",
+              "📣 William lands near **Hastings**"
+            ]
+          }
         },
         {
           "seccion": "The battle",
           "tarjetas": [
-            { "etiqueta": "😮 Surprise!", "titulo": "Harold arrives fast", "puntos": ["Vikings **relaxing in the sun**", "Many had left their **armour** near the boats"] },
-            { "etiqueta": "🌉 The bridge", "titulo": "One brave Viking", "puntos": ["Blocked the bridge, killed **40** English", "An Englishman **floated under** the bridge", "and stabbed him from below"] },
-            { "etiqueta": "🏆 Result", "titulo": "Harold wins", "puntos": ["**Hardrada** killed by midday", "**Tostig** found and killed", "Only **24 ships** needed to go home"] }
+            {
+              "etiqueta": "😮 Surprise!",
+              "titulo": "Harold arrives fast",
+              "puntos": [
+                "Vikings **relaxing in the sun**",
+                "Many had left their **armour** near the boats"
+              ]
+            },
+            {
+              "etiqueta": "🌉 The bridge",
+              "titulo": "One brave Viking",
+              "puntos": [
+                "Blocked the bridge, killed **40** English",
+                "An Englishman **floated under** the bridge",
+                "and stabbed him from below"
+              ]
+            },
+            {
+              "etiqueta": "🏆 Result",
+              "titulo": "Harold wins",
+              "puntos": [
+                "**Hardrada** killed by midday",
+                "**Tostig** found and killed",
+                "Only **24 ships** needed to go home"
+              ]
+            }
           ]
         },
         {
           "seccion": "History skill: an account",
           "tarjetas": [
-            { "etiqueta": "📖 Account", "titulo": "A story about the past", "puntos": ["**Chronological** order", "Facts and **dates**", "**Third person**, **past tense**"] }
+            {
+              "etiqueta": "📖 Account",
+              "titulo": "A story about the past",
+              "puntos": [
+                "**Chronological** order",
+                "Facts and **dates**",
+                "**Third person**, **past tense**"
+              ]
+            }
           ]
         }
       ],
       "tarjetas": [
-        { "p": "How many longboats carried Hardrada's army?", "r": "300" },
-        { "p": "When did the Vikings land?", "r": "18 September 1066" },
-        { "p": "Battle of Fulford", "r": "20 September 1066 – earls Edwin and Morcar defeated by Hardrada" },
-        { "p": "Battle of Stamford Bridge", "r": "25 September 1066 – Harold defeats Hardrada and Tostig" },
-        { "p": "How far did Harold march north, and how fast?", "r": "Over 300 km in four days" },
-        { "p": "How did the English get past the Viking on the bridge?", "r": "A soldier floated under the bridge and stabbed him from below" },
-        { "p": "How many ships did the Vikings need to go home?", "r": "24" },
-        { "p": "What bad news did Harold receive after Stamford Bridge?", "r": "William of Normandy had landed near Hastings" },
-        { "p": "What is an 'account' in history?", "r": "A story about the past in chronological order, in the third person and past tense" }
+        {
+          "p": "How many longboats carried Hardrada's army?",
+          "r": "300"
+        },
+        {
+          "p": "When did the Vikings land?",
+          "r": "18 September 1066"
+        },
+        {
+          "p": "Battle of Fulford",
+          "r": "20 September 1066 – earls Edwin and Morcar defeated by Hardrada"
+        },
+        {
+          "p": "Battle of Stamford Bridge",
+          "r": "25 September 1066 – Harold defeats Hardrada and Tostig"
+        },
+        {
+          "p": "How far did Harold march north, and how fast?",
+          "r": "Over 300 km in four days"
+        },
+        {
+          "p": "How did the English get past the Viking on the bridge?",
+          "r": "A soldier floated under the bridge and stabbed him from below"
+        },
+        {
+          "p": "How many ships did the Vikings need to go home?",
+          "r": "24"
+        },
+        {
+          "p": "What bad news did Harold receive after Stamford Bridge?",
+          "r": "William of Normandy had landed near Hastings"
+        },
+        {
+          "p": "What is an 'account' in history?",
+          "r": "A story about the past in chronological order, in the third person and past tense"
+        }
       ],
       "preguntas": [
-        { "tipo": "opcion", "enunciado": "How many Viking longboats carried Hardrada's army to England?", "opciones": ["300", "24", "3000", "10"], "correcta": 0, "explicacion": "Only 24 were needed to go home." },
-        { "tipo": "opcion", "enunciado": "Where did the Vikings sail into England?", "opciones": ["Up the Humber Estuary and River Ouse", "Into the River Thames", "Pevensey Bay", "The English Channel"], "correcta": 0, "explicacion": "They landed near York on 18 September." },
-        { "tipo": "opcion", "enunciado": "Who was defeated at the Battle of Fulford on 20 September 1066?", "opciones": ["Earls Edwin and Morcar", "King Harold", "Harald Hardrada", "William of Normandy"], "correcta": 0, "explicacion": "Their smaller army of about 3500 lost to the Vikings." },
-        { "tipo": "opcion", "enunciado": "When was the Battle of Stamford Bridge?", "opciones": ["25 September 1066", "14 October 1066", "20 September 1066", "5 January 1066"], "correcta": 0, "explicacion": "20 September was Fulford; 14 October was Hastings." },
-        { "tipo": "opcion", "enunciado": "How far did Harold's army march north, and in how long?", "opciones": ["Over 300 km in four days", "50 km in one day", "1000 km in a month", "400 km in two weeks"], "correcta": 0, "explicacion": "The speed took the Vikings by surprise." },
-        { "tipo": "opcion", "enunciado": "Why did the battle start badly for the Vikings?", "opciones": ["Many had taken off their armour", "They had no weapons", "It was raining", "Their ships sank"], "correcta": 0, "explicacion": "They were relaxing in the sun." },
-        { "tipo": "opcion", "enunciado": "How did the English get past the Viking blocking the bridge?", "opciones": ["A soldier floated under the bridge and stabbed him", "They burned the bridge", "They swam across the river", "They paid him gold"], "correcta": 0, "explicacion": "He had killed 40 English soldiers." },
-        { "tipo": "opcion", "enunciado": "Who was killed at Stamford Bridge?", "opciones": ["Harald Hardrada and Tostig", "Harold and William", "Edwin and Morcar", "Edward the Confessor"], "correcta": 0, "explicacion": "Harold buried his brother Tostig in York." },
-        { "tipo": "opcion", "enunciado": "What bad news reached Harold after his victory?", "opciones": ["William of Normandy had landed near Hastings", "The Vikings were coming back", "London was on fire", "The Witan had chosen William"], "correcta": 0, "explicacion": "He would have to fight again soon." },
-        { "tipo": "opcion", "enunciado": "Which event happened FIRST?", "opciones": ["The Vikings sail up the Humber Estuary", "The Battle of Fulford", "The Battle of Stamford Bridge", "Harold hears that William has landed"], "correcta": 0, "explicacion": "Humber → Fulford → Stamford Bridge → news of William." },
-        { "tipo": "opcion", "enunciado": "Which event happened LAST?", "opciones": ["Harold hears that William has landed near Hastings", "Hardrada and Tostig are killed", "Edwin and Morcar are defeated", "The Vikings leave Norway"], "correcta": 0, "explicacion": "The news came after Harold buried Tostig." },
-        { "tipo": "opcion", "enunciado": "An 'account' in history should be written…", "opciones": ["in chronological order, third person, past tense", "in the first person, present tense", "as a list of opinions", "in any order"], "correcta": 0, "explicacion": "Full of facts and dates." },
-        { "tipo": "vf", "enunciado": "About 10,000 Vikings came with Hardrada and Tostig.", "correcta": true, "explicacion": "Map A of lesson 1.4." },
-        { "tipo": "vf", "enunciado": "Harold lost the Battle of Stamford Bridge.", "correcta": false, "explicacion": "Harold won; Hardrada and Tostig were killed." },
-        { "tipo": "corta", "enunciado": "Put these in chronological order: Battle of Stamford Bridge, Vikings land near York, Battle of Fulford.", "claves": ["land", "fulford", "stamford"], "minimo": 3, "modelo": "Vikings land near York (18 Sept) → Battle of Fulford (20 Sept) → Battle of Stamford Bridge (25 Sept).", "explicacion": "Learn the dates." },
-        { "tipo": "corta", "enunciado": "Give two reasons why Harold won at Stamford Bridge.", "claves": ["surprise", "fast", "quick", "speed", "armour", "relax", "bridge", "under"], "minimo": 2, "modelo": "He arrived quickly and surprised the Vikings; many Vikings had taken off their armour; a soldier got under the bridge and killed the Viking blocking it.", "explicacion": "Speed and surprise." }
+        {
+          "tipo": "opcion",
+          "enunciado": "How many Viking longboats carried Hardrada's army to England?",
+          "opciones": [
+            "300",
+            "24",
+            "3000",
+            "10"
+          ],
+          "correcta": 0,
+          "explicacion": "Only 24 were needed to go home."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where did the Vikings sail into England?",
+          "opciones": [
+            "Up the Humber Estuary and River Ouse",
+            "Into the River Thames",
+            "Pevensey Bay",
+            "The English Channel"
+          ],
+          "correcta": 0,
+          "explicacion": "They landed near York on 18 September."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who was defeated at the Battle of Fulford on 20 September 1066?",
+          "opciones": [
+            "Earls Edwin and Morcar",
+            "King Harold",
+            "Harald Hardrada",
+            "William of Normandy"
+          ],
+          "correcta": 0,
+          "explicacion": "Their smaller army of about 3500 lost to the Vikings."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "When was the Battle of Stamford Bridge?",
+          "opciones": [
+            "25 September 1066",
+            "14 October 1066",
+            "20 September 1066",
+            "5 January 1066"
+          ],
+          "correcta": 0,
+          "explicacion": "20 September was Fulford; 14 October was Hastings."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How far did Harold's army march north, and in how long?",
+          "opciones": [
+            "Over 300 km in four days",
+            "50 km in one day",
+            "1000 km in a month",
+            "400 km in two weeks"
+          ],
+          "correcta": 0,
+          "explicacion": "The speed took the Vikings by surprise."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why did the battle start badly for the Vikings?",
+          "opciones": [
+            "Many had taken off their armour",
+            "They had no weapons",
+            "It was raining",
+            "Their ships sank"
+          ],
+          "correcta": 0,
+          "explicacion": "They were relaxing in the sun."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How did the English get past the Viking blocking the bridge?",
+          "opciones": [
+            "A soldier floated under the bridge and stabbed him",
+            "They burned the bridge",
+            "They swam across the river",
+            "They paid him gold"
+          ],
+          "correcta": 0,
+          "explicacion": "He had killed 40 English soldiers."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who was killed at Stamford Bridge?",
+          "opciones": [
+            "Harald Hardrada and Tostig",
+            "Harold and William",
+            "Edwin and Morcar",
+            "Edward the Confessor"
+          ],
+          "correcta": 0,
+          "explicacion": "Harold buried his brother Tostig in York."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What bad news reached Harold after his victory?",
+          "opciones": [
+            "William of Normandy had landed near Hastings",
+            "The Vikings were coming back",
+            "London was on fire",
+            "The Witan had chosen William"
+          ],
+          "correcta": 0,
+          "explicacion": "He would have to fight again soon."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which event happened FIRST?",
+          "opciones": [
+            "The Vikings sail up the Humber Estuary",
+            "The Battle of Fulford",
+            "The Battle of Stamford Bridge",
+            "Harold hears that William has landed"
+          ],
+          "correcta": 0,
+          "explicacion": "Humber → Fulford → Stamford Bridge → news of William."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which event happened LAST?",
+          "opciones": [
+            "Harold hears that William has landed near Hastings",
+            "Hardrada and Tostig are killed",
+            "Edwin and Morcar are defeated",
+            "The Vikings leave Norway"
+          ],
+          "correcta": 0,
+          "explicacion": "The news came after Harold buried Tostig."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "An 'account' in history should be written…",
+          "opciones": [
+            "in chronological order, third person, past tense",
+            "in the first person, present tense",
+            "as a list of opinions",
+            "in any order"
+          ],
+          "correcta": 0,
+          "explicacion": "Full of facts and dates."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "About 10,000 Vikings came with Hardrada and Tostig.",
+          "correcta": true,
+          "explicacion": "Map A of lesson 1.4."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Harold lost the Battle of Stamford Bridge.",
+          "correcta": false,
+          "explicacion": "Harold won; Hardrada and Tostig were killed."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Put these in chronological order: Battle of Stamford Bridge, Vikings land near York, Battle of Fulford.",
+          "claves": [
+            "land",
+            "fulford",
+            "stamford"
+          ],
+          "minimo": 3,
+          "modelo": "Vikings land near York (18 Sept) → Battle of Fulford (20 Sept) → Battle of Stamford Bridge (25 Sept).",
+          "explicacion": "Learn the dates."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give two reasons why Harold won at Stamford Bridge.",
+          "claves": [
+            "surprise",
+            "fast",
+            "quick",
+            "speed",
+            "armour",
+            "relax",
+            "bridge",
+            "under"
+          ],
+          "minimo": 2,
+          "modelo": "He arrived quickly and surprised the Vikings; many Vikings had taken off their armour; a soldier got under the bridge and killed the Viking blocking it.",
+          "explicacion": "Speed and surprise."
+        }
       ]
     },
     {
       "id": "battle-of-hastings",
       "titulo": "1.5–1.6 · The armies and the Battle of Hastings",
       "resumen": [
-        "## Harold's army",
-        "- **Housecarls**: the best-trained, best-equipped full-time soldiers; main weapon a **battleaxe**.",
-        "- **Fyrd**: part-time soldiers (farmers) – about **6000** in Harold's army.",
+        "## William lands (1.5)",
+        "On **28 September 1066**, three days after Stamford Bridge, **William landed at Pevensey**, on the south coast. He brought over **300 ships**, about **10,000 soldiers** and **2000 horses**. He moved along the coast to **Hastings**, burning villages, and **rested** for several days with plenty of supplies.",
         "",
-        "## William's army",
-        "- **Knights** (about **2000**): highly trained, fought on **horseback**, **chain mail** (hauberk), kite-shaped shields, spears, swords and **maces** (spiked metal clubs).",
-        "- **Archers** (about **1500**): small wooden bows, 6–7 arrows a minute, could kill from about 180 m; very little armour.",
-        "- **Foot soldiers**: main part of the army, metre-long swords and kite-shaped shields.",
+        "## Harold's army: two groups",
+        "- **Housecarls** (about **2500**, but up to half killed at Stamford Bridge): the backbone of the army – well paid, fully trained, finest weapons. Favourite weapon: a huge **battleaxe** (handle over a metre, razor-sharp iron blade). Helmets, chain mail, large **round shields**; they locked shields to form a **shield wall**. Killing power 9, defence 9, speed 1, range 1.",
+        "- **Fyrd** (pronounced 'fird', **over 6000**): not as experienced or well equipped. Leaders had swords and javelins; most used **farming tools** such as **pitchforks and scythes**. Fighting on their **home turf**. Killing power 3, defence 5.",
+        "",
+        "## William's army: three units",
+        "- **Knights** (about **2000**): highly trained, on horseback, **chain mail** (hauberk), kite-shaped shields, spears, swords and **maces**.",
+        "- **Archers** (about **1500**): 6–7 arrows a minute, could kill from about 180 m; very little armour.",
+        "- **Foot soldiers**: the main part, metre-long swords and kite-shaped shields.",
         "",
         "## The Battle of Hastings – Saturday 14 October 1066",
-        "- Harold's army had marched **400 km** from Stamford Bridge. On **13 October** he placed his army on top of **Senlac Hill**, with **streams and boggy areas** on both sides.",
-        "- William landed at **Pevensey Bay**. His men carried a **flag from the Pope** (God was on their side).",
-        "- **9am**: arrows bounced off the English **shield wall**; foot soldiers and knights could not break it.",
+        "- Harold's tired army marched **400 km**. On **13 October** he placed it on top of **Senlac Hill**, with **streams and boggy areas** on both sides.",
+        "- The Normans carried a **flag from the Pope**.",
+        "- **9am**: arrows bounced off the **shield wall**; foot soldiers and knights could not break it.",
         "- A **rumour** said William was dead – he lifted his helmet: 'Look at me! I am alive'.",
-        "- About **3pm**: William's men pretended to run away (**fake retreats**); the English chased them down the hill and were cut to pieces by the knights. The shield wall grew weaker; the archers fired again.",
-        "- At **sunset Harold was killed**. William buried him in a secret place, even though Harold's mother offered his weight in **gold** for the body."
+        "- About **3pm**: **fake retreats** – the English chased the Normans down the hill and were cut down by the knights. The archers fired again.",
+        "- At **sunset Harold was killed**. William buried him secretly, although Harold's mother offered his weight in **gold**."
       ],
       "notas": [
         {
+          "seccion": "William lands",
+          "tarjetas": [
+            {
+              "etiqueta": "⛵ 28 September 1066",
+              "titulo": "Pevensey, south coast",
+              "puntos": [
+                "**3 days** after Stamford Bridge",
+                "**300 ships**, ~**10,000** soldiers",
+                "**2000 horses**"
+              ]
+            },
+            {
+              "etiqueta": "🔥 To Hastings",
+              "titulo": "Ready and rested",
+              "puntos": [
+                "Burned **villages** along the coast",
+                "**Rested** several days",
+                "Plenty of **supplies**"
+              ]
+            }
+          ]
+        },
+        {
           "seccion": "The two armies",
           "tarjetas": [
-            { "etiqueta": "🪓 Housecarls", "titulo": "Harold's best soldiers", "puntos": ["Best-**trained** and equipped", "Main weapon: **battleaxe**", "Formed the **shield wall**"] },
-            { "etiqueta": "🌾 Fyrd", "titulo": "Part-time soldiers", "puntos": ["Ordinary **farmers**", "About **6000** in Harold's army"] },
-            { "etiqueta": "🐎 Knights", "titulo": "William's best (2000)", "puntos": ["Fought on **horseback**", "**Chain mail** (hauberk), kite shields", "Spear, sword, **mace** (spiked club)"] },
-            { "etiqueta": "🏹 Archers", "titulo": "1500 of them", "puntos": ["**6–7 arrows** a minute", "Range about **180 m**", "Almost **no armour**"] }
+            {
+              "etiqueta": "🪓 Housecarls",
+              "titulo": "About 2500 – the backbone",
+              "puntos": [
+                "Fully **trained**, finest weapons",
+                "Huge **battleaxe** (handle over 1 m)",
+                "Round shields → **shield wall**",
+                "Up to half killed at **Stamford Bridge**"
+              ]
+            },
+            {
+              "etiqueta": "🌾 Fyrd",
+              "titulo": "Over 6000 ('fird')",
+              "puntos": [
+                "Less **experienced**, less equipment",
+                "Mostly **farming tools**: pitchforks, scythes",
+                "Fighting on their **home turf**"
+              ]
+            },
+            {
+              "etiqueta": "🐎 Knights",
+              "titulo": "William's best (2000)",
+              "puntos": [
+                "Fought on **horseback**",
+                "**Chain mail** (hauberk), kite shields",
+                "Spear, sword, **mace** (spiked club)"
+              ]
+            },
+            {
+              "etiqueta": "🏹 Archers",
+              "titulo": "1500 of them",
+              "puntos": [
+                "**6–7 arrows** a minute",
+                "Range about **180 m**",
+                "Almost **no armour**"
+              ]
+            }
           ]
         },
         {
           "seccion": "14 October 1066",
-          "chips": { "titulo": "What happened", "items": ["⛰️ Harold on top of **Senlac Hill**", "🛡️ English **shield wall**", "🏹 9am: arrows bounce off", "🐎 Knights can't break the wall", "😱 Rumour: William dead → 'Look at me!'", "🏃 ~3pm: **fake retreats**", "⚔️ English chase downhill → cut down by knights", "🏹 Archers fire again", "🌅 Sunset: **Harold killed**"] }
+          "chips": {
+            "titulo": "What happened",
+            "items": [
+              "⛰️ Harold on top of **Senlac Hill**",
+              "🛡️ English **shield wall**",
+              "🏹 9am: arrows bounce off",
+              "🐎 Knights can't break the wall",
+              "😱 Rumour: William dead → 'Look at me!'",
+              "🏃 ~3pm: **fake retreats**",
+              "⚔️ English chase downhill → cut down by knights",
+              "🏹 Archers fire again",
+              "🌅 Sunset: **Harold killed**"
+            ]
+          }
         },
         {
           "seccion": "Why did William win?",
           "tarjetas": [
-            { "etiqueta": "🧠 Clever leader", "titulo": "William", "puntos": ["**Fake retreats** broke the shield wall", "Calmed his men ('Look at me!')"] },
-            { "etiqueta": "😓 Tired English", "titulo": "Harold's army", "puntos": ["Had just fought **Stamford Bridge**", "Marched **400 km**", "Left the hill to chase the Normans"] },
-            { "etiqueta": "⚖️ Better equipped", "titulo": "Normans", "puntos": ["**Knights** on horses", "**Archers**", "Blessed by the **Pope**"] }
+            {
+              "etiqueta": "🧠 Clever leader",
+              "titulo": "William",
+              "puntos": [
+                "**Fake retreats** broke the shield wall",
+                "Calmed his men ('Look at me!')"
+              ]
+            },
+            {
+              "etiqueta": "😓 Tired English",
+              "titulo": "Harold's army",
+              "puntos": [
+                "Had just fought **Stamford Bridge**",
+                "Marched **400 km**",
+                "Left the hill to chase the Normans"
+              ]
+            },
+            {
+              "etiqueta": "⚖️ Better equipped",
+              "titulo": "Normans",
+              "puntos": [
+                "**Knights** on horses",
+                "**Archers**",
+                "Blessed by the **Pope**"
+              ]
+            }
           ]
         }
       ],
       "tarjetas": [
-        { "p": "Housecarls", "r": "Harold's best-trained, full-time soldiers; main weapon a battleaxe" },
-        { "p": "Fyrd", "r": "Part-time soldiers (farmers) in Harold's army – about 6000" },
-        { "p": "Chain mail / hauberk", "r": "Armour of small metal rings sewn together" },
-        { "p": "Mace", "r": "A heavy metal club covered in spikes, used by knights" },
-        { "p": "How many arrows a minute could an archer fire?", "r": "Six or seven" },
-        { "p": "Date of the Battle of Hastings", "r": "Saturday 14 October 1066" },
-        { "p": "Where did Harold place his army?", "r": "On top of Senlac Hill" },
-        { "p": "Shield wall", "r": "The English line of overlapping shields" },
-        { "p": "William's winning tactic", "r": "Fake retreats – pretending to run away" },
-        { "p": "Where did William land?", "r": "Pevensey Bay" },
-        { "p": "What did the Pope give William?", "r": "A flag (blessing his army)" }
+        {
+          "p": "Housecarls",
+          "r": "Harold's ~2500 best-trained soldiers; main weapon a huge battleaxe"
+        },
+        {
+          "p": "Fyrd",
+          "r": "Over 6000 less-experienced soldiers, mostly with farming tools (pitchforks, scythes)"
+        },
+        {
+          "p": "Chain mail / hauberk",
+          "r": "Armour of small metal rings sewn together"
+        },
+        {
+          "p": "Mace",
+          "r": "A heavy metal club covered in spikes, used by knights"
+        },
+        {
+          "p": "How many arrows a minute could an archer fire?",
+          "r": "Six or seven"
+        },
+        {
+          "p": "Date of the Battle of Hastings",
+          "r": "Saturday 14 October 1066"
+        },
+        {
+          "p": "Where did Harold place his army?",
+          "r": "On top of Senlac Hill"
+        },
+        {
+          "p": "Shield wall",
+          "r": "The English line of overlapping shields"
+        },
+        {
+          "p": "William's winning tactic",
+          "r": "Fake retreats – pretending to run away"
+        },
+        {
+          "p": "Where did William land?",
+          "r": "Pevensey Bay"
+        },
+        {
+          "p": "What did the Pope give William?",
+          "r": "A flag (blessing his army)"
+        },
+        {
+          "p": "When and where did William land?",
+          "r": "28 September 1066 at Pevensey, three days after Stamford Bridge"
+        },
+        {
+          "p": "Size of William's invasion force",
+          "r": "Over 300 ships, about 10,000 soldiers and 2000 horses"
+        }
       ],
       "preguntas": [
-        { "tipo": "opcion", "enunciado": "Who were the best-trained and equipped soldiers in King Harold's army?", "opciones": ["The housecarls", "The fyrd", "The knights", "The archers"], "correcta": 0, "explicacion": "Knights and archers were in William's army." },
-        { "tipo": "opcion", "enunciado": "What was a housecarl's main weapon?", "opciones": ["A battleaxe", "A bow", "A mace", "A lance"], "correcta": 0, "explicacion": "A mace was used by Norman knights." },
-        { "tipo": "opcion", "enunciado": "Who were the fyrd?", "opciones": ["Part-time soldiers, mainly farmers", "Norman knights", "Viking warriors", "The king's advisers"], "correcta": 0, "explicacion": "There were about 6000 of them in Harold's army." },
-        { "tipo": "opcion", "enunciado": "Which type of soldier went into battle on a horse?", "opciones": ["The knights", "The fyrd", "The housecarls", "The archers"], "correcta": 0, "explicacion": "William had about 2000 knights." },
-        { "tipo": "opcion", "enunciado": "What is chain mail?", "opciones": ["A suit of small metal rings sewn together", "A spiked club", "A type of shield", "A letter from the king"], "correcta": 0, "explicacion": "Also called a hauberk." },
-        { "tipo": "opcion", "enunciado": "What is a mace?", "opciones": ["A heavy metal club covered in spikes", "A long spear", "A shield", "A helmet"], "correcta": 0, "explicacion": "Used by Norman knights." },
-        { "tipo": "opcion", "enunciado": "How many arrows a minute could William's archers fire?", "opciones": ["Six or seven", "One", "Twenty", "A hundred"], "correcta": 0, "explicacion": "A skilled archer could kill from about 180 m away." },
-        { "tipo": "opcion", "enunciado": "On what date was the Battle of Hastings?", "opciones": ["14 October 1066", "14 September 1066", "16 October 1066", "25 September 1066"], "correcta": 0, "explicacion": "A Saturday." },
-        { "tipo": "opcion", "enunciado": "Where did Harold position his army?", "opciones": ["On top of Senlac Hill", "On the beach at Pevensey", "Inside Hastings castle", "In a forest"], "correcta": 0, "explicacion": "So the Normans had to attack uphill." },
-        { "tipo": "opcion", "enunciado": "Why were the streams and boggy areas around Senlac Hill useful to Harold?", "opciones": ["William's troops couldn't attack from the sides", "They gave the English water", "The Normans got lost", "Harold's ships could reach them"], "correcta": 0, "explicacion": "William had to charge straight up the hill." },
-        { "tipo": "opcion", "enunciado": "What did William do when a rumour said he had been killed?", "opciones": ["Lifted his helmet and shouted 'Look at me! I am alive'", "Ran away", "Surrendered", "Sent a letter to the Pope"], "correcta": 0, "explicacion": "This stopped his troops panicking." },
-        { "tipo": "opcion", "enunciado": "What tactic did William use to break the shield wall?", "opciones": ["Fake retreats – pretending to run away", "Digging tunnels", "Using cannons", "Attacking at night"], "correcta": 0, "explicacion": "The English chased them down the hill and were cut down by the knights." },
-        { "tipo": "opcion", "enunciado": "Which factor would help HAROLD win?", "opciones": ["The housecarls' strong shield wall", "William's army had been blessed by the Pope", "Harold's soldiers had just fought Hardrada", "William had 2000 knights"], "correcta": 0, "explicacion": "The others helped William." },
-        { "tipo": "opcion", "enunciado": "What did Harold's mother offer William in exchange for her son's body?", "opciones": ["Its weight in gold", "Her castle", "The crown", "Nothing"], "correcta": 0, "explicacion": "William buried Harold in a secret place." },
-        { "tipo": "vf", "enunciado": "At first, William's arrows bounced off the English shield wall.", "correcta": true, "explicacion": "The battle began around 9am." },
-        { "tipo": "vf", "enunciado": "Harold's army was well rested before the Battle of Hastings.", "correcta": false, "explicacion": "They had just fought at Stamford Bridge and marched 400 km." },
-        { "tipo": "corta", "enunciado": "Describe two ways William's army was better than Harold's.", "claves": ["knight", "horse", "archer", "arrow", "rest", "tired", "pope", "armour", "chain mail", "fresh"], "minimo": 2, "modelo": "William had knights on horseback and archers; his men were fresh while Harold's were tired from Stamford Bridge.", "explicacion": "Compare the soldiers and their condition." },
-        { "tipo": "corta", "enunciado": "Explain how the fake retreats helped William win.", "claves": ["hill", "chase", "ran", "down", "shield wall", "knight", "broke", "weak"], "minimo": 2, "modelo": "The English left the hill to chase the 'retreating' Normans, so the shield wall broke and the knights could cut them down.", "explicacion": "Without the shield wall, the English were exposed." }
+        {
+          "tipo": "opcion",
+          "enunciado": "Who were the best-trained and equipped soldiers in King Harold's army?",
+          "opciones": [
+            "The housecarls",
+            "The fyrd",
+            "The knights",
+            "The archers"
+          ],
+          "correcta": 0,
+          "explicacion": "Knights and archers were in William's army."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What was a housecarl's main weapon?",
+          "opciones": [
+            "A battleaxe",
+            "A bow",
+            "A mace",
+            "A lance"
+          ],
+          "correcta": 0,
+          "explicacion": "A mace was used by Norman knights."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who were the fyrd?",
+          "opciones": [
+            "Less experienced soldiers, many using farming tools",
+            "Norman knights",
+            "Viking warriors",
+            "The king's advisers"
+          ],
+          "correcta": 0,
+          "explicacion": "There were over 6000 of them; most had pitchforks and scythes."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which type of soldier went into battle on a horse?",
+          "opciones": [
+            "The knights",
+            "The fyrd",
+            "The housecarls",
+            "The archers"
+          ],
+          "correcta": 0,
+          "explicacion": "William had about 2000 knights."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is chain mail?",
+          "opciones": [
+            "A suit of small metal rings sewn together",
+            "A spiked club",
+            "A type of shield",
+            "A letter from the king"
+          ],
+          "correcta": 0,
+          "explicacion": "Also called a hauberk."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a mace?",
+          "opciones": [
+            "A heavy metal club covered in spikes",
+            "A long spear",
+            "A shield",
+            "A helmet"
+          ],
+          "correcta": 0,
+          "explicacion": "Used by Norman knights."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many arrows a minute could William's archers fire?",
+          "opciones": [
+            "Six or seven",
+            "One",
+            "Twenty",
+            "A hundred"
+          ],
+          "correcta": 0,
+          "explicacion": "A skilled archer could kill from about 180 m away."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "On what date was the Battle of Hastings?",
+          "opciones": [
+            "14 October 1066",
+            "14 September 1066",
+            "16 October 1066",
+            "25 September 1066"
+          ],
+          "correcta": 0,
+          "explicacion": "A Saturday."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where did Harold position his army?",
+          "opciones": [
+            "On top of Senlac Hill",
+            "On the beach at Pevensey",
+            "Inside Hastings castle",
+            "In a forest"
+          ],
+          "correcta": 0,
+          "explicacion": "So the Normans had to attack uphill."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why were the streams and boggy areas around Senlac Hill useful to Harold?",
+          "opciones": [
+            "William's troops couldn't attack from the sides",
+            "They gave the English water",
+            "The Normans got lost",
+            "Harold's ships could reach them"
+          ],
+          "correcta": 0,
+          "explicacion": "William had to charge straight up the hill."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What did William do when a rumour said he had been killed?",
+          "opciones": [
+            "Lifted his helmet and shouted 'Look at me! I am alive'",
+            "Ran away",
+            "Surrendered",
+            "Sent a letter to the Pope"
+          ],
+          "correcta": 0,
+          "explicacion": "This stopped his troops panicking."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What tactic did William use to break the shield wall?",
+          "opciones": [
+            "Fake retreats – pretending to run away",
+            "Digging tunnels",
+            "Using cannons",
+            "Attacking at night"
+          ],
+          "correcta": 0,
+          "explicacion": "The English chased them down the hill and were cut down by the knights."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which factor would help HAROLD win?",
+          "opciones": [
+            "The housecarls' strong shield wall",
+            "William's army had been blessed by the Pope",
+            "Harold's soldiers had just fought Hardrada",
+            "William had 2000 knights"
+          ],
+          "correcta": 0,
+          "explicacion": "The others helped William."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What did Harold's mother offer William in exchange for her son's body?",
+          "opciones": [
+            "Its weight in gold",
+            "Her castle",
+            "The crown",
+            "Nothing"
+          ],
+          "correcta": 0,
+          "explicacion": "William buried Harold in a secret place."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "At first, William's arrows bounced off the English shield wall.",
+          "correcta": true,
+          "explicacion": "The battle began around 9am."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Harold's army was well rested before the Battle of Hastings.",
+          "correcta": false,
+          "explicacion": "They had just fought at Stamford Bridge and marched 400 km."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Describe two ways William's army was better than Harold's.",
+          "claves": [
+            "knight",
+            "horse",
+            "archer",
+            "arrow",
+            "rest",
+            "tired",
+            "pope",
+            "armour",
+            "chain mail",
+            "fresh"
+          ],
+          "minimo": 2,
+          "modelo": "William had knights on horseback and archers; his men were fresh while Harold's were tired from Stamford Bridge.",
+          "explicacion": "Compare the soldiers and their condition."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Explain how the fake retreats helped William win.",
+          "claves": [
+            "hill",
+            "chase",
+            "ran",
+            "down",
+            "shield wall",
+            "knight",
+            "broke",
+            "weak"
+          ],
+          "minimo": 2,
+          "modelo": "The English left the hill to chase the 'retreating' Normans, so the shield wall broke and the knights could cut them down.",
+          "explicacion": "Without the shield wall, the English were exposed."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where and when did William land in England?",
+          "opciones": [
+            "Pevensey, 28 September 1066",
+            "Hastings, 14 October 1066",
+            "York, 18 September 1066",
+            "London, 5 January 1066"
+          ],
+          "correcta": 0,
+          "explicacion": "Three days after the Battle of Stamford Bridge."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How big was William's invasion force?",
+          "opciones": [
+            "About 10,000 soldiers, 2000 horses, 300+ ships",
+            "About 1000 soldiers and 10 ships",
+            "About 50,000 soldiers",
+            "Only knights"
+          ],
+          "correcta": 0,
+          "explicacion": "William expected to fight as soon as he landed."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many housecarls did Harold usually have?",
+          "opciones": [
+            "About 2500",
+            "About 6000",
+            "About 10,000",
+            "About 500"
+          ],
+          "correcta": 0,
+          "explicacion": "Up to half had been killed at Stamford Bridge."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What weapons did most of the fyrd use?",
+          "opciones": [
+            "Farming tools such as pitchforks and scythes",
+            "Bows and arrows",
+            "Maces",
+            "Battleaxes"
+          ],
+          "correcta": 0,
+          "explicacion": "Their leaders had swords and javelins."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The housecarls locked their round shields together to form a shield wall.",
+          "correcta": true,
+          "explicacion": "This made them excellent in defence."
+        }
       ]
     },
     {
@@ -497,61 +2336,360 @@
         {
           "seccion": "Source or interpretation?",
           "tarjetas": [
-            { "etiqueta": "📜 Source", "titulo": "From the time", "puntos": ["Made **during** the period", "e.g. a letter, a painting", "Author may have **seen** it or spoken to people who did"] },
-            { "etiqueta": "🎬 Interpretation", "titulo": "Made later", "puntos": ["Decades or **centuries** later", "e.g. a book, film, documentary", "Shows a particular **opinion**"] }
+            {
+              "etiqueta": "📜 Source",
+              "titulo": "From the time",
+              "puntos": [
+                "Made **during** the period",
+                "e.g. a letter, a painting",
+                "Author may have **seen** it or spoken to people who did"
+              ]
+            },
+            {
+              "etiqueta": "🎬 Interpretation",
+              "titulo": "Made later",
+              "puntos": [
+                "Decades or **centuries** later",
+                "e.g. a book, film, documentary",
+                "Shows a particular **opinion**"
+              ]
+            }
           ]
         },
         {
           "seccion": "How did Harold die?",
           "tarjetas": [
-            { "etiqueta": "🗡️ Guy of Amiens", "titulo": "Before 1068 – earliest", "puntos": ["Killed by **four knights**", "Lance, sword, javelin", "Head and leg cut off"] },
-            { "etiqueta": "💥 William of Jumièges", "titulo": "1070", "puntos": ["Fell in the **first shock** of battle", "Norman monk"] },
-            { "etiqueta": "🧵 Bayeux Tapestry", "titulo": "1070s – 70 m long", "puntos": ["Ordered by **Bishop Odo**", "**Arrow in the eye**?", "'Harold Rex Interfectus Est'"] },
-            { "etiqueta": "🏹 Amatus", "titulo": "1080", "puntos": ["**First written** record of the arrow in the eye", "14 years after the battle"] },
-            { "etiqueta": "🧠 William of Malmesbury", "titulo": "c. 1125", "puntos": ["Arrow in the brain", "Then a knight hacked his **thigh**"] },
-            { "etiqueta": "⚠️ Problem", "titulo": "Whose evidence?", "puntos": ["Almost all **Norman**", "**No Anglo-Saxon** account", "Sources **disagree**"] }
+            {
+              "etiqueta": "🗡️ Guy of Amiens",
+              "titulo": "Before 1068 – earliest",
+              "puntos": [
+                "Killed by **four knights**",
+                "Lance, sword, javelin",
+                "Head and leg cut off"
+              ]
+            },
+            {
+              "etiqueta": "💥 William of Jumièges",
+              "titulo": "1070",
+              "puntos": [
+                "Fell in the **first shock** of battle",
+                "Norman monk"
+              ]
+            },
+            {
+              "etiqueta": "🧵 Bayeux Tapestry",
+              "titulo": "1070s – 70 m long",
+              "puntos": [
+                "Ordered by **Bishop Odo**",
+                "**Arrow in the eye**?",
+                "'Harold Rex Interfectus Est'"
+              ]
+            },
+            {
+              "etiqueta": "🏹 Amatus",
+              "titulo": "1080",
+              "puntos": [
+                "**First written** record of the arrow in the eye",
+                "14 years after the battle"
+              ]
+            },
+            {
+              "etiqueta": "🧠 William of Malmesbury",
+              "titulo": "c. 1125",
+              "puntos": [
+                "Arrow in the brain",
+                "Then a knight hacked his **thigh**"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Problem",
+              "titulo": "Whose evidence?",
+              "puntos": [
+                "Almost all **Norman**",
+                "**No Anglo-Saxon** account",
+                "Sources **disagree**"
+              ]
+            }
           ]
         },
         {
           "seccion": "Writing a narrative account",
-          "chips": { "titulo": "Four steps", "items": ["1️⃣ **Plan** the key events", "2️⃣ **Check order** and add **dates**", "3️⃣ **Write** the story with details", "4️⃣ **Make links** with connectives"] },
+          "chips": {
+            "titulo": "Four steps",
+            "items": [
+              "1️⃣ **Plan** the key events",
+              "2️⃣ **Check order** and add **dates**",
+              "3️⃣ **Write** the story with details",
+              "4️⃣ **Make links** with connectives"
+            ]
+          },
           "tarjetas": [
-            { "etiqueta": "🔗 Connectives", "titulo": "Linking words", "puntos": ["**As a result of this…**", "**Because of this…** · **This led to…**", "**Then… Meanwhile… Finally…**"] },
-            { "etiqueta": "↔️ Cause & consequence", "titulo": "Why and what next", "puntos": ["**Cause**: why something happened", "**Consequence**: the result of it"] }
+            {
+              "etiqueta": "🔗 Connectives",
+              "titulo": "Linking words",
+              "puntos": [
+                "**As a result of this…**",
+                "**Because of this…** · **This led to…**",
+                "**Then… Meanwhile… Finally…**"
+              ]
+            },
+            {
+              "etiqueta": "↔️ Cause & consequence",
+              "titulo": "Why and what next",
+              "puntos": [
+                "**Cause**: why something happened",
+                "**Consequence**: the result of it"
+              ]
+            }
           ]
         }
       ],
       "tarjetas": [
-        { "p": "Source", "r": "Evidence created at the time you are studying" },
-        { "p": "Interpretation", "r": "A view of the past made much later, e.g. a book or film" },
-        { "p": "Bayeux Tapestry", "r": "A 70-metre embroidered cloth from the 1070s showing the Battle of Hastings" },
-        { "p": "Who ordered the Bayeux Tapestry?", "r": "Bishop Odo, William's half-brother" },
-        { "p": "'Hic Harold Rex Interfectus Est'", "r": "'Here King Harold has been killed'" },
-        { "p": "First written record of the arrow in the eye", "r": "Amatus of Montecassino, 1080" },
-        { "p": "Earliest written record of Harold's death", "r": "Guy of Amiens (before 1068): killed by four knights" },
-        { "p": "Why is the evidence about Harold's death a problem?", "r": "It disagrees, and almost all of it is Norman" },
-        { "p": "Cause", "r": "The reason why something happened" },
-        { "p": "Consequence", "r": "A result or effect of something" },
-        { "p": "Connectives", "r": "Linking words, e.g. 'As a result of this…'" }
+        {
+          "p": "Source",
+          "r": "Evidence created at the time you are studying"
+        },
+        {
+          "p": "Interpretation",
+          "r": "A view of the past made much later, e.g. a book or film"
+        },
+        {
+          "p": "Bayeux Tapestry",
+          "r": "A 70-metre embroidered cloth from the 1070s showing the Battle of Hastings"
+        },
+        {
+          "p": "Who ordered the Bayeux Tapestry?",
+          "r": "Bishop Odo, William's half-brother"
+        },
+        {
+          "p": "'Hic Harold Rex Interfectus Est'",
+          "r": "'Here King Harold has been killed'"
+        },
+        {
+          "p": "First written record of the arrow in the eye",
+          "r": "Amatus of Montecassino, 1080"
+        },
+        {
+          "p": "Earliest written record of Harold's death",
+          "r": "Guy of Amiens (before 1068): killed by four knights"
+        },
+        {
+          "p": "Why is the evidence about Harold's death a problem?",
+          "r": "It disagrees, and almost all of it is Norman"
+        },
+        {
+          "p": "Cause",
+          "r": "The reason why something happened"
+        },
+        {
+          "p": "Consequence",
+          "r": "A result or effect of something"
+        },
+        {
+          "p": "Connectives",
+          "r": "Linking words, e.g. 'As a result of this…'"
+        }
       ],
       "preguntas": [
-        { "tipo": "opcion", "enunciado": "What is a historical source?", "opciones": ["Evidence created at the time being studied", "A film made today", "A history textbook", "An opinion of a modern historian"], "correcta": 0, "explicacion": "An interpretation is made later." },
-        { "tipo": "opcion", "enunciado": "What is an interpretation?", "opciones": ["A view of the past made much later", "A letter written at the time", "A coin from the period", "A type of weapon"], "correcta": 0, "explicacion": "e.g. a book, film or documentary." },
-        { "tipo": "opcion", "enunciado": "What does Guy of Amiens (before 1068) say about Harold's death?", "opciones": ["Four knights killed him", "An arrow hit his eye", "He died of illness", "He escaped"], "correcta": 0, "explicacion": "It is the earliest written record." },
-        { "tipo": "opcion", "enunciado": "What is the Bayeux Tapestry?", "opciones": ["A 70-metre embroidered cloth showing the battle", "A Norman castle", "A book by a monk", "A painting from 2000"], "correcta": 0, "explicacion": "Created in the 1070s." },
-        { "tipo": "opcion", "enunciado": "Who ordered the Bayeux Tapestry to be made?", "opciones": ["Bishop Odo, William's half-brother", "King Harold", "The Pope", "Edward the Confessor"], "correcta": 0, "explicacion": "Odo was at the Battle of Hastings." },
-        { "tipo": "opcion", "enunciado": "What does 'Hic Harold Rex Interfectus Est' mean?", "opciones": ["Here King Harold has been killed", "Here is King Harold's army", "Harold is the true king", "Long live King Harold"], "correcta": 0, "explicacion": "Written above the man with the arrow in his eye." },
-        { "tipo": "opcion", "enunciado": "Who wrote the first record of Harold being shot in the eye, and when?", "opciones": ["Amatus of Montecassino, 1080", "Guy of Amiens, 1068", "Simon Schama, 2000", "William of Poitiers, 1070"], "correcta": 0, "explicacion": "14 years after the battle." },
-        { "tipo": "opcion", "enunciado": "Why is it hard to know how Harold died?", "opciones": ["The sources disagree and are mostly Norman", "There is no evidence at all", "Harold survived", "All sources are from today"], "correcta": 0, "explicacion": "There is no Anglo-Saxon account." },
-        { "tipo": "opcion", "enunciado": "William of Malmesbury (c. 1125) says a knight hacked Harold's thigh. What did William the Conqueror do to that knight?", "opciones": ["Branded him with disgrace", "Made him an earl", "Gave him gold", "Nothing"], "correcta": 0, "explicacion": "It was seen as a cruel and shameful act." },
-        { "tipo": "opcion", "enunciado": "What is a 'cause'?", "opciones": ["A reason why something happened", "The result of something", "A date", "A type of source"], "correcta": 0, "explicacion": "A consequence is a result." },
-        { "tipo": "opcion", "enunciado": "Which is a consequence of the Battle of Stamford Bridge?", "opciones": ["Harold's army was weakened before Hastings", "Edward the Confessor died", "William landed at Pevensey", "The Witan chose Harold"], "correcta": 0, "explicacion": "Also: the deaths of Hardrada and Tostig." },
-        { "tipo": "opcion", "enunciado": "What is the correct order of the steps to write a narrative account?", "opciones": ["Plan → check order and add detail → write → make links", "Write → plan → make links → check order", "Make links → write → plan → check", "Check order → write → plan → make links"], "correcta": 0, "explicacion": "Four steps from the History skill pages." },
-        { "tipo": "opcion", "enunciado": "Which is a connective?", "opciones": ["As a result of this…", "Hastings", "1066", "Housecarl"], "correcta": 0, "explicacion": "Connectives link events together." },
-        { "tipo": "vf", "enunciado": "There is an Anglo-Saxon written account of how Harold died.", "correcta": false, "explicacion": "Almost all the evidence is Norman." },
-        { "tipo": "vf", "enunciado": "A good narrative account explains both causes and consequences.", "correcta": true, "explicacion": "Not just a list of facts." },
-        { "tipo": "corta", "enunciado": "Explain the difference between a source and an interpretation.", "claves": ["time", "same time", "during", "later", "after", "opinion"], "minimo": 2, "modelo": "A source is created at the time of the event; an interpretation is made later and shows a particular opinion.", "explicacion": "Bayeux Tapestry (1070s) vs Simon Schama (2000)." },
-        { "tipo": "corta", "enunciado": "List two different ways Harold may have died, according to the evidence.", "claves": ["arrow", "eye", "knight", "lance", "sword", "cut", "javelin"], "minimo": 2, "modelo": "Shot by an arrow in the eye; killed by Norman knights with a lance, sword and javelin.", "explicacion": "Historians still disagree." }
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a historical source?",
+          "opciones": [
+            "Evidence created at the time being studied",
+            "A film made today",
+            "A history textbook",
+            "An opinion of a modern historian"
+          ],
+          "correcta": 0,
+          "explicacion": "An interpretation is made later."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is an interpretation?",
+          "opciones": [
+            "A view of the past made much later",
+            "A letter written at the time",
+            "A coin from the period",
+            "A type of weapon"
+          ],
+          "correcta": 0,
+          "explicacion": "e.g. a book, film or documentary."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does Guy of Amiens (before 1068) say about Harold's death?",
+          "opciones": [
+            "Four knights killed him",
+            "An arrow hit his eye",
+            "He died of illness",
+            "He escaped"
+          ],
+          "correcta": 0,
+          "explicacion": "It is the earliest written record."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the Bayeux Tapestry?",
+          "opciones": [
+            "A 70-metre embroidered cloth showing the battle",
+            "A Norman castle",
+            "A book by a monk",
+            "A painting from 2000"
+          ],
+          "correcta": 0,
+          "explicacion": "Created in the 1070s."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who ordered the Bayeux Tapestry to be made?",
+          "opciones": [
+            "Bishop Odo, William's half-brother",
+            "King Harold",
+            "The Pope",
+            "Edward the Confessor"
+          ],
+          "correcta": 0,
+          "explicacion": "Odo was at the Battle of Hastings."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Hic Harold Rex Interfectus Est' mean?",
+          "opciones": [
+            "Here King Harold has been killed",
+            "Here is King Harold's army",
+            "Harold is the true king",
+            "Long live King Harold"
+          ],
+          "correcta": 0,
+          "explicacion": "Written above the man with the arrow in his eye."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who wrote the first record of Harold being shot in the eye, and when?",
+          "opciones": [
+            "Amatus of Montecassino, 1080",
+            "Guy of Amiens, 1068",
+            "Simon Schama, 2000",
+            "William of Poitiers, 1070"
+          ],
+          "correcta": 0,
+          "explicacion": "14 years after the battle."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is it hard to know how Harold died?",
+          "opciones": [
+            "The sources disagree and are mostly Norman",
+            "There is no evidence at all",
+            "Harold survived",
+            "All sources are from today"
+          ],
+          "correcta": 0,
+          "explicacion": "There is no Anglo-Saxon account."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "William of Malmesbury (c. 1125) says a knight hacked Harold's thigh. What did William the Conqueror do to that knight?",
+          "opciones": [
+            "Branded him with disgrace",
+            "Made him an earl",
+            "Gave him gold",
+            "Nothing"
+          ],
+          "correcta": 0,
+          "explicacion": "It was seen as a cruel and shameful act."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a 'cause'?",
+          "opciones": [
+            "A reason why something happened",
+            "The result of something",
+            "A date",
+            "A type of source"
+          ],
+          "correcta": 0,
+          "explicacion": "A consequence is a result."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is a consequence of the Battle of Stamford Bridge?",
+          "opciones": [
+            "Harold's army was weakened before Hastings",
+            "Edward the Confessor died",
+            "William landed at Pevensey",
+            "The Witan chose Harold"
+          ],
+          "correcta": 0,
+          "explicacion": "Also: the deaths of Hardrada and Tostig."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the correct order of the steps to write a narrative account?",
+          "opciones": [
+            "Plan → check order and add detail → write → make links",
+            "Write → plan → make links → check order",
+            "Make links → write → plan → check",
+            "Check order → write → plan → make links"
+          ],
+          "correcta": 0,
+          "explicacion": "Four steps from the History skill pages."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is a connective?",
+          "opciones": [
+            "As a result of this…",
+            "Hastings",
+            "1066",
+            "Housecarl"
+          ],
+          "correcta": 0,
+          "explicacion": "Connectives link events together."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "There is an Anglo-Saxon written account of how Harold died.",
+          "correcta": false,
+          "explicacion": "Almost all the evidence is Norman."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A good narrative account explains both causes and consequences.",
+          "correcta": true,
+          "explicacion": "Not just a list of facts."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Explain the difference between a source and an interpretation.",
+          "claves": [
+            "time",
+            "same time",
+            "during",
+            "later",
+            "after",
+            "opinion"
+          ],
+          "minimo": 2,
+          "modelo": "A source is created at the time of the event; an interpretation is made later and shows a particular opinion.",
+          "explicacion": "Bayeux Tapestry (1070s) vs Simon Schama (2000)."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "List two different ways Harold may have died, according to the evidence.",
+          "claves": [
+            "arrow",
+            "eye",
+            "knight",
+            "lance",
+            "sword",
+            "cut",
+            "javelin"
+          ],
+          "minimo": 2,
+          "modelo": "Shot by an arrow in the eye; killed by Norman knights with a lance, sword and javelin.",
+          "explicacion": "Historians still disagree."
+        }
       ]
     }
   ]
