@@ -1,1 +1,547 @@
-{ "temas": [] }
+{
+  "temas": [
+    {
+      "id": "working-like-a-geographer",
+      "titulo": "1.1–1.2 · Thinking and working like a geographer",
+      "resumen": [
+        "## Enquiry questions",
+        "Geographers ask enquiry questions about places: **Who? What? Where? When? Why? How?**",
+        "",
+        "## Geographical enquiry",
+        "A **geographical enquiry** means asking questions, using and recording geographical data and making observations to make sense of the world. The enquiry sequence: identify questions → analyse data to look for patterns and connections → reach conclusions.",
+        "The six steps of an enquiry: 1 Asking questions · 2 Collecting/recording your own data · 3 Presenting your findings · 4 Analysing your results · 5 Reaching a conclusion · 6 Evaluating your work.",
+        "",
+        "## Geographical data",
+        "- **Primary data**: collected by you through **fieldwork** (photos, field sketches, surveys, questionnaires).",
+        "- **Secondary data**: collected by someone else (textbooks, newspapers, websites, published data).",
+        "- **Quantitative data**: numbers – quantities, numerical or statistical information.",
+        "- **Qualitative data**: subjective qualities, often opinions or beliefs – text, photos, sketches.",
+        "A good geographer checks the **origin, reliability and accuracy** of data and looks for **bias** (someone distorting data to promote a viewpoint).",
+        "",
+        "## Why geography matters",
+        "Geographers **predict, plan and solve problems**. Employers seek geography graduates for their wider view of the world (climate disasters, migration, conflict over water resources)."
+      ],
+      "notas": [
+        {
+          "seccion": "Asking questions",
+          "chips": { "titulo": "Enquiry questions", "items": ["❓ **Who?**", "❓ **What?**", "❓ **Where?**", "❓ **When?**", "❓ **Why?**", "❓ **How?**"] },
+          "tarjetas": [
+            { "etiqueta": "🔎 Enquiry", "titulo": "What is a geographical enquiry?", "puntos": ["**Asking questions**", "Using and **recording data**", "Making **observations** to make sense of the world"] },
+            { "etiqueta": "➡️ Sequence", "titulo": "Three stages", "puntos": ["1 **Identify** questions to investigate", "2 **Analyse** data for patterns and connections", "3 **Reach conclusions**"] }
+          ]
+        },
+        {
+          "seccion": "The six steps of an enquiry",
+          "chips": { "titulo": "Lesson 4.7 example: a weather enquiry", "items": ["1️⃣ Asking questions", "2️⃣ Collecting / recording data", "3️⃣ Presenting findings", "4️⃣ Analysing results", "5️⃣ Reaching a conclusion", "6️⃣ Evaluating your work ↩️"] }
+        },
+        {
+          "seccion": "Types of data",
+          "tarjetas": [
+            { "etiqueta": "👣 Primary", "titulo": "You collect it", "puntos": ["By doing **fieldwork**", "Photos, **field sketches**", "**Surveys** and **questionnaires**"] },
+            { "etiqueta": "📰 Secondary", "titulo": "Someone else collected it", "puntos": ["Textbooks, **newspapers**", "Websites, published data", "e.g. a **bus timetable**"] },
+            { "etiqueta": "🔢 Quantitative", "titulo": "Numbers", "puntos": ["Quantities, **statistics**", "e.g. a **traffic count**"] },
+            { "etiqueta": "💬 Qualitative", "titulo": "Opinions and descriptions", "puntos": ["Subjective **qualities**, opinions, beliefs", "Text, **photos**, sketches"] },
+            { "etiqueta": "⚖️ Bias", "titulo": "Check your data", "puntos": ["Check **origin, reliability, accuracy**", "**Bias**: distorting data to promote a viewpoint"] }
+          ]
+        },
+        {
+          "seccion": "Why is geography important?",
+          "tarjetas": [
+            { "etiqueta": "🔮 Geographers…", "titulo": "Predict, plan and solve problems", "puntos": ["Use **patterns and processes**", "to **predict change** and **make decisions**"] },
+            { "etiqueta": "💼 Jobs", "titulo": "Employers want geographers", "puntos": ["Wider **view of the world**", "Climate disasters, migration, conflict over **water**", "e.g. a **hydrologist**"] }
+          ]
+        }
+      ],
+      "tarjetas": [
+        { "p": "The six enquiry questions", "r": "Who? What? Where? When? Why? How?" },
+        { "p": "What is a geographical enquiry?", "r": "Asking questions, using and recording data and making observations to make sense of the world" },
+        { "p": "The six steps of an enquiry", "r": "Ask questions, collect data, present findings, analyse results, reach a conclusion, evaluate" },
+        { "p": "Primary data", "r": "Data you collect yourself, e.g. by fieldwork" },
+        { "p": "Secondary data", "r": "Data collected by someone else, e.g. newspapers, websites" },
+        { "p": "Quantitative data", "r": "Numerical or statistical information" },
+        { "p": "Qualitative data", "r": "Opinions, beliefs or descriptions – text, photos, sketches" },
+        { "p": "Bias", "r": "When someone distorts data to promote a particular viewpoint" },
+        { "p": "Fieldwork", "r": "Collecting data yourself outside the classroom" },
+        { "p": "Geographers predict, plan and…", "r": "…solve problems" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "Which of these is NOT one of the enquiry questions?", "opciones": ["Which?", "Where?", "Why?", "How?"], "correcta": 0, "explicacion": "The enquiry questions are Who, What, Where, When, Why and How." },
+        { "tipo": "opcion", "enunciado": "What is a geographical enquiry?", "opciones": ["Asking questions and using data to make sense of the world", "Drawing a map of your house", "Learning the names of countries", "Reading a newspaper"], "correcta": 0, "explicacion": "It means asking questions, recording data and making observations." },
+        { "tipo": "opcion", "enunciado": "What is the correct order of the enquiry sequence?", "opciones": ["Identify questions → analyse data → reach conclusions", "Reach conclusions → analyse data → identify questions", "Analyse data → identify questions → reach conclusions", "Collect data → reach conclusions → ask questions"], "correcta": 0, "explicacion": "You start with questions and finish with conclusions." },
+        { "tipo": "opcion", "enunciado": "What is the LAST step of the enquiry process?", "opciones": ["Evaluating your work", "Asking questions", "Presenting your findings", "Collecting data"], "correcta": 0, "explicacion": "Step 6 is evaluating; then you can go back to step 1." },
+        { "tipo": "opcion", "enunciado": "Students count the cars passing their school. What kind of data is this?", "opciones": ["Primary and quantitative", "Secondary and quantitative", "Primary and qualitative", "Secondary and qualitative"], "correcta": 0, "explicacion": "They collected it themselves (primary) and it is numbers (quantitative)." },
+        { "tipo": "opcion", "enunciado": "Local newspaper headlines from 2015–2023 are…", "opciones": ["secondary and qualitative", "primary and quantitative", "primary and qualitative", "secondary and quantitative"], "correcta": 0, "explicacion": "Someone else wrote them (secondary) and they are text (qualitative)." },
+        { "tipo": "opcion", "enunciado": "Students ask village pensioners what they think about traffic. Their answers are…", "opciones": ["primary and qualitative", "secondary and qualitative", "primary and quantitative", "secondary and quantitative"], "correcta": 0, "explicacion": "Collected by the students (primary); opinions (qualitative)." },
+        { "tipo": "opcion", "enunciado": "A 2023 bus timetable is…", "opciones": ["secondary and quantitative", "primary and quantitative", "secondary and qualitative", "primary and qualitative"], "correcta": 0, "explicacion": "Published by someone else (secondary) and made of times/numbers (quantitative)." },
+        { "tipo": "opcion", "enunciado": "Which of these is an example of qualitative data?", "opciones": ["A photo of a polluted river", "The temperature each day", "The number of people in a town", "Rainfall in mm"], "correcta": 0, "explicacion": "Photos, text and sketches are qualitative." },
+        { "tipo": "opcion", "enunciado": "What is bias in data?", "opciones": ["When someone distorts data to promote a viewpoint", "When data has too many numbers", "When data is collected outside", "When data is very old"], "correcta": 0, "explicacion": "Good geographers try to detect bias." },
+        { "tipo": "vf", "enunciado": "Data that you collect yourself through fieldwork is called secondary data.", "correcta": false, "explicacion": "It is primary data." },
+        { "tipo": "vf", "enunciado": "Geographers use their understanding of the world to predict change and solve problems.", "correcta": true, "explicacion": "Geographers predict, plan and solve problems." },
+        { "tipo": "opcion", "enunciado": "According to the Guardian article, why do employers seek geography graduates?", "opciones": ["For their wider view of the world", "Because they are good at sport", "Because they can draw well", "Because they know all the capitals"], "correcta": 0, "explicacion": "Climate disasters, migration and conflict over water make geographers more needed." },
+        { "tipo": "corta", "enunciado": "Explain the difference between primary and secondary data.", "claves": ["yourself", "you collect", "fieldwork", "someone else", "other people", "not collected by", "already"], "minimo": 2, "modelo": "Primary data is collected by you (e.g. fieldwork); secondary data has been collected by someone else (e.g. newspapers, websites).", "explicacion": "Primary = first-hand; secondary = second-hand." },
+        { "tipo": "corta", "enunciado": "Name four of the six enquiry questions.", "claves": ["who", "what", "where", "when", "why", "how"], "minimo": 4, "modelo": "Who? What? Where? When? Why? How?", "explicacion": "Use them to describe any place." }
+      ]
+    },
+    {
+      "id": "latitude-longitude",
+      "titulo": "1.3 · Latitude, longitude and world maps",
+      "resumen": [
+        "## Lines of latitude and longitude",
+        "Imaginary gridlines drawn around the world that give **co-ordinates** to fix a position.",
+        "- **Latitude**: lines that circle the Earth **from side to side**; they show how far **north or south** a place is from the **Equator (0°)**. Labelled **N** or **S**.",
+        "- **Longitude**: lines from **top to bottom** (pole to pole); they show how far **east or west** a place is from the **Prime Meridian (0°)**. Labelled **E** or **W**.",
+        "- The Equator divides the Earth into the **northern and southern hemispheres**. The Prime Meridian divides it into the **eastern and western hemispheres**.",
+        "- In **1884** the **Greenwich Observatory** (London) was chosen as the Prime Meridian.",
+        "- Latitude is always written **before** longitude: Libreville, Gabon is 0° 23'N 9° 27'E.",
+        "",
+        "## The five important lines of latitude",
+        "Arctic Circle 66½°N · Tropic of Cancer 23½°N · Equator 0° · Tropic of Capricorn 23½°S · Antarctic Circle 66½°S. North Pole = 90°N, South Pole = 90°S.",
+        "",
+        "## Maps and GPS",
+        "- A **political map** shows the **borders** of countries and major cities.",
+        "- A **physical map** shows **natural features** (mountains, rivers, seas).",
+        "- **GPS** (Global Positioning System) uses **24 satellites** and ground stations to work out a precise position.",
+        "- The **Degree Confluence Project** (Alex Jarrett, USA, 1996): people visit the exact spots where whole degrees of latitude and longitude meet."
+      ],
+      "notas": [
+        {
+          "seccion": "Latitude and longitude",
+          "tarjetas": [
+            { "etiqueta": "↔️ Latitude", "titulo": "Side to side", "puntos": ["How far **north or south**", "Measured from the **Equator 0°**", "Labelled **N** or **S**"] },
+            { "etiqueta": "↕️ Longitude", "titulo": "Top to bottom", "puntos": ["How far **east or west**", "Measured from the **Prime Meridian 0°**", "Labelled **E** or **W**"] },
+            { "etiqueta": "✍️ Order", "titulo": "Latitude first!", "puntos": ["Libreville = **0° 23'N 9° 27'E**", "1 degree = **60 minutes**", "30 minutes = half a degree"] }
+          ]
+        },
+        {
+          "seccion": "Hemispheres",
+          "tarjetas": [
+            { "etiqueta": "🌐 Equator", "titulo": "0° latitude", "puntos": ["Divides **northern** and **southern** hemispheres"] },
+            { "etiqueta": "🕰️ Prime Meridian", "titulo": "0° longitude", "puntos": ["Also called the **Greenwich Meridian**", "Chosen in **1884**", "Divides **eastern** and **western** hemispheres"] }
+          ]
+        },
+        {
+          "seccion": "The five important lines of latitude",
+          "chips": { "titulo": "From north to south", "items": ["🧊 **Arctic Circle** 66½°N", "☀️ **Tropic of Cancer** 23½°N", "🌐 **Equator** 0°", "☀️ **Tropic of Capricorn** 23½°S", "🧊 **Antarctic Circle** 66½°S"] }
+        },
+        {
+          "seccion": "Maps and GPS",
+          "tarjetas": [
+            { "etiqueta": "🗺️ Political map", "titulo": "Human features", "puntos": ["**Borders** of countries", "Major **cities**"] },
+            { "etiqueta": "⛰️ Physical map", "titulo": "Natural features", "puntos": ["Mountains, rivers, seas", "e.g. Mount Everest, the Alps"] },
+            { "etiqueta": "🛰️ GPS", "titulo": "Global Positioning System", "puntos": ["**24 satellites** + ground stations", "'Artificial stars' as reference points", "Precise position on Earth"] },
+            { "etiqueta": "📍 Degree Confluence", "titulo": "Alex Jarrett, 1996", "puntos": ["Where a whole degree of latitude **and** longitude meet", "Visitors take 360° photos + a GPS photo"] }
+          ]
+        }
+      ],
+      "tarjetas": [
+        { "p": "Lines of latitude", "r": "Imaginary lines circling the Earth side to side; show how far north or south of the Equator" },
+        { "p": "Lines of longitude", "r": "Imaginary lines from pole to pole; show how far east or west of the Prime Meridian" },
+        { "p": "What divides the northern and southern hemispheres?", "r": "The Equator (0°)" },
+        { "p": "What divides the eastern and western hemispheres?", "r": "The Prime Meridian (0°)" },
+        { "p": "When and where was the Prime Meridian chosen?", "r": "1884, Greenwich Observatory" },
+        { "p": "Tropic of Cancer", "r": "23½°N" },
+        { "p": "Tropic of Capricorn", "r": "23½°S" },
+        { "p": "Arctic Circle", "r": "66½°N" },
+        { "p": "Which comes first: latitude or longitude?", "r": "Latitude" },
+        { "p": "Political map vs physical map", "r": "Political: borders and cities · Physical: natural features" },
+        { "p": "GPS", "r": "Global Positioning System – 24 satellites + ground stations" },
+        { "p": "Degree confluence", "r": "The exact spot where a degree of latitude and a degree of longitude meet" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "The imaginary lines that circle the Earth from side to side are called…", "opciones": ["lines of latitude", "lines of longitude", "contour lines", "eastings"], "correcta": 0, "explicacion": "Latitude lines go across, like the rungs of a ladder." },
+        { "tipo": "opcion", "enunciado": "Lines of longitude show how far a place is…", "opciones": ["east or west of the Prime Meridian", "north or south of the Equator", "above sea level", "from the nearest city"], "correcta": 0, "explicacion": "Longitude is measured east or west." },
+        { "tipo": "opcion", "enunciado": "Which line divides the Earth into the northern and southern hemispheres?", "opciones": ["The Equator", "The Prime Meridian", "The Tropic of Cancer", "The Arctic Circle"], "correcta": 0, "explicacion": "The Equator is 0° latitude." },
+        { "tipo": "opcion", "enunciado": "Which line divides the Earth into the eastern and western hemispheres?", "opciones": ["The Prime Meridian", "The Equator", "The Tropic of Capricorn", "The Antarctic Circle"], "correcta": 0, "explicacion": "Also called the Greenwich Meridian (0° longitude)." },
+        { "tipo": "opcion", "enunciado": "In which year was Greenwich chosen as the Prime Meridian?", "opciones": ["1884", "1745", "1996", "1066"], "correcta": 0, "explicacion": "It became the starting point for measuring longitude." },
+        { "tipo": "opcion", "enunciado": "What is the latitude of the Tropic of Cancer?", "opciones": ["23½°N", "23½°S", "66½°N", "0°"], "correcta": 0, "explicacion": "Tropic of Capricorn is 23½°S." },
+        { "tipo": "opcion", "enunciado": "What is the latitude of the Antarctic Circle?", "opciones": ["66½°S", "66½°N", "23½°S", "90°S"], "correcta": 0, "explicacion": "90°S is the South Pole." },
+        { "tipo": "opcion", "enunciado": "Which of the five important lines of latitude is furthest north?", "opciones": ["Arctic Circle", "Tropic of Cancer", "Equator", "Tropic of Capricorn"], "correcta": 0, "explicacion": "Arctic Circle 66½°N." },
+        { "tipo": "opcion", "enunciado": "Libreville in Gabon is at 0° 23'N 9° 27'E. Which number is the longitude?", "opciones": ["9° 27'E", "0° 23'N", "Both", "Neither"], "correcta": 0, "explicacion": "Latitude (N/S) is written first, longitude (E/W) second." },
+        { "tipo": "opcion", "enunciado": "Kampala is at 0° North 32½° East. On which line of latitude is it?", "opciones": ["The Equator", "The Tropic of Cancer", "The Prime Meridian", "The Tropic of Capricorn"], "correcta": 0, "explicacion": "0° latitude is the Equator." },
+        { "tipo": "opcion", "enunciado": "Accra is at 5½°N 0°. Which line of longitude passes through Accra?", "opciones": ["The Prime Meridian", "The Equator", "The Tropic of Cancer", "The Arctic Circle"], "correcta": 0, "explicacion": "0° longitude is the Prime Meridian." },
+        { "tipo": "opcion", "enunciado": "What does a political map show?", "opciones": ["Country borders and major cities", "Mountains and rivers only", "Height using contour lines", "Weather patterns"], "correcta": 0, "explicacion": "A physical map shows natural features." },
+        { "tipo": "opcion", "enunciado": "How many satellites does GPS use?", "opciones": ["24", "6", "100", "360"], "correcta": 0, "explicacion": "24 satellites and their ground stations." },
+        { "tipo": "opcion", "enunciado": "What is a degree confluence?", "opciones": ["Where a whole degree of latitude meets a whole degree of longitude", "Where two rivers meet", "The hottest place on Earth", "A type of satellite"], "correcta": 0, "explicacion": "The Degree Confluence Project was started by Alex Jarrett in 1996." },
+        { "tipo": "vf", "enunciado": "Lines of latitude above the Equator are labelled S.", "correcta": false, "explicacion": "Above (north of) the Equator they are labelled N." },
+        { "tipo": "vf", "enunciado": "Each degree of latitude or longitude can be divided into 60 minutes.", "correcta": true, "explicacion": "30 minutes is half a degree." },
+        { "tipo": "corta", "enunciado": "Name the five important lines of latitude.", "claves": ["arctic", "cancer", "equator", "capricorn", "antarctic"], "minimo": 5, "modelo": "Arctic Circle, Tropic of Cancer, Equator, Tropic of Capricorn, Antarctic Circle.", "explicacion": "From north to south." },
+        { "tipo": "corta", "enunciado": "What is the Prime Meridian?", "claves": ["0", "longitude", "greenwich", "east", "west"], "minimo": 2, "modelo": "The line of 0° longitude through Greenwich, which divides the Earth into the eastern and western hemispheres.", "explicacion": "Chosen in 1884." }
+      ]
+    },
+    {
+      "id": "writing-like-a-geographer",
+      "titulo": "1.4 · Writing like a geographer and place",
+      "resumen": [
+        "## How to write like a geographer",
+        "- **Identify the command word** (e.g. 'describe' = state what something is like).",
+        "- **Identify the geography** in the question.",
+        "- **Think and plan** before you write.",
+        "- **Use geographical words or terms** (see the Glossary).",
+        "- **Refer to data** (photos, maps, grid references, graphs).",
+        "- **Answer the six enquiry questions.**",
+        "- **Make links** between things you learn.",
+        "",
+        "## Place",
+        "**Place** is one of the big ideas in geography. Every place is **different and unique**, but also **interdependent** (connected) with other places.",
+        "",
+        "## Example: Scarborough",
+        "A seaside town in North Yorkshire on the east coast of England. It has a **castle on a headland**, a **bay** on each side (North Bay and South Bay), a **harbour** with **piers** and a **lighthouse**. It is changing: fewer tourists stay because more people go abroad; during the Covid-19 lockdowns there were more day-trippers."
+      ],
+      "notas": [
+        {
+          "seccion": "How to write like a geographer",
+          "tarjetas": [
+            { "etiqueta": "🎯 Command word", "titulo": "What must you do?", "puntos": ["**Describe** = state what something is like", "**Compare** = say how things are similar or different", "**Explain** = give reasons why"] },
+            { "etiqueta": "🌍 Geography", "titulo": "What is it about?", "puntos": ["Identify the **geography** in the question", "Include geographical **issues or changes**"] },
+            { "etiqueta": "📝 Plan", "titulo": "Think before you write", "puntos": ["Plan your answer", "Stick to the question"] },
+            { "etiqueta": "📚 Words", "titulo": "Geographical terms", "puntos": ["Use words like **headland, bay, urban, settlement**", "Check the **Glossary**"] },
+            { "etiqueta": "📊 Data", "titulo": "Refer to evidence", "puntos": ["Features on a **photo**", "**Grid references** on an OS map", "Changes on a **graph**"] },
+            { "etiqueta": "🔗 Links", "titulo": "Connect ideas", "puntos": ["Answer the **six enquiry questions**", "Make **links** between lessons and units"] }
+          ]
+        },
+        {
+          "seccion": "Place",
+          "tarjetas": [
+            { "etiqueta": "📍 Big idea", "titulo": "Place", "puntos": ["Places at different **scales**", "Each place is **different and unique**", "but **interdependent** with others"] },
+            { "etiqueta": "🏖️ Scarborough", "titulo": "North Yorkshire, east coast", "puntos": ["**Castle** on a **headland**", "**North Bay** and **South Bay**", "**Harbour**, **piers**, **lighthouse**"] },
+            { "etiqueta": "🔄 Change", "titulo": "How is it changing?", "puntos": ["Fewer tourists **stay**: more go **abroad**", "Covid-19 lockdowns: more **day-trippers**"] }
+          ]
+        }
+      ],
+      "tarjetas": [
+        { "p": "What is a command word?", "r": "The word that tells you how to answer a question, e.g. describe" },
+        { "p": "What does 'describe' mean?", "r": "State what something is like" },
+        { "p": "Command word to say how two places are similar or different", "r": "Compare" },
+        { "p": "Interdependent", "r": "Connected to and relying on other places" },
+        { "p": "What is 'place' in geography?", "r": "One of the big ideas: every location is unique but connected to others" },
+        { "p": "Headland", "r": "Land that sticks out into the sea (e.g. Scarborough castle headland)" },
+        { "p": "Name three tips for writing like a geographer", "r": "Command word, geographical terms, refer to data (also: plan, enquiry questions, links)" },
+        { "p": "How is Scarborough changing?", "r": "Fewer tourists stay because more people go abroad on holiday" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "What is a command word?", "opciones": ["A word that tells you how to answer the question", "A geographical term from the glossary", "The title of a map", "A word you must not use"], "correcta": 0, "explicacion": "e.g. describe, explain, compare." },
+        { "tipo": "opcion", "enunciado": "In the question 'Use Photo B to describe the geography of your local place', what is the command word?", "opciones": ["describe", "use", "geography", "place"], "correcta": 0, "explicacion": "Describe tells you what to do." },
+        { "tipo": "opcion", "enunciado": "What does the command word 'describe' mean?", "opciones": ["State what something is like", "Give reasons why", "Say if you agree", "Work out a number"], "correcta": 0, "explicacion": "'Explain' means give reasons." },
+        { "tipo": "opcion", "enunciado": "Which command word asks you to say how two places are similar or different?", "opciones": ["Compare", "Describe", "Locate", "Name"], "correcta": 0, "explicacion": "Compare = similarities and differences." },
+        { "tipo": "opcion", "enunciado": "Which of these is NOT part of the advice on how to write like a geographer?", "opciones": ["Write as much as possible without planning", "Identify the command word", "Use geographical words or terms", "Refer to data"], "correcta": 0, "explicacion": "You should think and plan before you write." },
+        { "tipo": "opcion", "enunciado": "Giving a grid reference for a feature on an OS map is an example of…", "opciones": ["referring to data", "making links", "identifying the command word", "using a glossary"], "correcta": 0, "explicacion": "Photos, maps and graphs are data." },
+        { "tipo": "opcion", "enunciado": "What does 'interdependent' mean?", "opciones": ["Connected to and relying on each other", "Completely independent", "Very old", "Located inland"], "correcta": 0, "explicacion": "Places are unique but connected to other places." },
+        { "tipo": "opcion", "enunciado": "Where is Scarborough?", "opciones": ["On the east coast of England, North Yorkshire", "On the west coast of Scotland", "In the south of Wales", "Near London"], "correcta": 0, "explicacion": "It is a seaside town in North Yorkshire." },
+        { "tipo": "opcion", "enunciado": "In Scarborough, what is built on the headland?", "opciones": ["A castle", "An airport", "A factory", "A stadium"], "correcta": 0, "explicacion": "The headland has a bay on either side." },
+        { "tipo": "opcion", "enunciado": "Why do fewer tourists now stay in Scarborough?", "opciones": ["More people go abroad on holiday", "The beach has disappeared", "The castle closed", "There are no hotels"], "correcta": 0, "explicacion": "But during Covid-19 lockdowns there were more day-trippers." },
+        { "tipo": "vf", "enunciado": "Place is one of the big ideas in geography.", "correcta": true, "explicacion": "Geographers explore places at different scales." },
+        { "tipo": "vf", "enunciado": "A good geographer should avoid using geographical terms.", "correcta": false, "explicacion": "You should use geographical words or terms." },
+        { "tipo": "corta", "enunciado": "Give three pieces of advice for writing like a geographer.", "claves": ["command", "geography", "plan", "term", "word", "data", "enquiry", "link"], "minimo": 3, "modelo": "Identify the command word; use geographical words or terms; refer to data (also: identify the geography, plan, answer the enquiry questions, make links).", "explicacion": "Any three of the seven tips." },
+        { "tipo": "corta", "enunciado": "Name two features of Scarborough shown in the photo.", "claves": ["castle", "headland", "bay", "harbour", "pier", "lighthouse", "beach"], "minimo": 2, "modelo": "For example: castle, headland, bay, harbour, piers, lighthouse.", "explicacion": "Use geographical words." }
+      ]
+    },
+    {
+      "id": "os-maps-scale",
+      "titulo": "1.5 · OS maps and scale",
+      "resumen": [
+        "## The Ordnance Survey",
+        "The **Ordnance Survey (OS)** is the **national mapping agency of the United Kingdom**. It began as part of **military strategy**, mapping the **Scottish Highlands** after the rebellion in **1745**.",
+        "Geographers use maps to describe and analyse **spatial patterns** – how people, places and environments are organised. Using a map is **thinking spatially**.",
+        "",
+        "## Scale",
+        "The **scale** shows how much you would have to enlarge the map to get the real size of the land. Scale is shown in three ways:",
+        "- a **linear scale** – a line marked in km;",
+        "- a **statement** – e.g. 'two centimetres represent one kilometre';",
+        "- a **ratio** – e.g. 1:50 000 means 1 unit on the map = 50 000 of the same unit on the ground.",
+        "On a 1:50 000 map, **2 cm = 1 km** (1 cm = 500 m).",
+        "",
+        "## Large and small scale",
+        "- **Large-scale map** (e.g. 1:2500, 1:25 000): a lot of **detail** but not much **area** – individual buildings and fields.",
+        "- **Small-scale map** (e.g. 1:50 000, 1:250 000): a lot of **area** but not much detail – good for **planning routes**.",
+        "",
+        "## Measuring distance",
+        "'As the crow flies' = a straight line. Distance by road is always **longer** or the same."
+      ],
+      "notas": [
+        {
+          "seccion": "The Ordnance Survey",
+          "tarjetas": [
+            { "etiqueta": "🇬🇧 OS", "titulo": "National mapping agency", "puntos": ["Of the **United Kingdom**", "Maps at many **scales**"] },
+            { "etiqueta": "⚔️ History", "titulo": "Started in 1745", "puntos": ["**Military** strategy", "Mapping the **Scottish Highlands**", "after a **rebellion**"] },
+            { "etiqueta": "🧠 Spatial", "titulo": "Thinking spatially", "puntos": ["Maps show **patterns**", "How people, places and environments are **organised**"] }
+          ]
+        },
+        {
+          "seccion": "Three ways to show scale",
+          "tarjetas": [
+            { "etiqueta": "📏 Linear scale", "titulo": "A line", "puntos": ["A ruler-like line", "Marked in **km**", "0 — 2 — 4 — 6 km"] },
+            { "etiqueta": "💬 Statement", "titulo": "In words", "puntos": ["'**Two centimetres represent one kilometre**'"] },
+            { "etiqueta": "➗ Ratio", "titulo": "1 : 50 000", "puntos": ["1 cm on the map = **50 000 cm** on the ground", "= **500 m**", "so **2 cm = 1 km**"] }
+          ]
+        },
+        {
+          "seccion": "Large or small scale?",
+          "tarjetas": [
+            { "etiqueta": "🔍 Large scale", "titulo": "More detail, less area", "puntos": ["e.g. **1:2500**, 1:25 000", "Individual **buildings** and field outlines", "Used by planners, builders"] },
+            { "etiqueta": "🗺️ Small scale", "titulo": "More area, less detail", "puntos": ["e.g. **1:50 000**, 1:250 000", "Whole towns and roads", "Good for **planning a route**"] },
+            { "etiqueta": "🐦 Distance", "titulo": "As the crow flies", "puntos": ["= in a **straight line**", "By **road** it is longer", "Measure, then use the **scale**"] }
+          ]
+        }
+      ],
+      "tarjetas": [
+        { "p": "Ordnance Survey (OS)", "r": "The national mapping agency of the United Kingdom" },
+        { "p": "Why and when did the OS begin?", "r": "Military strategy: mapping the Scottish Highlands after the 1745 rebellion" },
+        { "p": "What does the scale of a map show?", "r": "How much you'd have to enlarge the map to get the real size of the land" },
+        { "p": "Three ways to show scale", "r": "Linear scale, statement of scale, ratio" },
+        { "p": "1:50 000 – how many cm for 1 km?", "r": "2 cm = 1 km" },
+        { "p": "Large-scale map", "r": "Lots of detail, small area (e.g. 1:2500)" },
+        { "p": "Small-scale map", "r": "Large area, little detail (e.g. 1:250 000)" },
+        { "p": "As the crow flies", "r": "Distance in a straight line" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "What is the Ordnance Survey?", "opciones": ["The national mapping agency of the UK", "A type of satellite", "A weather service", "A university in London"], "correcta": 0, "explicacion": "It produces maps at many scales." },
+        { "tipo": "opcion", "enunciado": "Why was the Ordnance Survey created?", "opciones": ["Military strategy: mapping the Scottish Highlands after 1745", "To help tourists in London", "To map the oceans", "To build railways"], "correcta": 0, "explicacion": "'Ordnance' is a military word." },
+        { "tipo": "opcion", "enunciado": "Which is NOT one of the three ways scale is shown?", "opciones": ["A compass rose", "A linear scale", "A statement", "A ratio"], "correcta": 0, "explicacion": "A compass rose shows direction, not scale." },
+        { "tipo": "opcion", "enunciado": "'1:50 000' is an example of a…", "opciones": ["ratio scale", "linear scale", "statement of scale", "grid reference"], "correcta": 0, "explicacion": "A statement uses words; a linear scale is a line." },
+        { "tipo": "opcion", "enunciado": "'Two centimetres represent one kilometre' is an example of a…", "opciones": ["statement of scale", "ratio scale", "linear scale", "contour"], "correcta": 0, "explicacion": "It is written in words." },
+        { "tipo": "opcion", "enunciado": "On a 1:50 000 map, how many centimetres represent 1 km?", "opciones": ["2 cm", "1 cm", "5 cm", "50 cm"], "correcta": 0, "explicacion": "1 km = 100 000 cm; 100 000 ÷ 50 000 = 2 cm." },
+        { "tipo": "opcion", "enunciado": "On a 1:50 000 map, two places are 6 cm apart. How far apart are they on the ground?", "opciones": ["3 km", "6 km", "12 km", "300 m"], "correcta": 0, "explicacion": "2 cm = 1 km, so 6 cm = 3 km." },
+        { "tipo": "opcion", "enunciado": "On a 1:50 000 map, a distance is 1 cm. How far is it on the ground?", "opciones": ["500 m", "1 km", "50 m", "5 km"], "correcta": 0, "explicacion": "50 000 cm = 500 m." },
+        { "tipo": "opcion", "enunciado": "A large-scale map shows…", "opciones": ["a lot of detail but not much area", "a lot of area but not much detail", "only the coastline", "only countries"], "correcta": 0, "explicacion": "e.g. the 1:2500 map of Mappleton shows individual buildings." },
+        { "tipo": "opcion", "enunciado": "Which of these is the LARGEST-scale map?", "opciones": ["1:2500", "1:25 000", "1:50 000", "1:200 000"], "correcta": 0, "explicacion": "The smaller the second number, the larger the scale (more detail)." },
+        { "tipo": "opcion", "enunciado": "Which map would be best to plan a car route from Beverley to Mappleton?", "opciones": ["A 1:200 000 map", "A 1:2500 map", "A map of one street", "A world political map"], "correcta": 0, "explicacion": "Small-scale maps show a large area and the main roads." },
+        { "tipo": "opcion", "enunciado": "What does 'as the crow flies' mean?", "opciones": ["In a straight line", "Along the road", "Up a hill", "Along a river"], "correcta": 0, "explicacion": "Road distances are longer than straight-line distances." },
+        { "tipo": "vf", "enunciado": "The distance between two places by road can be shorter than the distance as the crow flies.", "correcta": false, "explicacion": "A straight line is always the shortest distance." },
+        { "tipo": "vf", "enunciado": "Every time you use a map, you are thinking spatially.", "correcta": true, "explicacion": "Maps show spatial patterns." },
+        { "tipo": "corta", "enunciado": "Name the three ways scale can be shown on a map.", "claves": ["linear", "line", "statement", "words", "ratio"], "minimo": 3, "modelo": "A linear scale (a line in km), a statement (e.g. 2 cm represent 1 km) and a ratio (e.g. 1:50 000).", "explicacion": "Learn the example for each." },
+        { "tipo": "corta", "enunciado": "Give one difference between a large-scale and a small-scale map.", "claves": ["detail", "area", "buildings", "planning", "route"], "minimo": 2, "modelo": "A large-scale map shows a lot of detail but a small area; a small-scale map shows a large area but little detail.", "explicacion": "Detail vs area." }
+      ]
+    },
+    {
+      "id": "symbols-grid-references",
+      "titulo": "1.6 · OS symbols and grid references",
+      "resumen": [
+        "## OS symbols",
+        "Symbols make maps quick to read and not cluttered. They use **colours, shapes, lines, drawings and abbreviations**. Every OS map has a **key** (legend). Different scales have different symbols.",
+        "Abbreviations: CG cattle grid · CH clubhouse · Coll college · Fm farm · Ho house · Hospl hospital · MP milepost · P post office · PC public convenience (toilets) · PH public house · Sch school · Sta station · TH town hall · Univ university.",
+        "",
+        "## Grid references",
+        "OS maps are covered in numbered blue gridlines. **Eastings** are the vertical lines – their numbers increase **eastwards**. **Northings** are the horizontal lines – their numbers increase **northwards**. A grid reference is for the **bottom left-hand corner** of a square.",
+        "Remember: **along the corridor, then up the stairs** (eastings first).",
+        "",
+        "## Four-figure grid reference",
+        "Read the easting at the bottom-left corner (62), then the northing (33) → **6233**.",
+        "",
+        "## Six-figure grid reference",
+        "Imagine each square divided into **tenths**. Count tenths along from 62 (5 → 625) and up from 33 (3 → 333) → **625333**."
+      ],
+      "notas": [
+        {
+          "seccion": "OS symbols",
+          "tarjetas": [
+            { "etiqueta": "🔣 Why symbols?", "titulo": "Quick and clear", "puntos": ["Map isn't **cluttered**", "Use **colours, shapes, lines, drawings, abbreviations**", "Explained in the **key / legend**"] },
+            { "etiqueta": "🔵 Tourist info", "titulo": "Blue symbols", "puntos": ["**Viewpoint** (blue star)", "**Picnic site**, **nature reserve**", "**P** = parking, **i** = visitor centre"] },
+            { "etiqueta": "⛪ Land features", "titulo": "Drawings", "puntos": ["Place of worship with **tower** / with **spire**", "**Triangulation pillar**, mast, wind turbine", "Electricity line (**pylons**)"] }
+          ],
+          "chips": { "titulo": "Abbreviations", "items": ["**PH** public house", "**P** post office", "**PC** public toilets", "**Sch** school", "**Sta** station", "**TH** town hall", "**Fm** farm", "**CH** clubhouse", "**MP** milepost", "**CG** cattle grid", "**Hospl** hospital", "**Univ** university"] }
+        },
+        {
+          "seccion": "Grid lines",
+          "tarjetas": [
+            { "etiqueta": "➡️ Eastings", "titulo": "Vertical lines", "puntos": ["Numbers increase **eastwards**", "Read them **first**", "**Along the corridor**"] },
+            { "etiqueta": "⬆️ Northings", "titulo": "Horizontal lines", "puntos": ["Numbers increase **northwards**", "Read them **second**", "**Up the stairs**"] },
+            { "etiqueta": "↙️ Corner", "titulo": "Bottom-left", "puntos": ["A grid reference is always for the **bottom left-hand corner** of the square"] }
+          ]
+        },
+        {
+          "seccion": "Four- and six-figure references",
+          "tarjetas": [
+            { "etiqueta": "4️⃣ Four-figure", "titulo": "A whole square", "puntos": ["Easting **62** + northing **33**", "= **6233**", "No slash, no space needed"] },
+            { "etiqueta": "6️⃣ Six-figure", "titulo": "A point in the square", "puntos": ["Divide the square into **tenths**", "62 + 5 tenths = **625**; 33 + 3 tenths = **333**", "= **625333**"] }
+          ]
+        }
+      ],
+      "tarjetas": [
+        { "p": "Why do OS maps use symbols?", "r": "To show features quickly and clearly without cluttering the map" },
+        { "p": "What explains the symbols on a map?", "r": "The key (or legend)" },
+        { "p": "PH", "r": "Public house" },
+        { "p": "PC", "r": "Public convenience (toilets)" },
+        { "p": "Sch", "r": "School" },
+        { "p": "Eastings", "r": "Vertical gridlines; numbers increase eastwards" },
+        { "p": "Northings", "r": "Horizontal gridlines; numbers increase northwards" },
+        { "p": "Which do you read first: eastings or northings?", "r": "Eastings – along the corridor, then up the stairs" },
+        { "p": "A grid reference is for which corner of the square?", "r": "The bottom left-hand corner" },
+        { "p": "Four-figure grid reference for easting 62, northing 33", "r": "6233" },
+        { "p": "How is a six-figure grid reference more precise?", "r": "Each square is divided into tenths" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "Why do OS maps use symbols?", "opciones": ["So features can be found quickly without cluttering the map", "To make the map colourful", "Because words are not allowed", "To hide information"], "correcta": 0, "explicacion": "Symbols keep the map clear." },
+        { "tipo": "opcion", "enunciado": "Where can you find what each symbol means?", "opciones": ["In the key or legend", "In the scale", "In the grid reference", "On the compass"], "correcta": 0, "explicacion": "Every OS map has a key." },
+        { "tipo": "opcion", "enunciado": "What does the abbreviation PH stand for on an OS map?", "opciones": ["Public house", "Police headquarters", "Post house", "Public hospital"], "correcta": 0, "explicacion": "Hospital is Hospl." },
+        { "tipo": "opcion", "enunciado": "What does Sch stand for?", "opciones": ["School", "Station", "Church", "Scheme"], "correcta": 0, "explicacion": "Sta = station." },
+        { "tipo": "opcion", "enunciado": "What does PC stand for in rural areas?", "opciones": ["Public convenience (toilets)", "Police car", "Personal computer", "Post centre"], "correcta": 0, "explicacion": "P alone = post office." },
+        { "tipo": "opcion", "enunciado": "Vertical gridlines on an OS map are called…", "opciones": ["eastings", "northings", "contours", "meridians"], "correcta": 0, "explicacion": "Their numbers increase eastwards." },
+        { "tipo": "opcion", "enunciado": "Horizontal gridlines on an OS map are called…", "opciones": ["northings", "eastings", "latitudes", "tropics"], "correcta": 0, "explicacion": "Their numbers increase northwards." },
+        { "tipo": "opcion", "enunciado": "When giving a grid reference, which do you read first?", "opciones": ["Eastings (along the corridor)", "Northings (up the stairs)", "It doesn't matter", "The bigger number"], "correcta": 0, "explicacion": "Along the corridor, then up the stairs." },
+        { "tipo": "opcion", "enunciado": "A grid reference refers to which corner of the grid square?", "opciones": ["Bottom left", "Top left", "Top right", "Bottom right"], "correcta": 0, "explicacion": "Always the bottom left-hand corner." },
+        { "tipo": "opcion", "enunciado": "A square has easting 62 on its left side and northing 33 on its bottom side. What is its four-figure grid reference?", "opciones": ["6233", "3362", "6333", "6234"], "correcta": 0, "explicacion": "Eastings first: 62, then northings: 33." },
+        { "tipo": "opcion", "enunciado": "Leaswood Farm is in the square with easting 33 and northing 76. How do you write the four-figure grid reference?", "opciones": ["3376", "33/76", "7633", "76/33"], "correcta": 0, "explicacion": "Write the four numbers together, eastings first – no slash." },
+        { "tipo": "opcion", "enunciado": "In the six-figure reference 625333, what does the 5 mean?", "opciones": ["5 tenths east of easting 62", "5 km east", "5 tenths north of northing 33", "The 5th square"], "correcta": 0, "explicacion": "The third digit is the tenths along from the easting." },
+        { "tipo": "opcion", "enunciado": "Why use a six-figure grid reference instead of a four-figure one?", "opciones": ["It locates a feature more precisely within a square", "It is easier to remember", "It shows height", "It shows direction"], "correcta": 0, "explicacion": "A four-figure reference only gives the whole square." },
+        { "tipo": "vf", "enunciado": "The numbers of northings increase as you go north on the map.", "correcta": true, "explicacion": "That is where their name comes from." },
+        { "tipo": "vf", "enunciado": "Different scales of OS map use exactly the same symbols.", "correcta": false, "explicacion": "There are different symbols for each scale of OS map." },
+        { "tipo": "corta", "enunciado": "Explain how to give a four-figure grid reference.", "claves": ["easting", "along", "first", "northing", "up", "bottom left", "corner"], "minimo": 3, "modelo": "Find the bottom left-hand corner of the square; read the easting along the bottom first, then the northing up the side, and write them together (e.g. 6233).", "explicacion": "Along the corridor, up the stairs." },
+        { "tipo": "corta", "enunciado": "What do the abbreviations TH and Sta stand for?", "claves": ["town hall", "station"], "minimo": 2, "modelo": "TH = town hall; Sta = station.", "explicacion": "Learn the abbreviations box." }
+      ]
+    },
+    {
+      "id": "height-direction",
+      "titulo": "1.7 · Height, slopes and direction",
+      "resumen": [
+        "Height on OS maps is always shown in **metres above sea level**. There are three ways:",
+        "- **Spot height**: a **black dot** with the height in metres next to it.",
+        "- **Contour lines**: thin **brown** lines joining places at the **same height**. Usually every **10 m** on a 1:50 000 map and every **5 m** on a 1:25 000 map; a thicker line every **50 m**. Numbers increasing = uphill; decreasing = downhill.",
+        "- **Triangulation pillar**: a **blue triangle with a dot**, often on hilltops, with the height next to it. Once used by OS surveyors to measure the land; not used any more.",
+        "",
+        "## Slopes",
+        "Contour lines **close together** = **steep** slope. Contour lines **far apart** = **gentle** slope.",
+        "Between two contour lines you can't give an exact height – only that it is between the two values.",
+        "",
+        "## Compass points",
+        "N, NE, E, SE, S, SW, W, NW (north, north-east, east, south-east, south, south-west, west, north-west)."
+      ],
+      "notas": [
+        {
+          "seccion": "Three ways to show height",
+          "tarjetas": [
+            { "etiqueta": "⚫ Spot height", "titulo": "A black dot", "puntos": ["Height in **metres** next to it", "e.g. **·144**", "To the nearest metre above sea level"] },
+            { "etiqueta": "〰️ Contour lines", "titulo": "Thin brown lines", "puntos": ["Join places at the **same height**", "Every **10 m** (1:50 000) / **5 m** (1:25 000)", "Thicker line every **50 m**"] },
+            { "etiqueta": "🔺 Triangulation pillar", "titulo": "Blue triangle with a dot", "puntos": ["Often on **hill tops**", "Used by OS **surveyors**", "**Not used** any more"] }
+          ]
+        },
+        {
+          "seccion": "Reading contours",
+          "tarjetas": [
+            { "etiqueta": "⛰️ Steep", "titulo": "Lines close together", "puntos": ["Height changes **quickly**", "e.g. 50 → 100 m in a short distance"] },
+            { "etiqueta": "🌄 Gentle", "titulo": "Lines far apart", "puntos": ["Height changes **slowly**"] },
+            { "etiqueta": "📈 Up or down?", "titulo": "Follow the numbers", "puntos": ["Numbers **increase** → **uphill**", "Numbers **decrease** → **downhill**", "Between lines: **no exact height**"] }
+          ]
+        },
+        {
+          "seccion": "Compass points",
+          "chips": { "titulo": "Clockwise from north", "items": ["⬆️ **N** north", "↗️ **NE** north-east", "➡️ **E** east", "↘️ **SE** south-east", "⬇️ **S** south", "↙️ **SW** south-west", "⬅️ **W** west", "↖️ **NW** north-west"] }
+        }
+      ],
+      "tarjetas": [
+        { "p": "Height on OS maps is measured in…", "r": "Metres above sea level" },
+        { "p": "Spot height", "r": "A black dot with the height in metres next to it" },
+        { "p": "Contour lines", "r": "Thin brown lines joining places of the same height" },
+        { "p": "Triangulation pillar", "r": "Blue triangle with a dot, on hill tops; used by OS surveyors" },
+        { "p": "Contour lines close together mean…", "r": "A steep slope" },
+        { "p": "Contour lines far apart mean…", "r": "A gentle slope" },
+        { "p": "Contour interval on a 1:50 000 map", "r": "10 metres" },
+        { "p": "How often is there a thicker contour line?", "r": "Every 50 m" },
+        { "p": "The direction halfway between south and west", "r": "South-west (SW)" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "Height on OS maps is shown in…", "opciones": ["metres above sea level", "feet above the ground", "kilometres", "degrees"], "correcta": 0, "explicacion": "Always metres above sea level." },
+        { "tipo": "opcion", "enunciado": "Which symbol is a spot height?", "opciones": ["A black dot with a number", "A blue triangle with a dot", "A thin brown line", "A blue star"], "correcta": 0, "explicacion": "e.g. ·144 = 144 m." },
+        { "tipo": "opcion", "enunciado": "What are contour lines?", "opciones": ["Lines joining places of the same height", "Roads on a map", "Lines of longitude", "River boundaries"], "correcta": 0, "explicacion": "They are thin brown lines." },
+        { "tipo": "opcion", "enunciado": "What colour are contour lines on OS maps?", "opciones": ["Brown", "Blue", "Black", "Green"], "correcta": 0, "explicacion": "Blue is used for water and gridlines." },
+        { "tipo": "opcion", "enunciado": "Contour lines that are very close together show…", "opciones": ["a steep slope", "a gentle slope", "flat land", "a river"], "correcta": 0, "explicacion": "Height changes quickly over a short distance." },
+        { "tipo": "opcion", "enunciado": "On a 1:50 000 OS map, contour lines are usually drawn every…", "opciones": ["10 m", "5 m", "50 m", "100 m"], "correcta": 0, "explicacion": "On 1:25 000 maps they are every 5 m." },
+        { "tipo": "opcion", "enunciado": "Contour numbers go 30, 40, 50 as you walk. Are you going…", "opciones": ["uphill", "downhill", "on flat land", "into the sea"], "correcta": 0, "explicacion": "Increasing numbers = uphill." },
+        { "tipo": "opcion", "enunciado": "You are between the 50 m and 60 m contour lines. How high are you?", "opciones": ["Between 50 and 60 m – you can't tell exactly", "Exactly 55 m", "Exactly 50 m", "Exactly 60 m"], "correcta": 0, "explicacion": "Contours only show heights at set intervals." },
+        { "tipo": "opcion", "enunciado": "What is a triangulation pillar?", "opciones": ["A pillar on a hill top once used by OS surveyors", "A type of church", "A tall radio mast", "A lighthouse"], "correcta": 0, "explicacion": "Shown by a blue triangle with a dot; not used any more." },
+        { "tipo": "opcion", "enunciado": "Which direction is halfway between north and east?", "opciones": ["North-east", "South-east", "North-west", "East-north"], "correcta": 0, "explicacion": "NE." },
+        { "tipo": "opcion", "enunciado": "Which direction is opposite north-west?", "opciones": ["South-east", "South-west", "North-east", "East"], "correcta": 0, "explicacion": "NW ↔ SE." },
+        { "tipo": "opcion", "enunciado": "Why are there no triangulation pillars on a very flat coastline?", "opciones": ["They are usually placed on hill tops", "The sea washed them away", "They are only in cities", "Coastlines are not mapped"], "correcta": 0, "explicacion": "Pillars were built on high points to measure the land." },
+        { "tipo": "vf", "enunciado": "Contour lines that are far apart show a gentle slope.", "correcta": true, "explicacion": "The height changes slowly." },
+        { "tipo": "vf", "enunciado": "Triangulation pillars are still used by OS surveyors today.", "correcta": false, "explicacion": "They are not used any more." },
+        { "tipo": "corta", "enunciado": "Describe the three ways the OS shows height on maps.", "claves": ["spot", "contour", "triangulation", "pillar"], "minimo": 3, "modelo": "Spot heights (black dot with the height), contour lines (brown lines joining places of the same height) and triangulation pillars (blue triangle with a dot).", "explicacion": "All in metres above sea level." },
+        { "tipo": "corta", "enunciado": "How can you tell from contour lines if a slope is steep or gentle?", "claves": ["close", "steep", "far", "apart", "gentle"], "minimo": 3, "modelo": "Close together = steep; far apart = gentle.", "explicacion": "Look at the spacing." }
+      ]
+    },
+    {
+      "id": "settlements-aerial-fieldwork",
+      "titulo": "1.8–1.10 · Aerial photos, settlements and fieldwork",
+      "resumen": [
+        "## Aerial photos (1.8)",
+        "A **vertical aerial photograph** is taken from **directly above** the land – from an aeroplane or, more commonly, from **satellites** (e.g. Google Earth). With maps they show **physical** and **human** features and **land uses** (buildings, roads, fields, industry).",
+        "- **Urban** areas: built-up, mostly housing and industry (towns and cities, e.g. Southampton).",
+        "- **Rural** areas: more open countryside with fields.",
+        "",
+        "## Models and settlements (1.9)",
+        "A **model** is a simplified version of a pattern in the real world, used to make generalisations, comparisons and predictions. Models have **exceptions** and can become **out of date**, so use them **critically**.",
+        "A **settlement** is a place where people live. More than half of the world's population lives in urban areas.",
+        "A **settlement hierarchy** orders settlements by population size, area and the range and number of services. From the top: capital city (over 1,000,000) · city (150,000–1,000,000) · large town (20,000–150,000) · small town (1,000–20,000) · village (up to 1,000) · hamlet (up to 20) · isolated dwelling (one family). Going up: bigger settlements and more services, but **fewer** settlements.",
+        "",
+        "## Fieldwork (1.10)",
+        "**Fieldwork** = investigating a place first-hand: using maps, observation, photos and **field sketches** to collect, record and present data. Example: Seaford (East Sussex) – Seaford Head, Martello Tower, Seven Sisters chalk cliffs, **groynes** (human-made features to protect the beach) at Cuckmere Haven.",
+        "**Virtual fieldwork** (e.g. Google Street View of Keswick, Derwent Water) is safe, cheap and needs no travel, but you can't collect your own measurements and images may be out of date."
+      ],
+      "notas": [
+        {
+          "seccion": "Aerial photographs",
+          "tarjetas": [
+            { "etiqueta": "🛰️ Vertical aerial photo", "titulo": "Taken from directly above", "puntos": ["From an **aeroplane** or **satellite**", "e.g. **Google Earth**", "Compare with an OS map of the same scale"] },
+            { "etiqueta": "🏙️ Urban", "titulo": "Built-up areas", "puntos": ["Mostly **housing** and **industry**", "Towns and cities, e.g. **Southampton**"] },
+            { "etiqueta": "🌾 Rural", "titulo": "Countryside", "puntos": ["More **open** areas", "Lots of **fields**, farmland, woodland"] }
+          ]
+        },
+        {
+          "seccion": "Models",
+          "tarjetas": [
+            { "etiqueta": "🧩 Model", "titulo": "A simplified pattern", "puntos": ["Helps make **generalisations**, **comparisons** and **predictions**"] },
+            { "etiqueta": "⚠️ Use critically", "titulo": "Limitations", "puntos": ["There are always **exceptions**", "Models can become **out of date**", "e.g. Willaston (≈2,500 people): village or small town? **Useful with care**"] }
+          ]
+        },
+        {
+          "seccion": "The settlement hierarchy (UK)",
+          "chips": { "titulo": "From biggest to smallest", "items": ["👑 **Capital city** – over 1,000,000", "🏙️ **City** – 150,000–1,000,000", "🏬 **Large town** – 20,000–150,000", "🏘️ **Small town** – 1,000–20,000", "⛪ **Village** – up to 1,000", "🏡 **Hamlet** – up to 20", "🏠 **Isolated dwelling** – one family"] },
+          "tarjetas": [
+            { "etiqueta": "🔺 The pyramid", "titulo": "Going up the hierarchy", "puntos": ["**Bigger** population and area", "**More** services", "But **fewer** settlements"] },
+            { "etiqueta": "🏪 Services", "titulo": "Examples", "puntos": ["**Village**: village hall, church, pub, small primary school", "**Small town**: town hall, doctors, secondary school, railway station", "**Hamlet / isolated dwelling**: no services"] }
+          ]
+        },
+        {
+          "seccion": "Fieldwork",
+          "tarjetas": [
+            { "etiqueta": "👣 Fieldwork", "titulo": "Investigating a place", "puntos": ["Use **maps** and **observation**", "Take **photos**, draw **field sketches**", "Collect, record and present **primary data**"] },
+            { "etiqueta": "🌊 Seaford", "titulo": "East Sussex coast", "puntos": ["Seaford Head, **Martello Tower**", "**Seven Sisters** chalk cliffs", "**Groynes**: human-made, protect the **beach**"] },
+            { "etiqueta": "💻 Virtual fieldwork", "titulo": "e.g. Street View of Keswick", "puntos": ["✔ Safe, free, no travel, any weather", "✘ Can't measure or collect your own data", "✘ Images may be **out of date**"] }
+          ]
+        }
+      ],
+      "tarjetas": [
+        { "p": "Vertical aerial photograph", "r": "A photo taken from directly above the land" },
+        { "p": "Urban area", "r": "A built-up area (towns and cities) – mostly housing and industry" },
+        { "p": "Rural area", "r": "Open countryside with fields" },
+        { "p": "What is a model?", "r": "A simplified version of a pattern in the real world" },
+        { "p": "Why use models critically?", "r": "There are exceptions and they can become out of date" },
+        { "p": "Settlement", "r": "A place where people live" },
+        { "p": "Settlement hierarchy", "r": "A model ordering settlements by population, area and services" },
+        { "p": "Population of a village (UK model)", "r": "Up to 1,000" },
+        { "p": "Hamlet", "r": "Up to 20 people, no services" },
+        { "p": "Capital city", "r": "Over 1,000,000 people – top of the hierarchy" },
+        { "p": "Groyne", "r": "A human-made barrier to protect the beach" },
+        { "p": "Field sketch", "r": "A labelled drawing of a view, made during fieldwork" }
+      ],
+      "preguntas": [
+        { "tipo": "opcion", "enunciado": "What is a vertical aerial photograph?", "opciones": ["A photo taken from directly above", "A photo taken from the side", "A photo of a tall building", "A drawing of a map"], "correcta": 0, "explicacion": "Usually from satellites or aeroplanes." },
+        { "tipo": "opcion", "enunciado": "Most vertical aerial photographs today are taken from…", "opciones": ["satellites", "mountains", "boats", "helicopters only"], "correcta": 0, "explicacion": "You can view them with Google Earth." },
+        { "tipo": "opcion", "enunciado": "What is an urban area?", "opciones": ["A built-up area such as a town or city", "Open countryside with fields", "A desert", "An area of sea"], "correcta": 0, "explicacion": "Most of the land is used for housing and industry." },
+        { "tipo": "opcion", "enunciado": "What is a rural area?", "opciones": ["Open countryside with fields", "A city centre", "An industrial estate", "A port"], "correcta": 0, "explicacion": "Rural = countryside." },
+        { "tipo": "opcion", "enunciado": "What is a model in geography?", "opciones": ["A simplified version of a real-world pattern", "A small plastic copy of a building", "A type of map symbol", "A famous geographer"], "correcta": 0, "explicacion": "Models help make generalisations and predictions." },
+        { "tipo": "opcion", "enunciado": "Why should geographers use models critically?", "opciones": ["They have exceptions and can become out of date", "They are always wrong", "They are too detailed", "They only work in the UK"], "correcta": 0, "explicacion": "Models have limitations." },
+        { "tipo": "opcion", "enunciado": "What is a settlement?", "opciones": ["A place where people live", "A type of rock", "A river mouth", "A farm field"], "correcta": 0, "explicacion": "Settlements vary in size from one house to huge cities." },
+        { "tipo": "opcion", "enunciado": "Which is at the TOP of the UK settlement hierarchy?", "opciones": ["Capital city", "City", "Large town", "Village"], "correcta": 0, "explicacion": "Over 1,000,000 people." },
+        { "tipo": "opcion", "enunciado": "A settlement has about 500 people, a church, a pub and a small primary school. What is it?", "opciones": ["A village", "A hamlet", "A large town", "A city"], "correcta": 0, "explicacion": "Village: up to 1,000 people." },
+        { "tipo": "opcion", "enunciado": "What is the population of a hamlet in the UK model?", "opciones": ["Up to 20", "Up to 1,000", "1,000–20,000", "One family"], "correcta": 0, "explicacion": "One family = isolated dwelling." },
+        { "tipo": "opcion", "enunciado": "As you go UP the settlement hierarchy, the NUMBER of settlements…", "opciones": ["decreases", "increases", "stays the same", "doubles"], "correcta": 0, "explicacion": "There are many villages but few capital cities." },
+        { "tipo": "opcion", "enunciado": "Willaston has about 2,500 people – more than a village but fewer than most small towns. What does this show about the model?", "opciones": ["It is useful, but must be used with care", "It is a perfect fit", "It is no help at all", "Willaston is a city"], "correcta": 0, "explicacion": "Real places don't always fit models exactly." },
+        { "tipo": "opcion", "enunciado": "What is a groyne?", "opciones": ["A human-made feature to protect the beach", "A type of cliff", "A river valley", "A lighthouse"], "correcta": 0, "explicacion": "Groynes are at Seaford and Cuckmere Haven." },
+        { "tipo": "opcion", "enunciado": "Which is an advantage of virtual fieldwork?", "opciones": ["It is safe and you don't need to travel", "You can measure the beach yourself", "The images are always up to date", "You can talk to local people"], "correcta": 0, "explicacion": "A disadvantage is that you can't collect your own data." },
+        { "tipo": "vf", "enunciado": "More than half of the world's population lives in urban areas.", "correcta": true, "explicacion": "In large towns and cities." },
+        { "tipo": "vf", "enunciado": "An isolated dwelling has a village hall and a shop.", "correcta": false, "explicacion": "Isolated dwellings (one family) have no services." },
+        { "tipo": "corta", "enunciado": "Put these in order from smallest to largest: city, hamlet, village, small town.", "claves": ["hamlet", "village", "small town", "city"], "minimo": 4, "modelo": "Hamlet → village → small town → city.", "explicacion": "Check the pyramid." },
+        { "tipo": "corta", "enunciado": "Give one advantage and one disadvantage of virtual fieldwork.", "claves": ["safe", "free", "cheap", "travel", "weather", "time", "measure", "out of date", "old", "real", "own data", "senses"], "minimo": 2, "modelo": "Advantage: it is safe, free and needs no travel. Disadvantage: you can't collect your own data and the images may be out of date.", "explicacion": "Compare it with real fieldwork." }
+      ]
+    }
+  ]
+}

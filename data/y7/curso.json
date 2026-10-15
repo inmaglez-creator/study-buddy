@@ -132,9 +132,17 @@
     {
       "id": "geography-unit-1",
       "asignatura": "geography",
-      "titulo": "Geography test · Unit 1",
+      "titulo": "Geography test · Unit 1 What is a geographer?",
       "fecha": "2026-10-21",
-      "temas": []
+      "temas": [
+        "working-like-a-geographer",
+        "latitude-longitude",
+        "writing-like-a-geographer",
+        "os-maps-scale",
+        "symbols-grid-references",
+        "height-direction",
+        "settlements-aerial-fieldwork"
+      ]
     },
     {
       "id": "english-reading-comprehension",
