@@ -112,9 +112,17 @@
     {
       "id": "german-oct",
       "asignatura": "german",
-      "titulo": "German exam",
+      "titulo": "German exam · Introduction + Unit 1",
       "fecha": "2026-10-20",
-      "temas": []
+      "temas": [
+        "german-speaking-world",
+        "classroom-key-words",
+        "wie-heisst-du",
+        "wie-alt-bist-du",
+        "wo-wohnst-du",
+        "herzlichen-glueckwunsch",
+        "wer-war-das"
+      ]
     },
     {
       "id": "geography-unit-1",

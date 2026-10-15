@@ -1,1 +1,2643 @@
-{ "temas": [] }
+{
+  "temas": [
+    {
+      "id": "german-speaking-world",
+      "titulo": "Introduction · The German-speaking world",
+      "resumen": [
+        "German is the only official language in **Germany, Austria and Liechtenstein**. It is also an official language in **Switzerland, Belgium and Luxembourg**, and is spoken in parts of northern Italy.",
+        "",
+        "## Places and facts",
+        "- **Berlin** is the capital of Germany; the **Brandenburg Gate** (das Brandenburger Tor) is there.",
+        "- **Hamburg** has Germany's largest port (Hafengeburtstag festival on the River Elbe).",
+        "- **Bonn**: birthplace of gummy bears (Haribo). **Köln (Cologne)**: carnival and the cathedral (der Kölner Dom).",
+        "- **Bremen**: the Town Musicians of Bremen, a Brothers Grimm fairy tale.",
+        "- **Neuschwanstein Castle** (Bavaria) inspired Disney's Sleeping Beauty Castle. **Bayern München** is the most successful football team; the league is the **Bundesliga**.",
+        "- **Vienna (Wien)**: the waltz, 450 balls a year. **Graz**: the 'friendly alien' art museum. **Salzburg**: Mozart's birthplace.",
+        "- **Switzerland**: chocolate, cheese fondue, alpine horns; the Matterhorn, the Rheinfall.",
+        "- The **Alps** are the highest mountains in Europe.",
+        "- **Der Rhein** is the longest river in Germany (1233 km, starts in Switzerland). **Die Donau** (Danube) is Europe's second longest river (2850 km).",
+        "",
+        "## Gender",
+        "Every German noun is **masculine (der)**, **feminine (die)** or **neuter (das)**: der Zoo, die Altstadt, das Matterhorn."
+      ],
+      "notas": [
+        {
+          "seccion": "Where is German spoken?",
+          "tarjetas": [
+            {
+              "etiqueta": "🗣️ Only language",
+              "titulo": "Only official language",
+              "puntos": [
+                "**Deutschland** (Germany)",
+                "**Österreich** (Austria)",
+                "**Liechtenstein**"
+              ]
+            },
+            {
+              "etiqueta": "🌍 One of several",
+              "titulo": "Also official in",
+              "puntos": [
+                "**die Schweiz** (Switzerland)",
+                "**Belgien** (Belgium)",
+                "**Luxemburg**",
+                "And parts of **northern Italy**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Germany",
+          "tarjetas": [
+            {
+              "etiqueta": "🏛️ Berlin",
+              "titulo": "The capital",
+              "puntos": [
+                "**Das Brandenburger Tor** (Brandenburg Gate)",
+                "Popular spot for selfies"
+              ]
+            },
+            {
+              "etiqueta": "⚓ Hamburg",
+              "titulo": "Largest port",
+              "puntos": [
+                "**Hafengeburtstag**: 300 ships",
+                "On the River **Elbe**"
+              ]
+            },
+            {
+              "etiqueta": "🐻 Bonn & Köln",
+              "titulo": "Sweets and carnival",
+              "puntos": [
+                "**Bonn**: gummy bears (Haribo)",
+                "**Köln**: biggest carnival, **der Kölner Dom**"
+              ]
+            },
+            {
+              "etiqueta": "🏰 Bavaria",
+              "titulo": "South of Germany",
+              "puntos": [
+                "**Neuschwanstein** → Disney castle",
+                "**Bayern München** → Bundesliga",
+                "Rothenburg ob der Tauber: medieval old town"
+              ]
+            },
+            {
+              "etiqueta": "🐴 Bremen",
+              "titulo": "Fairy tales",
+              "puntos": [
+                "**The Town Musicians of Bremen**",
+                "Brothers **Grimm**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Austria and Switzerland",
+          "tarjetas": [
+            {
+              "etiqueta": "💃 Wien (Vienna)",
+              "titulo": "Capital of Austria",
+              "puntos": [
+                "The **waltz**",
+                "450 balls a year",
+                "Famous coffee houses, Sachertorte"
+              ]
+            },
+            {
+              "etiqueta": "🎵 Salzburg & Graz",
+              "titulo": "Austria",
+              "puntos": [
+                "**Salzburg**: Mozart's birthplace",
+                "**Graz**: the 'friendly alien' museum",
+                "Innsbruck: Alpenzoo"
+              ]
+            },
+            {
+              "etiqueta": "🧀 Switzerland",
+              "titulo": "die Schweiz",
+              "puntos": [
+                "Chocolate and **cheese fondue**",
+                "**Alpine horns** to call cows",
+                "**Matterhorn**, **Rheinfall**, capital **Bern**"
+              ]
+            },
+            {
+              "etiqueta": "🏔️ The Alps",
+              "titulo": "Highest in Europe",
+              "puntos": [
+                "From **Austria** (east) to **France** (west)",
+                "Also Italy, Switzerland, Germany"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Rivers",
+          "tarjetas": [
+            {
+              "etiqueta": "🌊 Der Rhein",
+              "titulo": "The Rhine",
+              "puntos": [
+                "**Longest river in Germany**",
+                "Starts in **Switzerland**, in the Alps",
+                "**1233 km** long"
+              ]
+            },
+            {
+              "etiqueta": "🌊 Die Donau",
+              "titulo": "The Danube",
+              "puntos": [
+                "**Europe's second longest** river",
+                "**2850 km** long"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "In which three countries is German the only official language?",
+          "r": "Germany, Austria and Liechtenstein"
+        },
+        {
+          "p": "What is the capital of Germany?",
+          "r": "Berlin"
+        },
+        {
+          "p": "Which German city is the birthplace of gummy bears?",
+          "r": "Bonn (Haribo)"
+        },
+        {
+          "p": "Which city has Germany's largest port?",
+          "r": "Hamburg"
+        },
+        {
+          "p": "Which castle inspired Disney's Sleeping Beauty Castle?",
+          "r": "Neuschwanstein"
+        },
+        {
+          "p": "Which city is famous for the waltz?",
+          "r": "Vienna (Wien)"
+        },
+        {
+          "p": "What is the longest river in Germany?",
+          "r": "Der Rhein (1233 km)"
+        },
+        {
+          "p": "Die Donau",
+          "r": "The Danube – Europe's second longest river (2850 km)"
+        },
+        {
+          "p": "Where was Mozart born?",
+          "r": "Salzburg (Austria)"
+        },
+        {
+          "p": "der / die / das",
+          "r": "masculine / feminine / neuter 'the'"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "In which of these countries is German the ONLY official language?",
+          "opciones": [
+            "Austria",
+            "Switzerland",
+            "Belgium",
+            "Luxembourg"
+          ],
+          "correcta": 0,
+          "explicacion": "Germany, Austria and Liechtenstein have only German; the others have several languages."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "German is spoken in parts of northern Italy.",
+          "correcta": true,
+          "explicacion": "The book says so in 'Sprichst du Deutsch?'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the capital of Germany?",
+          "opciones": [
+            "Berlin",
+            "Bonn",
+            "München",
+            "Hamburg"
+          ],
+          "correcta": 0,
+          "explicacion": "The Brandenburg Gate is in Berlin."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which German city is the birthplace of gummy bears?",
+          "opciones": [
+            "Bonn",
+            "Köln",
+            "Bremen",
+            "Dresden"
+          ],
+          "correcta": 0,
+          "explicacion": "Haribo's headquarters are in Bonn."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which city celebrates the Hafengeburtstag with a parade of 300 ships?",
+          "opciones": [
+            "Hamburg",
+            "Berlin",
+            "Bremen",
+            "Köln"
+          ],
+          "correcta": 0,
+          "explicacion": "Hamburg is Germany's largest port, on the River Elbe."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which castle in Bavaria inspired Disney's Sleeping Beauty Castle?",
+          "opciones": [
+            "Neuschwanstein",
+            "Schönschloss",
+            "Brandenburger Tor",
+            "Kölner Dom"
+          ],
+          "correcta": 0,
+          "explicacion": "Neuschwanstein is in southern Bavaria."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the top German football league called?",
+          "opciones": [
+            "Bundesliga",
+            "Premier League",
+            "La Liga",
+            "Fußballliga"
+          ],
+          "correcta": 0,
+          "explicacion": "The women's league is the Frauen-Bundesliga."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which city has 450 balls a year and is famous for the waltz?",
+          "opciones": [
+            "Wien (Vienna)",
+            "Graz",
+            "Bern",
+            "München"
+          ],
+          "correcta": 0,
+          "explicacion": "Vienna is the capital of Austria."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is the longest river in Germany?",
+          "opciones": [
+            "Der Rhein",
+            "Die Donau",
+            "Die Elbe",
+            "Der Main"
+          ],
+          "correcta": 0,
+          "explicacion": "The Rhine is 1233 km long; it starts in Switzerland."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How long is the Danube (die Donau)?",
+          "opciones": [
+            "2850 km",
+            "1233 km",
+            "450 km",
+            "1000 km"
+          ],
+          "correcta": 0,
+          "explicacion": "It is Europe's second longest river."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The Rhine begins in Austria.",
+          "correcta": false,
+          "explicacion": "It begins in Switzerland, in the Alps."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where is Mozart's birth house (das Geburtshaus von Mozart)?",
+          "opciones": [
+            "Salzburg",
+            "Wien",
+            "Innsbruck",
+            "Berlin"
+          ],
+          "correcta": 0,
+          "explicacion": "It is in the region of Salzburg, Austria."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What were alpine horns originally used for?",
+          "opciones": [
+            "Calling cows",
+            "Starting ski races",
+            "Playing in balls",
+            "Warning about avalanches"
+          ],
+          "correcta": 0,
+          "explicacion": "Swiss herders used them to call their cows."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the gender of 'die Altstadt'?",
+          "opciones": [
+            "Feminine",
+            "Masculine",
+            "Neuter",
+            "Plural"
+          ],
+          "correcta": 0,
+          "explicacion": "der = masculine, die = feminine, das = neuter."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name the three genders of German nouns.",
+          "claves": [
+            "masculine",
+            "feminine",
+            "neuter"
+          ],
+          "minimo": 3,
+          "modelo": "Masculine (der), feminine (die) and neuter (das).",
+          "explicacion": "Every German noun has a gender."
+        }
+      ]
+    },
+    {
+      "id": "classroom-key-words",
+      "titulo": "Introduction · Classroom language and key words",
+      "resumen": [
+        "## Instructions (In der Deutschstunde)",
+        "Hör zu (listen), Lies (read), Schreib (write), Sprich (speak), Beantworte (answer), Füll … aus (fill in), Übersetz (translate), Verbinde (link), Wähl (choose), Wiederhole (repeat), Finde (find), Schau … an (look at).",
+        "",
+        "## Useful phrases",
+        "Darf ich zur Toilette? (May I go to the toilet?) · Ich verstehe nicht (I don't understand) · Bitte wiederholen Sie das (Please could you repeat that) · Haben wir Hausaufgaben? (Do we have homework?) · Ich brauche … (I need …) · Ich habe … vergessen (I've forgotten my …).",
+        "",
+        "## Wichtige Wörter",
+        "- Greetings: Hallo, Guten Tag, Guten Morgen, Guten Abend, Wie geht's?, Gut danke, Tschüss, Auf Wiedersehen.",
+        "- Days: Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag.",
+        "- Time: Es ist … Uhr; Es ist halb fünf = half past four.",
+        "- Conjunctions: und, aber, denn, oder, weil.",
+        "- Frequency: nie, selten, ab und zu, manchmal, oft, immer.",
+        "- Intensifiers: sehr, ziemlich, ein bisschen, gar nicht, nicht so, zu, ganz, echt, total/voll, mega.",
+        "- Opinions: Ich mag…, Ich mag (gar) nicht…, Das finde ich…, Mir gefällt…"
+      ],
+      "notas": [
+        {
+          "seccion": "Instructions",
+          "chips": {
+            "titulo": "What your teacher says",
+            "items": [
+              "**Hör zu** = listen",
+              "**Lies** = read",
+              "**Schreib** = write",
+              "**Sprich** = speak",
+              "**Beantworte** = answer",
+              "**Füll … aus** = fill in",
+              "**Übersetz** = translate",
+              "**Verbinde** = link",
+              "**Wähl** = choose",
+              "**Wiederhole** = repeat",
+              "**Finde** = find",
+              "**Schau … an** = look at",
+              "**Schreib … ab** = copy"
+            ]
+          }
+        },
+        {
+          "chips": {
+            "titulo": "…what to do it with",
+            "items": [
+              "**auf Deutsch** = in German",
+              "**auf Englisch** = in English",
+              "das Bild = the picture",
+              "die Lücken = the gaps",
+              "die Sätze = the sentences",
+              "die Wörter = the words",
+              "die richtige Antwort = the correct answer"
+            ]
+          }
+        },
+        {
+          "seccion": "Useful phrases in class",
+          "tarjetas": [
+            {
+              "etiqueta": "🙋 Asking",
+              "titulo": "Polite questions",
+              "puntos": [
+                "**Darf ich zur Toilette?** = May I go to the toilet?",
+                "**Haben wir Hausaufgaben?** = Do we have homework?",
+                "**Wie sagt man …?** = How do you say …?"
+              ]
+            },
+            {
+              "etiqueta": "😕 Help!",
+              "titulo": "When you're stuck",
+              "puntos": [
+                "**Ich verstehe nicht.** = I don't understand.",
+                "**Bitte wiederholen Sie das.** = Please repeat that.",
+                "**Ich habe meinen/meine/mein … vergessen.** = I've forgotten my …",
+                "**Ich brauche einen/eine/ein …** = I need a …"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Wichtige Wörter",
+          "tarjetas": [
+            {
+              "etiqueta": "👋 Greetings",
+              "titulo": "Hallo!",
+              "puntos": [
+                "**Guten Morgen** = good morning · **Guten Abend** = good evening",
+                "**Wie geht's?** = How are you? → **Gut, danke.**",
+                "**Tschüss!** = Bye! · **Auf Wiedersehen!** = Goodbye!"
+              ]
+            },
+            {
+              "etiqueta": "🕒 Time",
+              "titulo": "Wie spät ist es?",
+              "puntos": [
+                "**Es ist drei Uhr** = it's 3 o'clock",
+                "**Viertel nach / vor** = quarter past / to",
+                "**Es ist halb fünf** = half past **four** (half to five!)"
+              ]
+            },
+            {
+              "etiqueta": "🔗 Conjunctions",
+              "titulo": "Longer sentences",
+              "puntos": [
+                "**und** = and · **aber** = but · **oder** = or",
+                "**denn / weil** = because"
+              ]
+            },
+            {
+              "etiqueta": "🔁 Frequency",
+              "titulo": "How often?",
+              "puntos": [
+                "**nie** never → **selten** rarely",
+                "**ab und zu** now and then → **manchmal** sometimes",
+                "**oft** often → **immer** always"
+              ]
+            },
+            {
+              "etiqueta": "📢 Intensifiers",
+              "titulo": "How much?",
+              "puntos": [
+                "**sehr** very · **ziemlich** quite · **zu** too",
+                "**ein bisschen** a little · **gar nicht** not at all",
+                "**nicht so** not very · **echt** really · **mega** super"
+              ]
+            },
+            {
+              "etiqueta": "👍 Opinions",
+              "titulo": "Saying what you like",
+              "puntos": [
+                "**Ich mag …** = I like …",
+                "**Ich mag (gar) nicht …** = I don't like … (at all)",
+                "**Mir gefällt …** = I like … · **Das finde ich …** = I find it …"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Days of the week (capital letter!)",
+            "items": [
+              "Montag",
+              "Dienstag",
+              "Mittwoch",
+              "Donnerstag",
+              "Freitag",
+              "Samstag",
+              "Sonntag"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Hör zu",
+          "r": "Listen"
+        },
+        {
+          "p": "Übersetz",
+          "r": "Translate"
+        },
+        {
+          "p": "Wähl",
+          "r": "Choose"
+        },
+        {
+          "p": "Ich verstehe nicht.",
+          "r": "I don't understand."
+        },
+        {
+          "p": "Darf ich zur Toilette?",
+          "r": "May I go to the toilet?"
+        },
+        {
+          "p": "Haben wir Hausaufgaben?",
+          "r": "Do we have homework?"
+        },
+        {
+          "p": "Mittwoch",
+          "r": "Wednesday"
+        },
+        {
+          "p": "Es ist halb fünf.",
+          "r": "It's half past four."
+        },
+        {
+          "p": "manchmal / oft / immer",
+          "r": "sometimes / often / always"
+        },
+        {
+          "p": "ein bisschen / gar nicht",
+          "r": "a little / not at all"
+        },
+        {
+          "p": "aber / oder / weil",
+          "r": "but / or / because"
+        },
+        {
+          "p": "Tschüss! / Auf Wiedersehen!",
+          "r": "Bye! / Goodbye!"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Your teacher says 'Hör zu!'. What should you do?",
+          "opciones": [
+            "Listen",
+            "Write",
+            "Read",
+            "Speak"
+          ],
+          "correcta": 0,
+          "explicacion": "Schreib = write, Lies = read, Sprich = speak."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Übersetz die Sätze ins Deutsche' mean?",
+          "opciones": [
+            "Translate the sentences into German",
+            "Read the sentences in German",
+            "Copy the German sentences",
+            "Write the sentences in English"
+          ],
+          "correcta": 0,
+          "explicacion": "Übersetz = translate, die Sätze = the sentences."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Füll die Lücken aus' mean?",
+          "opciones": [
+            "Fill in the gaps",
+            "Find the words",
+            "Link the pairs",
+            "Look at the picture"
+          ],
+          "correcta": 0,
+          "explicacion": "die Lücken = the gaps."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'I don't understand' in German?",
+          "opciones": [
+            "Ich verstehe nicht.",
+            "Ich brauche nicht.",
+            "Ich habe vergessen.",
+            "Wie sagt man das?"
+          ],
+          "correcta": 0,
+          "explicacion": "Ich brauche = I need; Ich habe … vergessen = I've forgotten."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Haben wir Hausaufgaben?' mean?",
+          "opciones": [
+            "Do we have homework?",
+            "Do we have a test?",
+            "May I go home?",
+            "Have you got a pen?"
+          ],
+          "correcta": 0,
+          "explicacion": "Hausaufgaben = homework."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which day comes after 'Mittwoch'?",
+          "opciones": [
+            "Donnerstag",
+            "Dienstag",
+            "Freitag",
+            "Montag"
+          ],
+          "correcta": 0,
+          "explicacion": "Wednesday → Thursday."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In German, days of the week start with a capital letter.",
+          "correcta": true,
+          "explicacion": "All German nouns have a capital letter: Montag, Dienstag…"
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What time is 'Es ist halb fünf'?",
+          "opciones": [
+            "4:30",
+            "5:30",
+            "5:00",
+            "4:15"
+          ],
+          "correcta": 0,
+          "explicacion": "Germans say 'half to five', which is half past four."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word means 'always'?",
+          "opciones": [
+            "immer",
+            "nie",
+            "oft",
+            "selten"
+          ],
+          "correcta": 0,
+          "explicacion": "nie = never, oft = often, selten = rarely."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'manchmal' mean?",
+          "opciones": [
+            "sometimes",
+            "never",
+            "often",
+            "now and then"
+          ],
+          "correcta": 0,
+          "explicacion": "ab und zu = now and then."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word means 'but'?",
+          "opciones": [
+            "aber",
+            "und",
+            "oder",
+            "denn"
+          ],
+          "correcta": 0,
+          "explicacion": "und = and, oder = or, denn = because."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'gar nicht' mean?",
+          "opciones": [
+            "not at all",
+            "a little",
+            "very",
+            "quite"
+          ],
+          "correcta": 0,
+          "explicacion": "ein bisschen = a little, sehr = very, ziemlich = quite."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'Good evening'?",
+          "opciones": [
+            "Guten Abend!",
+            "Guten Morgen!",
+            "Guten Tag!",
+            "Gute Nacht!"
+          ],
+          "correcta": 0,
+          "explicacion": "Guten Morgen = good morning, Guten Tag = good day."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Ich mag' means 'I like'.",
+          "correcta": true,
+          "explicacion": "Ich mag (gar) nicht = I don't like (at all)."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "How do you ask 'May I go to the toilet?' in German?",
+          "claves": [
+            "darf ich zur toilette"
+          ],
+          "modelo": "Darf ich zur Toilette?",
+          "explicacion": "A very useful phrase!"
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write 'Friday' in German.",
+          "claves": [
+            "freitag"
+          ],
+          "modelo": "Freitag",
+          "explicacion": "Remember the capital letter."
+        }
+      ]
+    },
+    {
+      "id": "wie-heisst-du",
+      "titulo": "1.1 · Wie heißt du? (alphabet, der/die/das)",
+      "resumen": [
+        "## Introducing yourself",
+        "Hallo! Wie heißt du? – Ich heiße Karl. Und du? · Wie schreibt man das? – K-A-R-L.",
+        "",
+        "## The alphabet",
+        "German letters are said differently: a = ah, e = ay, i = ee, j = yot, v = fow, w = vay, z = tset. Extra letters: **ä, ö, ü** (umlaut) and **ß** (scharfes s / Eszett = double s, as in *ich heiße*).",
+        "",
+        "## Gender and articles",
+        "- the: **der** (m), **die** (f), **das** (n): der Prinz, die Prinzessin, das Schloss.",
+        "- a/an: **ein** (m), **eine** (f), **ein** (n): ein Prinz, eine Prinzessin, ein Schloss.",
+        "- Plural 'the' is always **die**: die Prinzen, die Schlösser.",
+        "- Gender doesn't always match the person: der Mann, die Frau, but **das Mädchen** (girl) is neuter."
+      ],
+      "notas": [
+        {
+          "seccion": "Introducing yourself",
+          "tarjetas": [
+            {
+              "etiqueta": "👋 Name",
+              "titulo": "Wie heißt du?",
+              "puntos": [
+                "**Wie heißt du?** = What's your name?",
+                "**Ich heiße …** = I'm called …",
+                "**Und du?** = And you?"
+              ]
+            },
+            {
+              "etiqueta": "🔤 Spelling",
+              "titulo": "Wie schreibt man das?",
+              "puntos": [
+                "= How do you spell it?",
+                "**Z-A-L-A**",
+                "**Wie sagt man …?** = How do you say …?"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Das Alphabet",
+          "chips": {
+            "titulo": "Tricky letters",
+            "items": [
+              "a = **ah**",
+              "e = **ay**",
+              "i = **ee**",
+              "j = **yot**",
+              "q = **koo**",
+              "u = **oo**",
+              "v = **fow**",
+              "w = **vay**",
+              "y = **upsilon**",
+              "z = **tset**"
+            ]
+          },
+          "tarjetas": [
+            {
+              "etiqueta": "ß Eszett",
+              "titulo": "scharfes s",
+              "puntos": [
+                "Doesn't exist in English",
+                "= double **s**",
+                "ich hei**ß**e"
+              ]
+            },
+            {
+              "etiqueta": "¨ Umlaut",
+              "titulo": "ä, ö, ü",
+              "puntos": [
+                "Only on **a, o, u**",
+                "Changes the vowel sound",
+                "Österreich, fünf, Mädchen"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Gender and articles",
+          "tarjetas": [
+            {
+              "etiqueta": "🔵 Masculine",
+              "titulo": "der / ein",
+              "puntos": [
+                "**der** Prinz = the prince",
+                "**ein** Prinz = a prince",
+                "der Mann, der Computer"
+              ]
+            },
+            {
+              "etiqueta": "🔴 Feminine",
+              "titulo": "die / eine",
+              "puntos": [
+                "**die** Prinzessin = the princess",
+                "**eine** Prinzessin = a princess",
+                "die Frau, die Stadt"
+              ]
+            },
+            {
+              "etiqueta": "🟢 Neuter",
+              "titulo": "das / ein",
+              "puntos": [
+                "**das** Schloss = the castle",
+                "**ein** Schloss = a castle",
+                "das Haus, das Baby"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Achtung!",
+              "titulo": "Plural & surprises",
+              "puntos": [
+                "Plural 'the' = **die**: die Schlösser",
+                "**das Mädchen** (girl) is neuter!",
+                "Nouns always have a **capital letter**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Wie heißt du?",
+          "r": "What's your name?"
+        },
+        {
+          "p": "Ich heiße …",
+          "r": "I'm called … / My name is …"
+        },
+        {
+          "p": "Wie schreibt man das?",
+          "r": "How do you spell it?"
+        },
+        {
+          "p": "Wie sagt man …?",
+          "r": "How do you say …?"
+        },
+        {
+          "p": "ß",
+          "r": "scharfes s / Eszett = double s"
+        },
+        {
+          "p": "the (masculine / feminine / neuter)",
+          "r": "der / die / das"
+        },
+        {
+          "p": "a (masculine / feminine / neuter)",
+          "r": "ein / eine / ein"
+        },
+        {
+          "p": "das Mädchen",
+          "r": "the girl (neuter!)"
+        },
+        {
+          "p": "das Schloss",
+          "r": "the castle"
+        },
+        {
+          "p": "How is the letter 'w' said in German?",
+          "r": "vay"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Wie heißt du?' mean?",
+          "opciones": [
+            "What's your name?",
+            "How are you?",
+            "How old are you?",
+            "Where do you live?"
+          ],
+          "correcta": 0,
+          "explicacion": "Literally 'How are you called?'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Answer: 'Wie heißt du?'",
+          "opciones": [
+            "Ich heiße Sofia.",
+            "Ich bin elf.",
+            "Ich wohne in Madrid.",
+            "Gut, danke."
+          ],
+          "correcta": 0,
+          "explicacion": "Ich heiße … = I'm called …"
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Wie schreibt man das?' mean?",
+          "opciones": [
+            "How do you spell it?",
+            "How do you say it?",
+            "What is that?",
+            "Who wrote that?"
+          ],
+          "correcta": 0,
+          "explicacion": "schreiben = to write."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Put the words in order: sagt / das / Wie / man ?",
+          "opciones": [
+            "Wie sagt man das?",
+            "Wie sagt das man?",
+            "Wie man sagt das?",
+            "Das sagt man wie?"
+          ],
+          "correcta": 0,
+          "explicacion": "The verb comes second: Wie **sagt** man das?"
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How is the German letter 'z' pronounced?",
+          "opciones": [
+            "tset",
+            "zed",
+            "zee",
+            "set"
+          ],
+          "correcta": 0,
+          "explicacion": "The German z sounds like 'ts'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How is the German letter 'w' pronounced?",
+          "opciones": [
+            "vay",
+            "double-u",
+            "way",
+            "fow"
+          ],
+          "correcta": 0,
+          "explicacion": "v is 'fow', w is 'vay'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'ß' equivalent to?",
+          "opciones": [
+            "a double s",
+            "a double z",
+            "a capital B",
+            "ss + e"
+          ],
+          "correcta": 0,
+          "explicacion": "It is called scharfes s or Eszett."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "An umlaut (¨) can be added to a, o and u.",
+          "correcta": true,
+          "explicacion": "ä, ö, ü."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is the correct article? ___ Prinzessin (the princess)",
+          "opciones": [
+            "die",
+            "der",
+            "das",
+            "ein"
+          ],
+          "correcta": 0,
+          "explicacion": "Prinzessin is feminine."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is the correct article? ___ Schloss (the castle)",
+          "opciones": [
+            "das",
+            "der",
+            "die",
+            "eine"
+          ],
+          "correcta": 0,
+          "explicacion": "Schloss is neuter."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'a princess'?",
+          "opciones": [
+            "eine Prinzessin",
+            "ein Prinzessin",
+            "die Prinzessin",
+            "einen Prinzessin"
+          ],
+          "correcta": 0,
+          "explicacion": "Feminine 'a' is eine."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Das ist ___ Computer. (m)",
+          "opciones": [
+            "ein",
+            "eine",
+            "der",
+            "die"
+          ],
+          "correcta": 0,
+          "explicacion": "Masculine 'a' is ein."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'the' in the plural?",
+          "opciones": [
+            "die",
+            "der",
+            "das",
+            "den"
+          ],
+          "correcta": 0,
+          "explicacion": "die Prinzen, die Schlösser."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Mädchen' (girl) is a feminine noun.",
+          "correcta": false,
+          "explicacion": "It is neuter: das Mädchen."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these words is NOT a noun?",
+          "opciones": [
+            "bisschen",
+            "Katze",
+            "Mann",
+            "Baby"
+          ],
+          "correcta": 0,
+          "explicacion": "'ein bisschen' means 'a little' – bisschen is not a noun."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Translate into German: 'Hello. I'm called Maxi.'",
+          "claves": [
+            "ich heiße maxi",
+            "ich heisse maxi"
+          ],
+          "modelo": "Hallo. Ich heiße Maxi.",
+          "explicacion": "Ich heiße = I'm called."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write 'the man', 'the woman' and 'the girl' in German.",
+          "claves": [
+            "der mann",
+            "die frau",
+            "das mädchen",
+            "das madchen"
+          ],
+          "minimo": 3,
+          "modelo": "der Mann, die Frau, das Mädchen",
+          "explicacion": "Remember: das Mädchen is neuter."
+        }
+      ]
+    },
+    {
+      "id": "wie-alt-bist-du",
+      "titulo": "1.2 · Wie alt bist du? (numbers 0–20, sein)",
+      "resumen": [
+        "## Numbers 0–20",
+        "null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf, dreizehn, vierzehn, fünfzehn, sechzehn, siebzehn, achtzehn, neunzehn, zwanzig.",
+        "",
+        "## Age",
+        "Wie alt bist du? – Ich bin elf Jahre alt. Das Auto ist zehn Jahre alt.",
+        "",
+        "## The verb sein (to be) – irregular",
+        "ich bin, du bist, er/sie/es ist, wir sind, ihr seid, Sie sind, sie sind.",
+        "",
+        "## Three words for 'you'",
+        "**du** = one friend/family member · **ihr** = several friends · **Sie** = formal (one or more people, e.g. a teacher).",
+        "",
+        "## Wie geht's?",
+        "Gut! (good) · Okay / Nicht schlecht (not bad) · Nicht so gut (not so good) · Danke! (thank you)."
+      ],
+      "notas": [
+        {
+          "seccion": "Numbers 0–20",
+          "chips": {
+            "titulo": "Learn by heart",
+            "items": [
+              "0 null",
+              "1 eins",
+              "2 zwei",
+              "3 drei",
+              "4 vier",
+              "5 fünf",
+              "6 sechs",
+              "7 sieben",
+              "8 acht",
+              "9 neun",
+              "10 zehn",
+              "11 elf",
+              "12 zwölf",
+              "13 dreizehn",
+              "14 vierzehn",
+              "15 fünfzehn",
+              "16 sechzehn",
+              "17 siebzehn",
+              "18 achtzehn",
+              "19 neunzehn",
+              "20 zwanzig"
+            ]
+          },
+          "tarjetas": [
+            {
+              "etiqueta": "⚠️ Watch out",
+              "titulo": "Spelling traps",
+              "puntos": [
+                "**sechs** (6) but **sechzehn** (16)",
+                "**sieben** (7) but **siebzehn** (17)",
+                "**elf** (11) and **zwölf** (12) are special"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "The verb sein (to be)",
+          "tarjetas": [
+            {
+              "etiqueta": "🙋 Singular",
+              "titulo": "I, you, he/she/it",
+              "puntos": [
+                "**ich bin** = I am",
+                "**du bist** = you are",
+                "**er/sie/es ist** = he/she/it is"
+              ]
+            },
+            {
+              "etiqueta": "👥 Plural",
+              "titulo": "we, you, they",
+              "puntos": [
+                "**wir sind** = we are",
+                "**ihr seid** = you (pl.) are",
+                "**sie sind** = they are · **Sie sind** = you (formal) are"
+              ]
+            },
+            {
+              "etiqueta": "🎂 Age",
+              "titulo": "Wie alt bist du?",
+              "puntos": [
+                "**Ich bin elf Jahre alt.**",
+                "Das Auto **ist** zehn Jahre alt.",
+                "Die Jeans **sind** fünf Jahre alt."
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "du, ihr or Sie?",
+          "tarjetas": [
+            {
+              "etiqueta": "🧒 du",
+              "titulo": "Familiar, one person",
+              "puntos": [
+                "A friend or family member",
+                "**Wie alt bist du?**"
+              ]
+            },
+            {
+              "etiqueta": "👯 ihr",
+              "titulo": "Familiar, several people",
+              "puntos": [
+                "Two or more friends",
+                "**Wie alt seid ihr?**"
+              ]
+            },
+            {
+              "etiqueta": "🎩 Sie",
+              "titulo": "Formal (capital S!)",
+              "puntos": [
+                "A teacher or adult you don't know",
+                "One **or** more people",
+                "**Wie alt sind Sie?**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Wie geht's?",
+          "chips": {
+            "titulo": "How are you?",
+            "items": [
+              "😀 **Gut!** = good",
+              "🙂 **Okay! / Nicht schlecht!** = OK / not bad",
+              "😞 **Nicht so gut.** = not so good",
+              "**Danke!** = thank you"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "zwölf",
+          "r": "12"
+        },
+        {
+          "p": "sechzehn",
+          "r": "16"
+        },
+        {
+          "p": "siebzehn",
+          "r": "17"
+        },
+        {
+          "p": "zwanzig",
+          "r": "20"
+        },
+        {
+          "p": "Wie alt bist du?",
+          "r": "How old are you?"
+        },
+        {
+          "p": "Ich bin elf Jahre alt.",
+          "r": "I am eleven years old."
+        },
+        {
+          "p": "sein (singular)",
+          "r": "ich bin, du bist, er/sie/es ist"
+        },
+        {
+          "p": "sein (plural)",
+          "r": "wir sind, ihr seid, sie/Sie sind"
+        },
+        {
+          "p": "du / ihr / Sie",
+          "r": "you: one friend / several friends / formal"
+        },
+        {
+          "p": "Nicht schlecht!",
+          "r": "Not bad!"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'zwölf'?",
+          "opciones": [
+            "12",
+            "2",
+            "11",
+            "20"
+          ],
+          "correcta": 0,
+          "explicacion": "elf = 11, zwanzig = 20."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'siebzehn'?",
+          "opciones": [
+            "17",
+            "7",
+            "70",
+            "16"
+          ],
+          "correcta": 0,
+          "explicacion": "sieben = 7, but 17 drops the -en: siebzehn."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you write 16 in German?",
+          "opciones": [
+            "sechzehn",
+            "sechszehn",
+            "sechsehn",
+            "sechzig"
+          ],
+          "correcta": 0,
+          "explicacion": "sechs loses its s: sechzehn. sechzig = 60."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which number comes after 'neunzehn'?",
+          "opciones": [
+            "zwanzig",
+            "zehn",
+            "achtzehn",
+            "neunzig"
+          ],
+          "correcta": 0,
+          "explicacion": "19 → 20."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What number comes before 'vier'?",
+          "opciones": [
+            "drei",
+            "fünf",
+            "zwei",
+            "acht"
+          ],
+          "correcta": 0,
+          "explicacion": "3 → 4."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Wie alt bist du?' mean?",
+          "opciones": [
+            "How old are you?",
+            "What's your name?",
+            "How are you?",
+            "When is your birthday?"
+          ],
+          "correcta": 0,
+          "explicacion": "alt = old."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'I am thirteen years old'?",
+          "opciones": [
+            "Ich bin dreizehn Jahre alt.",
+            "Ich habe dreizehn Jahre.",
+            "Ich bin dreizehn alt Jahre.",
+            "Ich ist dreizehn Jahre alt."
+          ],
+          "correcta": 0,
+          "explicacion": "German uses sein for age: Ich bin … Jahre alt."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Du ___ vierzehn.",
+          "opciones": [
+            "bist",
+            "bin",
+            "ist",
+            "seid"
+          ],
+          "correcta": 0,
+          "explicacion": "du bist."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Wir ___ in Hamburg.",
+          "opciones": [
+            "sind",
+            "seid",
+            "bist",
+            "ist"
+          ],
+          "correcta": 0,
+          "explicacion": "wir sind."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Wie alt ___ ihr?",
+          "opciones": [
+            "seid",
+            "sind",
+            "bist",
+            "ist"
+          ],
+          "correcta": 0,
+          "explicacion": "ihr seid – a common mistake is 'sind'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Hannah und Eliana ___ cool.",
+          "opciones": [
+            "sind",
+            "ist",
+            "seid",
+            "bin"
+          ],
+          "correcta": 0,
+          "explicacion": "Two people = they = sind."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Johanne ___ zehn Jahre alt.",
+          "opciones": [
+            "ist",
+            "sind",
+            "bist",
+            "bin"
+          ],
+          "correcta": 0,
+          "explicacion": "One person = er/sie ist."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which 'you' do you use with your teacher?",
+          "opciones": [
+            "Sie",
+            "du",
+            "ihr",
+            "sie"
+          ],
+          "correcta": 0,
+          "explicacion": "Sie (capital S) is the formal you."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which 'you' do you use with two friends?",
+          "opciones": [
+            "ihr",
+            "du",
+            "Sie",
+            "wir"
+          ],
+          "correcta": 0,
+          "explicacion": "ihr = you, familiar plural."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Someone asks 'Wie geht's?'. You feel not so good. What do you say?",
+          "opciones": [
+            "Nicht so gut.",
+            "Nicht schlecht!",
+            "Gut, danke!",
+            "Ich heiße Gut."
+          ],
+          "correcta": 0,
+          "explicacion": "Nicht schlecht = not bad (that's OK)."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Das Auto ist zehn Jahre alt' means 'The car is ten years old'.",
+          "correcta": true,
+          "explicacion": "Objects also use sein for age."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write the plural of 'sein': wir …, ihr …, sie …",
+          "claves": [
+            "wir sind",
+            "ihr seid",
+            "sie sind"
+          ],
+          "minimo": 3,
+          "modelo": "wir sind, ihr seid, sie sind",
+          "explicacion": "ihr **seid** – don't mix it up with sind."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write the number 15 in German.",
+          "claves": [
+            "fünfzehn",
+            "funfzehn"
+          ],
+          "modelo": "fünfzehn",
+          "explicacion": "fünf + zehn."
+        }
+      ]
+    },
+    {
+      "id": "wo-wohnst-du",
+      "titulo": "1.3 · Wo wohnst du? (wohnen)",
+      "resumen": [
+        "## Where you live",
+        "Wo wohnst du? – Ich wohne in Hamburg. Das ist ein Hafen in Deutschland.",
+        "Ich komme aus Deutschland / Großbritannien / Österreich / der Schweiz. Switzerland needs the article: **in der Schweiz**.",
+        "- das Dorf (village), die Stadt (town/city), der Hafen (port), die Hauptstadt (capital city), der Ort (place/area).",
+        "",
+        "## Opinions",
+        "Ich finde Bern attraktiv / cool / toll / interessant / idyllisch / langweilig / gar nicht langweilig. Es gefällt mir = I like it.",
+        "",
+        "## The verb wohnen (regular)",
+        "Stem **wohn-** + endings: ich wohn**e**, du wohn**st**, er/sie/es wohn**t**, wir wohn**en**, ihr wohn**t**, Sie/sie wohn**en**."
+      ],
+      "notas": [
+        {
+          "seccion": "Wo wohnst du?",
+          "tarjetas": [
+            {
+              "etiqueta": "🏠 Where?",
+              "titulo": "Wo wohnst du?",
+              "puntos": [
+                "**Ich wohne in** Wien.",
+                "**Ich komme aus** Österreich.",
+                "**Das ist ein/eine** …"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Achtung!",
+              "titulo": "Switzerland",
+              "puntos": [
+                "Ich wohne **in der Schweiz**",
+                "Ich komme **aus der Schweiz**",
+                "Other countries: in Deutschland"
+              ]
+            },
+            {
+              "etiqueta": "🌍 Cities",
+              "titulo": "Different names",
+              "puntos": [
+                "**Wien** = Vienna",
+                "**München** = Munich",
+                "**Köln** = Cologne"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Places",
+            "items": [
+              "**das Dorf** = village",
+              "**die Stadt** = town/city",
+              "**der Hafen** = port",
+              "**die Hauptstadt** = capital city",
+              "**der Ort** = place/area"
+            ]
+          }
+        },
+        {
+          "seccion": "What do you think of it?",
+          "chips": {
+            "titulo": "Ich finde … / Es ist …",
+            "items": [
+              "😀 **toll** = great",
+              "😎 **cool**",
+              "🤩 **attraktiv**",
+              "🤔 **interessant**",
+              "🌄 **idyllisch**",
+              "😴 **langweilig** = boring",
+              "**gar nicht langweilig** = not at all boring",
+              "**Es gefällt mir** = I like it"
+            ]
+          }
+        },
+        {
+          "seccion": "The verb wohnen (to live)",
+          "tarjetas": [
+            {
+              "etiqueta": "✂️ Stem",
+              "titulo": "Remove -en",
+              "puntos": [
+                "wohn**en** → **wohn-**",
+                "Then add the endings",
+                "Regular verbs all work like this"
+              ]
+            },
+            {
+              "etiqueta": "🙋 Singular",
+              "titulo": "ich, du, er/sie/es",
+              "puntos": [
+                "ich wohn**e**",
+                "du wohn**st**",
+                "er/sie/es wohn**t**"
+              ]
+            },
+            {
+              "etiqueta": "👥 Plural",
+              "titulo": "wir, ihr, sie, Sie",
+              "puntos": [
+                "wir wohn**en**",
+                "ihr wohn**t**",
+                "sie / Sie wohn**en**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Wo wohnst du?",
+          "r": "Where do you live?"
+        },
+        {
+          "p": "Ich wohne in …",
+          "r": "I live in …"
+        },
+        {
+          "p": "Ich komme aus …",
+          "r": "I come from …"
+        },
+        {
+          "p": "das Dorf",
+          "r": "village"
+        },
+        {
+          "p": "der Hafen",
+          "r": "port"
+        },
+        {
+          "p": "die Hauptstadt",
+          "r": "capital city"
+        },
+        {
+          "p": "langweilig",
+          "r": "boring"
+        },
+        {
+          "p": "Es gefällt mir.",
+          "r": "I like it."
+        },
+        {
+          "p": "wohnen (singular)",
+          "r": "ich wohne, du wohnst, er/sie/es wohnt"
+        },
+        {
+          "p": "wohnen (plural)",
+          "r": "wir wohnen, ihr wohnt, sie/Sie wohnen"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Wo wohnst du?' mean?",
+          "opciones": [
+            "Where do you live?",
+            "Where are you from?",
+            "Who are you?",
+            "How old are you?"
+          ],
+          "correcta": 0,
+          "explicacion": "wohnen = to live."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'das Dorf'?",
+          "opciones": [
+            "a village",
+            "a town",
+            "a port",
+            "a capital city"
+          ],
+          "correcta": 0,
+          "explicacion": "die Stadt = town, der Hafen = port."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'die Hauptstadt'?",
+          "opciones": [
+            "the capital city",
+            "the main street",
+            "the old town",
+            "the port"
+          ],
+          "correcta": 0,
+          "explicacion": "Bern ist die Hauptstadt der Schweiz."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Layla: 'Ich wohne in Hamburg. Hamburg ist ein Hafen in Deutschland.' Hamburg is a…",
+          "opciones": [
+            "port",
+            "village",
+            "capital",
+            "mountain"
+          ],
+          "correcta": 0,
+          "explicacion": "der Hafen = port."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Pablo: 'Ich finde Bern attraktiv und gar nicht langweilig.' Pablo finds Bern…",
+          "opciones": [
+            "not at all boring",
+            "very boring",
+            "a bit boring",
+            "extremely boring"
+          ],
+          "correcta": 0,
+          "explicacion": "gar nicht = not at all."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'I live in Switzerland'?",
+          "opciones": [
+            "Ich wohne in der Schweiz.",
+            "Ich wohne in Schweiz.",
+            "Ich wohne die Schweiz.",
+            "Ich wohnst in der Schweiz."
+          ],
+          "correcta": 0,
+          "explicacion": "Switzerland needs the article: in der Schweiz."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'langweilig' mean?",
+          "opciones": [
+            "boring",
+            "long",
+            "great",
+            "attractive"
+          ],
+          "correcta": 0,
+          "explicacion": "toll = great."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the German name for Vienna?",
+          "opciones": [
+            "Wien",
+            "Venedig",
+            "Bern",
+            "München"
+          ],
+          "correcta": 0,
+          "explicacion": "München = Munich."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Ich ___ in Wien.",
+          "opciones": [
+            "wohne",
+            "wohnst",
+            "wohnt",
+            "wohnen"
+          ],
+          "correcta": 0,
+          "explicacion": "ich → -e."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Wo ___ du?",
+          "opciones": [
+            "wohnst",
+            "wohne",
+            "wohnt",
+            "wohnen"
+          ],
+          "correcta": 0,
+          "explicacion": "du → -st."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Der Prinz ___ im Schloss.",
+          "opciones": [
+            "wohnt",
+            "wohne",
+            "wohnst",
+            "wohnen"
+          ],
+          "correcta": 0,
+          "explicacion": "er → -t."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Thomas und Aysha ___ in Berlin.",
+          "opciones": [
+            "wohnen",
+            "wohnt",
+            "wohnst",
+            "wohne"
+          ],
+          "correcta": 0,
+          "explicacion": "Two people = sie → -en."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Wo ___ ihr?",
+          "opciones": [
+            "wohnt",
+            "wohnen",
+            "wohnst",
+            "wohne"
+          ],
+          "correcta": 0,
+          "explicacion": "ihr → -t (same as er/sie/es)."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "To find the stem of 'wohnen', you remove -en: wohn-.",
+          "correcta": true,
+          "explicacion": "Then add the endings -e, -st, -t, -en, -t, -en."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Es gefällt mir' means 'I don't like it'.",
+          "correcta": false,
+          "explicacion": "It means 'I like it' (literally 'it pleases me')."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Translate into German: 'I live in Stuttgart.'",
+          "claves": [
+            "ich wohne in stuttgart"
+          ],
+          "modelo": "Ich wohne in Stuttgart.",
+          "explicacion": "ich wohne."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Translate into German: 'We live in Basel.'",
+          "claves": [
+            "wir wohnen in basel"
+          ],
+          "modelo": "Wir wohnen in Basel.",
+          "explicacion": "wir wohnen."
+        }
+      ]
+    },
+    {
+      "id": "herzlichen-glueckwunsch",
+      "titulo": "1.4 · Herzlichen Glückwunsch! (birthdays, haben)",
+      "resumen": [
+        "## Numbers 21–30",
+        "German says the unit first: 21 **einundzwanzig** (one-and-twenty), 22 zweiundzwanzig, 23 dreiundzwanzig, 24 vierundzwanzig, 25 fünfundzwanzig, 26 sechsundzwanzig, 27 siebenundzwanzig, 28 achtundzwanzig, 29 neunundzwanzig, 30 **dreißig**.",
+        "",
+        "## Months",
+        "Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember.",
+        "",
+        "## Birthdays",
+        "Wann hast du Geburtstag? – Ich habe **am fünften Juni** Geburtstag. Er/Sie hat am … Geburtstag (the word Geburtstag goes at the end).",
+        "Ordinals: am ersten (1st), am zweiten (2nd), am dritten (3rd), am vierten, am fünften, am sechsten, am siebten, am achten … am zwanzigsten (20th), am einundzwanzigsten (21st). Short form: am 7. Mai.",
+        "",
+        "## The verb haben (to have) – irregular",
+        "ich habe, du hast, er/sie/es hat, wir haben, ihr habt, Sie/sie haben."
+      ],
+      "notas": [
+        {
+          "seccion": "Numbers 21–30",
+          "tarjetas": [
+            {
+              "etiqueta": "🔄 Back to front",
+              "titulo": "Unit + und + ten",
+              "puntos": [
+                "21 = **ein**und**zwanzig** (one-and-twenty)",
+                "24 = **vier**und**zwanzig**",
+                "28 = **acht**und**zwanzig**"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Watch out",
+              "titulo": "Special ones",
+              "puntos": [
+                "21: **ein**undzwanzig (not eins)",
+                "27: **sieben**undzwanzig",
+                "30 = **dreißig** (with ß)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Die Monate",
+          "chips": {
+            "titulo": "January → December",
+            "items": [
+              "Januar",
+              "Februar",
+              "März",
+              "April",
+              "Mai",
+              "Juni",
+              "Juli",
+              "August",
+              "September",
+              "Oktober",
+              "November",
+              "Dezember"
+            ]
+          }
+        },
+        {
+          "seccion": "Wann hast du Geburtstag?",
+          "tarjetas": [
+            {
+              "etiqueta": "🎂 The pattern",
+              "titulo": "Geburtstag goes last",
+              "puntos": [
+                "**Wann hast du Geburtstag?**",
+                "Ich **habe am** fünften Juni **Geburtstag**.",
+                "Sie **hat am** dritten Januar **Geburtstag**."
+              ]
+            },
+            {
+              "etiqueta": "1️⃣ Ordinals 1–19",
+              "titulo": "Add -ten",
+              "puntos": [
+                "am **ersten** (1st) · am **zweiten** (2nd)",
+                "am **dritten** (3rd) · am **siebten** (7th)",
+                "am vierten, am fünften, am zehnten…"
+              ]
+            },
+            {
+              "etiqueta": "2️⃣ Ordinals 20+",
+              "titulo": "Add -sten",
+              "puntos": [
+                "am **zwanzigsten** (20th)",
+                "am **einundzwanzigsten** (21st)",
+                "am **dreißigsten** (30th)"
+              ]
+            },
+            {
+              "etiqueta": "📅 Short form",
+              "titulo": "Written dates",
+              "puntos": [
+                "**am 7. Mai** (with a dot)",
+                "21/3 → am einundzwanzigsten März"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "The verb haben (to have)",
+          "tarjetas": [
+            {
+              "etiqueta": "🙋 Singular",
+              "titulo": "I, you, he/she/it",
+              "puntos": [
+                "**ich habe** = I have",
+                "**du hast** = you have",
+                "**er/sie/es hat** = he/she/it has"
+              ]
+            },
+            {
+              "etiqueta": "👥 Plural",
+              "titulo": "we, you, they",
+              "puntos": [
+                "**wir haben** = we have",
+                "**ihr habt** = you (pl.) have",
+                "**sie/Sie haben** = they / you (formal) have"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "einundzwanzig",
+          "r": "21"
+        },
+        {
+          "p": "siebenundzwanzig",
+          "r": "27"
+        },
+        {
+          "p": "dreißig",
+          "r": "30"
+        },
+        {
+          "p": "Wann hast du Geburtstag?",
+          "r": "When is your birthday?"
+        },
+        {
+          "p": "Ich habe am fünften Juni Geburtstag.",
+          "r": "My birthday is on 5th June."
+        },
+        {
+          "p": "am ersten / am dritten",
+          "r": "on the first / on the third"
+        },
+        {
+          "p": "am siebten",
+          "r": "on the seventh"
+        },
+        {
+          "p": "am zwanzigsten",
+          "r": "on the twentieth"
+        },
+        {
+          "p": "haben (singular)",
+          "r": "ich habe, du hast, er/sie/es hat"
+        },
+        {
+          "p": "haben (plural)",
+          "r": "wir haben, ihr habt, sie/Sie haben"
+        },
+        {
+          "p": "März",
+          "r": "March"
+        },
+        {
+          "p": "Herzlichen Glückwunsch!",
+          "r": "Happy birthday! / Congratulations!"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'vierundzwanzig'?",
+          "opciones": [
+            "24",
+            "42",
+            "14",
+            "40"
+          ],
+          "correcta": 0,
+          "explicacion": "German says 'four-and-twenty'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you write 21 in German?",
+          "opciones": [
+            "einundzwanzig",
+            "einsundzwanzig",
+            "zwanzigeins",
+            "zwanzigundein"
+          ],
+          "correcta": 0,
+          "explicacion": "eins loses its s: einundzwanzig."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you write 30 in German?",
+          "opciones": [
+            "dreißig",
+            "dreizig",
+            "dreizehn",
+            "dreiundzwanzig"
+          ],
+          "correcta": 0,
+          "explicacion": "30 has a ß: dreißig."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'achtundzwanzig'?",
+          "opciones": [
+            "28",
+            "82",
+            "18",
+            "80"
+          ],
+          "correcta": 0,
+          "explicacion": "acht (8) + zwanzig (20)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which month comes after 'Februar'?",
+          "opciones": [
+            "März",
+            "Mai",
+            "April",
+            "Januar"
+          ],
+          "correcta": 0,
+          "explicacion": "Januar, Februar, März…"
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Wann hast du Geburtstag?' mean?",
+          "opciones": [
+            "When is your birthday?",
+            "How old are you?",
+            "Do you have a party?",
+            "What's the date today?"
+          ],
+          "correcta": 0,
+          "explicacion": "Literally 'When have you birthday?'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'on the third'?",
+          "opciones": [
+            "am dritten",
+            "am dreiten",
+            "am drei",
+            "am dreißigsten"
+          ],
+          "correcta": 0,
+          "explicacion": "erst-, zweit-, dritt- are special."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'on the seventh'?",
+          "opciones": [
+            "am siebten",
+            "am siebenten",
+            "am siebzehnten",
+            "am siebzigsten"
+          ],
+          "correcta": 0,
+          "explicacion": "sieben → siebten."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Ich habe am sechsundzwanzigsten April Geburtstag.' When is the birthday?",
+          "opciones": [
+            "26th April",
+            "6th April",
+            "16th April",
+            "26th August"
+          ],
+          "correcta": 0,
+          "explicacion": "sechsundzwanzig = 26."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which sentence is correct?",
+          "opciones": [
+            "Ich habe am zehnten April Geburtstag.",
+            "Ich habe Geburtstag am zehnten April.",
+            "Ich bin am zehnten April Geburtstag.",
+            "Ich habe zehnten April am Geburtstag."
+          ],
+          "correcta": 0,
+          "explicacion": "Use haben and put Geburtstag at the end."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Wann ___ du Geburtstag?",
+          "opciones": [
+            "hast",
+            "habe",
+            "hat",
+            "habt"
+          ],
+          "correcta": 0,
+          "explicacion": "du hast."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Lisa ___ am siebten November Geburtstag.",
+          "opciones": [
+            "hat",
+            "hast",
+            "habe",
+            "haben"
+          ],
+          "correcta": 0,
+          "explicacion": "One person = sie hat."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Wir ___ einen Computer.",
+          "opciones": [
+            "haben",
+            "habt",
+            "hat",
+            "hast"
+          ],
+          "correcta": 0,
+          "explicacion": "wir haben."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Wann ___ ihr Geburtstag?",
+          "opciones": [
+            "habt",
+            "haben",
+            "hast",
+            "hat"
+          ],
+          "correcta": 0,
+          "explicacion": "ihr habt."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In German, the short form of 'on 7th May' is 'am 7. Mai'.",
+          "correcta": true,
+          "explicacion": "Ordinal numbers use a dot."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'du hast' means 'you are'.",
+          "correcta": false,
+          "explicacion": "du hast = you have; du bist = you are."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write the singular of 'haben': ich …, du …, er …",
+          "claves": [
+            "ich habe",
+            "du hast",
+            "er hat",
+            "sie hat",
+            "es hat"
+          ],
+          "minimo": 3,
+          "modelo": "ich habe, du hast, er/sie/es hat",
+          "explicacion": "haben is irregular: du hast, er hat."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Translate into German: 'My birthday is on 15th June.'",
+          "pista": "Ich habe am … Geburtstag.",
+          "claves": [
+            "fünfzehnten juni",
+            "funfzehnten juni",
+            "15. juni"
+          ],
+          "modelo": "Ich habe am fünfzehnten Juni Geburtstag.",
+          "explicacion": "Geburtstag goes at the end."
+        }
+      ]
+    },
+    {
+      "id": "wer-war-das",
+      "titulo": "1.5 · Wer war das? (numbers to 1000, pronouns, Kultur)",
+      "resumen": [
+        "## Numbers 31–1000",
+        "einunddreißig (31), vierzig (40), fünfzig (50), sechzig (60), siebzig (70), achtzig (80), neunzig (90), hundert (100), zweihundert (200), dreihundert (300), tausend (1000).",
+        "Long numbers are stuck together and the unit comes before the ten: 312 = dreihundertzwölf, 68 = achtundsechzig, 4568 = viertausendfünfhundertachtundsechzig. No 'one' before hundert or tausend.",
+        "",
+        "## Jobs and fame",
+        "Was ist er von Beruf? – Er ist Physiker / Tennisspieler. Ich bin für … bekannt = I am known for … der Physiker / die Physikerin, der Mathematiker / die Mathematikerin.",
+        "",
+        "## Personal pronouns",
+        "ich (I), du (you, familiar singular), er (he), sie (she), es (it), wir (we), ihr (you, familiar plural), Sie (you, formal), sie (they). Small **sie** = she or they; capital **Sie** = formal you.",
+        "",
+        "## Kultur",
+        "Claus Böbel opened the BRATWURSThotel in Rittersbach (2018). Herta Heuwer from Berlin made the first currywurst (4 September 1949); Germans eat about 800 million every year. Das ist mir Wurst! = It doesn't matter to me!"
+      ],
+      "notas": [
+        {
+          "seccion": "Numbers 31–1000",
+          "chips": {
+            "titulo": "The tens and hundreds",
+            "items": [
+              "40 **vierzig**",
+              "50 **fünfzig**",
+              "60 **sechzig**",
+              "70 **siebzig**",
+              "80 **achtzig**",
+              "90 **neunzig**",
+              "100 **hundert**",
+              "200 **zweihundert**",
+              "1000 **tausend**"
+            ]
+          },
+          "tarjetas": [
+            {
+              "etiqueta": "🧩 Build them",
+              "titulo": "Stick them together",
+              "puntos": [
+                "31 = **einund**dreißig",
+                "68 = **achtund**sechzig",
+                "312 = **dreihundert**zwölf"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Watch out",
+              "titulo": "Tricky spellings",
+              "puntos": [
+                "60 **sechzig** (no s) · 70 **siebzig** (no en)",
+                "No 'one': **hundert**, **tausend**",
+                "99 = **neunund**neunzig"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Jobs and fame",
+          "tarjetas": [
+            {
+              "etiqueta": "💼 Job",
+              "titulo": "Was ist er von Beruf?",
+              "puntos": [
+                "= What is his job?",
+                "Er ist **Tennisspieler**.",
+                "Sie ist **Politikerin**."
+              ]
+            },
+            {
+              "etiqueta": "⭐ Famous",
+              "titulo": "Ich bin für … bekannt",
+              "puntos": [
+                "= I am known for …",
+                "Einstein: die **Relativitätstheorie**",
+                "Caroline Herschel: **Kometen**"
+              ]
+            },
+            {
+              "etiqueta": "👩‍🔬 -in",
+              "titulo": "Female jobs",
+              "puntos": [
+                "der Physiker → die **Physikerin**",
+                "der Mathematiker → die **Mathematikerin**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Personal pronouns",
+          "chips": {
+            "titulo": "Who?",
+            "items": [
+              "**ich** = I",
+              "**du** = you (one friend)",
+              "**er** = he",
+              "**sie** = she",
+              "**es** = it",
+              "**wir** = we",
+              "**ihr** = you (friends)",
+              "**Sie** = you (formal)",
+              "**sie** = they"
+            ]
+          },
+          "tarjetas": [
+            {
+              "etiqueta": "🔎 sie or Sie?",
+              "titulo": "Look at the verb",
+              "puntos": [
+                "**sie ist** = she is",
+                "**sie sind** = they are",
+                "**Sie sind** (capital) = you (formal) are"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Kultur: Das ist mir Wurst!",
+          "tarjetas": [
+            {
+              "etiqueta": "🌭 Bratwursthotel",
+              "titulo": "Rittersbach",
+              "puntos": [
+                "Claus Böbel is a **Metzger** (butcher)",
+                "Opened in **2018**, seven rooms",
+                "Restaurant: BRATWURST(aurant)"
+              ]
+            },
+            {
+              "etiqueta": "🍛 Currywurst",
+              "titulo": "Herta Heuwer, Berlin",
+              "puntos": [
+                "First currywurst: **4 September 1949**",
+                "Germans eat **800 million** a year",
+                "die **Imbissbude** = snack bar"
+              ]
+            },
+            {
+              "etiqueta": "💬 Idioms",
+              "titulo": "Sausage phrases",
+              "puntos": [
+                "**Das ist mir Wurst!** = It doesn't matter to me!",
+                "**armes Würstchen** = poor little sausage"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "einunddreißig",
+          "r": "31"
+        },
+        {
+          "p": "sechzig",
+          "r": "60"
+        },
+        {
+          "p": "siebzig",
+          "r": "70"
+        },
+        {
+          "p": "neunundneunzig",
+          "r": "99"
+        },
+        {
+          "p": "dreihundertzwölf",
+          "r": "312"
+        },
+        {
+          "p": "tausend",
+          "r": "1000"
+        },
+        {
+          "p": "Was ist er von Beruf?",
+          "r": "What is his job?"
+        },
+        {
+          "p": "Ich bin für … bekannt.",
+          "r": "I am known for …"
+        },
+        {
+          "p": "sie (small s)",
+          "r": "she or they"
+        },
+        {
+          "p": "Sie (capital S)",
+          "r": "you (formal)"
+        },
+        {
+          "p": "Das ist mir Wurst!",
+          "r": "It doesn't matter to me!"
+        },
+        {
+          "p": "der Metzger",
+          "r": "butcher"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'sechzig'?",
+          "opciones": [
+            "60",
+            "16",
+            "6",
+            "70"
+          ],
+          "correcta": 0,
+          "explicacion": "sechzehn = 16, siebzig = 70."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is 'siebzig'?",
+          "opciones": [
+            "70",
+            "17",
+            "7",
+            "60"
+          ],
+          "correcta": 0,
+          "explicacion": "sieben → siebzig."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you write 31 in German?",
+          "opciones": [
+            "einunddreißig",
+            "dreißigeins",
+            "einsunddreißig",
+            "dreiundeins"
+          ],
+          "correcta": 0,
+          "explicacion": "Unit first: einund + dreißig."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What number is 'neunundneunzig'?",
+          "opciones": [
+            "99",
+            "19",
+            "90",
+            "909"
+          ],
+          "correcta": 0,
+          "explicacion": "nine-and-ninety."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What number is 'dreihundertzwölf'?",
+          "opciones": [
+            "312",
+            "320",
+            "3012",
+            "213"
+          ],
+          "correcta": 0,
+          "explicacion": "dreihundert (300) + zwölf (12)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 68 in German?",
+          "opciones": [
+            "achtundsechzig",
+            "sechzigundacht",
+            "sechsundachtzig",
+            "achtsechzig"
+          ],
+          "correcta": 0,
+          "explicacion": "Two-digit numbers start from the back."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 1000 in German?",
+          "opciones": [
+            "tausend",
+            "eintausend hundert",
+            "hundert",
+            "zehnhundert"
+          ],
+          "correcta": 0,
+          "explicacion": "You don't need 'ein' before tausend."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What number is 'tausendeinhundertelf'?",
+          "opciones": [
+            "1111",
+            "1011",
+            "1101",
+            "111"
+          ],
+          "correcta": 0,
+          "explicacion": "tausend + einhundert + elf."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Was ist er von Beruf?' mean?",
+          "opciones": [
+            "What is his job?",
+            "Where does he live?",
+            "What is he known for?",
+            "Who was that?"
+          ],
+          "correcta": 0,
+          "explicacion": "der Beruf = job."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Ich bin für die Relativitätstheorie bekannt.' Who could say this?",
+          "opciones": [
+            "Albert Einstein",
+            "Caroline Herschel",
+            "Mozart",
+            "Claus Böbel"
+          ],
+          "correcta": 0,
+          "explicacion": "bekannt für = known for."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a female physicist in German?",
+          "opciones": [
+            "die Physikerin",
+            "der Physiker",
+            "die Physiker",
+            "das Physikerin"
+          ],
+          "correcta": 0,
+          "explicacion": "Add -in for women: Physikerin."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which pronoun means 'we'?",
+          "opciones": [
+            "wir",
+            "ihr",
+            "sie",
+            "es"
+          ],
+          "correcta": 0,
+          "explicacion": "ihr = you (plural, familiar)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Der Prinz heißt Heinrich. ___ ist 30 Jahre alt.",
+          "opciones": [
+            "Er",
+            "Sie",
+            "Es",
+            "Wir"
+          ],
+          "correcta": 0,
+          "explicacion": "der Prinz = he = er."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Das Schloss heißt Neuschwanstein. ___ ist sehr alt.",
+          "opciones": [
+            "Es",
+            "Er",
+            "Sie",
+            "Ihr"
+          ],
+          "correcta": 0,
+          "explicacion": "das Schloss = it = es."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Complete: Hamburg und Frankfurt sind Städte. ___ sind in Deutschland.",
+          "opciones": [
+            "Sie",
+            "Er",
+            "Es",
+            "Wir"
+          ],
+          "correcta": 0,
+          "explicacion": "Two things = they = sie (capital at the start of a sentence)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'Das ist mir Wurst!' mean?",
+          "opciones": [
+            "It doesn't matter to me!",
+            "I love sausages!",
+            "That's my sausage!",
+            "It's delicious!"
+          ],
+          "correcta": 0,
+          "explicacion": "Literally 'That's sausage to me!'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who made the first currywurst in Berlin in 1949?",
+          "opciones": [
+            "Herta Heuwer",
+            "Claus Böbel",
+            "Caroline Herschel",
+            "Emmy Noether"
+          ],
+          "correcta": 0,
+          "explicacion": "4 September is Currywurst Day."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'sie' with a small letter can mean 'she' or 'they'.",
+          "correcta": true,
+          "explicacion": "The verb ending tells you which: sie ist / sie sind."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write 50 in German.",
+          "claves": [
+            "fünfzig",
+            "funfzig"
+          ],
+          "modelo": "fünfzig",
+          "explicacion": "fünf + zig."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Translate: 'Das ist Thomas. Er ist zwölf Jahre alt.'",
+          "claves": [
+            "twelve",
+            "12"
+          ],
+          "modelo": "That is Thomas. He is twelve years old.",
+          "explicacion": "er = he."
+        }
+      ]
+    }
+  ]
+}
