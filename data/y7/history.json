@@ -2312,6 +2312,249 @@
       ]
     },
     {
+      "id": "william-the-conqueror",
+      "titulo": "The new King: William the Conqueror",
+      "resumen": [
+        "After winning the Battle of Hastings (14 October 1066), **William of Normandy** became the new King of England.",
+        "- He was **crowned on Christmas Day, 25 December 1066**, in **Westminster Abbey**, London.",
+        "- He became known as **William the Conqueror**. The **Norman Conquest** was the last time England was invaded and taken over by a foreign power.",
+        "- Harold and many of his key followers were dead; the land was **divided among William's Norman followers**.",
+        "- England's **language, rulers and way of life changed forever** (the new rulers spoke Norman French).",
+        "- The Normans built **castles** to control England – work began on the **Tower of London** in the **1070s**.",
+        "- His half-brother **Bishop Odo** ordered the **Bayeux Tapestry** (1070s).",
+        "- In **1086** William ordered the **Domesday Book**, a survey of England. He died in **1087**."
+      ],
+      "notas": [
+        {
+          "seccion": "A new king",
+          "tarjetas": [
+            {
+              "etiqueta": "👑 25 December 1066",
+              "titulo": "Crowned on Christmas Day",
+              "puntos": [
+                "In **Westminster Abbey**, London",
+                "First **Norman** King of England",
+                "Nickname: **the Conqueror**"
+              ]
+            },
+            {
+              "etiqueta": "🔄 Change",
+              "titulo": "England changed forever",
+              "puntos": [
+                "Last time England was **conquered**",
+                "Land given to **Norman** followers",
+                "New **language, rulers, way of life**"
+              ]
+            },
+            {
+              "etiqueta": "🏰 Control",
+              "titulo": "Castles",
+              "puntos": [
+                "Normans built **castles**",
+                "**Tower of London**: 1070s",
+                "To keep the English under control"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Timeline of William",
+          "chips": {
+            "titulo": "Key dates",
+            "items": [
+              "**1051** Edward 'promises' him the throne",
+              "**28 Sept 1066** lands at Pevensey",
+              "**14 Oct 1066** wins at Hastings",
+              "**25 Dec 1066** crowned king",
+              "**1070s** Tower of London, Bayeux Tapestry",
+              "**1086** Domesday Book",
+              "**1087** dies"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "When was William crowned King of England?",
+          "r": "Christmas Day, 25 December 1066"
+        },
+        {
+          "p": "Where was William crowned?",
+          "r": "Westminster Abbey, London"
+        },
+        {
+          "p": "What nickname did William get after 1066?",
+          "r": "William the Conqueror"
+        },
+        {
+          "p": "The Norman Conquest",
+          "r": "The Normans' takeover of England in 1066"
+        },
+        {
+          "p": "Why did William build castles?",
+          "r": "To control England (e.g. the Tower of London, 1070s)"
+        },
+        {
+          "p": "What happened to the land of the English nobles?",
+          "r": "It was divided among William's Norman followers"
+        },
+        {
+          "p": "Domesday Book",
+          "r": "William's survey of England, 1086"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "When was William crowned King of England?",
+          "opciones": [
+            "Christmas Day 1066",
+            "14 October 1066",
+            "5 January 1066",
+            "1087"
+          ],
+          "correcta": 0,
+          "explicacion": "25 December 1066, in Westminster Abbey."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where was William crowned?",
+          "opciones": [
+            "Westminster Abbey",
+            "Hastings",
+            "York",
+            "Normandy"
+          ],
+          "correcta": 0,
+          "explicacion": "In London."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What nickname was William given?",
+          "opciones": [
+            "The Conqueror",
+            "The Confessor",
+            "The Ruthless",
+            "The Great"
+          ],
+          "correcta": 0,
+          "explicacion": "The Confessor was Edward; 'the Ruthless' was Hardrada."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is 1066 so important in English history?",
+          "opciones": [
+            "It was the last time England was invaded and taken over by a foreign power",
+            "England won the Hundred Years War",
+            "Magna Carta was signed",
+            "The Black Death arrived"
+          ],
+          "correcta": 0,
+          "explicacion": "England's language, rulers and way of life changed forever."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What happened to the land of Harold's followers?",
+          "opciones": [
+            "It was divided among the Norman invaders",
+            "It was given to the Vikings",
+            "It was given to the Pope",
+            "Nothing changed"
+          ],
+          "correcta": 0,
+          "explicacion": "Many English leaders had been killed."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which famous castle did the Normans begin building in the 1070s?",
+          "opciones": [
+            "The Tower of London",
+            "Neuschwanstein",
+            "Edinburgh Castle",
+            "Windsor Palace"
+          ],
+          "correcta": 0,
+          "explicacion": "Castles helped the Normans control England."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who was William's half-brother who ordered the Bayeux Tapestry?",
+          "opciones": [
+            "Bishop Odo",
+            "Tostig",
+            "Edgar",
+            "Alfred"
+          ],
+          "correcta": 0,
+          "explicacion": "It tells the story of 1066 from the Norman side."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who was the first Norman King of England?",
+          "opciones": [
+            "William I",
+            "Harold II",
+            "Edward the Confessor",
+            "Henry VIII"
+          ],
+          "correcta": 0,
+          "explicacion": "William the Conqueror."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Put in order: William crowned, Battle of Hastings, William lands at Pevensey.",
+          "opciones": [
+            "Lands at Pevensey → Hastings → crowned",
+            "Hastings → lands → crowned",
+            "Crowned → lands → Hastings",
+            "Lands → crowned → Hastings"
+          ],
+          "correcta": 0,
+          "explicacion": "28 Sept → 14 Oct → 25 Dec 1066."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "After 1066, England's new rulers spoke Norman French.",
+          "correcta": true,
+          "explicacion": "The language and way of life changed."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Harold Godwinson remained king after the Battle of Hastings.",
+          "correcta": false,
+          "explicacion": "Harold was killed; William became king."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "On what date was William crowned?",
+          "claves": [
+            "25",
+            "christmas"
+          ],
+          "minimo": 1,
+          "modelo": "25 December 1066 (Christmas Day).",
+          "explicacion": "In Westminster Abbey."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give two ways England changed after William became king.",
+          "claves": [
+            "castle",
+            "land",
+            "norman",
+            "language",
+            "french",
+            "ruler",
+            "way of life",
+            "tower"
+          ],
+          "minimo": 2,
+          "modelo": "New Norman rulers; land given to Normans; castles built; language (Norman French) and way of life changed.",
+          "explicacion": "England changed forever."
+        }
+      ]
+    },
+    {
       "id": "how-did-harold-die",
       "titulo": "1.7 · How did King Harold die? (sources and accounts)",
       "resumen": [
@@ -2689,6 +2932,303 @@
           "minimo": 2,
           "modelo": "Shot by an arrow in the eye; killed by Norman knights with a lance, sword and javelin.",
           "explicacion": "Historians still disagree."
+        }
+      ]
+    },
+    {
+      "id": "key-words-history",
+      "titulo": "Key words in history (Unit 1)",
+      "resumen": [
+        "The key words from Chapter 1 (in bold red in the book; meanings in the glossary).",
+        "- **artefact** – an object made by people in the past · **evidence** – information that helps us find out about the past",
+        "- **immigrant** – a person who comes to live in a country · **inhabit** – live in a place · **hunter-gatherer**",
+        "- **century** – 100 years · **chronology** – the study of when things happened",
+        "- **Witan** – the king's advisers · **earl / earldom** · **thegn** – local landowner · **ceorl** – ordinary villager · **thrall** – enslaved person",
+        "- **monarch** – a king or queen · **Pope** – head of the Catholic Church · **monk** – lives in a monastery · **chronicle** – a monk's official diary · **archaeologist** – studies the past by digging up remains",
+        "- **invasion** – entering a country by force · **housecarl** · **fyrd** · **mace** · **chain mail** · **lance** – a long spear used by a knight",
+        "- **source** – evidence from the time · **interpretation** – a later view of the past"
+      ],
+      "notas": [
+        {
+          "seccion": "People",
+          "chips": {
+            "titulo": "Who's who",
+            "items": [
+              "**monarch** = king or queen",
+              "**Witan** = king's advisers",
+              "**earl** → **earldom**",
+              "**thegn** ('thane') = local landowner",
+              "**ceorl** ('churl') = villager",
+              "**thrall** = enslaved person",
+              "**monk** – monastery",
+              "**Pope** – head of the Church",
+              "**immigrant** = comes to live in a country",
+              "**inhabit** = live in"
+            ]
+          }
+        },
+        {
+          "seccion": "Studying the past",
+          "chips": {
+            "titulo": "History words",
+            "items": [
+              "**chronology** = when things happened",
+              "**century** = 100 years",
+              "**evidence**",
+              "**artefact** = object from the past",
+              "**archaeologist** = digs up the past",
+              "**chronicle** = monk's diary",
+              "**source** = from the time",
+              "**interpretation** = made later"
+            ]
+          }
+        },
+        {
+          "seccion": "War words",
+          "chips": {
+            "titulo": "1066",
+            "items": [
+              "**invasion** = entering a country by force",
+              "**housecarl** – battleaxe",
+              "**fyrd** – farming tools",
+              "**knight** – on a horse",
+              "**archer** – bow",
+              "**chain mail** / hauberk",
+              "**mace** – spiked club",
+              "**lance** – long spear",
+              "**shield wall**"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Monarch",
+          "r": "A king or queen"
+        },
+        {
+          "p": "Invasion",
+          "r": "When an army enters a country by force to take it over"
+        },
+        {
+          "p": "Immigrant",
+          "r": "A person who comes to live in another country"
+        },
+        {
+          "p": "Inhabit",
+          "r": "To live in a place"
+        },
+        {
+          "p": "Evidence",
+          "r": "Information that helps us find out about the past"
+        },
+        {
+          "p": "Archaeologist",
+          "r": "Someone who studies the past by digging up and examining remains"
+        },
+        {
+          "p": "Century",
+          "r": "A period of 100 years"
+        },
+        {
+          "p": "Pope",
+          "r": "The head of the Catholic Church"
+        },
+        {
+          "p": "Monk",
+          "r": "A religious man who lives in a monastery"
+        },
+        {
+          "p": "Lance",
+          "r": "A long spear used by a knight"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a monarch?",
+          "opciones": [
+            "A king or queen",
+            "A monk",
+            "A soldier",
+            "An adviser"
+          ],
+          "correcta": 0,
+          "explicacion": "e.g. Edward the Confessor, Harold, William."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is an invasion?",
+          "opciones": [
+            "When an army enters a country by force",
+            "A peaceful visit",
+            "A type of weapon",
+            "A royal wedding"
+          ],
+          "correcta": 0,
+          "explicacion": "England was invaded twice in 1066."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is an artefact?",
+          "opciones": [
+            "An object made by people in the past",
+            "A written law",
+            "A type of soldier",
+            "A royal adviser"
+          ],
+          "correcta": 0,
+          "explicacion": "e.g. pottery, tools, the Alfred Jewel."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does an archaeologist do?",
+          "opciones": [
+            "Studies the past by digging up remains",
+            "Writes chronicles",
+            "Leads an army",
+            "Advises the king"
+          ],
+          "correcta": 0,
+          "explicacion": "They found Anglo-Saxon dice and board games."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "An immigrant is someone who…",
+          "opciones": [
+            "comes to live in another country",
+            "never leaves home",
+            "invades with an army",
+            "studies history"
+          ],
+          "correcta": 0,
+          "explicacion": "Hunter-gatherers were Britain's first immigrants."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'inhabited' mean?",
+          "opciones": [
+            "Lived in",
+            "Empty",
+            "Invaded",
+            "Flooded"
+          ],
+          "correcta": 0,
+          "explicacion": "Fewer than 200 British islands are inhabited."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who is the Pope?",
+          "opciones": [
+            "The head of the Catholic Church",
+            "The King of France",
+            "A Viking leader",
+            "An Anglo-Saxon earl"
+          ],
+          "correcta": 0,
+          "explicacion": "He gave William a flag to carry into battle."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word means 'the king's group of advisers'?",
+          "opciones": [
+            "Witan",
+            "Fyrd",
+            "Thrall",
+            "Chronicle"
+          ],
+          "correcta": 0,
+          "explicacion": "Earls, thegns and bishops."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word means 'an enslaved person' in Anglo-Saxon England?",
+          "opciones": [
+            "Thrall",
+            "Thegn",
+            "Ceorl",
+            "Earl"
+          ],
+          "correcta": 0,
+          "explicacion": "Ceorl = villager, thegn = landowner."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a lance?",
+          "opciones": [
+            "A long spear used by a knight",
+            "A spiked club",
+            "A shield",
+            "A battleaxe"
+          ],
+          "correcta": 0,
+          "explicacion": "Guy of Amiens says a knight pierced Harold's chest with his lance."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many years are in a century?",
+          "opciones": [
+            "100",
+            "10",
+            "1000",
+            "50"
+          ],
+          "correcta": 0,
+          "explicacion": "1066 is in the 11th century."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where did monks live?",
+          "opciones": [
+            "In monasteries",
+            "In castles",
+            "In the Witan",
+            "In longboats"
+          ],
+          "correcta": 0,
+          "explicacion": "They wrote chronicles."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Evidence is information that helps us find out about the past.",
+          "correcta": true,
+          "explicacion": "e.g. bones, pottery, sources."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A housecarl was a Norman knight.",
+          "correcta": false,
+          "explicacion": "Housecarls were Harold's best Anglo-Saxon soldiers."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What does 'invasion' mean?",
+          "claves": [
+            "army",
+            "force",
+            "enter",
+            "attack",
+            "take over",
+            "conquer"
+          ],
+          "minimo": 1,
+          "modelo": "When an army enters a country by force to take it over.",
+          "explicacion": "In 1066 England was invaded by the Vikings and the Normans."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name three key words about Anglo-Saxon society.",
+          "claves": [
+            "witan",
+            "earl",
+            "thegn",
+            "ceorl",
+            "thrall",
+            "monarch"
+          ],
+          "minimo": 3,
+          "modelo": "Any three: Witan, earl, earldom, thegn, ceorl, thrall, monarch.",
+          "explicacion": "See lesson 1.2."
         }
       ]
     }
