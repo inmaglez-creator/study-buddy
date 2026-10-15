@@ -154,9 +154,17 @@
     {
       "id": "history-unit-1",
       "asignatura": "history",
-      "titulo": "History test · Unit 1",
+      "titulo": "History test · Unit 1 1066 and all that",
       "fecha": "2026-10-29",
-      "temas": []
+      "temas": [
+        "chronology",
+        "britain-before-1066",
+        "anglo-saxon-england",
+        "contenders-1066",
+        "stamford-bridge",
+        "battle-of-hastings",
+        "how-did-harold-die"
+      ]
     }
   ]
 }
