@@ -454,7 +454,7 @@ button.tarjeta { width: 100%; text-align: left; font: inherit; }
 .hoja-soluciones li { margin-bottom: 6px; }
 
 @media print {
-  .cabecera, .barra-inferior, .no-imprimir { display: none !important; }
+  .cabecera, .barra-inferior, .no-imprimir, .visitas { display: none !important; }
   body { background: #fff; color: #000; padding: 0; font-size: 12pt; }
   .contenido { max-width: none; padding: 0; }
   .hoja { margin: 0; padding: 0; border: none; background: #fff; color: #000; }
@@ -542,3 +542,15 @@ button.tarjeta { width: 100%; text-align: left; font: inherit; }
 /* Las notas usan todo el ancho en pantallas grandes */
 .contenido.ancho { max-width: 1100px; }
 .contenido.ancho .acciones { max-width: 640px; }
+
+/* Contador de visitas */
+.visitas {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4px 16px 16px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--texto-suave);
+  font-variant-numeric: tabular-nums;
+}
+.visitas:empty { display: none; }

@@ -874,11 +874,50 @@ function marcarNav(seccion) {
   document.querySelectorAll('[data-nav]').forEach(a => a.classList.toggle('activo', a.dataset.nav === actual));
 }
 
+// Contador de visitas por página (servicio gratuito Abacus, sin cuenta).
+// Cada página cuenta una visita por sesión del navegador; si el servicio falla, no se muestra nada.
+const CONTADOR = 'https://abacus.jasoncameron.dev';
+// En local se cuenta aparte para no inflar las visitas reales.
+const ESPACIO_CONTADOR = location.hostname.endsWith('github.io') ? 'study-buddy-inmaglez' : 'study-buddy-local';
+const numero = n => Number(n).toLocaleString('en-GB');
+
+async function contar(clave) {
+  let vistas = {};
+  try { vistas = JSON.parse(sessionStorage.getItem('visitas') || '{}'); } catch {}
+  const nueva = !vistas[clave];
+  const r = await fetch(`${CONTADOR}/${nueva ? 'hit' : 'get'}/${ESPACIO_CONTADOR}/${clave}`);
+  if (!r.ok) throw new Error(r.status);
+  const { value } = await r.json();
+  if (nueva) {
+    vistas[clave] = 1;
+    try { sessionStorage.setItem('visitas', JSON.stringify(vistas)); } catch {}
+  }
+  return value;
+}
+
+let turnoVisitas = 0;
+
+async function mostrarVisitas(partes) {
+  const turno = ++turnoVisitas;
+  const caja = document.getElementById('visitas');
+  const ruta = [estado.curso.id, ...(partes.length ? partes : ['inicio'])].join('_');
+  const clave = ruta.replace(/[^A-Za-z0-9_.-]/g, '-').slice(0, 64);
+  caja.textContent = '';
+  try {
+    const [pagina, total] = await Promise.all([contar(clave), contar('total')]);
+    if (turno !== turnoVisitas) return;
+    caja.textContent = `👀 ${numero(pagina)} ${pagina === 1 ? 'visit' : 'visits'} to this page · ${numero(total)} to Study Buddy`;
+  } catch {
+    caja.textContent = '';
+  }
+}
+
 function render() {
   const [r0, r1, r2, r3, r4] = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
   marcarNav(r0 === 'examenes' && r1?.startsWith(PREFIJO_FINAL) ? 'finales' : r0);
   app.classList.remove('ancho');
   window.scrollTo(0, 0);
+  mostrarVisitas([r0, r1, r2, r3, r4].filter(Boolean));
   try {
     if (!r0) return vistaInicio();
     if (r0 === 'progreso') return vistaProgreso();
