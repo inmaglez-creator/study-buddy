@@ -881,7 +881,20 @@ const CONTADOR = 'https://abacus.jasoncameron.dev';
 const ESPACIO_CONTADOR = location.hostname.endsWith('github.io') ? 'study-buddy-inmaglez' : 'study-buddy-local';
 const numero = n => Number(n).toLocaleString('en-GB');
 
+const claveVisita = partes =>
+  [estado.curso.id, ...(partes.length ? partes : ['inicio'])].join('_').replace(/[^A-Za-z0-9_.-]/g, '-').slice(0, 64);
+// En la página de estadísticas se puede marcar este dispositivo para que sus visitas no cuenten.
+const sinContar = () => leer('noContarVisitas') === true;
+
+async function leerContador(clave) {
+  const r = await fetch(`${CONTADOR}/get/${ESPACIO_CONTADOR}/${clave}`);
+  if (r.status === 404) return 0;
+  if (!r.ok) throw new Error(r.status);
+  return (await r.json()).value;
+}
+
 async function contar(clave) {
+  if (sinContar()) return leerContador(clave);
   let vistas = {};
   try { vistas = JSON.parse(sessionStorage.getItem('visitas') || '{}'); } catch {}
   const nueva = !vistas[clave];
@@ -900,8 +913,7 @@ let turnoVisitas = 0;
 async function mostrarVisitas(partes) {
   const turno = ++turnoVisitas;
   const caja = document.getElementById('visitas');
-  const ruta = [estado.curso.id, ...(partes.length ? partes : ['inicio'])].join('_');
-  const clave = ruta.replace(/[^A-Za-z0-9_.-]/g, '-').slice(0, 64);
+  const clave = claveVisita(partes);
   caja.textContent = '';
   try {
     const [pagina, total] = await Promise.all([contar(clave), contar('total')]);
@@ -912,15 +924,89 @@ async function mostrarVisitas(partes) {
   }
 }
 
+// Lee muchos contadores con pocas peticiones a la vez, para no saturar el servicio.
+async function leerContadores(claves) {
+  const valores = {};
+  const cola = [...new Set(claves)];
+  await Promise.all(Array.from({ length: 6 }, async () => {
+    while (cola.length) {
+      const clave = cola.shift();
+      try { valores[clave] = await leerContador(clave); } catch { valores[clave] = null; }
+    }
+  }));
+  return valores;
+}
+
+// Página de estadísticas (#/estadisticas): no está enlazada desde ninguna parte de la web.
+async function vistaEstadisticas() {
+  const recursos = [['test', '▶ Practice'], ['imprimir', '🖨 Print'], ['notas', '📖 Notes'], ['tarjetas', '🃏 Flashcards']];
+  const principales = [[[], '🏠 Home'], [['examenes'], '📅 Exams'], [['finales'], '🏆 End of year'], [['progreso'], '📈 Progress']];
+  const subtemas = [[[], 'Topic'], [['resumen'], 'Notes'], [['tarjetas'], 'Flashcards'], [['test'], 'Quiz']];
+  const filasExamen = [...examenesOrdenados(), ...finalesDisponibles()]
+    .map(e => ({ e, claves: recursos.map(([r]) => claveVisita(['examenes', e.id, r])) }));
+  const filasAsig = estado.curso.asignaturas.filter(a => a.temas.length).map(a => ({
+    a,
+    claveAsig: claveVisita(['a', a.id]),
+    temas: a.temas.map(t => ({ t, claves: subtemas.map(([p]) => claveVisita(['a', a.id, 't', t.id, ...p])) }))
+  }));
+
+  app.classList.add('ancho');
+  app.innerHTML = '<h1>📊 Statistics</h1><p class="cargando">Loading visit counts…</p>';
+  const v = await leerContadores(['total', ...principales.map(([p]) => claveVisita(p)), ...filasExamen.flatMap(f => f.claves),
+    ...filasAsig.flatMap(f => [f.claveAsig, ...f.temas.flatMap(t => t.claves)])]);
+  if (location.hash !== '#/estadisticas') return;
+
+  const n = clave => v[clave] === null ? '–' : numero(v[clave] || 0);
+  const suma = claves => numero(claves.reduce((s, c) => s + (v[c] || 0), 0));
+  const celdas = claves => claves.map(c => `<td class="${v[c] ? '' : 'cero'}">${n(c)}</td>`).join('');
+
+  app.innerHTML = `
+    <h1>📊 Statistics</h1>
+    <p class="suave pequeño">Each page counts one visit per browser session. This page isn't linked anywhere on the site.</p>
+    <div class="cifras">
+      <div><b>${n('total')}</b><span>Visits to Study Buddy</span></div>
+      ${principales.map(([p, nombre]) => `<div><b>${n(claveVisita(p))}</b><span>${nombre}</span></div>`).join('')}
+    </div>
+
+    <h2>Exams</h2>
+    <div class="tabla-desliza"><table class="tabla-visitas">
+      <thead><tr><th>Exam</th>${recursos.map(([, r]) => `<th>${r}</th>`).join('')}<th>Total</th></tr></thead>
+      <tbody>${filasExamen.map(({ e, claves }) => `
+        <tr><th>${esc(e.titulo)}</th>${celdas(claves)}<td><b>${suma(claves)}</b></td></tr>`).join('')}
+      </tbody>
+    </table></div>
+
+    <h2>Subjects and topics</h2>
+    ${filasAsig.map(({ a, claveAsig, temas }) => `
+      <h3>${esc(a.icono)} ${esc(a.nombre)} <span class="suave pequeño">· subject page: ${n(claveAsig)}</span></h3>
+      <div class="tabla-desliza"><table class="tabla-visitas">
+        <thead><tr><th>Topic</th>${subtemas.map(([, x]) => `<th>${x}</th>`).join('')}<th>Total</th></tr></thead>
+        <tbody>${temas.map(({ t, claves }) => `
+          <tr><th>${esc(t.titulo)}</th>${celdas(claves)}<td><b>${suma(claves)}</b></td></tr>`).join('')}
+        </tbody>
+      </table></div>`).join('')}
+
+    <h2>This device</h2>
+    <p class="suave pequeño">Visits from this device are ${sinContar() ? '<b>not</b> being counted' : 'being counted'}.</p>
+    <div class="acciones"><button class="boton ancho" id="no-contar">${sinContar() ? 'Count my visits again' : "Don't count my visits on this device"}</button></div>`;
+
+  document.getElementById('no-contar').addEventListener('click', () => {
+    guardar('noContarVisitas', !sinContar());
+    vistaEstadisticas();
+  });
+}
+
 function render() {
   const [r0, r1, r2, r3, r4] = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
   marcarNav(r0 === 'examenes' && r1?.startsWith(PREFIJO_FINAL) ? 'finales' : r0);
   app.classList.remove('ancho');
   window.scrollTo(0, 0);
-  mostrarVisitas([r0, r1, r2, r3, r4].filter(Boolean));
+  if (r0 === 'estadisticas') document.getElementById('visitas').textContent = '';
+  else mostrarVisitas([r0, r1, r2, r3, r4].filter(Boolean));
   try {
     if (!r0) return vistaInicio();
     if (r0 === 'progreso') return vistaProgreso();
+    if (r0 === 'estadisticas') return vistaEstadisticas().catch(mostrarError);
     if (r0 === 'finales') return vistaFinales();
     if (r0 === 'examenes') {
       if (!r1) return vistaExamenes();

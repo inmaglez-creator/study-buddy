@@ -554,3 +554,16 @@ button.tarjeta { width: 100%; text-align: left; font: inherit; }
   font-variant-numeric: tabular-nums;
 }
 .visitas:empty { display: none; }
+
+/* Estadísticas */
+.cifras { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 16px 0; }
+.cifras div { background: var(--superficie); border: 1px solid var(--borde); border-radius: 12px; padding: 12px; display: grid; gap: 2px; }
+.cifras b { font-size: 24px; font-variant-numeric: tabular-nums; }
+.cifras span { font-size: 13px; color: var(--texto-suave); }
+.tabla-desliza { overflow-x: auto; margin-bottom: 8px; background: var(--superficie); border: 1px solid var(--borde); border-radius: 12px; }
+.tabla-visitas { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+.tabla-visitas th, .tabla-visitas td { padding: 8px 10px; border-bottom: 1px solid var(--borde); text-align: right; white-space: nowrap; }
+.tabla-visitas tr:last-child > * { border-bottom: none; }
+.tabla-visitas th:first-child { text-align: left; white-space: normal; min-width: 180px; font-weight: 500; }
+.tabla-visitas thead th { font-size: 12px; color: var(--texto-suave); font-weight: 600; }
+.tabla-visitas td.cero { color: var(--texto-suave); opacity: .6; }
