@@ -2638,6 +2638,516 @@
           "explicacion": "er = he."
         }
       ]
+    },
+    {
+      "id": "workbook-unit-1",
+      "titulo": "Workbook · Unit 1 practice (pp. 4–12)",
+      "resumen": [
+        "Practice from the **Workbook** for Unit 1 *Hallo!*: word order, **sein**, **haben**, **wohnen**, **articles**, **personal pronouns**, **numbers to 1000**, **months and dates**.",
+        "",
+        "## Watch out (common mistakes)",
+        "- Word order in questions: **Wie sagt man das?** (verb second, then *man*) – not *Wie sagt das man?*",
+        "- **ihr seid** (not *ihr sind*): *Wie alt **seid** ihr?*",
+        "- Nouns always start with a **capital letter**: *ein **C**omputer, eine **G**iraffe, ein **B**aby*.",
+        "- *ein bisschen* means *a bit* – it is **not** a noun, so it can't go in an article table.",
+        "- *das **ist*** (with t), *Deu**tsch**land*.",
+        "- Switzerland needs the article: *Ich wohne in **der** Schweiz*.",
+        "- Birthdays: ***Er/Sie hat am** einundzwanzigsten Oktober **Geburtstag**.* (haben + date + Geburtstag at the end)"
+      ],
+      "notas": [
+        {
+          "seccion": "Watch out!",
+          "tarjetas": [
+            {
+              "etiqueta": "🔀 Word order",
+              "titulo": "Questions",
+              "puntos": [
+                "**Wie heißt du?**",
+                "**Wie schreibt man das?**",
+                "**Wie sagt man das?** ✗ *Wie sagt das man*"
+              ]
+            },
+            {
+              "etiqueta": "🟦 sein",
+              "titulo": "ihr seid!",
+              "puntos": [
+                "ich **bin** · du **bist** · er/sie/es **ist**",
+                "wir **sind** · ihr **seid** · sie/Sie **sind**",
+                "*Wie alt **seid** ihr?* ✗ *sind ihr*"
+              ]
+            },
+            {
+              "etiqueta": "🔠 Capitals",
+              "titulo": "All nouns",
+              "puntos": [
+                "*Das ist ein **C**omputer.*",
+                "*eine **G**iraffe*, *ein **B**aby*",
+                "*Das **ist**…* (not *is*)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Verbs",
+          "tarjetas": [
+            {
+              "etiqueta": "🏠 wohnen",
+              "titulo": "Regular",
+              "puntos": [
+                "ich wohn**e** · du wohn**st** · er wohn**t**",
+                "wir wohn**en** · ihr wohn**t** · sie wohn**en**",
+                "*in **der** Schweiz*"
+              ]
+            },
+            {
+              "etiqueta": "🎁 haben",
+              "titulo": "Irregular",
+              "puntos": [
+                "ich **habe** · du **hast** · er **hat**",
+                "wir **haben** · ihr **habt** · sie **haben**",
+                "*Wir **haben** einen Mercedes.*"
+              ]
+            },
+            {
+              "etiqueta": "🎂 Birthdays",
+              "titulo": "am …ten / …sten",
+              "puntos": [
+                "*am **dritten** August* = 3/8",
+                "*am **zwanzigsten** Oktober* = 20/10",
+                "*Sie **hat** am … **Geburtstag**.*"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Numbers to 1000",
+          "chips": {
+            "titulo": "Units first, then tens!",
+            "items": [
+              "33 = drei**und**dreißig",
+              "68 = acht**und**sechzig",
+              "96 = sechs**und**neunzig",
+              "150 = hundert**fünfzig**",
+              "250 = zweihundertfünfzig",
+              "405 = vierhundertfünf",
+              "1500 = tausendfünfhundert",
+              "1000 = tausend (no 'ein')"
+            ]
+          }
+        },
+        {
+          "seccion": "Personal pronouns",
+          "chips": {
+            "titulo": "German → English",
+            "items": [
+              "ich = I",
+              "du = you",
+              "er = he",
+              "sie = she",
+              "es = it",
+              "wir = we",
+              "ihr = you (pl.)",
+              "sie = they",
+              "Sie = you (formal)"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Wie sagt man das?",
+          "r": "How do you say that? (verb before man)"
+        },
+        {
+          "p": "ihr + sein",
+          "r": "ihr seid"
+        },
+        {
+          "p": "du + haben",
+          "r": "du hast"
+        },
+        {
+          "p": "er/sie/es + wohnen",
+          "r": "wohnt"
+        },
+        {
+          "p": "I live in Switzerland.",
+          "r": "Ich wohne in der Schweiz."
+        },
+        {
+          "p": "68 in German",
+          "r": "achtundsechzig"
+        },
+        {
+          "p": "1500 in German",
+          "r": "tausendfünfhundert"
+        },
+        {
+          "p": "am dritten August",
+          "r": "on 3rd August (3/8)"
+        },
+        {
+          "p": "She has her birthday on 21/10.",
+          "r": "Sie hat am einundzwanzigsten Oktober Geburtstag."
+        },
+        {
+          "p": "der Hafen / das Dorf / die Hauptstadt",
+          "r": "port / village / capital"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Unjumble: *sagt / das / Wie / man / ?*",
+          "opciones": [
+            "Wie sagt man das?",
+            "Wie sagt das man?",
+            "Wie man sagt das?",
+            "Das sagt wie man?"
+          ],
+          "correcta": 0,
+          "explicacion": "Question word, verb, then man, then das."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Choose: *Wie alt ___ ihr?*",
+          "opciones": [
+            "seid",
+            "sind",
+            "bist",
+            "ist"
+          ],
+          "correcta": 0,
+          "explicacion": "ihr seid."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Choose: *Hannah und Eliana ___ cool.*",
+          "opciones": [
+            "sind",
+            "ist",
+            "seid",
+            "bin"
+          ],
+          "correcta": 0,
+          "explicacion": "Two people = they = sind."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is correct?",
+          "opciones": [
+            "Das ist ein Computer.",
+            "Das is ein computer.",
+            "Das ist eine Computer.",
+            "Das ist ein computer."
+          ],
+          "correcta": 0,
+          "explicacion": "ist, ein (m), capital C."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*Das ist ___ Katastrophe.* (f)",
+          "opciones": [
+            "eine",
+            "ein",
+            "der",
+            "das"
+          ],
+          "correcta": 0,
+          "explicacion": "Feminine indefinite article = eine."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word can NOT go in a table of nouns with articles?",
+          "opciones": [
+            "bisschen",
+            "Schloss",
+            "Familie",
+            "Kopf"
+          ],
+          "correcta": 0,
+          "explicacion": "ein bisschen = a bit – it isn't a noun."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*ich ___* (wohnen)",
+          "opciones": [
+            "wohne",
+            "wohnst",
+            "wohnt",
+            "wohnen"
+          ],
+          "correcta": 0,
+          "explicacion": "ich wohne."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*Wo ___ du?*",
+          "opciones": [
+            "wohnst",
+            "wohnt",
+            "wohne",
+            "wohnen"
+          ],
+          "correcta": 0,
+          "explicacion": "du wohnst."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*Der Prinz und die Prinzessin ___ in einem Schloss.*",
+          "opciones": [
+            "wohnen",
+            "wohnt",
+            "wohnst",
+            "wohne"
+          ],
+          "correcta": 0,
+          "explicacion": "They = wohnen."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do you say 'I live in Switzerland'?",
+          "opciones": [
+            "Ich wohne in der Schweiz.",
+            "Ich wohne in Schweiz.",
+            "Ich wohnt in die Schweiz.",
+            "Ich bin Schweiz."
+          ],
+          "correcta": 0,
+          "explicacion": "Switzerland needs the definite article."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*Ich wohne in Bremerhaven. Das ist ein Hafen…* Bremerhaven is a…",
+          "opciones": [
+            "port",
+            "village",
+            "capital",
+            "mountain"
+          ],
+          "correcta": 0,
+          "explicacion": "der Hafen = port."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*Ich wohne in Wien. Das ist die Hauptstadt von Österreich. Ich finde es toll.* The opinion is…",
+          "opciones": [
+            "positive",
+            "negative",
+            "mixed",
+            "not given"
+          ],
+          "correcta": 0,
+          "explicacion": "toll = great."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*Ich finde es attraktiv aber nicht interessant.* The opinion is…",
+          "opciones": [
+            "mixed",
+            "positive",
+            "negative",
+            "boring only"
+          ],
+          "correcta": 0,
+          "explicacion": "Attractive but not interesting."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*Wann ___ du Geburtstag?*",
+          "opciones": [
+            "hast",
+            "habe",
+            "hat",
+            "habt"
+          ],
+          "correcta": 0,
+          "explicacion": "du hast."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*Ali und Cora ___ einen BMW.*",
+          "opciones": [
+            "haben",
+            "hat",
+            "hast",
+            "habt"
+          ],
+          "correcta": 0,
+          "explicacion": "They = haben."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*am dritten August* is…",
+          "opciones": [
+            "3/8",
+            "8/3",
+            "30/8",
+            "3/10"
+          ],
+          "correcta": 0,
+          "explicacion": "dritten = third."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*am zwanzigsten Oktober* is…",
+          "opciones": [
+            "20/10",
+            "2/10",
+            "10/20",
+            "12/10"
+          ],
+          "correcta": 0,
+          "explicacion": "zwanzigsten = twentieth."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Kim Kardashian → 21/10. Which is correct?",
+          "opciones": [
+            "Sie hat am einundzwanzigsten Oktober Geburtstag.",
+            "Sie hat Geburtstag am einundzwanzig Oktober.",
+            "Sie ist am einundzwanzigsten Oktober Geburtstag.",
+            "Er hat am zwanzigsten Oktober Geburtstag."
+          ],
+          "correcta": 0,
+          "explicacion": "haben + am …sten + Geburtstag at the end."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "68 in German is…",
+          "opciones": [
+            "achtundsechzig",
+            "sechzigacht",
+            "sechsundachtzig",
+            "achtsechzig"
+          ],
+          "correcta": 0,
+          "explicacion": "Units first: eight-and-sixty."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "405 in German is…",
+          "opciones": [
+            "vierhundertfünf",
+            "fünfhundertvier",
+            "vierhundertfünfzig",
+            "vierfünfhundert"
+          ],
+          "correcta": 0,
+          "explicacion": "4 hundred 5."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "1500 in German is…",
+          "opciones": [
+            "tausendfünfhundert",
+            "fünfzehnhundert tausend",
+            "einstausendfünfhundert",
+            "fünfhunderttausend"
+          ],
+          "correcta": 0,
+          "explicacion": "No 'ein' before tausend."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*Der Prinz heißt Heinrich. ___ ist 30 Jahre alt.*",
+          "opciones": [
+            "Er",
+            "Sie",
+            "Es",
+            "Wir"
+          ],
+          "correcta": 0,
+          "explicacion": "der Prinz → er."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*Das Schloss heißt Neuschwanstein. ___ ist sehr alt.*",
+          "opciones": [
+            "Es",
+            "Er",
+            "Sie",
+            "Ihr"
+          ],
+          "correcta": 0,
+          "explicacion": "das Schloss → es."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*Hamburg und Frankfurt sind Städte. ___ sind in Deutschland.*",
+          "opciones": [
+            "Sie",
+            "Es",
+            "Er",
+            "Wir"
+          ],
+          "correcta": 0,
+          "explicacion": "Plural → sie (they)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "*Hi, Anne und Maria! Wo wohnt ihr?* means…",
+          "opciones": [
+            "Hi Anne and Maria! Where do you live?",
+            "Hi Anne and Maria! Where do they live?",
+            "Hi Anne and Maria! Where does she live?",
+            "Hi Anne and Maria! How old are you?"
+          ],
+          "correcta": 0,
+          "explicacion": "ihr = you (plural, familiar)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Liliana: *Timo hat eine Party im September. Er hat am zwölften September Geburtstag.* When is Timo's birthday?",
+          "opciones": [
+            "12th September",
+            "2nd September",
+            "12th December",
+            "20th September"
+          ],
+          "correcta": 0,
+          "explicacion": "zwölften = twelfth."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "*Ich bin dreizehn Jahre alt?* is correctly punctuated.",
+          "correcta": false,
+          "explicacion": "It's a statement – it needs a full stop, not a question mark."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "*Mein Haus ist zwanzig Jahre alt* means 'My house is twenty years old'.",
+          "correcta": true,
+          "explicacion": "WB p.6."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write 96 in German.",
+          "claves": [
+            "sechsundneunzig"
+          ],
+          "modelo": "sechsundneunzig",
+          "explicacion": "Units first, then tens: six-and-ninety."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Translate: *We are cool.*",
+          "claves": [
+            "wir sind cool"
+          ],
+          "modelo": "Wir sind cool.",
+          "explicacion": "wir sind."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Translate: *How old are you (ihr)?*",
+          "claves": [
+            "seid ihr"
+          ],
+          "modelo": "Wie alt seid ihr?",
+          "explicacion": "ihr seid – not ihr sind."
+        }
+      ]
     }
   ]
 }
