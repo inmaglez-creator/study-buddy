@@ -54,3 +54,10 @@ Las fotos y listas de cada examen están en el repositorio **privado** `inmaglez
 ## Secciones de la web
 
 Inicio · **Exams** (exámenes en curso y pasados) · **End of year** (`#/finales`: un examen global por asignatura con todo su banco) · Progress.
+
+## Contador de visitas y estadísticas
+
+- Cada página muestra abajo sus visitas y las totales. Se cuentan con **Abacus** (`abacus.jasoncameron.dev`, gratis y sin cuenta), espacio `study-buddy-inmaglez`; en local se usa `study-buddy-local`. Clave de cada página: `claveVisita()` en `js/app.js` (`<curso>_<ruta con _>`), más `total`. Una visita por página y sesión del navegador.
+- Página oculta **`#/estadisticas`**: tablas de visitas por examen/recurso y por tema, y botón para no contar las visitas de ese dispositivo. No está enlazada; no tiene contraseña.
+- Abacus admite 30 peticiones cada 10 s: leer contadores en masa siempre despacio (3 a la vez como máximo).
+- Al cambiar el CSS o el JS, subir el número `?v=` en `index.html` para que los navegadores no usen la versión antigua.

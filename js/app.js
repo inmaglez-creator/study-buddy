@@ -924,20 +924,22 @@ async function mostrarVisitas(partes) {
   }
 }
 
-// Lee muchos contadores con pocas peticiones a la vez, para no saturar el servicio.
-async function leerContadores(claves) {
-  const valores = {};
-  const cola = [...new Set(claves)];
-  await Promise.all(Array.from({ length: 6 }, async () => {
-    while (cola.length) {
-      const clave = cola.shift();
-      try { valores[clave] = await leerContador(clave); } catch { valores[clave] = null; }
-    }
-  }));
-  return valores;
+// El servicio admite 30 peticiones cada 10 s: se leen de una en una, con pausa, y se reintenta si responde 429.
+const espera = ms => new Promise(r => setTimeout(r, ms));
+
+async function leerDespacio(clave) {
+  for (let intento = 0; intento < 4; intento++) {
+    // A veces el servicio se queda colgado: se corta a los 6 s y se reintenta.
+    const r = await fetch(`${CONTADOR}/get/${ESPACIO_CONTADOR}/${clave}`, { signal: AbortSignal.timeout(6000) }).catch(() => null);
+    if (r?.status === 404) return 0;
+    if (r?.ok) return (await r.json()).value;
+    await espera(r?.status === 429 ? 4000 : 1000);
+  }
+  return null;
 }
 
 // Página de estadísticas (#/estadisticas): no está enlazada desde ninguna parte de la web.
+// Se pinta enseguida con "…" y cada número aparece al llegar.
 async function vistaEstadisticas() {
   const recursos = [['test', '▶ Practice'], ['imprimir', '🖨 Print'], ['notas', '📖 Notes'], ['tarjetas', '🃏 Flashcards']];
   const principales = [[[], '🏠 Home'], [['examenes'], '📅 Exams'], [['finales'], '🏆 End of year'], [['progreso'], '📈 Progress']];
@@ -950,39 +952,35 @@ async function vistaEstadisticas() {
     temas: a.temas.map(t => ({ t, claves: subtemas.map(([p]) => claveVisita(['a', a.id, 't', t.id, ...p])) }))
   }));
 
+  const num = clave => `<span data-clave="${clave}">…</span>`;
+  const celdas = claves => claves.map(c => `<td>${num(c)}</td>`).join('');
+  const total = claves => `<td><b data-suma="${claves.join(' ')}">…</b></td>`;
+
   app.classList.add('ancho');
-  app.innerHTML = '<h1>📊 Statistics</h1><p class="cargando">Loading visit counts…</p>';
-  const v = await leerContadores(['total', ...principales.map(([p]) => claveVisita(p)), ...filasExamen.flatMap(f => f.claves),
-    ...filasAsig.flatMap(f => [f.claveAsig, ...f.temas.flatMap(t => t.claves)])]);
-  if (location.hash !== '#/estadisticas') return;
-
-  const n = clave => v[clave] === null ? '–' : numero(v[clave] || 0);
-  const suma = claves => numero(claves.reduce((s, c) => s + (v[c] || 0), 0));
-  const celdas = claves => claves.map(c => `<td class="${v[c] ? '' : 'cero'}">${n(c)}</td>`).join('');
-
   app.innerHTML = `
     <h1>📊 Statistics</h1>
-    <p class="suave pequeño">Each page counts one visit per browser session. This page isn't linked anywhere on the site.</p>
+    <p class="suave pequeño">Each page counts one visit per browser session. This page isn't linked anywhere on the site.
+      <span id="cargando-visitas">Numbers appear gradually: the full list takes two or three minutes.</span></p>
     <div class="cifras">
-      <div><b>${n('total')}</b><span>Visits to Study Buddy</span></div>
-      ${principales.map(([p, nombre]) => `<div><b>${n(claveVisita(p))}</b><span>${nombre}</span></div>`).join('')}
+      <div><b>${num('total')}</b><span>Visits to Study Buddy</span></div>
+      ${principales.map(([p, nombre]) => `<div><b>${num(claveVisita(p))}</b><span>${nombre}</span></div>`).join('')}
     </div>
 
     <h2>Exams</h2>
     <div class="tabla-desliza"><table class="tabla-visitas">
       <thead><tr><th>Exam</th>${recursos.map(([, r]) => `<th>${r}</th>`).join('')}<th>Total</th></tr></thead>
       <tbody>${filasExamen.map(({ e, claves }) => `
-        <tr><th>${esc(e.titulo)}</th>${celdas(claves)}<td><b>${suma(claves)}</b></td></tr>`).join('')}
+        <tr><th>${esc(e.titulo)}</th>${celdas(claves)}${total(claves)}</tr>`).join('')}
       </tbody>
     </table></div>
 
     <h2>Subjects and topics</h2>
     ${filasAsig.map(({ a, claveAsig, temas }) => `
-      <h3>${esc(a.icono)} ${esc(a.nombre)} <span class="suave pequeño">· subject page: ${n(claveAsig)}</span></h3>
+      <h3>${esc(a.icono)} ${esc(a.nombre)} <span class="suave pequeño">· subject page: ${num(claveAsig)}</span></h3>
       <div class="tabla-desliza"><table class="tabla-visitas">
         <thead><tr><th>Topic</th>${subtemas.map(([, x]) => `<th>${x}</th>`).join('')}<th>Total</th></tr></thead>
         <tbody>${temas.map(({ t, claves }) => `
-          <tr><th>${esc(t.titulo)}</th>${celdas(claves)}<td><b>${suma(claves)}</b></td></tr>`).join('')}
+          <tr><th>${esc(t.titulo)}</th>${celdas(claves)}${total(claves)}</tr>`).join('')}
         </tbody>
       </table></div>`).join('')}
 
@@ -990,10 +988,38 @@ async function vistaEstadisticas() {
     <p class="suave pequeño">Visits from this device are ${sinContar() ? '<b>not</b> being counted' : 'being counted'}.</p>
     <div class="acciones"><button class="boton ancho" id="no-contar">${sinContar() ? 'Count my visits again' : "Don't count my visits on this device"}</button></div>`;
 
+  const valores = {};
+  const turno = ++turnoVisitas;
   document.getElementById('no-contar').addEventListener('click', () => {
     guardar('noContarVisitas', !sinContar());
-    vistaEstadisticas();
+    render();
   });
+
+  // Tres lecturas a la vez, en el orden de la página (primero lo más importante).
+  const cola = [...new Set([...app.querySelectorAll('[data-clave]')].map(el => el.dataset.clave))];
+  const pintar = (clave, valor) => {
+    valores[clave] = valor;
+    app.querySelectorAll(`[data-clave="${clave}"]`).forEach(el => {
+      el.textContent = valor === null ? '?' : numero(valor);
+      el.closest('td')?.classList.toggle('cero', !valor);
+    });
+    app.querySelectorAll('[data-suma]').forEach(el => {
+      const ks = el.dataset.suma.split(' ');
+      if (ks.every(k => k in valores)) el.textContent = numero(ks.reduce((s, k) => s + (valores[k] || 0), 0));
+    });
+  };
+  await Promise.all(Array.from({ length: 3 }, async () => {
+    while (cola.length && turno === turnoVisitas) {
+      const clave = cola.shift();
+      let valor = null;
+      try { valor = await leerDespacio(clave); } catch { /* sin conexión */ }
+      if (turno !== turnoVisitas) return;
+      pintar(clave, valor);
+      await espera(300);
+    }
+  }));
+  if (turno !== turnoVisitas) return;
+  document.getElementById('cargando-visitas')?.remove();
 }
 
 function render() {
