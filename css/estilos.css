@@ -577,3 +577,8 @@ button.tarjeta { width: 100%; text-align: left; font: inherit; }
 .texto-cuerpo p { margin: 0 0 12px; }
 .texto-fuente { text-align: right; font-size: 14px; color: var(--texto-suave); margin: 4px 0 8px; }
 @media print { .texto-lectura { border: 1px solid #999; break-inside: auto; } .texto-lectura summary { list-style: none; } }
+
+/* Exámenes por partes */
+.selector-partes { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 12px; }
+.titulo-parte { margin: 20px 0 4px; padding-top: 12px; border-top: 2px solid var(--borde); }
+.hoja-preguntas .titulo-parte { list-style: none; margin-left: -24px; }

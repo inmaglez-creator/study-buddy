@@ -65,3 +65,7 @@ Inicio · **Exams** (exámenes en curso y pasados) · **End of year** (`#/finale
 ## Textos de lectura
 
 Si las preguntas de un tema se basan en un texto, el tema lleva `texto`: `{ "titulo", "intro" (opcional), "parrafos": [...], "fuente", "glosario": [...] (opcional) }`. Se muestra abierto antes del test, las flashcards, las notas y en la hoja imprimible, y plegado ("Show the text") durante el test. **Derechos de autor**: los textos con copyright (novelas modernas, etc.) se resumen con nuestras palabras, indicando la página del libro; solo se transcriben completos los de dominio público.
+
+## Exámenes por partes
+
+Un examen de `curso.json` puede llevar `partes`: `[{ "titulo", "lectura": true|false, "temas": [ids] }]` (además de `temas` con todos los ids, para notas y flashcards). En el test se elige *Full exam* o una sola parte. Una parte con `lectura: true` saca **un** texto al azar entre sus temas con `texto` y hace hasta 10 preguntas de ese texto, en orden; las demás reparten 10 preguntas entre sus temas (20 si se hace la parte sola). El resultado da la nota de cada parte y la hoja imprimible va también por partes. Los textos *Unseen text* de English son de práctica, escritos por nosotros.

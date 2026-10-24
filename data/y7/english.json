@@ -1621,6 +1621,1072 @@
       ]
     },
     {
+      "id": "unseen-lighthouse",
+      "titulo": "Unseen text 1 · The Light Goes Out",
+      "resumen": [
+        "Practice reading text written for revision: **The Light Goes Out**.",
+        "",
+        "Read the text, then answer the questions in order. Use **short quotations** as evidence.",
+        "",
+        "## Skills practised",
+        "- Retrieve information",
+        "- Similes and powerful verbs",
+        "- Short sentences and one-line paragraphs",
+        "- Five senses (touch, smell, sound)",
+        "- Character and feelings with evidence",
+        "- Cliff-hanger ending"
+      ],
+      "texto": {
+        "titulo": "The Light Goes Out",
+        "intro": "Mara lives with her father on a tiny island. He is the keeper of the lighthouse.",
+        "parrafos": [
+          "**[1]** The storm arrived just after supper. Wind hurled itself against the lighthouse, and rain rattled the windows like handfuls of gravel. Mara's father pulled on his heavy coat. \"I'm going to check the boat,\" he said. \"Stay inside. Whatever happens, keep the lamp burning.\"",
+          "**[2]** The door slammed behind him. Mara sat by the fire, listening to the sea roar and crash against the rocks below. The clock ticked. Ten minutes passed. Then twenty.",
+          "**[3]** Suddenly, the room went black.",
+          "**[4]** Mara froze. Above her, at the top of the tower, the great lamp had gone out – and somewhere out there, a ship might be heading straight for the rocks. Her heart thudded. Her mouth was as dry as sand. She grabbed the torch from the shelf and began to climb.",
+          "**[5]** One hundred and twelve stone steps. She counted every one. The walls were cold and slimy under her fingers, and the air smelt of salt and old oil. The wind howled through the cracks like a wounded animal. At step eighty, her torch flickered… and died.",
+          "**[6]** In the darkness, something above her creaked."
+        ],
+        "fuente": "Practice text written for Study Buddy"
+      },
+      "notas": [
+        {
+          "seccion": "How to answer reading questions",
+          "tarjetas": [
+            {
+              "etiqueta": "🔍 Retrieve",
+              "titulo": "Find it",
+              "puntos": [
+                "The answer is **in the text**",
+                "*Find and copy* = copy the exact words",
+                "Check the paragraph the question names"
+              ]
+            },
+            {
+              "etiqueta": "🧠 Infer",
+              "titulo": "Work it out",
+              "puntos": [
+                "Use clues: actions, speech, body language",
+                "*How does she feel?* → give the feeling **+ evidence**",
+                "Quote **short** – a few words"
+              ]
+            },
+            {
+              "etiqueta": "✍️ Language",
+              "titulo": "Why that word?",
+              "puntos": [
+                "Name the technique (simile, verb, short sentence…)",
+                "Say **what it makes the reader feel or picture**",
+                "Point → Evidence → Explain (**PEE**)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Skills in this text",
+          "chips": {
+            "titulo": "The Light Goes Out",
+            "items": [
+              "Retrieve information",
+              "Similes and powerful verbs",
+              "Short sentences and one-line paragraphs",
+              "Five senses (touch, smell, sound)",
+              "Character and feelings with evidence",
+              "Cliff-hanger ending"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Simile (The Light Goes Out)",
+          "r": "'like handfuls of gravel', 'as dry as sand', 'like a wounded animal'"
+        },
+        {
+          "p": "Why one-sentence paragraph 3?",
+          "r": "Makes the sudden blackout stand out and shock the reader"
+        },
+        {
+          "p": "Cliff-hanger ending",
+          "r": "'something above her creaked'"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Paragraph 1: when did the storm arrive?",
+          "opciones": [
+            "Just after supper",
+            "At midnight",
+            "In the morning",
+            "Before lunch"
+          ],
+          "correcta": 0,
+          "explicacion": "Retrieve: 'The storm arrived just after supper.'"
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why does Mara's father go outside?",
+          "opciones": [
+            "To check the boat",
+            "To fix the lamp",
+            "To look for Mara",
+            "To fetch wood for the fire"
+          ],
+          "correcta": 0,
+          "explicacion": "Retrieve: 'I'm going to check the boat.'"
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'rain rattled the windows like handfuls of gravel' – which technique is this?",
+          "opciones": [
+            "Simile",
+            "Metaphor",
+            "Onomatopoeia only",
+            "Rhetorical question"
+          ],
+          "correcta": 0,
+          "explicacion": "It compares using 'like'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Wind hurled itself against the lighthouse.' Why is 'hurled' effective?",
+          "opciones": [
+            "It makes the wind sound violent, as if it is attacking",
+            "It shows the wind is gentle",
+            "It tells us the time",
+            "It describes the colour of the sky"
+          ],
+          "correcta": 0,
+          "explicacion": "Personification + a powerful verb."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Paragraph 2: 'Ten minutes passed. Then twenty.' What is the effect of these short sentences?",
+          "opciones": [
+            "They slow the pace and build tension while Mara waits",
+            "They make the story funny",
+            "They explain how the lamp works",
+            "They describe the setting in detail"
+          ],
+          "correcta": 0,
+          "explicacion": "Short sentences create suspense."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is paragraph 3 only one sentence long?",
+          "opciones": [
+            "To make the sudden event stand out and shock the reader",
+            "Because the writer ran out of ideas",
+            "To describe Mara's father",
+            "To end the story"
+          ],
+          "correcta": 0,
+          "explicacion": "A one-line paragraph creates impact."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is the lamp going out so dangerous?",
+          "opciones": [
+            "A ship might crash into the rocks",
+            "Mara will not be able to read",
+            "The fire will go out",
+            "Her father will get lost in the house"
+          ],
+          "correcta": 0,
+          "explicacion": "Infer from paragraph 4."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Her heart thudded. Her mouth was as dry as sand.' How does Mara feel?",
+          "opciones": [
+            "Terrified",
+            "Bored",
+            "Excited",
+            "Calm"
+          ],
+          "correcta": 0,
+          "explicacion": "Physical reactions show fear (show, not tell)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which sense is used in 'the air smelt of salt and old oil'?",
+          "opciones": [
+            "Smell",
+            "Touch",
+            "Taste",
+            "Hearing"
+          ],
+          "correcta": 0,
+          "explicacion": "Five senses make the setting vivid."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which quotation uses the sense of touch?",
+          "opciones": [
+            "'cold and slimy under her fingers'",
+            "'the sea roar and crash'",
+            "'the room went black'",
+            "'the clock ticked'"
+          ],
+          "correcta": 0,
+          "explicacion": "Touch = how something feels."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'The wind howled through the cracks like a wounded animal.' What does this suggest?",
+          "opciones": [
+            "The storm sounds wild, painful and frightening",
+            "The wind is quiet and peaceful",
+            "There is an animal in the lighthouse",
+            "Mara has a pet"
+          ],
+          "correcta": 0,
+          "explicacion": "Simile + sound: creates a scary atmosphere."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Mara is brave because she climbs the tower even though she is scared.",
+          "correcta": true,
+          "explicacion": "She is frightened but still does her duty."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How does the writer end the text?",
+          "opciones": [
+            "With a cliff-hanger",
+            "With a happy ending",
+            "With the father coming home",
+            "With a list of facts"
+          ],
+          "correcta": 0,
+          "explicacion": "'something above her creaked' leaves us wanting more."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Find and copy ONE phrase from paragraph 5 that shows the setting is unpleasant.",
+          "claves": [
+            "cold",
+            "slimy",
+            "salt",
+            "old oil",
+            "howled",
+            "wounded",
+            "cracks",
+            "died"
+          ],
+          "modelo": "'The walls were cold and slimy' / 'smelt of salt and old oil' / 'howled… like a wounded animal'",
+          "explicacion": "Copy the exact words from the text.",
+          "pista": "Look for touch, smell or sound words."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give ONE word to describe Mara and ONE quotation as evidence.",
+          "claves": [
+            "brave",
+            "scared",
+            "frightened",
+            "terrified",
+            "determined",
+            "courageous",
+            "afraid",
+            "nervous",
+            "froze",
+            "thudded",
+            "climb",
+            "grabbed",
+            "counted"
+          ],
+          "modelo": "Brave – 'She grabbed the torch from the shelf and began to climb.' (or scared – 'Mara froze.')",
+          "explicacion": "Point + evidence.",
+          "pista": "Adjective + a short quotation.",
+          "minimo": 2
+        }
+      ]
+    },
+    {
+      "id": "unseen-room-13",
+      "titulo": "Unseen text 2 · Room 13",
+      "resumen": [
+        "Practice reading text written for revision: **Room 13**.",
+        "",
+        "Read the text, then answer the questions in order. Use **short quotations** as evidence.",
+        "",
+        "## Skills practised",
+        "- Personification and similes",
+        "- Onomatopoeia and repetition",
+        "- Third-person narrative",
+        "- Character thoughts in italics",
+        "- Pace: dashes and short sentences",
+        "- Anticlimax ending"
+      ],
+      "texto": {
+        "titulo": "Room 13",
+        "intro": "Sam is on a school trip and is staying in an old youth hostel in the countryside.",
+        "parrafos": [
+          "**[1]** Room 13 was at the very end of the corridor. The wallpaper was peeling, the radiator clanked, and the single bulb buzzed like an angry wasp. \"Lucky number thirteen,\" grinned Josh, throwing his bag onto the top bunk. Sam didn't smile.",
+          "**[2]** That night, Sam couldn't sleep. The old building groaned and sighed around him. Outside, an owl hooted. Josh was snoring softly above him.",
+          "**[3]** Then he heard it. Scratch. Scratch. Scratch.",
+          "**[4]** It was coming from the door. Sam pulled the blanket up to his chin. His palms were sweating and he could hear his own breathing, fast and shallow. *It's nothing,* he told himself. *Old buildings make noises.* But the scratching grew louder, more urgent, as if something was desperate to get in.",
+          "**[5]** Slowly – very slowly – the door handle began to turn.",
+          "**[6]** Sam couldn't move. He couldn't shout. The door creaked open, inch by inch, and a small dark shape slipped into the room… and jumped onto his bed.",
+          "**[7]** \"Meow,\" said the hostel cat, and curled up on his feet."
+        ],
+        "fuente": "Practice text written for Study Buddy"
+      },
+      "notas": [
+        {
+          "seccion": "How to answer reading questions",
+          "tarjetas": [
+            {
+              "etiqueta": "🔍 Retrieve",
+              "titulo": "Find it",
+              "puntos": [
+                "The answer is **in the text**",
+                "*Find and copy* = copy the exact words",
+                "Check the paragraph the question names"
+              ]
+            },
+            {
+              "etiqueta": "🧠 Infer",
+              "titulo": "Work it out",
+              "puntos": [
+                "Use clues: actions, speech, body language",
+                "*How does she feel?* → give the feeling **+ evidence**",
+                "Quote **short** – a few words"
+              ]
+            },
+            {
+              "etiqueta": "✍️ Language",
+              "titulo": "Why that word?",
+              "puntos": [
+                "Name the technique (simile, verb, short sentence…)",
+                "Say **what it makes the reader feel or picture**",
+                "Point → Evidence → Explain (**PEE**)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Skills in this text",
+          "chips": {
+            "titulo": "Room 13",
+            "items": [
+              "Personification and similes",
+              "Onomatopoeia and repetition",
+              "Third-person narrative",
+              "Character thoughts in italics",
+              "Pace: dashes and short sentences",
+              "Anticlimax ending"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Anticlimax (Room 13)",
+          "r": "The scary 'thing' is only the hostel cat"
+        },
+        {
+          "p": "Italics for thoughts",
+          "r": "It's nothing, Old buildings make noises = Sam's thoughts"
+        },
+        {
+          "p": "Personification (Room 13)",
+          "r": "'The old building groaned and sighed'"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Where is Room 13?",
+          "opciones": [
+            "At the very end of the corridor",
+            "Next to the kitchen",
+            "On the ground floor by the door",
+            "In the attic"
+          ],
+          "correcta": 0,
+          "explicacion": "Retrieve from paragraph 1."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'the single bulb buzzed like an angry wasp' – which technique?",
+          "opciones": [
+            "Simile",
+            "Personification only",
+            "Alliteration only",
+            "Ellipsis"
+          ],
+          "correcta": 0,
+          "explicacion": "A comparison with 'like'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do Josh and Sam feel about room 13 at the start?",
+          "opciones": [
+            "Josh is cheerful; Sam is uneasy",
+            "Both are terrified",
+            "Both are bored",
+            "Sam is excited; Josh is scared"
+          ],
+          "correcta": 0,
+          "explicacion": "Josh grins; Sam doesn't smile."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'The old building groaned and sighed around him.' Which technique is this?",
+          "opciones": [
+            "Personification",
+            "Simile",
+            "Onomatopoeia",
+            "Rhetorical question"
+          ],
+          "correcta": 0,
+          "explicacion": "A building can't really groan or sigh – human actions."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Paragraph 3: 'Scratch. Scratch. Scratch.' Why does the writer repeat this word?",
+          "opciones": [
+            "To copy the sound and build tension",
+            "Because it is a spelling mistake",
+            "To show Sam is asleep",
+            "To describe the weather"
+          ],
+          "correcta": 0,
+          "explicacion": "Repetition + onomatopoeia."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which quotation shows Sam is frightened?",
+          "opciones": [
+            "'His palms were sweating'",
+            "'Josh was snoring softly'",
+            "'an owl hooted'",
+            "'Lucky number thirteen'"
+          ],
+          "correcta": 0,
+          "explicacion": "A physical reaction to fear."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why are the words *It's nothing… Old buildings make noises* in italics?",
+          "opciones": [
+            "They are Sam's thoughts",
+            "They are a title",
+            "Josh is shouting them",
+            "They are a different language"
+          ],
+          "correcta": 0,
+          "explicacion": "Italics show what he is thinking."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Paragraph 5: what is the effect of the dashes and 'very slowly'?",
+          "opciones": [
+            "They slow the moment down so the reader waits nervously",
+            "They speed the story up",
+            "They show the door is broken",
+            "They introduce a new character"
+          ],
+          "correcta": 0,
+          "explicacion": "Pace slows → suspense increases."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Sam couldn't move. He couldn't shout.' What do these short sentences show?",
+          "opciones": [
+            "He is frozen with fear",
+            "He is asleep",
+            "He is angry with Josh",
+            "He is laughing"
+          ],
+          "correcta": 0,
+          "explicacion": "Short, repeated structures show panic."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the ending of the story?",
+          "opciones": [
+            "An anticlimax – the 'monster' is only a cat",
+            "A cliff-hanger",
+            "A tragic ending",
+            "A dream"
+          ],
+          "correcta": 0,
+          "explicacion": "The tension is broken by something harmless."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The story is told in the first person.",
+          "correcta": false,
+          "explicacion": "It uses 'he' and 'Sam' – third person."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The writer uses sound to build tension (clanked, buzzed, hooted, scratch, creaked).",
+          "correcta": true,
+          "explicacion": "Hearing is the main sense in this text."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Find and copy TWO sounds Sam hears in paragraph 2.",
+          "claves": [
+            "groan",
+            "sigh",
+            "owl",
+            "hoot",
+            "snor"
+          ],
+          "modelo": "The building 'groaned and sighed', an owl 'hooted', Josh was 'snoring'.",
+          "explicacion": "Retrieve from paragraph 2.",
+          "minimo": 2
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Why do you think the writer chose room NUMBER 13?",
+          "claves": [
+            "unlucky",
+            "bad luck",
+            "superstit",
+            "scary",
+            "fear"
+          ],
+          "modelo": "13 is thought to be an unlucky number, so it hints that something bad will happen.",
+          "explicacion": "Think about superstitions.",
+          "pista": "What do people believe about 13?"
+        }
+      ]
+    },
+    {
+      "id": "unseen-last-train",
+      "titulo": "Unseen text 3 · The Last Train",
+      "resumen": [
+        "Practice reading text written for revision: **The Last Train**.",
+        "",
+        "Read the text, then answer the questions in order. Use **short quotations** as evidence.",
+        "",
+        "## Skills practised",
+        "- Rhetorical questions",
+        "- Ellipsis and pace",
+        "- Isolation and setting",
+        "- Onomatopoeia and personification",
+        "- Inference (the grey suit)",
+        "- Cliff-hanger ending"
+      ],
+      "texto": {
+        "titulo": "The Last Train",
+        "intro": "Leo is travelling home alone on the last train of the night.",
+        "parrafos": [
+          "**[1]** Leo hadn't meant to fall asleep. One moment he was watching the city lights flash past the window; the next, he woke with a jolt. The carriage was empty.",
+          "**[2]** Completely empty.",
+          "**[3]** Where had everyone gone? The woman with the shopping bags, the man in the grey suit, the students laughing at the back – all of them had vanished. Leo checked his phone. No signal. 23:47.",
+          "**[4]** The train was moving faster now, rattling and swaying through a long, black tunnel. The lights above him flickered on… off… on. Each time they came back, the carriage seemed a little longer, the far end a little darker.",
+          "**[5]** Then a voice crackled through the speakers: \"Next stop… Hollow End.\"",
+          "**[6]** Leo frowned. He had travelled this line every week for two years. There was no station called Hollow End.",
+          "**[7]** The brakes screamed. The train shuddered to a halt. With a hiss, the doors slid open onto a platform he had never seen – and on the platform, waiting in the fog, stood a figure in a grey suit."
+        ],
+        "fuente": "Practice text written for Study Buddy"
+      },
+      "notas": [
+        {
+          "seccion": "How to answer reading questions",
+          "tarjetas": [
+            {
+              "etiqueta": "🔍 Retrieve",
+              "titulo": "Find it",
+              "puntos": [
+                "The answer is **in the text**",
+                "*Find and copy* = copy the exact words",
+                "Check the paragraph the question names"
+              ]
+            },
+            {
+              "etiqueta": "🧠 Infer",
+              "titulo": "Work it out",
+              "puntos": [
+                "Use clues: actions, speech, body language",
+                "*How does she feel?* → give the feeling **+ evidence**",
+                "Quote **short** – a few words"
+              ]
+            },
+            {
+              "etiqueta": "✍️ Language",
+              "titulo": "Why that word?",
+              "puntos": [
+                "Name the technique (simile, verb, short sentence…)",
+                "Say **what it makes the reader feel or picture**",
+                "Point → Evidence → Explain (**PEE**)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Skills in this text",
+          "chips": {
+            "titulo": "The Last Train",
+            "items": [
+              "Rhetorical questions",
+              "Ellipsis and pace",
+              "Isolation and setting",
+              "Onomatopoeia and personification",
+              "Inference (the grey suit)",
+              "Cliff-hanger ending"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Rhetorical question (The Last Train)",
+          "r": "'Where had everyone gone?' – shows confusion, makes the reader wonder"
+        },
+        {
+          "p": "Ellipsis (The Last Train)",
+          "r": "'flickered on… off… on' – pauses that build suspense"
+        },
+        {
+          "p": "Isolation in suspense",
+          "r": "Empty carriage + no signal = no help"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What was Leo doing before he fell asleep?",
+          "opciones": [
+            "Watching the city lights out of the window",
+            "Reading a book",
+            "Talking to a student",
+            "Playing on his phone"
+          ],
+          "correcta": 0,
+          "explicacion": "Retrieve from paragraph 1."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is paragraph 2 just two words: 'Completely empty.'?",
+          "opciones": [
+            "To emphasise the shock and how alone Leo is",
+            "Because the writer forgot the verb",
+            "To introduce a new character",
+            "To describe the weather"
+          ],
+          "correcta": 0,
+          "explicacion": "A very short paragraph gives impact."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Paragraph 3 begins with a question. What is the effect?",
+          "opciones": [
+            "It shows Leo's confusion and makes the reader wonder too",
+            "It gives a clear answer",
+            "It tells us the time",
+            "It describes the train"
+          ],
+          "correcta": 0,
+          "explicacion": "Rhetorical question → mystery."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What time is it?",
+          "opciones": [
+            "23:47",
+            "11:15",
+            "Midnight exactly",
+            "Seven in the evening"
+          ],
+          "correcta": 0,
+          "explicacion": "Retrieve: 'No signal. 23:47.'"
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why does the writer mention that there is 'No signal'?",
+          "opciones": [
+            "Leo cannot call for help – he is isolated",
+            "His phone is new",
+            "The train is late",
+            "He wants to play a game"
+          ],
+          "correcta": 0,
+          "explicacion": "Isolation increases tension."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'The lights above him flickered on… off… on.' What is the effect of the ellipses?",
+          "opciones": [
+            "They copy the pauses and build suspense",
+            "They show the lights are bright",
+            "They show Leo is happy",
+            "They show a list of objects"
+          ],
+          "correcta": 0,
+          "explicacion": "Ellipsis = pause and suspense."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'the carriage seemed a little longer, the far end a little darker' suggests that…",
+          "opciones": [
+            "something strange or supernatural is happening",
+            "the train is being cleaned",
+            "Leo is getting off",
+            "it is morning"
+          ],
+          "correcta": 0,
+          "explicacion": "The setting is changing in an unnatural way."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word in paragraph 5 is onomatopoeia?",
+          "opciones": [
+            "crackled",
+            "voice",
+            "Next",
+            "stop"
+          ],
+          "correcta": 0,
+          "explicacion": "It sounds like the noise of the speaker."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is 'Hollow End' a good name for this station?",
+          "opciones": [
+            "It sounds empty and final, like a dead end",
+            "It is a real station in London",
+            "It sounds happy and bright",
+            "It is the name of Leo's school"
+          ],
+          "correcta": 0,
+          "explicacion": "Hollow = empty; End = the end."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'The brakes screamed.' Which technique?",
+          "opciones": [
+            "Personification",
+            "Simile",
+            "Alliteration",
+            "Rhetorical question"
+          ],
+          "correcta": 0,
+          "explicacion": "Brakes can't really scream."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is the figure in a grey suit frightening?",
+          "opciones": [
+            "It seems to be the man who vanished from the train",
+            "It is Leo's dad",
+            "It is a ticket inspector",
+            "It is wearing a costume"
+          ],
+          "correcta": 0,
+          "explicacion": "Infer: the man in the grey suit from paragraph 3."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The story ends with a cliff-hanger.",
+          "correcta": true,
+          "explicacion": "We don't know who the figure is or what happens next."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Find and copy TWO verbs in paragraph 7 that show the train stopping suddenly or noisily.",
+          "claves": [
+            "scream",
+            "shudder",
+            "hiss",
+            "halt"
+          ],
+          "modelo": "'screamed', 'shuddered', 'hiss'",
+          "explicacion": "Powerful verbs create drama.",
+          "minimo": 2
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "How does the writer make the tunnel feel scary? Give ONE technique and ONE quotation.",
+          "claves": [
+            "black",
+            "flicker",
+            "dark",
+            "ellips",
+            "rattl",
+            "sway",
+            "longer",
+            "darker",
+            "…"
+          ],
+          "modelo": "Darkness and flickering lights – 'a long, black tunnel', 'flickered on… off… on.'",
+          "explicacion": "Technique + evidence.",
+          "pista": "Think about light and dark.",
+          "minimo": 2
+        }
+      ]
+    },
+    {
+      "id": "unseen-attic",
+      "titulo": "Unseen text 4 · The Music Box",
+      "resumen": [
+        "Practice reading text written for revision: **The Music Box**.",
+        "",
+        "Read the text, then answer the questions in order. Use **short quotations** as evidence.",
+        "",
+        "## Skills practised",
+        "- Five senses",
+        "- Personification and similes",
+        "- Vocabulary in context",
+        "- Repetition",
+        "- Setting and atmosphere",
+        "- Cliff-hanger ending"
+      ],
+      "texto": {
+        "titulo": "The Music Box",
+        "intro": "Priya is staying with her grandmother. Grandma asks her to fetch a box of old photos from the attic.",
+        "parrafos": [
+          "**[1]** The attic ladder groaned as Priya climbed. At the top, she pushed open the hatch and a cloud of dust drifted down, tickling her nose. She sneezed.",
+          "**[2]** It was gloomy up there. Thin stripes of grey light crept through the gaps in the roof tiles, falling across old suitcases, a broken rocking horse and a mirror covered with a white sheet. The air tasted stale, like the inside of an old book. Somewhere, a fly buzzed against the glass of the tiny window.",
+          "**[3]** Priya found the box of photos almost at once. She was turning to leave when she noticed something on the windowsill: a small wooden music box, its painted roses faded and cracked.",
+          "**[4]** She didn't touch it. She was certain she didn't touch it.",
+          "**[5]** But the lid opened by itself, and a tiny silver ballerina began to spin. A tune tinkled out – slow, sweet and slightly out of tune. Priya's skin prickled. Her grandmother had told her once that the music box had been broken for fifty years.",
+          "**[6]** Behind her, the white sheet slid from the mirror and fell to the floor without a sound."
+        ],
+        "fuente": "Practice text written for Study Buddy"
+      },
+      "notas": [
+        {
+          "seccion": "How to answer reading questions",
+          "tarjetas": [
+            {
+              "etiqueta": "🔍 Retrieve",
+              "titulo": "Find it",
+              "puntos": [
+                "The answer is **in the text**",
+                "*Find and copy* = copy the exact words",
+                "Check the paragraph the question names"
+              ]
+            },
+            {
+              "etiqueta": "🧠 Infer",
+              "titulo": "Work it out",
+              "puntos": [
+                "Use clues: actions, speech, body language",
+                "*How does she feel?* → give the feeling **+ evidence**",
+                "Quote **short** – a few words"
+              ]
+            },
+            {
+              "etiqueta": "✍️ Language",
+              "titulo": "Why that word?",
+              "puntos": [
+                "Name the technique (simile, verb, short sentence…)",
+                "Say **what it makes the reader feel or picture**",
+                "Point → Evidence → Explain (**PEE**)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Skills in this text",
+          "chips": {
+            "titulo": "The Music Box",
+            "items": [
+              "Five senses",
+              "Personification and similes",
+              "Vocabulary in context",
+              "Repetition",
+              "Setting and atmosphere",
+              "Cliff-hanger ending"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Five senses (The Music Box)",
+          "r": "Touch: tickling; taste: stale air; hearing: fly buzzed, tune tinkled; sight: grey light"
+        },
+        {
+          "p": "Repetition (The Music Box)",
+          "r": "'She didn't touch it. She was certain…' – Priya convincing herself"
+        },
+        {
+          "p": "Creepy setting objects",
+          "r": "Mirror under a sheet, broken rocking horse, music box"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Why does Priya go up to the attic?",
+          "opciones": [
+            "To fetch a box of old photos",
+            "To hide from her grandmother",
+            "To find the music box",
+            "To fix the window"
+          ],
+          "correcta": 0,
+          "explicacion": "Retrieve from the introduction."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'The attic ladder groaned' – which technique?",
+          "opciones": [
+            "Personification",
+            "Simile",
+            "Rhetorical question",
+            "Alliteration"
+          ],
+          "correcta": 0,
+          "explicacion": "A ladder can't really groan."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which sense is used in 'tickling her nose'?",
+          "opciones": [
+            "Touch",
+            "Sight",
+            "Hearing",
+            "Taste"
+          ],
+          "correcta": 0,
+          "explicacion": "Something touching her skin."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'The air tasted stale, like the inside of an old book.' Which TWO things does this sentence use?",
+          "opciones": [
+            "The sense of taste and a simile",
+            "Hearing and a metaphor",
+            "Sight and onomatopoeia",
+            "Touch and a rhetorical question"
+          ],
+          "correcta": 0,
+          "explicacion": "tasted = taste; 'like' = simile."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word in paragraph 2 means 'dark and dull'?",
+          "opciones": [
+            "gloomy",
+            "stale",
+            "tiny",
+            "broken"
+          ],
+          "correcta": 0,
+          "explicacion": "Vocabulary in context."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which object in paragraph 2 adds the most mystery?",
+          "opciones": [
+            "A mirror covered with a white sheet",
+            "Old suitcases",
+            "The roof tiles",
+            "The tiny window"
+          ],
+          "correcta": 0,
+          "explicacion": "Hidden things make us wonder – and it returns at the end."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'She didn't touch it. She was certain she didn't touch it.' What is the effect of the repetition?",
+          "opciones": [
+            "It shows Priya is trying to convince herself – she is scared",
+            "It shows she is bored",
+            "It is a mistake",
+            "It shows she broke the box"
+          ],
+          "correcta": 0,
+          "explicacion": "Repetition builds tension."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is it so strange that the music box plays?",
+          "opciones": [
+            "It had been broken for fifty years",
+            "It is very new",
+            "Priya wound it up",
+            "Grandma is playing it"
+          ],
+          "correcta": 0,
+          "explicacion": "Retrieve + infer from paragraph 5."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Priya's skin prickled.' How does she feel?",
+          "opciones": [
+            "Frightened and uneasy",
+            "Happy and relaxed",
+            "Hungry",
+            "Sleepy"
+          ],
+          "correcta": 0,
+          "explicacion": "A physical reaction shows fear."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'slow, sweet and slightly out of tune' – what does 'slightly out of tune' add?",
+          "opciones": [
+            "Something feels wrong and eerie",
+            "The music is perfect",
+            "Priya is a good singer",
+            "Grandma is downstairs"
+          ],
+          "correcta": 0,
+          "explicacion": "A creepy detail."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Priya touches the music box before it starts to play.",
+          "correcta": false,
+          "explicacion": "'She didn't touch it' – the lid opens by itself."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How does the last sentence build suspense?",
+          "opciones": [
+            "Something happens silently behind her and we don't know what is in the mirror",
+            "It explains everything",
+            "It ends happily",
+            "It describes Grandma"
+          ],
+          "correcta": 0,
+          "explicacion": "Cliff-hanger."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Find and copy ONE phrase that appeals to the sense of HEARING.",
+          "claves": [
+            "groan",
+            "sneez",
+            "buzz",
+            "tinkl",
+            "tune",
+            "fly"
+          ],
+          "modelo": "'a fly buzzed against the glass' / 'A tune tinkled out' / 'ladder groaned'",
+          "explicacion": "Look for sound words.",
+          "pista": "Listen to the attic!"
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name TWO objects in the attic that make the setting creepy.",
+          "claves": [
+            "mirror",
+            "sheet",
+            "rocking horse",
+            "music box",
+            "suitcase",
+            "ballerina"
+          ],
+          "modelo": "The mirror covered with a white sheet and the broken rocking horse (also the music box).",
+          "explicacion": "Setting details create atmosphere.",
+          "minimo": 2
+        }
+      ]
+    },
+    {
       "id": "horror-suspense-genre",
       "titulo": "Spine-Chilling Suspense · The horror toolbox",
       "resumen": [

@@ -439,21 +439,70 @@ function elegirPreguntas(grupos, max = PREGUNTAS_POR_TEST) {
   return barajar(elegidas);
 }
 
-function ejecutarTest({ titulo, grupos, salir, alTerminar, temas = [] }) {
+// Exámenes por partes (`partes` en curso.json). Una parte con `lectura: true` saca UN texto
+// al azar entre sus temas con `texto` y hace preguntas solo de ese texto, como en un examen real;
+// las demás partes reparten sus preguntas entre sus temas.
+const PREGUNTAS_POR_PARTE = 10;
+
+function partesDeExamen(e) {
+  const a = asignatura(e.asignatura);
+  return (e.partes || []).map(p => ({ ...p, temas: (p.temas || []).map(id => tema(a, id)).filter(Boolean) }));
+}
+
+let ultimoTexto = null;
+
+// Devuelve las secciones de una tanda: [{ titulo, textos: [temas], qs: [preguntas] }].
+function tandaPorPartes(partes, sel) {
+  const elegidas = sel === null ? partes : [partes[sel]];
+  const max = elegidas.length > 1 ? PREGUNTAS_POR_PARTE : PREGUNTAS_POR_TEST;
+  return elegidas.map(p => {
+    if (p.lectura) {
+      const conTexto = p.temas.filter(t => t.texto && t.preguntas?.length);
+      const opciones = conTexto.length > 1 ? conTexto.filter(t => t.id !== ultimoTexto) : conTexto;
+      const t = barajar(opciones)[0];
+      if (!t) return { titulo: p.titulo, textos: [], qs: [] };
+      ultimoTexto = t.id;
+      // Se respeta el orden de las preguntas del texto (van siguiendo la lectura).
+      const qs = t.preguntas.length > max
+        ? barajar(t.preguntas.map((_, k) => k)).slice(0, max).sort((x, y) => x - y).map(k => t.preguntas[k])
+        : t.preguntas;
+      return { titulo: p.titulo, textos: [t], qs };
+    }
+    return { titulo: p.titulo, textos: [], qs: elegirPreguntas(p.temas.map(t => t.preguntas || []), max) };
+  });
+}
+
+function ejecutarTest({ titulo, grupos, salir, alTerminar, temas = [], partes = [] }) {
   const total = grupos.reduce((s, g) => s + g.length, 0);
   if (!total) {
     app.innerHTML = `${volver(salir, 'Back')}<p class="vacio">No questions yet.</p>`;
     return;
   }
-  let modo, lista, respuestas, i, completo;
+  let modo, lista, respuestas, i, completo, secciones, textos;
+  let sel = null; // parte elegida (null = todas)
+
+  const nuevaTanda = () => {
+    secciones = partes.length
+      ? tandaPorPartes(partes, sel)
+      : [{ titulo: null, textos: temas, qs: elegirPreguntas(grupos) }];
+    textos = secciones.flatMap(x => x.textos);
+  };
 
   function inicio() {
     window.scrollTo(0, 0);
+    nuevaTanda();
+    const n = secciones.reduce((s, x) => s + x.qs.length, 0);
     app.innerHTML = `
       ${volver(salir, 'Back')}
       <h1>📝 ${esc(titulo)}</h1>
-      <p class="suave">${Math.min(PREGUNTAS_POR_TEST, total)} random questions from a bank of ${total}.</p>
-      ${textosHTML(temas, true)}
+      ${partes.length ? `
+        <div class="selector-partes" role="group" aria-label="Exam part">
+          <button class="pestana ${sel === null ? 'activa' : ''}" data-sel="">Full exam</button>
+          ${partes.map((p, k) => `<button class="pestana ${sel === k ? 'activa' : ''}" data-sel="${k}">${esc(p.titulo)}</button>`).join('')}
+        </div>
+        <p class="suave">${secciones.map(x => `<b>${esc(x.titulo)}</b>: ${x.qs.length} questions${x.textos.length ? ' on the text below' : ''}`).join(' · ')}</p>`
+      : `<p class="suave">${n} random questions from a bank of ${total}.</p>`}
+      ${textosHTML(textos, true)}
       <div class="lista">
         <button class="tarjeta modo" id="modo-practica">
           <span class="icono">🎯</span>
@@ -464,12 +513,18 @@ function ejecutarTest({ titulo, grupos, salir, alTerminar, temas = [] }) {
           <div class="crece"><b>Exam mode</b><div class="estado">Answer everything, then submit to get your mark</div></div>
         </button>
       </div>`;
-    document.getElementById('modo-practica').addEventListener('click', () => { modo = 'practica'; empezar(elegirPreguntas(grupos), true); });
-    document.getElementById('modo-examen').addEventListener('click', () => { modo = 'examen'; empezar(elegirPreguntas(grupos), true); });
+    app.querySelectorAll('[data-sel]').forEach(b => b.addEventListener('click', () => {
+      sel = b.dataset.sel === '' ? null : Number(b.dataset.sel);
+      inicio();
+    }));
+    document.getElementById('modo-practica').addEventListener('click', () => { modo = 'practica'; empezarTanda(); });
+    document.getElementById('modo-examen').addEventListener('click', () => { modo = 'examen'; empezarTanda(); });
   }
 
-  function empezar(qs, esCompleto) {
-    lista = qs.map(prepararPregunta);
+  const empezarTanda = () => empezar(secciones.flatMap(x => x.qs.map(q => ({ q, parte: x.titulo }))), true);
+
+  function empezar(items, esCompleto) {
+    lista = items.map(({ q, parte }) => ({ ...prepararPregunta(q), parte }));
     respuestas = new Array(lista.length).fill(null);
     i = 0;
     completo = esCompleto;
@@ -484,9 +539,9 @@ function ejecutarTest({ titulo, grupos, salir, alTerminar, temas = [] }) {
     window.scrollTo(0, 0);
     app.innerHTML = `
       <a class="volver" href="${salir}">✕ Exit</a>
-      <div class="progreso-test"><span>${esc(titulo)}</span><span>${i + 1} / ${lista.length}</span></div>
+      <div class="progreso-test"><span>${esc(q.parte || titulo)}</span><span>${i + 1} / ${lista.length}</span></div>
       ${barra(i / lista.length * 100)}
-      ${textosHTML(temas, false)}
+      ${textosHTML(textos, false)}
       <div class="enunciado">${esc(q.enunciado)}</div>
       ${q.tipo === 'corta' ? `
         ${q.pista ? `<div class="pista">💡 ${esc(q.pista)}</div>` : ''}
@@ -551,9 +606,11 @@ function ejecutarTest({ titulo, grupos, salir, alTerminar, temas = [] }) {
     app.innerHTML = `
       <a class="volver" href="${salir}">✕ Exit</a>
       <div class="progreso-test"><span>${esc(titulo)}</span><span id="contestadas">0 / ${lista.length} answered</span></div>
-      ${textosHTML(temas, false)}
       <div class="lista" style="margin-top:12px">
         ${lista.map((q, n) => `
+          ${q.parte && q.parte !== lista[n - 1]?.parte ? `
+            <h2 class="titulo-parte">${esc(q.parte)}</h2>
+            ${textosHTML(textos.filter(t => secciones.some(x => x.titulo === q.parte && x.textos.includes(t))), true)}` : ''}
           <div class="tarjeta">
             <div class="suave pequeño">Question ${n + 1}</div>
             <div class="enunciado enunciado-examen">${esc(q.enunciado)}</div>
@@ -568,6 +625,7 @@ function ejecutarTest({ titulo, grupos, salir, alTerminar, temas = [] }) {
       </div>
       <p class="feedback mal" id="aviso-envio" hidden></p>
       <div class="acciones"><button class="boton principal ancho" id="enviar">Submit answers</button></div>`;
+    if (!lista[0]?.parte) app.querySelector('.lista').insertAdjacentHTML('beforebegin', textosHTML(textos, false));
     const contador = document.getElementById('contestadas');
     const contar = () => {
       contador.textContent = `${respuestas.filter(r => r !== null).length} / ${lista.length} answered`;
@@ -612,6 +670,12 @@ function ejecutarTest({ titulo, grupos, salir, alTerminar, temas = [] }) {
       ? `Model answer: <b>${esc(q.modelo)}</b>`
       : `Correct answer: <b>${esc(q.opciones[q.correcta])}</b>`;
     const nota = Math.round(aciertos / lista.length * 100);
+    const nombresPartes = [...new Set(lista.map(q => q.parte).filter(Boolean))];
+    const porParte = nombresPartes.length > 1 ? nombresPartes.map(p => {
+      const idx = lista.map((q, n) => n).filter(n => lista[n].parte === p);
+      const ok = idx.filter(n => esCorrecta(lista[n], respuestas[n])).length;
+      return `<div class="tarjeta"><b>${esc(p)}</b><div class="suave">${ok} of ${idx.length} correct · ${Math.round(ok / idx.length * 100)}%</div>${barra(ok / idx.length * 100)}</div>`;
+    }).join('') : '';
     if (completo) alTerminar?.(nota);
     window.scrollTo(0, 0);
     app.innerHTML = `
@@ -619,6 +683,7 @@ function ejecutarTest({ titulo, grupos, salir, alTerminar, temas = [] }) {
       <p class="nota">${nota}%</p>
       <p style="text-align:center"><b>${mensajeNota(nota)}</b><br>
         <span class="suave">${aciertos} of ${lista.length} correct</span></p>
+      ${porParte ? `<div class="lista">${porParte}</div>` : ''}
       <div class="acciones">
         <button class="boton principal ancho" id="nuevas">🔁 New random questions</button>
         ${fallos.length ? `<button class="boton ancho" id="repetir-fallos">Practise mistakes only (${fallos.length})</button>` : ''}
@@ -640,9 +705,9 @@ function ejecutarTest({ titulo, grupos, salir, alTerminar, temas = [] }) {
       respuestas[Number(b.dataset.meVale)].ok = true;
       resultado();
     }));
-    document.getElementById('nuevas').addEventListener('click', () => empezar(elegirPreguntas(grupos), true));
+    document.getElementById('nuevas').addEventListener('click', () => { nuevaTanda(); empezarTanda(); });
     document.getElementById('repetir-fallos')?.addEventListener('click', () =>
-      empezar(barajar(fallos.map(f => f.q.original)), false));
+      empezar(barajar(fallos.map(f => ({ q: f.q.original, parte: f.q.parte }))), false));
     document.getElementById('cambiar-modo').addEventListener('click', inicio);
   }
 
@@ -662,7 +727,7 @@ function testTema(a, t) {
 function testExamen(e) {
   const a = asignatura(e.asignatura);
   const temas = temasDeExamen(e);
-  ejecutarTest({ titulo: e.titulo || a.nombre, grupos: temas.map(t => t.preguntas || []), salir: listaDe(e), temas });
+  ejecutarTest({ titulo: e.titulo || a.nombre, grupos: temas.map(t => t.preguntas || []), salir: listaDe(e), temas, partes: partesDeExamen(e) });
 }
 
 // ---------- Notas y examen imprimible ----------
@@ -749,7 +814,12 @@ function vistaImprimir(e) {
   const titulo = e.titulo || a.nombre;
   const letras = 'ABCDEFGH';
   const pintar = () => {
-    const lista = elegirPreguntas(temasDeExamen(e).map(t => t.preguntas || [])).map(prepararPregunta);
+    const partes = partesDeExamen(e);
+    const secciones = partes.length
+      ? tandaPorPartes(partes, null)
+      : [{ titulo: null, textos: temasDeExamen(e), qs: elegirPreguntas(temasDeExamen(e).map(t => t.preguntas || [])) }];
+    const lista = secciones.flatMap(x => x.qs.map(q => ({ ...prepararPregunta(q), parte: x.titulo })));
+    const textoDe = p => textosHTML(secciones.find(x => x.titulo === p)?.textos || [], true);
     app.innerHTML = `
       <div class="no-imprimir">
         ${volver(listaDe(e), e.final ? 'End of year' : 'Exams')}
@@ -769,9 +839,10 @@ function vistaImprimir(e) {
             <span>Score: ____ / ${lista.length}</span>
           </div>
         </header>
-        ${textosHTML(temasDeExamen(e), true)}
+        ${partes.length ? '' : textoDe(null)}
         <ol class="hoja-preguntas">
-          ${lista.map(q => `
+          ${lista.map((q, n) => `
+            ${q.parte && q.parte !== lista[n - 1]?.parte ? `<h2 class="titulo-parte">${esc(q.parte)}</h2>${textoDe(q.parte)}` : ''}
             <li>
               <p class="hoja-enunciado">${esc(q.enunciado)}</p>
               ${q.tipo === 'corta'
@@ -863,7 +934,8 @@ function ejecutarTarjetas({ titulo, tarjetas, salir, temas = [] }) {
     document.getElementById('otra').addEventListener('click', () => empezar(false));
   }
 
-  const textos = textosHTML(temas, true);
+  const conTexto = temas.filter(t => t.texto?.parrafos?.length);
+  const textos = textosHTML(conTexto, conTexto.length <= 2);
   if (!textos) return empezar(true);
   app.innerHTML = `
     ${volver(salir, 'Back')}

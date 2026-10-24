@@ -151,17 +151,46 @@
       "titulo": "English · Reading comprehension (Horror and Suspense)",
       "fecha": "2026-10-27",
       "temas": [
+        "unseen-lighthouse",
+        "unseen-room-13",
+        "unseen-last-train",
+        "unseen-attic",
         "book-clinging-to-the-edge",
-        "book-sentence-types",
         "book-how-will-the-world-end",
-        "book-writing-suspense",
         "horror-suspense-genre",
         "reading-fiction",
         "setting-five-senses",
         "nouns-adjectives",
         "vocabulary-synonyms",
+        "spag",
         "sentences-conjunctions",
-        "spag"
+        "book-sentence-types",
+        "book-writing-suspense"
+      ],
+      "partes": [
+        {
+          "titulo": "Part A · Reading comprehension",
+          "lectura": true,
+          "temas": [
+            "unseen-lighthouse",
+            "unseen-room-13",
+            "unseen-last-train",
+            "unseen-attic",
+            "book-clinging-to-the-edge",
+            "book-how-will-the-world-end"
+          ]
+        },
+        {
+          "titulo": "Part B · Grammar and vocabulary",
+          "temas": [
+            "nouns-adjectives",
+            "vocabulary-synonyms",
+            "spag",
+            "sentences-conjunctions",
+            "book-sentence-types",
+            "book-writing-suspense"
+          ]
+        }
       ]
     },
     {
