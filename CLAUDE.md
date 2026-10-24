@@ -61,3 +61,7 @@ Inicio · **Exams** (exámenes en curso y pasados) · **End of year** (`#/finale
 - Página oculta **`#/estadisticas`**: tablas de visitas por examen/recurso y por tema, y botón para no contar las visitas de ese dispositivo. No está enlazada; no tiene contraseña.
 - Abacus admite 30 peticiones cada 10 s: leer contadores en masa siempre despacio (3 a la vez como máximo).
 - Al cambiar el CSS o el JS, subir el número `?v=` en `index.html` para que los navegadores no usen la versión antigua.
+
+## Textos de lectura
+
+Si las preguntas de un tema se basan en un texto, el tema lleva `texto`: `{ "titulo", "intro" (opcional), "parrafos": [...], "fuente", "glosario": [...] (opcional) }`. Se muestra abierto antes del test, las flashcards, las notas y en la hoja imprimible, y plegado ("Show the text") durante el test. **Derechos de autor**: los textos con copyright (novelas modernas, etc.) se resumen con nuestras palabras, indicando la página del libro; solo se transcriben completos los de dominio público.

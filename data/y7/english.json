@@ -422,7 +422,24 @@
           "modelo": "To add a pause and show Paris's thoughts (extra information), which builds tension.",
           "explicacion": "Dashes can add extra information or a dramatic pause."
         }
-      ]
+      ],
+      "texto": {
+        "titulo": "Clinging to the edge (from The Lastling)",
+        "intro": "Paris is on an expedition to the Himalayas to find the legendary yeti. She is helped by her friend Tahr and by Geng-sun, the creature she was hunting. *This is a retelling of the extract – read the full text in your English book, page 8. Line numbers match the book.*",
+        "parrafos": [
+          "**Lines 1–6.** The yeh-teh climbs up first. The rope ladder goes **taut**, there is a little **hissing** in the air and the spare rope **snaked** back down. Tahr catches it and tugs it. He explains they will tie it round Paris so the yeh-teh can hold her if… – and then he stops. He doesn't say the word *fall*: it might be too much for her.",
+          "**Lines 7–10.** All she has to do is trust the yeh-teh – with her life. Tahr has **looped** the rope around her more than once and tied three or four extra knots, just in case. Then he tells her gently to climb.",
+          "**Lines 11–13.** Paris will only climb if Tahr climbs too and keeps talking to her. He asks what about. 'Anything,' she begs – she just needs to know he is there.",
+          "**Lines 14–21.** Twice she nearly **blacks out** – and part of her almost wishes she could. She finds herself **clamped** to the ladder, arms through the rungs, **hugging** it with all her strength, eyes shut. She feels safe as long as she never moves again. But her **calf muscles** start to **ache** and tremble, and when she tries to shift her weight the ladder swings away, so she **froze** and **clung** again."
+        ],
+        "fuente": "Retold from *The Lastling* by Philip Gross",
+        "glosario": [
+          "**blacked out** = became unconscious",
+          "**calf muscles** = muscles in the lower leg",
+          "**Lastling** = the last of its kind",
+          "**yeh-teh** = yeti"
+        ]
+      }
     },
     {
       "id": "book-sentence-types",
@@ -1196,7 +1213,26 @@
           "explicacion": "Most adverbs end in -ly and answer 'How?'.",
           "pista": "How does someone breathe in?"
         }
-      ]
+      ],
+      "texto": {
+        "titulo": "How will the world end?",
+        "intro": "Lord Kelvin was a prominent 19th-century scientist who made some lively predictions for the future. One of these was that the world's supply of oxygen would be used up in about 300 years. Read the extract published in 1900 by Herbert C. Fyfe as he considers the views of Professor Rees, and Lord Kelvin, describing how the world might end.",
+        "parrafos": [
+          "Professor Rees, a **prominent** American scientist, has been **going further into** the question of the exhaustion of the air supply of the world. He gives definite warning of the coming 'failure' of the air.",
+          "\"Free as the air we breathe,\" he writes, will, in the distant future, become an out-of-date, misleading expression. Air will no longer be free, for it will be manufactured and sold like any other **necessary**. Those who will not work for their daily air supply, and who cannot afford to buy it, will **perish**, for Nature will have exhausted her supply. The artificial air will be stored up in enormous reservoirs, and to these receptacles applicants will come for their daily supply of oxygen. This will then be carried home and **doled out** to the family as part of the day's means to support life. The manufactured oxygen will be breathed in as a diver **inhales** the air supplied him when he sinks beneath the waves.",
+          "\"Died from air starvation\" will be a common verdict in the **coroners' courts** of the future, for \"no money, no air\" will be the rule of life. The wealthy will gain a reputation for charity by free gifts of air to the aged poor at Christmas time. Men and women will no longer be able to look at each other with eyes of love, for everyone will be **clothed** in a great air helmet, like a diver of today.",
+          "There is, however, a **silver lining** of hope **fringing** these gloomy clouds of speculation. Lord Kelvin himself is not wholly a prophet of evil, neither are his views of an entirely pessimistic nature. He looks to the **agriculturalist** to improve his methods, so that plant life on the globe may be able to absorb the surplus **carbonic acid gas** and to release sufficient oxygen to cope with the growing consumption of fuel."
+        ],
+        "fuente": "Herbert C. Fyfe, 1900",
+        "glosario": [
+          "**carbonic acid gas** = heavy gas with no smell, harmful to breathe in",
+          "**coroner's court** = court that finds out how a person died",
+          "**doled out** = given out in equal shares",
+          "**going further into** = exploring and researching",
+          "**necessary** = essential element for human life",
+          "**silver lining** = hopeful side of a difficult situation"
+        ]
+      }
     },
     {
       "id": "book-writing-suspense",

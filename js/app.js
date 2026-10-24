@@ -439,7 +439,7 @@ function elegirPreguntas(grupos, max = PREGUNTAS_POR_TEST) {
   return barajar(elegidas);
 }
 
-function ejecutarTest({ titulo, grupos, salir, alTerminar }) {
+function ejecutarTest({ titulo, grupos, salir, alTerminar, temas = [] }) {
   const total = grupos.reduce((s, g) => s + g.length, 0);
   if (!total) {
     app.innerHTML = `${volver(salir, 'Back')}<p class="vacio">No questions yet.</p>`;
@@ -453,6 +453,7 @@ function ejecutarTest({ titulo, grupos, salir, alTerminar }) {
       ${volver(salir, 'Back')}
       <h1>📝 ${esc(titulo)}</h1>
       <p class="suave">${Math.min(PREGUNTAS_POR_TEST, total)} random questions from a bank of ${total}.</p>
+      ${textosHTML(temas, true)}
       <div class="lista">
         <button class="tarjeta modo" id="modo-practica">
           <span class="icono">🎯</span>
@@ -485,6 +486,7 @@ function ejecutarTest({ titulo, grupos, salir, alTerminar }) {
       <a class="volver" href="${salir}">✕ Exit</a>
       <div class="progreso-test"><span>${esc(titulo)}</span><span>${i + 1} / ${lista.length}</span></div>
       ${barra(i / lista.length * 100)}
+      ${textosHTML(temas, false)}
       <div class="enunciado">${esc(q.enunciado)}</div>
       ${q.tipo === 'corta' ? `
         ${q.pista ? `<div class="pista">💡 ${esc(q.pista)}</div>` : ''}
@@ -549,6 +551,7 @@ function ejecutarTest({ titulo, grupos, salir, alTerminar }) {
     app.innerHTML = `
       <a class="volver" href="${salir}">✕ Exit</a>
       <div class="progreso-test"><span>${esc(titulo)}</span><span id="contestadas">0 / ${lista.length} answered</span></div>
+      ${textosHTML(temas, false)}
       <div class="lista" style="margin-top:12px">
         ${lista.map((q, n) => `
           <div class="tarjeta">
@@ -650,6 +653,7 @@ function testTema(a, t) {
   ejecutarTest({
     titulo: t.titulo,
     grupos: [t.preguntas || []],
+    temas: [t],
     salir: `#/a/${esc(a.id)}/t/${esc(t.id)}`,
     alTerminar: nota => actualizarTema(a.id, t.id, p => { p.mejorNota = Math.max(p.mejorNota ?? 0, nota); }),
   });
@@ -657,16 +661,31 @@ function testTema(a, t) {
 
 function testExamen(e) {
   const a = asignatura(e.asignatura);
-  ejecutarTest({ titulo: e.titulo || a.nombre, grupos: temasDeExamen(e).map(t => t.preguntas || []), salir: listaDe(e) });
+  const temas = temasDeExamen(e);
+  ejecutarTest({ titulo: e.titulo || a.nombre, grupos: temas.map(t => t.preguntas || []), salir: listaDe(e), temas });
 }
 
 // ---------- Notas y examen imprimible ----------
 
+// Texto de lectura (`texto` del tema): las preguntas de comprensión se basan en él,
+// así que se enseña antes del test, las flashcards y las notas, y se puede reabrir durante el test.
+function textosHTML(temas, abierto) {
+  return temas.filter(t => t.texto?.parrafos?.length).map(({ texto: x }) => `
+    <details class="texto-lectura" ${abierto ? 'open' : ''}>
+      <summary>📖 ${abierto ? 'Read the text first' : 'Show the text'}: <b>${inline(x.titulo)}</b></summary>
+      ${x.intro ? `<p class="texto-intro">${inline(x.intro)}</p>` : ''}
+      <div class="texto-cuerpo">${x.parrafos.map(p => `<p>${inline(p)}</p>`).join('')}</div>
+      ${x.fuente ? `<p class="texto-fuente">${inline(x.fuente)}</p>` : ''}
+      ${x.glosario?.length ? `<div class="chips">${x.glosario.map(g => `<span class="chip">${inline(g)}</span>`).join('')}</div>` : ''}
+    </details>`).join('');
+}
+
 // Notas visuales de un tema: bloques con tarjetas (etiqueta, título, puntos) y chips.
 // Si el tema no tiene `notas`, se muestra su `resumen`.
 function notasHTML(t) {
-  if (!t.notas?.length) return `<div class="tarjeta resumen">${markdown(t.resumen)}</div>`;
-  return t.notas.map(s => `
+  const texto = textosHTML([t], true);
+  if (!t.notas?.length) return `${texto}<div class="tarjeta resumen">${markdown(t.resumen)}</div>`;
+  return texto + t.notas.map(s => `
     <section class="bloque-notas">
       ${s.seccion ? `<h3 class="titulo-bloque">${inline(s.seccion)}</h3>` : ''}
       ${s.tarjetas?.length ? `
@@ -750,6 +769,7 @@ function vistaImprimir(e) {
             <span>Score: ____ / ${lista.length}</span>
           </div>
         </header>
+        ${textosHTML(temasDeExamen(e), true)}
         <ol class="hoja-preguntas">
           ${lista.map(q => `
             <li>
@@ -785,7 +805,7 @@ function vistaImprimir(e) {
 
 // ---------- Tarjetas de repaso ----------
 
-function ejecutarTarjetas({ titulo, tarjetas, salir }) {
+function ejecutarTarjetas({ titulo, tarjetas, salir, temas = [] }) {
   if (!tarjetas.length) {
     app.innerHTML = `${volver(salir, 'Back')}<p class="vacio">No flashcards yet.</p>`;
     return;
@@ -843,16 +863,24 @@ function ejecutarTarjetas({ titulo, tarjetas, salir }) {
     document.getElementById('otra').addEventListener('click', () => empezar(false));
   }
 
-  empezar(true);
+  const textos = textosHTML(temas, true);
+  if (!textos) return empezar(true);
+  app.innerHTML = `
+    ${volver(salir, 'Back')}
+    <h1>🃏 ${esc(titulo)}</h1>
+    ${textos}
+    <div class="acciones"><button class="boton principal ancho" id="empezar">Start flashcards →</button></div>`;
+  document.getElementById('empezar').addEventListener('click', () => empezar(true));
 }
 
 function tarjetasTema(a, t) {
-  ejecutarTarjetas({ titulo: t.titulo, tarjetas: tarjetasDe(a, [t]), salir: `#/a/${esc(a.id)}/t/${esc(t.id)}` });
+  ejecutarTarjetas({ titulo: t.titulo, tarjetas: tarjetasDe(a, [t]), salir: `#/a/${esc(a.id)}/t/${esc(t.id)}`, temas: [t] });
 }
 
 function tarjetasExamen(e) {
   const a = asignatura(e.asignatura);
-  ejecutarTarjetas({ titulo: e.titulo || a.nombre, tarjetas: tarjetasDe(a, temasDeExamen(e)), salir: listaDe(e) });
+  const temas = temasDeExamen(e);
+  ejecutarTarjetas({ titulo: e.titulo || a.nombre, tarjetas: tarjetasDe(a, temas), salir: listaDe(e), temas });
 }
 
 // ---------- Navegación ----------
