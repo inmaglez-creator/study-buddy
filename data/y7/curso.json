@@ -162,12 +162,12 @@
         "horror-suspense-genre",
         "reading-fiction",
         "setting-five-senses",
-        "nouns-adjectives",
+        "book-writing-suspense",
+        "nouns",
+        "adjectives",
         "vocabulary-synonyms",
         "spag",
-        "sentences-conjunctions",
-        "book-sentence-types",
-        "book-writing-suspense"
+        "sentences-conjunctions"
       ],
       "partes": [
         {
@@ -187,12 +187,11 @@
         {
           "titulo": "Part B · Grammar and vocabulary",
           "temas": [
-            "nouns-adjectives",
+            "nouns",
+            "adjectives",
             "vocabulary-synonyms",
             "spag",
-            "sentences-conjunctions",
-            "book-sentence-types",
-            "book-writing-suspense"
+            "sentences-conjunctions"
           ]
         }
       ]

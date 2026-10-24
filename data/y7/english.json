@@ -442,394 +442,6 @@
       }
     },
     {
-      "id": "book-sentence-types",
-      "titulo": "Book Unit 1 (pp. 10–11, 14–15) · Simple, compound and complex sentences",
-      "resumen": [
-        "A **sentence** is a group of words with a **subject**, a **verb** and sometimes an **object** that makes complete sense on its own. It begins with a **capital letter** and ends with a **full stop** (or ? !).",
-        "",
-        "## Three types",
-        "- **Simple**: one **main (independent) clause** – *The teenager was really scared of theme parks.* Use it to state one idea clearly, make important points or ask questions.",
-        "- **Compound**: two or more **main clauses** joined by a **conjunction** (and, as, but, because, or, so) – *I am going to the cinema **but** I don't want to see a scary film.*",
-        "- **Complex**: one **main clause** + one or more **subordinate (dependent) clauses** – *When it was younger, the ogre was afraid of humans.*",
-        "",
-        "## Subordinate clauses",
-        "A main clause makes sense on its own; a **subordinate clause must be attached to a main clause**. If the subordinate clause comes first, put a **comma** after it.",
-        "",
-        "## Subordinating conjunctions",
-        "They join the subordinate clause to the main clause and always go at the **start of the subordinate clause**: after, although, as, because, before, even though, if, since, unless, until, when, whenever, whereas, wherever, while."
-      ],
-      "notas": [
-        {
-          "seccion": "Types of sentence",
-          "tarjetas": [
-            {
-              "etiqueta": "1️⃣ Simple",
-              "titulo": "One main clause",
-              "puntos": [
-                "*Tamsin loves rollercoasters.*",
-                "Subject **Tamsin** · verb **loves**",
-                "States one idea clearly, makes a point or asks a question"
-              ]
-            },
-            {
-              "etiqueta": "2️⃣ Compound",
-              "titulo": "Two main clauses + conjunction",
-              "puntos": [
-                "*My name is Ali **and** I am a huge fan of theme parks.*",
-                "Conjunctions: **and, as, but, because, or, so**",
-                "Each clause makes sense alone"
-              ]
-            },
-            {
-              "etiqueta": "🧩 Complex",
-              "titulo": "Main + subordinate clause",
-              "puntos": [
-                "*She still loved him **after the accident in the laboratory**.*",
-                "Gives more information about the subject",
-                "Subordinate clause first → **comma**: *When it was younger, the ogre…*"
-              ]
-            }
-          ]
-        },
-        {
-          "seccion": "Main or subordinate?",
-          "tarjetas": [
-            {
-              "etiqueta": "🐻 Main clause",
-              "titulo": "Independent",
-              "puntos": [
-                "Makes sense on its own",
-                "*He had to save his friend*"
-              ]
-            },
-            {
-              "etiqueta": "🧸 Subordinate clause",
-              "titulo": "Dependent",
-              "puntos": [
-                "Must be **attached** to a main clause",
-                "*because she was afraid of heights*",
-                "Starts with a subordinating conjunction"
-              ]
-            },
-            {
-              "etiqueta": "🎢 Book example",
-              "titulo": "Find the parts",
-              "puntos": [
-                "*I was apprehensive the first time I rode a rollercoaster **but** I loved the thrill it gave me.*",
-                "Subject in each main clause: **I**",
-                "Conjunction: **but**"
-              ]
-            }
-          ],
-          "chips": {
-            "titulo": "Subordinating conjunctions",
-            "items": [
-              "after",
-              "although",
-              "because",
-              "before",
-              "even though",
-              "if ",
-              "since",
-              "unless",
-              "until",
-              "when",
-              "whenever",
-              "whereas",
-              "wherever",
-              "while"
-            ]
-          }
-        },
-        {
-          "seccion": "Choosing the best conjunction (p. 15)",
-          "tarjetas": [
-            {
-              "etiqueta": "🦍 Contrast",
-              "titulo": "Even though / although",
-              "puntos": [
-                "***Even though** I've seen King Kong many times, I'd like to see it again.*"
-              ]
-            },
-            {
-              "etiqueta": "🎬 Reason",
-              "titulo": "Because",
-              "puntos": [
-                "*This is a tense movie **because** the acting is so realistic.*"
-              ]
-            },
-            {
-              "etiqueta": "⏳ Time",
-              "titulo": "Since / when / before",
-              "puntos": [
-                "*I've read thrillers **since** I was 10 years old.*",
-                "***Before** I went to the comic store, I read my copy of Suspense.*"
-              ]
-            }
-          ]
-        }
-      ],
-      "tarjetas": [
-        {
-          "p": "Sentence",
-          "r": "Words with a subject and a verb that make complete sense on their own"
-        },
-        {
-          "p": "Simple sentence",
-          "r": "One main (independent) clause"
-        },
-        {
-          "p": "Compound sentence",
-          "r": "Two or more main clauses joined by a conjunction"
-        },
-        {
-          "p": "Complex sentence",
-          "r": "One main clause + one or more subordinate clauses"
-        },
-        {
-          "p": "Main (independent) clause",
-          "r": "A clause that makes sense on its own"
-        },
-        {
-          "p": "Subordinate (dependent) clause",
-          "r": "A clause that must be attached to a main clause to make sense"
-        },
-        {
-          "p": "Conjunction",
-          "r": "A joining word, e.g. and, as, but, because, or, so"
-        },
-        {
-          "p": "Subordinating conjunction",
-          "r": "Joins a subordinate clause to the main clause; goes at the start of the subordinate clause"
-        },
-        {
-          "p": "Subordinate clause first",
-          "r": "Put a comma after it: When it was younger, the ogre was afraid of humans."
-        },
-        {
-          "p": "Subordinating conjunctions (book)",
-          "r": "after, although, as, because, before, even though, if, since, unless, until, when, whenever, whereas, wherever, while"
-        }
-      ],
-      "preguntas": [
-        {
-          "tipo": "opcion",
-          "enunciado": "'Tamsin loves rollercoasters.' Who is the subject?",
-          "opciones": [
-            "Tamsin",
-            "loves",
-            "rollercoasters",
-            "There is no subject"
-          ],
-          "correcta": 0,
-          "explicacion": "The subject is who does the action."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "'Tamsin loves rollercoasters.' What is the verb?",
-          "opciones": [
-            "loves",
-            "Tamsin",
-            "rollercoasters",
-            "There is no verb"
-          ],
-          "correcta": 0,
-          "explicacion": "Every sentence has at least one verb."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "What type of sentence is 'I become dizzy on rollercoasters.'?",
-          "opciones": [
-            "Simple",
-            "Compound",
-            "Complex",
-            "Not a sentence"
-          ],
-          "correcta": 0,
-          "explicacion": "One main clause."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "What type of sentence is 'My name is Ali and I am a huge fan of theme parks.'?",
-          "opciones": [
-            "Compound",
-            "Simple",
-            "Complex",
-            "A question"
-          ],
-          "correcta": 0,
-          "explicacion": "Two main clauses joined by 'and'."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "What type of sentence is 'He had to save his friend because she was afraid of heights.'?",
-          "opciones": [
-            "Complex",
-            "Simple",
-            "Compound",
-            "Not a sentence"
-          ],
-          "correcta": 0,
-          "explicacion": "Main clause + subordinate clause ('because…')."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Which is NOT a simple sentence?",
-          "opciones": [
-            "I like gentle rides since I don't get scared.",
-            "I become dizzy on rollercoasters.",
-            "Tamsin loves rollercoasters.",
-            "Rollercoasters scare me."
-          ],
-          "correcta": 0,
-          "explicacion": "'since I don't get scared' is a subordinate clause."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "'I was apprehensive the first time I rode a rollercoaster but I loved the thrill it gave me.' What is the conjunction?",
-          "opciones": [
-            "but",
-            "the",
-            "first",
-            "it"
-          ],
-          "correcta": 0,
-          "explicacion": "'But' joins the two main clauses."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Find the subordinate clause: 'Before I became a horror writer, I never watched anything except comedies.'",
-          "opciones": [
-            "Before I became a horror writer",
-            "I never watched anything",
-            "except comedies",
-            "I never watched"
-          ],
-          "correcta": 0,
-          "explicacion": "It can't stand on its own and starts with 'Before'."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Find the main clause: 'She still loved him after the accident in the laboratory.'",
-          "opciones": [
-            "She still loved him",
-            "after the accident",
-            "in the laboratory",
-            "after the accident in the laboratory"
-          ],
-          "correcta": 0,
-          "explicacion": "It makes sense on its own."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Choose the best conjunction: '___ I've seen King Kong many times, I'd like to see it again.'",
-          "opciones": [
-            "Even though",
-            "Because",
-            "Whenever",
-            "Until"
-          ],
-          "correcta": 0,
-          "explicacion": "It shows a contrast."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Choose the best conjunction: 'This is a tense movie ___ the acting is so realistic.'",
-          "opciones": [
-            "because",
-            "whereas",
-            "until",
-            "unless"
-          ],
-          "correcta": 0,
-          "explicacion": "It gives the reason."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Choose the best conjunction: 'I've read thrillers ___ I was 10 years old.'",
-          "opciones": [
-            "since",
-            "although",
-            "when",
-            "unless"
-          ],
-          "correcta": 0,
-          "explicacion": "'Since' shows from what time."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Where does a subordinating conjunction go?",
-          "opciones": [
-            "At the beginning of the subordinate clause",
-            "At the end of the main clause",
-            "Only at the end of the sentence",
-            "After the full stop"
-          ],
-          "correcta": 0,
-          "explicacion": "e.g. *after* they enjoyed a fine dinner…"
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Which is a subordinating conjunction from the book's list?",
-          "opciones": [
-            "unless",
-            "and",
-            "or",
-            "so"
-          ],
-          "correcta": 0,
-          "explicacion": "and, or, so join main clauses."
-        },
-        {
-          "tipo": "vf",
-          "enunciado": "A subordinate clause makes sense on its own.",
-          "correcta": false,
-          "explicacion": "It must be attached to a main clause."
-        },
-        {
-          "tipo": "vf",
-          "enunciado": "When the subordinate clause comes first, it is followed by a comma.",
-          "correcta": true,
-          "explicacion": "When it was younger, the ogre was afraid of humans."
-        },
-        {
-          "tipo": "corta",
-          "enunciado": "Name THREE subordinating conjunctions.",
-          "claves": [
-            "after",
-            "although",
-            "because",
-            "before",
-            "even though",
-            "if ",
-            "since",
-            "unless",
-            "until",
-            "when",
-            "whenever",
-            "whereas",
-            "wherever",
-            "while"
-          ],
-          "modelo": "e.g. because, although, when (also after, before, if, since, unless, until, whereas, wherever, while).",
-          "explicacion": "They start subordinate clauses.",
-          "minimo": 3
-        },
-        {
-          "tipo": "corta",
-          "enunciado": "Turn these two simple sentences into ONE compound sentence: 'I wanted to ride Formula Rossa. I rode it three times.'",
-          "claves": [
-            " and ",
-            " so ",
-            " but "
-          ],
-          "modelo": "I wanted to ride Formula Rossa and I rode it three times.",
-          "explicacion": "Join two main clauses with a conjunction.",
-          "pista": "Use and / so / but."
-        }
-      ]
-    },
-    {
       "id": "book-how-will-the-world-end",
       "titulo": "Book Unit 1 (pp. 12–13) · How will the world end? Satire and adverbs",
       "resumen": [
@@ -1413,66 +1025,6 @@
       "preguntas": [
         {
           "tipo": "opcion",
-          "enunciado": "What is an ellipsis?",
-          "opciones": [
-            "Three dots that show something has been left out",
-            "A dash between two words",
-            "A question mark and an exclamation mark",
-            "Speech marks"
-          ],
-          "correcta": 0,
-          "explicacion": "It can be used to create suspense."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "How does an ellipsis create suspense?",
-          "opciones": [
-            "It makes the reader wait and wonder what comes next",
-            "It ends the story happily",
-            "It lists the characters",
-            "It shows who is speaking"
-          ],
-          "correcta": 0,
-          "explicacion": "*I don't remember entering… the hallway reeked…*"
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Which word is ALWAYS hyphenated?",
-          "opciones": [
-            "part-time",
-            "sugar cane",
-            "resigned",
-            "dinner"
-          ],
-          "correcta": 0,
-          "explicacion": "Fire-fighter, part-time and test-drive are fixed compounds."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Why is there a hyphen in 'a little-used car'?",
-          "opciones": [
-            "To avoid ambiguity – the car is not used much, not small",
-            "Because 'car' is a verb",
-            "Because it is a question",
-            "It is a spelling mistake"
-          ],
-          "correcta": 0,
-          "explicacion": "Without it, it could mean a little car that is used."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "'The writer **re-signed** to extend his contract.' What does re-signed mean?",
-          "opciones": [
-            "Signed again",
-            "Left the job",
-            "Wrote a sign",
-            "Refused to sign"
-          ],
-          "correcta": 0,
-          "explicacion": "Resigned (no hyphen) means he quit."
-        },
-        {
-          "tipo": "opcion",
           "enunciado": "What is a cliff-hanger?",
           "opciones": [
             "A story that stops at a tense moment so you want to read on",
@@ -1575,12 +1127,6 @@
         },
         {
           "tipo": "vf",
-          "enunciado": "'Sugar cane' always needs a hyphen.",
-          "correcta": false,
-          "explicacion": "It doesn't; the author adds one in the title 'Sugar-cane Frame' as a play on words."
-        },
-        {
-          "tipo": "vf",
           "enunciado": "You can use first or third person narrative for your story.",
           "correcta": true,
           "explicacion": "Decide when planning the introduction."
@@ -1606,17 +1152,6 @@
           "modelo": "e.g. time pressure, cliff-hanger, dilemma (also likeable hero, familiar setting, questions, anticlimax, ellipsis…).",
           "explicacion": "Building suspense checklist.",
           "minimo": 3
-        },
-        {
-          "tipo": "corta",
-          "enunciado": "Write a sentence that uses an ellipsis to build suspense.",
-          "claves": [
-            "...",
-            "…"
-          ],
-          "modelo": "I opened the door slowly… something was waiting in the dark…",
-          "explicacion": "An ellipsis is three dots.",
-          "pista": "Use three dots: …"
         }
       ]
     },
@@ -4283,8 +3818,8 @@
       ]
     },
     {
-      "id": "nouns-adjectives",
-      "titulo": "Nouns and adjectives",
+      "id": "nouns",
+      "titulo": "Nouns",
       "resumen": [
         "## Nouns – naming words",
         "- **Common nouns**: everyday things – *house, door, ghost*.",
@@ -4292,11 +3827,8 @@
         "- **Abstract nouns**: things you can't see or touch – feelings and ideas: *fear, terror, courage, silence, darkness*.",
         "- **Collective nouns**: a group – *a flock of birds, a swarm of bees, a pack of wolves*.",
         "",
-        "## Adjectives – describing words",
-        "Adjectives describe nouns: *the **old**, **creaking** door*. Choose **precise** adjectives: *big* → *enormous, gigantic*; *scary* → *terrifying, sinister*.",
-        "- An **expanded noun phrase** adds detail to a noun: *the crumbling house on the hill*.",
-        "- Use commas between two or more adjectives: *a dark, narrow corridor*.",
-        "- Comparatives and superlatives: *dark → darker → darkest*; *terrifying → more terrifying → most terrifying*."
+        "- **Concrete nouns**: things you can see, touch, hear, smell or taste – *door, candle, wolf*.",
+        "- **Singular / plural**: *ghost → ghosts, box → boxes, story → stories, wolf → wolves, child → children*."
       ],
       "notas": [
         {
@@ -4338,6 +3870,287 @@
             }
           ]
         },
+        {
+          "seccion": "Concrete or abstract? Singular or plural?",
+          "tarjetas": [
+            {
+              "etiqueta": "✋ Concrete",
+              "titulo": "You can sense it",
+              "puntos": [
+                "door, candle, **wolf**",
+                "See, touch, hear, smell, taste"
+              ]
+            },
+            {
+              "etiqueta": "💭 Abstract",
+              "titulo": "You can't touch it",
+              "puntos": [
+                "**fear, silence, courage**",
+                "Feelings, ideas, qualities"
+              ]
+            },
+            {
+              "etiqueta": "➕ Plurals",
+              "titulo": "More than one",
+              "puntos": [
+                "ghost**s**, box**es**, stor**ies**",
+                "wol**ves**, **children**, **mice**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Noun",
+          "r": "A naming word for a person, place, thing or idea"
+        },
+        {
+          "p": "Proper noun",
+          "r": "The name of a particular person, place, day or month – capital letter"
+        },
+        {
+          "p": "Abstract noun",
+          "r": "Something you can't see or touch, e.g. fear, courage"
+        },
+        {
+          "p": "Collective noun",
+          "r": "A word for a group, e.g. a pack of wolves"
+        },
+        {
+          "p": "Concrete noun",
+          "r": "Something you can see, touch, hear, smell or taste, e.g. candle"
+        },
+        {
+          "p": "Plural of 'wolf'",
+          "r": "wolves"
+        },
+        {
+          "p": "Plural of 'story'",
+          "r": "stories"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word is a noun? 'The ghost drifted silently.'",
+          "opciones": [
+            "ghost",
+            "drifted",
+            "silently",
+            "the"
+          ],
+          "correcta": 0,
+          "explicacion": "Drifted is a verb, silently an adverb."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is a proper noun?",
+          "opciones": [
+            "London",
+            "city",
+            "castle",
+            "darkness"
+          ],
+          "correcta": 0,
+          "explicacion": "It names a particular place – capital letter."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is an abstract noun?",
+          "opciones": [
+            "fear",
+            "door",
+            "candle",
+            "spider"
+          ],
+          "correcta": 0,
+          "explicacion": "You can't see or touch fear."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is a collective noun?",
+          "opciones": [
+            "pack (of wolves)",
+            "wolf",
+            "howl",
+            "forest"
+          ],
+          "correcta": 0,
+          "explicacion": "A word for a group."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word needs a capital letter?",
+          "opciones": [
+            "october",
+            "ghost",
+            "midnight",
+            "graveyard"
+          ],
+          "correcta": 0,
+          "explicacion": "Months are proper nouns: October."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Silence filled the room.' What type of noun is 'silence'?",
+          "opciones": [
+            "Abstract",
+            "Proper",
+            "Collective",
+            "Common concrete"
+          ],
+          "correcta": 0,
+          "explicacion": "You can't touch or see silence."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Proper nouns always start with a capital letter.",
+          "correcta": true,
+          "explicacion": "Names, places, days, months."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Courage' is a common concrete noun.",
+          "correcta": false,
+          "explicacion": "It is abstract – a quality, not an object."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write two abstract nouns linked to horror stories.",
+          "claves": [
+            "fear",
+            "terror",
+            "horror",
+            "dread",
+            "panic",
+            "courage",
+            "silence",
+            "darkness",
+            "anxiety",
+            "evil",
+            "death",
+            "danger"
+          ],
+          "minimo": 2,
+          "modelo": "e.g. fear, terror, dread, panic, darkness, silence.",
+          "explicacion": "Feelings and ideas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many nouns are in this sentence? 'The girl dropped her torch in the cellar.'",
+          "opciones": [
+            "Three (girl, torch, cellar)",
+            "Two",
+            "Four",
+            "One"
+          ],
+          "correcta": 0,
+          "explicacion": "girl, torch, cellar are naming words."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is a concrete noun?",
+          "opciones": [
+            "candle",
+            "fear",
+            "courage",
+            "silence"
+          ],
+          "correcta": 0,
+          "explicacion": "You can see and touch a candle."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which collective noun is correct?",
+          "opciones": [
+            "a pack of wolves",
+            "a pack of bees",
+            "a swarm of wolves",
+            "a flock of fish"
+          ],
+          "correcta": 0,
+          "explicacion": "Wolves move in a pack."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the plural of 'mystery'?",
+          "opciones": [
+            "mysteries",
+            "mysterys",
+            "mysteryes",
+            "mystery's"
+          ],
+          "correcta": 0,
+          "explicacion": "Consonant + y → -ies."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the plural of 'knife'?",
+          "opciones": [
+            "knives",
+            "knifes",
+            "knifs",
+            "knive"
+          ],
+          "correcta": 0,
+          "explicacion": "Many -f/-fe words change to -ves."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which sentence uses capital letters for proper nouns correctly?",
+          "opciones": [
+            "On Friday, Ellie visited Edinburgh Castle.",
+            "On friday, Ellie visited edinburgh castle.",
+            "On Friday, ellie visited Edinburgh castle.",
+            "on friday, Ellie Visited Edinburgh Castle."
+          ],
+          "correcta": 0,
+          "explicacion": "Days, names and places need capitals."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word is an abstract noun? 'Her terror grew as the door creaked.'",
+          "opciones": [
+            "terror",
+            "door",
+            "creaked",
+            "grew"
+          ],
+          "correcta": 0,
+          "explicacion": "Terror is a feeling."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Darkness' is an abstract noun.",
+          "correcta": true,
+          "explicacion": "You can't touch darkness – it's an idea or state."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write the plurals of 'box' and 'child'.",
+          "claves": [
+            "boxes",
+            "children"
+          ],
+          "modelo": "boxes, children",
+          "explicacion": "Add -es after x; 'child' is irregular.",
+          "minimo": 2
+        }
+      ]
+    },
+    {
+      "id": "adjectives",
+      "titulo": "Adjectives",
+      "resumen": [
+        "## Adjectives – describing words",
+        "Adjectives describe nouns: *the **old**, **creaking** door*. Choose **precise** adjectives: *big* → *enormous, gigantic*; *scary* → *terrifying, sinister*.",
+        "- An **expanded noun phrase** adds detail to a noun: *the crumbling house on the hill*.",
+        "- Use **commas** between two or more adjectives: *a dark, narrow corridor*.",
+        "- **Comparatives and superlatives**: *dark → darker → darkest*; *terrifying → more terrifying → most terrifying*; *good → better → best*; *bad → worse → worst*.",
+        "- Adjectives can come **before** the noun (*the cold room*) or **after** a verb like *is/was/seemed* (*the room was cold*)."
+      ],
+      "notas": [
         {
           "seccion": "Adjectives",
           "tarjetas": [
@@ -4395,25 +4208,39 @@
               "ghastly"
             ]
           }
+        },
+        {
+          "seccion": "Comparatives and superlatives",
+          "tarjetas": [
+            {
+              "etiqueta": "📏 Short words",
+              "titulo": "-er / -est",
+              "puntos": [
+                "cold → cold**er** → cold**est**",
+                "big → big**ger** → big**gest**",
+                "eerie → eeri**er** → eeri**est**"
+              ]
+            },
+            {
+              "etiqueta": "📐 Long words",
+              "titulo": "more / most",
+              "puntos": [
+                "**more** terrifying",
+                "**most** terrifying"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Irregular",
+              "titulo": "Learn these",
+              "puntos": [
+                "good → **better** → **best**",
+                "bad → **worse** → **worst**"
+              ]
+            }
+          ]
         }
       ],
       "tarjetas": [
-        {
-          "p": "Noun",
-          "r": "A naming word for a person, place, thing or idea"
-        },
-        {
-          "p": "Proper noun",
-          "r": "The name of a particular person, place, day or month – capital letter"
-        },
-        {
-          "p": "Abstract noun",
-          "r": "Something you can't see or touch, e.g. fear, courage"
-        },
-        {
-          "p": "Collective noun",
-          "r": "A word for a group, e.g. a pack of wolves"
-        },
         {
           "p": "Adjective",
           "r": "A word that describes a noun"
@@ -4429,57 +4256,21 @@
         {
           "p": "Superlative of 'dark'",
           "r": "Darkest"
+        },
+        {
+          "p": "Comparative of 'bad'",
+          "r": "worse"
+        },
+        {
+          "p": "Superlative of 'good'",
+          "r": "best"
+        },
+        {
+          "p": "Adjective after a verb",
+          "r": "The room was cold. (cold describes room)"
         }
       ],
       "preguntas": [
-        {
-          "tipo": "opcion",
-          "enunciado": "Which word is a noun? 'The ghost drifted silently.'",
-          "opciones": [
-            "ghost",
-            "drifted",
-            "silently",
-            "the"
-          ],
-          "correcta": 0,
-          "explicacion": "Drifted is a verb, silently an adverb."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Which is a proper noun?",
-          "opciones": [
-            "London",
-            "city",
-            "castle",
-            "darkness"
-          ],
-          "correcta": 0,
-          "explicacion": "It names a particular place – capital letter."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Which is an abstract noun?",
-          "opciones": [
-            "fear",
-            "door",
-            "candle",
-            "spider"
-          ],
-          "correcta": 0,
-          "explicacion": "You can't see or touch fear."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "Which is a collective noun?",
-          "opciones": [
-            "pack (of wolves)",
-            "wolf",
-            "howl",
-            "forest"
-          ],
-          "correcta": 0,
-          "explicacion": "A word for a group."
-        },
         {
           "tipo": "opcion",
           "enunciado": "Which word is an adjective? 'The ancient door creaked open.'",
@@ -4542,18 +4333,6 @@
         },
         {
           "tipo": "opcion",
-          "enunciado": "Which word needs a capital letter?",
-          "opciones": [
-            "october",
-            "ghost",
-            "midnight",
-            "graveyard"
-          ],
-          "correcta": 0,
-          "explicacion": "Months are proper nouns: October."
-        },
-        {
-          "tipo": "opcion",
           "enunciado": "What is the superlative of 'terrifying'?",
           "opciones": [
             "most terrifying",
@@ -4563,51 +4342,6 @@
           ],
           "correcta": 0,
           "explicacion": "Long adjectives use more / most."
-        },
-        {
-          "tipo": "opcion",
-          "enunciado": "'Silence filled the room.' What type of noun is 'silence'?",
-          "opciones": [
-            "Abstract",
-            "Proper",
-            "Collective",
-            "Common concrete"
-          ],
-          "correcta": 0,
-          "explicacion": "You can't touch or see silence."
-        },
-        {
-          "tipo": "vf",
-          "enunciado": "Proper nouns always start with a capital letter.",
-          "correcta": true,
-          "explicacion": "Names, places, days, months."
-        },
-        {
-          "tipo": "vf",
-          "enunciado": "'Courage' is a common concrete noun.",
-          "correcta": false,
-          "explicacion": "It is abstract – a quality, not an object."
-        },
-        {
-          "tipo": "corta",
-          "enunciado": "Write two abstract nouns linked to horror stories.",
-          "claves": [
-            "fear",
-            "terror",
-            "horror",
-            "dread",
-            "panic",
-            "courage",
-            "silence",
-            "darkness",
-            "anxiety",
-            "evil",
-            "death",
-            "danger"
-          ],
-          "minimo": 2,
-          "modelo": "e.g. fear, terror, dread, panic, darkness, silence.",
-          "explicacion": "Feelings and ideas."
         },
         {
           "tipo": "corta",
@@ -4629,6 +4363,106 @@
           "minimo": 1,
           "modelo": "e.g. terrifying, sinister, spine-chilling, blood-curdling.",
           "explicacion": "Precise vocabulary gets more marks."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the adjective: 'The wind was icy.'",
+          "opciones": [
+            "icy",
+            "wind",
+            "was",
+            "The"
+          ],
+          "correcta": 0,
+          "explicacion": "Adjectives can come after 'was'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is the comparative of 'big'?",
+          "opciones": [
+            "bigger",
+            "biger",
+            "more big",
+            "biggest"
+          ],
+          "correcta": 0,
+          "explicacion": "Short vowel + consonant → double it."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is correct?",
+          "opciones": [
+            "This is the worst storm I've ever seen.",
+            "This is the baddest storm I've ever seen.",
+            "This is the most bad storm I've ever seen.",
+            "This is the worse storm I've ever seen."
+          ],
+          "correcta": 0,
+          "explicacion": "bad → worse → worst."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which adjective best replaces 'scary' in 'a scary laugh'?",
+          "opciones": [
+            "blood-curdling",
+            "nice",
+            "small",
+            "happy"
+          ],
+          "correcta": 0,
+          "explicacion": "Precise, powerful adjectives create atmosphere."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which sentence contains TWO adjectives?",
+          "opciones": [
+            "The ancient, crumbling castle stood alone.",
+            "The castle stood alone.",
+            "She ran quickly.",
+            "He opened the door."
+          ],
+          "correcta": 0,
+          "explicacion": "ancient, crumbling."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word in this sentence is NOT an adjective? 'The pale, frightened boy whispered.'",
+          "opciones": [
+            "whispered",
+            "pale",
+            "frightened",
+            "None – they are all adjectives"
+          ],
+          "correcta": 0,
+          "explicacion": "'whispered' is a verb."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Choose the most effective expanded noun phrase:",
+          "opciones": [
+            "the abandoned house with broken shutters",
+            "the house",
+            "a house",
+            "the nice house"
+          ],
+          "correcta": 0,
+          "explicacion": "Adjective + noun + extra detail."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Quickly' is an adjective.",
+          "correcta": false,
+          "explicacion": "It's an adverb – it describes a verb."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write an expanded noun phrase about a forest using TWO adjectives.",
+          "claves": [
+            ","
+          ],
+          "modelo": "the dark, silent forest beyond the river",
+          "explicacion": "Two adjectives need a comma between them.",
+          "pista": "adjective, adjective + noun (+ detail)"
         }
       ]
     },
@@ -4974,7 +4808,7 @@
     },
     {
       "id": "sentences-conjunctions",
-      "titulo": "Sentences, conjunctions and subordinate clauses",
+      "titulo": "Sentences and conjunctions (simple, compound, complex)",
       "resumen": [
         "## Clauses",
         "A **clause** is a group of words with a **subject** and a **verb**. A **main clause** makes sense on its own.",
@@ -4988,7 +4822,20 @@
         "**I**f, **S**ince, **A**s, **W**hen, **A**lthough, **W**hile, **A**fter, **B**efore, **U**ntil, **B**ecause.",
         "- A subordinating conjunction is the **first word** of a subordinate clause.",
         "- A **subordinate clause** does **not make sense on its own**, but always has a subject and a verb (*after she smiled* ✓; *after Christmas* ✗ – no verb, so 'after' is a preposition).",
-        "- If the subordinate clause comes **first**, put a **comma** after it: ***When the bell rang**, the pupils sped into school.*"
+        "- If the subordinate clause comes **first**, put a **comma** after it: ***When the bell rang**, the pupils sped into school.*",
+        "",
+        "A **sentence** is a group of words with a **subject**, a **verb** and sometimes an **object** that makes complete sense on its own. It begins with a **capital letter** and ends with a **full stop** (or ? !).",
+        "",
+        "## Three types",
+        "- **Simple**: one **main (independent) clause** – *The teenager was really scared of theme parks.* Use it to state one idea clearly, make important points or ask questions.",
+        "- **Compound**: two or more **main clauses** joined by a **conjunction** (and, as, but, because, or, so) – *I am going to the cinema **but** I don't want to see a scary film.*",
+        "- **Complex**: one **main clause** + one or more **subordinate (dependent) clauses** – *When it was younger, the ogre was afraid of humans.*",
+        "",
+        "## Subordinate clauses",
+        "A main clause makes sense on its own; a **subordinate clause must be attached to a main clause**. If the subordinate clause comes first, put a **comma** after it.",
+        "",
+        "## Subordinating conjunctions",
+        "They join the subordinate clause to the main clause and always go at the **start of the subordinate clause**: after, although, as, because, before, even though, if, since, unless, until, when, whenever, whereas, wherever, while."
       ],
       "notas": [
         {
@@ -5082,6 +4929,115 @@
               ]
             }
           ]
+        },
+        {
+          "seccion": "Types of sentence",
+          "tarjetas": [
+            {
+              "etiqueta": "1️⃣ Simple",
+              "titulo": "One main clause",
+              "puntos": [
+                "*Tamsin loves rollercoasters.*",
+                "Subject **Tamsin** · verb **loves**",
+                "States one idea clearly, makes a point or asks a question"
+              ]
+            },
+            {
+              "etiqueta": "2️⃣ Compound",
+              "titulo": "Two main clauses + conjunction",
+              "puntos": [
+                "*My name is Ali **and** I am a huge fan of theme parks.*",
+                "Conjunctions: **and, as, but, because, or, so**",
+                "Each clause makes sense alone"
+              ]
+            },
+            {
+              "etiqueta": "🧩 Complex",
+              "titulo": "Main + subordinate clause",
+              "puntos": [
+                "*She still loved him **after the accident in the laboratory**.*",
+                "Gives more information about the subject",
+                "Subordinate clause first → **comma**: *When it was younger, the ogre…*"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Main or subordinate?",
+          "tarjetas": [
+            {
+              "etiqueta": "🐻 Main clause",
+              "titulo": "Independent",
+              "puntos": [
+                "Makes sense on its own",
+                "*He had to save his friend*"
+              ]
+            },
+            {
+              "etiqueta": "🧸 Subordinate clause",
+              "titulo": "Dependent",
+              "puntos": [
+                "Must be **attached** to a main clause",
+                "*because she was afraid of heights*",
+                "Starts with a subordinating conjunction"
+              ]
+            },
+            {
+              "etiqueta": "🎢 Book example",
+              "titulo": "Find the parts",
+              "puntos": [
+                "*I was apprehensive the first time I rode a rollercoaster **but** I loved the thrill it gave me.*",
+                "Subject in each main clause: **I**",
+                "Conjunction: **but**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Subordinating conjunctions",
+            "items": [
+              "after",
+              "although",
+              "because",
+              "before",
+              "even though",
+              "if ",
+              "since",
+              "unless",
+              "until",
+              "when",
+              "whenever",
+              "whereas",
+              "wherever",
+              "while"
+            ]
+          }
+        },
+        {
+          "seccion": "Choosing the best conjunction (p. 15)",
+          "tarjetas": [
+            {
+              "etiqueta": "🦍 Contrast",
+              "titulo": "Even though / although",
+              "puntos": [
+                "***Even though** I've seen King Kong many times, I'd like to see it again.*"
+              ]
+            },
+            {
+              "etiqueta": "🎬 Reason",
+              "titulo": "Because",
+              "puntos": [
+                "*This is a tense movie **because** the acting is so realistic.*"
+              ]
+            },
+            {
+              "etiqueta": "⏳ Time",
+              "titulo": "Since / when / before",
+              "puntos": [
+                "*I've read thrillers **since** I was 10 years old.*",
+                "***Before** I went to the comic store, I read my copy of Suspense.*"
+              ]
+            }
+          ]
         }
       ],
       "tarjetas": [
@@ -5120,6 +5076,34 @@
         {
           "p": "'after Christmas' – is it a subordinate clause?",
           "r": "No – there is no verb; 'after' is a preposition"
+        },
+        {
+          "p": "Sentence",
+          "r": "Words with a subject and a verb that make complete sense on their own"
+        },
+        {
+          "p": "Main (independent) clause",
+          "r": "A clause that makes sense on its own"
+        },
+        {
+          "p": "Subordinate (dependent) clause",
+          "r": "A clause that must be attached to a main clause to make sense"
+        },
+        {
+          "p": "Conjunction",
+          "r": "A joining word, e.g. and, as, but, because, or, so"
+        },
+        {
+          "p": "Subordinating conjunction",
+          "r": "Joins a subordinate clause to the main clause; goes at the start of the subordinate clause"
+        },
+        {
+          "p": "Subordinate clause first",
+          "r": "Put a comma after it: When it was younger, the ogre was afraid of humans."
+        },
+        {
+          "p": "Subordinating conjunctions (book)",
+          "r": "after, although, as, because, before, even though, if, since, unless, until, when, whenever, whereas, wherever, while"
         }
       ],
       "preguntas": [
@@ -5320,6 +5304,221 @@
           "minimo": 2,
           "modelo": "e.g. Although she was terrified, Ella pushed open the creaking door.",
           "explicacion": "Remember the comma after the subordinate clause."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Tamsin loves rollercoasters.' Who is the subject?",
+          "opciones": [
+            "Tamsin",
+            "loves",
+            "rollercoasters",
+            "There is no subject"
+          ],
+          "correcta": 0,
+          "explicacion": "The subject is who does the action."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Tamsin loves rollercoasters.' What is the verb?",
+          "opciones": [
+            "loves",
+            "Tamsin",
+            "rollercoasters",
+            "There is no verb"
+          ],
+          "correcta": 0,
+          "explicacion": "Every sentence has at least one verb."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What type of sentence is 'I become dizzy on rollercoasters.'?",
+          "opciones": [
+            "Simple",
+            "Compound",
+            "Complex",
+            "Not a sentence"
+          ],
+          "correcta": 0,
+          "explicacion": "One main clause."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What type of sentence is 'My name is Ali and I am a huge fan of theme parks.'?",
+          "opciones": [
+            "Compound",
+            "Simple",
+            "Complex",
+            "A question"
+          ],
+          "correcta": 0,
+          "explicacion": "Two main clauses joined by 'and'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What type of sentence is 'He had to save his friend because she was afraid of heights.'?",
+          "opciones": [
+            "Complex",
+            "Simple",
+            "Compound",
+            "Not a sentence"
+          ],
+          "correcta": 0,
+          "explicacion": "Main clause + subordinate clause ('because…')."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is NOT a simple sentence?",
+          "opciones": [
+            "I like gentle rides since I don't get scared.",
+            "I become dizzy on rollercoasters.",
+            "Tamsin loves rollercoasters.",
+            "Rollercoasters scare me."
+          ],
+          "correcta": 0,
+          "explicacion": "'since I don't get scared' is a subordinate clause."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'I was apprehensive the first time I rode a rollercoaster but I loved the thrill it gave me.' What is the conjunction?",
+          "opciones": [
+            "but",
+            "the",
+            "first",
+            "it"
+          ],
+          "correcta": 0,
+          "explicacion": "'But' joins the two main clauses."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the subordinate clause: 'Before I became a horror writer, I never watched anything except comedies.'",
+          "opciones": [
+            "Before I became a horror writer",
+            "I never watched anything",
+            "except comedies",
+            "I never watched"
+          ],
+          "correcta": 0,
+          "explicacion": "It can't stand on its own and starts with 'Before'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the main clause: 'She still loved him after the accident in the laboratory.'",
+          "opciones": [
+            "She still loved him",
+            "after the accident",
+            "in the laboratory",
+            "after the accident in the laboratory"
+          ],
+          "correcta": 0,
+          "explicacion": "It makes sense on its own."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Choose the best conjunction: '___ I've seen King Kong many times, I'd like to see it again.'",
+          "opciones": [
+            "Even though",
+            "Because",
+            "Whenever",
+            "Until"
+          ],
+          "correcta": 0,
+          "explicacion": "It shows a contrast."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Choose the best conjunction: 'This is a tense movie ___ the acting is so realistic.'",
+          "opciones": [
+            "because",
+            "whereas",
+            "until",
+            "unless"
+          ],
+          "correcta": 0,
+          "explicacion": "It gives the reason."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Choose the best conjunction: 'I've read thrillers ___ I was 10 years old.'",
+          "opciones": [
+            "since",
+            "although",
+            "when",
+            "unless"
+          ],
+          "correcta": 0,
+          "explicacion": "'Since' shows from what time."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where does a subordinating conjunction go?",
+          "opciones": [
+            "At the beginning of the subordinate clause",
+            "At the end of the main clause",
+            "Only at the end of the sentence",
+            "After the full stop"
+          ],
+          "correcta": 0,
+          "explicacion": "e.g. *after* they enjoyed a fine dinner…"
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is a subordinating conjunction from the book's list?",
+          "opciones": [
+            "unless",
+            "and",
+            "or",
+            "so"
+          ],
+          "correcta": 0,
+          "explicacion": "and, or, so join main clauses."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A subordinate clause makes sense on its own.",
+          "correcta": false,
+          "explicacion": "It must be attached to a main clause."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "When the subordinate clause comes first, it is followed by a comma.",
+          "correcta": true,
+          "explicacion": "When it was younger, the ogre was afraid of humans."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name THREE subordinating conjunctions.",
+          "claves": [
+            "after",
+            "although",
+            "because",
+            "before",
+            "even though",
+            "if ",
+            "since",
+            "unless",
+            "until",
+            "when",
+            "whenever",
+            "whereas",
+            "wherever",
+            "while"
+          ],
+          "modelo": "e.g. because, although, when (also after, before, if, since, unless, until, whereas, wherever, while).",
+          "explicacion": "They start subordinate clauses.",
+          "minimo": 3
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Turn these two simple sentences into ONE compound sentence: 'I wanted to ride Formula Rossa. I rode it three times.'",
+          "claves": [
+            " and ",
+            " so ",
+            " but "
+          ],
+          "modelo": "I wanted to ride Formula Rossa and I rode it three times.",
+          "explicacion": "Join two main clauses with a conjunction.",
+          "pista": "Use and / so / but."
         }
       ]
     },
@@ -5435,6 +5634,29 @@
               "**P**erson speaking changes"
             ]
           }
+        },
+        {
+          "seccion": "Ellipsis and hyphens",
+          "tarjetas": [
+            {
+              "etiqueta": "… Ellipsis",
+              "titulo": "Three dots",
+              "puntos": [
+                "Shows something left out",
+                "Creates a **pause** and **suspense**",
+                "*I opened the door… nothing.*"
+              ]
+            },
+            {
+              "etiqueta": "➖ Hyphen",
+              "titulo": "Joins words",
+              "puntos": [
+                "**part-time, fire-fighter, test-drive**",
+                "*a little-used car*",
+                "*re-signed* ≠ *resigned*"
+              ]
+            }
+          ]
         }
       ],
       "tarjetas": [
@@ -5469,6 +5691,14 @@
         {
           "p": "Exclamation mark",
           "r": "Shows shock, surprise or strong feeling"
+        },
+        {
+          "p": "Ellipsis (…)",
+          "r": "Three dots: shows an omission or a pause; creates suspense"
+        },
+        {
+          "p": "Hyphen (-)",
+          "r": "Joins words with a combined meaning, e.g. part-time"
         }
       ],
       "preguntas": [
@@ -5663,6 +5893,83 @@
           "minimo": 4,
           "modelo": "Time, Place, Topic, Person (speaker) – reasons to start a new paragraph.",
           "explicacion": "Use it when writing your story."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is an ellipsis?",
+          "opciones": [
+            "Three dots that show something has been left out",
+            "A dash between two words",
+            "A question mark and an exclamation mark",
+            "Speech marks"
+          ],
+          "correcta": 0,
+          "explicacion": "It can be used to create suspense."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How does an ellipsis create suspense?",
+          "opciones": [
+            "It makes the reader wait and wonder what comes next",
+            "It ends the story happily",
+            "It lists the characters",
+            "It shows who is speaking"
+          ],
+          "correcta": 0,
+          "explicacion": "*I don't remember entering… the hallway reeked…*"
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word is ALWAYS hyphenated?",
+          "opciones": [
+            "part-time",
+            "sugar cane",
+            "resigned",
+            "dinner"
+          ],
+          "correcta": 0,
+          "explicacion": "Fire-fighter, part-time and test-drive are fixed compounds."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is there a hyphen in 'a little-used car'?",
+          "opciones": [
+            "To avoid ambiguity – the car is not used much, not small",
+            "Because 'car' is a verb",
+            "Because it is a question",
+            "It is a spelling mistake"
+          ],
+          "correcta": 0,
+          "explicacion": "Without it, it could mean a little car that is used."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'The writer **re-signed** to extend his contract.' What does re-signed mean?",
+          "opciones": [
+            "Signed again",
+            "Left the job",
+            "Wrote a sign",
+            "Refused to sign"
+          ],
+          "correcta": 0,
+          "explicacion": "Resigned (no hyphen) means he quit."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Sugar cane' always needs a hyphen.",
+          "correcta": false,
+          "explicacion": "It doesn't; the author adds one in the title 'Sugar-cane Frame' as a play on words."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write a sentence that uses an ellipsis to build suspense.",
+          "claves": [
+            "...",
+            "…"
+          ],
+          "modelo": "I opened the door slowly… something was waiting in the dark…",
+          "explicacion": "An ellipsis is three dots.",
+          "pista": "Use three dots: …"
         }
       ]
     },
