@@ -2687,6 +2687,558 @@
       ]
     },
     {
+      "id": "unseen-diary",
+      "titulo": "Unseen text 5 · Grandpa's Cottage – My Diary",
+      "resumen": [
+        "Practice reading text written for revision: **Grandpa's Cottage – My Diary**.",
+        "",
+        "Read the text, then answer the questions in order. Use **short quotations** as evidence.",
+        "",
+        "## Skills practised",
+        "- First-person narrative",
+        "- Diary features (dates, 'I', feelings)",
+        "- Hyperbole and humour",
+        "- Contrast: boring start → scary events",
+        "- Questions and ellipsis",
+        "- Cliff-hanger ending"
+      ],
+      "texto": {
+        "titulo": "Grandpa's Cottage – My Diary",
+        "intro": "Ellie is spending half-term at her grandfather's cottage on the edge of a forest. She keeps a diary.",
+        "parrafos": [
+          "**Monday 23rd October**",
+          "**[1]** Grandpa's cottage is the most boring place on Earth. No Wi-Fi. No TV. Just trees, trees and more trees. I've counted the cracks in my bedroom ceiling (forty-three) and I've read my only book twice. Five more days. I'm not sure I'll survive!",
+          "**Tuesday 24th October**",
+          "**[2]** Something weird happened today. I was exploring the edge of the forest when I found a path I hadn't noticed before. It was narrow and overgrown, and the branches above it twisted together like bony fingers. I wanted to follow it, but when I told Grandpa, his face went pale. \"Never go down that path, Ellie,\" he said quietly. \"Promise me.\" I promised. But why?",
+          "**Wednesday 25th October**",
+          "**[3]** I can't sleep. It's 2 a.m. and I'm writing this by torchlight. About ten minutes ago, I heard footsteps on the gravel outside – slow, heavy, dragging footsteps. I peeped through the curtains. Nothing. Just the moon, cold and white, staring down at the empty garden.",
+          "**[4]** But this morning, I'm sure I didn't imagine it: there were muddy footprints on the doorstep. Huge ones. They came out of the forest… and they went straight back down the path.",
+          "**[5]** Tonight, I'm going to find out who – or what – made them."
+        ],
+        "fuente": "Practice text written for Study Buddy"
+      },
+      "notas": [
+        {
+          "seccion": "How to answer reading questions",
+          "tarjetas": [
+            {
+              "etiqueta": "🔍 Retrieve",
+              "titulo": "Find it",
+              "puntos": [
+                "The answer is **in the text**",
+                "*Find and copy* = copy the exact words",
+                "Check the paragraph the question names"
+              ]
+            },
+            {
+              "etiqueta": "🧠 Infer",
+              "titulo": "Work it out",
+              "puntos": [
+                "Use clues: actions, speech, body language",
+                "*How does she feel?* → give the feeling **+ evidence**",
+                "Quote **short** – a few words"
+              ]
+            },
+            {
+              "etiqueta": "✍️ Language",
+              "titulo": "Why that word?",
+              "puntos": [
+                "Name the technique (simile, verb, short sentence…)",
+                "Say **what it makes the reader feel or picture**",
+                "Point → Evidence → Explain (**PEE**)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Skills in this text",
+          "chips": {
+            "titulo": "Grandpa's Cottage – My Diary",
+            "items": [
+              "First-person narrative",
+              "Diary features (dates, 'I', feelings)",
+              "Hyperbole and humour",
+              "Contrast: boring start → scary events",
+              "Questions and ellipsis",
+              "Cliff-hanger ending"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "First-person narrative",
+          "r": "Told by a character using 'I' – e.g. Ellie's diary"
+        },
+        {
+          "p": "Diary features",
+          "r": "Dates, first person, personal thoughts and feelings, informal tone"
+        },
+        {
+          "p": "Hyperbole",
+          "r": "Exaggeration for effect: 'I'm not sure I'll survive!'"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Who is telling this story?",
+          "opciones": [
+            "Ellie, in the first person",
+            "Grandpa, in the third person",
+            "A narrator who is not in the story",
+            "The thing in the forest"
+          ],
+          "correcta": 0,
+          "explicacion": "A diary is written by 'I' – first-person narrative."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do we know this is a diary?",
+          "opciones": [
+            "It has dates and is written by 'I' about her own day",
+            "It has a list of characters",
+            "It is written as a play",
+            "It has chapter numbers"
+          ],
+          "correcta": 0,
+          "explicacion": "Diary features: dates, first person, personal feelings."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How does Ellie feel about the cottage on Monday?",
+          "opciones": [
+            "Bored",
+            "Scared",
+            "Excited",
+            "Angry with Grandpa"
+          ],
+          "correcta": 0,
+          "explicacion": "'the most boring place on Earth'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'I'm not sure I'll survive!' Is she really in danger on Monday?",
+          "opciones": [
+            "No – it is exaggeration (hyperbole) to show how bored she is",
+            "Yes – she is ill",
+            "Yes – the forest is on fire",
+            "No – she is lying to Grandpa"
+          ],
+          "correcta": 0,
+          "explicacion": "Exaggeration for humour."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why might the writer start with a funny, boring day?",
+          "opciones": [
+            "So the scary events later are a bigger contrast",
+            "Because nothing happens in the story",
+            "To describe Grandpa's job",
+            "To explain how to write a diary"
+          ],
+          "correcta": 0,
+          "explicacion": "A calm start makes the change more dramatic."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'the branches above it twisted together like bony fingers' – which technique?",
+          "opciones": [
+            "Simile",
+            "Onomatopoeia",
+            "Rhetorical question",
+            "Alliteration only"
+          ],
+          "correcta": 0,
+          "explicacion": "Comparison with 'like' – it makes the path seem like a skeleton's hand."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'his face went pale' – what does this tell us about Grandpa?",
+          "opciones": [
+            "He is frightened or worried about the path",
+            "He is ill",
+            "He is angry with Ellie",
+            "He has been in the sun"
+          ],
+          "correcta": 0,
+          "explicacion": "Show, not tell: a physical reaction."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why does the writer end paragraph 2 with 'But why?'",
+          "opciones": [
+            "To show Ellie's curiosity and make the reader wonder too",
+            "To give the answer",
+            "Because Grandpa asked it",
+            "To end the diary"
+          ],
+          "correcta": 0,
+          "explicacion": "A question creates mystery."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'slow, heavy, dragging footsteps' – what is the effect of these three adjectives?",
+          "opciones": [
+            "They build a picture of something large and slow, which is frightening",
+            "They make the footsteps sound light and quick",
+            "They describe Grandpa's shoes",
+            "They show it is morning"
+          ],
+          "correcta": 0,
+          "explicacion": "A list of adjectives builds tension."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'the moon, cold and white, staring down' – which technique is 'staring'?",
+          "opciones": [
+            "Personification",
+            "Simile",
+            "Onomatopoeia",
+            "Ellipsis"
+          ],
+          "correcta": 0,
+          "explicacion": "The moon can't really stare."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why does the writer use an ellipsis in 'They came out of the forest… and they went straight back down the path'?",
+          "opciones": [
+            "To create a pause before the frightening detail",
+            "To show a list",
+            "To show Ellie is shouting",
+            "Because a word is spelled wrong"
+          ],
+          "correcta": 0,
+          "explicacion": "The pause builds suspense."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Ellie keeps her promise to Grandpa.",
+          "correcta": false,
+          "explicacion": "In paragraph 5 she plans to find out who or what made the footprints – she is going to break it."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What kind of ending is paragraph 5?",
+          "opciones": [
+            "A cliff-hanger",
+            "A happy ending",
+            "An anticlimax",
+            "A flashback"
+          ],
+          "correcta": 0,
+          "explicacion": "We don't find out what happens next."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Find and copy the evidence that proves Ellie didn't imagine the footsteps.",
+          "claves": [
+            "muddy footprints",
+            "footprints",
+            "doorstep"
+          ],
+          "modelo": "'there were muddy footprints on the doorstep'",
+          "explicacion": "Retrieve from paragraph 4."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give TWO features that show this is a diary.",
+          "claves": [
+            "date",
+            "first person",
+            "i ",
+            "'i'",
+            "personal",
+            "feeling",
+            "monday",
+            "tuesday",
+            "day"
+          ],
+          "modelo": "It has dates (Monday 23rd October…) and it is written in the first person ('I') about her own feelings.",
+          "explicacion": "Think about how a diary looks and sounds.",
+          "minimo": 2
+        }
+      ]
+    },
+    {
+      "id": "unseen-dialogue",
+      "titulo": "Unseen text 6 · Don't Open It",
+      "resumen": [
+        "Practice reading text written for revision: **Don't Open It**.",
+        "",
+        "Read the text, then answer the questions in order. Use **short quotations** as evidence.",
+        "",
+        "## Skills practised",
+        "- Dialogue and its rules",
+        "- Speech verbs and adverbs",
+        "- Contrasting characters",
+        "- Personification",
+        "- Italics for emphasis",
+        "- Cliff-hanger ending"
+      ],
+      "texto": {
+        "titulo": "Don't Open It",
+        "intro": "Kofi and his older sister Amara are clearing out their late great-aunt's flat. They find a locked wooden chest.",
+        "parrafos": [
+          "**[1]** \"Leave it,\" Amara said sharply. \"Mum said we weren't to touch anything in the bedroom.\"",
+          "**[2]** Kofi ignored her. He was already kneeling beside the chest, running his fingers over the strange symbols carved into the lid. \"Look at this. It's ancient. There could be treasure inside.\"",
+          "**[3]** \"Or there could be nothing.\" Amara folded her arms. \"Come on. We've got three more rooms to do before Mum gets back.\"",
+          "**[4]** \"Two minutes,\" he begged. \"Please, Amara. Aren't you even a tiny bit curious?\"",
+          "**[5]** She hesitated. She *was* curious – of course she was – but there was something about the chest she didn't like. The wood was dark, almost black, and the room felt colder near it, as if the chest was breathing out icy air.",
+          "**[6]** \"Fine,\" she sighed. \"Two minutes. But if Mum finds out, it was your idea.\"",
+          "**[7]** Kofi grinned and pulled a tiny brass key from his pocket.",
+          "**[8]** \"Where did you get that?\" Amara whispered.",
+          "**[9]** \"It was in Great-Aunt Rose's jewellery box,\" he said. \"With a note.\"",
+          "**[10]** \"What did the note say?\"",
+          "**[11]** Kofi's smile faded. He slowly unfolded a yellowed scrap of paper and held it up. Three words were scrawled across it in shaky red ink: *DON'T OPEN IT.*",
+          "**[12]** Then, from inside the locked chest, something knocked."
+        ],
+        "fuente": "Practice text written for Study Buddy"
+      },
+      "notas": [
+        {
+          "seccion": "How to answer reading questions",
+          "tarjetas": [
+            {
+              "etiqueta": "🔍 Retrieve",
+              "titulo": "Find it",
+              "puntos": [
+                "The answer is **in the text**",
+                "*Find and copy* = copy the exact words",
+                "Check the paragraph the question names"
+              ]
+            },
+            {
+              "etiqueta": "🧠 Infer",
+              "titulo": "Work it out",
+              "puntos": [
+                "Use clues: actions, speech, body language",
+                "*How does she feel?* → give the feeling **+ evidence**",
+                "Quote **short** – a few words"
+              ]
+            },
+            {
+              "etiqueta": "✍️ Language",
+              "titulo": "Why that word?",
+              "puntos": [
+                "Name the technique (simile, verb, short sentence…)",
+                "Say **what it makes the reader feel or picture**",
+                "Point → Evidence → Explain (**PEE**)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Skills in this text",
+          "chips": {
+            "titulo": "Don't Open It",
+            "items": [
+              "Dialogue and its rules",
+              "Speech verbs and adverbs",
+              "Contrasting characters",
+              "Personification",
+              "Italics for emphasis",
+              "Cliff-hanger ending"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Rules for dialogue",
+          "r": "Speech marks, new paragraph for each new speaker, punctuation inside the speech marks"
+        },
+        {
+          "p": "Contrasting characters",
+          "r": "Kofi curious and reckless vs Amara careful – creates tension"
+        },
+        {
+          "p": "Speech verbs/adverbs",
+          "r": "said sharply, begged, whispered, sighed – show how characters feel"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Who are the two main characters?",
+          "opciones": [
+            "Kofi and his older sister Amara",
+            "Amara and her mum",
+            "Kofi and Great-Aunt Rose",
+            "Two friends from school"
+          ],
+          "correcta": 0,
+          "explicacion": "Retrieve from the introduction."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How is most of this story told?",
+          "opciones": [
+            "Through dialogue (speech) between the characters",
+            "As a diary",
+            "As a poem",
+            "As a newspaper report"
+          ],
+          "correcta": 0,
+          "explicacion": "Most paragraphs are speech."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why does the writer start a new paragraph each time a different person speaks?",
+          "opciones": [
+            "It is the rule for dialogue – it shows clearly who is speaking",
+            "To make the story longer",
+            "Because each paragraph is a new day",
+            "To describe the setting"
+          ],
+          "correcta": 0,
+          "explicacion": "New speaker = new line."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Leave it,' Amara said sharply. What does 'sharply' show?",
+          "opciones": [
+            "She is serious and a bit annoyed",
+            "She is laughing",
+            "She is whispering kindly",
+            "She is asleep"
+          ],
+          "correcta": 0,
+          "explicacion": "An adverb shows how she speaks."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How are Kofi and Amara different?",
+          "opciones": [
+            "Kofi is curious and reckless; Amara is careful and sensible",
+            "Both are scared",
+            "Amara is curious; Kofi is careful",
+            "They are exactly the same"
+          ],
+          "correcta": 0,
+          "explicacion": "Contrasting characters create tension."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Aren't you even a tiny bit curious?' What does this question show about Kofi?",
+          "opciones": [
+            "He is trying to persuade Amara",
+            "He is angry",
+            "He wants to go home",
+            "He is frightened"
+          ],
+          "correcta": 0,
+          "explicacion": "He 'begged' – he wants her to agree."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'as if the chest was breathing out icy air' – which technique?",
+          "opciones": [
+            "Personification",
+            "Onomatopoeia",
+            "Alliteration",
+            "Rhetorical question"
+          ],
+          "correcta": 0,
+          "explicacion": "An object breathing like a living thing."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is 'was' in italics in paragraph 5 (She *was* curious)?",
+          "opciones": [
+            "To stress the word – she admits she is curious",
+            "Because it is a title",
+            "Because it is in German",
+            "Because it is a spelling mistake"
+          ],
+          "correcta": 0,
+          "explicacion": "Italics show emphasis."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Where did you get that?' Amara whispered. Why does she whisper?",
+          "opciones": [
+            "She is nervous and doesn't want to be caught",
+            "She has lost her voice",
+            "She is in a library",
+            "She is angry"
+          ],
+          "correcta": 0,
+          "explicacion": "Infer from the situation."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is the note written in 'shaky red ink' frightening?",
+          "opciones": [
+            "It suggests the writer was scared, and red can suggest danger or blood",
+            "It means the pen was new",
+            "It is a shopping list",
+            "It is easy to read"
+          ],
+          "correcta": 0,
+          "explicacion": "Details create a sinister atmosphere."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Kofi's smile faded.' What changes?",
+          "opciones": [
+            "His excitement turns to worry",
+            "He becomes happier",
+            "He falls asleep",
+            "He leaves the room"
+          ],
+          "correcta": 0,
+          "explicacion": "Show, not tell."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The final sentence is a cliff-hanger.",
+          "correcta": true,
+          "explicacion": "'something knocked' – from INSIDE a locked chest!"
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Amara opens the chest in the end.",
+          "correcta": false,
+          "explicacion": "The story ends before anyone opens it."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Find and copy the three words written on the note.",
+          "claves": [
+            "don't open it",
+            "dont open it",
+            "do not open it"
+          ],
+          "modelo": "DON'T OPEN IT",
+          "explicacion": "Retrieve from paragraph 11."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give ONE word that describes Amara and support it with a quotation.",
+          "claves": [
+            "careful",
+            "sensible",
+            "cautious",
+            "worried",
+            "nervous",
+            "bossy",
+            "responsible",
+            "sharply",
+            "leave it",
+            "didn't like",
+            "whispered",
+            "your idea"
+          ],
+          "modelo": "Cautious – 'there was something about the chest she didn't like.'",
+          "explicacion": "Point + evidence.",
+          "pista": "Adjective + short quotation.",
+          "minimo": 2
+        }
+      ]
+    },
+    {
       "id": "horror-suspense-genre",
       "titulo": "Spine-Chilling Suspense · The horror toolbox",
       "resumen": [
