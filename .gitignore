@@ -1,5 +1,6 @@
-# Configuración local
-.claude/
+# Configuración local (los skills sí se suben, para usarlos también en la nube)
+.claude/*
+!.claude/skills/
 
 # Archivos de referencia que no son parte de la web
 y6_sats_landing_3.html
