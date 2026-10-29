@@ -1,1 +1,3176 @@
-{ "temas": [] }
+{
+  "temas": [
+    {
+      "id": "planeta-tierra",
+      "titulo": "SA 1 · El planeta Tierra",
+      "resumen": [
+        "La **Tierra** pertenece al **sistema solar**, que forma parte de una galaxia llamada **Vía Láctea**.",
+        "",
+        "## El sistema solar",
+        "- Lo forman el **Sol** y los cuerpos celestes que giran a su alrededor: **planetas, asteroides, cometas y satélites**.",
+        "- El **Sol** es el único astro luminoso: una estrella joven y de tamaño medio. Su energía nos llega como **luz y calor**.",
+        "- Los **planetas** no tienen luz propia y giran alrededor de una estrella siguiendo una **órbita**. Hay **ocho**.",
+        "- **Interiores** (Mercurio, Venus, Tierra, Marte): tamaño medio y **rocosos**. **Exteriores** (Júpiter, Saturno, Urano, Neptuno): grandes y de **gases**.",
+        "",
+        "## Movimientos de la Tierra",
+        "- **Rotación**: gira sobre su eje en **24 horas** → el **día y la noche**.",
+        "- **Traslación**: da una vuelta al Sol en **365 días y 6 horas** (un año) → las **cuatro estaciones**.",
+        "",
+        "## Las cuatro partes de la Tierra",
+        "- **Geosfera** (materiales sólidos), **hidrosfera** (agua), **atmósfera** (gases) y **biosfera** (seres vivos).",
+        "- La geosfera tiene tres capas: **corteza**, **manto** y **núcleo**."
+      ],
+      "notas": [
+        {
+          "seccion": "El sistema solar",
+          "tarjetas": [
+            {
+              "etiqueta": "☀️ Sol",
+              "titulo": "Nuestra estrella",
+              "puntos": [
+                "**Único astro luminoso** del sistema solar",
+                "Estrella **joven y de tamaño medio**, hecha de gases muy calientes",
+                "Su energía llega como **luz y calor**"
+              ]
+            },
+            {
+              "etiqueta": "🪐 Planetas",
+              "titulo": "Sin luz propia",
+              "puntos": [
+                "Giran alrededor de una estrella siguiendo una **órbita**",
+                "En el sistema solar hay **8**"
+              ]
+            },
+            {
+              "etiqueta": "🪨 Interiores",
+              "titulo": "Pequeños y rocosos",
+              "puntos": [
+                "**Mercurio, Venus, Tierra y Marte**",
+                "Tamaño medio y **rocosos**"
+              ]
+            },
+            {
+              "etiqueta": "💨 Exteriores",
+              "titulo": "Gigantes de gas",
+              "puntos": [
+                "**Júpiter, Saturno, Urano y Neptuno**",
+                "Gran tamaño, sobre todo **gases**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Orden desde el Sol",
+            "items": [
+              "Mercurio",
+              "Venus",
+              "Tierra",
+              "Marte",
+              "Júpiter",
+              "Saturno",
+              "Urano",
+              "Neptuno"
+            ]
+          }
+        },
+        {
+          "seccion": "Otros cuerpos celestes",
+          "tarjetas": [
+            {
+              "etiqueta": "☄️ Asteroides",
+              "titulo": "Rocas",
+              "puntos": [
+                "Objetos **rocosos** de tamaño variable",
+                "La mayoría en el **cinturón de asteroides**, entre **Marte y Júpiter**"
+              ]
+            },
+            {
+              "etiqueta": "🌠 Cometas",
+              "titulo": "Hielo y rocas",
+              "puntos": [
+                "Orbitan alrededor del Sol",
+                "Al acercarse al Sol, el hielo se evapora y forma su **cola**"
+              ]
+            },
+            {
+              "etiqueta": "🌙 Satélites",
+              "titulo": "Giran alrededor de planetas",
+              "puntos": [
+                "**Mercurio** no tiene; **Urano** tiene más de diez",
+                "El satélite de la Tierra es la **Luna**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Movimientos de la Tierra",
+          "tarjetas": [
+            {
+              "etiqueta": "🔄 Rotación",
+              "titulo": "Sobre sí misma",
+              "puntos": [
+                "Gira alrededor de un **eje imaginario**",
+                "Tarda **24 horas**",
+                "Origina el **día y la noche**"
+              ]
+            },
+            {
+              "etiqueta": "🔁 Traslación",
+              "titulo": "Alrededor del Sol",
+              "puntos": [
+                "Órbita **elíptica**",
+                "Tarda **365 días y 6 horas** = un año",
+                "Origina las **cuatro estaciones**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Las cuatro partes de la Tierra",
+          "tarjetas": [
+            {
+              "etiqueta": "🪨 Geosfera",
+              "titulo": "Parte sólida",
+              "puntos": [
+                "Materiales **sólidos**: rocas y minerales"
+              ]
+            },
+            {
+              "etiqueta": "💧 Hidrosfera",
+              "titulo": "El agua",
+              "puntos": [
+                "Todo el **agua** de la Tierra"
+              ]
+            },
+            {
+              "etiqueta": "🌬️ Atmósfera",
+              "titulo": "Los gases",
+              "puntos": [
+                "Todos los **gases** que envuelven la Tierra"
+              ]
+            },
+            {
+              "etiqueta": "🌿 Biosfera",
+              "titulo": "La vida",
+              "puntos": [
+                "Conjunto de los **seres vivos** del planeta"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Capas de la geosfera",
+          "tarjetas": [
+            {
+              "etiqueta": "🟫 Corteza",
+              "titulo": "Externa y delgada",
+              "puntos": [
+                "Aquí está el **suelo**, donde se desarrolla la vida",
+                "**Continental**: continentes e islas",
+                "**Oceánica**: fondo de océanos y mares"
+              ]
+            },
+            {
+              "etiqueta": "🟥 Manto",
+              "titulo": "Intermedia",
+              "puntos": [
+                "La capa **más voluminosa**",
+                "Rocas sólidas que se funden al acercarse al interior por el calor"
+              ]
+            },
+            {
+              "etiqueta": "🟨 Núcleo",
+              "titulo": "La más interna",
+              "puntos": [
+                "De **hierro y níquel**",
+                "**Externo**: líquido · **Interno**: sólido"
+              ]
+            },
+            {
+              "etiqueta": "🧱 Litosfera",
+              "titulo": "Zona rígida",
+              "puntos": [
+                "**Corteza + parte superior del manto**",
+                "Formada por rocas"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "¿En qué galaxia está el sistema solar?",
+          "r": "En la Vía Láctea"
+        },
+        {
+          "p": "¿Cuál es el único astro luminoso del sistema solar?",
+          "r": "El Sol"
+        },
+        {
+          "p": "¿Cuántos planetas hay en el sistema solar?",
+          "r": "Ocho"
+        },
+        {
+          "p": "Planetas interiores",
+          "r": "Mercurio, Venus, Tierra y Marte (rocosos)"
+        },
+        {
+          "p": "Planetas exteriores",
+          "r": "Júpiter, Saturno, Urano y Neptuno (gaseosos)"
+        },
+        {
+          "p": "¿Dónde está el cinturón de asteroides?",
+          "r": "Entre Marte y Júpiter"
+        },
+        {
+          "p": "¿Qué es un satélite?",
+          "r": "Un astro que orbita alrededor de un planeta (la Luna)"
+        },
+        {
+          "p": "Movimiento de rotación",
+          "r": "Gira sobre su eje en 24 h → día y noche"
+        },
+        {
+          "p": "Movimiento de traslación",
+          "r": "Vuelta al Sol en 365 días y 6 h → estaciones"
+        },
+        {
+          "p": "Las cuatro partes de la Tierra",
+          "r": "Geosfera, hidrosfera, atmósfera y biosfera"
+        },
+        {
+          "p": "Capas de la geosfera",
+          "r": "Corteza, manto y núcleo"
+        },
+        {
+          "p": "¿De qué está formado el núcleo?",
+          "r": "De hierro y níquel (externo líquido, interno sólido)"
+        },
+        {
+          "p": "¿Qué es la litosfera?",
+          "r": "La zona rígida: corteza + parte superior del manto"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿En qué galaxia se encuentra el sistema solar?",
+          "opciones": [
+            "La Vía Láctea",
+            "Andrómeda",
+            "El cinturón de asteroides",
+            "La Osa Mayor"
+          ],
+          "correcta": 0,
+          "explicacion": "La Tierra está en el sistema solar, dentro de la Vía Láctea."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál es el único astro luminoso del sistema solar?",
+          "opciones": [
+            "La Luna",
+            "El Sol",
+            "Júpiter",
+            "Los cometas"
+          ],
+          "correcta": 1,
+          "explicacion": "Los planetas y satélites no tienen luz propia."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuántos planetas hay en el sistema solar?",
+          "opciones": [
+            "Siete",
+            "Nueve",
+            "Ocho",
+            "Diez"
+          ],
+          "correcta": 2,
+          "explicacion": "Mercurio, Venus, Tierra, Marte, Júpiter, Saturno, Urano y Neptuno."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué grupo está formado solo por planetas interiores?",
+          "opciones": [
+            "Júpiter, Saturno, Urano y Neptuno",
+            "Venus, Tierra, Marte y Júpiter",
+            "Mercurio, Marte, Saturno y Neptuno",
+            "Mercurio, Venus, Tierra y Marte"
+          ],
+          "correcta": 3,
+          "explicacion": "Los interiores son los cuatro más cercanos al Sol."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo son los planetas exteriores?",
+          "opciones": [
+            "Grandes y formados sobre todo por gases",
+            "Pequeños y rocosos",
+            "Luminosos como el Sol",
+            "De hielo y rocas con cola"
+          ],
+          "correcta": 0,
+          "explicacion": "Júpiter, Saturno, Urano y Neptuno son gigantes de gas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Dónde se encuentra la mayoría de los asteroides?",
+          "opciones": [
+            "Entre la Tierra y Marte",
+            "Entre Marte y Júpiter",
+            "Detrás de Neptuno",
+            "Alrededor de la Luna"
+          ],
+          "correcta": 1,
+          "explicacion": "Esa zona se llama cinturón de asteroides."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por qué los cometas tienen cola?",
+          "opciones": [
+            "Porque arden como estrellas",
+            "Porque los empuja el viento",
+            "Porque al acercarse al Sol su hielo se evapora",
+            "Porque arrastran asteroides"
+          ],
+          "correcta": 2,
+          "explicacion": "Los cometas están formados por hielo y rocas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué planeta NO tiene satélites?",
+          "opciones": [
+            "La Tierra",
+            "Urano",
+            "Júpiter",
+            "Mercurio"
+          ],
+          "correcta": 3,
+          "explicacion": "Urano, en cambio, tiene más de diez."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué origina el movimiento de rotación?",
+          "opciones": [
+            "El día y la noche",
+            "Las cuatro estaciones",
+            "Los años bisiestos",
+            "Las mareas"
+          ],
+          "correcta": 0,
+          "explicacion": "La Tierra gira sobre su eje en 24 horas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuánto tarda la Tierra en dar una vuelta completa al Sol?",
+          "opciones": [
+            "24 horas",
+            "365 días y 6 horas",
+            "30 días",
+            "12 meses y 2 días"
+          ],
+          "correcta": 1,
+          "explicacion": "Es el movimiento de traslación: un año."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué parte de la Tierra está formada por el conjunto de los seres vivos?",
+          "opciones": [
+            "La geosfera",
+            "La hidrosfera",
+            "La biosfera",
+            "La atmósfera"
+          ],
+          "correcta": 2,
+          "explicacion": "Bio = vida."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál es la capa intermedia y más voluminosa de la geosfera?",
+          "opciones": [
+            "La corteza",
+            "El núcleo",
+            "La litosfera",
+            "El manto"
+          ],
+          "correcta": 3,
+          "explicacion": "Está entre la corteza y el núcleo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué capa forma el fondo de los océanos y los mares?",
+          "opciones": [
+            "La corteza oceánica",
+            "La corteza continental",
+            "El manto",
+            "La litosfera"
+          ],
+          "correcta": 0,
+          "explicacion": "La corteza continental forma los continentes y las islas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿De qué metales está formado el núcleo de la Tierra?",
+          "opciones": [
+            "Oro y plata",
+            "Hierro y níquel",
+            "Cobre y aluminio",
+            "Cuarzo y mica"
+          ],
+          "correcta": 1,
+          "explicacion": "El núcleo externo es líquido y el interno, sólido."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es la litosfera?",
+          "opciones": [
+            "La capa de gases que rodea la Tierra",
+            "El núcleo interno de la Tierra",
+            "La zona rígida formada por la corteza y la parte superior del manto",
+            "Toda el agua del planeta"
+          ],
+          "correcta": 2,
+          "explicacion": "Está compuesta por rocas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Según la tabla del libro, Venus está a 108 y Marte a 228 millones de km del Sol; la Tierra, a 150. ¿Cuál está más cerca de la Tierra?",
+          "opciones": [
+            "Marte (a 78 millones de km)",
+            "Están a la misma distancia",
+            "Mercurio (a 92 millones de km)",
+            "Venus (a 42 millones de km)"
+          ],
+          "correcta": 3,
+          "explicacion": "150 − 108 = 42 y 228 − 150 = 78."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "La rotación de la Tierra produce las cuatro estaciones.",
+          "correcta": false,
+          "explicacion": "Las estaciones se deben a la traslación; la rotación produce el día y la noche."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "El núcleo externo de la Tierra está en estado líquido.",
+          "correcta": true,
+          "explicacion": "El externo es líquido y el interno, sólido."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "La corteza es la capa más externa y más delgada de la geosfera.",
+          "correcta": true,
+          "explicacion": "En ella está el suelo, donde se desarrolla la vida."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Nombra las cuatro partes en las que se estructura la Tierra.",
+          "pista": "Piensa en rocas, agua, aire y vida.",
+          "claves": [
+            "geosfera",
+            "hidrosfera",
+            "atmosfera",
+            "biosfera"
+          ],
+          "minimo": 4,
+          "modelo": "Geosfera, hidrosfera, atmósfera y biosfera.",
+          "explicacion": "Son las partes sólida, de agua, de gases y de seres vivos."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Nombra los dos movimientos de la Tierra y qué produce cada uno.",
+          "pista": "Uno dura 24 horas y el otro, un año.",
+          "claves": [
+            "rotacion",
+            "traslacion",
+            "dia",
+            "noche",
+            "estacion"
+          ],
+          "minimo": 3,
+          "modelo": "La rotación produce el día y la noche; la traslación produce las cuatro estaciones.",
+          "explicacion": "Rotación: 24 horas. Traslación: 365 días y 6 horas."
+        }
+      ]
+    },
+    {
+      "id": "hidrosfera-atmosfera",
+      "titulo": "SA 1 · La hidrosfera y la atmósfera",
+      "resumen": [
+        "## La hidrosfera",
+        "- Es la capa de **agua** que cubre el **70 %** de la superficie terrestre: por eso la Tierra es el **planeta azul**.",
+        "- **Ciclo del agua**: evaporación → condensación (nubes) → precipitaciones → el agua fluye por ríos y se filtra a los acuíferos y al mar.",
+        "- El **97 %** del agua es **salada** y solo el **3 %** es **dulce**. Menos del **1 %** del agua dulce está disponible para el consumo.",
+        "- Se contamina por **aguas sucias** sin depurar, **vertidos de petróleo**, **industrias** y **aguas de escorrentía**.",
+        "",
+        "## La atmósfera",
+        "- Capa de **gases** (sobre todo **nitrógeno y oxígeno**) que envuelve y protege la Tierra.",
+        "- Funciones: **filtra** las radiaciones solares, mantiene la **temperatura** adecuada y contiene los **gases** necesarios para la vida.",
+        "- Capas (de abajo arriba): **troposfera, estratosfera, mesosfera, termosfera y exosfera**.",
+        "- Problemas: **efecto invernadero** intensificado y **destrucción de la capa de ozono**."
+      ],
+      "notas": [
+        {
+          "seccion": "La hidrosfera",
+          "tarjetas": [
+            {
+              "etiqueta": "🌍 Planeta azul",
+              "titulo": "70 % agua",
+              "puntos": [
+                "El agua cubre aprox. el **70 %** de la superficie",
+                "Por eso la Tierra es el **planeta azul**"
+              ]
+            },
+            {
+              "etiqueta": "🧂 Agua salada y dulce",
+              "titulo": "Muy poca para beber",
+              "puntos": [
+                "**97 %** salada · **3 %** dulce",
+                "Del agua dulce: **70 %** glaciares/hielo, casi **30 %** subterránea",
+                "Disponible para consumo: **menos del 1 %** del agua dulce"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "El ciclo del agua",
+            "items": [
+              "1. El Sol calienta → evaporación",
+              "2. El vapor se condensa → nubes",
+              "3. Precipitaciones: lluvia, nieve, granizo",
+              "4. El agua fluye por ríos y se filtra a acuíferos y al mar"
+            ]
+          }
+        },
+        {
+          "seccion": "Contaminación del agua",
+          "tarjetas": [
+            {
+              "etiqueta": "🏠 Aguas sucias",
+              "titulo": "De las casas",
+              "puntos": [
+                "Materia orgánica y químicos (**lejía, jabón, detergente**)",
+                "Sin **depuradora**, llegan en mal estado a ríos y mares"
+              ]
+            },
+            {
+              "etiqueta": "🛢️ Vertidos de petróleo",
+              "titulo": "Accidentes",
+              "puntos": [
+                "Algunos accidentes provocan **vertidos de petróleo** en el mar"
+              ]
+            },
+            {
+              "etiqueta": "🏭 Industrias",
+              "titulo": "Productos tóxicos",
+              "puntos": [
+                "Si no se desechan bien, contaminan **ríos y mares**"
+              ]
+            },
+            {
+              "etiqueta": "🌧️ Escorrentía",
+              "titulo": "Por las calles",
+              "puntos": [
+                "Arrastran **plásticos, papeles, latas…** hasta el mar"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "La atmósfera",
+          "tarjetas": [
+            {
+              "etiqueta": "🌬️ Composición",
+              "titulo": "Capa de gases",
+              "puntos": [
+                "Sobre todo **nitrógeno y oxígeno**",
+                "También vapor de agua y algo de **dióxido de carbono**"
+              ]
+            },
+            {
+              "etiqueta": "🛡️ Funciones",
+              "titulo": "Hace posible la vida",
+              "puntos": [
+                "**Filtro** de radiaciones solares",
+                "Mantiene la **temperatura** adecuada",
+                "Contiene los **gases** necesarios para la vida"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Capas de la atmósfera",
+          "tarjetas": [
+            {
+              "etiqueta": "✨ Exosfera",
+              "titulo": "La más lejana",
+              "puntos": [
+                "Casi **sin gases**"
+              ]
+            },
+            {
+              "etiqueta": "🔥 Termosfera",
+              "titulo": "La más caliente",
+              "puntos": [
+                "Aquí se producen las **auroras boreales**"
+              ]
+            },
+            {
+              "etiqueta": "❄️ Mesosfera",
+              "titulo": "La más fría",
+              "puntos": [
+                "Hasta **−140 °C**",
+                "Desintegra **partículas y asteroides** del espacio"
+              ]
+            },
+            {
+              "etiqueta": "🎈 Estratosfera",
+              "titulo": "Capa de ozono",
+              "puntos": [
+                "El **ozono** filtra los rayos **ultravioleta**",
+                "Vuelan los **globos meteorológicos**"
+              ]
+            },
+            {
+              "etiqueta": "☁️ Troposfera",
+              "titulo": "La más cercana",
+              "puntos": [
+                "Hasta unos **15 km**",
+                "Aire que respiramos y **seres vivos**",
+                "**Fenómenos meteorológicos**: viento, lluvia"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "De abajo arriba",
+            "items": [
+              "Troposfera",
+              "Estratosfera",
+              "Mesosfera",
+              "Termosfera",
+              "Exosfera"
+            ]
+          }
+        },
+        {
+          "seccion": "Problemas de la atmósfera",
+          "tarjetas": [
+            {
+              "etiqueta": "🌡️ Efecto invernadero",
+              "titulo": "Demasiado calor",
+              "puntos": [
+                "Los gases retienen parte del calor del Sol",
+                "Si hay demasiados gases, el calor no sale → **sube la temperatura media**"
+              ]
+            },
+            {
+              "etiqueta": "🕳️ Capa de ozono",
+              "titulo": "Se debilita",
+              "puntos": [
+                "Por la acción de ciertas **sustancias químicas**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "¿Qué es la hidrosfera?",
+          "r": "La capa de agua que cubre aprox. el 70 % de la superficie"
+        },
+        {
+          "p": "¿Por qué se llama a la Tierra «planeta azul»?",
+          "r": "Porque el agua cubre el 70 % de su superficie"
+        },
+        {
+          "p": "Pasos del ciclo del agua",
+          "r": "Evaporación, condensación, precipitación, el agua fluye y se filtra"
+        },
+        {
+          "p": "% de agua salada y dulce",
+          "r": "97 % salada, 3 % dulce"
+        },
+        {
+          "p": "¿Para qué sirve una depuradora?",
+          "r": "Para limpiar las aguas sucias antes de devolverlas a ríos y mares"
+        },
+        {
+          "p": "Aguas de escorrentía",
+          "r": "Agua que corre por las calles y arrastra plásticos, papeles, latas… al mar"
+        },
+        {
+          "p": "Gases principales de la atmósfera",
+          "r": "Nitrógeno y oxígeno"
+        },
+        {
+          "p": "Tres funciones de la atmósfera",
+          "r": "Filtra radiaciones, mantiene la temperatura, tiene gases para la vida"
+        },
+        {
+          "p": "Capa donde ocurren los fenómenos meteorológicos",
+          "r": "Troposfera"
+        },
+        {
+          "p": "Capa con la capa de ozono",
+          "r": "Estratosfera"
+        },
+        {
+          "p": "Capa más fría",
+          "r": "Mesosfera (hasta −140 °C)"
+        },
+        {
+          "p": "Capa más caliente (auroras boreales)",
+          "r": "Termosfera"
+        },
+        {
+          "p": "Capa más lejana, casi sin gases",
+          "r": "Exosfera"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué porcentaje de la superficie terrestre cubre la hidrosfera?",
+          "opciones": [
+            "Aproximadamente el 70 %",
+            "El 30 %",
+            "El 97 %",
+            "El 50 %"
+          ],
+          "correcta": 0,
+          "explicacion": "Por eso la Tierra se llama planeta azul."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "En el ciclo del agua, ¿qué pasa cuando el vapor de agua se condensa?",
+          "opciones": [
+            "El agua se evapora",
+            "Se forman las nubes",
+            "El agua se filtra a los acuíferos",
+            "Se forma hielo en los glaciares"
+          ],
+          "correcta": 1,
+          "explicacion": "El vapor se condensa y origina las nubes."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué parte del agua de la Tierra es salada?",
+          "opciones": [
+            "El 3 %",
+            "El 70 %",
+            "El 97 %",
+            "El 50 %"
+          ],
+          "correcta": 2,
+          "explicacion": "Solo el 3 % es agua dulce."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Dónde está la mayor parte del agua dulce?",
+          "opciones": [
+            "En los ríos",
+            "En los lagos y pantanos",
+            "En la atmósfera",
+            "En glaciares, nieve o hielo"
+          ],
+          "correcta": 3,
+          "explicacion": "Un 70 % del agua dulce está helada."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué cantidad del agua dulce está disponible para el consumo y los ecosistemas?",
+          "opciones": [
+            "Menos del 1 %",
+            "El 30 %",
+            "El 70 %",
+            "Toda"
+          ],
+          "correcta": 0,
+          "explicacion": "El resto está helada o bajo tierra, de difícil acceso."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué ocurre con las aguas sucias de las casas si no pasan por una depuradora?",
+          "opciones": [
+            "Se limpian solas en las tuberías",
+            "Llegan en mal estado a ríos y mares",
+            "Se evaporan",
+            "Se convierten en agua salada"
+          ],
+          "correcta": 1,
+          "explicacion": "Llevan materia orgánica y productos químicos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué arrastran las aguas de escorrentía hasta el mar?",
+          "opciones": [
+            "Petróleo de los barcos",
+            "Productos tóxicos de las fábricas",
+            "Plásticos, papeles, latas…",
+            "Agua de los glaciares"
+          ],
+          "correcta": 2,
+          "explicacion": "Son las aguas que circulan por las calles."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuáles son los dos gases principales de la atmósfera?",
+          "opciones": [
+            "Oxígeno y dióxido de carbono",
+            "Vapor de agua y ozono",
+            "Hidrógeno y helio",
+            "Nitrógeno y oxígeno"
+          ],
+          "correcta": 3,
+          "explicacion": "El vapor de agua y el CO₂ están en pequeñas cantidades."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿En qué capa de la atmósfera tienen lugar los fenómenos meteorológicos como el viento o la lluvia?",
+          "opciones": [
+            "Troposfera",
+            "Estratosfera",
+            "Mesosfera",
+            "Termosfera"
+          ],
+          "correcta": 0,
+          "explicacion": "Es la capa más cercana a la superficie, hasta unos 15 km."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿En qué capa está la capa de ozono que filtra los rayos ultravioleta?",
+          "opciones": [
+            "Troposfera",
+            "Estratosfera",
+            "Exosfera",
+            "Mesosfera"
+          ],
+          "correcta": 1,
+          "explicacion": "En la estratosfera también vuelan los globos meteorológicos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál es la capa más fría de la atmósfera?",
+          "opciones": [
+            "Exosfera",
+            "Termosfera",
+            "Mesosfera",
+            "Troposfera"
+          ],
+          "correcta": 2,
+          "explicacion": "Puede llegar a −140 °C."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿En qué capa se producen las auroras boreales?",
+          "opciones": [
+            "Mesosfera",
+            "Estratosfera",
+            "Exosfera",
+            "Termosfera"
+          ],
+          "correcta": 3,
+          "explicacion": "Además, es la capa más caliente."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿En qué capa se desintegran las partículas y asteroides que llegan del espacio?",
+          "opciones": [
+            "Mesosfera",
+            "Exosfera",
+            "Troposfera",
+            "Estratosfera"
+          ],
+          "correcta": 0,
+          "explicacion": "Así nos protege de su impacto."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué ocurre cuando el efecto invernadero se intensifica?",
+          "opciones": [
+            "Baja la temperatura del planeta",
+            "Sube la temperatura media del planeta",
+            "Se forma más ozono",
+            "Desaparece el oxígeno"
+          ],
+          "correcta": 1,
+          "explicacion": "Hay tantos gases que el calor no puede salir."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué debilita la capa de ozono?",
+          "opciones": [
+            "El vapor de agua",
+            "Las auroras boreales",
+            "Ciertas sustancias químicas",
+            "Los globos meteorológicos"
+          ],
+          "correcta": 2,
+          "explicacion": "Sin ozono, nos llegan más rayos ultravioleta."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "La exosfera es la capa más lejana y casi no tiene gases.",
+          "correcta": true,
+          "explicacion": "Es la capa exterior de la atmósfera."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "La cantidad total de agua en la Tierra cambia mucho de un año a otro.",
+          "correcta": false,
+          "explicacion": "Es siempre constante; solo cambia de estado y de lugar."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Gracias a la atmósfera la Tierra mantiene una temperatura adecuada para la vida.",
+          "correcta": true,
+          "explicacion": "Es una de sus tres funciones."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Explica las cuatro fases del ciclo del agua.",
+          "pista": "Empieza con el Sol calentando el mar.",
+          "claves": [
+            "evapor",
+            "conden",
+            "nube",
+            "precipit",
+            "lluvia",
+            "rio",
+            "filtra",
+            "acuifero",
+            "mar"
+          ],
+          "minimo": 3,
+          "modelo": "1) El Sol calienta el agua y se evapora. 2) El vapor se condensa y forma nubes. 3) Caen precipitaciones (lluvia, nieve o granizo). 4) El agua fluye por los ríos y se filtra hasta los acuíferos y el mar.",
+          "explicacion": "Es un movimiento cíclico: el agua cambia de estado y de lugar."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Nombra dos actividades humanas que contaminan el agua.",
+          "pista": "Piensa en casas, barcos, fábricas y calles.",
+          "claves": [
+            "aguas sucias",
+            "depuradora",
+            "detergente",
+            "lejia",
+            "jabon",
+            "petroleo",
+            "vertido",
+            "industria",
+            "fabrica",
+            "toxic",
+            "escorrentia",
+            "plastico",
+            "basura",
+            "lata"
+          ],
+          "minimo": 2,
+          "modelo": "Las aguas sucias de las casas sin depurar, los vertidos de petróleo, los productos tóxicos de las industrias o la basura que arrastran las aguas de escorrentía.",
+          "explicacion": "Cualquier par de las cuatro del libro vale."
+        }
+      ]
+    },
+    {
+      "id": "dinamica-geologica",
+      "titulo": "SA 1 · Terremotos, volcanes, rocas y suelo",
+      "resumen": [
+        "Las altas **temperaturas** del interior de la geosfera generan **energía** que mueve, eleva o hunde la corteza. Los movimientos lentos modelan el relieve; los rápidos causan **terremotos** y **erupciones volcánicas**.",
+        "",
+        "## Terremotos",
+        "- Sacudidas de la corteza por fuerzas del interior. En el mar se llaman **maremotos** y pueden causar **tsunamis**.",
+        "- **Hipocentro**: lugar del interior donde se produce. **Epicentro**: lugar de la superficie donde se nota con más intensidad.",
+        "",
+        "## Volcanes",
+        "- Las rocas se funden y forman **magma**, que sube por la **chimenea** y sale por el **cráter** como **lava**. Al enfriarse forma el **cono volcánico**.",
+        "",
+        "## Minerales, rocas y suelo",
+        "- **Mineral**: sustancia sólida y natural, sin restos de seres vivos y siempre con los mismos componentes químicos.",
+        "- **Roca**: material sólido y natural formado por minerales. Tipos: **sedimentarias**, **magmáticas o ígneas** y **metamórficas**.",
+        "- **Suelo**: rocas fragmentadas + sales minerales, agua y restos de seres vivos. Puede sufrir **contaminación**."
+      ],
+      "notas": [
+        {
+          "seccion": "Terremotos",
+          "tarjetas": [
+            {
+              "etiqueta": "🌋 Origen",
+              "titulo": "Energía interna",
+              "puntos": [
+                "Las altas **temperaturas** del interior mueven, elevan o hunden la corteza",
+                "Movimientos **lentos** → relieve · **rápidos** → terremotos y volcanes"
+              ]
+            },
+            {
+              "etiqueta": "📳 Terremoto o seísmo",
+              "titulo": "Sacudida",
+              "puntos": [
+                "Sacudida de la **corteza** por fuerzas del interior"
+              ]
+            },
+            {
+              "etiqueta": "🌊 Maremoto",
+              "titulo": "En el mar",
+              "puntos": [
+                "Seísmo en el mar",
+                "Puede formar olas gigantes: **tsunamis**"
+              ]
+            },
+            {
+              "etiqueta": "🎯 Hipocentro y epicentro",
+              "titulo": "¿Dónde?",
+              "puntos": [
+                "**Hipocentro**: en el **interior**, donde se produce",
+                "**Epicentro**: en la **superficie**, donde se nota con más intensidad"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Volcanes",
+          "tarjetas": [
+            {
+              "etiqueta": "🔥 Magma",
+              "titulo": "Roca fundida",
+              "puntos": [
+                "Rocas fundidas por las altas temperaturas del interior"
+              ]
+            },
+            {
+              "etiqueta": "🕳️ Chimenea y cráter",
+              "titulo": "El camino",
+              "puntos": [
+                "**Chimenea**: grieta por la que sube el magma",
+                "**Cráter**: abertura por donde salen los materiales"
+              ]
+            },
+            {
+              "etiqueta": "🌋 Lava y cono",
+              "titulo": "Fuera",
+              "puntos": [
+                "**Lava**: magma líquido arrojado por el volcán",
+                "**Cono volcánico**: lava y materiales depositados"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Formación de un volcán",
+            "items": [
+              "1. La roca caliente se funde → magma",
+              "2. El magma sube por la chimenea",
+              "3. Se acumula, explota y sale como lava",
+              "4. La lava se enfría → cono volcánico"
+            ]
+          }
+        },
+        {
+          "seccion": "Minerales y rocas",
+          "tarjetas": [
+            {
+              "etiqueta": "💎 Mineral",
+              "titulo": "Sólido y natural",
+              "puntos": [
+                "**Sin** restos de seres vivos",
+                "Siempre los **mismos componentes químicos**",
+                "Se clasifican por **color, brillo o dureza**",
+                "La **magnetita** atrae metales"
+              ]
+            },
+            {
+              "etiqueta": "🪨 Roca",
+              "titulo": "Hecha de minerales",
+              "puntos": [
+                "Un solo mineral: **caliza** (calcita)",
+                "Varios: **granito** (cuarzo, feldespato y mica)"
+              ]
+            },
+            {
+              "etiqueta": "🏖️ Sedimentarias",
+              "titulo": "Acumulación",
+              "puntos": [
+                "Restos de otras rocas o de **seres vivos**",
+                "**Carbón, conglomerado, caliza**"
+              ]
+            },
+            {
+              "etiqueta": "🌋 Magmáticas o ígneas",
+              "titulo": "Magma enfriado",
+              "puntos": [
+                "El magma se **enfría y solidifica**",
+                "**Basalto, obsidiana, granito**"
+              ]
+            },
+            {
+              "etiqueta": "🔁 Metamórficas",
+              "titulo": "Transformadas",
+              "puntos": [
+                "Otras rocas cambian por **temperatura y presión**",
+                "**Pizarra, mármol, esquisto**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "El suelo",
+          "tarjetas": [
+            {
+              "etiqueta": "🌱 Suelo",
+              "titulo": "Capa de vida",
+              "puntos": [
+                "**Rocas fragmentadas** + sales minerales, agua y restos de seres vivos"
+              ]
+            },
+            {
+              "etiqueta": "☣️ Contaminación del suelo",
+              "titulo": "Sustancias químicas",
+              "puntos": [
+                "Los químicos llegan al **agua** (acuíferos, ríos, mares)",
+                "Reduce la **fertilidad**: perjudica a plantas y animales",
+                "Llegan a los **seres vivos** por las cadenas alimentarias"
+              ]
+            },
+            {
+              "etiqueta": "🍂 Biodegradable",
+              "titulo": "Se descompone solo",
+              "puntos": [
+                "Lo descomponen **microorganismos** como las bacterias"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "¿Qué es un terremoto o seísmo?",
+          "r": "Una sacudida de la corteza por fuerzas del interior de la Tierra"
+        },
+        {
+          "p": "Maremoto",
+          "r": "Terremoto en el mar; puede causar tsunamis"
+        },
+        {
+          "p": "Hipocentro",
+          "r": "Lugar del interior de la Tierra donde se produce el terremoto"
+        },
+        {
+          "p": "Epicentro",
+          "r": "Lugar de la superficie donde el terremoto se nota con más intensidad"
+        },
+        {
+          "p": "Magma",
+          "r": "Roca fundida del interior de la Tierra"
+        },
+        {
+          "p": "Lava",
+          "r": "Magma líquido arrojado por el volcán"
+        },
+        {
+          "p": "Chimenea",
+          "r": "Grieta por la que sube el magma"
+        },
+        {
+          "p": "Cráter",
+          "r": "Abertura por donde salen los materiales volcánicos"
+        },
+        {
+          "p": "¿Qué es un mineral?",
+          "r": "Sustancia sólida y natural, sin restos de seres vivos y con los mismos componentes químicos"
+        },
+        {
+          "p": "Tipos de rocas",
+          "r": "Sedimentarias, magmáticas (ígneas) y metamórficas"
+        },
+        {
+          "p": "Rocas sedimentarias (ejemplos)",
+          "r": "Carbón, conglomerado, caliza"
+        },
+        {
+          "p": "Rocas magmáticas (ejemplos)",
+          "r": "Basalto, obsidiana, granito"
+        },
+        {
+          "p": "Rocas metamórficas (ejemplos)",
+          "r": "Pizarra, mármol, esquisto"
+        },
+        {
+          "p": "¿Qué es el suelo?",
+          "r": "Rocas fragmentadas + sales minerales, agua y restos de seres vivos"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué genera la energía capaz de mover, elevar o hundir la corteza terrestre?",
+          "opciones": [
+            "El viento",
+            "La fuerza de las olas",
+            "La luz del Sol",
+            "Las altas temperaturas del interior de la geosfera"
+          ],
+          "correcta": 3,
+          "explicacion": "Esa energía causa movimientos lentos y rápidos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo se llama un terremoto que se produce en el mar?",
+          "opciones": [
+            "Maremoto",
+            "Tsunami",
+            "Epicentro",
+            "Erupción"
+          ],
+          "correcta": 0,
+          "explicacion": "El maremoto puede generar olas gigantes llamadas tsunamis."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es el epicentro?",
+          "opciones": [
+            "El lugar del interior donde se produce el terremoto",
+            "El lugar de la superficie donde el terremoto se nota con más intensidad",
+            "La grieta por donde sube el magma",
+            "Una ola gigante"
+          ],
+          "correcta": 1,
+          "explicacion": "El lugar del interior es el hipocentro."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo se llama el lugar del interior de la Tierra donde se produce un terremoto?",
+          "opciones": [
+            "Epicentro",
+            "Cráter",
+            "Hipocentro",
+            "Manto"
+          ],
+          "correcta": 2,
+          "explicacion": "Hipo = debajo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo se llama la grieta por la que asciende el magma en un volcán?",
+          "opciones": [
+            "Cráter",
+            "Cono volcánico",
+            "Epicentro",
+            "Chimenea"
+          ],
+          "correcta": 3,
+          "explicacion": "El cráter es la abertura de salida."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es la lava?",
+          "opciones": [
+            "El magma líquido arrojado por el volcán",
+            "La roca sólida del cono",
+            "El humo del cráter",
+            "La grieta del volcán"
+          ],
+          "correcta": 0,
+          "explicacion": "Cuando el magma sale al exterior se llama lava."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué ocurre en el ÚLTIMO paso de la formación de un volcán?",
+          "opciones": [
+            "La roca caliente se funde y forma magma",
+            "La lava se enfría y va formando el cono volcánico",
+            "El magma asciende por la chimenea",
+            "El magma se acumula y explota"
+          ],
+          "correcta": 1,
+          "explicacion": "Orden: se funde la roca, sube el magma, sale la lava y se forma el cono."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál de estas características NO es de un mineral?",
+          "opciones": [
+            "Es generalmente sólido",
+            "Es de origen natural",
+            "Contiene restos de seres vivos",
+            "Siempre tiene los mismos componentes químicos"
+          ],
+          "correcta": 2,
+          "explicacion": "Los minerales no contienen restos de seres vivos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué minerales forman el granito?",
+          "opciones": [
+            "Solo calcita",
+            "Hierro y níquel",
+            "Magnetita y carbón",
+            "Cuarzo, feldespato y mica"
+          ],
+          "correcta": 3,
+          "explicacion": "La caliza, en cambio, está formada solo por calcita."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo se forman las rocas magmáticas o ígneas?",
+          "opciones": [
+            "Cuando el magma se enfría y se solidifica",
+            "Por acumulación de restos de seres vivos",
+            "Al transformarse otras rocas por la presión",
+            "Por la acción del viento"
+          ],
+          "correcta": 0,
+          "explicacion": "Ejemplos: basalto, obsidiana y granito."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué roca es sedimentaria?",
+          "opciones": [
+            "Basalto",
+            "Carbón",
+            "Mármol",
+            "Obsidiana"
+          ],
+          "correcta": 1,
+          "explicacion": "Se forma por acumulación de restos de seres vivos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué roca es metamórfica?",
+          "opciones": [
+            "Granito",
+            "Conglomerado",
+            "Pizarra",
+            "Caliza"
+          ],
+          "correcta": 2,
+          "explicacion": "Pizarra, mármol y esquisto son metamórficas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por qué se forman las rocas metamórficas?",
+          "opciones": [
+            "Porque se acumulan materiales en el fondo del mar",
+            "Porque se enfría la lava",
+            "Porque las fragmentan las raíces",
+            "Porque los minerales de otras rocas se transforman por la temperatura y la presión"
+          ],
+          "correcta": 3,
+          "explicacion": "Se originan en el interior de la corteza."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué efecto tiene la contaminación del suelo en las plantas?",
+          "opciones": [
+            "Reduce la fertilidad de la tierra y perjudica su crecimiento",
+            "Las hace crecer más deprisa",
+            "No les afecta",
+            "Las vuelve biodegradables"
+          ],
+          "correcta": 0,
+          "explicacion": "Y también perjudica a los animales que viven allí."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es un material biodegradable?",
+          "opciones": [
+            "El que no se descompone nunca",
+            "El que pueden descomponer microorganismos como las bacterias",
+            "El que se recicla en una fábrica",
+            "El que se derrite con el calor"
+          ],
+          "correcta": 1,
+          "explicacion": "La propia naturaleza lo descompone."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Los movimientos de la corteza siempre son rápidos y violentos.",
+          "correcta": false,
+          "explicacion": "Suelen ser muy lentos; solo a veces son rápidos (terremotos y volcanes)."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "La magnetita es un mineral con propiedades magnéticas.",
+          "correcta": true,
+          "explicacion": "Puede atraer ciertos metales."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Los productos químicos que contaminan el suelo pueden llegar a los seres vivos a través de las cadenas alimentarias.",
+          "correcta": true,
+          "explicacion": "Y perjudicar su salud."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Nombra los tres tipos de rocas según su origen.",
+          "pista": "Una por acumulación, otra del magma y otra por transformación.",
+          "claves": [
+            "sedimentari",
+            "magmatic",
+            "igne",
+            "metamorfic"
+          ],
+          "minimo": 3,
+          "modelo": "Sedimentarias, magmáticas o ígneas y metamórficas.",
+          "explicacion": "Se clasifican según cómo se han formado."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "¿Qué diferencia hay entre el hipocentro y el epicentro de un terremoto?",
+          "pista": "Piensa en dentro y fuera.",
+          "claves": [
+            "interior",
+            "dentro",
+            "superficie",
+            "intensidad",
+            "fuera"
+          ],
+          "minimo": 2,
+          "modelo": "El hipocentro es el lugar del interior de la Tierra donde se produce el terremoto; el epicentro es el lugar de la superficie donde se percibe con más intensidad.",
+          "explicacion": "Uno está bajo tierra y el otro en la superficie."
+        }
+      ]
+    },
+    {
+      "id": "clima-zonas-climaticas",
+      "titulo": "SA 1 · El clima y las zonas climáticas",
+      "resumen": [
+        "El **tiempo atmosférico** es el estado de la atmósfera en un **momento y lugar** concretos. El **clima** es el tiempo que **predomina** en un lugar durante un **periodo prolongado**.",
+        "",
+        "## Elementos del tiempo",
+        "- **Temperatura**, **humedad**, **viento**, **precipitaciones** y **presión atmosférica**.",
+        "",
+        "## Zonas climáticas (según la latitud)",
+        "- **Cálida**: cerca del ecuador, entre los trópicos. Temperaturas altas todo el año.",
+        "- **Templadas** (una en cada hemisferio): cuatro estaciones.",
+        "- **Frías**: entre los círculos polares y los polos. Temperaturas bajas todo el año.",
+        "",
+        "## Climas de la Tierra",
+        "- **Cálidos**: ecuatorial (selva), tropical (sabana), desértico (desierto cálido).",
+        "- **Templados**: mediterráneo (encina), continental (taiga), oceánico (roble y haya).",
+        "- **Fríos**: polar (desierto polar) y de alta montaña."
+      ],
+      "notas": [
+        {
+          "seccion": "Tiempo y clima",
+          "tarjetas": [
+            {
+              "etiqueta": "⛅ Tiempo atmosférico",
+              "titulo": "Ahora y aquí",
+              "puntos": [
+                "Estado de la atmósfera en un **momento y lugar** concretos",
+                "Ej.: «hoy llueve en Madrid»"
+              ]
+            },
+            {
+              "etiqueta": "🗓️ Clima",
+              "titulo": "Muchos años",
+              "puntos": [
+                "Tiempo que **predomina** en un lugar durante un **periodo prolongado**",
+                "Ej.: «en Sevilla los veranos son calurosos»"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Elementos del tiempo",
+          "tarjetas": [
+            {
+              "etiqueta": "🌡️ Temperatura",
+              "titulo": "Calor",
+              "puntos": [
+                "Energía calorífica acumulada en el aire"
+              ]
+            },
+            {
+              "etiqueta": "💧 Humedad",
+              "titulo": "Vapor",
+              "puntos": [
+                "Cantidad de **vapor de agua** del aire"
+              ]
+            },
+            {
+              "etiqueta": "💨 Viento",
+              "titulo": "Aire que se mueve",
+              "puntos": [
+                "Es el **aire en movimiento**"
+              ]
+            },
+            {
+              "etiqueta": "🌧️ Precipitaciones",
+              "titulo": "Lo que cae",
+              "puntos": [
+                "**Agua, nieve y granizo** que caen de la atmósfera"
+              ]
+            },
+            {
+              "etiqueta": "⬇️ Presión atmosférica",
+              "titulo": "Peso del aire",
+              "puntos": [
+                "**Peso** de la masa de aire sobre la superficie"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Catástrofes y su elemento",
+            "items": [
+              "Inundación → precipitaciones",
+              "Ola de calor → temperatura",
+              "Huracán → viento",
+              "Sequía → precipitaciones"
+            ]
+          }
+        },
+        {
+          "seccion": "Zonas climáticas",
+          "tarjetas": [
+            {
+              "etiqueta": "🔴 Zona cálida",
+              "titulo": "Entre los trópicos",
+              "puntos": [
+                "Cerca del **ecuador**",
+                "Temperaturas **altas todo el año**"
+              ]
+            },
+            {
+              "etiqueta": "🟢 Zonas templadas",
+              "titulo": "Dos",
+              "puntos": [
+                "Una en cada **hemisferio**",
+                "**Cuatro estaciones**"
+              ]
+            },
+            {
+              "etiqueta": "🔵 Zonas frías",
+              "titulo": "Junto a los polos",
+              "puntos": [
+                "Entre los **círculos polares** y los **polos**",
+                "Temperaturas **bajas todo el año**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Dependen de…",
+            "items": [
+              "la latitud = distancia al ecuador"
+            ]
+          }
+        },
+        {
+          "seccion": "Climas cálidos · calor todo el año",
+          "tarjetas": [
+            {
+              "etiqueta": "🌴 Ecuatorial",
+              "titulo": "Selva ecuatorial",
+              "puntos": [
+                "Lluvias **abundantes**",
+                "Numerosas especies vegetales"
+              ]
+            },
+            {
+              "etiqueta": "🦒 Tropical",
+              "titulo": "Sabana",
+              "puntos": [
+                "Una estación **seca** y otra **lluviosa**",
+                "**Baobab** y **acacia**"
+              ]
+            },
+            {
+              "etiqueta": "🌵 Desértico",
+              "titulo": "Desierto cálido",
+              "puntos": [
+                "**Escasas** lluvias todo el año",
+                "**Cactus**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Climas templados · cuatro estaciones",
+          "tarjetas": [
+            {
+              "etiqueta": "🫒 Mediterráneo",
+              "titulo": "Bosque mediterráneo",
+              "puntos": [
+                "Verano **caluroso y seco**, invierno **suave**",
+                "**Encina**"
+              ]
+            },
+            {
+              "etiqueta": "🌲 Continental",
+              "titulo": "Taiga",
+              "puntos": [
+                "Inviernos fríos y veranos calurosos, pocas lluvias",
+                "**Pinos y abetos**"
+              ]
+            },
+            {
+              "etiqueta": "🍂 Oceánico o atlántico",
+              "titulo": "Bosque oceánico",
+              "puntos": [
+                "**Roble** y **haya**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Climas fríos · frío todo el año",
+          "tarjetas": [
+            {
+              "etiqueta": "🧊 Polar",
+              "titulo": "Desierto polar",
+              "puntos": [
+                "Temperaturas **muy bajas**, pocas precipitaciones (nieve)",
+                "Hielo y casi **sin seres vivos**"
+              ]
+            },
+            {
+              "etiqueta": "🏔️ Alta montaña",
+              "titulo": "Montaña",
+              "puntos": [
+                "Inviernos largos y fríos, abundan las precipitaciones",
+                "Las especies cambian según la **altitud**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Tiempo atmosférico",
+          "r": "Estado de la atmósfera en un momento y lugar concretos"
+        },
+        {
+          "p": "Clima",
+          "r": "Tiempo que predomina en un lugar durante un periodo prolongado"
+        },
+        {
+          "p": "Los cinco elementos del tiempo",
+          "r": "Temperatura, humedad, viento, precipitaciones y presión atmosférica"
+        },
+        {
+          "p": "Humedad atmosférica",
+          "r": "Cantidad de vapor de agua del aire"
+        },
+        {
+          "p": "Presión atmosférica",
+          "r": "Peso de la masa de aire sobre la superficie"
+        },
+        {
+          "p": "¿De qué depende la zona climática?",
+          "r": "De la latitud (distancia al ecuador)"
+        },
+        {
+          "p": "Zona cálida",
+          "r": "Entre los trópicos; calor todo el año"
+        },
+        {
+          "p": "Zonas templadas",
+          "r": "Una por hemisferio; cuatro estaciones"
+        },
+        {
+          "p": "Clima ecuatorial → paisaje",
+          "r": "Selva ecuatorial"
+        },
+        {
+          "p": "Clima tropical → paisaje",
+          "r": "Sabana (baobab, acacia)"
+        },
+        {
+          "p": "Clima mediterráneo → árbol",
+          "r": "Encina"
+        },
+        {
+          "p": "Clima continental → paisaje",
+          "r": "Taiga (pinos y abetos)"
+        },
+        {
+          "p": "Clima oceánico → árboles",
+          "r": "Roble y haya"
+        },
+        {
+          "p": "Clima polar → paisaje",
+          "r": "Desierto polar (hielo, casi sin seres vivos)"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es el clima?",
+          "opciones": [
+            "El tiempo que hace hoy en un lugar",
+            "La cantidad de vapor de agua del aire",
+            "El tiempo atmosférico que predomina en un lugar durante un periodo prolongado",
+            "El peso del aire sobre la superficie"
+          ],
+          "correcta": 2,
+          "explicacion": "El tiempo atmosférico es el de un momento concreto; el clima, el habitual durante mucho tiempo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Hoy está lloviendo y hace frío en Madrid.» Esta frase describe…",
+          "opciones": [
+            "El clima",
+            "Una zona climática",
+            "La latitud",
+            "El tiempo atmosférico"
+          ],
+          "correcta": 3,
+          "explicacion": "Habla de un momento y un lugar concretos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es la humedad atmosférica?",
+          "opciones": [
+            "La cantidad de vapor de agua que tiene el aire",
+            "El agua que cae en forma de lluvia",
+            "El aire en movimiento",
+            "El peso del aire"
+          ],
+          "correcta": 0,
+          "explicacion": "Las precipitaciones son el agua que cae."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es la presión atmosférica?",
+          "opciones": [
+            "La energía calorífica del aire",
+            "El peso que ejerce la masa de aire sobre la superficie",
+            "La cantidad de nubes",
+            "La velocidad del viento"
+          ],
+          "correcta": 1,
+          "explicacion": "Es uno de los cinco elementos del tiempo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Con qué elemento del tiempo están relacionadas las sequías?",
+          "opciones": [
+            "El viento",
+            "La presión atmosférica",
+            "Las precipitaciones",
+            "La humedad"
+          ],
+          "correcta": 2,
+          "explicacion": "Se producen tras largos periodos sin lluvia."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Con qué elemento del tiempo están relacionados sobre todo los huracanes?",
+          "opciones": [
+            "La temperatura",
+            "La presión atmosférica",
+            "La humedad",
+            "El viento"
+          ],
+          "correcta": 3,
+          "explicacion": "Son masas de aire con vientos muy fuertes y lluvias."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿De qué depende la zona climática de un lugar?",
+          "opciones": [
+            "De su latitud, es decir, de su distancia al ecuador",
+            "De su altura sobre el mar",
+            "Del número de habitantes",
+            "Del tipo de rocas"
+          ],
+          "correcta": 0,
+          "explicacion": "Las zonas son cálida, templadas y frías."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Dónde está la zona cálida?",
+          "opciones": [
+            "Entre los círculos polares y los polos",
+            "Cerca del ecuador, entre los dos trópicos",
+            "Solo en el hemisferio norte",
+            "Entre el trópico de Cáncer y el círculo polar ártico"
+          ],
+          "correcta": 1,
+          "explicacion": "Tiene temperaturas altas todo el año."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué caracteriza a las zonas templadas?",
+          "opciones": [
+            "Hace calor todo el año",
+            "Hace frío todo el año",
+            "Tienen cuatro estaciones con diferentes temperaturas",
+            "Solo hay una estación"
+          ],
+          "correcta": 2,
+          "explicacion": "Hay una en cada hemisferio."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué paisaje corresponde al clima ecuatorial?",
+          "opciones": [
+            "La sabana",
+            "La taiga",
+            "El desierto polar",
+            "La selva ecuatorial"
+          ],
+          "correcta": 3,
+          "explicacion": "Tiene lluvias abundantes y numerosas especies vegetales."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿En qué clima crecen el baobab y la acacia?",
+          "opciones": [
+            "Tropical",
+            "Mediterráneo",
+            "Oceánico",
+            "Polar"
+          ],
+          "correcta": 0,
+          "explicacion": "Su paisaje es la sabana."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué clima tiene veranos calurosos y secos e inviernos suaves?",
+          "opciones": [
+            "Continental",
+            "Mediterráneo",
+            "Desértico",
+            "De alta montaña"
+          ],
+          "correcta": 1,
+          "explicacion": "Su árbol típico es la encina."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué paisaje de pinos y abetos corresponde al clima continental?",
+          "opciones": [
+            "La sabana",
+            "La selva",
+            "La taiga",
+            "El bosque mediterráneo"
+          ],
+          "correcta": 2,
+          "explicacion": "Tiene inviernos fríos y veranos calurosos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Con qué clima asocias la haya?",
+          "opciones": [
+            "Mediterráneo",
+            "Tropical",
+            "Desértico",
+            "Oceánico o atlántico"
+          ],
+          "correcta": 3,
+          "explicacion": "En el bosque oceánico hay robles y hayas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué clima tiene un paisaje cubierto de hielo y casi sin seres vivos?",
+          "opciones": [
+            "Polar",
+            "De alta montaña",
+            "Desértico",
+            "Continental"
+          ],
+          "correcta": 0,
+          "explicacion": "Su paisaje es el desierto polar."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué tienen en común todos los climas cálidos?",
+          "opciones": [
+            "Mucha lluvia todo el año",
+            "Temperaturas elevadas todo el año",
+            "Cuatro estaciones",
+            "Inviernos largos y fríos"
+          ],
+          "correcta": 1,
+          "explicacion": "Ecuatorial, tropical y desértico."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "En el clima de alta montaña las especies vegetales varían según la altitud.",
+          "correcta": true,
+          "explicacion": "Su paisaje es de montaña."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "El clima desértico tiene lluvias abundantes todo el año.",
+          "correcta": false,
+          "explicacion": "Tiene escasas lluvias; su planta típica es el cactus."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Explica la diferencia entre clima y tiempo atmosférico.",
+          "pista": "¿Cuánto tiempo dura cada uno?",
+          "claves": [
+            "momento",
+            "dia",
+            "hoy",
+            "concreto",
+            "prolongado",
+            "largo",
+            "mucho tiempo",
+            "años",
+            "predomina",
+            "habitual"
+          ],
+          "minimo": 2,
+          "modelo": "El tiempo atmosférico es el estado de la atmósfera en un momento y lugar concretos; el clima es el tiempo que predomina en un lugar durante un periodo prolongado (muchos años).",
+          "explicacion": "Uno es de un momento; el otro, de mucho tiempo."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Nombra tres elementos del tiempo atmosférico.",
+          "pista": "Piensa en calor, agua en el aire, aire que se mueve…",
+          "claves": [
+            "temperatura",
+            "humedad",
+            "viento",
+            "precipitacion",
+            "presion",
+            "lluvia"
+          ],
+          "minimo": 3,
+          "modelo": "Temperatura, humedad, viento, precipitaciones y presión atmosférica (tres cualesquiera).",
+          "explicacion": "Son los cinco elementos climáticos."
+        }
+      ]
+    },
+    {
+      "id": "movimiento-tierra",
+      "titulo": "SA 2 · El movimiento por tierra",
+      "resumen": [
+        "Los vehículos que se mueven por tierra están sometidos a **fuerzas** que los mueven, los paran o los desvían.",
+        "- **Fuerza de empuje**: hace que el vehículo **se mueva**.",
+        "- **Peso**: fuerza relacionada con la **gravedad** y la **masa**.",
+        "- Las fuerzas pueden ser **de contacto** (lanzar una pelota) o **a distancia** (gravedad, fuerza magnética).",
+        "",
+        "## Movimiento por raíles",
+        "- Trenes, tranvías y funiculares ruedan con **ruedas de acero** sobre **carriles** (rieles o raíles).",
+        "- Tres aspectos: **apoyo del tren**, **transmisión del movimiento** y **autoguiado**.",
+        "",
+        "## Transporte sostenible",
+        "- Los **transportes públicos** contaminan menos que los privados.",
+        "- La **bicicleta** es el transporte terrestre **más sostenible**. También: coche eléctrico, tranvía, metro y autobús eléctrico."
+      ],
+      "notas": [
+        {
+          "seccion": "Fuerzas y movimiento",
+          "tarjetas": [
+            {
+              "etiqueta": "💪 Fuerzas",
+              "titulo": "Cambian el movimiento",
+              "puntos": [
+                "Acciones que **mueven, paran o desvían** un vehículo"
+              ]
+            },
+            {
+              "etiqueta": "➡️ Empuje",
+              "titulo": "Hace avanzar",
+              "puntos": [
+                "La fuerza de **empuje** hace que el vehículo **se mueva**"
+              ]
+            },
+            {
+              "etiqueta": "⬇️ Peso",
+              "titulo": "Hacia abajo",
+              "puntos": [
+                "Relacionado con la **gravedad** y la **masa**",
+                "¡**No** es lo que mueve el coche!"
+              ]
+            },
+            {
+              "etiqueta": "🤝 De contacto / a distancia",
+              "titulo": "Dos tipos",
+              "puntos": [
+                "**Contacto**: se aplica directamente (lanzar una pelota)",
+                "**A distancia**: **gravedad** (atrae al centro de la Tierra) y **magnética** (imanes con hierro o acero)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Movimiento por raíles",
+          "tarjetas": [
+            {
+              "etiqueta": "🚆 Rodadura",
+              "titulo": "Acero sobre acero",
+              "puntos": [
+                "Trenes, **tranvías** y **funiculares**",
+                "**Ruedas de acero** sobre **carriles** de acero (rieles o raíles)"
+              ]
+            },
+            {
+              "etiqueta": "⚖️ Apoyo del tren",
+              "titulo": "Repartir el peso",
+              "puntos": [
+                "Descarga su peso por las ruedas sobre los carriles, que lo reparten sobre el terreno",
+                "Las ruedas no deben estar deformadas"
+              ]
+            },
+            {
+              "etiqueta": "⚙️ Transmisión del movimiento",
+              "titulo": "Motor",
+              "puntos": [
+                "El **motor** hace girar las ruedas sobre el carril",
+                "**Adherencia** para que la rueda no patine"
+              ]
+            },
+            {
+              "etiqueta": "🧭 Autoguiado",
+              "titulo": "Sin volante",
+              "puntos": [
+                "Las **pestañas** de las ruedas rozan la cara interior del carril",
+                "Sigue la vía **sin volante ni manillar**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "¿Coche o tren?",
+            "items": [
+              "Coche: carretera, ruedas de caucho, volante o manillar",
+              "Tren: raíl, ruedas de acero, autoguiado"
+            ]
+          }
+        },
+        {
+          "seccion": "Transporte por tierra sostenible",
+          "tarjetas": [
+            {
+              "etiqueta": "🚌 Transporte público",
+              "titulo": "Compartido",
+              "puntos": [
+                "Contamina menos y tiene menor impacto",
+                "Menos vehículos → menos **emisiones**"
+              ]
+            },
+            {
+              "etiqueta": "🚲 Bicicleta",
+              "titulo": "La más sostenible",
+              "puntos": [
+                "Energía **mecánica** de las personas",
+                "No emite contaminantes"
+              ]
+            },
+            {
+              "etiqueta": "🚗 Coche eléctrico",
+              "titulo": "No emite gases",
+              "puntos": [
+                "Pero generar su electricidad tiene **huella ecológica**"
+              ]
+            },
+            {
+              "etiqueta": "🚇 Metro",
+              "titulo": "Bajo tierra",
+              "puntos": [
+                "Tren **eléctrico** que circula parcial o totalmente **bajo tierra**"
+              ]
+            },
+            {
+              "etiqueta": "🚋 Tranvía",
+              "titulo": "Al aire libre",
+              "puntos": [
+                "Tren **eléctrico** que gasta **menos energía que el metro**",
+                "No necesita iluminación artificial"
+              ]
+            },
+            {
+              "etiqueta": "🚎 Autobús eléctrico",
+              "titulo": "No emite gases",
+              "puntos": [
+                "Algunos usan **hidrógeno** de energías renovables"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "¿Qué son las fuerzas?",
+          "r": "Acciones que mueven, paran o cambian la dirección de un vehículo"
+        },
+        {
+          "p": "Fuerza de empuje",
+          "r": "La fuerza que hace que el vehículo se mueva"
+        },
+        {
+          "p": "Peso",
+          "r": "Fuerza relacionada con la gravedad y la masa"
+        },
+        {
+          "p": "Fuerza de contacto (ejemplo)",
+          "r": "Lanzar una pelota"
+        },
+        {
+          "p": "Fuerzas a distancia (ejemplos)",
+          "r": "Gravedad y fuerza magnética"
+        },
+        {
+          "p": "¿Sobre qué ruedan trenes, tranvías y funiculares?",
+          "r": "Con ruedas de acero sobre carriles (rieles o raíles)"
+        },
+        {
+          "p": "Tres aspectos del movimiento del tren",
+          "r": "Apoyo, transmisión del movimiento y autoguiado"
+        },
+        {
+          "p": "Autoguiado",
+          "r": "El tren sigue la vía por sí solo, sin volante ni manillar"
+        },
+        {
+          "p": "Transporte terrestre más sostenible",
+          "r": "La bicicleta"
+        },
+        {
+          "p": "Metro",
+          "r": "Tren eléctrico que circula parcial o totalmente bajo tierra"
+        },
+        {
+          "p": "Tranvía",
+          "r": "Tren eléctrico que gasta menos energía que el metro"
+        },
+        {
+          "p": "¿Por qué el transporte público es más sostenible?",
+          "r": "Lo comparten muchas personas: menos vehículos y menos emisiones"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué fuerza hace que un vehículo se mueva?",
+          "opciones": [
+            "El peso",
+            "La gravedad",
+            "La fuerza de empuje",
+            "La resistencia"
+          ],
+          "correcta": 2,
+          "explicacion": "El peso está relacionado con la gravedad, no hace avanzar el vehículo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Con qué está relacionado el peso de un vehículo?",
+          "opciones": [
+            "Con el motor y las ruedas",
+            "Con el viento",
+            "Con la velocidad",
+            "Con la gravedad y la masa"
+          ],
+          "correcta": 3,
+          "explicacion": "La gravedad atrae los cuerpos hacia el centro de la Tierra."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál de estas frases es correcta?",
+          "opciones": [
+            "Las fuerzas son acciones que mueven, paran o desvían un vehículo",
+            "El peso es la fuerza que hace que el vehículo se mueva",
+            "El metro es el transporte terrestre más sostenible",
+            "Los autobuses eléctricos emiten gases a la atmósfera"
+          ],
+          "correcta": 0,
+          "explicacion": "Es la definición del libro (ejercicio 4 de la pág. 32)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál es un ejemplo de fuerza a distancia?",
+          "opciones": [
+            "Lanzar una pelota",
+            "La gravedad",
+            "Empujar un carro",
+            "Pedalear una bicicleta"
+          ],
+          "correcta": 1,
+          "explicacion": "Actúa sin contacto; también la fuerza magnética."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué hace la fuerza magnética de un imán?",
+          "opciones": [
+            "Atrae cualquier material",
+            "Hace caer los objetos al suelo",
+            "Atrae objetos de hierro o acero",
+            "Empuja los coches"
+          ],
+          "correcta": 2,
+          "explicacion": "Es una fuerza a distancia."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo ruedan los trenes, tranvías y funiculares?",
+          "opciones": [
+            "Con ruedas de caucho sobre la carretera",
+            "Flotando sobre el agua",
+            "Con orugas sobre la tierra",
+            "Con ruedas de acero sobre carriles de acero"
+          ],
+          "correcta": 3,
+          "explicacion": "Los carriles se llaman también rieles o raíles."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué tres aspectos explican el movimiento de un tren?",
+          "opciones": [
+            "Apoyo, transmisión del movimiento y autoguiado",
+            "Peso, volante y freno",
+            "Motor, gasolina y conductor",
+            "Velocidad, carril y estación"
+          ],
+          "correcta": 0,
+          "explicacion": "Son los tres aspectos del libro."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Para qué sirve la adherencia entre la rueda y el carril?",
+          "opciones": [
+            "Para que el tren flote",
+            "Para que la rueda no patine",
+            "Para que el tren gire sin vía",
+            "Para repartir el peso en el terreno"
+          ],
+          "correcta": 1,
+          "explicacion": "Forma parte de la transmisión del movimiento."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué hace que el tren siga la curva de la vía sin volante?",
+          "opciones": [
+            "El conductor con un manillar",
+            "Un imán debajo del tren",
+            "Las pestañas de las ruedas, que rozan la cara interior del carril",
+            "El peso de los vagones"
+          ],
+          "correcta": 2,
+          "explicacion": "Esto se llama autoguiado."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué elemento es propio de un tren y NO de un coche?",
+          "opciones": [
+            "Ruedas de caucho",
+            "Volante",
+            "Carretera",
+            "Ruedas de acero"
+          ],
+          "correcta": 3,
+          "explicacion": "El tren usa raíles, ruedas de acero y autoguiado."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál es el transporte terrestre más ecológico y sostenible?",
+          "opciones": [
+            "La bicicleta",
+            "El metro",
+            "El coche eléctrico",
+            "El autobús eléctrico"
+          ],
+          "correcta": 0,
+          "explicacion": "Funciona con la energía mecánica de las personas y no emite contaminantes."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es el tranvía?",
+          "opciones": [
+            "Un autobús de hidrógeno",
+            "Un tren eléctrico que consume menos energía que el metro",
+            "Un tren de vapor",
+            "Un tren que va siempre bajo tierra"
+          ],
+          "correcta": 1,
+          "explicacion": "Al ir al aire libre no necesita iluminación artificial."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por qué el coche eléctrico no es totalmente limpio?",
+          "opciones": [
+            "Porque echa humo por el tubo de escape",
+            "Porque usa gasolina",
+            "Porque producir la electricidad que usa tiene su propia huella ecológica",
+            "Porque tiene ruedas de acero"
+          ],
+          "correcta": 2,
+          "explicacion": "Él mismo no emite gases a la atmósfera."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por qué los transportes públicos son más sostenibles que los privados?",
+          "opciones": [
+            "Porque son más rápidos",
+            "Porque no tienen motor",
+            "Porque son más baratos",
+            "Porque al compartirlos se reduce el número de vehículos y de emisiones"
+          ],
+          "correcta": 3,
+          "explicacion": "Contaminan menos y tienen menor impacto ambiental."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "El metro es un tren eléctrico que circula parcial o totalmente bajo tierra.",
+          "correcta": true,
+          "explicacion": "Así lo define el libro."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Los autobuses eléctricos emiten gases a la atmósfera.",
+          "correcta": false,
+          "explicacion": "No contaminan directamente porque no emiten gases."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "El peso es la fuerza que hace que el vehículo se mueva.",
+          "correcta": false,
+          "explicacion": "Es la fuerza de empuje la que lo mueve; el peso está relacionado con la gravedad."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Define qué es la fuerza de empuje.",
+          "pista": "¿Qué consigue en el vehículo?",
+          "claves": [
+            "mueva",
+            "mueve",
+            "movimiento",
+            "avanc",
+            "avanzar"
+          ],
+          "modelo": "Es la fuerza que hace que el vehículo se mueva.",
+          "explicacion": "El peso, en cambio, lo mantiene en el suelo."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Indica dos diferencias entre el desplazamiento de un tren y el de un coche.",
+          "pista": "Piensa en por dónde van, sus ruedas y cómo giran.",
+          "claves": [
+            "rail",
+            "rieles",
+            "carril",
+            "via",
+            "carretera",
+            "acero",
+            "caucho",
+            "volante",
+            "manillar",
+            "autoguiado"
+          ],
+          "minimo": 2,
+          "modelo": "El tren va por raíles y el coche por carretera; el tren tiene ruedas de acero y el coche de caucho; el tren se guía solo (autoguiado) y el coche necesita volante.",
+          "explicacion": "Cualquier par de diferencias vale."
+        }
+      ]
+    },
+    {
+      "id": "movimiento-agua",
+      "titulo": "SA 2 · El movimiento por agua",
+      "resumen": [
+        "Para que un barco **flote**, su **peso** debe ser **menor** que el **empuje** del agua. Son dos fuerzas de sentido contrario.",
+        "- **Empuje**: hacia **arriba**. **Peso**: hacia el **centro de la Tierra** (abajo).",
+        "- **Flotabilidad**: capacidad de flotar en un líquido. Depende del **peso** del barco y del **empuje** del líquido.",
+        "- Si el peso supera al empuje, el barco **se hunde**.",
+        "- Factores: las **olas** (las forma el viento) y la **densidad del agua** (en el mar se flota mejor que en agua dulce).",
+        "",
+        "## Máquinas que navegan",
+        "- **Barcos de remo** (botes, canoas): fuerza humana. **Sostenibles**.",
+        "- **Veleros** y catamaranes: energía del **viento**. **Sostenibles**.",
+        "- **Submarinos**: navegan sobre y bajo el agua. **No** sostenibles.",
+        "- **Cruceros** y barcos de mercancías: los **más contaminantes**."
+      ],
+      "notas": [
+        {
+          "seccion": "¿Por qué flota un barco?",
+          "tarjetas": [
+            {
+              "etiqueta": "⬆️ Empuje",
+              "titulo": "Hacia arriba",
+              "puntos": [
+                "Lo ejerce el **agua**",
+                "Debe **superar** el peso para que el barco flote"
+              ]
+            },
+            {
+              "etiqueta": "⬇️ Peso",
+              "titulo": "Hacia abajo",
+              "puntos": [
+                "Relacionado con la **gravedad**",
+                "Sentido: hacia el **centro de la Tierra**"
+              ]
+            },
+            {
+              "etiqueta": "🛟 Flotabilidad",
+              "titulo": "Capacidad de flotar",
+              "puntos": [
+                "Depende del **peso** del barco y del **empuje** del líquido",
+                "Peso > empuje → **se hunde**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Factores que afectan al empuje",
+          "tarjetas": [
+            {
+              "etiqueta": "🌊 Olas",
+              "titulo": "Cambian el empuje",
+              "puntos": [
+                "Modifican la flotabilidad",
+                "Se forman por el **viento**"
+              ]
+            },
+            {
+              "etiqueta": "🧂 Densidad del agua",
+              "titulo": "Más sal, más empuje",
+              "puntos": [
+                "Más densidad → **más empuje** → se flota mejor",
+                "Se flota más fácil en el **mar** (salada) que en una piscina o río (dulce)",
+                "Experimento: el huevo flota en el vaso con **más sal**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Máquinas que navegan",
+          "tarjetas": [
+            {
+              "etiqueta": "🚣 Barcos de remo",
+              "titulo": "Fuerza humana",
+              "puntos": [
+                "Botes de remo y **canoas**: forma alargada",
+                "Energía **cinética** de la **fuerza humana**",
+                "**Sostenibles**"
+              ]
+            },
+            {
+              "etiqueta": "⛵ Veleros",
+              "titulo": "Viento",
+              "puntos": [
+                "Veleros y algunos **catamaranes**",
+                "Energía del **viento** según la posición de las **velas**",
+                "**Sostenibles**"
+              ]
+            },
+            {
+              "etiqueta": "🛳️ Cruceros y mercancías",
+              "titulo": "Los que más contaminan",
+              "puntos": [
+                "Por su tamaño gastan **más combustible**",
+                "La mayoría de barcos usan **motores**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Submarinos",
+          "tarjetas": [
+            {
+              "etiqueta": "🫧 Sumergirse",
+              "titulo": "Peso > empuje",
+              "puntos": [
+                "Llenan de **agua** los depósitos de **proa** (delante) y **popa** (detrás)"
+              ]
+            },
+            {
+              "etiqueta": "🔼 Emerger",
+              "titulo": "Peso < empuje",
+              "puntos": [
+                "Vacían los depósitos insuflando **aire a presión**"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ No sostenibles",
+              "titulo": "Riesgos",
+              "puntos": [
+                "Algunos usan **energía nuclear**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Condición para que un barco flote",
+          "r": "Su peso debe ser menor que el empuje del agua"
+        },
+        {
+          "p": "Las dos fuerzas de la flotabilidad",
+          "r": "Peso (hacia abajo) y empuje (hacia arriba)"
+        },
+        {
+          "p": "Flotabilidad",
+          "r": "Capacidad de flotar en un líquido; depende del peso y del empuje"
+        },
+        {
+          "p": "¿Qué pasa si el peso supera al empuje?",
+          "r": "El barco se hunde"
+        },
+        {
+          "p": "¿Qué forma las olas?",
+          "r": "El viento"
+        },
+        {
+          "p": "¿Dónde se flota mejor, en el mar o en una piscina?",
+          "r": "En el mar: el agua salada es más densa y empuja más"
+        },
+        {
+          "p": "Barcos de remo",
+          "r": "Se mueven con la fuerza humana; sostenibles"
+        },
+        {
+          "p": "Veleros",
+          "r": "Se mueven con el viento en las velas; sostenibles"
+        },
+        {
+          "p": "Barcos más contaminantes",
+          "r": "Cruceros y barcos de mercancías"
+        },
+        {
+          "p": "¿Cómo se sumerge un submarino?",
+          "r": "Llena de agua sus depósitos (peso mayor que el empuje)"
+        },
+        {
+          "p": "¿Cómo emerge un submarino?",
+          "r": "Vacía los depósitos con aire a presión"
+        },
+        {
+          "p": "Proa y popa",
+          "r": "Proa: parte delantera. Popa: parte trasera"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es necesario para que un barco flote?",
+          "opciones": [
+            "Que su peso sea menor que el empuje del agua",
+            "Que su peso sea mayor que el empuje del agua",
+            "Que tenga motor",
+            "Que el agua sea dulce"
+          ],
+          "correcta": 0,
+          "explicacion": "El empuje debe superar al peso."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Hacia dónde actúa el empuje del agua sobre un barco?",
+          "opciones": [
+            "Hacia abajo",
+            "Hacia arriba",
+            "Hacia delante",
+            "Hacia el centro de la Tierra"
+          ],
+          "correcta": 1,
+          "explicacion": "El peso actúa hacia abajo, hacia el centro de la Tierra."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Hacia dónde actúa el peso de un barco?",
+          "opciones": [
+            "Hacia arriba",
+            "Hacia la popa",
+            "Hacia el centro de la Tierra",
+            "Hacia el viento"
+          ],
+          "correcta": 2,
+          "explicacion": "El peso está relacionado con la gravedad."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿De qué depende la flotabilidad de un barco?",
+          "opciones": [
+            "Solo del color del barco",
+            "De la velocidad del motor",
+            "Del número de velas",
+            "Del peso del barco y del empuje del líquido"
+          ],
+          "correcta": 3,
+          "explicacion": "Es la capacidad de flotar en un líquido."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué ocurre si el peso de un barco aumenta hasta superar el empuje del agua?",
+          "opciones": [
+            "El barco se hunde",
+            "El barco flota mejor",
+            "El barco va más rápido",
+            "No pasa nada"
+          ],
+          "correcta": 0,
+          "explicacion": "Por eso los barcos no pueden cargar sin límite."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por qué es más fácil flotar en el mar que en una piscina?",
+          "opciones": [
+            "Porque en el mar hay olas",
+            "Porque el agua salada es más densa y ejerce más empuje",
+            "Porque el agua del mar está más fría",
+            "Porque la piscina es más pequeña"
+          ],
+          "correcta": 1,
+          "explicacion": "A más densidad, más empuje."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Pones un huevo en tres vasos: sin sal, con una cucharada y con dos cucharadas de sal. ¿En cuál flotará más fácilmente?",
+          "opciones": [
+            "En el de agua sin sal",
+            "En el de una cucharada",
+            "En el de dos cucharadas de sal",
+            "En los tres igual"
+          ],
+          "correcta": 2,
+          "explicacion": "Más sal = agua más densa = más empuje."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué forma las olas?",
+          "opciones": [
+            "Los barcos",
+            "La sal del mar",
+            "Los submarinos",
+            "La acción del viento"
+          ],
+          "correcta": 3,
+          "explicacion": "Las olas modifican el empuje y afectan a la flotabilidad."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Con qué energía se mueven los barcos de remo?",
+          "opciones": [
+            "Energía cinética de la fuerza humana",
+            "Energía del viento",
+            "Energía nuclear",
+            "Combustible"
+          ],
+          "correcta": 0,
+          "explicacion": "Por eso son sostenibles."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Con qué se mueven los barcos veleros?",
+          "opciones": [
+            "Con remos",
+            "Con la energía del viento según la posición de las velas",
+            "Con un motor de gasolina",
+            "Con energía nuclear"
+          ],
+          "correcta": 1,
+          "explicacion": "También algunos catamaranes."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué embarcaciones son las más contaminantes?",
+          "opciones": [
+            "Las canoas",
+            "Los veleros",
+            "Los cruceros y los barcos de mercancías",
+            "Los botes de remo"
+          ],
+          "correcta": 2,
+          "explicacion": "Por su tamaño usan más combustible."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál de estas embarcaciones es sostenible?",
+          "opciones": [
+            "Un crucero",
+            "Un barco portacontenedores",
+            "Un submarino nuclear",
+            "Un kayak de remo"
+          ],
+          "correcta": 3,
+          "explicacion": "Se mueve con la fuerza humana."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué hace un submarino para sumergirse?",
+          "opciones": [
+            "Llena de agua sus depósitos para que su peso sea mayor que el empuje",
+            "Vacía sus depósitos con aire a presión",
+            "Despliega las velas",
+            "Apaga el motor"
+          ],
+          "correcta": 0,
+          "explicacion": "Para emerger hace lo contrario."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es la proa de un barco?",
+          "opciones": [
+            "La parte trasera",
+            "La parte delantera",
+            "La vela",
+            "El depósito de agua"
+          ],
+          "correcta": 1,
+          "explicacion": "La popa es la parte trasera."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Busca la palabra intrusa: «Los VELEROS son navíos capaces de navegar sobre la superficie del agua o debajo de ella». ¿Qué palabra debería ir?",
+          "opciones": [
+            "Canoas",
+            "Cruceros",
+            "Submarinos",
+            "Catamaranes"
+          ],
+          "correcta": 2,
+          "explicacion": "Solo los submarinos navegan bajo el agua."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Los submarinos son embarcaciones sostenibles.",
+          "correcta": false,
+          "explicacion": "No lo son, y algunos usan energía nuclear con sus riesgos."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Las canoas son un tipo de barco de remo.",
+          "correcta": true,
+          "explicacion": "Se desplazan gracias a la fuerza humana."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Tanto los barcos de remo como los veleros son sostenibles.",
+          "correcta": true,
+          "explicacion": "Ninguno usa motor ni combustible."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "¿Cuáles son las dos fuerzas que actúan en la flotabilidad de un barco y hacia dónde actúa cada una?",
+          "pista": "Una tira hacia abajo y otra hacia arriba.",
+          "claves": [
+            "peso",
+            "empuje",
+            "arriba",
+            "abajo",
+            "centro"
+          ],
+          "minimo": 2,
+          "modelo": "El peso, hacia abajo (hacia el centro de la Tierra), y el empuje del agua, hacia arriba.",
+          "explicacion": "Para flotar, el empuje debe superar al peso."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "¿Se flota con la misma facilidad en el mar que en la piscina? ¿Por qué?",
+          "pista": "Piensa en la sal del agua.",
+          "claves": [
+            "sal",
+            "densidad",
+            "denso",
+            "empuje",
+            "mar"
+          ],
+          "minimo": 2,
+          "modelo": "No: en el mar se flota más fácilmente porque el agua salada es más densa y ejerce más empuje.",
+          "explicacion": "A mayor densidad del agua, mayor empuje."
+        }
+      ]
+    },
+    {
+      "id": "movimiento-aire",
+      "titulo": "SA 2 · El movimiento por aire",
+      "resumen": [
+        "Un avión está **parado** en el suelo por dos fuerzas: el **peso** (por la gravedad) y la **resistencia al movimiento**.",
+        "Para que vuele hay que contrarrestar esas dos fuerzas **negativas** con dos **positivas** de sentido contrario: el **empuje o tracción** y la **sustentación**.",
+        "- La **sustentación** debe superar al **peso** y mantener el avión en el aire.",
+        "- El **empuje** debe superar la **resistencia** que se opone al avance.",
+        "- Factores de la sustentación: forma del perfil del ala, superficie del ala, densidad del aire y velocidad del **viento relativo**.",
+        "- Las **cometas** vuelan con las mismas fuerzas y la energía del viento.",
+        "",
+        "## Otras máquinas que vuelan",
+        "- **Helicópteros**: hélice de **eje vertical** movida por un motor; suben y bajan en vertical.",
+        "- **Globos aerostáticos**: el aire caliente del interior es **menos denso** que el de fuera. Solo se controla la **altura**.",
+        "- **Cohetes espaciales**: motor de combustible con **propulsión a reacción**."
+      ],
+      "notas": [
+        {
+          "seccion": "Las cuatro fuerzas del vuelo",
+          "tarjetas": [
+            {
+              "etiqueta": "⬇️ Peso",
+              "titulo": "Negativa",
+              "puntos": [
+                "Mantiene el avión en el suelo por la **gravedad**"
+              ]
+            },
+            {
+              "etiqueta": "🛑 Resistencia al movimiento",
+              "titulo": "Negativa",
+              "puntos": [
+                "Hace que el avión esté **parado**",
+                "Se opone al avance"
+              ]
+            },
+            {
+              "etiqueta": "➡️ Empuje o tracción",
+              "titulo": "Positiva",
+              "puntos": [
+                "Debe **superar la resistencia**"
+              ]
+            },
+            {
+              "etiqueta": "⬆️ Sustentación",
+              "titulo": "Positiva",
+              "puntos": [
+                "Debe **superar el peso** y mantener el avión en el aire"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Parado en el suelo",
+            "items": [
+              "peso",
+              "resistencia al movimiento"
+            ]
+          }
+        },
+        {
+          "seccion": "Para volar mejor",
+          "tarjetas": [
+            {
+              "etiqueta": "🪽 Sustentación",
+              "titulo": "Depende de…",
+              "puntos": [
+                "Forma del **perfil del ala**",
+                "**Superficie** del ala",
+                "**Densidad** del aire",
+                "Velocidad del **viento relativo**"
+              ]
+            },
+            {
+              "etiqueta": "🌬️ Viento relativo",
+              "titulo": "Lo crea el avión",
+              "puntos": [
+                "Es el viento que produce el avión al **desplazarse**"
+              ]
+            },
+            {
+              "etiqueta": "🪁 Cometas",
+              "titulo": "Como un avión",
+              "puntos": [
+                "Mismas fuerzas que el avión",
+                "Las mueve el **viento**: muy **sostenibles**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Otras máquinas que vuelan",
+          "tarjetas": [
+            {
+              "etiqueta": "🚁 Helicóptero",
+              "titulo": "Hélice vertical",
+              "puntos": [
+                "Hélice con **eje vertical** movida por un **motor**",
+                "Sube y baja **verticalmente**",
+                "Usos: transporte, construcción, incendios, rescates en lugares de difícil acceso…"
+              ]
+            },
+            {
+              "etiqueta": "🎈 Globo aerostático",
+              "titulo": "Aire caliente",
+              "puntos": [
+                "Un **quemador** calienta el aire del interior",
+                "Ese aire es **menos denso** que el de fuera → flota",
+                "Se mueve según el viento: solo se controla la **altura**",
+                "Muy sostenible"
+              ]
+            },
+            {
+              "etiqueta": "🚀 Cohete espacial",
+              "titulo": "Propulsión a reacción",
+              "puntos": [
+                "**Motor de combustible**",
+                "Expulsa un chorro de gas y sale impulsado hacia arriba",
+                "Despega casi en **vertical** y puede llevar **personas** al espacio"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Relaciona",
+            "items": [
+              "Quemador → globo",
+              "Propulsión a reacción → cohete",
+              "Hélice → helicóptero"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Fuerzas que mantienen un avión parado en el suelo",
+          "r": "Peso y resistencia al movimiento"
+        },
+        {
+          "p": "Fuerzas positivas que hacen volar un avión",
+          "r": "Empuje (o tracción) y sustentación"
+        },
+        {
+          "p": "¿Qué fuerza se opone al empuje?",
+          "r": "La resistencia al movimiento"
+        },
+        {
+          "p": "¿Qué fuerza se opone a la sustentación?",
+          "r": "El peso"
+        },
+        {
+          "p": "Factores de la sustentación",
+          "r": "Forma del perfil del ala, superficie del ala, densidad del aire, viento relativo"
+        },
+        {
+          "p": "Viento relativo",
+          "r": "El viento que produce el avión al desplazarse"
+        },
+        {
+          "p": "¿Cómo vuela un helicóptero?",
+          "r": "Con una hélice de eje vertical movida por un motor"
+        },
+        {
+          "p": "¿Por qué flota un globo aerostático?",
+          "r": "Su aire caliente es menos denso que el aire exterior"
+        },
+        {
+          "p": "¿Qué se controla en un globo?",
+          "r": "Solo la altura (la dirección depende del viento)"
+        },
+        {
+          "p": "¿Cómo funciona un cohete espacial?",
+          "r": "Motor de combustible con propulsión a reacción"
+        },
+        {
+          "p": "¿Qué energía mueve una cometa?",
+          "r": "La del viento"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué dos fuerzas mantienen un avión parado en el suelo?",
+          "opciones": [
+            "El empuje y el peso",
+            "La sustentación y el empuje",
+            "El empuje y la resistencia",
+            "El peso y la resistencia al movimiento"
+          ],
+          "correcta": 3,
+          "explicacion": "El empuje es una fuerza positiva que ayuda a volar, no lo mantiene parado."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuáles son las dos fuerzas positivas que hacen volar un avión?",
+          "opciones": [
+            "Empuje (o tracción) y sustentación",
+            "Peso y resistencia",
+            "Peso y sustentación",
+            "Gravedad y empuje"
+          ],
+          "correcta": 0,
+          "explicacion": "Contrarrestan al peso y a la resistencia."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué fuerza se opone al empuje o tracción?",
+          "opciones": [
+            "La sustentación",
+            "La resistencia al movimiento",
+            "El peso",
+            "El viento relativo"
+          ],
+          "correcta": 1,
+          "explicacion": "El empuje debe superar a la resistencia."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué fuerza se opone a la sustentación?",
+          "opciones": [
+            "El empuje",
+            "La resistencia",
+            "El peso",
+            "La tracción"
+          ],
+          "correcta": 2,
+          "explicacion": "La sustentación debe superar al peso."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué debe hacer la sustentación para que el avión vuele?",
+          "opciones": [
+            "Superar a la resistencia",
+            "Ser igual que el empuje",
+            "Empujar el avión hacia abajo",
+            "Superar al peso y mantenerlo en el aire"
+          ],
+          "correcta": 3,
+          "explicacion": "Es la fuerza que lo levanta."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál de estos NO es un factor que afecta a la sustentación del avión?",
+          "opciones": [
+            "El color del avión",
+            "La forma del perfil del ala",
+            "La densidad del aire",
+            "La superficie del ala"
+          ],
+          "correcta": 0,
+          "explicacion": "El cuarto factor es la velocidad del viento relativo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es el viento relativo?",
+          "opciones": [
+            "El viento que sopla en el aeropuerto",
+            "El viento que produce el avión al desplazarse",
+            "El aire caliente de un globo",
+            "El chorro de gas de un cohete"
+          ],
+          "correcta": 1,
+          "explicacion": "Su velocidad afecta a la sustentación."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Si la resistencia y el peso suman el doble que el empuje y la sustentación, ¿qué pasa?",
+          "opciones": [
+            "El avión vuela más rápido",
+            "El avión sube más",
+            "El avión no puede volar (o cae)",
+            "No cambia nada"
+          ],
+          "correcta": 2,
+          "explicacion": "Las fuerzas positivas deben superar a las negativas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo consigue la sustentación un helicóptero?",
+          "opciones": [
+            "Con alas muy grandes",
+            "Calentando aire con un quemador",
+            "Con propulsión a reacción",
+            "Con una hélice de eje vertical movida por un motor"
+          ],
+          "correcta": 3,
+          "explicacion": "Por eso puede subir y bajar en vertical."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Para qué es útil que un helicóptero suba y baje verticalmente?",
+          "opciones": [
+            "Para rescatar personas en lugares de difícil acceso",
+            "Para volar más lejos que un avión",
+            "Para llegar al espacio",
+            "Para gastar menos combustible que un globo"
+          ],
+          "correcta": 0,
+          "explicacion": "También se usa contra incendios y en la construcción."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por qué flota un globo aerostático?",
+          "opciones": [
+            "Porque tiene una hélice",
+            "Porque el aire caliente del interior es menos denso que el aire exterior",
+            "Porque lleva un motor a reacción",
+            "Porque el aire interior es más denso"
+          ],
+          "correcta": 1,
+          "explicacion": "Un quemador calienta el aire."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué se puede controlar en un globo aerostático?",
+          "opciones": [
+            "Solo la dirección",
+            "La dirección y la velocidad",
+            "Solo la altura",
+            "Nada en absoluto"
+          ],
+          "correcta": 2,
+          "explicacion": "Se sube o baja hasta encontrar una corriente de aire que lo lleve a donde se quiere."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué elemento relacionas con el globo aerostático?",
+          "opciones": [
+            "La propulsión a reacción",
+            "La hélice",
+            "El ala",
+            "El quemador"
+          ],
+          "correcta": 3,
+          "explicacion": "El quemador calienta el aire del interior."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo funcionan los cohetes espaciales?",
+          "opciones": [
+            "Con un motor de combustible y propulsión a reacción",
+            "Con una hélice vertical",
+            "Con aire caliente",
+            "Con la energía del viento"
+          ],
+          "correcta": 0,
+          "explicacion": "Expulsan un chorro de gas y salen impulsados hacia arriba."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué máquina voladora es de las más sostenibles?",
+          "opciones": [
+            "El cohete espacial",
+            "El globo aerostático",
+            "El avión",
+            "El helicóptero"
+          ],
+          "correcta": 1,
+          "explicacion": "Gasta poco combustible comparado con otras máquinas voladoras. Las cometas también son muy sostenibles."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Para que un avión vuele, solo es necesaria la fuerza de empuje.",
+          "correcta": false,
+          "explicacion": "También hace falta la sustentación para vencer al peso."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "En un globo aerostático puedes controlar la dirección, pero no la altura.",
+          "correcta": false,
+          "explicacion": "Es al revés: se controla la altura, y la dirección depende del viento."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Las cometas vuelan gracias a las mismas fuerzas que los aviones.",
+          "correcta": true,
+          "explicacion": "La energía que las mueve es la del viento."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Los cohetes espaciales se lanzan desde posiciones casi verticales y pueden transportar personas.",
+          "correcta": true,
+          "explicacion": "Vuelan muchos kilómetros hasta llegar a su órbita."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Nombra las cuatro fuerzas que actúan sobre un avión.",
+          "pista": "Dos negativas y dos positivas.",
+          "claves": [
+            "peso",
+            "resistencia",
+            "empuje",
+            "traccion",
+            "sustentacion"
+          ],
+          "minimo": 4,
+          "modelo": "Peso y resistencia al movimiento (negativas); empuje o tracción y sustentación (positivas).",
+          "explicacion": "Dos lo frenan y dos lo hacen volar."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Nombra tres factores que afecten a la sustentación del avión.",
+          "pista": "Tres tienen que ver con el ala y el aire.",
+          "claves": [
+            "forma",
+            "perfil",
+            "superficie",
+            "densidad",
+            "viento relativo",
+            "velocidad"
+          ],
+          "minimo": 3,
+          "modelo": "La forma del perfil del ala, la superficie del ala, la densidad del aire y la velocidad del viento relativo (tres cualesquiera).",
+          "explicacion": "Son los cuatro factores del libro."
+        }
+      ]
+    }
+  ]
+}

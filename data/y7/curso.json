@@ -214,6 +214,21 @@
       ]
     },
     {
+      "id": "conocimiento-medio-sa-1-2",
+      "asignatura": "conocimiento-medio",
+      "titulo": "Examen de Conocimiento del Medio · SA 1 y SA 2",
+      "fecha": "2026-11-06",
+      "temas": [
+        "planeta-tierra",
+        "hidrosfera-atmosfera",
+        "dinamica-geologica",
+        "clima-zonas-climaticas",
+        "movimiento-tierra",
+        "movimiento-agua",
+        "movimiento-aire"
+      ]
+    },
+    {
       "id": "english-book-project",
       "asignatura": "english",
       "titulo": "English · Book project (poster + reading log)",
