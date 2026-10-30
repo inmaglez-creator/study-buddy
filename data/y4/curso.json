@@ -1,0 +1,29 @@
+{
+  "id": "y4",
+  "nombre": "Year 4",
+  "asignaturas": [
+    {
+      "id": "geography",
+      "nombre": "Geography",
+      "icono": "🌍",
+      "color": "#0c8599"
+    }
+  ],
+  "examenes": [
+    {
+      "id": "geography-unit-1",
+      "asignatura": "geography",
+      "titulo": "Geography test · Unit 1 Improving the environment",
+      "fecha": "2026-11-04",
+      "temas": [
+        "our-environment",
+        "rubbish-and-litter",
+        "recycling-rubbish",
+        "oil-and-the-environment",
+        "energy-and-the-environment",
+        "noisy-world",
+        "improving-our-environment"
+      ]
+    }
+  ]
+}

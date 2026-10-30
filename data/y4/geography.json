@@ -1,0 +1,1243 @@
+{
+  "temas": [
+    {
+      "id": "our-environment",
+      "titulo": "Our environment",
+      "resumen": [
+        "## How we affect the environment",
+        "Everything we do affects our **environment**. Our food, water and even the air we breathe come from it. People who drop **litter** or make unnecessary **noise** harm the environment.",
+        "",
+        "## Natural resources",
+        "Everything we use is made from **natural resources**: air, water, coal, oil, natural gas, rocks and soil, animals and plants. Power stations use them to make electricity, but they also **pollute** (dirty) the air.",
+        "",
+        "## Non-renewable resources",
+        "- **Coal, oil, natural gas and metal ores** can only be used once. We cannot make any more after we have used them up.",
+        "- They are like a jar of sweets: use them carefully and they last for many years; waste them and they are gone forever.",
+        "",
+        "## Renewable resources",
+        "- **Animals, trees and other plants** can be replaced: new ones grow in their place.",
+        "- **Sunlight, wind, waves, tides and fast-flowing rivers** will always be there to make more electricity."
+      ],
+      "notas": [
+        {
+          "seccion": "Our environment",
+          "tarjetas": [
+            {
+              "etiqueta": "🌍 Environment",
+              "titulo": "It gives us everything",
+              "puntos": [
+                "Our **food** comes from plants or animals",
+                "Our **water** is collected and cleaned for us",
+                "Even when we **breathe** we change the air a little"
+              ]
+            },
+            {
+              "etiqueta": "🙁 Harm",
+              "titulo": "How people harm it",
+              "puntos": [
+                "Dropping **litter**",
+                "Making unnecessary **noise**",
+                "This makes life unpleasant for other people"
+              ]
+            },
+            {
+              "etiqueta": "🏭 Pollute",
+              "titulo": "Power stations",
+              "puntos": [
+                "Use natural resources to make **electricity**",
+                "They also **pollute** (dirty) the air"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Natural resources",
+            "items": ["💨 Air", "💧 Water", "⚫ Coal", "🛢️ Oil", "🔥 Natural gas", "🪨 Rocks and soil", "🐄 Animals", "🌳 Plants"]
+          }
+        },
+        {
+          "seccion": "Renewable or non-renewable?",
+          "tarjetas": [
+            {
+              "etiqueta": "⛔ Non-renewable",
+              "titulo": "Can only be used once",
+              "puntos": [
+                "**Coal, oil, natural gas, metal ores** (e.g. iron ore)",
+                "We **cannot make more** once they are used up",
+                "Like a jar of sweets: eat them slowly and they **last longer**"
+              ]
+            },
+            {
+              "etiqueta": "♻️ Renewable",
+              "titulo": "Can be replaced",
+              "puntos": [
+                "**Animals, trees and plants**: new ones grow",
+                "**Sunlight, wind, waves, tides, fast rivers**: always more to make electricity"
+              ]
+            },
+            {
+              "etiqueta": "💡 Did you know?",
+              "titulo": "Roman concrete",
+              "puntos": [
+                "The **Romans** were the first to use **concrete** on a large scale",
+                "Nearly **2000 years ago**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Materials in the picture",
+            "items": ["Plastic", "Steel", "Copper", "Wool", "Glass", "Aluminium", "Wood", "Concrete"]
+          }
+        }
+      ],
+      "tarjetas": [
+        { "p": "What are natural resources?", "r": "Things from the environment that everything we use is made from (air, water, coal, oil, gas, rocks, soil, animals, plants)" },
+        { "p": "What does pollute mean?", "r": "To make dirty (e.g. power stations pollute the air)" },
+        { "p": "What is a non-renewable resource?", "r": "A resource that can only be used once; we cannot make any more" },
+        { "p": "Name four non-renewable resources", "r": "Coal, oil, natural gas and metal ores" },
+        { "p": "What is a renewable resource?", "r": "A resource that can be replaced, like animals, trees and plants" },
+        { "p": "Which renewable things can we use to make electricity?", "r": "Sunlight, wind, waves, tides and fast-flowing rivers" },
+        { "p": "Why are non-renewable resources like a jar of sweets?", "r": "If we use them carefully they last for years; if we waste them they are gone forever" },
+        { "p": "Who first used concrete on a large scale?", "r": "The Romans, nearly 2000 years ago" }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What are natural resources?",
+          "opciones": ["Things from the environment that we use to make everything", "Things made in factories", "Only plants and animals", "Rubbish we throw away"],
+          "correcta": 0,
+          "explicacion": "Everything we use is made from natural resources that came from the environment."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is a non-renewable resource?",
+          "opciones": ["Coal", "Trees", "Wind", "Sunlight"],
+          "correcta": 0,
+          "explicacion": "Coal can only be used once; we cannot make any more of it."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is a renewable resource?",
+          "opciones": ["Wind", "Oil", "Natural gas", "Iron ore"],
+          "correcta": 0,
+          "explicacion": "There will always be more wind to make electricity."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why are coal, oil and natural gas called non-renewable?",
+          "opciones": ["We cannot make any more after we have used them up", "They are very expensive", "They are found under the sea", "They are made by people"],
+          "correcta": 0,
+          "explicacion": "Non-renewable resources can only be used once."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why are trees and animals renewable resources?",
+          "opciones": ["New ones can grow in their place", "They live for ever", "They are found everywhere", "They do not need water"],
+          "correcta": 0,
+          "explicacion": "Animals, trees and other plants can be replaced by new ones."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does the word pollute mean?",
+          "opciones": ["To make dirty", "To clean", "To grow", "To recycle"],
+          "correcta": 0,
+          "explicacion": "Power stations pollute, or dirty, the air."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who were the first people to use concrete on a large scale?",
+          "opciones": ["The Romans", "The Vikings", "The Egyptians", "The Victorians"],
+          "correcta": 0,
+          "explicacion": "The Romans used concrete nearly 2000 years ago."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Power stations use natural resources to make electricity, and they also pollute the air.",
+          "correcta": true,
+          "explicacion": "They produce electricity but dirty the air."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Once we have used up all the Earth's iron ore, we can make some more.",
+          "correcta": false,
+          "explicacion": "Iron ore is non-renewable: when it is used up there will be no more."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "If we use non-renewable resources carefully, they will last for many years.",
+          "correcta": true,
+          "explicacion": "Like eating sweets slowly, careful use makes them last longer."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name TWO renewable sources we can use to make electricity.",
+          "pista": "Think about nature: things that never run out.",
+          "claves": ["sun", "sunlight", "solar", "wind", "wave", "tide", "tidal", "river", "water"],
+          "minimo": 2,
+          "modelo": "Sunlight and wind (also waves, tides or fast-flowing rivers).",
+          "explicacion": "Sunlight, wind, waves, tides and fast-flowing rivers will always be there."
+        }
+      ]
+    },
+    {
+      "id": "rubbish-and-litter",
+      "titulo": "Rubbish and litter",
+      "resumen": [
+        "## Rubbish and litter",
+        "- **Rubbish** is anything we do not want or need.",
+        "- **Litter** is any rubbish we do not put in a bin or recycle.",
+        "",
+        "## Landfill sites",
+        "Much of our rubbish goes into holes in the ground called **landfill sites** (often old stone quarries or sand and gravel pits).",
+        "- Birds, flies and **rats** feed on the rubbish and spread **germs**.",
+        "- They produce poisonous gases such as **methane** and **carbon dioxide**, which add to **global warming**.",
+        "- Apple cores, vegetable peelings and paper **rot away** quickly, but most rubbish never rots.",
+        "",
+        "## Making less rubbish",
+        "Choose things with little **packaging**, **reuse** plastic bags or use strong cloth bags.",
+        "",
+        "## Why is litter dangerous?",
+        "It is dirty, looks nasty and carries **germs**. Cigarette ends, matches and broken glass in the sun can start **fires**. It harms animals: glass cuts feet, cans cut mouths, six-pack rings trap small animals and plastic bags choke big animals.",
+        "Never pick up litter without wearing **gloves**."
+      ],
+      "notas": [
+        {
+          "seccion": "What is the difference?",
+          "tarjetas": [
+            {
+              "etiqueta": "🗑️ Rubbish",
+              "titulo": "Anything we do not want or need",
+              "puntos": ["Even in the dustbin it can still **damage** the environment"]
+            },
+            {
+              "etiqueta": "🚯 Litter",
+              "titulo": "Rubbish not put in a bin",
+              "puntos": ["Rubbish we do **not** put in a bin or **recycle**", "Looks ugly and can be **dangerous**"]
+            }
+          ]
+        },
+        {
+          "seccion": "Landfill sites",
+          "tarjetas": [
+            {
+              "etiqueta": "🕳️ Landfill",
+              "titulo": "Holes in the ground",
+              "puntos": ["Old **stone quarries** and **sand and gravel pits**", "Take up valuable space and **pollute**"]
+            },
+            {
+              "etiqueta": "🐀 Germs",
+              "titulo": "Animals spread germs",
+              "puntos": ["**Birds, flies and rats** feed on the rubbish", "They spread **germs**"]
+            },
+            {
+              "etiqueta": "☁️ Gases",
+              "titulo": "Poisonous gases",
+              "puntos": ["**Methane** and **carbon dioxide**", "They add to **global warming**"]
+            },
+            {
+              "etiqueta": "🍎 Rotting",
+              "titulo": "Does it rot?",
+              "puntos": ["**Apple cores, peelings, paper** rot away quickly", "**Most** rubbish never rots"]
+            }
+          ]
+        },
+        {
+          "seccion": "Why is litter dangerous?",
+          "tarjetas": [
+            {
+              "etiqueta": "🦠 People",
+              "titulo": "Danger for people",
+              "puntos": ["Carries **germs** that make people and animals ill", "**Cigarette ends and matches** start fires", "Sun through **old bottles** can start fires in dry places"]
+            },
+            {
+              "etiqueta": "🐾 Animals",
+              "titulo": "Danger for animals",
+              "puntos": ["**Broken glass** cuts their feet", "**Food cans** cut mouths and faces", "**Six-pack rings**, bottles, cans trap small animals", "**Plastic bags** choke goats, cows, camels, horses"]
+            },
+            {
+              "etiqueta": "🛍️ Less rubbish",
+              "titulo": "Making less rubbish",
+              "puntos": ["Buy things with **little packaging**", "**Reuse** plastic bags or use **cloth bags**"]
+            },
+            {
+              "etiqueta": "🏔️ Did you know?",
+              "titulo": "Highest rubbish dump",
+              "puntos": ["At least **200 tonnes** of litter on **Mount Everest**", "⚠️ Never pick up litter without **gloves**"]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        { "p": "What is rubbish?", "r": "Anything we do not want or need" },
+        { "p": "What is litter?", "r": "Any rubbish we do not put in a bin or recycle" },
+        { "p": "What is a landfill site?", "r": "A hole in the ground where rubbish is put" },
+        { "p": "Which animals feed on rubbish at landfill sites?", "r": "Birds, flies and rats (they spread germs)" },
+        { "p": "Which poisonous gases do landfill sites produce?", "r": "Methane and carbon dioxide" },
+        { "p": "Which rubbish rots away quickly?", "r": "Apple cores, vegetable peelings and paper" },
+        { "p": "How can we make less rubbish when shopping?", "r": "Choose things with little packaging and reuse bags or use cloth bags" },
+        { "p": "Where is the world's highest rubbish dump?", "r": "Mount Everest (at least 200 tonnes of litter)" },
+        { "p": "What must you wear to pick up litter?", "r": "Gloves" }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is litter?",
+          "opciones": ["Rubbish we do not put in a bin or recycle", "Rubbish in the dustbin", "Food we eat", "Things made of plastic"],
+          "correcta": 0,
+          "explicacion": "Litter is any rubbish we do not put in a bin or recycle."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a landfill site?",
+          "opciones": ["A hole in the ground where rubbish is put", "A factory that makes paper", "A field for growing food", "A park with trees"],
+          "correcta": 0,
+          "explicacion": "Much of our rubbish is put in holes in the ground called landfill sites."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which places are often used as landfill sites?",
+          "opciones": ["Old stone quarries and sand and gravel pits", "Rivers and lakes", "Schools and parks", "Beaches"],
+          "correcta": 0,
+          "explicacion": "Old quarries and pits are holes that can be filled with rubbish."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which poisonous gas is produced by landfill sites?",
+          "opciones": ["Methane", "Oxygen", "Helium", "Steam"],
+          "correcta": 0,
+          "explicacion": "Landfill sites produce methane and carbon dioxide."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "The gases from landfill sites add to…",
+          "opciones": ["global warming", "noise pollution", "acid rain", "earthquakes"],
+          "correcta": 0,
+          "explicacion": "Methane and carbon dioxide add to global warming."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these rots away quickly?",
+          "opciones": ["An apple core", "A plastic bottle", "A glass jar", "A tin can"],
+          "correcta": 0,
+          "explicacion": "Apple cores, vegetable peelings and paper rot away quickly."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How can six-pack rings harm animals?",
+          "opciones": ["They can trap small animals", "They cut their feet", "They start fires", "They make noise"],
+          "correcta": 0,
+          "explicacion": "Bottles, cans and six-pack rings can trap small animals."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How can we make less rubbish when we go shopping?",
+          "opciones": ["Choose things with only a little packaging", "Buy more plastic bags", "Buy things wrapped in lots of boxes", "Throw bags away after one use"],
+          "correcta": 0,
+          "explicacion": "Little packaging and reusable bags mean less rubbish."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where is the world's highest rubbish dump?",
+          "opciones": ["Mount Everest", "London", "The Pacific Ocean", "The North Pole"],
+          "correcta": 0,
+          "explicacion": "Climbers have left at least 200 tonnes of litter on Everest."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Most rubbish rots away easily in the ground.",
+          "correcta": false,
+          "explicacion": "Most rubbish does not rot away easily; it stays in the ground."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Sunlight shining through old bottles and broken glass can start fires in dry places.",
+          "correcta": true,
+          "explicacion": "Glass can focus the Sun's light and start a fire."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "It is fine to pick up litter with your bare hands.",
+          "correcta": false,
+          "explicacion": "Never pick up litter without wearing gloves."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give TWO ways litter can harm animals.",
+          "pista": "Think about glass, cans, six-pack rings and plastic bags.",
+          "claves": ["cut", "feet", "foot", "mouth", "face", "trap", "choke", "germ", "ill", "sick"],
+          "minimo": 2,
+          "modelo": "Broken glass can cut their feet and plastic bags can choke them.",
+          "explicacion": "Litter cuts, traps and chokes animals, and carries germs."
+        }
+      ]
+    },
+    {
+      "id": "recycling-rubbish",
+      "titulo": "Recycling rubbish",
+      "resumen": [
+        "## Why recycle?",
+        "The world's **population** is growing quickly, so we make more rubbish. Throwing things away causes **pollution** and wastes valuable materials. **Recycling** and **reusing** is much better, but we only recycle a fraction of our rubbish.",
+        "",
+        "## A family's dustbin (by weight)",
+        "Paper **30%** · Kitchen rubbish **23%** · Glass 10% · Dust 10% · Other 10% · Metals 9% · Plastics 5% · Cloth 3%.",
+        "",
+        "## What can be recycled?",
+        "- **Glass**: recycled over and over again; it saves energy and raw materials. Even better to **reuse** jars and bottles. A recycled glass bottle uses only **one tenth** of the energy.",
+        "- **Plastics**: bottles are made into **fleece jackets** or **traffic cones**; bags and containers can be reused.",
+        "- **Clothing and textiles**: reused or made into mattress fillings, cloths, blankets and carpets.",
+        "- **Plant material**: fruit and vegetable waste makes **compost**, a natural **fertiliser**.",
+        "- **Metals**: drinks cans are **aluminium**. Recycling it uses only **one twentieth** of the energy and makes one twentieth of the pollution. Food cans are **steel** with a thin coating of **tin**.",
+        "- **Paper**: almost **one third** of our rubbish. It becomes toilet rolls, egg boxes and new paper. Each tonne recycled saves almost **15 trees**."
+      ],
+      "notas": [
+        {
+          "seccion": "Why should we recycle?",
+          "tarjetas": [
+            {
+              "etiqueta": "👨‍👩‍👧 Population",
+              "titulo": "More people, more rubbish",
+              "puntos": ["The world's **population** grows very quickly", "So the amount of **rubbish** increases too"]
+            },
+            {
+              "etiqueta": "♻️ Recycle",
+              "titulo": "Better than throwing away",
+              "puntos": ["Throwing away causes **pollution** and **wastes** materials", "Recycling saves **natural resources** and **energy**", "We only recycle a **fraction** of our rubbish"]
+            }
+          ],
+          "chips": {
+            "titulo": "A family's dustbin each week (by weight)",
+            "items": ["📰 Paper 30%", "🥕 Kitchen 23%", "🍾 Glass 10%", "🌫️ Dust 10%", "❓ Other 10%", "🥫 Metals 9%", "🧴 Plastics 5%", "👕 Cloth 3%"]
+          }
+        },
+        {
+          "seccion": "What becomes what?",
+          "tarjetas": [
+            {
+              "etiqueta": "🍾 Glass",
+              "titulo": "Recycled again and again",
+              "puntos": ["Saves **energy** and **raw materials**", "Even better: **reuse** jars and bottles", "Recycled bottle = **1/10** of the energy"]
+            },
+            {
+              "etiqueta": "🧴 Plastics",
+              "titulo": "Bottles into jackets",
+              "puntos": ["Plastic bottles → **fleece jackets**, **traffic cones**", "Bags and containers can be **reused**"]
+            },
+            {
+              "etiqueta": "👕 Textiles",
+              "titulo": "Old clothes",
+              "puntos": ["Reused, or made into **mattress fillings, cloths, blankets, carpets**"]
+            },
+            {
+              "etiqueta": "🍌 Plants",
+              "titulo": "Compost",
+              "puntos": ["Fruit and vegetable waste → **compost**", "A natural **fertiliser** to grow more plants"]
+            },
+            {
+              "etiqueta": "🥫 Metals",
+              "titulo": "Cans",
+              "puntos": ["Drinks cans: **aluminium**, recycling uses **1/20** of the energy", "Food cans: **steel** with a thin coat of **tin**", "Fewer **big holes** in the ground"]
+            },
+            {
+              "etiqueta": "📰 Paper",
+              "titulo": "Almost one third",
+              "puntos": ["→ **toilet rolls, egg boxes**, new paper", "1 tonne recycled saves almost **15 trees**"]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        { "p": "Why is the amount of rubbish increasing?", "r": "Because the world's population is growing very quickly" },
+        { "p": "What is the biggest part of a family's dustbin (by weight)?", "r": "Paper (30%)" },
+        { "p": "What can plastic bottles be recycled into?", "r": "Fleece jackets or traffic cones" },
+        { "p": "What can old clothes be recycled into?", "r": "Mattress fillings, cloths, blankets and carpets" },
+        { "p": "What is compost used for?", "r": "As a natural fertiliser to help grow more plants" },
+        { "p": "What metal are most drinks cans made of?", "r": "Aluminium" },
+        { "p": "How much energy does recycling aluminium use?", "r": "Only one twentieth of the energy needed to make new aluminium" },
+        { "p": "What are most food cans made of?", "r": "Steel with a thin coating of tin" },
+        { "p": "What can paper be recycled into?", "r": "Toilet rolls, egg boxes and new paper" },
+        { "p": "How many trees does one tonne of recycled paper save?", "r": "Almost 15 average-sized trees" }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is the amount of rubbish people produce increasing?",
+          "opciones": ["The world's population is growing very quickly", "People recycle more", "There are more landfill sites", "Rubbish rots more slowly"],
+          "correcta": 0,
+          "explicacion": "More people means more rubbish."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which makes up the biggest part of a family's dustbin by weight?",
+          "opciones": ["Paper", "Plastics", "Glass", "Cloth"],
+          "correcta": 0,
+          "explicacion": "Paper is 30% of what a typical family throws away."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What percentage of a family's dustbin is kitchen rubbish?",
+          "opciones": ["23%", "5%", "30%", "9%"],
+          "correcta": 0,
+          "explicacion": "Kitchen rubbish is 23% of the dustbin."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Plastic bottles can be recycled to make…",
+          "opciones": ["fleece jackets", "glass jars", "compost", "paper"],
+          "correcta": 0,
+          "explicacion": "Plastic bottles can become fleece jackets or traffic cones."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Fruit and vegetable waste can be recycled into…",
+          "opciones": ["compost", "aluminium", "carpets", "plastic bags"],
+          "correcta": 0,
+          "explicacion": "Plant waste rots down into compost, a natural fertiliser."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Most drinks cans are made of…",
+          "opciones": ["aluminium", "copper", "glass", "wood"],
+          "correcta": 0,
+          "explicacion": "Aluminium is a valuable metal that can be recycled."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Recycling aluminium uses how much of the energy needed to make new aluminium?",
+          "opciones": ["One twentieth", "Half", "The same amount", "Double"],
+          "correcta": 0,
+          "explicacion": "It uses only one twentieth of the energy."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Most food cans are made of…",
+          "opciones": ["steel with a thin coating of tin", "pure gold", "plastic", "aluminium foil only"],
+          "correcta": 0,
+          "explicacion": "Food cans are a mixture of metals, often steel coated with tin."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Each tonne of waste paper we recycle saves almost…",
+          "opciones": ["15 trees", "2 trees", "100 trees", "1000 trees"],
+          "correcta": 0,
+          "explicacion": "Recycling a tonne of paper saves almost 15 average-sized trees."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Old clothing and textiles can be recycled to make…",
+          "opciones": ["blankets and carpets", "drinks cans", "compost", "traffic cones"],
+          "correcta": 0,
+          "explicacion": "They can become mattress fillings, cloths, blankets and carpets."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Glass can be recycled over and over again.",
+          "correcta": true,
+          "explicacion": "Recycling glass saves energy and raw materials."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Making a bottle from recycled glass uses more energy than making a brand-new bottle.",
+          "correcta": false,
+          "explicacion": "It uses only one tenth of the energy."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name TWO things that waste paper can be recycled into.",
+          "pista": "Think about things in your bathroom and kitchen.",
+          "claves": ["toilet", "egg", "box", "paper", "writing", "printing"],
+          "minimo": 2,
+          "modelo": "Toilet rolls and egg boxes (also new paper for writing and printing).",
+          "explicacion": "Paper can be recycled into toilet rolls, egg boxes and new paper."
+        }
+      ]
+    },
+    {
+      "id": "oil-and-the-environment",
+      "titulo": "Oil and the environment",
+      "resumen": [
+        "## How is oil formed?",
+        "**Crude oil** formed from tiny plants and animals that lived in the sea **millions of years ago**. They died, sank, were buried by mud and sand and slowly changed into oil.",
+        "",
+        "## Drilling for oil",
+        "Oil is found in layers deep underground, with **natural gas** in a layer above it. Workers drill **thousands of metres** through rock. Under the sea they drill from huge platforms called **oil rigs**; one rig can control several **wells**.",
+        "The deepest oil well (2009, Gulf of Mexico) was **10.7 km** deep.",
+        "",
+        "## Uses of oil",
+        "Crude oil is made into **petrol, diesel, paraffin (kerosene), heating oil and asphalt**, and into **paints, detergents, plastics, synthetic rubber and pesticides**. Natural gas is used as a **fuel**.",
+        "",
+        "## Problems with oil",
+        "Oil is pumped through pipes to a **port**, then carried by **oil tankers**. If a tanker runs aground or crashes, oil **spills**: sea plants, fish and shellfish die and **seabirds** with oil on their feathers cannot survive.",
+        "In April **2010** an oil rig exploded in the Gulf of Mexico, killing 11 people.",
+        "Oil is **non-renewable**: we must not waste it and must find energy that does not harm the environment."
+      ],
+      "notas": [
+        {
+          "seccion": "Where does oil come from?",
+          "tarjetas": [
+            {
+              "etiqueta": "🦐 Formed",
+              "titulo": "From tiny sea life",
+              "puntos": ["Tiny **plants and animals** died and sank", "Buried by **mud and sand**", "Over **millions of years** → oil"]
+            },
+            {
+              "etiqueta": "🛠️ Drilling",
+              "titulo": "Deep underground",
+              "puntos": ["**Natural gas** is in a layer **above** the oil", "Drill **thousands of metres** through rock", "Oil rushes out mixed with gas"]
+            },
+            {
+              "etiqueta": "🌊 Oil rig",
+              "titulo": "Drilling at sea",
+              "puntos": ["Huge **platforms** drill below the sea floor", "One rig controls **several wells**", "Deepest well: **10.7 km** (2009, Gulf of Mexico)"]
+            }
+          ],
+          "chips": {
+            "titulo": "The diagram",
+            "items": ["Oil rig", "Sea", "Wells", "Rock layers", "Oil and gas trapped in porous rock"]
+          }
+        },
+        {
+          "seccion": "Uses and problems",
+          "tarjetas": [
+            {
+              "etiqueta": "⛽ Fuels",
+              "titulo": "Made from crude oil",
+              "puntos": ["**Petrol, diesel, paraffin** (kerosene)", "**Heating oil** and **asphalt**", "Natural gas is used as a **fuel**"]
+            },
+            {
+              "etiqueta": "🎨 Materials",
+              "titulo": "Other things from oil",
+              "puntos": ["**Paints, detergents, plastics**", "**Synthetic rubber, pesticides**"]
+            },
+            {
+              "etiqueta": "🚢 Tankers",
+              "titulo": "Oil spills",
+              "puntos": ["Oil goes by pipe to a **port**, then by **tanker**", "Tanker **runs aground** or **collides** → spill", "Fish, shellfish die; **seabirds** with oily feathers cannot survive"]
+            },
+            {
+              "etiqueta": "🔥 2010",
+              "titulo": "Gulf of Mexico disaster",
+              "puntos": ["An oil rig **exploded** and sank", "**11** people killed", "**780 000** cubic metres of oil gushed into the sea"]
+            }
+          ],
+          "chips": {
+            "titulo": "Remember",
+            "items": ["⛔ Oil is non-renewable", "🚫 Don't waste it", "🌞 Find cleaner energy"]
+          }
+        }
+      ],
+      "tarjetas": [
+        { "p": "What was crude oil formed from?", "r": "Tiny plants and animals that lived in the sea millions of years ago" },
+        { "p": "Which gas is found in a layer above oil?", "r": "Natural gas" },
+        { "p": "What is an oil rig?", "r": "A huge platform used to drill for oil below the sea floor" },
+        { "p": "How deep was the deepest oil well?", "r": "10.7 kilometres (2009, Gulf of Mexico)" },
+        { "p": "Name three fuels made from crude oil", "r": "Petrol, diesel, paraffin (kerosene), heating oil" },
+        { "p": "Name three materials made from crude oil", "r": "Paints, detergents, plastics, synthetic rubber, pesticides" },
+        { "p": "How is oil carried around the world?", "r": "By large oil tanker ships" },
+        { "p": "What happens to seabirds in an oil spill?", "r": "They get oil on their feathers and cannot survive" },
+        { "p": "What happened in April 2010 in the Gulf of Mexico?", "r": "An oil rig exploded and sank, killing 11 people" }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What was crude oil formed from?",
+          "opciones": ["Tiny plants and animals that lived in the sea", "Melted rocks from volcanoes", "Old car tyres", "Rainwater"],
+          "correcta": 0,
+          "explicacion": "Dead sea plants and animals were buried and changed into oil over millions of years."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How long did it take for oil to form?",
+          "opciones": ["Millions of years", "A few weeks", "About 100 years", "One year"],
+          "correcta": 0,
+          "explicacion": "Oil takes millions of years to form."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which gas is found in a layer above the oil?",
+          "opciones": ["Natural gas", "Oxygen", "Steam", "Helium"],
+          "correcta": 0,
+          "explicacion": "Natural gas is found in a layer above the oil."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What do we call the huge platforms used to drill for oil at sea?",
+          "opciones": ["Oil rigs", "Oil tankers", "Landfill sites", "Power stations"],
+          "correcta": 0,
+          "explicacion": "Oil companies drill below the sea floor from oil rigs."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is made from crude oil?",
+          "opciones": ["Petrol", "Wool", "Glass", "Wood"],
+          "correcta": 0,
+          "explicacion": "Crude oil is used to make petrol, diesel and other fuels."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these materials is also made from crude oil?",
+          "opciones": ["Plastics", "Cotton", "Paper", "Iron"],
+          "correcta": 0,
+          "explicacion": "Paints, detergents, plastics, synthetic rubber and pesticides come from oil."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How is oil carried around the world?",
+          "opciones": ["In large oil tanker ships", "In aeroplanes", "In plastic bags", "On bicycles"],
+          "correcta": 0,
+          "explicacion": "Oil is pumped to a port and large tanker ships take it around the world."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why can't seabirds survive an oil spill?",
+          "opciones": ["They get oil on their feathers", "The water gets too cold", "They eat too many fish", "The noise scares them"],
+          "correcta": 0,
+          "explicacion": "Seabirds that get oil on their feathers cannot survive."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In 2009, the deepest oil well was drilled in the Gulf of Mexico. How deep was it?",
+          "opciones": ["10.7 kilometres", "10 metres", "1 kilometre", "100 kilometres"],
+          "correcta": 0,
+          "explicacion": "It was 10.7 kilometres deep."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Crude oil can be used just as it is when it comes out of the ground.",
+          "correcta": false,
+          "explicacion": "It must be made into petrol, diesel and other products first."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Oil is a non-renewable resource.",
+          "correcta": true,
+          "explicacion": "It takes millions of years to form, so if we keep using it, it will run out."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In April 2010, an oil rig exploded and sank in the Gulf of Mexico.",
+          "correcta": true,
+          "explicacion": "It killed 11 people and lots of oil gushed into the sea."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give TWO things that can cause an oil spill at sea.",
+          "pista": "Think about what can go wrong with an oil tanker.",
+          "claves": ["aground", "collide", "collision", "crash", "hit", "loading", "loaded", "explo", "rig"],
+          "minimo": 2,
+          "modelo": "A tanker runs aground or collides with another ship (oil can also spill when a tanker is being loaded).",
+          "explicacion": "Spills happen when tankers run aground, collide or are being loaded."
+        }
+      ]
+    },
+    {
+      "id": "energy-and-the-environment",
+      "titulo": "Energy and the environment",
+      "resumen": [
+        "## Energy",
+        "Everything we use or buy has been made using **energy**. Vehicles that move goods and people use energy, and flicking a switch uses energy as **electricity**.",
+        "",
+        "## Fossil fuels",
+        "**Coal, oil and natural gas** are **fossil fuels**: they formed in the Earth from the remains of plants and animals that lived long ago. Most electricity comes from burning them; some comes from **wind, moving water or the Sun**.",
+        "Taking them out of the Earth damages the environment: digging coal leaves **large holes and heaps of waste**.",
+        "",
+        "## Acid rain and smog",
+        "- Burning fossil fuels makes harmful gases. Some mix with water in clouds and make **acid rain** (acid like vinegar). It kills trees, plants and water animals and damages buildings.",
+        "- Warm sunshine can turn these gases into a murky brown layer called **smog**. It hurts eyes and damages lungs. In December **1952** a smog in **London** killed more than **4000** people.",
+        "",
+        "## Global warming",
+        "Gases in the **atmosphere** trap some of the Sun's heat. Burning fossil fuels traps more, so the Earth warms up: **global warming**. Polar ice may melt (flooding low-lying countries), with more **droughts** and floods.",
+        "",
+        "## Saving energy",
+        "- Travel: small cars use less fuel; **trains, trams and buses** use less energy per person; **walk or cycle** short journeys.",
+        "- At home: turn off lights and TVs, shut doors and windows when the heating is on, wear an extra jumper, have a **shower rather than a bath**, heat only the water you need, no air conditioning with windows open."
+      ],
+      "notas": [
+        {
+          "seccion": "Fossil fuels",
+          "tarjetas": [
+            {
+              "etiqueta": "⚡ Energy",
+              "titulo": "We use it all the time",
+              "puntos": ["Everything we buy was **made using energy**", "Trucks, cars, buses, trains, aeroplanes use it", "A switch uses energy as **electricity**"]
+            },
+            {
+              "etiqueta": "🦴 Fossil fuels",
+              "titulo": "Coal, oil, natural gas",
+              "puntos": ["Formed from **remains of plants and animals** from long ago", "Most **electricity** comes from burning them", "Some from **wind, moving water, the Sun**"]
+            },
+            {
+              "etiqueta": "⛏️ Damage",
+              "titulo": "Digging them out",
+              "puntos": ["Digging coal leaves **large holes**", "and **heaps of waste**"]
+            }
+          ]
+        },
+        {
+          "seccion": "Pollution from burning",
+          "tarjetas": [
+            {
+              "etiqueta": "🌧️ Acid rain",
+              "titulo": "Rain like vinegar",
+              "puntos": ["Gases mix with water in **rain clouds**", "Kills **trees**, plants and **water animals**", "Damages **buildings** (e.g. dead pine trees in **Switzerland**)"]
+            },
+            {
+              "etiqueta": "🌫️ Smog",
+              "titulo": "Murky brown layer",
+              "puntos": ["Warm **sunshine** turns the gases into smog", "Hurts **eyes**, damages **lungs**", "**London 1952**: 4 days, more than **4000** died"]
+            },
+            {
+              "etiqueta": "🌡️ Global warming",
+              "titulo": "Earth warms up",
+              "puntos": ["Gases in the **atmosphere** trap the Sun's heat", "Burning fossil fuels traps **more** heat", "Polar **ice melts** → floods; more **droughts**"]
+            }
+          ]
+        },
+        {
+          "seccion": "Saving energy",
+          "tarjetas": [
+            {
+              "etiqueta": "🚲 Travel",
+              "titulo": "Getting around",
+              "puntos": ["**Small cars** use less fuel than big ones", "**Trains, trams, buses** use less per person", "**Walk or cycle** short journeys: no pollution"]
+            }
+          ],
+          "chips": {
+            "titulo": "At home and school",
+            "items": ["💡 Lights and TVs off", "🚪 Shut doors and windows", "🧥 Extra jumper", "🚿 Shower, not bath", "🫖 Heat only the water you need", "❄️ No air con with windows open"]
+          }
+        }
+      ],
+      "tarjetas": [
+        { "p": "Name the three fossil fuels", "r": "Coal, oil and natural gas" },
+        { "p": "Why are they called fossil fuels?", "r": "They formed in the Earth from the remains of plants and animals that lived long ago" },
+        { "p": "What is acid rain?", "r": "Rain made acid (like vinegar) by gases from burning fossil fuels" },
+        { "p": "What does acid rain do?", "r": "Kills trees, plants and water animals and damages buildings" },
+        { "p": "What is smog?", "r": "A murky brown layer in the air made when sunshine turns harmful gases into smog" },
+        { "p": "What happened in London in December 1952?", "r": "A smog lasting four days killed more than 4000 people" },
+        { "p": "What is global warming?", "r": "The Earth warming up more than usual because gases from fossil fuels trap heat" },
+        { "p": "What is a drought?", "r": "A long time with too little rain (global warming may cause more droughts)" },
+        { "p": "Which journeys use the least energy?", "r": "Walking or cycling" },
+        { "p": "Give two ways to save energy at home", "r": "Turn off lights, have a shower not a bath, wear an extra jumper, shut doors and windows" }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is a fossil fuel?",
+          "opciones": ["Coal", "Wind", "Sunlight", "Wood"],
+          "correcta": 0,
+          "explicacion": "Coal, oil and natural gas are fossil fuels."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why are coal, oil and gas called fossil fuels?",
+          "opciones": ["They formed from the remains of plants and animals that lived long ago", "They are found in museums", "They are made in factories", "They come from the Sun"],
+          "correcta": 0,
+          "explicacion": "They formed in the Earth from ancient plants and animals."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How is most of our electricity produced?",
+          "opciones": ["By burning fossil fuels", "By wind", "By the Sun", "By moving water"],
+          "correcta": 0,
+          "explicacion": "Electricity is mainly produced by burning fossil fuels."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Acid rain is acid like…",
+          "opciones": ["vinegar", "milk", "sugar", "salt"],
+          "correcta": 0,
+          "explicacion": "Gases mix with water in clouds, making rain acid like vinegar."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What can acid rain do?",
+          "opciones": ["Kill trees and damage buildings", "Help plants grow faster", "Clean the air", "Make rivers deeper"],
+          "correcta": 0,
+          "explicacion": "Acid rain kills trees, plants and water animals and damages buildings."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is smog?",
+          "opciones": ["A murky brown layer of harmful gases in the air", "A type of rain", "A kind of fossil fuel", "A white cloud of steam"],
+          "correcta": 0,
+          "explicacion": "Warm sunshine turns harmful gases into a murky brown layer called smog."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In December 1952, a smog lasting four days killed more than 4000 people. Where?",
+          "opciones": ["London", "Paris", "Mexico", "Switzerland"],
+          "correcta": 0,
+          "explicacion": "The deadly smog happened in London, England."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What may global warming be causing?",
+          "opciones": ["The ice in the polar regions to melt", "More snow everywhere", "The Sun to get smaller", "Fewer floods"],
+          "correcta": 0,
+          "explicacion": "Global warming may be melting polar ice and changing the climate."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which way of travelling to school uses the least energy?",
+          "opciones": ["Riding a bicycle", "Going in a big car", "Going in a small car", "Going by taxi"],
+          "correcta": 0,
+          "explicacion": "Walking or cycling uses much less energy and does not pollute."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these saves energy?",
+          "opciones": ["Having a shower rather than a bath", "Leaving the TV on all night", "Opening windows when the heating is on", "Using air conditioning with the doors open"],
+          "correcta": 0,
+          "explicacion": "A shower uses less hot water than a bath."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Trains, trams and buses use less energy for each person than even the smallest car.",
+          "correcta": true,
+          "explicacion": "They carry many people, so each person uses less energy."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Taking fossil fuels out of the Earth does not harm the environment.",
+          "correcta": false,
+          "explicacion": "Digging coal leaves large holes and heaps of waste."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Global warming may cause more droughts in some areas and more floods in others.",
+          "correcta": true,
+          "explicacion": "It may be changing the world's climate."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give TWO ways we can save electricity, light or heat energy at home.",
+          "pista": "Think about lights, doors, clothes and water.",
+          "claves": ["turn", "switch", "off", "light", "door", "window", "jumper", "shower", "kettle", "pan", "air condition"],
+          "minimo": 2,
+          "modelo": "Turn off lights when we do not need them and wear an extra jumper instead of turning up the heating.",
+          "explicacion": "Small changes at home save a lot of energy."
+        }
+      ]
+    },
+    {
+      "id": "noisy-world",
+      "titulo": "It's a noisy world!",
+      "resumen": [
+        "## What is noise?",
+        "**Noise** is sound that we do not like or do not want. Like litter, noise is a kind of **pollution**: it spoils our environment.",
+        "",
+        "## What causes noise?",
+        "Large **towns and cities** are very noisy. Even in the **countryside** there is noise from **aircraft, road traffic and farm machines**.",
+        "",
+        "## How is noise harmful?",
+        "Your body **grows and repairs itself** when you are asleep, but it is hard to rest, sleep, think or work when it is noisy. Very loud noises can **damage your ears** and reduce your **hearing**.",
+        "The **Saturn V** space rocket made one of the loudest noises ever produced by people.",
+        "",
+        "## How can we reduce noise?",
+        "- Cars, motorbikes and trucks have **silencers** to make engines quieter.",
+        "- **Curtains and carpets** absorb sound in large empty rooms with hard floors.",
+        "- **Soft foam or fibreglass** in the hollows in walls.",
+        "- **Double-glazed** or **triple-glazed** windows keep out noise.",
+        "- People in noisy places wear **ear defenders**."
+      ],
+      "notas": [
+        {
+          "seccion": "Noise pollution",
+          "tarjetas": [
+            {
+              "etiqueta": "🔊 Noise",
+              "titulo": "Sound we don't want",
+              "puntos": ["Sound we do **not like** or **not want**", "A kind of **pollution**, like litter"]
+            },
+            {
+              "etiqueta": "🏙️ Causes",
+              "titulo": "Where does it come from?",
+              "puntos": ["Large **towns and cities** are very noisy", "Countryside: **aircraft, road traffic, farm machines**"]
+            },
+            {
+              "etiqueta": "😴 Harm",
+              "titulo": "Why noise is harmful",
+              "puntos": ["Your body **grows and repairs** itself while you sleep", "Hard to **rest, sleep, think or work**", "Very loud noise can **damage your ears**"]
+            },
+            {
+              "etiqueta": "🚀 Did you know?",
+              "titulo": "Loudest noise",
+              "puntos": ["The **Saturn V** space rocket made one of the loudest noises ever made by people"]
+            }
+          ]
+        },
+        {
+          "seccion": "Reducing noise",
+          "chips": {
+            "titulo": "Ways to reduce noise",
+            "items": ["🚗 Silencers on engines", "🪟 Curtains", "🟫 Carpets", "🧽 Soft foam or fibreglass in walls", "🪟 Double or triple glazing", "🎧 Ear defenders"]
+          },
+          "tarjetas": [
+            {
+              "etiqueta": "🏠 Rooms",
+              "titulo": "Large, empty rooms",
+              "puntos": ["Noisy, especially with **hard floors**", "Curtains and carpets **absorb** some of the sound"]
+            },
+            {
+              "etiqueta": "🦺 Work",
+              "titulo": "Noisy jobs",
+              "puntos": ["People who use **noisy machines** wear **ear defenders**", "e.g. airport and building workers"]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        { "p": "What is noise?", "r": "Sound that we do not like or do not want" },
+        { "p": "Why is noise a kind of pollution?", "r": "Like litter, it spoils our environment" },
+        { "p": "What makes noise in the countryside?", "r": "Aircraft, road traffic and farm machines" },
+        { "p": "Why do we need quiet to sleep?", "r": "Your body grows and repairs itself when you are asleep" },
+        { "p": "What can very loud noises do?", "r": "Damage your ears and reduce your hearing" },
+        { "p": "What are silencers for?", "r": "To make the engines of cars, motorbikes and trucks quieter" },
+        { "p": "How do curtains and carpets reduce noise?", "r": "They absorb some of the sound" },
+        { "p": "What should people in noisy places wear?", "r": "Ear defenders" },
+        { "p": "Which rocket made one of the loudest noises ever?", "r": "The Saturn V" }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is noise?",
+          "opciones": ["Sound that we do not like or do not want", "Any kind of music", "A type of rubbish", "Sound made by animals only"],
+          "correcta": 0,
+          "explicacion": "Noise is sound we do not like or do not want."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Noise is a kind of…",
+          "opciones": ["pollution", "recycling", "fuel", "natural resource"],
+          "correcta": 0,
+          "explicacion": "Like litter, noise is a kind of pollution."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these makes noise in the countryside?",
+          "opciones": ["Farm machines", "Carpets", "Curtains", "Trees"],
+          "correcta": 0,
+          "explicacion": "In the countryside there is noise from aircraft, traffic and farm machines."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is it important to be able to sleep without noise?",
+          "opciones": ["Your body grows and repairs itself when you are asleep", "So you can listen to music", "Because noise makes you taller", "So your ears get bigger"],
+          "correcta": 0,
+          "explicacion": "It is hard to rest or sleep when it is noisy."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What can very loud noises do to you?",
+          "opciones": ["Damage your ears and reduce your hearing", "Make you see better", "Help you sleep", "Make you stronger"],
+          "correcta": 0,
+          "explicacion": "Very loud noises can damage your ears."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What are fitted to cars, motorbikes and trucks to make their engines quieter?",
+          "opciones": ["Silencers", "Ear defenders", "Carpets", "Speakers"],
+          "correcta": 0,
+          "explicacion": "Silencers make engines quieter."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these helps to reduce noise in a room?",
+          "opciones": ["Carpets and curtains", "Hard floors", "Empty space", "Open windows"],
+          "correcta": 0,
+          "explicacion": "Curtains and carpets absorb some of the sound."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What do people who work with noisy machines wear to protect their ears?",
+          "opciones": ["Ear defenders", "Gloves", "Sunglasses", "Helmets with lights"],
+          "correcta": 0,
+          "explicacion": "Ear defenders protect their ears."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which made one of the loudest noises ever produced by people?",
+          "opciones": ["The Saturn V space rocket", "A farm tractor", "A school bell", "A motorbike"],
+          "correcta": 0,
+          "explicacion": "The Saturn V space rocket was incredibly loud."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "There is no noise at all in the countryside.",
+          "correcta": false,
+          "explicacion": "There is noise everywhere, even in the countryside."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Large, empty rooms with hard floors are often noisy.",
+          "correcta": true,
+          "explicacion": "There is nothing soft to absorb the sound."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Double-glazed windows help to keep out noise.",
+          "correcta": true,
+          "explicacion": "Double- and triple-glazed windows keep out some noise."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give TWO ways to reduce the noise in a building.",
+          "pista": "Think about floors, windows and walls.",
+          "claves": ["carpet", "curtain", "foam", "fibreglass", "glaz", "glass", "window", "wall"],
+          "minimo": 2,
+          "modelo": "Put down carpets and curtains, and fit double-glazed windows (or fill walls with foam or fibreglass).",
+          "explicacion": "Soft materials absorb sound and glazing keeps noise out."
+        }
+      ]
+    },
+    {
+      "id": "improving-our-environment",
+      "titulo": "Improving our environment",
+      "resumen": [
+        "## Sharing ideas",
+        "To improve the environment, people get together and **share ideas**, then discuss which are **most important** and which can be done **easily**.",
+        "",
+        "## Improving your school",
+        "- Design and make **litter bins** people enjoy using.",
+        "- **Plant trees** or make **window boxes** and **flower beds**. Planting makes the environment pleasant and can provide **food**.",
+        "- No garden? Plant flowers in **tubs** of soil or compost, or make **miniature gardens** in old **oil drums** or **car tyres** (recycled containers).",
+        "- **Colourful paintings** can make ugly walls look better.",
+        "",
+        "## Encouraging wildlife",
+        "Make **nest boxes** for birds and **bats**, a **bird table** with fruit or seeds, a **bird bath** with fresh water every day, and plant flowers that **butterflies** like.",
+        "",
+        "## Outside your school",
+        "To brighten up the streets, discuss your ideas with the **people in charge of the local roads**."
+      ],
+      "notas": [
+        {
+          "seccion": "Making school better",
+          "tarjetas": [
+            {
+              "etiqueta": "💬 Ideas",
+              "titulo": "Sharing ideas",
+              "puntos": ["Get together and **share ideas**", "Decide which are **most important**", "And which you can do **easily**"]
+            },
+            {
+              "etiqueta": "🌳 Plants",
+              "titulo": "Plant trees and flowers",
+              "puntos": ["**Trees, window boxes, flower beds**", "Make it **pleasant** and can give **food**"]
+            },
+            {
+              "etiqueta": "🛞 No garden?",
+              "titulo": "Recycled containers",
+              "puntos": ["Flowers in **tubs** of soil or compost", "Mini gardens in old **oil drums** or **car tyres**"]
+            },
+            {
+              "etiqueta": "🎨 Walls",
+              "titulo": "Brighter and nicer",
+              "puntos": ["**Colourful paintings** make ugly walls look better", "Design **litter bins** people enjoy using"]
+            }
+          ]
+        },
+        {
+          "seccion": "Wildlife and beyond",
+          "chips": {
+            "titulo": "Encourage wildlife",
+            "items": ["🐦 Nest boxes for birds", "🦇 Nest boxes for bats", "🍎 Bird table with fruit or seeds", "💧 Bird bath with fresh water", "🦋 Flowers for butterflies"]
+          },
+          "tarjetas": [
+            {
+              "etiqueta": "🛣️ Outside",
+              "titulo": "Streets near school",
+              "puntos": ["Brighten up the **streets** outside", "Talk to the **people in charge of the local roads**"]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        { "p": "What is the first step in improving the environment?", "r": "Getting together and sharing ideas" },
+        { "p": "Name two ways to make school grounds look better", "r": "Plant trees, make window boxes or flower beds, paint colourful walls" },
+        { "p": "How can you grow plants without a school garden?", "r": "In tubs of soil or compost, or in old oil drums or car tyres" },
+        { "p": "What can make ugly walls look better?", "r": "Colourful paintings" },
+        { "p": "How can you attract birds?", "r": "Nest boxes, a bird table with fruit or seeds, a bird bath with fresh water" },
+        { "p": "Which animals can nest boxes be made for?", "r": "Birds and bats" },
+        { "p": "Who should you talk to about improving the streets outside school?", "r": "The people in charge of the local roads" },
+        { "p": "Why plant trees and other plants?", "r": "They make the environment pleasant and can provide food" }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is one good way to start improving the environment?",
+          "opciones": ["Get together and share ideas", "Drop more litter", "Cut down trees", "Turn up the music"],
+          "correcta": 0,
+          "explicacion": "People share ideas and decide which are most important."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How can planting trees and plants help?",
+          "opciones": ["It makes the environment pleasant and can provide food", "It makes more noise", "It creates more litter", "It uses up oil"],
+          "correcta": 0,
+          "explicacion": "Plants make places pleasant and some give us food."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "If your school has no space for a garden, you could…",
+          "opciones": ["plant flowers in tubs of soil or compost", "give up", "plant trees on the roof of a car", "grow plants in plastic bags in the dark"],
+          "correcta": 0,
+          "explicacion": "Tubs, old oil drums or car tyres can be filled with soil or compost."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which recycled containers can be used to make miniature gardens?",
+          "opciones": ["Old oil drums or car tyres", "Glass bottles", "Drinks cans", "Paper bags"],
+          "correcta": 0,
+          "explicacion": "Some people fill old oil drums or car tyres with soil or compost."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What can make ugly walls look better?",
+          "opciones": ["Colourful paintings", "More litter bins", "Double glazing", "Silencers"],
+          "correcta": 0,
+          "explicacion": "Colourful paintings brighten up ugly walls."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which animals could you make nest boxes for?",
+          "opciones": ["Birds and bats", "Cows and horses", "Fish and crabs", "Cats and dogs"],
+          "correcta": 0,
+          "explicacion": "You could make nest boxes for birds and bats."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What should you put on a bird table to attract birds?",
+          "opciones": ["Fruit or seeds", "Plastic toys", "Salt", "Paint"],
+          "correcta": 0,
+          "explicacion": "A bird table with fruit or seeds attracts birds to a garden."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who should you talk to about brightening up the streets outside your school?",
+          "opciones": ["The people in charge of the local roads", "The shopkeepers only", "Nobody", "The bus driver"],
+          "correcta": 0,
+          "explicacion": "Discuss your ideas with the people in charge of the local roads."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Some flowers you plant could be ones that butterflies like to feed on.",
+          "correcta": true,
+          "explicacion": "Butterfly flowers encourage wildlife."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A bird bath only needs fresh water once a month.",
+          "correcta": false,
+          "explicacion": "Fill it with fresh water every day to attract birds."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give TWO ways to encourage wildlife in your school grounds.",
+          "pista": "Think about birds, bats and butterflies.",
+          "claves": ["nest", "box", "bird table", "table", "seed", "fruit", "bath", "water", "butterfl", "flower", "bat"],
+          "minimo": 2,
+          "modelo": "Make nest boxes for birds and bats, and put up a bird table with fruit or seeds.",
+          "explicacion": "Nest boxes, bird tables, bird baths and butterfly flowers all attract wildlife."
+        }
+      ]
+    }
+  ]
+}
