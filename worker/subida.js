@@ -4,6 +4,7 @@
 // Secretos del Worker (Settings → Variables and Secrets):
 //   CODIGO        código de acceso de las madres (se compara sin distinguir mayúsculas)
 //   GITHUB_TOKEN  clave fine-grained con permiso Contents: Read and write solo en study-buddy-fuentes
+//   RUTINA_TOKEN  token del disparador API de la rutina «Study Buddy · pendientes» (claude.ai/code/routines)
 //
 // La web hace una petición por foto ({ accion: "foto" }) y otra al final ({ accion: "terminar" }).
 // Así cada petición es pequeña y cabe en los límites del plan gratuito.
@@ -14,9 +15,10 @@ const WEB = 'https://raw.githubusercontent.com/inmaglez-creator/study-buddy/main
 const ORIGENES = ['https://inmaglez-creator.github.io'];
 const MAX_FOTOS = 30;
 const MAX_BASE64 = 14 * 1024 * 1024; // unos 10 MB por foto
+const RUTINA = 'https://api.anthropic.com/v1/claude_code/routines/trig_0113VrMk27wDJxcgwa8ET9Bd/fire';
 
 export default {
-  async fetch(peticion, env) {
+  async fetch(peticion, env, ctx) {
     const origen = peticion.headers.get('Origin') || '';
     const permitido = ORIGENES.includes(origen) || /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origen);
     const cors = {
@@ -40,7 +42,11 @@ export default {
 
     try {
       if (d.accion === 'foto') return responder(await subirFoto(d, env));
-      if (d.accion === 'terminar') return responder(await terminar(d, env));
+      if (d.accion === 'terminar') {
+        const r = await terminar(d, env);
+        ctx.waitUntil(avisarRutina(env, r.carpeta));
+        return responder(r);
+      }
       return responder({ error: 'Invalid request.' }, 400);
     } catch (e) {
       return responder({ error: e.publico || 'Something went wrong. Please try again later.' }, e.estado || 500);
@@ -151,4 +157,20 @@ async function terminar(d, env) {
     }
   }
   throw fallo('Could not save the photos. Please try again later.', 502);
+}
+
+// Tras cada subida se lanza la rutina en la nube que crea el examen. Si falla, la pasada diaria lo recoge.
+async function avisarRutina(env, carpeta) {
+  if (!env.RUTINA_TOKEN) return;
+  const r = await fetch(RUTINA, {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${env.RUTINA_TOKEN}`,
+      'anthropic-beta': 'experimental-cc-routine-2026-04-01',
+      'anthropic-version': '2023-06-01',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ text: `Nueva subida en ${carpeta}` })
+  }).catch(e => ({ ok: false, status: String(e) }));
+  if (!r.ok) console.log('Rutina', r.status, await r.text?.());
 }
