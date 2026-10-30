@@ -25,7 +25,7 @@ Web estática (HTML + CSS + JS sin dependencias ni compilación) para preparar e
 
 ## Cada examen tiene 4 recursos
 
-Igual que el hub de Y6 SATs: **▶ Practice online** (test), **🖨 Print PDF** (hoja imprimible con 20 preguntas al azar, casillas, líneas para respuestas cortas y *answer key* en página aparte; se imprime/guarda como PDF desde el navegador — no funciona dentro de la vista previa de claude.ai, sí en GitHub Pages), **📖 Notes** (resúmenes de todos los temas del examen) y **🃏 Flashcards**. Todo sale de los temas: no hay que crear nada aparte por recurso.
+Igual que el hub de Y6 SATs: **▶ Practice online** (test), **🖨 Print PDF** (hoja imprimible con 20 preguntas al azar, casillas, líneas para respuestas cortas y *answer key* en página aparte; se imprime/guarda como PDF desde el navegador — no funciona dentro de la vista previa de claude.ai, sí en GitHub Pages), **📖 Notes** (resúmenes de todos los temas del examen; botón *Print notes* que imprime todos los temas seguidos, uno por página) y **🃏 Flashcards**. Todo sale de los temas: no hay que crear nada aparte por recurso.
 
 ## Banco general y examen de fin de curso
 
