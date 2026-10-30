@@ -546,24 +546,26 @@ button.tarjeta { width: 100%; text-align: left; font: inherit; }
 /* Notas para imprimir: todos los temas seguidos, solo en papel */
 .notas-impresas { display: none; }
 @media print {
+  @page { margin: 10mm; }
   .notas-impresas {
     display: block;
-    --superficie: #fff; --superficie-2: #fff; --borde: #999; --texto: #000; --sombra: none;
-    font-size: 11pt;
+    --superficie: #fff; --superficie-2: #fff; --borde: #aaa; --texto: #000; --sombra: none; --radio: 6px;
+    font-size: 8.5pt;
+    line-height: 1.25;
   }
-  .notas-impresas > h1 { margin: 0 0 2px; font-size: 18pt; }
-  .notas-impresas > p { margin: 0 0 8px; color: #444; }
-  .tema-impreso { break-before: page; }
-  .tema-impreso:first-of-type { break-before: auto; }
-  .tema-impreso h2 { margin: 12px 0 0; padding-bottom: 4px; border-bottom: 2px solid var(--c); break-after: avoid; }
-  .notas-impresas .bloque-notas { gap: 8px; margin-top: 10px; }
-  .notas-impresas .titulo-bloque { break-after: avoid; }
-  .notas-impresas .rejilla-notas { grid-template-columns: repeat(2, 1fr); gap: 8px; }
-  .notas-impresas .nota-visual { padding: 8px 10px; break-inside: avoid; }
-  .notas-impresas .nota-visual h4 { font-size: 12pt; margin: 4px 0; }
-  .notas-impresas .nota-visual ul { font-size: 11pt; }
-  .notas-impresas .chip { padding: 3px 8px; font-size: 10pt; }
-  .notas-impresas .nota-etiqueta { border: 1px solid #999; }
+  .notas-impresas > h1 { margin: 0; font-size: 13pt; }
+  .notas-impresas > p { margin: 0 0 2px; color: #444; }
+  .tema-impreso h2 { margin: 8px 0 0; padding-bottom: 1px; font-size: 11pt; border-bottom: 1.5px solid var(--c); break-after: avoid; }
+  .notas-impresas .bloque-notas { gap: 4px; margin-top: 4px; }
+  .notas-impresas .titulo-bloque { font-size: 9.5pt; break-after: avoid; }
+  .notas-impresas .rejilla-notas { grid-template-columns: repeat(3, 1fr); gap: 4px; }
+  .notas-impresas .nota-visual { padding: 4px 7px; border-top-width: 2px; break-inside: avoid; }
+  .notas-impresas .nota-visual h4 { display: inline; margin: 0 0 0 4px; font-size: 9pt; }
+  .notas-impresas .nota-visual ul { margin-top: 2px; padding-left: 13px; font-size: 8.5pt; }
+  .notas-impresas .nota-visual li { margin: 0; }
+  .notas-impresas .nota-etiqueta { padding: 0 6px; font-size: 7.5pt; border: 1px solid #aaa; }
+  .notas-impresas .chips { gap: 3px; margin-top: 2px; }
+  .notas-impresas .chip { padding: 0 6px; font-size: 8pt; }
 }
 
 /* Contador de visitas */
