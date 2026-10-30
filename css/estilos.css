@@ -607,3 +607,28 @@ button.tarjeta { width: 100%; text-align: left; font: inherit; }
 .selector-partes { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 12px; }
 .titulo-parte { margin: 20px 0 4px; padding-top: 12px; border-top: 2px solid var(--borde); }
 .hoja-preguntas .titulo-parte { list-style: none; margin-left: -24px; }
+
+/* Subir fotos (#/upload) */
+.formulario { display: grid; gap: 14px; margin-top: 16px; }
+.formulario label { display: grid; gap: 6px; font-weight: 600; }
+.formulario select,
+.formulario input {
+  width: 100%;
+  min-height: 46px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 2px solid var(--borde);
+  background: var(--superficie);
+  color: var(--texto);
+  font: inherit;
+  font-weight: 400;
+}
+.formulario select:focus,
+.formulario input:focus { outline: none; border-color: var(--acento); }
+.formulario .feedback { margin-top: 0; }
+.aviso-subida {
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--aviso);
+  color: var(--aviso);
+}

@@ -1135,6 +1135,150 @@ async function vistaEstadisticas() {
   document.getElementById('cargando-visitas')?.remove();
 }
 
+// ---------- Subir fotos de un examen (#/upload) ----------
+// Las fotos van al Worker de Cloudflare, que comprueba el código de acceso y las guarda en el
+// repositorio privado de fuentes. El código y la clave de GitHub solo están en el Worker.
+const SUBIDA = 'https://study-buddy-subida.inmaglez.workers.dev';
+const LADO_MAXIMO = 2000;
+const MAX_FOTOS = 30;
+
+// Reduce cada foto a JPEG de 2000 px como máximo; si el navegador no sabe leerla, se manda tal cual.
+async function reducirFoto(archivo) {
+  try {
+    const img = await createImageBitmap(archivo, { imageOrientation: 'from-image' });
+    const escala = Math.min(1, LADO_MAXIMO / Math.max(img.width, img.height));
+    const lienzo = document.createElement('canvas');
+    lienzo.width = Math.round(img.width * escala);
+    lienzo.height = Math.round(img.height * escala);
+    lienzo.getContext('2d').drawImage(img, 0, 0, lienzo.width, lienzo.height);
+    img.close();
+    const blob = await new Promise(r => lienzo.toBlob(r, 'image/jpeg', 0.82));
+    if (!blob) throw new Error('toBlob');
+    return { blob, nombre: archivo.name.replace(/\.[^.]*$/, '') + '.jpg' };
+  } catch {
+    return { blob: archivo, nombre: archivo.name };
+  }
+}
+
+const enBase64 = blob => new Promise((resolver, rechazar) => {
+  const lector = new FileReader();
+  lector.onload = () => resolver(String(lector.result).replace(/^data:[^,]*,/, ''));
+  lector.onerror = () => rechazar(new Error('That photo could not be read.'));
+  lector.readAsDataURL(blob);
+});
+
+// El Worker recibe una petición por foto y otra al final (así cada una es pequeña).
+async function enviarSubida(datos) {
+  let r;
+  try {
+    r = await fetch(SUBIDA, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(datos) });
+  } catch {
+    throw new Error('No connection. Check your internet and try again.');
+  }
+  const respuesta = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(respuesta.error || `The upload failed (${r.status}). Please try again.`);
+  return respuesta;
+}
+
+async function vistaSubida() {
+  const asignaturasDe = {};
+  const cargarAsignaturas = async id => {
+    asignaturasDe[id] ??= (await cargarJSON(`data/${id}/curso.json`)).asignaturas;
+    return asignaturasDe[id];
+  };
+
+  app.innerHTML = `
+    ${volver('#/', 'Home')}
+    <h1>📷 Send exam photos</h1>
+    <p class="suave">Take clear photos of every page the exam covers (book, worksheets or the exam list).
+      We'll turn them into notes, flashcards and a practice test.</p>
+    ${SUBIDA ? '' : '<p class="aviso-subida">Uploads aren\'t switched on yet.</p>'}
+    <form id="subida" class="formulario" novalidate>
+      <label>Year group
+        <select name="curso" required>${estado.cursos.map(c => `
+          <option value="${esc(c.id)}"${c.id === estado.curso.id ? ' selected' : ''}>${esc(c.nombre)}</option>`).join('')}
+        </select></label>
+      <label>Subject <select name="asignatura" required></select></label>
+      <label>Exam date <input type="date" name="fecha" required></label>
+      <label>Exam title <input type="text" name="titulo" maxlength="80" required
+        placeholder="e.g. Science test · Unit 2 Forces"></label>
+      <label>Photos <input type="file" name="fotos" accept="image/*" multiple required></label>
+      <p class="suave pequeño" id="num-fotos">No photos chosen.</p>
+      <label>Access code <input type="text" name="codigo" autocomplete="off" autocapitalize="characters" required></label>
+      <p class="feedback" id="mensaje-subida" hidden></p>
+      <div class="barra" id="barra-subida" hidden><i style="width:0%"></i></div>
+      <button class="boton principal ancho" type="submit"${SUBIDA ? '' : ' disabled'}>Send photos</button>
+    </form>`;
+
+  const form = document.getElementById('subida');
+  const mensaje = document.getElementById('mensaje-subida');
+  const barra = document.getElementById('barra-subida');
+  const boton = form.querySelector('button');
+  const decir = (texto, ok) => {
+    mensaje.hidden = false;
+    mensaje.textContent = texto;
+    mensaje.classList.toggle('ok', !!ok);
+    mensaje.classList.toggle('mal', !ok);
+  };
+
+  const pintarAsignaturas = async () => {
+    const lista = await cargarAsignaturas(form.curso.value);
+    form.asignatura.innerHTML = '<option value="">Choose a subject…</option>' + lista
+      .map(a => `<option value="${esc(a.id)}">${esc(a.icono)} ${esc(a.nombre)}</option>`).join('');
+  };
+  form.curso.addEventListener('change', () => pintarAsignaturas().catch(mostrarError));
+  await pintarAsignaturas();
+
+  form.fotos.addEventListener('change', () => {
+    const n = form.fotos.files.length;
+    document.getElementById('num-fotos').textContent =
+      !n ? 'No photos chosen.' : n > MAX_FOTOS ? `${n} photos: the maximum is ${MAX_FOTOS}.` : `${n} photo${n === 1 ? '' : 's'} chosen.`;
+  });
+
+  form.addEventListener('submit', async ev => {
+    ev.preventDefault();
+    const archivos = [...form.fotos.files];
+    const falta = !form.asignatura.value ? 'Choose a subject.'
+      : !form.fecha.value ? 'Choose the exam date.'
+      : !form.titulo.value.trim() ? 'Write the exam title.'
+      : !archivos.length ? 'Choose at least one photo.'
+      : archivos.length > MAX_FOTOS ? `Send ${MAX_FOTOS} photos at most.`
+      : !form.codigo.value.trim() ? 'Write the access code.'
+      : '';
+    if (falta) return decir(falta);
+
+    boton.disabled = true;
+    barra.hidden = false;
+    const relleno = barra.querySelector('i');
+    try {
+      const codigo = form.codigo.value.trim().toUpperCase();
+      const fotos = [];
+      for (const [i, archivo] of archivos.entries()) {
+        decir(`Sending photo ${i + 1} of ${archivos.length}…`, true);
+        const { blob, nombre } = await reducirFoto(archivo);
+        const { sha } = await enviarSubida({ accion: 'foto', codigo, contenido: await enBase64(blob) });
+        fotos.push({ nombre, sha });
+        relleno.style.width = `${Math.round(95 * (i + 1) / archivos.length)}%`;
+      }
+      decir('Finishing…', true);
+      await enviarSubida({
+        accion: 'terminar', codigo, fotos,
+        curso: form.curso.value, asignatura: form.asignatura.value, fecha: form.fecha.value, titulo: form.titulo.value.trim()
+      });
+      relleno.style.width = '100%';
+      form.reset();
+      await pintarAsignaturas();
+      form.fotos.dispatchEvent(new Event('change'));
+      decir('✅ Thank you! The photos have arrived. The exam will appear on Study Buddy in a few hours.', true);
+    } catch (e) {
+      decir(`⚠️ ${e.message}`);
+    } finally {
+      boton.disabled = false;
+      setTimeout(() => { barra.hidden = true; relleno.style.width = '0%'; }, 1500);
+    }
+  });
+}
+
 function render() {
   const [r0, r1, r2, r3, r4] = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
   marcarNav(r0 === 'examenes' && r1?.startsWith(PREFIJO_FINAL) ? 'finales' : r0);
@@ -1146,6 +1290,7 @@ function render() {
     if (!r0) return vistaInicio();
     if (r0 === 'progreso') return vistaProgreso();
     if (r0 === 'estadisticas') return vistaEstadisticas().catch(mostrarError);
+    if (r0 === 'upload') return vistaSubida().catch(mostrarError);
     if (r0 === 'finales') return vistaFinales();
     if (r0 === 'examenes') {
       if (!r1) return vistaExamenes();
