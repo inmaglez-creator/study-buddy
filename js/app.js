@@ -779,21 +779,30 @@ function vistaNotasExamen(e) {
     const t = temas[activa];
     const leido = progresoTema(a.id, t.id).leido;
     app.innerHTML = `
-      ${volver(listaDe(e), e.final ? 'End of year' : 'Exams')}
-      <h1>📖 ${esc(e.titulo || a.nombre)}</h1>
-      <p class="suave pequeño">Revision notes · ${temas.length} ${temas.length === 1 ? 'topic' : 'topics'}</p>
-      <div style="--c:${esc(a.color)}">
-        ${temas.length > 1 ? `
-          <div class="pestanas" role="tablist">
-            ${temas.map((x, n) => `<button class="pestana ${n === activa ? 'activa' : ''}" role="tab" aria-selected="${n === activa}" data-n="${n}">${esc(x.titulo.split(' · ').pop())}</button>`).join('')}
-          </div>` : ''}
-        <h2>${esc(t.titulo)}</h2>
-        ${notasHTML(t)}
+      <div class="no-imprimir">
+        ${volver(listaDe(e), e.final ? 'End of year' : 'Exams')}
+        <h1>📖 ${esc(e.titulo || a.nombre)}</h1>
+        <p class="suave pequeño">Revision notes · ${temas.length} ${temas.length === 1 ? 'topic' : 'topics'}</p>
+        <div style="--c:${esc(a.color)}">
+          ${temas.length > 1 ? `
+            <div class="pestanas" role="tablist">
+              ${temas.map((x, n) => `<button class="pestana ${n === activa ? 'activa' : ''}" role="tab" aria-selected="${n === activa}" data-n="${n}">${esc(x.titulo.split(' · ').pop())}</button>`).join('')}
+            </div>` : ''}
+          <h2>${esc(t.titulo)}</h2>
+          ${notasHTML(t)}
+        </div>
+        <div class="acciones">
+          <button class="boton ${leido ? '' : 'principal'} ancho" id="leido">${leido ? 'Read ✓' : '✓ Mark this topic as read'}</button>
+          ${activa + 1 < temas.length ? '<button class="boton ancho" id="siguiente-tema">Next topic →</button>' : ''}
+          <button class="boton ancho" id="imprimir-notas">🖨 Print notes (all topics)</button>
+        </div>
+        <p class="feedback pequeño" id="aviso-imprimir" hidden></p>
       </div>
-      <div class="acciones">
-        <button class="boton ${leido ? '' : 'principal'} ancho" id="leido">${leido ? 'Read ✓' : '✓ Mark this topic as read'}</button>
-        ${activa + 1 < temas.length ? '<button class="boton ancho" id="siguiente-tema">Next topic →</button>' : ''}
-      </div>`;
+      <article class="notas-impresas" style="--c:${esc(a.color)}">
+        <h1>${esc(e.titulo || a.nombre)}</h1>
+        <p>${esc(estado.curso.nombre)} · Revision notes · Name: ______________________</p>
+        ${temas.map(x => `<section class="tema-impreso"><h2>${esc(x.titulo)}</h2>${notasHTML(x)}</section>`).join('')}
+      </article>`;
     app.querySelector('.pestana.activa')?.scrollIntoView({ block: 'nearest', inline: 'center' });
     app.querySelectorAll('.pestana').forEach(b => b.addEventListener('click', () => { activa = Number(b.dataset.n); pintar(); }));
     document.getElementById('leido').addEventListener('click', () => {
@@ -801,12 +810,25 @@ function vistaNotasExamen(e) {
       pintar();
     });
     document.getElementById('siguiente-tema')?.addEventListener('click', () => { activa++; pintar(); window.scrollTo(0, 0); });
+    document.getElementById('imprimir-notas').addEventListener('click', imprimir);
   };
   if (!temas.length) {
     app.innerHTML = `${volver(listaDe(e), e.final ? 'End of year' : 'Exams')}<p class="vacio">No notes yet.</p>`;
     return;
   }
   pintar();
+}
+
+// Dentro de la vista previa de claude.ai (iframe) el navegador no abre la ventana de imprimir.
+function imprimir() {
+  window.print();
+  let incrustada = true;
+  try { incrustada = window.self !== window.top; } catch { /* incrustada */ }
+  if (incrustada) {
+    const aviso = document.getElementById('aviso-imprimir');
+    aviso.textContent = 'If the print window didn’t open, printing isn’t available in this preview. It works on the published website.';
+    aviso.hidden = false;
+  }
 }
 
 function vistaImprimir(e) {
@@ -859,16 +881,7 @@ function vistaImprimir(e) {
           </ol>
         </section>
       </article>`;
-    document.getElementById('imprimir').addEventListener('click', () => {
-      window.print();
-      let incrustada = true;
-      try { incrustada = window.self !== window.top; } catch { /* incrustada */ }
-      if (incrustada) {
-        const aviso = document.getElementById('aviso-imprimir');
-        aviso.textContent = 'If the print window didn’t open, printing isn’t available in this preview. It works on the published website.';
-        aviso.hidden = false;
-      }
-    });
+    document.getElementById('imprimir').addEventListener('click', imprimir);
     document.getElementById('otras').addEventListener('click', pintar);
   };
   pintar();
