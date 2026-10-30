@@ -632,3 +632,5 @@ button.tarjeta { width: 100%; text-align: left; font: inherit; }
   border: 1px solid var(--aviso);
   color: var(--aviso);
 }
+.subir-fotos .icono { font-size: 30px; line-height: 1; }
+.subir-fotos .nombre { font-weight: 600; margin-bottom: 2px; }

@@ -249,7 +249,15 @@ function vistaInicio() {
             ${barra(pct)}
           </a>`;
       }).join('')}
-    </div>`;
+    </div>
+    <h2>Parents</h2>
+    <a class="tarjeta fila subir-fotos" href="#/upload">
+      <div class="icono" aria-hidden="true">📷</div>
+      <div class="crece">
+        <div class="nombre">Send exam photos</div>
+        <div class="suave pequeño">Upload photos of what the exam covers and we'll make the notes, flashcards and practice test. You'll need the access code.</div>
+      </div>
+    </a>`;
 }
 
 function vistaExamenes() {

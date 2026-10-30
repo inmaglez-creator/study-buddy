@@ -53,7 +53,7 @@ Las fotos y listas de cada examen están en el repositorio **privado** `inmaglez
 
 ## Subida de fotos (#/upload)
 
-- Página **`#/upload`** (no enlazada): las madres eligen Year, Subject, fecha, título y fotos, y escriben el código de acceso. Las fotos se reducen en el móvil a JPEG de 2000 px como máximo (30 como máximo).
+- Página **`#/upload`** (enlazada desde Home, sección *Parents*): las madres eligen Year, Subject, fecha, título y fotos, y escriben el código de acceso. Las fotos se reducen en el móvil a JPEG de 2000 px como máximo (30 como máximo).
 - Las recibe el **Cloudflare Worker** `study-buddy-subida` (https://study-buddy-subida.inmaglez.workers.dev, constante `SUBIDA` en `js/app.js`). Código en `worker/subida.js`: si se cambia, hay que pegarlo de nuevo en el panel de Cloudflare (Edit code → Deploy).
 - Secretos del Worker (nunca en este repositorio): `CODIGO` (código de acceso, sin distinguir mayúsculas) y `GITHUB_TOKEN` (clave *fine-grained* con Contents: Read and write solo en `study-buddy-fuentes`). Si la clave caduca, las subidas fallan: crear otra y cambiar el secreto.
 - La web hace una petición por foto (`accion: "foto"`, guarda un blob) y una final (`accion: "terminar"`) que crea en un solo commit `pendientes/year-<n>/<asignatura>/<AAAA-MM-DD>_<título>/` con las fotos e `info.json` (`curso`, `year`, `asignatura`, `asignaturaNombre`, `fecha`, `titulo`, `fotos`, `recibido`). Si la carpeta ya existe, añade `-2`, `-3`…
