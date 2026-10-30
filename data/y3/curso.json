@@ -1,0 +1,49 @@
+{
+  "id": "y3",
+  "nombre": "Year 3",
+  "asignaturas": [
+    {
+      "id": "english",
+      "nombre": "English",
+      "icono": "📖",
+      "color": "#c2255c"
+    },
+    {
+      "id": "maths",
+      "nombre": "Maths",
+      "icono": "📐",
+      "color": "#3b5bdb"
+    },
+    {
+      "id": "science",
+      "nombre": "Science",
+      "icono": "🔬",
+      "color": "#2b8a3e"
+    },
+    {
+      "id": "geography",
+      "nombre": "Geography",
+      "icono": "🌍",
+      "color": "#0c8599"
+    },
+    {
+      "id": "history",
+      "nombre": "History",
+      "icono": "🏛️",
+      "color": "#9c36b5"
+    },
+    {
+      "id": "lengua",
+      "nombre": "Lengua",
+      "icono": "✏️",
+      "color": "#e8590c"
+    },
+    {
+      "id": "conocimiento-medio",
+      "nombre": "Conocimiento del Medio",
+      "icono": "🌱",
+      "color": "#5c940d"
+    }
+  ],
+  "examenes": []
+}

@@ -1,6 +1,7 @@
 {
   "cursos": [
     { "id": "y7", "nombre": "Year 7" },
-    { "id": "y4", "nombre": "Year 4" }
+    { "id": "y4", "nombre": "Year 4" },
+    { "id": "y3", "nombre": "Year 3" }
   ]
 }
