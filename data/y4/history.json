@@ -1,3 +1,1985 @@
 {
-  "temas": []
+  "temas": [
+    {
+      "id": "egypt-and-the-pharaohs",
+      "titulo": "1.1 Egypt and the pharaohs",
+      "resumen": [
+        "## Ancient Egypt",
+        "The Ancient Egyptian civilisation developed **over 5000 years ago** (c3200 BCE–30 BCE). It is famous for huge buildings called **pyramids**.",
+        "",
+        "## Egypt and the River Nile",
+        "- Egypt is in **North Africa**. The **Red Sea** is to the east and the **Mediterranean Sea** is to the north.",
+        "- Most of Egypt is **desert** with little or no rain.",
+        "- The **River Nile** flows **north** for **7000 km** through the whole of Egypt.",
+        "- Each year the Nile **flooded**. It left a thick layer of **mud** that made the land **fertile**, so people could grow plenty of food.",
+        "",
+        "## The pharaohs",
+        "- **Pharaohs** were the kings or queens of Ancient Egypt. The pharaoh **owned all the land**, **made the laws** and received **taxes**.",
+        "- Over **170 pharaohs** ruled Egypt in **30 dynasties** (families of rulers).",
+        "- We remember pharaohs because people **wrote down** what they did and made **pictures** carved into rock or painted onto walls; some built **huge structures**, some were **warriors**, some were **women**.",
+        "",
+        "## Timeline",
+        "- **3100 BCE** King **Narmer** united the two kingdoms of Egypt.",
+        "- **2650 BCE** first **step pyramid** built by **Djoser**.",
+        "- **2580–2560 BCE** **Great Pyramid** built at **Giza**.",
+        "- **1630–1523 BCE** the **Hyksos** people invaded.",
+        "- **1332 BCE** **Tutankhamun** came to power.",
+        "- **332 BCE** **Alexander the Great** invaded.",
+        "- **30 BCE** **Cleopatra**, the last Greek pharaoh, died."
+      ],
+      "notas": [
+        {
+          "seccion": "Where is Egypt?",
+          "tarjetas": [
+            {
+              "etiqueta": "🌍 Place",
+              "titulo": "Egypt is in North Africa",
+              "puntos": [
+                "**Red Sea** to the east",
+                "**Mediterranean Sea** to the north",
+                "Most of Egypt is **desert** with little or no rain"
+              ]
+            },
+            {
+              "etiqueta": "🏞️ River Nile",
+              "titulo": "The river that made Egypt",
+              "puntos": [
+                "Flows **north** for **7000 km**",
+                "Flows through the **whole** of Egypt"
+              ]
+            },
+            {
+              "etiqueta": "🌊 Floods",
+              "titulo": "The yearly flood",
+              "puntos": [
+                "The Nile usually **flooded each year**",
+                "It left a thick layer of **mud**",
+                "Mud made the land **fertile** → plenty of food"
+              ]
+            },
+            {
+              "etiqueta": "⏳ When?",
+              "titulo": "Over 5000 years ago",
+              "puntos": [
+                "Ancient Egypt: **c3200 BCE – 30 BCE**",
+                "Older than **Ancient Greece** (c800–31 BCE) and **Ancient Rome** (509 BCE–476 CE)"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Places on the map",
+            "items": [
+              "Alexandria",
+              "Rosetta",
+              "Cairo",
+              "Giza",
+              "Saqqara",
+              "Memphis",
+              "Thebes",
+              "Abydos",
+              "Aswan",
+              "Lower Egypt (north)",
+              "Upper Egypt (south)"
+            ]
+          }
+        },
+        {
+          "seccion": "The pharaohs",
+          "tarjetas": [
+            {
+              "etiqueta": "👑 Pharaoh",
+              "titulo": "Kings or queens of Egypt",
+              "puntos": [
+                "**Owned all the land**",
+                "**Made the laws**",
+                "Received **taxes** from the people"
+              ]
+            },
+            {
+              "etiqueta": "👪 Dynasty",
+              "titulo": "A family of rulers",
+              "puntos": [
+                "Over **170** pharaohs",
+                "**30** different dynasties"
+              ]
+            },
+            {
+              "etiqueta": "📜 Remember",
+              "titulo": "Why do we remember them?",
+              "puntos": [
+                "People **wrote down** what they did",
+                "**Pictures** carved into rock or painted on walls",
+                "Built **huge structures**, were **warriors**, or were **women**"
+              ]
+            },
+            {
+              "etiqueta": "🏺 Tutankhamun",
+              "titulo": "The most famous pharaoh",
+              "puntos": [
+                "Not a very important pharaoh",
+                "Famous because his **tomb** had many **treasures**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Timeline",
+          "chips": {
+            "titulo": "Important events",
+            "items": [
+              "3100 BCE Narmer unites the two kingdoms",
+              "2650 BCE first step pyramid (Djoser)",
+              "2580–2560 BCE Great Pyramid at Giza",
+              "1630–1523 BCE Hyksos invade",
+              "1332 BCE Tutankhamun comes to power",
+              "332 BCE Alexander the Great invades",
+              "30 BCE Cleopatra dies"
+            ]
+          },
+          "tarjetas": [
+            {
+              "etiqueta": "🏛️ Periods",
+              "titulo": "Kingdoms of Egypt",
+              "puntos": [
+                "**Old Kingdom** 2570–2130 BCE",
+                "**Middle Kingdom** 1940–1600 BCE",
+                "**New Kingdom** 1540–1070 BCE",
+                "**Late Period** 650–320 BCE · **Ptolemaic Dynasty** 320–30 BCE"
+              ]
+            },
+            {
+              "etiqueta": "🎁 The gift of the Nile",
+              "titulo": "A Greek historian's words",
+              "puntos": [
+                "A Greek historian (5th century BCE) called Egypt **'The gift of the Nile'**",
+                "Without the Nile there would be no food in the desert"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Where is Egypt?",
+          "r": "In North Africa"
+        },
+        {
+          "p": "Which sea is to the north of Egypt?",
+          "r": "The Mediterranean Sea"
+        },
+        {
+          "p": "Which sea is to the east of Egypt?",
+          "r": "The Red Sea"
+        },
+        {
+          "p": "How long is the River Nile?",
+          "r": "7000 kilometres (it flows north)"
+        },
+        {
+          "p": "Why was the land near the Nile fertile?",
+          "r": "The yearly flood left a thick layer of mud"
+        },
+        {
+          "p": "What does fertile mean?",
+          "r": "Good for growing lots of crops"
+        },
+        {
+          "p": "Who were the pharaohs?",
+          "r": "The kings or queens of Ancient Egypt"
+        },
+        {
+          "p": "What is a dynasty?",
+          "r": "A family of rulers"
+        },
+        {
+          "p": "How many pharaohs ruled Egypt?",
+          "r": "Over 170, in 30 dynasties"
+        },
+        {
+          "p": "Who united the two kingdoms of Egypt in 3100 BCE?",
+          "r": "King Narmer"
+        },
+        {
+          "p": "Who built the first step pyramid (2650 BCE)?",
+          "r": "Djoser"
+        },
+        {
+          "p": "Who was the last Greek pharaoh?",
+          "r": "Cleopatra (died 30 BCE)"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "In which continent is Egypt?",
+          "opciones": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "South America"
+          ],
+          "correcta": 0,
+          "explicacion": "Egypt is a country in North Africa."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which sea is to the north of Egypt?",
+          "opciones": [
+            "The Red Sea",
+            "The Mediterranean Sea",
+            "The Black Sea",
+            "The North Sea"
+          ],
+          "correcta": 1,
+          "explicacion": "The Mediterranean Sea is to the north of Egypt."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which sea is to the east of Egypt?",
+          "opciones": [
+            "The Mediterranean Sea",
+            "The Dead Sea",
+            "The Red Sea",
+            "The Caspian Sea"
+          ],
+          "correcta": 2,
+          "explicacion": "The Red Sea is to the east of Egypt."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How long is the River Nile?",
+          "opciones": [
+            "700 kilometres",
+            "70 kilometres",
+            "70 000 kilometres",
+            "7000 kilometres"
+          ],
+          "correcta": 3,
+          "explicacion": "The Nile flows north for 7000 kilometres."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The River Nile flows south.",
+          "correcta": false,
+          "explicacion": "The River Nile flows north, towards the Mediterranean Sea."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What did the Nile leave behind after its yearly flood?",
+          "opciones": [
+            "A thick layer of mud",
+            "A layer of sand",
+            "Lots of rocks",
+            "Salt"
+          ],
+          "correcta": 0,
+          "explicacion": "When the water moved back it left a thick layer of mud."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why could the Egyptians grow plenty of food?",
+          "opciones": [
+            "It rained every day",
+            "The mud from the floods made the land fertile",
+            "They lived in the mountains",
+            "They bought all their food from Greece"
+          ],
+          "correcta": 1,
+          "explicacion": "The mud left by the flood made the land very fertile."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Most of Egypt is desert with little or no rainfall.",
+          "correcta": true,
+          "explicacion": "Most of Egypt is desert; the Nile made life possible."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who were the pharaohs?",
+          "opciones": [
+            "Priests in the temples",
+            "Farmers by the Nile",
+            "The kings or queens of Ancient Egypt",
+            "Soldiers in the army"
+          ],
+          "correcta": 2,
+          "explicacion": "The pharaohs were the kings or queens of Ancient Egypt."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a dynasty?",
+          "opciones": [
+            "A type of pyramid",
+            "A boat on the Nile",
+            "A kind of tax",
+            "A family of rulers"
+          ],
+          "correcta": 3,
+          "explicacion": "Dynasties are families of rulers; Egypt had 30 of them."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "About how many pharaohs ruled Egypt?",
+          "opciones": [
+            "Over 170",
+            "About 30",
+            "Exactly 12",
+            "Over 1000"
+          ],
+          "correcta": 0,
+          "explicacion": "Over 170 pharaohs ruled Egypt, in 30 dynasties."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these did the pharaoh NOT do?",
+          "opciones": [
+            "Own all the land",
+            "Pay taxes to the farmers",
+            "Make the laws",
+            "Receive taxes from the people"
+          ],
+          "correcta": 1,
+          "explicacion": "The pharaoh received taxes; the people paid them."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who united the two kingdoms of Egypt in 3100 BCE?",
+          "opciones": [
+            "Tutankhamun",
+            "Cleopatra",
+            "King Narmer",
+            "Alexander the Great"
+          ],
+          "correcta": 2,
+          "explicacion": "King Narmer united the two kingdoms in 3100 BCE."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who was the last Greek pharaoh of Egypt?",
+          "opciones": [
+            "Djoser",
+            "Narmer",
+            "Khufu",
+            "Cleopatra"
+          ],
+          "correcta": 3,
+          "explicacion": "Cleopatra, the last Greek pharaoh, died in 30 BCE."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who invaded Egypt in 332 BCE?",
+          "opciones": [
+            "Alexander the Great",
+            "The Hyksos",
+            "The Romans",
+            "King Narmer"
+          ],
+          "correcta": 0,
+          "explicacion": "Alexander the Great invaded Egypt in 332 BCE."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Ancient Egypt began before Ancient Greece and Ancient Rome.",
+          "correcta": true,
+          "explicacion": "Ancient Egypt began c3200 BCE, long before Greece (c800 BCE) and Rome (509 BCE)."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give TWO reasons why we remember some pharaohs.",
+          "pista": "Think about buildings, battles, writing…",
+          "claves": [
+            "wrote",
+            "writ",
+            "picture",
+            "carv",
+            "paint",
+            "wall",
+            "structure",
+            "building",
+            "pyramid",
+            "warrior",
+            "fight",
+            "women",
+            "woman",
+            "queen",
+            "treasure",
+            "tomb"
+          ],
+          "minimo": 2,
+          "modelo": "People wrote down what they did and made pictures of them; some ordered huge structures to be built, some were powerful warriors and some were women.",
+          "explicacion": "We remember pharaohs for writing, pictures, huge buildings, being warriors or being women."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Why did a Greek historian call Egypt 'The gift of the Nile'?",
+          "pista": "What did the river give to the land?",
+          "claves": [
+            "food",
+            "crop",
+            "farm",
+            "fertile",
+            "mud",
+            "flood",
+            "water",
+            "grow"
+          ],
+          "modelo": "Because the Nile's floods left mud that made the land fertile, so the Egyptians could grow food in a desert country.",
+          "explicacion": "Without the Nile, the desert could not have fed the Egyptians."
+        }
+      ]
+    },
+    {
+      "id": "farming-and-trade",
+      "titulo": "1.2 Farming and trade",
+      "resumen": [
+        "## Farming and the Nile",
+        "- **Fertile soil** near the Nile helped farmers grow crops.",
+        "- Farmers dug **channels** from the river to the fields and used a **shaduf** to lift water onto the fields.",
+        "",
+        "## Crops",
+        "- **Cereals**: wheat and barley. **Vegetables**: onions, beans, cucumbers. **Fruit**: melons, pomegranates, grapes.",
+        "- Farmers gave part of their produce, especially **grain**, to the **government** as **tax**.",
+        "",
+        "## Animals",
+        "- Working animals: **oxen** and **donkeys**. **Cows and goats** gave milk. **Ducks and geese** gave meat and eggs.",
+        "",
+        "## Trade",
+        "- Egypt traded **grain, gold, papyrus, pottery and dates**.",
+        "- It **imported** metals, wood, gem stones, **incense**, **myrrh** and oils.",
+        "- Merchants used **boats** on the Nile, across the **Red Sea** and around the **Mediterranean Sea**, and carried some goods over land.",
+        "- Early merchant boats were made of **reeds**; later boats were made of **wood**."
+      ],
+      "notas": [
+        {
+          "seccion": "Farming and the Nile",
+          "tarjetas": [
+            {
+              "etiqueta": "🌱 Soil",
+              "titulo": "Fertile soil",
+              "puntos": [
+                "Fertile soil near the Nile helped farmers grow **crops**"
+              ]
+            },
+            {
+              "etiqueta": "💧 Channels",
+              "titulo": "Watering the crops",
+              "puntos": [
+                "Farmers dug **channels** from the river to the fields"
+              ]
+            },
+            {
+              "etiqueta": "🪣 Shaduf",
+              "titulo": "Lifting water",
+              "puntos": [
+                "A **shaduf** lifted water from the channels onto the fields"
+              ]
+            },
+            {
+              "etiqueta": "💰 Tax",
+              "titulo": "Paying the government",
+              "puntos": [
+                "Farmers gave part of their produce to the **government**",
+                "Especially **grain**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Crops and animals",
+          "tarjetas": [
+            {
+              "etiqueta": "🌾 Cereals",
+              "titulo": "Grain crops",
+              "puntos": [
+                "**Wheat** and **barley**"
+              ]
+            },
+            {
+              "etiqueta": "🧅 Vegetables",
+              "titulo": "Vegetables",
+              "puntos": [
+                "**Onions**, **beans** and **cucumbers**"
+              ]
+            },
+            {
+              "etiqueta": "🍇 Fruit",
+              "titulo": "Fruit",
+              "puntos": [
+                "**Melons**, **pomegranates** and **grapes**"
+              ]
+            },
+            {
+              "etiqueta": "🐂 Animals",
+              "titulo": "Farm animals",
+              "puntos": [
+                "Work: **oxen** and **donkeys**",
+                "Milk: **cows** and **goats**",
+                "Meat and eggs: **ducks** and **geese**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Trade",
+          "tarjetas": [
+            {
+              "etiqueta": "📤 Exports",
+              "titulo": "What Egypt traded",
+              "puntos": [
+                "**Grain, gold, papyrus, pottery** and **dates**"
+              ]
+            },
+            {
+              "etiqueta": "📥 Imports",
+              "titulo": "What Egypt brought in",
+              "puntos": [
+                "**Metals**, **wood** for buildings and furniture",
+                "**Gem stones**, **incense**, **myrrh**, **oils**"
+              ]
+            },
+            {
+              "etiqueta": "⛵ Boats",
+              "titulo": "Transporting goods",
+              "puntos": [
+                "Along the **Nile**, across the **Red Sea**, around the **Mediterranean**",
+                "Some goods went **over land**",
+                "Early boats: **reeds** → later: **wood**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Glossary words",
+            "items": [
+              "government",
+              "import",
+              "incense",
+              "myrrh",
+              "papyrus",
+              "shaduf"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is a shaduf?",
+          "r": "A tool used to lift water from the channels onto the fields"
+        },
+        {
+          "p": "Why did farmers dig channels?",
+          "r": "To carry water from the river to the fields"
+        },
+        {
+          "p": "Which cereals did Egyptian farmers grow?",
+          "r": "Wheat and barley"
+        },
+        {
+          "p": "Name three vegetables Egyptian farmers grew.",
+          "r": "Onions, beans and cucumbers"
+        },
+        {
+          "p": "Name three fruits Egyptian farmers grew.",
+          "r": "Melons, pomegranates and grapes"
+        },
+        {
+          "p": "What did farmers give to the government as tax?",
+          "r": "Part of their produce, especially grain"
+        },
+        {
+          "p": "Which animals did the heavy work on farms?",
+          "r": "Oxen and donkeys"
+        },
+        {
+          "p": "Which animals gave milk?",
+          "r": "Cows and goats"
+        },
+        {
+          "p": "Which animals gave meat and eggs?",
+          "r": "Ducks and geese"
+        },
+        {
+          "p": "What did the Egyptians trade?",
+          "r": "Grain, gold, papyrus, pottery and dates"
+        },
+        {
+          "p": "What does import mean?",
+          "r": "To bring in goods from another country"
+        },
+        {
+          "p": "What were early merchant boats made of?",
+          "r": "Reeds (later boats were made of wood)"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What did farmers use to lift water from the channels onto the fields?",
+          "opciones": [
+            "A sarcophagus",
+            "A shaduf",
+            "A papyrus",
+            "A pyramid"
+          ],
+          "correcta": 1,
+          "explicacion": "A shaduf lifted water from the channels onto the fields."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why did farmers dig channels from the river?",
+          "opciones": [
+            "To catch fish",
+            "To stop boats",
+            "To water the crops in the fields",
+            "To build pyramids"
+          ],
+          "correcta": 2,
+          "explicacion": "Channels carried water from the Nile to the fields."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which two cereals did Egyptian farmers grow?",
+          "opciones": [
+            "Rice and maize",
+            "Oats and rye",
+            "Potatoes and carrots",
+            "Wheat and barley"
+          ],
+          "correcta": 3,
+          "explicacion": "Farmers grew cereals such as wheat and barley."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is a vegetable that Egyptian farmers grew?",
+          "opciones": [
+            "Onions",
+            "Pomegranates",
+            "Grapes",
+            "Melons"
+          ],
+          "correcta": 0,
+          "explicacion": "Onions, beans and cucumbers were vegetables; the others are fruit."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is a fruit that Egyptian farmers grew?",
+          "opciones": [
+            "Barley",
+            "Pomegranates",
+            "Beans",
+            "Cucumbers"
+          ],
+          "correcta": 1,
+          "explicacion": "Melons, pomegranates and grapes were fruits."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What did farmers give to the government as tax?",
+          "opciones": [
+            "Their houses",
+            "All their animals",
+            "Part of their produce, especially grain",
+            "Gold coins"
+          ],
+          "correcta": 2,
+          "explicacion": "Farmers gave part of their produce, especially grain, as tax."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which animals were used for work on Egyptian farms?",
+          "opciones": [
+            "Ducks and geese",
+            "Cats and dogs",
+            "Camels and elephants",
+            "Oxen and donkeys"
+          ],
+          "correcta": 3,
+          "explicacion": "Oxen and donkeys were working farm animals."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which animals provided milk?",
+          "opciones": [
+            "Cows and goats",
+            "Ducks and geese",
+            "Oxen and donkeys",
+            "Horses and sheep"
+          ],
+          "correcta": 0,
+          "explicacion": "Cows and goats provided milk."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Ducks and geese provided meat and eggs.",
+          "correcta": true,
+          "explicacion": "Ducks and geese gave meat and eggs."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these did Egypt trade with other people?",
+          "opciones": [
+            "Metals and gem stones",
+            "Gold and papyrus",
+            "Wood and incense",
+            "Myrrh and oils"
+          ],
+          "correcta": 1,
+          "explicacion": "Egypt traded grain, gold, papyrus, pottery and dates; the others were imported."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these did Egypt import?",
+          "opciones": [
+            "Grain",
+            "Dates",
+            "Wood for buildings and furniture",
+            "Pottery"
+          ],
+          "correcta": 2,
+          "explicacion": "Egypt imported wood, metals, gem stones, incense, myrrh and oils."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'import' mean?",
+          "opciones": [
+            "To grow crops",
+            "To pay taxes",
+            "To sell goods to another country",
+            "To bring in goods from another country"
+          ],
+          "correcta": 3,
+          "explicacion": "Imports are goods brought in from other countries."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What were early Egyptian merchant boats made of?",
+          "opciones": [
+            "Reeds",
+            "Metal",
+            "Stone",
+            "Plastic"
+          ],
+          "correcta": 0,
+          "explicacion": "Early merchant boats were made of reeds; later ones were wood."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Merchants only transported goods along the River Nile.",
+          "correcta": false,
+          "explicacion": "They also crossed the Red Sea, sailed around the Mediterranean and went over land."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name TWO crops that Egyptian farmers grew.",
+          "pista": "Think of cereals, vegetables or fruit.",
+          "claves": [
+            "wheat",
+            "barley",
+            "onion",
+            "bean",
+            "cucumber",
+            "melon",
+            "pomegranate",
+            "grape",
+            "cereal",
+            "grain"
+          ],
+          "minimo": 2,
+          "modelo": "Wheat and barley (also onions, beans, cucumbers, melons, pomegranates, grapes).",
+          "explicacion": "Farmers grew cereals, vegetables and fruit."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "How did farmers get water from the River Nile to their crops?",
+          "pista": "Two things: something they dug and a tool.",
+          "claves": [
+            "channel",
+            "shaduf",
+            "dug",
+            "dig",
+            "ditch"
+          ],
+          "modelo": "They dug channels from the river to the fields and used a shaduf to lift the water onto the fields.",
+          "explicacion": "Channels and the shaduf brought river water to the crops."
+        }
+      ]
+    },
+    {
+      "id": "everyday-life",
+      "titulo": "1.3 Everyday life in Ancient Egypt",
+      "resumen": [
+        "## A hierarchy",
+        "Ancient Egyptian **society** was organised as a **hierarchy**. A person's **job** marked their place in society.",
+        "- **Pharaoh** (top): had **complete power**.",
+        "- **Government officials, noblemen and religious leaders**: officials helped organise the country; nobles and religious leaders got **gifts and land** from the pharaoh.",
+        "- **Soldiers**: had respect; given **land when they retired**.",
+        "- **Scribes**: from **wealthy families**; wrote **official documents**.",
+        "- **Merchants**: supplied materials to craftspeople and **sold the finished goods**.",
+        "- **Craftspeople**: stonemasons, builders, carpenters, potters, jewellers, weavers.",
+        "- **Farmers, servants and slaves** (bottom): most people were **peasant farmers** on other people's land; servants were **paid**; slaves were **captured prisoners** or people from very poor families.",
+        "",
+        "## Clothes",
+        "Light **linen** clothes (made from the **flax** plant) kept people **cool** and protected them from the sun.",
+        "",
+        "## Houses",
+        "- Towns were built on **higher ground** to be safe from **flooding**.",
+        "- Houses were made of **bricks of mud and straw**, with **small, high windows** and a **reed roof** for shade.",
+        "- People used the **flat roof** for eating and sleeping. Inside was a family room with little furniture.",
+        "- Food was mainly **bread, fruit and vegetables**. **Goats** (milk) and **geese** (eggs) lived in the yard. People **hardly ever ate meat**."
+      ],
+      "notas": [
+        {
+          "seccion": "The hierarchy (top to bottom)",
+          "tarjetas": [
+            {
+              "etiqueta": "👑 Pharaoh",
+              "titulo": "Top of society",
+              "puntos": [
+                "Had **complete power**"
+              ]
+            },
+            {
+              "etiqueta": "📜 Officials & nobles",
+              "titulo": "Government officials, noblemen, religious leaders",
+              "puntos": [
+                "Officials helped **organise the country**",
+                "Nobles and religious leaders got **gifts and land**"
+              ]
+            },
+            {
+              "etiqueta": "🏹 Soldiers",
+              "titulo": "Respected",
+              "puntos": [
+                "Given **land when they retired**"
+              ]
+            },
+            {
+              "etiqueta": "✍️ Scribes",
+              "titulo": "Writers",
+              "puntos": [
+                "Came from **wealthy families**",
+                "Wrote **official documents**"
+              ]
+            },
+            {
+              "etiqueta": "⚖️ Merchants",
+              "titulo": "Traders",
+              "puntos": [
+                "Supplied **materials** to craftspeople",
+                "**Sold** the finished goods"
+              ]
+            },
+            {
+              "etiqueta": "🔨 Craftspeople",
+              "titulo": "Makers",
+              "puntos": [
+                "**Stonemasons**, builders, carpenters",
+                "**Potters**, jewellers, weavers"
+              ]
+            },
+            {
+              "etiqueta": "🌾 Bottom",
+              "titulo": "Farmers, servants and slaves",
+              "puntos": [
+                "Most people: **peasant farmers** on other people's land",
+                "**Servants** worked for others and were **paid**",
+                "**Slaves**: captured **prisoners** or very poor people"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Glossary words",
+            "items": [
+              "hierarchy",
+              "society",
+              "stonemason"
+            ]
+          }
+        },
+        {
+          "seccion": "Clothes and houses",
+          "tarjetas": [
+            {
+              "etiqueta": "👕 Clothes",
+              "titulo": "Light linen",
+              "puntos": [
+                "**Linen** is made from the **flax** plant",
+                "Kept people **cool** and safe from the **hot sun**"
+              ]
+            },
+            {
+              "etiqueta": "🏘️ Towns",
+              "titulo": "On higher ground",
+              "puntos": [
+                "Built on **higher ground** to be safe from **flooding**"
+              ]
+            },
+            {
+              "etiqueta": "🧱 Houses",
+              "titulo": "A worker's home",
+              "puntos": [
+                "**Bricks of mud and straw**",
+                "**Small, high windows** and a **reed roof** kept it cool",
+                "**Flat roof** for eating and sleeping"
+              ]
+            },
+            {
+              "etiqueta": "🍞 Food",
+              "titulo": "What they ate",
+              "puntos": [
+                "Mainly **bread, fruit and vegetables**",
+                "**Goats** for milk, **geese** for eggs",
+                "Hardly ever ate **meat**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is a hierarchy?",
+          "r": "A way of organising society in levels, from most to least powerful"
+        },
+        {
+          "p": "Who was at the top of Egyptian society?",
+          "r": "The pharaoh"
+        },
+        {
+          "p": "Who was at the bottom of Egyptian society?",
+          "r": "Farmers, servants and slaves"
+        },
+        {
+          "p": "What did scribes do?",
+          "r": "They wrote official documents (they came from wealthy families)"
+        },
+        {
+          "p": "What did soldiers get when they retired?",
+          "r": "Land"
+        },
+        {
+          "p": "What did merchants do?",
+          "r": "Supplied materials to craftspeople and sold the finished goods"
+        },
+        {
+          "p": "What is a stonemason?",
+          "r": "A craftsperson who works with stone"
+        },
+        {
+          "p": "Who were slaves in Ancient Egypt?",
+          "r": "Captured prisoners or people from very poor families"
+        },
+        {
+          "p": "What were clothes made of?",
+          "r": "Light linen, from the flax plant"
+        },
+        {
+          "p": "Why were towns built on higher ground?",
+          "r": "To be safe from flooding"
+        },
+        {
+          "p": "What were houses built with?",
+          "r": "Bricks of mud and straw"
+        },
+        {
+          "p": "What did people use the flat roof for?",
+          "r": "Eating and sleeping"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "How was society in Ancient Egypt organised?",
+          "opciones": [
+            "Everyone was equal",
+            "As a hierarchy",
+            "By age",
+            "By where you were born"
+          ],
+          "correcta": 1,
+          "explicacion": "Society was a hierarchy, and your job marked your place."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What marked a person's place in Egyptian society?",
+          "opciones": [
+            "Their height",
+            "Their house colour",
+            "Their job",
+            "Their name"
+          ],
+          "correcta": 2,
+          "explicacion": "A person's job marked that person's place in society."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who had complete power in Ancient Egypt?",
+          "opciones": [
+            "The scribes",
+            "The merchants",
+            "The soldiers",
+            "The pharaoh"
+          ],
+          "correcta": 3,
+          "explicacion": "The pharaoh was at the top and had complete power."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who helped to organise the country?",
+          "opciones": [
+            "Government officials",
+            "Slaves",
+            "Farmers",
+            "Weavers"
+          ],
+          "correcta": 0,
+          "explicacion": "Government officials helped organise the country."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What did soldiers receive when they retired?",
+          "opciones": [
+            "A pyramid",
+            "Land",
+            "Nothing",
+            "A boat"
+          ],
+          "correcta": 1,
+          "explicacion": "Soldiers had respect and were given land when they retired."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which group wrote official documents?",
+          "opciones": [
+            "Craftspeople",
+            "Servants",
+            "Scribes",
+            "Soldiers"
+          ],
+          "correcta": 2,
+          "explicacion": "Scribes came from wealthy families and wrote official documents."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these was a craftsperson?",
+          "opciones": [
+            "A scribe",
+            "A soldier",
+            "A nobleman",
+            "A potter"
+          ],
+          "correcta": 3,
+          "explicacion": "Craftspeople included stonemasons, builders, carpenters, potters, jewellers and weavers."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who supplied materials to craftspeople and sold the finished goods?",
+          "opciones": [
+            "Merchants",
+            "Scribes",
+            "Pharaohs",
+            "Slaves"
+          ],
+          "correcta": 0,
+          "explicacion": "Merchants supplied materials and sold the finished goods."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How did most people in Ancient Egypt work?",
+          "opciones": [
+            "As scribes",
+            "As peasant farmers on other people's land",
+            "As soldiers",
+            "As merchants"
+          ],
+          "correcta": 1,
+          "explicacion": "Most people worked as peasant farmers on other people's land."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Servants in Ancient Egypt were paid for their work.",
+          "correcta": true,
+          "explicacion": "Servants worked for other people and were paid."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who were the slaves?",
+          "opciones": [
+            "People from wealthy families",
+            "Retired soldiers",
+            "Captured prisoners or people from very poor families",
+            "Religious leaders"
+          ],
+          "correcta": 2,
+          "explicacion": "Slaves were captured prisoners or people from very poor families."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What was Egyptian clothing made of?",
+          "opciones": [
+            "Wool, from sheep",
+            "Silk",
+            "Leather",
+            "Linen, from the flax plant"
+          ],
+          "correcta": 3,
+          "explicacion": "People wore light linen made from the fibres of the flax plant."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why were towns and villages built on higher ground?",
+          "opciones": [
+            "To be safe from flooding",
+            "To be near the sea",
+            "To see the pyramids",
+            "To keep warm"
+          ],
+          "correcta": 0,
+          "explicacion": "Higher ground kept towns safe from the Nile's floods."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What were workers' houses built with?",
+          "opciones": [
+            "Stone blocks",
+            "Bricks of mud and straw",
+            "Wood and glass",
+            "Reeds only"
+          ],
+          "correcta": 1,
+          "explicacion": "Houses were built with bricks of mud and straw."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What kept an Egyptian house cool?",
+          "opciones": [
+            "Big glass windows",
+            "A fireplace",
+            "Small, high windows and a reed roof",
+            "Thick carpets"
+          ],
+          "correcta": 2,
+          "explicacion": "Small, high windows and a reed roof for shade kept the house cool."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Ordinary Egyptians ate meat every day.",
+          "correcta": false,
+          "explicacion": "Food was mainly bread, fruit and vegetables; people hardly ever ate meat."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give TWO features of an Egyptian worker's house.",
+          "pista": "Think about what it was made of and the roof and windows.",
+          "claves": [
+            "mud",
+            "straw",
+            "brick",
+            "window",
+            "reed",
+            "roof",
+            "flat",
+            "yard",
+            "family room",
+            "furniture",
+            "storage",
+            "kitchen",
+            "bedroom",
+            "higher ground"
+          ],
+          "minimo": 2,
+          "modelo": "Bricks of mud and straw, small high windows, a reed roof for shade, a flat roof for eating and sleeping, a yard for animals.",
+          "explicacion": "A worker's home was made of mud bricks and had small windows and a flat roof."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What did people use the flat roof of their house for?",
+          "pista": "Two everyday activities.",
+          "claves": [
+            "eat",
+            "sleep",
+            "dry",
+            "cloth",
+            "sheet"
+          ],
+          "modelo": "For eating and sleeping (and drying clothes and sheets in the sun).",
+          "explicacion": "The flat roof was used for eating and sleeping."
+        }
+      ]
+    },
+    {
+      "id": "tombs-and-treasures",
+      "titulo": "1.4 Tombs and treasures",
+      "resumen": [
+        "## The next life",
+        "- The Egyptians believed that after death people went to live **another life** in another place.",
+        "- Rich people's bodies were **preserved** by **mummification**. The preserved body is a **mummy**.",
+        "- The mummy was placed in a decorated coffin called a **sarcophagus**.",
+        "",
+        "## The pyramids",
+        "- A pyramid was a special **tomb** to protect the body and the **treasures**. It was a symbol of **power and wealth**.",
+        "- Inside: a **burial chamber** and **passageways** designed to confuse **tomb robbers**.",
+        "- Boats carried the huge blocks up the **Nile**, so most pyramids were built **near the river**.",
+        "- Angled sides represent the **rays of the sun**.",
+        "- No-one is completely sure how they were built. Builders had to make a **level base**, organise workers to move **millions of stone blocks** and build the sides at the **correct angle**.",
+        "- The **Great Pyramid of Khufu** used more than **2 million** blocks and was covered in white **limestone**.",
+        "",
+        "## The Valley of the Kings",
+        "- Pyramids were used until about **1540 BCE**. Later pharaohs were buried in the **Valley of the Kings**, on the **west bank of the Nile** opposite **Thebes**.",
+        "- **Tomb robbers** stole everything from most tombs.",
+        "",
+        "## Tutankhamun",
+        "- Ruled **1332–1323 BCE**; not very important, but the most famous pharaoh today.",
+        "- His tomb was undisturbed for over **3000 years**. In **1922** the **Egyptologist Howard Carter** found it, full of **hundreds of objects**."
+      ],
+      "notas": [
+        {
+          "seccion": "Preparing for the next life",
+          "tarjetas": [
+            {
+              "etiqueta": "✨ Belief",
+              "titulo": "Another life",
+              "puntos": [
+                "After death people went to live **another life** in another place"
+              ]
+            },
+            {
+              "etiqueta": "🧻 Mummy",
+              "titulo": "Mummification",
+              "puntos": [
+                "Bodies of **rich** Egyptians were **preserved**",
+                "The process: **mummification**",
+                "The preserved body: a **mummy**"
+              ]
+            },
+            {
+              "etiqueta": "⚰️ Sarcophagus",
+              "titulo": "A decorated coffin",
+              "puntos": [
+                "The mummy was placed inside a **sarcophagus**",
+                "e.g. Lady **Henutmehyt** (1279–1213 BCE)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "The pyramids",
+          "tarjetas": [
+            {
+              "etiqueta": "🔺 Purpose",
+              "titulo": "Why build them?",
+              "puntos": [
+                "A special **tomb** for the pharaoh",
+                "Protected the **body** and the **treasures**",
+                "A symbol of **power and wealth**"
+              ]
+            },
+            {
+              "etiqueta": "🗝️ Inside",
+              "titulo": "Inside a pyramid",
+              "puntos": [
+                "A **burial chamber** deep inside",
+                "**Passageways** to confuse **tomb robbers**",
+                "**Treasures** buried with the pharaoh"
+              ]
+            },
+            {
+              "etiqueta": "⛵ Where?",
+              "titulo": "Near the Nile",
+              "puntos": [
+                "**Boats** carried the huge blocks",
+                "Built near the river so blocks did not move far"
+              ]
+            },
+            {
+              "etiqueta": "🏗️ How?",
+              "titulo": "Building a pyramid",
+              "puntos": [
+                "No-one is **completely sure**",
+                "A **level** base, **millions** of blocks, the **correct angle**",
+                "Angled sides = **rays of the sun**"
+              ]
+            },
+            {
+              "etiqueta": "🏆 Khufu",
+              "titulo": "The Great Pyramid of Khufu",
+              "puntos": [
+                "Largest and most famous",
+                "More than **2 million** stone blocks",
+                "Covered in white **limestone** that shone"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "After the pyramids",
+          "tarjetas": [
+            {
+              "etiqueta": "🏜️ Valley of the Kings",
+              "titulo": "Later royal tombs",
+              "puntos": [
+                "Pyramids used until about **1540 BCE**",
+                "Then pharaohs were buried in the **Valley of the Kings**",
+                "On the **west bank** of the Nile, opposite **Thebes**"
+              ]
+            },
+            {
+              "etiqueta": "🦹 Robbers",
+              "titulo": "Tomb robbers",
+              "puntos": [
+                "Stole **everything** from most tombs"
+              ]
+            },
+            {
+              "etiqueta": "🏺 Tutankhamun",
+              "titulo": "The boy pharaoh's tomb",
+              "puntos": [
+                "Ruled **1332–1323 BCE**",
+                "Tomb undisturbed for over **3000 years**",
+                "Found in **1922** by **Howard Carter**, an **Egyptologist**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Glossary words",
+            "items": [
+              "preserve",
+              "tomb",
+              "mummy",
+              "sarcophagus",
+              "Egyptologist"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is mummification?",
+          "r": "The process of preserving a dead body"
+        },
+        {
+          "p": "What is a mummy?",
+          "r": "A preserved body"
+        },
+        {
+          "p": "What is a sarcophagus?",
+          "r": "A decorated coffin that held the mummy"
+        },
+        {
+          "p": "What is a tomb?",
+          "r": "A place where a dead person is buried"
+        },
+        {
+          "p": "Why were pyramids built?",
+          "r": "To protect the preserved body and the treasures (a symbol of power and wealth)"
+        },
+        {
+          "p": "What were the passageways inside pyramids for?",
+          "r": "To confuse tomb robbers"
+        },
+        {
+          "p": "Why were most pyramids built near the Nile?",
+          "r": "Boats carried the blocks, so workers did not have to move them far"
+        },
+        {
+          "p": "What do the angled sides of a pyramid represent?",
+          "r": "The rays of the sun"
+        },
+        {
+          "p": "What is the largest and most famous pyramid?",
+          "r": "The Great Pyramid of Khufu (more than 2 million blocks)"
+        },
+        {
+          "p": "Where were later pharaohs buried?",
+          "r": "In the Valley of the Kings, opposite Thebes"
+        },
+        {
+          "p": "Who discovered Tutankhamun's tomb, and when?",
+          "r": "Howard Carter, in 1922"
+        },
+        {
+          "p": "What is an Egyptologist?",
+          "r": "Someone who studies Ancient Egypt"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What did the Ancient Egyptians believe happened when people died?",
+          "opciones": [
+            "Nothing happened",
+            "They became stars",
+            "They came back as animals",
+            "They went to live another life in another place"
+          ],
+          "correcta": 3,
+          "explicacion": "They believed the dead went to live another life in another place."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the process of preserving a body called?",
+          "opciones": [
+            "Mummification",
+            "Hieroglyphics",
+            "Irrigation",
+            "Dynasty"
+          ],
+          "correcta": 0,
+          "explicacion": "The body was preserved by mummification."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a sarcophagus?",
+          "opciones": [
+            "A type of boat",
+            "A decorated coffin",
+            "A farming tool",
+            "A pharaoh's crown"
+          ],
+          "correcta": 1,
+          "explicacion": "The mummy was placed inside a decorated coffin called a sarcophagus."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What was the main purpose of a pyramid?",
+          "opciones": [
+            "A house for the pharaoh to live in",
+            "A place to store grain",
+            "A tomb to protect the body and treasures",
+            "A lighthouse for boats"
+          ],
+          "correcta": 2,
+          "explicacion": "Pyramids were special tombs to protect the preserved body and the treasures."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why were there passageways inside the pyramids?",
+          "opciones": [
+            "To let in light",
+            "To keep animals",
+            "For workers to sleep",
+            "To confuse tomb robbers"
+          ],
+          "correcta": 3,
+          "explicacion": "Passageways were designed to confuse tomb robbers."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why were most pyramids built near the River Nile?",
+          "opciones": [
+            "Boats carried the blocks so workers did not have to move them far",
+            "The pharaohs liked swimming",
+            "The ground was softer",
+            "To be safe from flooding"
+          ],
+          "correcta": 0,
+          "explicacion": "Boats transported the blocks up the Nile, so building near the river saved work."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What do the angled sides of a pyramid represent?",
+          "opciones": [
+            "The waves of the Nile",
+            "The rays of the sun",
+            "The pharaoh's crown",
+            "The mountains"
+          ],
+          "correcta": 1,
+          "explicacion": "The angled sides represent the rays of the sun."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is the largest and most famous pyramid?",
+          "opciones": [
+            "The step pyramid of Djoser",
+            "The pyramid of Tutankhamun",
+            "The Great Pyramid of Khufu",
+            "The pyramid of Cleopatra"
+          ],
+          "correcta": 2,
+          "explicacion": "The largest and most famous pyramid is the Great Pyramid of Khufu."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "About how many stone blocks were used to build the Great Pyramid of Khufu?",
+          "opciones": [
+            "About 2000",
+            "About 200",
+            "Exactly 1000",
+            "More than 2 million"
+          ],
+          "correcta": 3,
+          "explicacion": "It was built using more than 2 million huge stone blocks."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "We know exactly how the pyramids were built.",
+          "correcta": false,
+          "explicacion": "No-one is completely sure how the pyramids were built."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where were pharaohs buried after about 1540 BCE?",
+          "opciones": [
+            "In the Valley of the Kings",
+            "In the Great Pyramid",
+            "In Alexandria",
+            "In the Red Sea"
+          ],
+          "correcta": 0,
+          "explicacion": "After about 1540 BCE pharaohs were buried in the Valley of the Kings."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who discovered Tutankhamun's tomb in 1922?",
+          "opciones": [
+            "Jean-François Champollion",
+            "Howard Carter",
+            "Alexander the Great",
+            "King Narmer"
+          ],
+          "correcta": 1,
+          "explicacion": "The Egyptologist Howard Carter discovered the tomb in 1922."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Tutankhamun was a very important pharaoh in his time.",
+          "correcta": false,
+          "explicacion": "He was not very important in his time, but he is the most famous pharaoh today."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is Tutankhamun's tomb so important to historians?",
+          "opciones": [
+            "It is the biggest pyramid",
+            "It was the first tomb ever built",
+            "It was well preserved and full of hundreds of objects",
+            "It was empty"
+          ],
+          "correcta": 2,
+          "explicacion": "His well-preserved tomb had hundreds of objects that show life in Ancient Egypt."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is an Egyptologist?",
+          "opciones": [
+            "A pharaoh's servant",
+            "A tomb robber",
+            "A person who builds pyramids",
+            "Someone who studies Ancient Egypt"
+          ],
+          "correcta": 3,
+          "explicacion": "An Egyptologist studies Ancient Egypt, like Howard Carter."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give TWO things the pyramid builders had to do.",
+          "pista": "Think about the ground, the workers and the sides.",
+          "claves": [
+            "level",
+            "base",
+            "organis",
+            "worker",
+            "block",
+            "cut",
+            "mov",
+            "angle",
+            "collapse",
+            "side"
+          ],
+          "minimo": 2,
+          "modelo": "Make a huge level base, organise the workers who cut and moved millions of stone blocks, and build the sides at the correct angle so the pyramid did not collapse.",
+          "explicacion": "The builders needed a level base, lots of organised workers and the right angle."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Why were tombs often empty when historians found them?",
+          "pista": "Who broke into the tombs?",
+          "claves": [
+            "robber",
+            "stole",
+            "steal",
+            "stolen",
+            "thie"
+          ],
+          "modelo": "Because tomb robbers stole everything from most of the tombs.",
+          "explicacion": "Tomb robbers stole from most tombs in the pyramids and the Valley of the Kings."
+        }
+      ]
+    },
+    {
+      "id": "egyptian-influence",
+      "titulo": "1.5 The Egyptian influence – evidence and inspiration",
+      "resumen": [
+        "## Hieroglyphics",
+        "- The Egyptians wrote with **hieroglyphics**: **pictures** that stand for words, sounds, objects, actions and ideas.",
+        "- Later they made forms of writing that were **easier and faster**. Alphabets used today **developed from** hieroglyphics.",
+        "",
+        "## The Rosetta Stone",
+        "- Found in **1799** near the port of **Rosetta** (now **Rashid**).",
+        "- It had the **same text in three languages**; one was **Ancient Greek**, which scholars could read.",
+        "- After **20 years** of study, the Frenchman **Jean-François Champollion** made the first translation of hieroglyphics.",
+        "",
+        "## Paintings and carvings",
+        "Wall paintings and carvings are **evidence** about the pharaohs and everyday life: **food, clothing, work and recreation**.",
+        "",
+        "## Art as inspiration",
+        "- **Merchants and travellers** took Egyptian ideas to other countries: **Ancient Greece** and **17th- and 18th-century Europe**.",
+        "- The discovery of **Tutankhamun's tomb (1922)** created huge interest. Example: a **factory in London** built **1926–1928**.",
+        "",
+        "## Mathematics",
+        "- Measurements based on **body parts** (e.g. the width of the **palm**).",
+        "- By about **2700 BCE** a **number system based on 10**. They knew **prime numbers, unit fractions and geometry**.",
+        "- A **calendar** of **12 months of 30 days** plus **5 extra feast days**."
+      ],
+      "notas": [
+        {
+          "seccion": "Writing",
+          "tarjetas": [
+            {
+              "etiqueta": "𓂀 Hieroglyphics",
+              "titulo": "Picture writing",
+              "puntos": [
+                "**Pictures** for words, sounds, objects, actions and ideas",
+                "e.g. in the tomb of **Queen Nefertari** in **Luxor**"
+              ]
+            },
+            {
+              "etiqueta": "✏️ Changes",
+              "titulo": "Faster writing",
+              "puntos": [
+                "Later forms were **easier and faster** to write",
+                "Today's **alphabets** developed from hieroglyphics"
+              ]
+            },
+            {
+              "etiqueta": "🪨 Rosetta Stone",
+              "titulo": "The key to hieroglyphics",
+              "puntos": [
+                "Found in **1799** near **Rosetta** (now **Rashid**)",
+                "**Same text in three languages**, one was **Ancient Greek**",
+                "**Champollion** (French) translated it after **20 years**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Evidence and inspiration",
+          "tarjetas": [
+            {
+              "etiqueta": "🖼️ Paintings",
+              "titulo": "Wall paintings and carvings",
+              "puntos": [
+                "Show the **pharaohs** and **everyday life**",
+                "**Food, clothing, work** and **recreation**",
+                "e.g. a **scribe** inspecting a flock of **geese**"
+              ]
+            },
+            {
+              "etiqueta": "🏛️ Inspiration",
+              "titulo": "Egyptian ideas abroad",
+              "puntos": [
+                "Taken by **merchants and travellers**",
+                "**Ancient Greece** and **17th–18th-century Europe**"
+              ]
+            },
+            {
+              "etiqueta": "🏭 1922",
+              "titulo": "Tutankhamun mania",
+              "puntos": [
+                "Tomb found → huge interest in Egyptian **art, culture, heritage**",
+                "A **London factory** (1926–1928) in Egyptian style"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Glossary words",
+            "items": [
+              "architecture",
+              "culture",
+              "evidence"
+            ]
+          }
+        },
+        {
+          "seccion": "Maths and the calendar",
+          "tarjetas": [
+            {
+              "etiqueta": "✋ Measuring",
+              "titulo": "Body parts",
+              "puntos": [
+                "Measurements based on **body parts**",
+                "e.g. the width of the **palm** of a hand"
+              ]
+            },
+            {
+              "etiqueta": "🔢 Numbers",
+              "titulo": "A number system",
+              "puntos": [
+                "By about **2700 BCE**: a system **based on 10**",
+                "**Prime numbers**, **unit fractions**, **geometry**"
+              ]
+            },
+            {
+              "etiqueta": "📅 Calendar",
+              "titulo": "365 days",
+              "puntos": [
+                "**12 months** of **30 days**",
+                "Plus **5 extra feast days**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What are hieroglyphics?",
+          "r": "Egyptian writing that used pictures for words, sounds, objects, actions and ideas"
+        },
+        {
+          "p": "What developed from Egyptian hieroglyphics?",
+          "r": "Alphabets used around the world today"
+        },
+        {
+          "p": "When was the Rosetta Stone discovered?",
+          "r": "In 1799"
+        },
+        {
+          "p": "Where was the Rosetta Stone found?",
+          "r": "Near the port of Rosetta (now Rashid)"
+        },
+        {
+          "p": "Why was the Rosetta Stone so useful?",
+          "r": "It had the same text in three languages, including Ancient Greek"
+        },
+        {
+          "p": "Who first translated hieroglyphics?",
+          "r": "Jean-François Champollion, a Frenchman"
+        },
+        {
+          "p": "What can wall paintings tell us?",
+          "r": "About the pharaohs and everyday life: food, clothing, work and recreation"
+        },
+        {
+          "p": "What did the Egyptians base measurements on?",
+          "r": "Body parts, e.g. the width of the palm"
+        },
+        {
+          "p": "Their number system was based on which number?",
+          "r": "10"
+        },
+        {
+          "p": "Describe the Egyptian calendar.",
+          "r": "12 months of 30 days and 5 extra feast days"
+        },
+        {
+          "p": "What is evidence?",
+          "r": "Things that show us what happened in the past"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What was the Ancient Egyptian writing called?",
+          "opciones": [
+            "Hieroglyphics",
+            "Papyrus",
+            "Sarcophagus",
+            "Shaduf"
+          ],
+          "correcta": 0,
+          "explicacion": "The Egyptians wrote using hieroglyphics."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What did hieroglyphics use to represent words, sounds and ideas?",
+          "opciones": [
+            "Numbers only",
+            "Pictures",
+            "Musical notes",
+            "Colours"
+          ],
+          "correcta": 1,
+          "explicacion": "Hieroglyphics used pictures to represent words, sounds, objects, actions and ideas."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Alphabets used around the world today developed from Egyptian hieroglyphics.",
+          "correcta": true,
+          "explicacion": "Our alphabets developed from Egyptian hieroglyphics."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In which year was the Rosetta Stone discovered?",
+          "opciones": [
+            "1922",
+            "2700 BCE",
+            "1799",
+            "1540 BCE"
+          ],
+          "correcta": 2,
+          "explicacion": "The Rosetta Stone was discovered in 1799."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why did the Rosetta Stone help people to read hieroglyphics?",
+          "opciones": [
+            "It had a dictionary on it",
+            "It was painted in colour",
+            "A pharaoh explained it",
+            "It had the same text in three languages, one of them Ancient Greek"
+          ],
+          "correcta": 3,
+          "explicacion": "Scholars could read the Ancient Greek and compare it with the hieroglyphics."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who produced the first translation of hieroglyphics?",
+          "opciones": [
+            "Jean-François Champollion",
+            "Howard Carter",
+            "Alexander the Great",
+            "Tutankhamun"
+          ],
+          "correcta": 0,
+          "explicacion": "After 20 years of study, the Frenchman Champollion translated hieroglyphics."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How long did Champollion study before translating hieroglyphics?",
+          "opciones": [
+            "2 years",
+            "20 years",
+            "200 years",
+            "5 months"
+          ],
+          "correcta": 1,
+          "explicacion": "It took him 20 years of study."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the modern name of the port of Rosetta?",
+          "opciones": [
+            "Cairo",
+            "Luxor",
+            "Rashid",
+            "Thebes"
+          ],
+          "correcta": 2,
+          "explicacion": "Rosetta is now called Rashid."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What can Egyptian wall paintings and carvings tell us about?",
+          "opciones": [
+            "Only wars",
+            "Only the weather",
+            "Modern cars",
+            "Food, clothing, work and recreation"
+          ],
+          "correcta": 3,
+          "explicacion": "They tell us about the pharaohs and many parts of everyday life."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Who took Egyptian ideas to other countries?",
+          "opciones": [
+            "Merchants and travellers",
+            "Tomb robbers",
+            "Slaves",
+            "Farmers"
+          ],
+          "correcta": 0,
+          "explicacion": "Merchants and travellers took ideas from Egypt to other countries."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which event in 1922 created huge interest in Egyptian art?",
+          "opciones": [
+            "The discovery of the Rosetta Stone",
+            "The discovery of Tutankhamun's tomb",
+            "The building of the Great Pyramid",
+            "Cleopatra's death"
+          ],
+          "correcta": 1,
+          "explicacion": "Tutankhamun's tomb was found in 1922 and made Egyptian art very popular."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What were Egyptian measurements based on?",
+          "opciones": [
+            "Metres and centimetres",
+            "The size of the moon",
+            "Body parts, such as the width of the palm",
+            "Grains of sand"
+          ],
+          "correcta": 2,
+          "explicacion": "The Egyptians measured using body parts, like the width of a palm."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "By about 2700 BCE, the Egyptians had a number system based on…",
+          "opciones": [
+            "12",
+            "60",
+            "2",
+            "10"
+          ],
+          "correcta": 3,
+          "explicacion": "They developed a number system based on 10."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many months were in the Egyptian calendar?",
+          "opciones": [
+            "12 months of 30 days, plus 5 feast days",
+            "10 months of 36 days",
+            "13 months of 28 days",
+            "12 months of 31 days"
+          ],
+          "correcta": 0,
+          "explicacion": "The calendar had 12 months of 30 days and 5 extra feast days."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A factory built in London in 1926–1928 shows Egyptian influence.",
+          "correcta": true,
+          "explicacion": "The book shows a London factory clearly inspired by Egyptian art."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name TWO things the Egyptians knew about in mathematics.",
+          "pista": "Think about special numbers, parts of numbers and shapes.",
+          "claves": [
+            "prime",
+            "fraction",
+            "geometry",
+            "10",
+            "ten",
+            "number system",
+            "measure",
+            "palm",
+            "body"
+          ],
+          "minimo": 2,
+          "modelo": "Prime numbers, unit fractions and geometry (and a number system based on 10).",
+          "explicacion": "The Egyptians knew about prime numbers, unit fractions and geometry."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "How do wall paintings help us understand life in Ancient Egypt?",
+          "pista": "What can you see in the pictures?",
+          "claves": [
+            "food",
+            "cloth",
+            "work",
+            "recreation",
+            "everyday",
+            "daily",
+            "pharaoh"
+          ],
+          "modelo": "They show the pharaohs and everyday life, such as food, clothing, work and recreation.",
+          "explicacion": "Paintings and carvings are evidence about everyday life."
+        }
+      ]
+    }
+  ]
 }

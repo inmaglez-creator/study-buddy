@@ -60,6 +60,19 @@
         "noisy-world",
         "improving-our-environment"
       ]
+    },
+    {
+      "id": "history-unit-1",
+      "asignatura": "history",
+      "titulo": "History test · Unit 1 Ancient Egypt",
+      "fecha": "2026-11-12",
+      "temas": [
+        "egypt-and-the-pharaohs",
+        "farming-and-trade",
+        "everyday-life",
+        "tombs-and-treasures",
+        "egyptian-influence"
+      ]
     }
   ]
 }
