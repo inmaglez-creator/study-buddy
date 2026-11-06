@@ -1,3 +1,1610 @@
 {
-  "temas": []
+  "temas": [
+    {
+      "id": "reino-animales",
+      "titulo": "El reino animales",
+      "resumen": [
+        "El **reino animales** está formado por seres vivos **pluricelulares** que se alimentan de **otros organismos**. La mayoría se puede **desplazar**.",
+        "Todos realizan las funciones de **relación, nutrición y reproducción**, pero entre ellos hay una gran **diversidad**.",
+        "",
+        "## Se relacionan",
+        "- Tienen **órganos de los sentidos** para percibir lo que ocurre a su alrededor (ojos compuestos de la libélula, ojos y nariz del perro, tentáculos del caracol).",
+        "- El **sistema nervioso** les permite comportamientos complejos.",
+        "- Se desplazan con **patas, aletas, alas**…",
+        "",
+        "## Se nutren",
+        "- **Herbívoros**: comen plantas (jirafa, cebra).",
+        "- **Carnívoros**: comen carne de otros animales (león, leopardo).",
+        "- **Omnívoros**: comen animales y plantas (avestruz, babuino).",
+        "",
+        "## Se reproducen",
+        "- **Sexual**: un macho y una hembra. **Ovíparos** (nacen de un huevo: aves, reptiles, anfibios, peces, invertebrados) o **vivíparos** (nacen del vientre de la madre: mamíferos).",
+        "- **Asexual**: participa un solo individuo (pulgones, estrellas de mar que regeneran su cuerpo).",
+        "- Hay que **cuidar y respetar** a los animales."
+      ],
+      "notas": [
+        {
+          "seccion": "¿Qué es un animal?",
+          "tarjetas": [
+            {
+              "etiqueta": "🧬 Pluricelulares",
+              "titulo": "Muchas células",
+              "puntos": [
+                "Formados por **muchas células**",
+                "Se alimentan de **otros organismos**",
+                "La mayoría se **desplaza**"
+              ]
+            },
+            {
+              "etiqueta": "🔁 Funciones",
+              "titulo": "Lo que todos hacen",
+              "puntos": [
+                "**Relación**, **nutrición** y **reproducción**",
+                "Aun así, hay una gran **diversidad**"
+              ]
+            },
+            {
+              "etiqueta": "🗂️ Clasificar",
+              "titulo": "Varias maneras",
+              "puntos": [
+                "Según su **alimentación**",
+                "Según su forma de **reproducción**",
+                "Según su tipo de **esqueleto**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Los animales se relacionan",
+          "tarjetas": [
+            {
+              "etiqueta": "👀 Sentidos",
+              "titulo": "Órganos de los sentidos",
+              "puntos": [
+                "Perciben lo que ocurre **a su alrededor**",
+                "Ej.: **ojos compuestos** de la libélula, **ojos y nariz** del perro, **tentáculos** del caracol"
+              ]
+            },
+            {
+              "etiqueta": "🧠 Sistema nervioso",
+              "titulo": "Muy desarrollado en algunos",
+              "puntos": [
+                "Permite **comportamientos complejos**"
+              ]
+            },
+            {
+              "etiqueta": "🦶 Desplazarse",
+              "titulo": "Para moverse",
+              "puntos": [
+                "**Patas**, **aletas**, **alas**…"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Los animales se nutren",
+          "tarjetas": [
+            {
+              "etiqueta": "🦒 Herbívoros",
+              "titulo": "Comen plantas",
+              "puntos": [
+                "**Jirafa**, **cebra**"
+              ]
+            },
+            {
+              "etiqueta": "🦁 Carnívoros",
+              "titulo": "Comen carne",
+              "puntos": [
+                "Carne de **otros animales**",
+                "**León**, **leopardo**"
+              ]
+            },
+            {
+              "etiqueta": "🐒 Omnívoros",
+              "titulo": "Comen de todo",
+              "puntos": [
+                "**Animales y plantas**",
+                "**Avestruz**, **babuino**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Los animales se reproducen",
+          "tarjetas": [
+            {
+              "etiqueta": "💑 Sexual",
+              "titulo": "Dos individuos",
+              "puntos": [
+                "Uno **masculino** y otro **femenino**",
+                "La forma de la **mayoría** de los animales"
+              ]
+            },
+            {
+              "etiqueta": "🥚 Ovíparos",
+              "titulo": "Nacen de un huevo",
+              "puntos": [
+                "**Aves, reptiles, anfibios, peces** e **invertebrados**",
+                "Ej.: tortuga, pollito, escarabajo"
+              ]
+            },
+            {
+              "etiqueta": "🤰 Vivíparos",
+              "titulo": "Nacen del vientre de la madre",
+              "puntos": [
+                "Los **mamíferos**",
+                "Ej.: oveja, guepardo, oso"
+              ]
+            },
+            {
+              "etiqueta": "🌱 Asexual",
+              "titulo": "Un solo individuo",
+              "puntos": [
+                "Hembras de **pulgón**: muchas hembras **sin alas**",
+                "**Estrellas de mar**: regeneran parte o todo su cuerpo"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Recuerda",
+          "tarjetas": [
+            {
+              "etiqueta": "❤️ Respeto",
+              "titulo": "Cuidar a los animales",
+              "puntos": [
+                "Si tienes una **mascota**, debes cuidarla",
+                "No compres **especies exóticas**: muchas son **invasoras**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "¿Qué significa que los animales son pluricelulares?",
+          "r": "Que están formados por muchas células."
+        },
+        {
+          "p": "¿Cuáles son las tres funciones vitales?",
+          "r": "Relación, nutrición y reproducción."
+        },
+        {
+          "p": "¿Para qué sirven los órganos de los sentidos?",
+          "r": "Para percibir lo que ocurre a su alrededor."
+        },
+        {
+          "p": "¿Qué permite a algunos animales comportamientos complejos?",
+          "r": "Un sistema nervioso muy desarrollado."
+        },
+        {
+          "p": "Animal herbívoro",
+          "r": "Come plantas. Ej.: jirafa, cebra."
+        },
+        {
+          "p": "Animal carnívoro",
+          "r": "Come carne de otros animales. Ej.: león, leopardo."
+        },
+        {
+          "p": "Animal omnívoro",
+          "r": "Come animales y plantas. Ej.: avestruz, babuino."
+        },
+        {
+          "p": "Animal ovíparo",
+          "r": "Nace de un huevo. Ej.: aves, reptiles, peces."
+        },
+        {
+          "p": "Animal vivíparo",
+          "r": "Nace del vientre de la madre. Ej.: mamíferos."
+        },
+        {
+          "p": "Reproducción sexual",
+          "r": "Participan dos seres: uno masculino y uno femenino."
+        },
+        {
+          "p": "Reproducción asexual",
+          "r": "Participa un solo individuo. Ej.: pulgones, estrella de mar."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo son los animales según el número de células?",
+          "opciones": [
+            "Pluricelulares",
+            "Unicelulares",
+            "No tienen células",
+            "Solo tienen dos células"
+          ],
+          "correcta": 0,
+          "explicacion": "Los animales están formados por muchas células: son pluricelulares."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿De qué se alimentan los animales?",
+          "opciones": [
+            "De otros organismos",
+            "Solo de luz del sol",
+            "Solo de agua y sales minerales",
+            "Fabrican su propio alimento"
+          ],
+          "correcta": 0,
+          "explicacion": "Los animales se alimentan de otros seres vivos o de sus restos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál de estas NO es una función vital?",
+          "opciones": [
+            "Desplazarse",
+            "Relación",
+            "Nutrición",
+            "Reproducción"
+          ],
+          "correcta": 0,
+          "explicacion": "Las tres funciones vitales son relación, nutrición y reproducción."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Para qué usan los animales los órganos de los sentidos?",
+          "opciones": [
+            "Para percibir lo que ocurre a su alrededor",
+            "Para digerir la comida",
+            "Para fabricar su alimento",
+            "Para respirar bajo el agua"
+          ],
+          "correcta": 0,
+          "explicacion": "Los sentidos les dicen lo que pasa a su alrededor."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué órganos de los sentidos tiene la libélula según el libro?",
+          "opciones": [
+            "Ojos compuestos",
+            "Tentáculos",
+            "Una nariz grande",
+            "Bigotes"
+          ],
+          "correcta": 0,
+          "explicacion": "El libro muestra los ojos compuestos de la libélula."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué usa el caracol para percibir lo que le rodea?",
+          "opciones": [
+            "Tentáculos",
+            "Aletas",
+            "Alas",
+            "Ojos compuestos"
+          ],
+          "correcta": 0,
+          "explicacion": "El caracol percibe su entorno con los tentáculos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué permite a algunos animales llevar a cabo comportamientos complejos?",
+          "opciones": [
+            "El sistema nervioso",
+            "La concha",
+            "La clorofila",
+            "Las aletas"
+          ],
+          "correcta": 0,
+          "explicacion": "Un sistema nervioso muy desarrollado permite comportamientos complejos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "La cebra come plantas. Es un animal…",
+          "opciones": [
+            "herbívoro",
+            "carnívoro",
+            "omnívoro",
+            "vivíparo"
+          ],
+          "correcta": 0,
+          "explicacion": "Los herbívoros, como la jirafa o la cebra, comen plantas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál de estos animales es carnívoro?",
+          "opciones": [
+            "El leopardo",
+            "La jirafa",
+            "La cebra",
+            "El babuino"
+          ],
+          "correcta": 0,
+          "explicacion": "El león y el leopardo comen carne de otros animales."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "El babuino come animales y plantas. Es…",
+          "opciones": [
+            "omnívoro",
+            "herbívoro",
+            "carnívoro",
+            "ovíparo"
+          ],
+          "correcta": 0,
+          "explicacion": "Los omnívoros, como el avestruz o el babuino, comen animales y plantas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo nacen los animales ovíparos?",
+          "opciones": [
+            "De un huevo",
+            "Del vientre de la madre",
+            "De una semilla",
+            "De una espora"
+          ],
+          "correcta": 0,
+          "explicacion": "Los ovíparos nacen de un huevo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué grupo de animales es vivíparo?",
+          "opciones": [
+            "Los mamíferos",
+            "Las aves",
+            "Los reptiles",
+            "Los peces"
+          ],
+          "correcta": 0,
+          "explicacion": "Los mamíferos nacen del vientre de la madre."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué animal puede regenerar parte o todo su cuerpo?",
+          "opciones": [
+            "La estrella de mar",
+            "El león",
+            "La oveja",
+            "La jirafa"
+          ],
+          "correcta": 0,
+          "explicacion": "Las estrellas de mar se reproducen asexualmente regenerando su cuerpo."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "La mayoría de los animales se reproduce de forma asexual.",
+          "correcta": false,
+          "explicacion": "La mayoría se reproduce de forma sexual; solo algunos lo hacen asexualmente."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "En la reproducción sexual intervienen un ser masculino y otro femenino.",
+          "correcta": true,
+          "explicacion": "La reproducción sexual requiere la unión de dos seres de distinto sexo."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Las hembras de pulgón pueden reproducirse de forma asexual.",
+          "correcta": true,
+          "explicacion": "En una etapa de su vida dan lugar a muchas hembras sin alas sin necesidad de macho."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Es buena idea comprar especies exóticas como mascota.",
+          "correcta": false,
+          "explicacion": "Muchas especies exóticas son invasoras, así que no hay que comprarlas."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Nombra los TRES grupos de animales según lo que comen.",
+          "pista": "Uno come plantas, otro carne y otro de todo.",
+          "claves": [
+            "herbivor",
+            "carnivor",
+            "omnivor"
+          ],
+          "minimo": 3,
+          "modelo": "Herbívoros, carnívoros y omnívoros.",
+          "explicacion": "Según su alimentación, los animales son herbívoros, carnívoros u omnívoros."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "¿Qué diferencia hay entre un animal ovíparo y uno vivíparo?",
+          "pista": "Piensa en cómo nacen.",
+          "claves": [
+            "huevo",
+            "vientre",
+            "barriga",
+            "tripa"
+          ],
+          "minimo": 2,
+          "modelo": "Los ovíparos nacen de un huevo y los vivíparos nacen del vientre de la madre.",
+          "explicacion": "Ovíparo = nace de un huevo; vivíparo = nace del vientre de la madre."
+        }
+      ]
+    },
+    {
+      "id": "vertebrados-invertebrados",
+      "titulo": "Vertebrados e invertebrados",
+      "resumen": [
+        "Según tengan o no **columna vertebral**, los animales son **vertebrados** o **invertebrados**.",
+        "",
+        "## Vertebrados",
+        "- Ejemplos: los **seres humanos**, el sapo, la tortuga, el flamenco, el elefante.",
+        "- Tienen **esqueleto interno**: cráneo, columna vertebral y otros huesos que sujetan el cuerpo y ayudan a desplazarse.",
+        "- Su cuerpo tiene **cabeza** (cerebro y órganos de los sentidos), **tronco** (la mayoría de los órganos) y **extremidades** (patas, alas o aletas). Muchos tienen **cola**.",
+        "- Grupos: **peces, anfibios, reptiles, aves y mamíferos**.",
+        "",
+        "## Invertebrados",
+        "- El grupo **más numeroso** de la Tierra.",
+        "- **No tienen columna vertebral**.",
+        "- Si tienen esqueleto, suele ser **externo**: **caparazón** (cangrejo) o **concha** (mejillón). Algunos tienen el cuerpo **desnudo y blando** (lombriz de tierra).",
+        "- Muchas formas: cuerpo en **cabeza, tórax y abdomen** (mariquita), forma de **saco**, forma de **estrella**.",
+        "- Los insectos crecen mediante **mudas**: cambian su esqueleto externo cada cierto tiempo.",
+        "- Grupos: **poríferos, cnidarios, anélidos, moluscos, equinodermos y artrópodos**."
+      ],
+      "notas": [
+        {
+          "seccion": "Los animales vertebrados",
+          "tarjetas": [
+            {
+              "etiqueta": "🦴 Esqueleto",
+              "titulo": "Interno",
+              "puntos": [
+                "**Cráneo**, **columna vertebral** y otros huesos",
+                "Sujetan el cuerpo y ayudan a **desplazarse**"
+              ]
+            },
+            {
+              "etiqueta": "🧠 Cabeza",
+              "titulo": "Arriba del todo",
+              "puntos": [
+                "**Cerebro** y **órganos de los sentidos**"
+              ]
+            },
+            {
+              "etiqueta": "🫀 Tronco",
+              "titulo": "El centro",
+              "puntos": [
+                "Contiene **la mayoría de los órganos**",
+                "De él salen las **extremidades**: patas, alas o aletas"
+              ]
+            },
+            {
+              "etiqueta": "🐾 Cola",
+              "titulo": "Ayuda a moverse",
+              "puntos": [
+                "Ayuda a la **locomoción**",
+                "Algunos vertebrados **no tienen** cola"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Los 5 grupos de vertebrados",
+            "items": [
+              "🐟 Peces",
+              "🐸 Anfibios",
+              "🦎 Reptiles",
+              "🐦 Aves",
+              "🦒 Mamíferos"
+            ]
+          }
+        },
+        {
+          "seccion": "Los animales invertebrados",
+          "tarjetas": [
+            {
+              "etiqueta": "🌍 Muchísimos",
+              "titulo": "El grupo más numeroso",
+              "puntos": [
+                "Son **la mayoría** de los animales de la Tierra",
+                "**No tienen columna vertebral**"
+              ]
+            },
+            {
+              "etiqueta": "🦀 Esqueleto externo",
+              "titulo": "Para protegerse",
+              "puntos": [
+                "**Caparazón**: cangrejo",
+                "**Concha**: mejillón",
+                "Cuerpo **desnudo y blando**: lombriz de tierra"
+              ]
+            },
+            {
+              "etiqueta": "🐞 Formas",
+              "titulo": "Muy variadas",
+              "puntos": [
+                "Cuerpo en **cabeza, tórax y abdomen** (mariquita)",
+                "Forma de **saco** o de **estrella**"
+              ]
+            },
+            {
+              "etiqueta": "🦗 Mudas",
+              "titulo": "Cómo crecen los insectos",
+              "puntos": [
+                "Su esqueleto externo **rígido** no les deja crecer",
+                "Lo **cambian** cada cierto tiempo"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Los 6 grupos de invertebrados",
+            "items": [
+              "🧽 Poríferos",
+              "🪼 Cnidarios",
+              "🪱 Anélidos",
+              "🐌 Moluscos",
+              "⭐ Equinodermos",
+              "🪲 Artrópodos"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "¿Qué diferencia a vertebrados e invertebrados?",
+          "r": "Tener o no columna vertebral."
+        },
+        {
+          "p": "Esqueleto de los vertebrados",
+          "r": "Interno: cráneo, columna vertebral y otros huesos."
+        },
+        {
+          "p": "Partes del cuerpo de un vertebrado",
+          "r": "Cabeza, tronco y extremidades."
+        },
+        {
+          "p": "¿Qué hay en la cabeza?",
+          "r": "El cerebro y los órganos de los sentidos."
+        },
+        {
+          "p": "Grupos de vertebrados",
+          "r": "Peces, anfibios, reptiles, aves y mamíferos."
+        },
+        {
+          "p": "¿Cuál es el grupo de animales más numeroso?",
+          "r": "Los invertebrados."
+        },
+        {
+          "p": "Caparazón y concha",
+          "r": "Esqueletos externos: cangrejo (caparazón), mejillón (concha)."
+        },
+        {
+          "p": "Muda",
+          "r": "Cambio del esqueleto externo de los insectos para poder crecer."
+        },
+        {
+          "p": "Partes del cuerpo de muchos invertebrados",
+          "r": "Cabeza, tórax y abdomen."
+        },
+        {
+          "p": "Grupos de invertebrados",
+          "r": "Poríferos, cnidarios, anélidos, moluscos, equinodermos y artrópodos."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿En qué se basa la clasificación en vertebrados e invertebrados?",
+          "opciones": [
+            "En si tienen o no columna vertebral",
+            "En lo que comen",
+            "En cómo nacen",
+            "En si viven en el agua"
+          ],
+          "correcta": 0,
+          "explicacion": "Se clasifican según la presencia o ausencia de columna vertebral."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál de estos animales es vertebrado?",
+          "opciones": [
+            "El sapo",
+            "La lombriz de tierra",
+            "El mejillón",
+            "La medusa"
+          ],
+          "correcta": 0,
+          "explicacion": "El sapo tiene columna vertebral: es un anfibio."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo es el esqueleto de los vertebrados?",
+          "opciones": [
+            "Interno",
+            "Externo, como un caparazón",
+            "No tienen esqueleto",
+            "Una concha"
+          ],
+          "correcta": 0,
+          "explicacion": "Los vertebrados tienen esqueleto interno."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué forma parte del esqueleto de un vertebrado?",
+          "opciones": [
+            "El cráneo y la columna vertebral",
+            "La concha",
+            "El caparazón",
+            "Los tentáculos"
+          ],
+          "correcta": 0,
+          "explicacion": "Cráneo, columna vertebral y otros huesos forman su esqueleto interno."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿En qué parte del cuerpo de un vertebrado están el cerebro y los órganos de los sentidos?",
+          "opciones": [
+            "En la cabeza",
+            "En el tronco",
+            "En las extremidades",
+            "En la cola"
+          ],
+          "correcta": 0,
+          "explicacion": "La cabeza contiene el cerebro y los órganos de los sentidos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué parte del cuerpo contiene la mayoría de los órganos?",
+          "opciones": [
+            "El tronco",
+            "La cabeza",
+            "La cola",
+            "Las patas"
+          ],
+          "correcta": 0,
+          "explicacion": "El tronco contiene la mayoría de los órganos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál de estos NO es un grupo de vertebrados?",
+          "opciones": [
+            "Moluscos",
+            "Peces",
+            "Aves",
+            "Reptiles"
+          ],
+          "correcta": 0,
+          "explicacion": "Los moluscos son invertebrados."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "El frailecillo (puffin) del libro pertenece al grupo de las…",
+          "opciones": [
+            "aves",
+            "reptiles",
+            "peces",
+            "anfibios"
+          ],
+          "correcta": 0,
+          "explicacion": "El frailecillo es un ave."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál es el grupo de animales más numeroso de la Tierra?",
+          "opciones": [
+            "Los invertebrados",
+            "Los mamíferos",
+            "Las aves",
+            "Los peces"
+          ],
+          "correcta": 0,
+          "explicacion": "Los invertebrados son el grupo más numeroso."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "El cangrejo protege su cuerpo con un…",
+          "opciones": [
+            "caparazón",
+            "esqueleto interno",
+            "pelo",
+            "concha de caracol"
+          ],
+          "correcta": 0,
+          "explicacion": "El cangrejo tiene un caparazón (esqueleto externo)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué invertebrado tiene el cuerpo desnudo y blando?",
+          "opciones": [
+            "La lombriz de tierra",
+            "El cangrejo",
+            "El mejillón",
+            "El escarabajo"
+          ],
+          "correcta": 0,
+          "explicacion": "La lombriz de tierra no tiene esqueleto: su cuerpo es blando."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿En qué regiones se divide el cuerpo de la mayoría de los invertebrados, como la mariquita?",
+          "opciones": [
+            "Cabeza, tórax y abdomen",
+            "Cabeza, tronco y cola",
+            "Raíz, tallo y hojas",
+            "Cabeza y extremidades"
+          ],
+          "correcta": 0,
+          "explicacion": "Muchos invertebrados tienen cabeza, tórax y abdomen."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué hacen los insectos para poder crecer?",
+          "opciones": [
+            "Mudas: cambian su esqueleto externo",
+            "Les crecen huesos nuevos",
+            "Pierden la cabeza",
+            "Se quitan las patas"
+          ],
+          "correcta": 0,
+          "explicacion": "Su esqueleto externo es rígido, así que lo cambian con las mudas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "El caracol pertenece al grupo de los…",
+          "opciones": [
+            "moluscos",
+            "artrópodos",
+            "cnidarios",
+            "anélidos"
+          ],
+          "correcta": 0,
+          "explicacion": "En el libro, el caracol aparece en los moluscos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "La medusa pertenece al grupo de los…",
+          "opciones": [
+            "cnidarios",
+            "poríferos",
+            "equinodermos",
+            "mamíferos"
+          ],
+          "correcta": 0,
+          "explicacion": "La medusa es un cnidario."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Todos los vertebrados tienen cola.",
+          "correcta": false,
+          "explicacion": "La cola ayuda a la locomoción, pero en algunos vertebrados no existe."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Las estrellas de mar son equinodermos.",
+          "correcta": true,
+          "explicacion": "Los equinodermos incluyen las estrellas de mar."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Los invertebrados tienen columna vertebral.",
+          "correcta": false,
+          "explicacion": "Los invertebrados no poseen columna vertebral."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Nombra DOS grupos de vertebrados.",
+          "pista": "Hay cinco grupos.",
+          "claves": [
+            "pez",
+            "pece",
+            "anfibio",
+            "reptil",
+            "ave",
+            "mamifero"
+          ],
+          "minimo": 2,
+          "modelo": "Por ejemplo, peces y mamíferos (también anfibios, reptiles y aves).",
+          "explicacion": "Los cinco grupos son peces, anfibios, reptiles, aves y mamíferos."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "¿En qué tres partes se divide el cuerpo de un vertebrado?",
+          "claves": [
+            "cabeza",
+            "tronco",
+            "extremidad"
+          ],
+          "minimo": 3,
+          "modelo": "Cabeza, tronco y extremidades.",
+          "explicacion": "En el cuerpo de los vertebrados se diferencian la cabeza, el tronco y las extremidades."
+        }
+      ]
+    },
+    {
+      "id": "reino-plantas",
+      "titulo": "El reino plantas",
+      "resumen": [
+        "La mayoría de las **plantas** tiene **hojas, tallo y raíz** y realiza las funciones de **nutrición, relación y reproducción**.",
+        "- Son **pluricelulares** y suelen ser **verdes** por la **clorofila**.",
+        "- Fabrican su alimento por **fotosíntesis** y **no pueden desplazarse**, aunque sí hacen algunos movimientos (curvarse, abrir y cerrar sus flores).",
+        "",
+        "## El cuerpo de las plantas",
+        "- **Hojas**: nacen del tallo o de las ramas; tienen **limbo** (la parte ancha) y **peciolo** (lo une al tallo). Aquí la planta **elabora su alimento**.",
+        "- **Tallo**: crece por encima del suelo; tiene **vasos conductores**; **sostiene** la planta y **transporta** sustancias.",
+        "- **Raíz**: crece bajo tierra; **sujeta** la planta y **absorbe** agua y sustancias con los **pelos absorbentes**.",
+        "",
+        "## Clasificación",
+        "- **Sin flores**: no tienen flores ni semillas; se reproducen por **esporas**. **Musgos** (sin vasos conductores) y **helechos** (con vasos conductores).",
+        "- **Con flores**: hojas, tallo y raíz desarrollados; se reproducen por **semillas**. **Gimnospermas** (flores sencillas, semillas sin fruto) y **angiospermas** (flores vistosas, semillas dentro de un fruto)."
+      ],
+      "notas": [
+        {
+          "seccion": "¿Cómo son las plantas?",
+          "tarjetas": [
+            {
+              "etiqueta": "🧬 Pluricelulares",
+              "titulo": "Muchas células",
+              "puntos": [
+                "Formadas por **muchas células**",
+                "Son **verdes** por la **clorofila**, un pigmento verde"
+              ]
+            },
+            {
+              "etiqueta": "☀️ Fotosíntesis",
+              "titulo": "Su propio alimento",
+              "puntos": [
+                "**Fabrican** su alimento",
+                "**No se desplazan**, pero se curvan o abren y cierran sus flores"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "El cuerpo de las plantas",
+          "tarjetas": [
+            {
+              "etiqueta": "🍃 Hojas",
+              "titulo": "La fábrica de alimento",
+              "puntos": [
+                "Nacen del **tallo** o de las **ramas**",
+                "**Limbo**: la parte más ancha",
+                "**Peciolo**: une la hoja al tallo",
+                "Aquí la planta **elabora su alimento**"
+              ]
+            },
+            {
+              "etiqueta": "🌿 Tallo",
+              "titulo": "Sostiene y transporta",
+              "puntos": [
+                "Crece **por encima del suelo**",
+                "Dentro tiene **vasos conductores**",
+                "Lleva sustancias de la raíz a las hojas **y al revés**"
+              ]
+            },
+            {
+              "etiqueta": "🌱 Raíz",
+              "titulo": "Sujeta y absorbe",
+              "puntos": [
+                "Crece **bajo tierra**",
+                "**Sujeta** la planta al terreno",
+                "**Absorbe** agua y sustancias con los **pelos absorbentes**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Clasificación de las plantas",
+          "tarjetas": [
+            {
+              "etiqueta": "🍀 Sin flores",
+              "titulo": "Esporas",
+              "puntos": [
+                "**Sin flores ni semillas**",
+                "Se reproducen por **esporas**",
+                "Dos grupos: **musgos** y **helechos**"
+              ]
+            },
+            {
+              "etiqueta": "🟩 Musgos",
+              "titulo": "Sin vasos conductores",
+              "puntos": [
+                "Toman las sustancias **por todo su cuerpo**"
+              ]
+            },
+            {
+              "etiqueta": "🌿 Helechos",
+              "titulo": "Con vasos conductores",
+              "puntos": [
+                "Sus vasos **transportan** las sustancias"
+              ]
+            },
+            {
+              "etiqueta": "🌸 Con flores",
+              "titulo": "Semillas",
+              "puntos": [
+                "Flores **vistosas** o **pequeñas**; en ellas están los **órganos reproductores**",
+                "Hojas, tallo y raíz **desarrollados**",
+                "Se reproducen por **semillas**"
+              ]
+            },
+            {
+              "etiqueta": "🌲 Gimnospermas",
+              "titulo": "Semilla sin fruto",
+              "puntos": [
+                "Flores **sencillas**",
+                "Semillas **no protegidas** por un fruto"
+              ]
+            },
+            {
+              "etiqueta": "🌺 Angiospermas",
+              "titulo": "Semilla con fruto",
+              "puntos": [
+                "Flores **vistosas**",
+                "Semillas **protegidas por un fruto** (ej.: amapola, cereza)"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "¿Por qué las plantas son verdes?",
+          "r": "Por la clorofila, un pigmento verde."
+        },
+        {
+          "p": "¿Cómo consiguen su alimento las plantas?",
+          "r": "Lo fabrican por fotosíntesis."
+        },
+        {
+          "p": "Tres partes de muchas plantas",
+          "r": "Hojas, tallo y raíz."
+        },
+        {
+          "p": "Limbo",
+          "r": "La parte más ancha de la hoja."
+        },
+        {
+          "p": "Peciolo",
+          "r": "La parte que une la hoja al tallo."
+        },
+        {
+          "p": "Funciones del tallo",
+          "r": "Sostener la planta y transportar sustancias."
+        },
+        {
+          "p": "Funciones de la raíz",
+          "r": "Sujetar la planta y absorber agua y sustancias."
+        },
+        {
+          "p": "Pelos absorbentes",
+          "r": "Están en la raíz y absorben agua del suelo."
+        },
+        {
+          "p": "Plantas sin flores",
+          "r": "Musgos y helechos; se reproducen por esporas."
+        },
+        {
+          "p": "Gimnospermas",
+          "r": "Flores sencillas; semillas sin fruto."
+        },
+        {
+          "p": "Angiospermas",
+          "r": "Flores vistosas; semillas protegidas por un fruto."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué pigmento da el color verde a las plantas?",
+          "opciones": [
+            "La clorofila",
+            "La savia",
+            "El polen",
+            "El oxígeno"
+          ],
+          "correcta": 0,
+          "explicacion": "La clorofila es un pigmento verde."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo obtienen su alimento las plantas?",
+          "opciones": [
+            "Lo fabrican por fotosíntesis",
+            "Comen insectos siempre",
+            "Se lo comen a otros animales",
+            "No necesitan alimento"
+          ],
+          "correcta": 0,
+          "explicacion": "Las plantas fabrican su propio alimento por fotosíntesis."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué movimiento SÍ pueden hacer las plantas?",
+          "opciones": [
+            "Abrir y cerrar sus flores",
+            "Andar",
+            "Nadar",
+            "Volar"
+          ],
+          "correcta": 0,
+          "explicacion": "No se desplazan, pero pueden curvarse o abrir y cerrar sus flores."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué parte de la hoja es la más ancha?",
+          "opciones": [
+            "El limbo",
+            "El peciolo",
+            "La raíz",
+            "El tallo"
+          ],
+          "correcta": 0,
+          "explicacion": "El limbo es la parte más ancha de la hoja."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué une la hoja al tallo?",
+          "opciones": [
+            "El peciolo",
+            "El limbo",
+            "Los pelos absorbentes",
+            "La flor"
+          ],
+          "correcta": 0,
+          "explicacion": "El peciolo une la hoja al tallo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿En qué parte elaboran las plantas su alimento?",
+          "opciones": [
+            "En las hojas",
+            "En la raíz",
+            "En las flores",
+            "En las semillas"
+          ],
+          "correcta": 0,
+          "explicacion": "Las plantas elaboran su alimento en las hojas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué parte de la planta la sujeta al terreno?",
+          "opciones": [
+            "La raíz",
+            "Las hojas",
+            "Las flores",
+            "El limbo"
+          ],
+          "correcta": 0,
+          "explicacion": "La raíz sujeta la planta al suelo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Con qué absorbe la raíz el agua del suelo?",
+          "opciones": [
+            "Con los pelos absorbentes",
+            "Con el peciolo",
+            "Con los pétalos",
+            "Con el limbo"
+          ],
+          "correcta": 0,
+          "explicacion": "Los pelos absorbentes de la raíz absorben el agua y otras sustancias."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué hay dentro del tallo para transportar sustancias?",
+          "opciones": [
+            "Vasos conductores",
+            "Semillas",
+            "Esporas",
+            "Pelos absorbentes"
+          ],
+          "correcta": 0,
+          "explicacion": "Los vasos conductores llevan sustancias por la planta."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo se reproducen las plantas sin flores?",
+          "opciones": [
+            "Por esporas",
+            "Por semillas",
+            "Por frutos",
+            "Por huevos"
+          ],
+          "correcta": 0,
+          "explicacion": "Las plantas sin flores se reproducen por esporas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué plantas NO tienen vasos conductores?",
+          "opciones": [
+            "Los musgos",
+            "Los helechos",
+            "Las angiospermas",
+            "Las gimnospermas"
+          ],
+          "correcta": 0,
+          "explicacion": "Los musgos toman las sustancias por todo su cuerpo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué plantas tienen flores vistosas y semillas protegidas por un fruto?",
+          "opciones": [
+            "Las angiospermas",
+            "Las gimnospermas",
+            "Los musgos",
+            "Los helechos"
+          ],
+          "correcta": 0,
+          "explicacion": "Las angiospermas, como la amapola, tienen semillas dentro de un fruto."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Las gimnospermas tienen…",
+          "opciones": [
+            "flores sencillas y semillas sin fruto",
+            "flores vistosas y frutos",
+            "esporas y ninguna flor",
+            "solo raíz"
+          ],
+          "correcta": 0,
+          "explicacion": "Sus semillas no están protegidas por ningún fruto."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Las plantas pueden desplazarse de un sitio a otro.",
+          "correcta": false,
+          "explicacion": "Las plantas no pueden desplazarse."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "El tallo transporta sustancias de la raíz a las hojas y también en sentido contrario.",
+          "correcta": true,
+          "explicacion": "Lo hace a través de los vasos conductores."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Los helechos tienen vasos conductores.",
+          "correcta": true,
+          "explicacion": "A diferencia de los musgos, los helechos sí tienen vasos conductores."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Todas las plantas con flores se reproducen por esporas.",
+          "correcta": false,
+          "explicacion": "Las plantas con flores se reproducen por semillas."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Nombra las TRES partes que se distinguen en muchas plantas.",
+          "claves": [
+            "hoja",
+            "tallo",
+            "raiz"
+          ],
+          "minimo": 3,
+          "modelo": "Hojas, tallo y raíz.",
+          "explicacion": "En muchas plantas se distinguen hojas, tallo y raíz."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Nombra los DOS grupos de plantas sin flores.",
+          "claves": [
+            "musgo",
+            "helecho"
+          ],
+          "minimo": 2,
+          "modelo": "Los musgos y los helechos.",
+          "explicacion": "Las plantas sin flores se dividen en musgos y helechos."
+        }
+      ]
+    },
+    {
+      "id": "vida-plantas",
+      "titulo": "La vida de las plantas",
+      "resumen": [
+        "Las plantas se **nutren** (fotosíntesis), se **relacionan** (movimientos ante estímulos) y se **reproducen**.",
+        "",
+        "## Las plantas se nutren: la fotosíntesis",
+        "1. Las **raíces** absorben **agua y sales minerales** → **savia bruta**.",
+        "2. La savia bruta **sube** a las hojas por los **vasos leñosos**.",
+        "3. En las hojas, con **dióxido de carbono** del aire y **luz del sol**, la savia bruta se transforma en **savia elaborada** (el **alimento**).",
+        "4. La savia elaborada se reparte por la planta por los **vasos liberianos**.",
+        "- Las plantas también **respiran**: toman **oxígeno** y expulsan **dióxido de carbono**. Con la fotosíntesis **producen oxígeno**.",
+        "",
+        "## Las plantas se relacionan",
+        "- No se desplazan, pero responden a **estímulos** con **movimientos** o creciendo: los tallos crecen hacia la **luz**; algunas flores se abren o cierran con la luz; las **plantas carnívoras** cierran sus hojas ante un insecto.",
+        "",
+        "## Las plantas se reproducen",
+        "- **Asexual**: una sola planta da otra **idéntica** (la **fresa**).",
+        "- **Sexual**: intervienen dos plantas, por medio de las **flores**.",
+        "- Partes de la flor: **pétalos**, **sépalos**, **estambres** (parte masculina, **granos de polen**) y **pistilo** (parte femenina, **óvulos**).",
+        "- Pasos: 1 **polinización** (viento o animales llevan el polen) → 2 el polen se une al óvulo y se forma el **fruto** con **semillas** → 3 las semillas caen, **germinan** con la humedad y nace una nueva planta."
+      ],
+      "notas": [
+        {
+          "seccion": "Las plantas se nutren",
+          "tarjetas": [
+            {
+              "etiqueta": "1️⃣ Raíces",
+              "titulo": "Savia bruta",
+              "puntos": [
+                "Absorben **agua y sales minerales**",
+                "Esa mezcla es la **savia bruta**"
+              ]
+            },
+            {
+              "etiqueta": "2️⃣ Sube",
+              "titulo": "Vasos leñosos",
+              "puntos": [
+                "La savia bruta **sube** a las hojas",
+                "Por los **vasos leñosos** del tallo"
+              ]
+            },
+            {
+              "etiqueta": "3️⃣ Hojas",
+              "titulo": "Savia elaborada",
+              "puntos": [
+                "Toman **dióxido de carbono** del aire y **luz del sol**",
+                "Transforman la savia bruta en **savia elaborada** = el **alimento**"
+              ]
+            },
+            {
+              "etiqueta": "4️⃣ Reparte",
+              "titulo": "Vasos liberianos",
+              "puntos": [
+                "La savia elaborada va **a toda la planta**",
+                "Por los **vasos liberianos**"
+              ]
+            },
+            {
+              "etiqueta": "🌬️ Respiran",
+              "titulo": "También respiran",
+              "puntos": [
+                "Toman **oxígeno** y expulsan **dióxido de carbono**",
+                "Con la fotosíntesis **producen oxígeno** para todos los seres vivos"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Orden de la fotosíntesis",
+            "items": [
+              "Agua + sales minerales",
+              "Savia bruta",
+              "Vasos leñosos ⬆️",
+              "Hojas: CO₂ + luz",
+              "Savia elaborada",
+              "Vasos liberianos ⬇️"
+            ]
+          }
+        },
+        {
+          "seccion": "Las plantas se relacionan",
+          "tarjetas": [
+            {
+              "etiqueta": "🌼 Hacia la luz",
+              "titulo": "Tallos",
+              "puntos": [
+                "Crecen **hacia arriba** buscando la **luz del sol**"
+              ]
+            },
+            {
+              "etiqueta": "🌺 Flores",
+              "titulo": "Abren y cierran",
+              "puntos": [
+                "Algunas se **abren o cierran** con la **luz**"
+              ]
+            },
+            {
+              "etiqueta": "🪤 Carnívoras",
+              "titulo": "Atrapan insectos",
+              "puntos": [
+                "**Cierran sus hojas** ante un insecto"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Las plantas se reproducen",
+          "tarjetas": [
+            {
+              "etiqueta": "🍓 Asexual",
+              "titulo": "Una sola planta",
+              "puntos": [
+                "Da otra planta **idéntica**",
+                "Ej.: la **fresa**"
+              ]
+            },
+            {
+              "etiqueta": "🌸 Sexual",
+              "titulo": "Dos plantas",
+              "puntos": [
+                "Por medio de las **flores**"
+              ]
+            },
+            {
+              "etiqueta": "♂️ Estambres",
+              "titulo": "Parte masculina",
+              "puntos": [
+                "Producen y guardan los **granos de polen**"
+              ]
+            },
+            {
+              "etiqueta": "♀️ Pistilo",
+              "titulo": "Parte femenina",
+              "puntos": [
+                "Dentro se forman los **óvulos**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Pasos de la reproducción sexual",
+            "items": [
+              "1 Polinización (viento o animales)",
+              "2 Polen + óvulo → fruto con semillas",
+              "3 Las semillas germinan → nueva planta"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Fotosíntesis",
+          "r": "Proceso con el que las plantas fabrican su alimento."
+        },
+        {
+          "p": "Savia bruta",
+          "r": "Agua + sales minerales que absorben las raíces."
+        },
+        {
+          "p": "Savia elaborada",
+          "r": "El alimento de la planta, que se forma en las hojas."
+        },
+        {
+          "p": "Vasos leñosos",
+          "r": "Llevan la savia bruta de la raíz a las hojas."
+        },
+        {
+          "p": "Vasos liberianos",
+          "r": "Reparten la savia elaborada por toda la planta."
+        },
+        {
+          "p": "¿Qué toman las hojas para hacer la fotosíntesis?",
+          "r": "Dióxido de carbono del aire y luz del sol."
+        },
+        {
+          "p": "Respiración de las plantas",
+          "r": "Toman oxígeno y expulsan dióxido de carbono."
+        },
+        {
+          "p": "Polinización",
+          "r": "El viento o los animales llevan el polen de una flor a otra."
+        },
+        {
+          "p": "Estambres",
+          "r": "Parte masculina de la flor; tienen los granos de polen."
+        },
+        {
+          "p": "Pistilo",
+          "r": "Parte femenina de la flor; dentro están los óvulos."
+        },
+        {
+          "p": "Germinar",
+          "r": "La semilla, con humedad, da lugar a una nueva planta."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué absorben las raíces del suelo?",
+          "opciones": [
+            "Agua y sales minerales",
+            "Oxígeno y luz",
+            "Savia elaborada",
+            "Polen"
+          ],
+          "correcta": 0,
+          "explicacion": "Las raíces absorben agua y sales minerales."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo se llama la mezcla de agua y sales minerales?",
+          "opciones": [
+            "Savia bruta",
+            "Savia elaborada",
+            "Clorofila",
+            "Néctar"
+          ],
+          "correcta": 0,
+          "explicacion": "El agua y las sales minerales forman la savia bruta."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por dónde sube la savia bruta hasta las hojas?",
+          "opciones": [
+            "Por los vasos leñosos",
+            "Por los vasos liberianos",
+            "Por los pétalos",
+            "Por los pelos absorbentes"
+          ],
+          "correcta": 0,
+          "explicacion": "La savia bruta sube por los vasos leñosos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué toman las hojas del aire para hacer la fotosíntesis?",
+          "opciones": [
+            "Dióxido de carbono",
+            "Oxígeno",
+            "Polen",
+            "Sales minerales"
+          ],
+          "correcta": 0,
+          "explicacion": "En las hojas toman dióxido de carbono del aire."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿De dónde sacan la energía las plantas para la fotosíntesis?",
+          "opciones": [
+            "De la luz del sol",
+            "Del suelo",
+            "De la lluvia",
+            "De los insectos"
+          ],
+          "correcta": 0,
+          "explicacion": "Usan la energía de la luz del sol."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es la savia elaborada?",
+          "opciones": [
+            "El alimento de la planta",
+            "Agua con sales",
+            "Un tipo de raíz",
+            "Un gas"
+          ],
+          "correcta": 0,
+          "explicacion": "La savia elaborada es el alimento de la planta."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por dónde se reparte la savia elaborada?",
+          "opciones": [
+            "Por los vasos liberianos",
+            "Por los vasos leñosos",
+            "Por las raíces solo",
+            "Por los estambres"
+          ],
+          "correcta": 0,
+          "explicacion": "La savia elaborada se reparte por los vasos liberianos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Cuando las plantas respiran…",
+          "opciones": [
+            "toman oxígeno y expulsan dióxido de carbono",
+            "toman dióxido de carbono y expulsan agua",
+            "toman polen",
+            "no hacen nada"
+          ],
+          "correcta": 0,
+          "explicacion": "En la respiración toman oxígeno y expulsan dióxido de carbono."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué gas producen las plantas al hacer la fotosíntesis?",
+          "opciones": [
+            "Oxígeno",
+            "Dióxido de carbono",
+            "Humo",
+            "Ninguno"
+          ],
+          "correcta": 0,
+          "explicacion": "La fotosíntesis produce oxígeno, necesario para respirar."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Hacia dónde crecen los tallos?",
+          "opciones": [
+            "Hacia arriba, buscando la luz",
+            "Hacia abajo, buscando agua",
+            "Hacia los lados",
+            "No crecen"
+          ],
+          "correcta": 0,
+          "explicacion": "Los tallos crecen hacia arriba en busca de la luz del sol."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué hacen algunas plantas carnívoras ante un insecto?",
+          "opciones": [
+            "Cierran sus hojas",
+            "Se van andando",
+            "Pierden las flores",
+            "Echan raíces"
+          ],
+          "correcta": 0,
+          "explicacion": "Las plantas carnívoras cierran sus hojas ante un insecto."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué planta del libro se reproduce de forma asexual?",
+          "opciones": [
+            "La fresa",
+            "La amapola",
+            "El granado",
+            "El cerezo"
+          ],
+          "correcta": 0,
+          "explicacion": "La fresa da lugar a otra planta idéntica."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál es la parte masculina de la flor?",
+          "opciones": [
+            "Los estambres",
+            "El pistilo",
+            "Los sépalos",
+            "Los óvulos"
+          ],
+          "correcta": 0,
+          "explicacion": "Dentro de los estambres se producen los granos de polen."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué se forma dentro del pistilo?",
+          "opciones": [
+            "Los óvulos",
+            "Los granos de polen",
+            "Las raíces",
+            "Las esporas"
+          ],
+          "correcta": 0,
+          "explicacion": "El pistilo es la parte femenina; dentro se forman los óvulos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo se llama el transporte del polen de una flor a otra?",
+          "opciones": [
+            "Polinización",
+            "Germinación",
+            "Fotosíntesis",
+            "Respiración"
+          ],
+          "correcta": 0,
+          "explicacion": "El viento o los animales llevan el polen: es la polinización."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Cuando el grano de polen se une al óvulo se forma…",
+          "opciones": [
+            "el fruto con semillas",
+            "una raíz",
+            "una hoja",
+            "la savia bruta"
+          ],
+          "correcta": 0,
+          "explicacion": "Se forma el fruto, que contiene las semillas."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Las semillas germinan con la humedad y dan lugar a una nueva planta.",
+          "correcta": true,
+          "explicacion": "Al caer al suelo y con humedad, las semillas germinan."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "En la reproducción asexual de las plantas intervienen dos plantas.",
+          "correcta": false,
+          "explicacion": "En la asexual una sola planta da lugar a otra idéntica."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Ordena los pasos de la reproducción sexual de las plantas: ¿cuál es el PRIMERO y cómo se llama?",
+          "pista": "El viento o las abejas llevan algo de una flor a otra.",
+          "claves": [
+            "poliniza"
+          ],
+          "modelo": "El primero es la polinización: el viento o los animales llevan el polen de una flor a otra.",
+          "explicacion": "Primero polinización, después se forma el fruto y por último las semillas germinan."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "¿Qué dos cosas toman las hojas para transformar la savia bruta en savia elaborada?",
+          "pista": "Una viene del aire y otra del cielo.",
+          "claves": [
+            "carbono",
+            "co2",
+            "luz"
+          ],
+          "minimo": 2,
+          "modelo": "Dióxido de carbono del aire y energía de la luz del sol.",
+          "explicacion": "En las hojas usan dióxido de carbono y la luz del sol."
+        }
+      ]
+    }
+  ]
 }

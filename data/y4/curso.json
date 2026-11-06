@@ -62,6 +62,18 @@
       ]
     },
     {
+      "id": "conocimiento-medio-animales-plantas",
+      "asignatura": "conocimiento-medio",
+      "titulo": "Examen de Conocimiento del Medio · El reino animales y el reino plantas",
+      "fecha": "2026-11-10",
+      "temas": [
+        "reino-animales",
+        "vertebrados-invertebrados",
+        "reino-plantas",
+        "vida-plantas"
+      ]
+    },
+    {
       "id": "history-unit-1",
       "asignatura": "history",
       "titulo": "History test · Unit 1 Ancient Egypt",
