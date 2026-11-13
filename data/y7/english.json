@@ -7622,6 +7622,390 @@
           "explicacion": "Excruciating means causing intense suffering, so agonising or unbearable are good synonyms."
         }
       ]
+    },
+    {
+      "id": "ellipses-hyphens-verbs",
+      "titulo": "Ellipses, hyphens and verbs for suspense (Book Unit 1)",
+      "resumen": [
+        "## Ellipsis (…)",
+        "An **ellipsis** is a series of **three dots** used to show an **omission** (something left out) from written text.",
+        "It can be used to **create suspense**: the reader has to wait… and wonder.",
+        "- *I stood at the doorway… I don't remember entering… the hallway smelt of something strange.*",
+        "",
+        "## Hyphens (-)",
+        "- **Hyphens** join two or more words to show they have a **combined meaning**.",
+        "- They create **compound nouns, adjectives or verbs**: *fire-fighter, part-time, test-drive*. These words are **always** hyphenated.",
+        "- Other words are hyphenated only to show they are **linked in the sentence** and to **avoid ambiguity**: *My grandmother owns a little-used car.*",
+        "",
+        "## Verbs",
+        "- **Every sentence contains at least one verb.**",
+        "- Verbs describe a **state**, an **action** or a **feeling**. They are sometimes called **'doing' words**.",
+        "- To build **suspense**, a writer describes *exactly* how a character feels or moves, using a variety of verbs.",
+        "- *Her calf muscles were starting to ache and **tremble**.* – **tremble** shows how much she is suffering and suggests fear of falling."
+      ],
+      "notas": [
+        {
+          "seccion": "Ellipsis …",
+          "tarjetas": [
+            {
+              "etiqueta": "⋯ Three dots",
+              "titulo": "Something is left out",
+              "puntos": [
+                "A series of **three dots**",
+                "Shows an **omission** from the text",
+                "Not two, not four: **three**"
+              ]
+            },
+            {
+              "etiqueta": "😱 Suspense",
+              "titulo": "Makes the reader wait",
+              "puntos": [
+                "I stood at the doorway**…** I don't remember entering**…**",
+                "Creates a pause and a sense of mystery",
+                "Don't overuse it: a few in a paragraph"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Hyphens -",
+          "tarjetas": [
+            {
+              "etiqueta": "🔗 Join",
+              "titulo": "Combined meaning",
+              "puntos": [
+                "Joins two or more words into one idea",
+                "Makes compound **nouns, adjectives or verbs**"
+              ]
+            },
+            {
+              "etiqueta": "📌 Always",
+              "titulo": "Fixed compounds",
+              "puntos": [
+                "**fire-fighter** (noun)",
+                "**part-time** (adjective)",
+                "**test-drive** (verb)"
+              ]
+            },
+            {
+              "etiqueta": "🧭 Clear meaning",
+              "titulo": "To avoid ambiguity",
+              "puntos": [
+                "a **little-used** car = a car that has not been used much",
+                "a **little used car** = a small second-hand car",
+                "**re-sign** a contract ≠ **resign** from a job"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Hyphenated words from the book",
+            "items": [
+              "cliff-hanger",
+              "half-hearted",
+              "murder-suspense",
+              "fast-paced",
+              "open-handed",
+              "fifty-fifty",
+              "short-sighted",
+              "long-term",
+              "long-range",
+              "sub-plot",
+              "re-edit"
+            ]
+          }
+        },
+        {
+          "seccion": "Verbs",
+          "tarjetas": [
+            {
+              "etiqueta": "🏃 Doing words",
+              "titulo": "In every sentence",
+              "puntos": [
+                "Every sentence has **at least one verb**",
+                "A **state** (is, seems), an **action** (run), a **feeling** (fear)"
+              ]
+            },
+            {
+              "etiqueta": "🧗 Suspense",
+              "titulo": "Choose exact verbs",
+              "puntos": [
+                "Her calf muscles started to ache and **tremble**",
+                "**tremble** shows suffering and fear of falling",
+                "Describe *exactly* how a character feels or moves"
+              ]
+            },
+            {
+              "etiqueta": "⬆️ Upgrade",
+              "titulo": "Weak → strong",
+              "puntos": [
+                "was worried → **dreaded**, **feared**",
+                "said → **screamed**, **yelled**, **bellowed**",
+                "walked → **crept**, **staggered**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Ellipsis",
+          "r": "Three dots (…) that show something has been left out; used to create suspense."
+        },
+        {
+          "p": "How many dots in an ellipsis?",
+          "r": "Three."
+        },
+        {
+          "p": "Hyphen",
+          "r": "A short line (-) that joins two or more words to show a combined meaning."
+        },
+        {
+          "p": "Three words that are always hyphenated",
+          "r": "fire-fighter, part-time, test-drive"
+        },
+        {
+          "p": "Why is there a hyphen in 'a little-used car'?",
+          "r": "To show the words are linked and avoid ambiguity: the car has not been used much."
+        },
+        {
+          "p": "Verb",
+          "r": "A 'doing' word that describes a state, an action or a feeling."
+        },
+        {
+          "p": "How many verbs must a sentence have?",
+          "r": "At least one."
+        },
+        {
+          "p": "'Her calf muscles were starting to ache and tremble.' Why 'tremble'?",
+          "r": "It shows how much she is suffering and suggests fear of falling, which builds suspense."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is an ellipsis?",
+          "opciones": [
+            "A short line that joins two words",
+            "A mark that shows possession",
+            "A comma in a list",
+            "A series of three dots that shows something has been left out"
+          ],
+          "correcta": 3,
+          "explicacion": "An ellipsis is three dots used to show an omission."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How can an ellipsis help a writer?",
+          "opciones": [
+            "It joins two words together",
+            "It ends a question",
+            "It creates suspense by making the reader pause and wonder",
+            "It shows who owns something"
+          ],
+          "correcta": 2,
+          "explicacion": "The pause and the missing words build suspense."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which sentence uses an ellipsis correctly?",
+          "opciones": [
+            "I opened the door…. and something moved.",
+            "I opened the door - and something moved.",
+            "I opened the door… and something moved in the dark.",
+            "I opened the door.. and something moved."
+          ],
+          "correcta": 2,
+          "explicacion": "An ellipsis is exactly three dots."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What do hyphens do?",
+          "opciones": [
+            "Join two or more words to show a combined meaning",
+            "Show where letters are missing",
+            "Show that something is left out",
+            "Separate items in a list"
+          ],
+          "correcta": 0,
+          "explicacion": "Hyphens join words such as fire-fighter into one idea."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word is ALWAYS hyphenated?",
+          "opciones": [
+            "sun-shine",
+            "fire-fighter",
+            "sugar-cane",
+            "foot-ball"
+          ],
+          "correcta": 1,
+          "explicacion": "The book gives fire-fighter, part-time and test-drive as words that are always hyphenated."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Test-drive' is an example of a hyphenated…",
+          "opciones": [
+            "adjective",
+            "adverb",
+            "verb",
+            "noun"
+          ],
+          "correcta": 2,
+          "explicacion": "You test-drive a car: it is an action, so it is a compound verb."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Part-time' in 'a part-time job' is a hyphenated…",
+          "opciones": [
+            "noun",
+            "conjunction",
+            "adjective",
+            "verb"
+          ],
+          "correcta": 2,
+          "explicacion": "Part-time describes the noun job, so it is a compound adjective."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'My grandmother owns a little-used car.' What does this mean?",
+          "opciones": [
+            "Grandmother hardly uses her legs",
+            "The car is brand new and tiny",
+            "The car has not been used much",
+            "The car is small and second-hand"
+          ],
+          "correcta": 2,
+          "explicacion": "The hyphen links little and used: the car has been used very little."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why are some words hyphenated only in certain sentences?",
+          "opciones": [
+            "Because they are always hyphenated",
+            "To show possession",
+            "To make the sentence longer",
+            "To show they are linked in the grammar and avoid ambiguity"
+          ],
+          "correcta": 3,
+          "explicacion": "The book says the hyphen helps to avoid ambiguity."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word from the Word cloud is hyphenated?",
+          "opciones": [
+            "cliff-hanger",
+            "whodunit",
+            "sugar cane",
+            "climax"
+          ],
+          "correcta": 0,
+          "explicacion": "Cliff-hanger is hyphenated; whodunit and sugar cane are not."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a verb?",
+          "opciones": [
+            "A word that describes a noun",
+            "A word that joins two clauses",
+            "A name of a person or place",
+            "A word that describes a state, an action or a feeling"
+          ],
+          "correcta": 3,
+          "explicacion": "Verbs are sometimes called 'doing' words."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the verb: 'Her calf muscles were starting to ache and tremble.' Which verb shows her fear of falling?",
+          "opciones": [
+            "her",
+            "tremble",
+            "calf",
+            "muscles"
+          ],
+          "correcta": 1,
+          "explicacion": "Tremble suggests she is scared of losing her footing."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which verb creates more suspense than 'was worried' in 'The climber was worried the avalanche would bury him'?",
+          "opciones": [
+            "thought",
+            "said",
+            "hoped",
+            "dreaded"
+          ],
+          "correcta": 3,
+          "explicacion": "Dreaded shows strong fear, which builds suspense."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which verb creates more suspense than 'said' in '\"Run for your life!\" said the lifeguard'?",
+          "opciones": [
+            "replied",
+            "screamed",
+            "told",
+            "mentioned"
+          ],
+          "correcta": 1,
+          "explicacion": "Screamed shows panic and urgency."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Every sentence contains at least one verb.",
+          "correcta": true,
+          "explicacion": "A sentence needs a verb to make complete sense."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "An ellipsis has four dots.",
+          "correcta": false,
+          "explicacion": "An ellipsis is always three dots."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A hyphen and an ellipsis do the same job.",
+          "correcta": false,
+          "explicacion": "A hyphen joins words; an ellipsis shows something left out and builds suspense."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write a sentence about walking into a dark kitchen that uses an ellipsis.",
+          "pista": "Use three dots to make the reader wait.",
+          "claves": [
+            "…",
+            "..."
+          ],
+          "modelo": "I walked into the kitchen… the tap was dripping… and then I heard it.",
+          "explicacion": "The three dots make the reader pause and wonder what comes next."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give TWO verbs that would build more suspense than 'walked'.",
+          "claves": [
+            "crept",
+            "creep",
+            "tiptoed",
+            "tiptoe",
+            "staggered",
+            "stagger",
+            "stumbled",
+            "stumble",
+            "edged",
+            "crawled",
+            "crawl",
+            "sneaked",
+            "snuck",
+            "slunk",
+            "trembled",
+            "shuffled",
+            "fled",
+            "raced"
+          ],
+          "minimo": 2,
+          "modelo": "crept, staggered",
+          "explicacion": "Exact verbs show how the character moves and feels."
+        }
+      ]
     }
   ]
 }
