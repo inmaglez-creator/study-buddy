@@ -5519,6 +5519,48 @@
           "modelo": "I wanted to ride Formula Rossa and I rode it three times.",
           "explicacion": "Join two main clauses with a conjunction.",
           "pista": "Use and / so / but."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'I am really scared of monkeys: they move so fast and they bite.' Which part is the main clause?",
+          "opciones": [
+            "so fast and they bite",
+            "I am really scared of monkeys",
+            "they move so fast",
+            "and they bite"
+          ],
+          "correcta": 1,
+          "explicacion": "The main clause tells us the subject is afraid of monkeys and makes sense on its own."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'When it was younger, the ogre was afraid of humans.' What does the subordinate clause tell you?",
+          "opciones": [
+            "Where the ogre lives",
+            "Why the ogre was afraid",
+            "When this happened",
+            "Who the ogre is"
+          ],
+          "correcta": 2,
+          "explicacion": "'When it was younger' tells you when the ogre was afraid."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is a complex sentence?",
+          "opciones": [
+            "I stayed at home because I was sick.",
+            "I stayed at home.",
+            "I was sick and I stayed at home.",
+            "Stay at home!"
+          ],
+          "correcta": 0,
+          "explicacion": "It has a main clause and a subordinate clause starting with because."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Because I was sick, I stayed at home.' needs a comma because the subordinate clause comes first.",
+          "correcta": true,
+          "explicacion": "When the subordinate clause comes first, a comma separates it from the main clause."
         }
       ]
     },
@@ -6259,6 +6301,1325 @@
           "minimo": 4,
           "modelo": "Title and author, genre, the beginning, plot summary, characters, favourite moment.",
           "explicacion": "Use the checklist in the Notes."
+        }
+      ]
+    },
+    {
+      "id": "contractions-apostrophes",
+      "titulo": "Contractions and apostrophes (Book Unit 7, pp. 106–107)",
+      "resumen": [
+        "## Contractions",
+        "A **contraction** joins two words and leaves letters out. The **apostrophe** shows where the letters were.",
+        "- you will → **you'll** (the letters *w* and *i* are left out)",
+        "- did not → **didn't**, shall not → **shan't**",
+        "- **won't** is different: it is the contraction of *will not*.",
+        "Contractions make speech sound **informal** and more natural.",
+        "",
+        "## Apostrophes for possession",
+        "- One owner: apostrophe **before** the s → *Deepak's jokes*",
+        "- More than one owner (plural ending in s): apostrophe **after** the s → *the three astronauts' air tanks*",
+        "",
+        "## its or it's?",
+        "- **it's** = it is / it has",
+        "- **its** = belonging to it (no apostrophe)"
+      ],
+      "notas": [
+        {
+          "seccion": "Contractions",
+          "tarjetas": [
+            {
+              "etiqueta": "✂️ Shorten",
+              "titulo": "Two words → one",
+              "puntos": [
+                "Letters are **left out**",
+                "The **apostrophe** goes where the letters were",
+                "you will → **you'll**",
+                "did not → **didn't**"
+              ]
+            },
+            {
+              "etiqueta": "💬 Informal",
+              "titulo": "When we use them",
+              "puntos": [
+                "In **informal** speech and messages",
+                "They make speech sound **more natural**",
+                "Amin, Deepak and Hikari use them on social media"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Odd one",
+              "titulo": "won't",
+              "puntos": [
+                "**won't** = will not",
+                "Not *willn't* – it is too hard to say!",
+                "Also: shall not → **shan't**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Learn these",
+            "items": [
+              "I'm = I am",
+              "I've = I have",
+              "I'd = I would / I had",
+              "you're = you are",
+              "you'll = you will",
+              "we're = we are",
+              "it's = it is / it has",
+              "that's = that is",
+              "that'd = that would",
+              "can't = cannot",
+              "shouldn't = should not",
+              "wouldn't = would not",
+              "weren't = were not",
+              "won't = will not"
+            ]
+          }
+        },
+        {
+          "seccion": "Apostrophes for possession",
+          "tarjetas": [
+            {
+              "etiqueta": "👤 One owner",
+              "titulo": "Apostrophe before the s",
+              "puntos": [
+                "**Deepak's** jokes are really bad.",
+                "There is only one Deepak",
+                "**Amin's** school, **Hikari's** grandparents"
+              ]
+            },
+            {
+              "etiqueta": "👥 More owners",
+              "titulo": "Apostrophe after the s",
+              "puntos": [
+                "The three **astronauts'** air tanks",
+                "The two **dragons'** claws",
+                "The five **players'** football kits"
+              ]
+            },
+            {
+              "etiqueta": "🤔 its / it's",
+              "titulo": "Check before you write",
+              "puntos": [
+                "**it's** = it is / it has",
+                "**its** = belonging to it",
+                "The house lost **its** roof. **It's** raining."
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is a contraction?",
+          "r": "Two words joined together with letters left out, e.g. do not → don't."
+        },
+        {
+          "p": "What does the apostrophe show in a contraction?",
+          "r": "Where the letters have been left out."
+        },
+        {
+          "p": "won't",
+          "r": "will not"
+        },
+        {
+          "p": "shan't",
+          "r": "shall not"
+        },
+        {
+          "p": "I'd",
+          "r": "I would (or I had)"
+        },
+        {
+          "p": "you're",
+          "r": "you are"
+        },
+        {
+          "p": "it's",
+          "r": "it is / it has"
+        },
+        {
+          "p": "its (no apostrophe)",
+          "r": "belonging to it"
+        },
+        {
+          "p": "Possessive apostrophe – one owner",
+          "r": "Before the s: Deepak's jokes."
+        },
+        {
+          "p": "Possessive apostrophe – plural owners",
+          "r": "After the s: the three astronauts' air tanks."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the contraction of 'you will'?",
+          "opciones": [
+            "you'll",
+            "youl'l",
+            "you'ill",
+            "yo'll"
+          ],
+          "correcta": 0,
+          "explicacion": "The apostrophe replaces the missing letters w and i: you'll."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the full form of 'won't'?",
+          "opciones": [
+            "were not",
+            "will not",
+            "would not",
+            "want not"
+          ],
+          "correcta": 1,
+          "explicacion": "Won't follows a different pattern: it is the contraction of will not."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the contraction of 'shall not'?",
+          "opciones": [
+            "shan't",
+            "shalln't",
+            "sha'nt",
+            "shall't"
+          ],
+          "correcta": 0,
+          "explicacion": "Shall not becomes shan't."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'weren't' stand for?",
+          "opciones": [
+            "was not",
+            "were not",
+            "we are not",
+            "where not"
+          ],
+          "correcta": 1,
+          "explicacion": "Weren't is the contraction of were not."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'I've' stand for?",
+          "opciones": [
+            "I have",
+            "I will",
+            "I would",
+            "I am"
+          ],
+          "correcta": 0,
+          "explicacion": "I've is the contraction of I have."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which contraction means 'that would'?",
+          "opciones": [
+            "that'd",
+            "that's",
+            "that'll",
+            "thatn't"
+          ],
+          "correcta": 0,
+          "explicacion": "That'd = that would; that's = that is."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where does the apostrophe go in a contraction?",
+          "opciones": [
+            "At the end of the word",
+            "Where the letters have been left out",
+            "Always before the last letter",
+            "Always after the first word"
+          ],
+          "correcta": 1,
+          "explicacion": "The apostrophe shows where letters have been omitted."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why do people use contractions when they talk to friends?",
+          "opciones": [
+            "They make words longer",
+            "They make speech sound informal and more natural",
+            "They make writing more formal",
+            "They are only used in poems"
+          ],
+          "correcta": 1,
+          "explicacion": "The book says contractions make informal speech sound more natural."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Make it informal: 'We are going to miss the bus if you do not dress more quickly.'",
+          "opciones": [
+            "Were going to miss the bus if you don't dress more quickly.",
+            "We're going to miss the bus if you don't dress more quickly.",
+            "Wer'e going to miss the bus if you dont dress more quickly.",
+            "We're going to miss the bus if you do'nt dress more quickly."
+          ],
+          "correcta": 1,
+          "explicacion": "We are → we're and do not → don't, with the apostrophe where the letters are missing."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which sentence uses the apostrophe correctly?",
+          "opciones": [
+            "Deepak's bus would have to travel a long way to reach Amin's school.",
+            "Deepaks' bus would have to travel a long way to reach Amins' school.",
+            "Deepak's bus would have to travel a long way to reach Amins school.",
+            "Deepaks bus would have to travel a long way to reach Amin's school."
+          ],
+          "correcta": 0,
+          "explicacion": "There is one Deepak and one Amin, so the apostrophe goes before the s."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is correct? 'The two ___ claws were really sharp.'",
+          "opciones": [
+            "dragons'",
+            "dragon's",
+            "dragons",
+            "dragon'"
+          ],
+          "correcta": 0,
+          "explicacion": "There are two dragons, so the apostrophe goes after the s."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is correct? 'The five ___ football kits were all dirty.'",
+          "opciones": [
+            "players's",
+            "players",
+            "players'",
+            "player's"
+          ],
+          "correcta": 2,
+          "explicacion": "Five players own the kits, so the apostrophe goes after the s."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Choose the correct word: 'The robot lifted ___ arm.'",
+          "opciones": [
+            "its'",
+            "it is",
+            "its",
+            "it's"
+          ],
+          "correcta": 2,
+          "explicacion": "Its without an apostrophe means 'belonging to it'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Choose the correct word: '___ possible to buy a robot.'",
+          "opciones": [
+            "Its'",
+            "It",
+            "It's",
+            "Its"
+          ],
+          "correcta": 2,
+          "explicacion": "It's = it is, so it needs an apostrophe."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In 'the three astronauts' air tanks', the apostrophe goes after the s because there is more than one astronaut.",
+          "correcta": true,
+          "explicacion": "For more than one owner, the apostrophe is added after the s."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Can't' is the contraction of 'can not' and the apostrophe replaces the letters 'no'.",
+          "correcta": true,
+          "explicacion": "Cannot → can't: the letters n and o are left out."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Its' with no apostrophe means 'it is'.",
+          "correcta": false,
+          "explicacion": "Its means 'belonging to it'; it's means 'it is' or 'it has'."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write the contraction of 'should not'.",
+          "pista": "The apostrophe replaces the o of 'not'.",
+          "claves": [
+            "shouldn't",
+            "shouldnt"
+          ],
+          "modelo": "shouldn't",
+          "explicacion": "Should not → shouldn't: the o of not is left out."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write 'I am' and 'it will' as contractions.",
+          "claves": [
+            "i'm",
+            "it'll"
+          ],
+          "minimo": 2,
+          "modelo": "I'm, it'll",
+          "explicacion": "I am → I'm and it will → it'll."
+        }
+      ]
+    },
+    {
+      "id": "prefixes-suffixes",
+      "titulo": "Prefixes and suffixes (Book Unit 7, p. 110)",
+      "resumen": [
+        "## Prefixes and suffixes",
+        "- A **prefix** goes at the **front** of a root word and changes its meaning: *un* + happy = **unhappy**.",
+        "- A **suffix** goes at the **end** of a word: help + *ful* = **helpful**.",
+        "- *un-help-ful* = prefix + root word + suffix.",
+        "",
+        "## Prefixes that make opposites",
+        "**un, dis, il, im, in, ir, non, mis**: unfamiliar, disagree, illegal, impossible, irregular.",
+        "- **un-** and **in-** usually mean *not*.",
+        "- **dis-** and **mis-** have a negative meaning.",
+        "- **sub-** usually means *under*: submarine.",
+        "",
+        "## Careful with un-",
+        "- With an **adjective**, un- makes the **opposite**: unknown, unlucky, unripe.",
+        "- With a **verb**, un- **reverses the action**: unlock, untie, unwrap.",
+        "- Some words just start with *un*: **uncle, under, united, uniform** (uni = one)."
+      ],
+      "notas": [
+        {
+          "seccion": "Prefix or suffix?",
+          "tarjetas": [
+            {
+              "etiqueta": "⬅️ Prefix",
+              "titulo": "Before the root word",
+              "puntos": [
+                "Changes the **meaning**",
+                "**un**happy, **dis**agree",
+                "**sub**marine (sub = under)"
+              ]
+            },
+            {
+              "etiqueta": "➡️ Suffix",
+              "titulo": "After the root word",
+              "puntos": [
+                "help**ful**, quick**ly**",
+                "Also changes the word",
+                "**un**-help-**ful** = prefix + root + suffix"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Opposite prefixes",
+            "items": [
+              "un- (unhappy)",
+              "dis- (disagree)",
+              "mis- (misunderstand)",
+              "il- (illegal)",
+              "im- (impossible)",
+              "in- (incorrect)",
+              "ir- (irregular)",
+              "non- (nonsense)"
+            ]
+          }
+        },
+        {
+          "seccion": "The prefix un-",
+          "tarjetas": [
+            {
+              "etiqueta": "🙂 Adjectives",
+              "titulo": "Makes the opposite",
+              "puntos": [
+                "un**familiar**, un**known**, un**lucky**",
+                "un**informed**, un**inhabited**, un**paid**",
+                "un**ready**, un**ripe**, un**seen**, un**true**"
+              ]
+            },
+            {
+              "etiqueta": "🔄 Verbs",
+              "titulo": "Reverses the action",
+              "puntos": [
+                "un**lock**, un**tie**, un**screw**",
+                "un**wrap**, un**wind**, un**freeze**",
+                "un**roll**, un**tangle**, un**seat**"
+              ]
+            },
+            {
+              "etiqueta": "🚫 Not a prefix",
+              "titulo": "Words that just start with un",
+              "puntos": [
+                "**uncle**, **under**",
+                "**uni**corn, **uni**cycle, **uni**form (uni = one)",
+                "**united** (joined together)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "il-, im-, ir-",
+          "tarjetas": [
+            {
+              "etiqueta": "➕ Add it",
+              "titulo": "Keep both letters",
+              "puntos": [
+                "il + legal = **illegal**",
+                "im + possible = **impossible**",
+                "ir + regular = **irregular**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Prefix",
+          "r": "Letters added to the front of a root word to change its meaning (un-happy)."
+        },
+        {
+          "p": "Suffix",
+          "r": "Letters added to the end of a word to change its meaning (help-ful)."
+        },
+        {
+          "p": "What do un- and in- usually mean?",
+          "r": "not"
+        },
+        {
+          "p": "What does sub- usually mean?",
+          "r": "under (submarine)"
+        },
+        {
+          "p": "il + legal",
+          "r": "illegal"
+        },
+        {
+          "p": "im + possible",
+          "r": "impossible"
+        },
+        {
+          "p": "ir + regular",
+          "r": "irregular"
+        },
+        {
+          "p": "What does un- do to a verb (unlock, untie)?",
+          "r": "It reverses the action."
+        },
+        {
+          "p": "Is the 'un' in 'uniform' a prefix?",
+          "r": "No – uni means one."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a prefix?",
+          "opciones": [
+            "A word that describes a noun",
+            "A word that joins two clauses",
+            "Letters added to the front of a word to change its meaning",
+            "Letters added to the end of a word"
+          ],
+          "correcta": 2,
+          "explicacion": "A prefix goes before the root word and changes its meaning."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a suffix?",
+          "opciones": [
+            "The main part of a word",
+            "Letters added to the end of a word to change its meaning",
+            "Letters added to the front of a word",
+            "A type of punctuation"
+          ],
+          "correcta": 1,
+          "explicacion": "A suffix goes after the root word, e.g. help-ful."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In 'unhelpful', what is the root word?",
+          "opciones": [
+            "help",
+            "un",
+            "ful",
+            "helpful"
+          ],
+          "correcta": 0,
+          "explicacion": "un- is the prefix, help is the root word and -ful is the suffix."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What happens when you put un- in front of 'familiar'?",
+          "opciones": [
+            "It turns it into a verb",
+            "It does not change the meaning",
+            "It makes the opposite: unfamiliar",
+            "It makes the word plural"
+          ],
+          "correcta": 2,
+          "explicacion": "Un- turns the adjective into its opposite."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which prefix makes the opposite of 'legal'?",
+          "opciones": [
+            "dis-",
+            "il-",
+            "un-",
+            "im-"
+          ],
+          "correcta": 1,
+          "explicacion": "il + legal = illegal."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which prefix makes the opposite of 'possible'?",
+          "opciones": [
+            "il-",
+            "im-",
+            "in-",
+            "un-"
+          ],
+          "correcta": 1,
+          "explicacion": "im + possible = impossible."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which prefix makes the opposite of 'regular'?",
+          "opciones": [
+            "dis-",
+            "in-",
+            "ir-",
+            "un-"
+          ],
+          "correcta": 2,
+          "explicacion": "ir + regular = irregular."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which prefix makes the opposite of 'agree'?",
+          "opciones": [
+            "dis-",
+            "un-",
+            "im-",
+            "il-"
+          ],
+          "correcta": 0,
+          "explicacion": "dis + agree = disagree; dis- has a negative meaning."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does the prefix sub- usually mean, as in 'submarine'?",
+          "opciones": [
+            "not",
+            "again",
+            "before",
+            "under"
+          ],
+          "correcta": 3,
+          "explicacion": "Sub- usually means under: a submarine goes under the sea."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does un- do to the verbs 'lock', 'tie' and 'wrap'?",
+          "opciones": [
+            "It makes them past tense",
+            "It reverses the action",
+            "It makes them adjectives",
+            "It makes them plural"
+          ],
+          "correcta": 1,
+          "explicacion": "Unlock, untie and unwrap undo the action of the verb."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In which word is 'un' NOT a prefix?",
+          "opciones": [
+            "unknown",
+            "unpaid",
+            "uniform",
+            "unlucky"
+          ],
+          "correcta": 2,
+          "explicacion": "In uniform, uni means one; it is not the prefix un-."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word is a VERB with the prefix un-?",
+          "opciones": [
+            "untrue",
+            "untangle",
+            "unripe",
+            "unsteady"
+          ],
+          "correcta": 1,
+          "explicacion": "You can untangle something – it reverses the action of tangling."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word is an ADJECTIVE with the prefix un-?",
+          "opciones": [
+            "unlock",
+            "unscrew",
+            "untie",
+            "unseen"
+          ],
+          "correcta": 3,
+          "explicacion": "Unseen describes a noun (an unseen danger), so it is an adjective."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word is spelled correctly?",
+          "opciones": [
+            "inpossible",
+            "impossibel",
+            "impossible",
+            "imposible"
+          ],
+          "correcta": 2,
+          "explicacion": "im + possible keeps both s's: impossible."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'United' starts with the prefix un- meaning 'not'.",
+          "correcta": false,
+          "explicacion": "The book warns that some words beginning with un-, like united (joined together), are simple adjectives."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The prefix mis- has a negative meaning, as in 'misunderstand'.",
+          "correcta": true,
+          "explicacion": "Dis- and mis- give a word a negative meaning."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name TWO prefixes that change a word to its opposite meaning. Write them with a hyphen, like re-.",
+          "claves": [
+            "un-",
+            "dis-",
+            "il-",
+            "im-",
+            "in-",
+            "non-",
+            "mis-",
+            "ir-"
+          ],
+          "minimo": 2,
+          "modelo": "un- and dis- (also il-, im-, in-, ir-, non-, mis-)",
+          "explicacion": "The book lists un, dis, il, im, in, non and mis."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Add a prefix to make the opposite of 'correct'.",
+          "pista": "It is one of the prefixes that means 'not'.",
+          "claves": [
+            "incorrect"
+          ],
+          "modelo": "incorrect",
+          "explicacion": "in + correct = incorrect."
+        }
+      ]
+    },
+    {
+      "id": "adverbs-adjectives",
+      "titulo": "Adverbs and adjectives",
+      "resumen": [
+        "## Adjective or adverb?",
+        "- An **adjective** describes a **noun**: a *fierce* tiger.",
+        "- An **adverb** gives information about a **verb**, an **adjective** or **another adverb**: she swam *powerfully*.",
+        "",
+        "## Adverbs",
+        "- Many adverbs end in **-ly**: adjective + ly → adverb.",
+        "- They answer questions like **How?** *We breathed the air in too quickly.* – *quickly* shows how fast.",
+        "- sudden → **suddenly**, wild → **wildly**, triumphant → **triumphantly**, rhythmical → **rhythmically**, powerful → **powerfully**, sure → **surely**.",
+        "",
+        "## Don't mix them up",
+        "After **was / is / felt** you describe the person, so use the **adjective**: *I was powerful*, not *I was powerfully*."
+      ],
+      "notas": [
+        {
+          "seccion": "Two describing words",
+          "tarjetas": [
+            {
+              "etiqueta": "🐯 Adjective",
+              "titulo": "Describes a noun",
+              "puntos": [
+                "a **fierce** tiger",
+                "an **excruciating** pain",
+                "Tells you **what kind**"
+              ]
+            },
+            {
+              "etiqueta": "🏃 Adverb",
+              "titulo": "Describes a verb, adjective or adverb",
+              "puntos": [
+                "We breathed the air in too **quickly**.",
+                "Answers **How?**",
+                "Many end in **-ly**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Adjective → adverb",
+          "tarjetas": [
+            {
+              "etiqueta": "➕ -ly",
+              "titulo": "Add -ly",
+              "puntos": [
+                "sudden → **suddenly** (without warning)",
+                "wild → **wildly** (fiercely)",
+                "powerful → **powerfully**",
+                "sure → **surely**"
+              ]
+            },
+            {
+              "etiqueta": "🏆 Exam words",
+              "titulo": "Spell them right",
+              "puntos": [
+                "triumphant → **triumphantly** (like a winner)",
+                "rhythmical → **rhythmically** (with a rhythm)"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Careful",
+              "titulo": "After 'was', use the adjective",
+              "puntos": [
+                "✔ I was **powerful**.",
+                "✘ I was powerfully.",
+                "✔ I swam **powerfully**."
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Adverbs from the book",
+            "items": [
+              "quickly",
+              "suddenly",
+              "wildly",
+              "triumphantly",
+              "rhythmically",
+              "powerfully",
+              "extremely",
+              "rapidly",
+              "silently"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Adjective",
+          "r": "A word that describes a noun (a fierce tiger)."
+        },
+        {
+          "p": "Adverb",
+          "r": "A word that gives information about a verb, an adjective or another adverb."
+        },
+        {
+          "p": "Which question does an adverb often answer?",
+          "r": "How? (also when? where?)"
+        },
+        {
+          "p": "How do many adverbs end?",
+          "r": "In -ly."
+        },
+        {
+          "p": "triumphant → adverb",
+          "r": "triumphantly"
+        },
+        {
+          "p": "rhythmical → adverb",
+          "r": "rhythmically"
+        },
+        {
+          "p": "sudden → adverb",
+          "r": "suddenly (without warning)"
+        },
+        {
+          "p": "'We breathed the air in too quickly.' What does 'quickly' tell us?",
+          "r": "How fast the air was breathed in."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What does an adverb do?",
+          "opciones": [
+            "Gives information about a verb, an adjective or another adverb",
+            "Names a person, place or thing",
+            "Describes a noun",
+            "Joins two clauses"
+          ],
+          "correcta": 0,
+          "explicacion": "Adverbs modify verbs, adjectives or other adverbs."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does an adjective do?",
+          "opciones": [
+            "Describes a verb",
+            "Joins two sentences",
+            "Shows possession",
+            "Describes a noun"
+          ],
+          "correcta": 3,
+          "explicacion": "An adjective gives an attribute to a noun, e.g. a fierce tiger."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the adverb: 'We breathed the air in too quickly.'",
+          "opciones": [
+            "breathed",
+            "air",
+            "in",
+            "quickly"
+          ],
+          "correcta": 3,
+          "explicacion": "Quickly tells us how the air was breathed in."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the adverb made from 'sudden'?",
+          "opciones": [
+            "suddenly",
+            "suddenness",
+            "suddener",
+            "suddenful"
+          ],
+          "correcta": 0,
+          "explicacion": "Add -ly: sudden → suddenly."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the adverb made from 'triumphant'?",
+          "opciones": [
+            "triumphantful",
+            "triumphantly",
+            "triumphly",
+            "triumphal"
+          ],
+          "correcta": 1,
+          "explicacion": "Add -ly to the adjective: triumphantly."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is spelled correctly?",
+          "opciones": [
+            "rhythmicaly",
+            "ehythmically",
+            "rhythmically",
+            "rythmically"
+          ],
+          "correcta": 2,
+          "explicacion": "Rhythm has an h after the r and after the t: rhythmically."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which question does an adverb often answer?",
+          "opciones": [
+            "How?",
+            "Who?",
+            "Which one?",
+            "How many?"
+          ],
+          "correcta": 0,
+          "explicacion": "The book says an adverb can answer questions such as 'How?'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word is an adverb?",
+          "opciones": [
+            "wildness",
+            "wildly",
+            "wild",
+            "wilder"
+          ],
+          "correcta": 1,
+          "explicacion": "Wildly ends in -ly and describes how something is done."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which sentence is correct?",
+          "opciones": [
+            "I was very powerfully.",
+            "I was powerful in the race.",
+            "I was powerfully in the race.",
+            "I swam powerful."
+          ],
+          "correcta": 1,
+          "explicacion": "After 'was' you describe the person, so you need the adjective powerful."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which sentence uses an adverb correctly?",
+          "opciones": [
+            "She was very suddenly.",
+            "She swam rhythmically to the finish line.",
+            "She was rhythmically.",
+            "She swam rhythmical."
+          ],
+          "correcta": 1,
+          "explicacion": "Rhythmically describes the verb swam."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'The tiger was fierce.' What kind of word is 'fierce'?",
+          "opciones": [
+            "adverb",
+            "verb",
+            "noun",
+            "adjective"
+          ],
+          "correcta": 3,
+          "explicacion": "Fierce describes the noun tiger, so it is an adjective."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Professor Rees is extremely concerned.' Which word does 'extremely' describe?",
+          "opciones": [
+            "Rees (a name)",
+            "concerned (an adjective)",
+            "Professor Rees (a noun)",
+            "is (a verb)"
+          ],
+          "correcta": 1,
+          "explicacion": "Here the adverb extremely gives information about the adjective concerned."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "All adverbs end in -ly.",
+          "correcta": false,
+          "explicacion": "Many adverbs end in -ly, but not all (e.g. too, very, often)."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "An adverb can describe another adverb, as in 'too quickly'.",
+          "correcta": true,
+          "explicacion": "Too gives information about the adverb quickly."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Turn 'powerful' into an adverb.",
+          "pista": "Add the most common adverb ending.",
+          "claves": [
+            "powerfully"
+          ],
+          "modelo": "powerfully",
+          "explicacion": "Add -ly: powerful → powerfully."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Write a sentence using the adverb 'suddenly'.",
+          "pista": "Think of something happening without warning.",
+          "claves": [
+            "suddenly"
+          ],
+          "modelo": "Suddenly, the lights went out.",
+          "explicacion": "Suddenly means without warning and often begins a suspense sentence."
+        }
+      ]
+    },
+    {
+      "id": "words-for-effect",
+      "titulo": "Words for effect: frown, hiss, excruciating (In the Nick of Time)",
+      "resumen": [
+        "## In the Nick of Time (Robert Swindells)",
+        "Charlotte accidentally travels back in time to a **boarding school** in **1952**. In a Maths lesson, a boy called **Jack** sees her **digital watch** and does not believe it is real. Later, lying awake in the dormitory, she feels lost: nobody will believe she is from the future.",
+        "",
+        "## Choosing verbs for effect",
+        "The writer uses **frowns**, **hisses** and **growls** instead of *asks* to show that Jack is cross and suspicious. A pleasant way of asking would use verbs like *smiles* or *whispers kindly*.",
+        "",
+        "## Words to learn",
+        "- **to hiss** – to make an angry sound like an 's'",
+        "- **racing** – moving very quickly",
+        "- **to frown** – to wrinkle your forehead in anger or worry",
+        "- **to growl** – to make a deep angry sound in your throat",
+        "- **excruciating** – causing intense suffering (very, very painful)",
+        "",
+        "## Alliteration",
+        "**Alliteration** is the repetition of letters or sounds at the beginning of more than one word to create an effect: *sheds flashing into flame*."
+      ],
+      "notas": [
+        {
+          "seccion": "Words to study",
+          "tarjetas": [
+            {
+              "etiqueta": "😠 to frown",
+              "titulo": "Wrinkle your forehead",
+              "puntos": [
+                "In **anger** or **worry**",
+                "Jack **frowns** at Charlotte's watch",
+                "Shows he is suspicious"
+              ]
+            },
+            {
+              "etiqueta": "🐍 to hiss",
+              "titulo": "An angry 's' sound",
+              "puntos": [
+                "Like a snake: *sss*",
+                "Jack **hisses** across the desk",
+                "Sounds sharp and secretive"
+              ]
+            },
+            {
+              "etiqueta": "😖 excruciating",
+              "titulo": "Causing intense suffering",
+              "puntos": [
+                "An adjective: very, very painful",
+                "Lying on a stretched arm was **excruciating**",
+                "Stronger than *painful*"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Word cloud",
+            "items": [
+              "excruciating – causing intense suffering",
+              "frowns – wrinkles the forehead",
+              "growls – deep angry sound",
+              "hisses – angry 's' sound",
+              "racing – moving very quickly"
+            ]
+          }
+        },
+        {
+          "seccion": "Why these words?",
+          "tarjetas": [
+            {
+              "etiqueta": "🎯 Effect",
+              "titulo": "Better than 'asks'",
+              "puntos": [
+                "**frowns, hisses, growls** show Jack is angry and suspicious",
+                "*asks* tells us nothing about his mood",
+                "A friendly Jack might **smile** or **whisper**"
+              ]
+            },
+            {
+              "etiqueta": "🔤 Alliteration",
+              "titulo": "Same first sound",
+              "puntos": [
+                "Repeating letters or sounds at the **start** of words",
+                "*sheds flashing into flame*",
+                "Creates an effect the reader notices"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "to frown",
+          "r": "To wrinkle your forehead in anger or worry."
+        },
+        {
+          "p": "to hiss",
+          "r": "To make an angry sound like an 's'."
+        },
+        {
+          "p": "excruciating",
+          "r": "Causing intense suffering; extremely painful."
+        },
+        {
+          "p": "to growl",
+          "r": "To make a deep angry sound in your throat."
+        },
+        {
+          "p": "racing",
+          "r": "Moving very quickly."
+        },
+        {
+          "p": "Alliteration",
+          "r": "Repeating the same letter or sound at the start of several words (sheds flashing into flame)."
+        },
+        {
+          "p": "Why does the author use 'frowns' and 'hisses' instead of 'asks'?",
+          "r": "To show Jack is angry and suspicious."
+        },
+        {
+          "p": "In the Nick of Time – where does Charlotte end up?",
+          "r": "In a boarding school in 1952."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'to frown' mean?",
+          "opciones": [
+            "To wrinkle your forehead in anger or worry",
+            "To smile widely",
+            "To make an angry 's' sound",
+            "To move very quickly"
+          ],
+          "correcta": 0,
+          "explicacion": "When you frown, your forehead wrinkles because you are cross or worried."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'to hiss' mean?",
+          "opciones": [
+            "To make a deep sound in your throat",
+            "To laugh quietly",
+            "To wrinkle your forehead",
+            "To make an angry sound like an 's'"
+          ],
+          "correcta": 3,
+          "explicacion": "A hiss sounds like a long 's', like a snake."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'excruciating' mean?",
+          "opciones": [
+            "Very exciting",
+            "Slightly uncomfortable",
+            "Very quick",
+            "Causing intense suffering"
+          ],
+          "correcta": 3,
+          "explicacion": "Excruciating describes pain that is extremely strong."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'to growl' mean?",
+          "opciones": [
+            "To make an angry 's' sound",
+            "To shout happily",
+            "To whisper",
+            "To make a deep angry sound in your throat"
+          ],
+          "correcta": 3,
+          "explicacion": "A growl is a deep, angry sound, like a dog."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'racing' mean?",
+          "opciones": [
+            "Thinking carefully",
+            "Moving very quickly",
+            "Moving very slowly",
+            "Feeling very cold"
+          ],
+          "correcta": 1,
+          "explicacion": "Racing means moving very fast – a racing heart beats fast."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which word is closest in meaning to 'excruciating'?",
+          "opciones": [
+            "agonising",
+            "boring",
+            "pleasant",
+            "mild"
+          ],
+          "correcta": 0,
+          "explicacion": "Agonising also means extremely painful."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "'Jack leans across, frowns and hisses.' Why does the author choose these verbs instead of 'asks'?",
+          "opciones": [
+            "To show that Jack is shy",
+            "To show that Jack is happy to help",
+            "Because 'asks' is spelled wrongly",
+            "To show that Jack is angry and suspicious"
+          ],
+          "correcta": 3,
+          "explicacion": "Frowns and hisses tell us about Jack's mood; asks does not."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "If Jack was asking in a more pleasant way, which verb would fit best?",
+          "opciones": [
+            "hisses",
+            "smiles",
+            "growls",
+            "snarls"
+          ],
+          "correcta": 1,
+          "explicacion": "Smiles shows a friendly mood, unlike growls or hisses."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In 'In the Nick of Time', what surprises Jack?",
+          "opciones": [
+            "A letter from home",
+            "A ghost in the dormitory",
+            "Charlotte's digital watch",
+            "Charlotte's new shoes"
+          ],
+          "correcta": 2,
+          "explicacion": "Jack has never seen a digital watch because they had not been invented in 1952."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What kind of word is 'excruciating' in 'The pain was excruciating'?",
+          "opciones": [
+            "noun",
+            "adjective",
+            "verb",
+            "adverb"
+          ],
+          "correcta": 1,
+          "explicacion": "Excruciating describes the noun pain, so it is an adjective."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is alliteration?",
+          "opciones": [
+            "Words that rhyme at the end of lines",
+            "A word that sounds like its meaning",
+            "Three dots that show something is missing",
+            "Repeating letters or sounds at the beginning of words"
+          ],
+          "correcta": 3,
+          "explicacion": "Alliteration repeats the first sound of several words to create an effect."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which phrase uses alliteration?",
+          "opciones": [
+            "he walked home",
+            "sheds flashing into flame",
+            "the old house",
+            "a dark and stormy night"
+          ],
+          "correcta": 1,
+          "explicacion": "Flashing and flame both start with the f sound."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Hiss' and 'growl' both describe angry sounds.",
+          "correcta": true,
+          "explicacion": "A hiss is an angry 's' sound and a growl is a deep angry sound."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "'Frown' means to smile at someone.",
+          "correcta": false,
+          "explicacion": "To frown is to wrinkle your forehead in anger or worry."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Use 'frown' in a sentence about a teacher.",
+          "pista": "Show that the teacher is cross or worried.",
+          "claves": [
+            "frown"
+          ],
+          "modelo": "The teacher frowned when she saw the messy desk.",
+          "explicacion": "Frown shows the teacher is cross or worried."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give a word that means the same as 'excruciating'.",
+          "pista": "Think of a word for very strong pain.",
+          "claves": [
+            "agonising",
+            "agonizing",
+            "unbearable",
+            "painful",
+            "torturous",
+            "intense",
+            "terrible",
+            "awful",
+            "dreadful",
+            "severe"
+          ],
+          "modelo": "agonising (or unbearable)",
+          "explicacion": "Excruciating means causing intense suffering, so agonising or unbearable are good synonyms."
         }
       ]
     }
