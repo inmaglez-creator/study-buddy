@@ -1470,6 +1470,2591 @@
           "explicacion": "Any two human organs."
         }
       ]
+    },
+    {
+      "id": "solids-liquids-gases",
+      "titulo": "2.1 · Solids, liquids and gases",
+      "resumen": [
+        "## States of matter",
+        "Everything you can see and feel is **matter**. Scientists sort it into three **states of matter**: **solids**, **liquids** and **gases**. The ways they behave are their **properties**.",
+        "- **Solids** keep the same shape and volume. They cannot be **compressed** (squashed) or **poured**.",
+        "- **Liquids** take the shape of their container and can be poured. They cannot be compressed. Their volume does not change.",
+        "- **Gases** **flow** and fill any closed container. They are very easy to compress, their volume can change and they weigh very little.",
+        "",
+        "## Hypothesis and theory",
+        "- A **hypothesis** is a suggestion for an explanation. It is tested with more investigations.",
+        "- When a hypothesis has been tested and widely accepted by other scientists, it is a **theory**.",
+        "",
+        "## Particle theory",
+        "All matter is made of tiny **particles**, much too small to see.",
+        "- **Solid**: fixed pattern, held together strongly, tightly packed. Particles **vibrate** but stay in place.",
+        "- **Liquid**: particles touch, held together weakly, can move past one another.",
+        "- **Gas**: particles do not touch, are a long way apart and spread out to fill the space."
+      ],
+      "notas": [
+        {
+          "seccion": "The three states of matter",
+          "tarjetas": [
+            {
+              "etiqueta": "🧱 Solid",
+              "titulo": "Keeps its shape",
+              "puntos": [
+                "Same shape and same **volume**",
+                "Cannot be **compressed** (squashed)",
+                "Cannot be **poured**"
+              ]
+            },
+            {
+              "etiqueta": "💧 Liquid",
+              "titulo": "Takes the container's shape",
+              "puntos": [
+                "Can be **poured**",
+                "Cannot be compressed",
+                "Volume does **not** change: 50 cm³ stays 50 cm³ in any container"
+              ]
+            },
+            {
+              "etiqueta": "💨 Gas",
+              "titulo": "Fills any closed container",
+              "puntos": [
+                "**Flows** like a liquid",
+                "Very **easy to compress**; volume can change",
+                "Weighs very little; you can sometimes smell it"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Key words",
+            "items": [
+              "matter",
+              "states of matter",
+              "property",
+              "compressed",
+              "flow",
+              "pour",
+              "volume",
+              "vibrate"
+            ]
+          }
+        },
+        {
+          "seccion": "How scientists explain",
+          "tarjetas": [
+            {
+              "etiqueta": "💡 Hypothesis",
+              "titulo": "A suggested explanation",
+              "puntos": [
+                "Tested by more **investigations**"
+              ]
+            },
+            {
+              "etiqueta": "📚 Theory",
+              "titulo": "A tested, accepted idea",
+              "puntos": [
+                "A hypothesis tested and **widely accepted** by other scientists",
+                "Best theory for matter: **particle theory**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Particle theory",
+          "tarjetas": [
+            {
+              "etiqueta": "🧱 Solid",
+              "titulo": "Fixed pattern",
+              "puntos": [
+                "Held together **strongly**, tightly packed",
+                "Particles **vibrate** but stay in place",
+                "So solids have a fixed shape"
+              ]
+            },
+            {
+              "etiqueta": "💧 Liquid",
+              "titulo": "Touching but moving",
+              "puntos": [
+                "Particles **touch** each other",
+                "Held together **weakly**",
+                "Can move past one another, so liquids change shape"
+              ]
+            },
+            {
+              "etiqueta": "💨 Gas",
+              "titulo": "Far apart",
+              "puntos": [
+                "Particles do **not** touch",
+                "A long way apart, move about freely",
+                "Spread out to fill the space"
+              ]
+            },
+            {
+              "etiqueta": "🧽 Odd one out",
+              "titulo": "A sponge",
+              "puntos": [
+                "A sponge is a solid but **can** be compressed",
+                "It has holes full of air, and the air gets squashed"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Matter",
+          "r": "Everything you can see and feel."
+        },
+        {
+          "p": "The three states of matter",
+          "r": "Solid, liquid and gas."
+        },
+        {
+          "p": "Property",
+          "r": "The way a substance behaves."
+        },
+        {
+          "p": "Compressed",
+          "r": "Squashed into a smaller volume."
+        },
+        {
+          "p": "Which state can be compressed easily?",
+          "r": "Gas."
+        },
+        {
+          "p": "Which state cannot be poured?",
+          "r": "Solid."
+        },
+        {
+          "p": "Hypothesis",
+          "r": "A suggestion for an explanation that can be tested."
+        },
+        {
+          "p": "Theory",
+          "r": "A hypothesis that has been tested and widely accepted by other scientists."
+        },
+        {
+          "p": "Particle theory",
+          "r": "All matter is made of tiny particles arranged in different ways."
+        },
+        {
+          "p": "Vibrate",
+          "r": "Make small movements (particles in a solid vibrate)."
+        },
+        {
+          "p": "Particles in a gas",
+          "r": "Do not touch, are far apart and move about freely."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What do scientists call everything you can see and feel?",
+          "opciones": [
+            "energy",
+            "volume",
+            "property",
+            "matter"
+          ],
+          "correcta": 3,
+          "explicacion": "Everything you can see and feel is called matter."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which state of matter can be compressed easily?",
+          "opciones": [
+            "liquid",
+            "none of them",
+            "gas",
+            "solid"
+          ],
+          "correcta": 2,
+          "explicacion": "Gas particles are far apart, so gases are very easy to compress."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which state of matter cannot be poured?",
+          "opciones": [
+            "gas",
+            "water",
+            "solid",
+            "liquid"
+          ],
+          "correcta": 2,
+          "explicacion": "Solids keep the same shape and cannot be poured."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is a property of liquids but NOT of solids?",
+          "opciones": [
+            "They cannot be compressed",
+            "They have a fixed volume",
+            "They are made of particles",
+            "They can be poured"
+          ],
+          "correcta": 3,
+          "explicacion": "Liquids and solids both have a fixed volume and cannot be compressed, but only liquids can be poured."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which property do gases share with liquids?",
+          "opciones": [
+            "They have a fixed shape",
+            "They cannot be compressed",
+            "They keep the same volume",
+            "They flow"
+          ],
+          "correcta": 3,
+          "explicacion": "Gases flow like liquids."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "50 cm³ of a liquid is poured from a measuring cylinder into a dish. What is its volume now?",
+          "opciones": [
+            "more than 50 cm³",
+            "less than 50 cm³",
+            "it depends on the dish",
+            "50 cm³"
+          ],
+          "correcta": 3,
+          "explicacion": "The volume of a liquid does not change, whatever the shape of the container."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a hypothesis?",
+          "opciones": [
+            "A suggestion for an explanation that can be tested",
+            "A fact that can never change",
+            "A list of results",
+            "A piece of equipment"
+          ],
+          "correcta": 0,
+          "explicacion": "A hypothesis is a suggested explanation tested by more investigations."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A hypothesis that has been tested and widely accepted by other scientists is called a…",
+          "opciones": [
+            "particle",
+            "theory",
+            "guess",
+            "property"
+          ],
+          "correcta": 1,
+          "explicacion": "Once tested and widely accepted it becomes a theory."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How are the particles arranged in a solid?",
+          "opciones": [
+            "In a fixed pattern, tightly packed",
+            "Far apart and moving freely",
+            "Touching but sliding past each other",
+            "In a random cloud"
+          ],
+          "correcta": 0,
+          "explicacion": "Solid particles are held strongly in a fixed pattern."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do the particles in a liquid behave?",
+          "opciones": [
+            "They stay in one place and only vibrate",
+            "They do not touch at all",
+            "They are far apart",
+            "They touch but can move past one another"
+          ],
+          "correcta": 3,
+          "explicacion": "Liquid particles touch but are held weakly, so they can move past each other."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why are gases easy to compress?",
+          "opciones": [
+            "Their particles are tightly packed",
+            "Their particles are bigger",
+            "Their particles do not move",
+            "Their particles are a long way apart"
+          ],
+          "correcta": 3,
+          "explicacion": "There is lots of space between gas particles to squash them into."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What can the particles in a solid do?",
+          "opciones": [
+            "Move freely around the container",
+            "Slide past one another",
+            "Escape into the air",
+            "Vibrate but stay in the same place"
+          ],
+          "correcta": 3,
+          "explicacion": "Particles in a solid only vibrate (make small movements)."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A sponge is a solid that can be compressed.",
+          "correcta": true,
+          "explicacion": "It is a solid, but the air in its holes can be squashed."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Gases have a fixed volume.",
+          "correcta": false,
+          "explicacion": "The volume of a gas can change; it fills any closed container."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "You can sometimes smell gases even though you cannot see them.",
+          "correcta": true,
+          "explicacion": "The book says you cannot usually see or feel gases, but you can sometimes smell them."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name the THREE states of matter.",
+          "claves": [
+            "solid",
+            "liquid",
+            "gas"
+          ],
+          "minimo": 3,
+          "modelo": "Solid, liquid and gas.",
+          "explicacion": "These are the three groups scientists sort matter into."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Use particle theory to explain why a solid keeps its shape.",
+          "pista": "Think about how the particles are arranged and held.",
+          "claves": [
+            "fixed",
+            "pattern",
+            "strong",
+            "tight",
+            "packed",
+            "same place",
+            "vibrate",
+            "held"
+          ],
+          "minimo": 2,
+          "modelo": "The particles are held strongly in a fixed pattern; they only vibrate and stay in the same place.",
+          "explicacion": "Strong forces keep the particles in a fixed pattern."
+        }
+      ]
+    },
+    {
+      "id": "changes-of-state",
+      "titulo": "2.2 · Changes of state",
+      "resumen": [
+        "## Changing state",
+        "- Ice in a warm place **melts** into liquid water. The temperature at which a solid melts is its **melting point**.",
+        "- Water on the ground slowly changes to **water vapour**, an invisible gas. This is **evaporation**. The warmer the water, the faster it evaporates.",
+        "- Water heated to **100 °C** **boils** and rapidly turns to **steam**. 100 °C is the **boiling point** of water.",
+        "- Water vapour or steam that touches something cold **condenses** back to liquid: **condensation**.",
+        "- Liquid water in a freezer **freezes** and becomes ice.",
+        "These are **changes of state**.",
+        "",
+        "## Measuring",
+        "- **Volume**: use a **measuring cylinder**. The curve at the top is the **meniscus**: read from the **bottom** of it, with your eye **level** with it.",
+        "- **Temperature**: use a **thermometer**. The liquid inside expands and rises as it gets hotter. Keep your eye level with the top of the liquid.",
+        "",
+        "## Heating water investigation",
+        "Measure 150 cm³ of water, hold the thermometer in the water with a clamp (not touching the bottom of the beaker), heat it and record the temperature every minute until it boils. Plot **time** on the horizontal **axis** and **temperature** on the vertical axis."
+      ],
+      "notas": [
+        {
+          "seccion": "Changes of state",
+          "tarjetas": [
+            {
+              "etiqueta": "🧊➡️💧 Melting",
+              "titulo": "Solid → liquid",
+              "puntos": [
+                "Ice in a warm place melts",
+                "**Melting point**: the temperature at which a solid melts"
+              ]
+            },
+            {
+              "etiqueta": "💧➡️🧊 Freezing",
+              "titulo": "Liquid → solid",
+              "puntos": [
+                "Water in the freezer **freezes** into ice"
+              ]
+            },
+            {
+              "etiqueta": "💧➡️💨 Evaporation",
+              "titulo": "Liquid → gas (slowly)",
+              "puntos": [
+                "A puddle slowly turns into **water vapour**, an **invisible gas**",
+                "The **warmer** the water, the **faster** it evaporates"
+              ]
+            },
+            {
+              "etiqueta": "♨️ Boiling",
+              "titulo": "Liquid → gas (fast)",
+              "puntos": [
+                "Water boils at **100 °C** (its **boiling point**)",
+                "All the water rapidly turns into **steam**"
+              ]
+            },
+            {
+              "etiqueta": "🪞 Condensing",
+              "titulo": "Gas → liquid",
+              "puntos": [
+                "Steam or water vapour touches something **cold**",
+                "Turns back into liquid water: **condensation**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "The cycle",
+            "items": [
+              "ice → melting → water",
+              "water → boiling → steam",
+              "steam → condensing → water",
+              "water → freezing → ice"
+            ]
+          }
+        },
+        {
+          "seccion": "Measuring",
+          "tarjetas": [
+            {
+              "etiqueta": "🧪 Volume",
+              "titulo": "Measuring cylinder",
+              "puntos": [
+                "The liquid curves at the top: the **meniscus**",
+                "Read from the **bottom** of the meniscus",
+                "Eye **level** with the meniscus",
+                "Unit: **cm³**"
+              ]
+            },
+            {
+              "etiqueta": "🌡️ Temperature",
+              "titulo": "Thermometer",
+              "puntos": [
+                "The liquid inside **expands** when hotter and rises",
+                "Read the scale with your eye level with the top of the liquid",
+                "Unit: **°C**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Heating water investigation",
+          "tarjetas": [
+            {
+              "etiqueta": "🔥 Method",
+              "titulo": "Steps",
+              "puntos": [
+                "Measure **150 cm³** of water into a beaker",
+                "Hold the thermometer with a **clamp stand**, not touching the bottom",
+                "Heat; record the temperature **every minute** until it boils"
+              ]
+            },
+            {
+              "etiqueta": "📈 Graph",
+              "titulo": "Results",
+              "puntos": [
+                "**Time** on the horizontal axis, **temperature** on the vertical axis",
+                "Temperature rises as you heat",
+                "While boiling it stays at about **100 °C**"
+              ]
+            },
+            {
+              "etiqueta": "🥽 Safety",
+              "titulo": "Keep safe",
+              "puntos": [
+                "Wear **safety spectacles**",
+                "Bunsen burner on a **heat proof mat**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Equipment",
+            "items": [
+              "Bunsen burner",
+              "tripod",
+              "gauze",
+              "heat proof mat",
+              "beaker",
+              "thermometer",
+              "clamp stand with boss",
+              "stop watch",
+              "measuring cylinder",
+              "safety spectacles"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Melting point",
+          "r": "The temperature at which a solid melts."
+        },
+        {
+          "p": "Boiling point of water",
+          "r": "100 °C"
+        },
+        {
+          "p": "Evaporation",
+          "r": "A liquid slowly changing into a gas, e.g. a puddle turning into water vapour."
+        },
+        {
+          "p": "Water vapour",
+          "r": "Water as an invisible gas."
+        },
+        {
+          "p": "Steam",
+          "r": "Water heated to the point that it turns into a gas."
+        },
+        {
+          "p": "Condensation",
+          "r": "A gas cooling on a cold surface and turning back into a liquid."
+        },
+        {
+          "p": "Freezing",
+          "r": "A liquid turning into a solid, e.g. water into ice."
+        },
+        {
+          "p": "Meniscus",
+          "r": "The curve at the top of a liquid in a measuring cylinder; read from its bottom."
+        },
+        {
+          "p": "Which instrument measures the volume of a liquid?",
+          "r": "A measuring cylinder."
+        },
+        {
+          "p": "How does a thermometer work?",
+          "r": "The liquid inside expands as it gets hotter, so it rises up the scale."
+        },
+        {
+          "p": "Axis",
+          "r": "A line on a graph; time goes on the horizontal axis, temperature on the vertical axis."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the change of state when ice turns into liquid water?",
+          "opciones": [
+            "melting",
+            "freezing",
+            "condensing",
+            "boiling"
+          ],
+          "correcta": 0,
+          "explicacion": "A solid turning into a liquid is melting."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the boiling point of water?",
+          "opciones": [
+            "50 °C",
+            "150 °C",
+            "100 °C",
+            "0 °C"
+          ],
+          "correcta": 2,
+          "explicacion": "Water boils at 100 °C."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A puddle slowly disappears on a sunny day. What is this called?",
+          "opciones": [
+            "evaporation",
+            "condensation",
+            "melting",
+            "freezing"
+          ],
+          "correcta": 0,
+          "explicacion": "The water changes into water vapour: evaporation."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Steam from a kettle hits a cold window and turns into drops of water. This is…",
+          "opciones": [
+            "condensation",
+            "evaporation",
+            "boiling",
+            "melting"
+          ],
+          "correcta": 0,
+          "explicacion": "A gas touching something cold condenses back into a liquid."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is water vapour?",
+          "opciones": [
+            "Tiny drops of ice",
+            "A type of liquid",
+            "Steam you can see",
+            "An invisible gas"
+          ],
+          "correcta": 3,
+          "explicacion": "The book calls water vapour an invisible gas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which puddle would evaporate fastest?",
+          "opciones": [
+            "The warmest one",
+            "The coldest one",
+            "The deepest one",
+            "The one in the shade"
+          ],
+          "correcta": 0,
+          "explicacion": "The warmer the water, the more quickly it evaporates."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What do we call the temperature at which a solid melts?",
+          "opciones": [
+            "freezing gas",
+            "meniscus",
+            "melting point",
+            "boiling point"
+          ],
+          "correcta": 2,
+          "explicacion": "That temperature is the melting point."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the curve at the top of a liquid in a measuring cylinder called?",
+          "opciones": [
+            "scale",
+            "bulb",
+            "meniscus",
+            "axis"
+          ],
+          "correcta": 2,
+          "explicacion": "It is the meniscus."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where should you read the volume in a measuring cylinder?",
+          "opciones": [
+            "At the bottom of the meniscus, with your eye level",
+            "At the top of the meniscus, looking down",
+            "At the top of the cylinder",
+            "From the side, looking up"
+          ],
+          "correcta": 0,
+          "explicacion": "Read from the bottom of the meniscus with your eye level with it."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why does the liquid rise inside a thermometer when it gets hotter?",
+          "opciones": [
+            "The liquid evaporates",
+            "The glass shrinks",
+            "The liquid freezes",
+            "The liquid expands"
+          ],
+          "correcta": 3,
+          "explicacion": "The liquid expands as it gets hotter, so it rises."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is the thermometer held by a clamp so it does not touch the bottom of the beaker?",
+          "opciones": [
+            "To make the water boil faster",
+            "So you can stir the water",
+            "To measure the temperature of the water, not the beaker",
+            "So it does not break the gauze"
+          ],
+          "correcta": 2,
+          "explicacion": "The book says this is so you measure the water, not the bottom of the beaker."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In the heating water graph, what goes on the horizontal axis?",
+          "opciones": [
+            "temperature",
+            "volume",
+            "mass",
+            "time"
+          ],
+          "correcta": 3,
+          "explicacion": "Time goes along the horizontal axis and temperature up the vertical axis."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which piece of equipment is used to time the investigation?",
+          "opciones": [
+            "gauze",
+            "stop watch",
+            "thermometer",
+            "tripod"
+          ],
+          "correcta": 1,
+          "explicacion": "A stop watch measures the time."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "While water is boiling, its temperature keeps rising above 100 °C.",
+          "correcta": false,
+          "explicacion": "Boiling water stays at its boiling point, about 100 °C."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Freezing changes a liquid into a solid.",
+          "correcta": true,
+          "explicacion": "Water in the freezer freezes and becomes ice."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name the change of state in each case: ice → water, and water → steam.",
+          "pista": "One word for each change.",
+          "claves": [
+            "melt",
+            "boil",
+            "evaporat"
+          ],
+          "minimo": 2,
+          "modelo": "Melting, then boiling (evaporation).",
+          "explicacion": "Solid to liquid is melting; liquid to gas is boiling or evaporation."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give TWO things you must do to read a measuring cylinder accurately.",
+          "claves": [
+            "bottom",
+            "meniscus",
+            "level",
+            "eye"
+          ],
+          "minimo": 2,
+          "modelo": "Read from the bottom of the meniscus and keep your eye level with it.",
+          "explicacion": "Both steps stop you reading the scale wrongly."
+        }
+      ]
+    },
+    {
+      "id": "explaining-changes-of-state",
+      "titulo": "2.3 · Explaining changes of state",
+      "resumen": [
+        "## Heating",
+        "- **Heating solids**: **heat energy is transferred** to the particles. They vibrate more and take up more space, so the solid **expands** (gets bigger). **Attractive forces** still hold them in position.",
+        "- **Melting**: the particles vibrate so much that the forces cannot hold them in a fixed pattern. They slide past one another but still touch: a liquid.",
+        "- **Boiling**: some liquid particles get enough energy to break the weak attractive forces and escape as gas particles.",
+        "",
+        "## Cooling",
+        "- **Condensing**: gas particles have no forces holding them. At a cold surface they lose heat energy to the surface, move less and get closer together: a liquid.",
+        "- **Freezing**: heat energy goes from the particles to the surroundings. They move more slowly until they can only vibrate, in a fixed pattern: a solid."
+      ],
+      "notas": [
+        {
+          "seccion": "Heating: energy goes IN",
+          "tarjetas": [
+            {
+              "etiqueta": "📏 Expanding",
+              "titulo": "Heating a solid",
+              "puntos": [
+                "**Heat energy is transferred** to the particles",
+                "They **vibrate more** and take up **more space**",
+                "The solid **expands** (gets bigger)",
+                "**Attractive forces** still hold them in place"
+              ]
+            },
+            {
+              "etiqueta": "🫠 Melting",
+              "titulo": "Solid → liquid",
+              "puntos": [
+                "Particles vibrate so much the forces can't keep a **fixed pattern**",
+                "They **slide past** one another but still touch"
+              ]
+            },
+            {
+              "etiqueta": "♨️ Boiling",
+              "titulo": "Liquid → gas",
+              "puntos": [
+                "Some particles get **enough energy** to break the **weak** attractive forces",
+                "They escape as **gas** particles"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Cooling: energy goes OUT",
+          "tarjetas": [
+            {
+              "etiqueta": "🪞 Condensing",
+              "titulo": "Gas → liquid",
+              "puntos": [
+                "Gas particles: **no forces** holding them",
+                "At a **cold surface**, heat energy transfers to the surface",
+                "They move less and get **closer**: a liquid",
+                "e.g. steam on a bathroom **mirror**"
+              ]
+            },
+            {
+              "etiqueta": "❄️ Freezing",
+              "titulo": "Liquid → solid",
+              "puntos": [
+                "Heat energy goes to the **surroundings**",
+                "Less energy → particles move more slowly",
+                "Finally they can only **vibrate**, in a fixed pattern"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Flow chart",
+            "items": [
+              "A: solid → liquid = melting",
+              "B: liquid → gas = boiling / evaporating",
+              "C: liquid → solid = freezing",
+              "D: gas → liquid = condensing"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Expand",
+          "r": "Get bigger."
+        },
+        {
+          "p": "Why does a solid expand when heated?",
+          "r": "Its particles get more energy, vibrate more and take up more space."
+        },
+        {
+          "p": "Attractive forces",
+          "r": "The forces that hold particles together."
+        },
+        {
+          "p": "Heat energy transferred",
+          "r": "Heat energy moving to or from the particles."
+        },
+        {
+          "p": "What happens to particles when a solid melts?",
+          "r": "They vibrate so much they leave the fixed pattern and slide past each other, still touching."
+        },
+        {
+          "p": "What happens to particles when a liquid boils?",
+          "r": "Some get enough energy to break the weak forces and escape as a gas."
+        },
+        {
+          "p": "What happens to particles when a gas condenses?",
+          "r": "They lose heat energy to a cold surface, move less and get closer together."
+        },
+        {
+          "p": "What happens to particles when a liquid freezes?",
+          "r": "They lose energy, slow down and end up only vibrating in a fixed pattern."
+        },
+        {
+          "p": "Why can't solids and liquids be compressed?",
+          "r": "Their particles are already touching, so there is no space to squash them into."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What happens to a solid when it is heated?",
+          "opciones": [
+            "It shrinks",
+            "It becomes a gas straight away",
+            "Nothing happens",
+            "It expands"
+          ],
+          "correcta": 3,
+          "explicacion": "Heated solids expand (get bigger)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why does a solid expand when it is heated?",
+          "opciones": [
+            "Its particles vibrate more and take up more space",
+            "Its particles get bigger",
+            "New particles are made",
+            "Its particles stop moving"
+          ],
+          "correcta": 0,
+          "explicacion": "The particles gain energy, vibrate more and need more space."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What holds the particles of a solid in position?",
+          "opciones": [
+            "water vapour",
+            "air",
+            "attractive forces",
+            "heat energy"
+          ],
+          "correcta": 2,
+          "explicacion": "Attractive forces between particles hold them in place."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "When a solid melts, what happens to its particles?",
+          "opciones": [
+            "They fly apart and stop touching",
+            "They stop vibrating",
+            "They get smaller",
+            "They slide past one another but still touch"
+          ],
+          "correcta": 3,
+          "explicacion": "Melting particles leave the fixed pattern but stay in touch."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "When a liquid boils, why can some particles escape as a gas?",
+          "opciones": [
+            "They lose all their energy",
+            "They have enough energy to break the weak attractive forces",
+            "They are pushed out by the container",
+            "They become heavier"
+          ],
+          "correcta": 1,
+          "explicacion": "Heat energy lets some particles break free of the weak forces."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What holds the particles of a gas together?",
+          "opciones": [
+            "There are no forces holding them",
+            "Strong attractive forces",
+            "Weak attractive forces",
+            "A fixed pattern"
+          ],
+          "correcta": 0,
+          "explicacion": "The book says there are no forces holding gas particles."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Steam in the bathroom hits a cold mirror. What happens to the particles?",
+          "opciones": [
+            "They gain energy and move faster",
+            "They turn straight into ice",
+            "They break the mirror's forces",
+            "They transfer heat energy to the mirror, move less and get closer to form a liquid"
+          ],
+          "correcta": 3,
+          "explicacion": "At a cold surface gas particles lose energy and condense."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "When a liquid freezes, where does the heat energy go?",
+          "opciones": [
+            "Into the particles",
+            "Into a Bunsen burner",
+            "It disappears",
+            "To the surroundings"
+          ],
+          "correcta": 3,
+          "explicacion": "Heat energy is transferred from the particles to the surroundings."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In the flow chart, which process changes solid → liquid (A)?",
+          "opciones": [
+            "boiling",
+            "freezing",
+            "condensing",
+            "melting"
+          ],
+          "correcta": 3,
+          "explicacion": "Solid to liquid is melting."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In the flow chart, which process changes gas → liquid (D)?",
+          "opciones": [
+            "evaporating",
+            "freezing",
+            "condensing",
+            "melting"
+          ],
+          "correcta": 2,
+          "explicacion": "Gas to liquid is condensing."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why can liquids and gases flow?",
+          "opciones": [
+            "They are very heavy",
+            "They have no particles",
+            "Their particles can move past one another",
+            "Their particles are in a fixed pattern"
+          ],
+          "correcta": 2,
+          "explicacion": "Particles that can move past each other let the substance flow."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "When a liquid freezes, its particles end up only able to vibrate.",
+          "correcta": true,
+          "explicacion": "They become arranged in a fixed pattern and can only vibrate."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Heating a solid makes its particles vibrate less.",
+          "correcta": false,
+          "explicacion": "More heat energy makes the particles vibrate more."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Use particle theory to explain why solids and liquids cannot be compressed.",
+          "pista": "Think about the space between the particles.",
+          "claves": [
+            "touch",
+            "close",
+            "no space",
+            "packed",
+            "no room",
+            "no gap"
+          ],
+          "modelo": "Their particles are already touching each other, so there is no space to squash them into.",
+          "explicacion": "Particles that touch cannot be pushed any closer."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name the process for each change: liquid → solid (C) and liquid → gas (B).",
+          "claves": [
+            "freez",
+            "boil",
+            "evaporat"
+          ],
+          "minimo": 2,
+          "modelo": "C is freezing; B is boiling (evaporating).",
+          "explicacion": "Liquid to solid is freezing; liquid to gas is boiling or evaporating."
+        }
+      ]
+    },
+    {
+      "id": "water-cycle",
+      "titulo": "2.4 · The water cycle",
+      "resumen": [
+        "Water is vital for all living things. Our bodies are made up of at least **60 % water**.",
+        "Water on Earth is always moving between rivers, lakes, oceans, the **atmosphere** and the land. It is recycled over and over in a continuous system called the **water cycle**. The Earth has been recycling water for more than **four billion years**: you use the same water as the ancient Greeks and Romans.",
+        "",
+        "## Stages",
+        "- **Evaporation**: water from the oceans turns into water vapour.",
+        "- **Transpiration**: water vapour given off by plants.",
+        "- **Condensation**: water vapour cools and forms clouds.",
+        "- **Precipitation**: water falls back to Earth (rain, snow…).",
+        "",
+        "## Where the water goes",
+        "- It collects in rivers and **open water** (large lakes and oceans), then evaporates again.",
+        "- On plants it may evaporate from the leaves or trickle down to the ground, where roots take it up.",
+        "- Some soaks into soil and rocks as **groundwater** and refills underground stores.",
+        "- In cold climates it builds up as snow, ice or glaciers, which melt when it gets warmer.",
+        "- Water that flows across the ground into rivers, lakes and oceans is **surface run-off**. Lots of run-off carries soil into rivers, which can become silted up and blocked."
+      ],
+      "notas": [
+        {
+          "seccion": "The water cycle",
+          "tarjetas": [
+            {
+              "etiqueta": "🌍 Facts",
+              "titulo": "Water keeps moving",
+              "puntos": [
+                "Our bodies are at least **60 %** water",
+                "Water moves between rivers, lakes, oceans, **atmosphere** and land",
+                "Recycled for more than **4 billion years**"
+              ]
+            },
+            {
+              "etiqueta": "☀️ Evaporation",
+              "titulo": "Up from the sea",
+              "puntos": [
+                "Sun warms the **oceans**",
+                "Water turns into **water vapour**"
+              ]
+            },
+            {
+              "etiqueta": "🌳 Transpiration",
+              "titulo": "Up from plants",
+              "puntos": [
+                "Water vapour given off by **plants** (from the leaves)"
+              ]
+            },
+            {
+              "etiqueta": "☁️ Condensation",
+              "titulo": "Clouds form",
+              "puntos": [
+                "Water vapour **cools** and turns back into tiny drops of liquid"
+              ]
+            },
+            {
+              "etiqueta": "🌧️ Precipitation",
+              "titulo": "Water falls",
+              "puntos": [
+                "Rain, and snow or ice in cold places"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Water falls on the Earth",
+          "tarjetas": [
+            {
+              "etiqueta": "🏞️ Open water",
+              "titulo": "Lakes and oceans",
+              "puntos": [
+                "Precipitation collects in rivers and **open water** (large lakes, oceans)",
+                "Then it evaporates and the cycle starts again"
+              ]
+            },
+            {
+              "etiqueta": "🌱 On plants",
+              "titulo": "Leaves and roots",
+              "puntos": [
+                "May **evaporate** from the leaves",
+                "Or trickle down to the ground; **roots** take it up"
+              ]
+            },
+            {
+              "etiqueta": "🪨 Groundwater",
+              "titulo": "Into the ground",
+              "puntos": [
+                "Soaks into **soil and rocks**",
+                "Moves to streams and rivers or refills **underground stores**"
+              ]
+            },
+            {
+              "etiqueta": "🏔️ Cold climates",
+              "titulo": "Snow and ice",
+              "puntos": [
+                "Builds up as **snow, ice or glaciers**",
+                "Melts when temperatures rise"
+              ]
+            },
+            {
+              "etiqueta": "🌊 Surface run-off",
+              "titulo": "Over the ground",
+              "puntos": [
+                "Flows across the ground into rivers, lakes and oceans",
+                "Carries soil → rivers become **silted up and blocked**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Key words",
+            "items": [
+              "atmosphere",
+              "water cycle",
+              "water vapour",
+              "precipitation",
+              "transpiration",
+              "groundwater",
+              "open water",
+              "surface run-off"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Water cycle",
+          "r": "The continuous system that recycles water between the land, the sea and the atmosphere."
+        },
+        {
+          "p": "Atmosphere",
+          "r": "The air around the Earth."
+        },
+        {
+          "p": "Precipitation",
+          "r": "Water falling from clouds to the Earth, e.g. rain or snow."
+        },
+        {
+          "p": "Transpiration",
+          "r": "Water vapour given off by plants."
+        },
+        {
+          "p": "Groundwater",
+          "r": "Water that soaks into the soil and rocks."
+        },
+        {
+          "p": "Open water",
+          "r": "Large lakes and the oceans."
+        },
+        {
+          "p": "Surface run-off",
+          "r": "Water that flows across the surface of the land into rivers, lakes and oceans."
+        },
+        {
+          "p": "How much of our body is water?",
+          "r": "At least 60 %."
+        },
+        {
+          "p": "How long has the Earth been recycling water?",
+          "r": "More than four billion years."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the water cycle?",
+          "opciones": [
+            "A machine that cleans water",
+            "The way water freezes in winter",
+            "Water flowing only in rivers",
+            "The continuous recycling of water on Earth"
+          ],
+          "correcta": 3,
+          "explicacion": "Water is recycled over and over in the water cycle."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "At least how much of our bodies is water?",
+          "opciones": [
+            "60 %",
+            "10 %",
+            "30 %",
+            "90 %"
+          ],
+          "correcta": 0,
+          "explicacion": "The book says at least 60 %."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "For how long has the Earth been recycling water?",
+          "opciones": [
+            "one million years",
+            "since the Romans",
+            "more than four billion years",
+            "about two thousand years"
+          ],
+          "correcta": 2,
+          "explicacion": "More than four billion years."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is precipitation?",
+          "opciones": [
+            "Water vapour from plants",
+            "Water flowing over the ground",
+            "Water falling to the Earth, such as rain or snow",
+            "Water soaking into rocks"
+          ],
+          "correcta": 2,
+          "explicacion": "Precipitation is water falling from the clouds."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is transpiration?",
+          "opciones": [
+            "Clouds forming",
+            "Water vapour given off by plants",
+            "Rain falling on mountains",
+            "Water flowing under the ground"
+          ],
+          "correcta": 1,
+          "explicacion": "Transpiration is water vapour coming from plants."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In the water cycle, how do clouds form?",
+          "opciones": [
+            "Rivers flow uphill",
+            "Water vapour condenses",
+            "Water freezes on the ground",
+            "Rocks give off steam"
+          ],
+          "correcta": 1,
+          "explicacion": "Water vapour cools and condenses to form clouds."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Water that soaks into the soil and rocks is called…",
+          "opciones": [
+            "surface run-off",
+            "open water",
+            "water vapour",
+            "groundwater"
+          ],
+          "correcta": 3,
+          "explicacion": "That water is groundwater."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Water that flows across the surface of the land into rivers is called…",
+          "opciones": [
+            "precipitation",
+            "surface run-off",
+            "groundwater",
+            "transpiration"
+          ],
+          "correcta": 1,
+          "explicacion": "It is surface run-off."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What can happen when there is a lot of surface run-off?",
+          "opciones": [
+            "It stops raining",
+            "Plants grow faster",
+            "Soil is carried into rivers, which can become silted up and blocked",
+            "Rivers dry up completely"
+          ],
+          "correcta": 2,
+          "explicacion": "Run-off carries soil off the land into rivers."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'open water' mean?",
+          "opciones": [
+            "Water vapour in the air",
+            "Water in the soil",
+            "Large lakes and the oceans",
+            "Water in a tap"
+          ],
+          "correcta": 2,
+          "explicacion": "Open water is large lakes and the oceans."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In cold climates, precipitation may build up as…",
+          "opciones": [
+            "snow, ice or glaciers",
+            "groundwater only",
+            "steam",
+            "surface run-off only"
+          ],
+          "correcta": 0,
+          "explicacion": "In cold places it builds up as snow, ice or glaciers."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "We use the same water that the ancient Greeks and Romans used.",
+          "correcta": true,
+          "explicacion": "Water is recycled again and again."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Rain that falls on plants always stays on the leaves.",
+          "correcta": false,
+          "explicacion": "It may evaporate from the leaves or trickle down to the ground."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Use particle theory to explain how a pool of water on the road disappears.",
+          "pista": "Think about energy and the particles at the surface.",
+          "claves": [
+            "evaporat",
+            "energy",
+            "escape",
+            "gas",
+            "vapour",
+            "heat",
+            "warm"
+          ],
+          "minimo": 2,
+          "modelo": "Heat from the Sun gives some water particles enough energy to escape as a gas: the water evaporates into water vapour.",
+          "explicacion": "Particles that gain energy break away from the liquid: evaporation."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name TWO stages of the water cycle that put water vapour into the air.",
+          "claves": [
+            "evaporat",
+            "transpir"
+          ],
+          "minimo": 2,
+          "modelo": "Evaporation and transpiration.",
+          "explicacion": "Evaporation from the sea and transpiration from plants add water vapour."
+        }
+      ]
+    },
+    {
+      "id": "atoms-elements-periodic-table",
+      "titulo": "2.5 · Atoms, elements and the Periodic Table",
+      "resumen": [
+        "## Atoms",
+        "Over 2000 years ago the Greek philosopher **Democritus** suggested that everything is made of tiny pieces that cannot be cut up any more. He called them **atoms** ('cannot be divided'). Today special microscopes can show atoms, for example in carbon **nanotubes** (nano = very, very small).",
+        "",
+        "## Elements",
+        "- **94** types of atom occur naturally; another **24** have been made in laboratories (**118** known elements).",
+        "- An **element** is a substance made of just **one kind of atom**: carbon, gold, silver.",
+        "- Each type of atom has different properties, so elements have different properties.",
+        "- In some elements (e.g. **neon**, a gas) atoms move freely; in most (e.g. **gold** and other metals) they are packed closely; in a few, atoms join into small particles: **oxygen** (2 atoms), **sulfur** (8 atoms).",
+        "",
+        "## The Periodic Table",
+        "- Rows are **periods**; columns are **groups**. Across a period, atoms get heavier: hydrogen is the lightest, then helium, then lithium.",
+        "- Elements with similar properties are close together: **metals** (yellow boxes) and **non-metals** (blue boxes).",
+        "- Each element has a **symbol**: first letter (O), first letter + another (He), or from another language (Na from Latin *natrium*). First letter **upper case**, second **lower case**."
+      ],
+      "notas": [
+        {
+          "seccion": "Atoms and elements",
+          "tarjetas": [
+            {
+              "etiqueta": "⚛️ Atom",
+              "titulo": "Cannot be divided",
+              "puntos": [
+                "Idea from **Democritus**, over 2000 years ago",
+                "Atom means **'cannot be divided'**",
+                "Now seen with special microscopes (carbon **nanotubes**)"
+              ]
+            },
+            {
+              "etiqueta": "🔢 Numbers",
+              "titulo": "How many?",
+              "puntos": [
+                "**94** natural types of atom",
+                "**24** made in laboratories",
+                "**118** known elements"
+              ]
+            },
+            {
+              "etiqueta": "💍 Element",
+              "titulo": "One kind of atom",
+              "puntos": [
+                "Made of only **one kind of atom**",
+                "e.g. carbon, gold, silver",
+                "Different atoms → different properties"
+              ]
+            },
+            {
+              "etiqueta": "🔗 Atoms together",
+              "titulo": "Three ways",
+              "puntos": [
+                "**Neon** (gas): atoms move freely",
+                "**Gold**, metals: atoms packed closely",
+                "**Oxygen**: 2 atoms per particle; **sulfur**: 8"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "The Periodic Table",
+          "tarjetas": [
+            {
+              "etiqueta": "➡️ Periods",
+              "titulo": "Rows",
+              "puntos": [
+                "Read left to right: atoms get **heavier**",
+                "Hydrogen is lightest, then helium, lithium…",
+                "Heaviest of the first 20: **calcium**"
+              ]
+            },
+            {
+              "etiqueta": "⬇️ Groups",
+              "titulo": "Columns",
+              "puntos": [
+                "Elements with **similar properties** are close together",
+                "e.g. helium, neon, argon in the same group"
+              ]
+            },
+            {
+              "etiqueta": "🟨🟦 Metals / non-metals",
+              "titulo": "Colours in the book",
+              "puntos": [
+                "**Metals** in yellow: Li, Be, Na, Mg, Al, K, Ca",
+                "**Non-metals** in blue: H, He, C, N, O…"
+              ]
+            },
+            {
+              "etiqueta": "🔤 Symbols",
+              "titulo": "Shorthand",
+              "puntos": [
+                "First letter: **O** oxygen",
+                "First letter + another: **He** helium",
+                "Another language: **Na** sodium (*natrium*)",
+                "First letter capital, second small: **Co** ≠ CO"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "First 20 elements",
+            "items": [
+              "H hydrogen",
+              "He helium",
+              "Li lithium",
+              "Be beryllium",
+              "B boron",
+              "C carbon",
+              "N nitrogen",
+              "O oxygen",
+              "F fluorine",
+              "Ne neon",
+              "Na sodium",
+              "Mg magnesium",
+              "Al aluminium",
+              "Si silicon",
+              "P phosphorus",
+              "S sulfur",
+              "Cl chlorine",
+              "Ar argon",
+              "K potassium",
+              "Ca calcium"
+            ]
+          }
+        },
+        {
+          "seccion": "Other symbols in the book",
+          "tarjetas": [
+            {
+              "etiqueta": "🔩 More metals",
+              "titulo": "Learn these too",
+              "puntos": [
+                "**Fe** iron",
+                "**Cu** copper",
+                "**Zn** zinc",
+                "**Pb** lead"
+              ]
+            },
+            {
+              "etiqueta": "🧴 Non-metal",
+              "titulo": "One more",
+              "puntos": [
+                "**Br** bromine"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Atom",
+          "r": "The tiny particle everything is made of; the word means 'cannot be divided'."
+        },
+        {
+          "p": "Who first suggested atoms?",
+          "r": "Democritus, a Greek philosopher, over 2000 years ago."
+        },
+        {
+          "p": "Element",
+          "r": "A substance made of only one kind of atom."
+        },
+        {
+          "p": "How many elements are known?",
+          "r": "118 (94 natural and 24 made in laboratories)."
+        },
+        {
+          "p": "Period",
+          "r": "A row of the Periodic Table."
+        },
+        {
+          "p": "Group",
+          "r": "A column of the Periodic Table."
+        },
+        {
+          "p": "Na",
+          "r": "Sodium (from the Latin 'natrium')."
+        },
+        {
+          "p": "K",
+          "r": "Potassium"
+        },
+        {
+          "p": "Mg",
+          "r": "Magnesium"
+        },
+        {
+          "p": "Cl",
+          "r": "Chlorine"
+        },
+        {
+          "p": "Fe",
+          "r": "Iron"
+        },
+        {
+          "p": "Which element has the lightest atoms?",
+          "r": "Hydrogen."
+        },
+        {
+          "p": "Nano",
+          "r": "Very, very small."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is an element?",
+          "opciones": [
+            "A substance made of only one kind of atom",
+            "A substance made of two kinds of atom bonded together",
+            "A mixture of gases",
+            "Any liquid"
+          ],
+          "correcta": 0,
+          "explicacion": "An element contains only one kind of atom."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does the word 'atom' mean?",
+          "opciones": [
+            "very, very small",
+            "tiny ball",
+            "made of metal",
+            "cannot be divided"
+          ],
+          "correcta": 3,
+          "explicacion": "Democritus called them atoms, meaning 'cannot be divided'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "If there are 94 different kinds of naturally occurring atom, how many naturally occurring elements are there?",
+          "opciones": [
+            "103",
+            "94",
+            "118",
+            "24"
+          ],
+          "correcta": 1,
+          "explicacion": "Each kind of atom makes one element, so there are 94."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many elements are known in the full Periodic Table?",
+          "opciones": [
+            "20",
+            "24",
+            "118",
+            "94"
+          ],
+          "correcta": 2,
+          "explicacion": "118: 94 natural and 24 made by people."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What are the rows of the Periodic Table called?",
+          "opciones": [
+            "columns",
+            "periods",
+            "groups",
+            "symbols"
+          ],
+          "correcta": 1,
+          "explicacion": "Rows are periods; columns are groups."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What are the columns of the Periodic Table called?",
+          "opciones": [
+            "periods",
+            "rows",
+            "formulae",
+            "groups"
+          ],
+          "correcta": 3,
+          "explicacion": "Columns are groups."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which element has atoms with the smallest mass?",
+          "opciones": [
+            "lithium",
+            "oxygen",
+            "hydrogen",
+            "helium"
+          ],
+          "correcta": 2,
+          "explicacion": "Hydrogen atoms have the smallest mass."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Of the first 20 elements, which has atoms with the greatest mass?",
+          "opciones": [
+            "potassium",
+            "argon",
+            "hydrogen",
+            "calcium"
+          ],
+          "correcta": 3,
+          "explicacion": "Calcium is the 20th element, the last and heaviest of the first 20."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the symbol for sodium?",
+          "opciones": [
+            "S",
+            "Sd",
+            "Na",
+            "So"
+          ],
+          "correcta": 2,
+          "explicacion": "Na comes from its old Latin name 'natrium'."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the symbol for potassium?",
+          "opciones": [
+            "Po",
+            "Pt",
+            "K",
+            "P"
+          ],
+          "correcta": 2,
+          "explicacion": "Potassium's symbol is K; P is phosphorus."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which element has the symbol Mg?",
+          "opciones": [
+            "manganese",
+            "mercury",
+            "magnet",
+            "magnesium"
+          ],
+          "correcta": 3,
+          "explicacion": "Mg is magnesium."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which element has the symbol Be?",
+          "opciones": [
+            "bromine",
+            "barium",
+            "beryllium",
+            "boron"
+          ],
+          "correcta": 2,
+          "explicacion": "Be is beryllium; boron is B."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is written correctly as a chemical symbol?",
+          "opciones": [
+            "CL",
+            "cl",
+            "cL",
+            "Cl"
+          ],
+          "correcta": 3,
+          "explicacion": "The first letter is upper case and the second is lower case."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the symbol for iron?",
+          "opciones": [
+            "In",
+            "Fe",
+            "I",
+            "Ir"
+          ],
+          "correcta": 1,
+          "explicacion": "The book shows iron as Fe."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which element is in the same period as magnesium?",
+          "opciones": [
+            "beryllium",
+            "calcium",
+            "helium",
+            "aluminium"
+          ],
+          "correcta": 3,
+          "explicacion": "Magnesium's row is Na, Mg, Al, Si, P, S, Cl, Ar."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In which element do the atoms join in pairs to form small particles?",
+          "opciones": [
+            "oxygen",
+            "neon",
+            "gold",
+            "silver"
+          ],
+          "correcta": 0,
+          "explicacion": "An oxygen particle is made of two oxygen atoms."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is a metal?",
+          "opciones": [
+            "calcium",
+            "carbon",
+            "nitrogen",
+            "sulfur"
+          ],
+          "correcta": 0,
+          "explicacion": "Calcium is in a yellow (metal) box; the others are non-metals."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In the Periodic Table, elements with similar properties are close together.",
+          "correcta": true,
+          "explicacion": "The table is organised that way, e.g. metals together."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A sulfur particle is made from two sulfur atoms.",
+          "correcta": false,
+          "explicacion": "A sulfur particle is made from eight sulfur atoms."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What are the names of the elements with the symbols Li and N?",
+          "claves": [
+            "lithium",
+            "nitrogen"
+          ],
+          "minimo": 2,
+          "modelo": "Li is lithium and N is nitrogen.",
+          "explicacion": "Both are in the first 20 elements."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which pair of symbols are elements in the same group as helium?",
+          "opciones": [
+            "Ne and Ar",
+            "H and Li",
+            "N and O",
+            "Na and K"
+          ],
+          "correcta": 0,
+          "explicacion": "Neon and argon are in the same column as helium."
+        }
+      ]
+    },
+    {
+      "id": "compounds-formulae",
+      "titulo": "2.6 · Compounds and formulae",
+      "resumen": [
+        "## Compounds",
+        "- A **compound** is made of more than one type of atom joined tightly together. Joining tightly is called **bonding**.",
+        "- Sodium + chlorine → **sodium chloride** (common salt).",
+        "- A compound has totally **new properties**: you eat salt, but you would not want to eat sodium or chlorine.",
+        "",
+        "## Naming compounds",
+        "- If there is a **metal**, its name comes **first**.",
+        "- The **non-metal** name usually changes: sodium chlor**ide**, not sodium chlorine. Two elements → often ends in **-ide**.",
+        "- Two elements plus **oxygen** → often ends in **-ate**: calcium carbon**ate** (calcium, carbon, oxygen).",
+        "- **Di** = two, **mon/mono** = one: carbon **di**oxide (CO₂), carbon **mon**oxide (CO).",
+        "",
+        "## Formulae",
+        "Every compound has a **formula** (plural **formulae**) made of the symbols of its elements. The small number below and to the right says how many atoms of that element; no number means one.",
+        "- CaO, CO₂, CO, H₂S, CaCO₃, NaOH",
+        "- Careful: **C** is carbon, **Ca** is calcium.",
+        "- In a **particle diagram**, different kinds of atom bonded together = compound (H₂O, CO₂, CH₄); O₂ is an element."
+      ],
+      "notas": [
+        {
+          "seccion": "Elements vs compounds",
+          "tarjetas": [
+            {
+              "etiqueta": "🔗 Compound",
+              "titulo": "Different atoms bonded",
+              "puntos": [
+                "Two or more **different** kinds of atom",
+                "Joined tightly: **bonding**",
+                "e.g. **sodium chloride**"
+              ]
+            },
+            {
+              "etiqueta": "🧂 New properties",
+              "titulo": "Nothing like the elements",
+              "puntos": [
+                "**Sodium** (metal) + **chlorine** (gas)",
+                "→ sodium chloride = **common salt**",
+                "You eat salt, but not sodium or chlorine!"
+              ]
+            },
+            {
+              "etiqueta": "🔍 Particle diagrams",
+              "titulo": "Spot a compound",
+              "puntos": [
+                "Different atoms bonded → **compound**: H₂O, CO₂, CH₄",
+                "Same atoms only → **element**: O₂"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Naming compounds",
+          "tarjetas": [
+            {
+              "etiqueta": "1️⃣ Metal first",
+              "titulo": "Order",
+              "puntos": [
+                "The **metal** goes first: **calcium** sulfide, not sulfur calcium"
+              ]
+            },
+            {
+              "etiqueta": "✂️ -ide",
+              "titulo": "Two elements",
+              "puntos": [
+                "Non-metal name changes",
+                "sodium + chlorine → sodium chlor**ide**",
+                "magnesium + oxygen → magnesium ox**ide**"
+              ]
+            },
+            {
+              "etiqueta": "➕ -ate",
+              "titulo": "Two elements + oxygen",
+              "puntos": [
+                "calcium carbon**ate** = calcium, carbon, oxygen",
+                "copper sulf**ate** = copper, sulfur, oxygen",
+                "calcium nitr**ate** = calcium, nitrogen, oxygen"
+              ]
+            },
+            {
+              "etiqueta": "✌️ di / mono",
+              "titulo": "How many",
+              "puntos": [
+                "**di** = two: carbon dioxide CO₂",
+                "**mon / mono** = one: carbon monoxide CO"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Formulae",
+          "tarjetas": [
+            {
+              "etiqueta": "🔢 Small numbers",
+              "titulo": "Count the atoms",
+              "puntos": [
+                "Number below and right = how many atoms",
+                "**No number** = one atom",
+                "H₂S = 2 hydrogen + 1 sulfur"
+              ]
+            },
+            {
+              "etiqueta": "⚠️ Careful",
+              "titulo": "C or Ca?",
+              "puntos": [
+                "**C** = carbon",
+                "**Ca** = calcium",
+                "CaCO₃ = 1 Ca, 1 C, 3 O"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Six formulae",
+            "items": [
+              "CaO calcium oxide",
+              "CO₂ carbon dioxide",
+              "CO carbon monoxide",
+              "H₂S hydrogen sulfide",
+              "CaCO₃ calcium carbonate",
+              "NaOH sodium hydroxide"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Compound",
+          "r": "A substance made of two or more different kinds of atom bonded tightly together."
+        },
+        {
+          "p": "Bonding",
+          "r": "Atoms joining tightly together."
+        },
+        {
+          "p": "Formula",
+          "r": "The symbols of the elements in a compound, with numbers showing how many atoms (plural: formulae)."
+        },
+        {
+          "p": "Sodium chloride",
+          "r": "Common salt: sodium bonded with chlorine (NaCl)."
+        },
+        {
+          "p": "What does 'di' mean?",
+          "r": "Two (carbon dioxide has two oxygen atoms)."
+        },
+        {
+          "p": "What does 'mono' mean?",
+          "r": "One (carbon monoxide has one oxygen atom)."
+        },
+        {
+          "p": "-ide ending",
+          "r": "Usually a compound of two elements, e.g. magnesium oxide."
+        },
+        {
+          "p": "-ate ending",
+          "r": "Two elements plus oxygen, e.g. calcium carbonate."
+        },
+        {
+          "p": "CO₂",
+          "r": "Carbon dioxide: 1 carbon atom + 2 oxygen atoms."
+        },
+        {
+          "p": "H₂S",
+          "r": "Hydrogen sulfide: 2 hydrogen atoms + 1 sulfur atom."
+        },
+        {
+          "p": "NaOH",
+          "r": "Sodium hydroxide: 1 sodium, 1 oxygen, 1 hydrogen."
+        },
+        {
+          "p": "CaCO₃",
+          "r": "Calcium carbonate: 1 calcium, 1 carbon, 3 oxygen."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a compound?",
+          "opciones": [
+            "A single atom",
+            "Two or more different kinds of atom bonded tightly together",
+            "A substance made of one kind of atom",
+            "Different substances just mixed together"
+          ],
+          "correcta": 1,
+          "explicacion": "In a compound, different atoms are bonded."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the chemical term for atoms joining tightly together?",
+          "opciones": [
+            "melting",
+            "dissolving",
+            "bonding",
+            "mixing"
+          ],
+          "correcta": 2,
+          "explicacion": "Atoms joining tightly is called bonding."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which two elements are combined in sodium chloride?",
+          "opciones": [
+            "sodium and chlorine",
+            "sodium and carbon",
+            "sulfur and chlorine",
+            "sodium and oxygen"
+          ],
+          "correcta": 0,
+          "explicacion": "Sodium chloride is sodium bonded with chlorine."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the everyday name for sodium chloride?",
+          "opciones": [
+            "common salt",
+            "sugar",
+            "chalk",
+            "baking soda"
+          ],
+          "correcta": 0,
+          "explicacion": "Sodium chloride is common salt."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which two elements are combined in magnesium oxide?",
+          "opciones": [
+            "magnesium and oxygen",
+            "manganese and oxygen",
+            "magnesium and hydrogen",
+            "magnesium and sulfur"
+          ],
+          "correcta": 0,
+          "explicacion": "-ide with oxide means magnesium + oxygen."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A student called a compound of calcium and sulfur 'sulfur calcium'. What is the correct name?",
+          "opciones": [
+            "calcium sulfide",
+            "calcium sulfate",
+            "sulfur calcide",
+            "calcium sulfur"
+          ],
+          "correcta": 0,
+          "explicacion": "The metal comes first and the non-metal changes to -ide."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which three elements are combined in calcium nitrate?",
+          "opciones": [
+            "calcium, nitrogen and oxygen",
+            "calcium, nitrogen and hydrogen",
+            "carbon, nitrogen and oxygen",
+            "calcium and nitrogen only"
+          ],
+          "correcta": 0,
+          "explicacion": "-ate means two elements plus oxygen."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which three elements are in copper sulfate?",
+          "opciones": [
+            "copper, sodium and oxygen",
+            "carbon, sulfur and oxygen",
+            "copper and sulfur only",
+            "copper, sulfur and oxygen"
+          ],
+          "correcta": 3,
+          "explicacion": "The book says copper sulfate is made of copper, sulfur and oxygen."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the formula for carbon dioxide?",
+          "opciones": [
+            "CO₂",
+            "CO",
+            "C₂O",
+            "CaO"
+          ],
+          "correcta": 0,
+          "explicacion": "Di means two: one carbon and two oxygen atoms."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many atoms of each element are in a particle of H₂S?",
+          "opciones": [
+            "2 hydrogen and 1 sulfur",
+            "1 hydrogen and 2 sulfur",
+            "2 hydrogen and 2 sulfur",
+            "1 hydrogen and 1 sulfur"
+          ],
+          "correcta": 0,
+          "explicacion": "The 2 belongs to H; no number after S means one."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does the formula CaO show?",
+          "opciones": [
+            "two calcium atoms and one oxygen atom",
+            "one calcium atom bonded with one oxygen atom",
+            "one carbon atom and one oxygen atom",
+            "carbon, aluminium and oxygen"
+          ],
+          "correcta": 1,
+          "explicacion": "Ca is calcium (not carbon) and there are no small numbers."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is the formula for carbon monoxide?",
+          "opciones": [
+            "CO",
+            "CO₂",
+            "Co",
+            "CaO"
+          ],
+          "correcta": 0,
+          "explicacion": "Mono means one oxygen atom: CO."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these particles is an element, not a compound?",
+          "opciones": [
+            "H₂O",
+            "CO₂",
+            "CH₄",
+            "O₂"
+          ],
+          "correcta": 3,
+          "explicacion": "O₂ contains only oxygen atoms, so it is an element."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many atoms are there in one particle of CaCO₃?",
+          "opciones": [
+            "6",
+            "5",
+            "3",
+            "4"
+          ],
+          "correcta": 1,
+          "explicacion": "1 calcium + 1 carbon + 3 oxygen = 5 atoms."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A compound keeps the properties of the elements it is made from.",
+          "correcta": false,
+          "explicacion": "A compound has totally new properties."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "When two elements form a compound, the name often ends in '-ide'.",
+          "correcta": true,
+          "explicacion": "For example sodium chloride or magnesium oxide."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Describe TWO ways in which sodium chloride is different from sodium.",
+          "pista": "Think about eating them and whether each is an element or compound.",
+          "claves": [
+            "eat",
+            "salt",
+            "safe",
+            "white",
+            "crystal",
+            "metal",
+            "compound",
+            "element",
+            "dangerous",
+            "poison"
+          ],
+          "minimo": 2,
+          "modelo": "Sodium chloride is a compound you can safely eat (common salt); sodium is a metal element you would not want to eat.",
+          "explicacion": "A compound has completely new properties."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What does the small number in a formula, such as the 2 in CO₂, tell you?",
+          "claves": [
+            "how many",
+            "number of atom",
+            "atoms of",
+            "two oxygen",
+            "2 oxygen"
+          ],
+          "modelo": "It tells you how many atoms of that element are in the particle: CO₂ has two oxygen atoms.",
+          "explicacion": "The number below and to the right counts the atoms of the element before it."
+        }
+      ]
+    },
+    {
+      "id": "compounds-mixtures",
+      "titulo": "2.7 · Compounds and mixtures",
+      "resumen": [
+        "## Iron and sulfur",
+        "- **Iron** is a metal: hard, grey, conducts electricity and is **magnetic**. **Sulfur** is a non-metal: yellow, brittle, does not conduct electricity and is not magnetic.",
+        "- **Mixture**: stir iron **filings** and powdered sulfur together. Both keep their properties, so a **magnet** can separate the iron.",
+        "- **Compound**: heat the mixture until it glows. The iron and sulfur combine to form **iron sulfide**. A magnet can no longer pull the iron out.",
+        "- Safety: safety glasses, don't touch your face, mineral wool in the tube, well-ventilated room.",
+        "",
+        "## Mixtures",
+        "- **Pure** means containing only a single substance (pure water is only water).",
+        "- A **mixture** is not pure: different kinds of particle mixed, not bonded. They can be elements, compounds or both, and solids, liquids or gases.",
+        "- **Air** is a mixture: about **78 % nitrogen**, **21 % oxygen**, 1 % carbon dioxide, argon, water vapour and other gases.",
+        "- The **composition** of air varies: water vapour changes with the weather; **natural emissions** (animals and plants respiring) add carbon dioxide; plants making food remove it; burning **fossil fuels** adds it. Long ago there was much less oxygen.",
+        "- **Mineral water** is a mixture: **minerals** dissolved in water (a **solution**), about 0.5 g in a litre."
+      ],
+      "notas": [
+        {
+          "seccion": "Iron + sulfur",
+          "tarjetas": [
+            {
+              "etiqueta": "🧲 Iron",
+              "titulo": "Metal",
+              "puntos": [
+                "Hard, grey",
+                "Conducts electricity",
+                "**Magnetic**"
+              ]
+            },
+            {
+              "etiqueta": "🟡 Sulfur",
+              "titulo": "Non-metal",
+              "puntos": [
+                "Yellow, brittle",
+                "Does **not** conduct electricity",
+                "Not magnetic"
+              ]
+            },
+            {
+              "etiqueta": "🥣 Mixture",
+              "titulo": "Just stirred",
+              "puntos": [
+                "Iron **filings** + powdered sulfur in a beaker",
+                "Both keep their properties",
+                "A **magnet** pulls the iron out"
+              ]
+            },
+            {
+              "etiqueta": "🔥 Compound",
+              "titulo": "Heated",
+              "puntos": [
+                "Heat until it **glows** → **iron sulfide**",
+                "Totally new substance",
+                "A magnet **can't** separate the iron"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Mixtures",
+          "tarjetas": [
+            {
+              "etiqueta": "💎 Pure",
+              "titulo": "One substance",
+              "puntos": [
+                "Contains only a **single substance**",
+                "Pure water = only water"
+              ]
+            },
+            {
+              "etiqueta": "🥗 Mixture",
+              "titulo": "Not pure",
+              "puntos": [
+                "Different particles **mixed**, not bonded",
+                "Elements, compounds or both",
+                "Can be solid, liquid or gas"
+              ]
+            },
+            {
+              "etiqueta": "💨 Air",
+              "titulo": "A mixture of gases",
+              "puntos": [
+                "**78 %** nitrogen",
+                "**21 %** oxygen",
+                "**1 %** carbon dioxide, argon, water vapour, others"
+              ]
+            },
+            {
+              "etiqueta": "🍃 Changing air",
+              "titulo": "Composition varies",
+              "puntos": [
+                "Water vapour changes with the **weather**",
+                "Respiring animals and plants add CO₂ (**natural emissions**)",
+                "Plants making food remove CO₂",
+                "Burning **fossil fuels** adds CO₂"
+              ]
+            },
+            {
+              "etiqueta": "🥤 Mineral water",
+              "titulo": "A solution",
+              "puntos": [
+                "**Minerals** dissolved in water",
+                "About **0.5 g** of minerals per litre",
+                "e.g. calcium, magnesium, sodium"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Key words",
+            "items": [
+              "mixture",
+              "pure",
+              "filings",
+              "composition",
+              "natural emissions",
+              "mineral",
+              "solution"
+            ]
+          }
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Mixture",
+          "r": "Different substances mixed together but not bonded; it is not pure."
+        },
+        {
+          "p": "Pure",
+          "r": "Containing only a single substance."
+        },
+        {
+          "p": "Filings",
+          "r": "Tiny pieces of metal, e.g. iron filings."
+        },
+        {
+          "p": "How can you separate iron from an iron and sulfur mixture?",
+          "r": "With a magnet."
+        },
+        {
+          "p": "What forms when iron and sulfur are heated together?",
+          "r": "Iron sulfide, a compound."
+        },
+        {
+          "p": "Composition of air",
+          "r": "About 78 % nitrogen, 21 % oxygen, 1 % carbon dioxide, argon, water vapour and other gases."
+        },
+        {
+          "p": "Natural emissions",
+          "r": "Gases given out naturally, e.g. carbon dioxide when animals and plants respire."
+        },
+        {
+          "p": "Composition",
+          "r": "What something is made of and in what amounts."
+        },
+        {
+          "p": "Mineral water",
+          "r": "A mixture (solution) of water with minerals dissolved in it."
+        },
+        {
+          "p": "Properties of sulfur",
+          "r": "Yellow, brittle, does not conduct electricity, not magnetic."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Iron filings and powdered sulfur are stirred together. What have you made?",
+          "opciones": [
+            "an element",
+            "a new metal",
+            "a mixture",
+            "a compound"
+          ],
+          "correcta": 2,
+          "explicacion": "They are only mixed; both keep their properties."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How can you separate the iron from a mixture of iron and sulfur?",
+          "opciones": [
+            "Add water and boil it",
+            "You cannot separate it",
+            "Use a magnet",
+            "Heat it"
+          ],
+          "correcta": 2,
+          "explicacion": "Iron is magnetic, so a magnet pulls it out."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What forms when a mixture of iron and sulfur is heated until it glows?",
+          "opciones": [
+            "iron sulfide",
+            "iron sulfate",
+            "iron oxide",
+            "sulfur iron"
+          ],
+          "correcta": 0,
+          "explicacion": "The iron and sulfur combine to form the compound iron sulfide."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Can a magnet remove the iron from iron sulfide?",
+          "opciones": [
+            "No, because iron sulfide is a liquid",
+            "No, because the iron is bonded in a new compound",
+            "Yes, iron is always magnetic",
+            "Yes, but only when it is hot"
+          ],
+          "correcta": 1,
+          "explicacion": "In a compound the iron has lost its own properties."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is a property of sulfur?",
+          "opciones": [
+            "conducts electricity",
+            "hard and shiny",
+            "yellow and brittle",
+            "grey and magnetic"
+          ],
+          "correcta": 2,
+          "explicacion": "Sulfur is yellow, brittle, non-magnetic and does not conduct electricity."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'pure' mean in science?",
+          "opciones": [
+            "Made of metal",
+            "Has no particles",
+            "Contains only a single substance",
+            "Very clean and safe to drink"
+          ],
+          "correcta": 2,
+          "explicacion": "Pure means only one substance."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which gas makes up most of the air?",
+          "opciones": [
+            "nitrogen",
+            "oxygen",
+            "carbon dioxide",
+            "argon"
+          ],
+          "correcta": 0,
+          "explicacion": "Air is about 78 % nitrogen."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "About how much of the air is oxygen?",
+          "opciones": [
+            "50 %",
+            "21 %",
+            "78 %",
+            "1 %"
+          ],
+          "correcta": 1,
+          "explicacion": "Oxygen is about 21 % of the air."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why does the composition of air keep changing?",
+          "opciones": [
+            "The amount of water vapour changes with the weather",
+            "Nitrogen turns into oxygen",
+            "Air is a compound",
+            "The Sun adds new gases every day"
+          ],
+          "correcta": 0,
+          "explicacion": "Water vapour, carbon dioxide and other gases change."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which human activity increases the carbon dioxide in the air?",
+          "opciones": [
+            "recycling paper",
+            "burning fossil fuels",
+            "planting trees",
+            "drinking water"
+          ],
+          "correcta": 1,
+          "explicacion": "Burning fossil fuels gives out carbon dioxide."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How do plants remove carbon dioxide from the air?",
+          "opciones": [
+            "They use it to make food",
+            "They breathe it out",
+            "They turn it into nitrogen",
+            "They freeze it"
+          ],
+          "correcta": 0,
+          "explicacion": "Plants use carbon dioxide when they make food."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is mineral water a mixture?",
+          "opciones": [
+            "It contains a magnet",
+            "It has minerals dissolved in the water",
+            "It is made of one substance",
+            "It is a compound of hydrogen and oxygen only"
+          ],
+          "correcta": 1,
+          "explicacion": "The bottle contains water and other substances (minerals)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "About how many grams of minerals may be dissolved in a litre of mineral water?",
+          "opciones": [
+            "5 kg",
+            "500 g",
+            "0.5 g",
+            "50 g"
+          ],
+          "correcta": 2,
+          "explicacion": "The book says about 0.5 g."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A mixture can contain elements, compounds or both.",
+          "correcta": true,
+          "explicacion": "Air, for example, has elements (nitrogen, oxygen) and compounds (carbon dioxide, water)."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A long time ago there was much more oxygen in the atmosphere than today.",
+          "correcta": false,
+          "explicacion": "At one time there was much less oxygen."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Give TWO differences between a mixture of iron and sulfur and the compound iron sulfide.",
+          "pista": "Think about the magnet test and about the properties.",
+          "claves": [
+            "magnet",
+            "bonded",
+            "bond",
+            "new propert",
+            "heat",
+            "glow",
+            "separat",
+            "keep",
+            "own propert",
+            "new substance",
+            "chemical"
+          ],
+          "minimo": 2,
+          "modelo": "In the mixture the iron and sulfur keep their properties and a magnet can separate them; in iron sulfide they are bonded into a new substance and a magnet cannot separate the iron.",
+          "explicacion": "Mixtures can be separated easily; compounds have new properties."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name the TWO main gases in the air.",
+          "claves": [
+            "nitrogen",
+            "oxygen"
+          ],
+          "minimo": 2,
+          "modelo": "Nitrogen (78 %) and oxygen (21 %).",
+          "explicacion": "Together they make up 99 % of the air."
+        }
+      ]
     }
   ]
 }

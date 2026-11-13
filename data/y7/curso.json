@@ -251,6 +251,21 @@
         "words-for-effect",
         "ellipses-hyphens-verbs"
       ]
+    },
+    {
+      "id": "science-materials",
+      "asignatura": "science",
+      "titulo": "Science test · Unit 2 Materials and their structure",
+      "fecha": "2026-11-19",
+      "temas": [
+        "solids-liquids-gases",
+        "changes-of-state",
+        "explaining-changes-of-state",
+        "water-cycle",
+        "atoms-elements-periodic-table",
+        "compounds-formulae",
+        "compounds-mixtures"
+      ]
     }
   ]
 }
