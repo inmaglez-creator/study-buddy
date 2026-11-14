@@ -1962,6 +1962,8 @@
               "titulo": "Keep safe",
               "puntos": [
                 "Wear **safety spectacles**",
+                "Take care with **hot water**",
+                "**Stand up** for practical work: if you spill hot water it won't be on you",
                 "Bunsen burner on a **heat proof mat**"
               ]
             }
@@ -2223,6 +2225,30 @@
           "minimo": 2,
           "modelo": "Read from the bottom of the meniscus and keep your eye level with it.",
           "explicacion": "Both steps stop you reading the scale wrongly."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why should you always stand up to carry out practical work with hot water?",
+          "opciones": [
+            "So you can see the thermometer better",
+            "Because the Bunsen burner is tall",
+            "So the water heats faster",
+            "If you spill hot water it will not be on you"
+          ],
+          "correcta": 3,
+          "explicacion": "Standing up means spilt hot water falls away from your lap."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is NOT on the equipment list for heating water?",
+          "opciones": [
+            "gauze",
+            "magnet",
+            "Bunsen burner",
+            "tripod"
+          ],
+          "correcta": 1,
+          "explicacion": "The list is beaker, Bunsen burner, clamp stand, gauze, measuring cylinder, thermometer and tripod."
         }
       ]
     },
@@ -3294,6 +3320,36 @@
           ],
           "correcta": 0,
           "explicacion": "Neon and argon are in the same column as helium."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Democritus said that if you kept cutting a substance into smaller pieces you would end up with…",
+          "opciones": [
+            "a different element",
+            "a very small piece that could not be cut up any more",
+            "nothing at all",
+            "a liquid"
+          ],
+          "correcta": 1,
+          "explicacion": "He called these tiny pieces of matter atoms."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which special microscopes can show some of the large kinds of atom?",
+          "opciones": [
+            "magnifying glasses",
+            "scanning tunnelling microscopes",
+            "light microscopes",
+            "telescopes"
+          ],
+          "correcta": 1,
+          "explicacion": "The book shows atoms in carbon nanotubes seen this way."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A ring made of pure silver contains only silver atoms.",
+          "correcta": true,
+          "explicacion": "Silver is an element, so it is made only of silver atoms."
         }
       ]
     },
@@ -3408,6 +3464,15 @@
                 "**Ca** = calcium",
                 "CaCO₃ = 1 Ca, 1 C, 3 O"
               ]
+            },
+            {
+              "etiqueta": "💧 Hydroxides",
+              "titulo": "-OH",
+              "puntos": [
+                "All hydroxides contain **oxygen and hydrogen**",
+                "NaOH sodium hydroxide, KOH potassium hydroxide",
+                "LiOH lithium hydroxide: **3** elements"
+              ]
             }
           ],
           "chips": {
@@ -3418,7 +3483,14 @@
               "CO carbon monoxide",
               "H₂S hydrogen sulfide",
               "CaCO₃ calcium carbonate",
-              "NaOH sodium hydroxide"
+              "NaOH sodium hydroxide",
+              "SO₂ sulfur dioxide",
+              "H₂O water",
+              "MgO magnesium oxide",
+              "NaCl sodium chloride",
+              "CaCl₂ calcium chloride",
+              "KOH potassium hydroxide",
+              "LiOH lithium hydroxide"
             ]
           }
         }
@@ -3471,6 +3543,18 @@
         {
           "p": "CaCO₃",
           "r": "Calcium carbonate: 1 calcium, 1 carbon, 3 oxygen."
+        },
+        {
+          "p": "SO₂",
+          "r": "Sulfur dioxide: 2 elements, 2 oxygen atoms for each sulfur atom."
+        },
+        {
+          "p": "CaCl₂",
+          "r": "Calcium chloride: 1 calcium atom and 2 chlorine atoms."
+        },
+        {
+          "p": "Which two elements are in all hydroxides?",
+          "r": "Oxygen and hydrogen."
         }
       ],
       "preguntas": [
@@ -3686,6 +3770,126 @@
           ],
           "modelo": "It tells you how many atoms of that element are in the particle: CO₂ has two oxygen atoms.",
           "explicacion": "The number below and to the right counts the atoms of the element before it."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is a compound?",
+          "opciones": [
+            "H₂",
+            "Al",
+            "CaCl₂",
+            "Ca"
+          ],
+          "correcta": 2,
+          "explicacion": "CaCl₂ has two different kinds of atom (calcium and chlorine) bonded together."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is H₂ an element and not a compound?",
+          "opciones": [
+            "It contains only hydrogen atoms",
+            "It has a small number 2",
+            "It is a gas",
+            "It contains two different atoms"
+          ],
+          "correcta": 0,
+          "explicacion": "Only one kind of atom means it is an element, even if two atoms are joined."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "The formula for sulfur dioxide is SO₂. How many different elements are combined in it?",
+          "opciones": [
+            "1",
+            "4",
+            "2",
+            "3"
+          ],
+          "correcta": 2,
+          "explicacion": "Sulfur and oxygen: two elements."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In SO₂, how many atoms of oxygen are combined with each atom of sulfur?",
+          "opciones": [
+            "4",
+            "2",
+            "1",
+            "3"
+          ],
+          "correcta": 1,
+          "explicacion": "The small 2 after O means two oxygen atoms."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which two elements are combined in water, H₂O?",
+          "opciones": [
+            "hydrogen and nitrogen",
+            "hydrogen and oxygen",
+            "helium and oxygen",
+            "hydrogen and osmium"
+          ],
+          "correcta": 1,
+          "explicacion": "H is hydrogen and O is oxygen."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the name of the compound CaCl₂?",
+          "opciones": [
+            "chlorine calcide",
+            "calcium chloride",
+            "carbon chloride",
+            "calcium chlorine"
+          ],
+          "correcta": 1,
+          "explicacion": "Metal first, then the non-metal ending in -ide."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the name of the compound with the formula LiOH?",
+          "opciones": [
+            "lithium oxide",
+            "lithium hydride",
+            "lead hydroxide",
+            "lithium hydroxide"
+          ],
+          "correcta": 3,
+          "explicacion": "Like NaOH (sodium hydroxide) and KOH (potassium hydroxide)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many different elements are combined in LiOH?",
+          "opciones": [
+            "4",
+            "1",
+            "3",
+            "2"
+          ],
+          "correcta": 2,
+          "explicacion": "Lithium, oxygen and hydrogen."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why is CO called carbon monoxide and not just 'carbon oxide'?",
+          "opciones": [
+            "'Mono' shows it has only one oxygen atom, unlike carbon dioxide",
+            "Because carbon is a metal",
+            "Because it is an element",
+            "Because it contains no oxygen"
+          ],
+          "correcta": 0,
+          "explicacion": "The name tells you how many oxygen atoms there are."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "NaOH is sodium hydroxide and KOH is potassium hydroxide. Which TWO elements do you think are in all hydroxides?",
+          "pista": "Look at what the two formulae have in common.",
+          "claves": [
+            "oxygen",
+            "hydrogen"
+          ],
+          "minimo": 2,
+          "modelo": "Oxygen and hydrogen.",
+          "explicacion": "Both formulae end in OH."
         }
       ]
     },
@@ -3714,8 +3918,8 @@
               "etiqueta": "🧲 Iron",
               "titulo": "Metal",
               "puntos": [
-                "Hard, grey",
-                "Conducts electricity",
+                "Hard, grey, **strong**",
+                "Conducts **heat and electricity**",
                 "**Magnetic**"
               ]
             },
@@ -3724,7 +3928,7 @@
               "titulo": "Non-metal",
               "puntos": [
                 "Yellow, brittle",
-                "Does **not** conduct electricity",
+                "Does **not** conduct heat or electricity",
                 "Not magnetic"
               ]
             },
@@ -3742,7 +3946,8 @@
               "titulo": "Heated",
               "puntos": [
                 "Heat until it **glows** → **iron sulfide**",
-                "Totally new substance",
+                "Iron and sulfur atoms **bond** together",
+                "**Not magnetic**, doesn't conduct heat or electricity",
                 "A magnet **can't** separate the iron"
               ]
             }
@@ -3850,7 +4055,11 @@
         },
         {
           "p": "Properties of sulfur",
-          "r": "Yellow, brittle, does not conduct electricity, not magnetic."
+          "r": "Yellow, brittle, does not conduct heat or electricity, not magnetic."
+        },
+        {
+          "p": "Properties of iron sulfide",
+          "r": "Not magnetic and does not conduct heat or electricity."
         }
       ],
       "preguntas": [
@@ -4053,6 +4262,36 @@
           "minimo": 2,
           "modelo": "Nitrogen (78 %) and oxygen (21 %).",
           "explicacion": "Together they make up 99 % of the air."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is a property of iron sulfide?",
+          "opciones": [
+            "It conducts electricity well",
+            "It is not magnetic",
+            "It is yellow and brittle like sulfur",
+            "It is magnetic like iron"
+          ],
+          "correcta": 1,
+          "explicacion": "Iron sulfide is not magnetic and does not conduct heat or electricity."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which is a property of iron?",
+          "opciones": [
+            "It is not magnetic",
+            "It conducts heat and electricity",
+            "It is yellow",
+            "It is brittle"
+          ],
+          "correcta": 1,
+          "explicacion": "Iron is hard, grey, strong, conducts heat and electricity and is magnetic."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The properties of a compound are completely different from those of the elements it is made from.",
+          "correcta": true,
+          "explicacion": "Iron sulfide is not magnetic, even though iron is."
         }
       ]
     }
