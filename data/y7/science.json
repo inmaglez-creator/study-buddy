@@ -2551,10 +2551,10 @@
         "Water on Earth is always moving between rivers, lakes, oceans, the **atmosphere** and the land. It is recycled over and over in a continuous system called the **water cycle**. The Earth has been recycling water for more than **four billion years**: you use the same water as the ancient Greeks and Romans.",
         "",
         "## Stages",
-        "- **Evaporation**: water from the oceans turns into water vapour.",
-        "- **Transpiration**: water vapour given off by plants.",
-        "- **Condensation**: water vapour cools and forms clouds.",
-        "- **Precipitation**: water falls back to Earth (rain, snow…).",
+        "- **Evaporation**: energy from the **Sun** heats the water in rivers, lakes and oceans. Some particles gain enough energy to break free from the forces holding them and change to a gas: **water vapour**, which moves into the atmosphere.",
+        "- **Transpiration**: water evaporates into the atmosphere from **plants**.",
+        "- **Condensation**: as water vapour rises it **cools**; its particles lose energy and change back into little droplets of water, forming **clouds**. **Air currents** move the clouds around the world.",
+        "- **Precipitation**: when the droplets become too heavy for the air to hold, they fall as **rain**; if they become colder they may form **snow, hail or sleet**.",
         "",
         "## Where the water goes",
         "- It collects in rivers and **open water** (large lakes and oceans), then evaporates again.",
@@ -2580,29 +2580,35 @@
               "etiqueta": "☀️ Evaporation",
               "titulo": "Up from the sea",
               "puntos": [
-                "Sun warms the **oceans**",
-                "Water turns into **water vapour**"
+                "Energy from the **Sun** heats rivers, lakes and oceans",
+                "Some particles gain enough energy to **break free** from the forces",
+                "They become **water vapour** and rise into the atmosphere"
               ]
             },
             {
               "etiqueta": "🌳 Transpiration",
               "titulo": "Up from plants",
               "puntos": [
-                "Water vapour given off by **plants** (from the leaves)"
+                "Water **evaporates from plants** into the atmosphere"
               ]
             },
             {
               "etiqueta": "☁️ Condensation",
               "titulo": "Clouds form",
               "puntos": [
-                "Water vapour **cools** and turns back into tiny drops of liquid"
+                "Water vapour rises and **cools**",
+                "Particles **lose energy** and move more slowly",
+                "They turn into little **droplets**: clouds",
+                "**Air currents** move clouds around the world"
               ]
             },
             {
               "etiqueta": "🌧️ Precipitation",
               "titulo": "Water falls",
               "puntos": [
-                "Rain, and snow or ice in cold places"
+                "Droplets get **too heavy** for the air to hold",
+                "They fall as **rain**",
+                "Colder drops → **snow, hail or sleet**"
               ]
             }
           ]
@@ -2677,11 +2683,11 @@
         },
         {
           "p": "Precipitation",
-          "r": "Water falling from clouds to the Earth, e.g. rain or snow."
+          "r": "Water falling from clouds to the Earth as rain, snow, hail or sleet."
         },
         {
           "p": "Transpiration",
-          "r": "Water vapour given off by plants."
+          "r": "Water evaporating into the atmosphere from plants."
         },
         {
           "p": "Groundwater",
@@ -2702,6 +2708,18 @@
         {
           "p": "How long has the Earth been recycling water?",
           "r": "More than four billion years."
+        },
+        {
+          "p": "Where does the energy for evaporation in the water cycle come from?",
+          "r": "The Sun."
+        },
+        {
+          "p": "How do clouds form?",
+          "r": "Water vapour rises, cools and condenses into little droplets of water."
+        },
+        {
+          "p": "What moves clouds around the world?",
+          "r": "Air currents high in the atmosphere."
         }
       ],
       "preguntas": [
@@ -2876,6 +2894,92 @@
           "minimo": 2,
           "modelo": "Evaporation and transpiration.",
           "explicacion": "Evaporation from the sea and transpiration from plants add water vapour."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where does the energy that makes water evaporate in the water cycle come from?",
+          "opciones": [
+            "the Moon",
+            "the wind",
+            "the clouds",
+            "the Sun"
+          ],
+          "correcta": 3,
+          "explicacion": "Energy from the Sun heats the water in rivers, lakes and oceans."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why do some water particles escape into the atmosphere as water vapour?",
+          "opciones": [
+            "They gain enough energy to break free from the forces holding them",
+            "They lose energy and slow down",
+            "They become heavier",
+            "They join together in droplets"
+          ],
+          "correcta": 0,
+          "explicacion": "Particles with enough energy break free and change to a gas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why does water vapour condense to form clouds?",
+          "opciones": [
+            "It mixes with oxygen",
+            "Plants push it upwards",
+            "As it rises it cools, and its particles lose energy",
+            "It gains energy from the Sun"
+          ],
+          "correcta": 2,
+          "explicacion": "Particles that lose energy cannot move so quickly and form droplets."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What moves the clouds around the world?",
+          "opciones": [
+            "transpiration",
+            "groundwater",
+            "air currents high in the atmosphere",
+            "the oceans"
+          ],
+          "correcta": 2,
+          "explicacion": "The book says air currents move the clouds."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why does rain fall from clouds?",
+          "opciones": [
+            "The water vapour evaporates",
+            "The droplets become too heavy for the air to hold them",
+            "The clouds get too hot",
+            "The Sun pushes them down"
+          ],
+          "correcta": 1,
+          "explicacion": "When a lot of water has condensed, the droplets are too heavy."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "If falling water drops become colder, what may they form?",
+          "opciones": [
+            "steam",
+            "water vapour",
+            "groundwater",
+            "snow, hail or sleet"
+          ],
+          "correcta": 3,
+          "explicacion": "Colder drops may form snow, hail or sleet."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What are the different types of precipitation?",
+          "pista": "Name at least three.",
+          "claves": [
+            "rain",
+            "snow",
+            "hail",
+            "sleet"
+          ],
+          "minimo": 3,
+          "modelo": "Rain, snow, hail and sleet.",
+          "explicacion": "Precipitation is any water falling from the clouds."
         }
       ]
     },
