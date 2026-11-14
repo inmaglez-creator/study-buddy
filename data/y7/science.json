@@ -1489,7 +1489,17 @@
         "All matter is made of tiny **particles**, much too small to see.",
         "- **Solid**: fixed pattern, held together strongly, tightly packed. Particles **vibrate** but stay in place.",
         "- **Liquid**: particles touch, held together weakly, can move past one another.",
-        "- **Gas**: particles do not touch, are a long way apart and spread out to fill the space."
+        "- **Gas**: particles do not touch, are a long way apart and spread out to fill the space.",
+        "",
+        "## Explaining the properties",
+        "Matter can only **flow** (be poured) if its particles can **move past one another**. It can only change **volume** if its particles can spread out or move closer together.",
+        "- **Solids**: particles very close together, so the volume is hard to make smaller. **Attractive forces** hold the particles together and stop them moving around; they can only **vibrate**. So a solid has a fixed shape and **cannot flow**.",
+        "- **Liquids**: particles very close together and touching, so they **cannot be compressed**. The attractive forces are weak enough to let them move past each other but strong enough to hold them together. So liquids **can flow**.",
+        "- **Gases**: particles a long way apart, moving quickly in all directions. There are **no attractive forces** between them, so a gas has **no fixed shape or volume**. When you compress a gas, the particles move closer together and it takes up less space.",
+        "- A space with **no particles at all** is a **vacuum**. A vacuum contains nothing.",
+        "",
+        "## Modelling particles",
+        "A **model** helps us picture something we cannot see. Pupils can act as particles: in regular rows and touching (solid), touching but able to change position (liquid), or spread out and moving (gas). Every model has **strengths** and **weaknesses**."
       ],
       "notas": [
         {
@@ -1596,6 +1606,75 @@
               ]
             }
           ]
+        },
+        {
+          "seccion": "Explaining the properties",
+          "tarjetas": [
+            {
+              "etiqueta": "🔑 Rules",
+              "titulo": "Flow and volume",
+              "puntos": [
+                "Matter can only **flow** if particles can **move past one another**",
+                "Volume can only change if particles can **spread out** or **move closer**"
+              ]
+            },
+            {
+              "etiqueta": "🧱 Solid",
+              "titulo": "Cannot flow",
+              "puntos": [
+                "Particles very close: volume hard to make smaller",
+                "**Attractive forces** hold them together",
+                "Can only **vibrate**, so a solid cannot flow"
+              ]
+            },
+            {
+              "etiqueta": "💧 Liquid",
+              "titulo": "Can flow",
+              "puntos": [
+                "Particles touch: **cannot be compressed**",
+                "Forces weak enough to let them **move past** each other…",
+                "…but strong enough to **hold them together**"
+              ]
+            },
+            {
+              "etiqueta": "💨 Gas",
+              "titulo": "Flows and spreads out",
+              "puntos": [
+                "Particles far apart, move **quickly in all directions**",
+                "**No attractive forces** between them",
+                "No fixed shape or volume; compressed gas → particles closer"
+              ]
+            },
+            {
+              "etiqueta": "🫙 Vacuum",
+              "titulo": "No particles",
+              "puntos": [
+                "A space with **no particles at all**",
+                "A vacuum contains **nothing**"
+              ]
+            },
+            {
+              "etiqueta": "🧑‍🤝‍🧑 Model",
+              "titulo": "Be the particles",
+              "puntos": [
+                "Solid: **regular rows**, touching, can't change place",
+                "Liquid: touching, **can change position**",
+                "Gas: spread out, moving freely",
+                "Every model has strengths and weaknesses"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Key words",
+            "items": [
+              "attractive forces",
+              "flow",
+              "vibrate",
+              "compress",
+              "vacuum",
+              "model"
+            ]
+          }
         }
       ],
       "tarjetas": [
@@ -1642,6 +1721,22 @@
         {
           "p": "Particles in a gas",
           "r": "Do not touch, are far apart and move about freely."
+        },
+        {
+          "p": "Vacuum",
+          "r": "A space with no particles at all; it contains nothing."
+        },
+        {
+          "p": "Why can a solid not flow?",
+          "r": "Attractive forces hold its particles in place; they can only vibrate."
+        },
+        {
+          "p": "Why can a liquid flow?",
+          "r": "Its particles can move past each other, but forces still hold them together."
+        },
+        {
+          "p": "Why has a gas no fixed shape or volume?",
+          "r": "Its particles are far apart with no attractive forces between them."
         }
       ],
       "preguntas": [
@@ -1836,6 +1931,118 @@
           "minimo": 2,
           "modelo": "The particles are held strongly in a fixed pattern; they only vibrate and stay in the same place.",
           "explicacion": "Strong forces keep the particles in a fixed pattern."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Matter can only flow (be poured) if its particles…",
+          "opciones": [
+            "can move past one another",
+            "are in regular rows",
+            "are very heavy",
+            "can only vibrate"
+          ],
+          "correcta": 0,
+          "explicacion": "Flowing needs particles that can move past each other."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What holds the particles of a solid together and stops them moving around?",
+          "opciones": [
+            "air",
+            "water vapour",
+            "a vacuum",
+            "attractive forces"
+          ],
+          "correcta": 3,
+          "explicacion": "Attractive forces hold the particles of a solid in place."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why can't a solid flow?",
+          "opciones": [
+            "Its particles can only vibrate, not move around",
+            "Its particles are a long way apart",
+            "There are no forces between its particles",
+            "Its particles move quickly in all directions"
+          ],
+          "correcta": 0,
+          "explicacion": "Particles held in place cannot move past each other."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which describes the attractive forces between particles in a liquid?",
+          "opciones": [
+            "They push the particles far apart",
+            "Weak enough to let them move, strong enough to hold them together",
+            "So strong the particles can only vibrate",
+            "There are no attractive forces"
+          ],
+          "correcta": 1,
+          "explicacion": "That is why a liquid flows but keeps its volume."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why does a gas have no fixed shape or volume?",
+          "opciones": [
+            "Its particles are in regular rows",
+            "There are no attractive forces between its particles",
+            "Its particles are touching",
+            "Its particles can only vibrate"
+          ],
+          "correcta": 1,
+          "explicacion": "Gas particles are far apart and free to move anywhere."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What happens to the particles when you compress a gas?",
+          "opciones": [
+            "They move closer together",
+            "They get bigger",
+            "They stop moving",
+            "They turn into a liquid straight away"
+          ],
+          "correcta": 0,
+          "explicacion": "Compressed gas takes up less space because the particles are closer."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a vacuum?",
+          "opciones": [
+            "A tightly packed solid",
+            "A space with no particles at all",
+            "A space full of gas",
+            "A very cold liquid"
+          ],
+          "correcta": 1,
+          "explicacion": "A vacuum contains nothing."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Liquids can be compressed easily because their particles can move.",
+          "correcta": false,
+          "explicacion": "Liquid particles are touching, so a liquid cannot be compressed."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In the classroom model, pupils standing in regular rows and touching each other represent a solid.",
+          "correcta": true,
+          "explicacion": "Solid particles are in a fixed, regular pattern."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Use particle theory to explain why a liquid can be poured.",
+          "pista": "Think about what the particles can do.",
+          "claves": [
+            "move past",
+            "moving past",
+            "slide",
+            "move around",
+            "can move",
+            "change position",
+            "not fixed"
+          ],
+          "modelo": "The particles can move past each other, so the liquid can flow.",
+          "explicacion": "Liquid particles touch, but the forces are weak enough to let them move past each other."
         }
       ]
     },
