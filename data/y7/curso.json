@@ -266,6 +266,17 @@
         "compounds-formulae",
         "compounds-mixtures"
       ]
+    },
+    {
+      "id": "maths-units-6-8",
+      "asignatura": "maths",
+      "titulo": "Maths test · Units 6–8 (Algebra, Data, 3D shapes)",
+      "fecha": "2026-11-23",
+      "temas": [
+        "algebra-beginnings",
+        "organising-data",
+        "3d-shapes"
+      ]
     }
   ]
 }

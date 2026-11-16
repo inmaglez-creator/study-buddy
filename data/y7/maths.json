@@ -1886,6 +1886,1608 @@
           "explicacion": "Brackets, then multiplication, then subtraction."
         }
       ]
+    },
+    {
+      "id": "algebra-beginnings",
+      "titulo": "Unit 6 · Algebra beginnings – using letters for unknown numbers",
+      "resumen": [
+        "## Algebra words",
+        "In algebra we use **letters** to stand for unknown numbers.",
+        "- An **expression** represents a value, e.g. **2x + 3**. It has **no = sign**.",
+        "- In 2x + 3: **2x** is a **term**, **2** is the **coefficient** (the number in front of the letter) and **3** is the **constant**.",
+        "- An **equation** contains an **= sign**, e.g. 2x + 3 = 9, so x = 3.",
+        "",
+        "## Simplifying (collecting like terms)",
+        "**Like terms** have exactly the same letter. Add or subtract them, keeping each letter separate.",
+        "- x + 5 + x + 5 = **2x + 10**",
+        "- 2a + 3b + a + 5b = **3a + 8b**",
+        "- 3g + 2f − 5g + 6f = **8f − 2g**",
+        "",
+        "## Perimeter and area with letters",
+        "- **Perimeter**: add all the sides. Rectangle with sides 2a + 1 and a + 3 → **6a + 8**.",
+        "- **Area** of a rectangle = length × width. 5 × b = **5b**; 3 × (a + 2) = **3a + 6**.",
+        "- Split L-shapes into rectangles and add the areas: 4a × a + 3 × (5a + 1) = **4a² + 15a + 3**.",
+        "",
+        "## Substitution",
+        "**Substitution** means replacing a letter with a number and working out the value.",
+        "- When a = 2, b = 3, c = 5: 2b + 3 = **9**, 4ab = **24**, abc = **30**.",
+        "- Be careful with negatives: when y = −2 and z = −6, 4y − z = −8 + 6 = **−2** and z² + y² = 36 + 4 = **40**.",
+        "",
+        "## Formulae",
+        "**d = st** (distance = speed × time). s = 30 mph and t = 2 hours → d = **60 miles**. Rearranged: **s = d ÷ t**, so 210 miles in 3 hours → **70 mph**."
+      ],
+      "notas": [
+        {
+          "seccion": "Algebra words",
+          "tarjetas": [
+            {
+              "etiqueta": "🔤 Expression",
+              "titulo": "2x + 3",
+              "puntos": [
+                "Represents a **value**",
+                "**No** = sign"
+              ]
+            },
+            {
+              "etiqueta": "🧩 Parts",
+              "titulo": "Term, coefficient, constant",
+              "puntos": [
+                "**2x** is a term",
+                "**2** is the coefficient",
+                "**3** is the constant"
+              ]
+            },
+            {
+              "etiqueta": "⚖️ Equation",
+              "titulo": "Has an = sign",
+              "puntos": [
+                "2x + 3 = 9",
+                "→ 2x = 6 → **x = 3**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Key words",
+            "items": [
+              "expression",
+              "term",
+              "coefficient",
+              "constant",
+              "equation",
+              "like terms",
+              "substitution",
+              "formula"
+            ]
+          }
+        },
+        {
+          "seccion": "Simplifying",
+          "tarjetas": [
+            {
+              "etiqueta": "➕ Like terms",
+              "titulo": "Same letter only",
+              "puntos": [
+                "x + 5 + x + 5 = **2x + 10**",
+                "8y − 2y + 3 = **6y + 3**"
+              ]
+            },
+            {
+              "etiqueta": "🔀 Two letters",
+              "titulo": "Keep them apart",
+              "puntos": [
+                "2a + 3b + a + 5b = **3a + 8b**",
+                "3g + 2f − 5g + 6f = **8f − 2g**"
+              ]
+            },
+            {
+              "etiqueta": "✖️ Multiplying",
+              "titulo": "Letters stick together",
+              "puntos": [
+                "4 × a × b = **4ab**",
+                "a × a = **a²**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Perimeter and area",
+          "tarjetas": [
+            {
+              "etiqueta": "📏 Perimeter",
+              "titulo": "Add every side",
+              "puntos": [
+                "Rectangle 2a + 1 by a + 3 → **6a + 8**",
+                "Triangle 2x, 4x + 1, 3x + 4 → **9x + 5**",
+                "Equilateral, side 3y − 1 → **9y − 3**"
+              ]
+            },
+            {
+              "etiqueta": "⬛ Area",
+              "titulo": "Length × width",
+              "puntos": [
+                "5 by b → **5b**",
+                "3 by a + 2 → **3a + 6**",
+                "Not the same as perimeter!"
+              ]
+            },
+            {
+              "etiqueta": "🔲 L-shapes",
+              "titulo": "Split into rectangles",
+              "puntos": [
+                "4a × a = 4a²",
+                "3 × (5a + 1) = 15a + 3",
+                "Total **4a² + 15a + 3**"
+              ]
+            },
+            {
+              "etiqueta": "🔺 Pyramids",
+              "titulo": "Box = sum of the two below",
+              "puntos": [
+                "2b + 1 and 3b + 5 → **5b + 6**",
+                "Add the like terms"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Substitution and formulae",
+          "tarjetas": [
+            {
+              "etiqueta": "🔁 Substitute",
+              "titulo": "Swap letters for numbers",
+              "puntos": [
+                "a = 2, b = 3, c = 5",
+                "2c + 3b = 10 + 9 = **19**",
+                "10b − 4a = 30 − 8 = **22**"
+              ]
+            },
+            {
+              "etiqueta": "➖ Negatives",
+              "titulo": "x = 3, y = −2, z = −6",
+              "puntos": [
+                "4y − z = −8 + 6 = **−2**",
+                "xyz = **36**",
+                "z² + y² = 36 + 4 = **40** (a square is never negative)"
+              ]
+            },
+            {
+              "etiqueta": "🚗 d = st",
+              "titulo": "Distance = speed × time",
+              "puntos": [
+                "30 mph for 2 h → **60 miles**",
+                "65 mph for 0.5 h → **32.5 miles**",
+                "Speed s = d ÷ t: 60 miles in 1.5 h → **40 mph**"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is an expression?",
+          "r": "A group of terms that represents a value, e.g. 2x + 3 (no = sign)"
+        },
+        {
+          "p": "What is an equation?",
+          "r": "Something that contains an = sign, e.g. 2x + 3 = 9"
+        },
+        {
+          "p": "In 2x + 3, what is the coefficient?",
+          "r": "2 (the number in front of the letter)"
+        },
+        {
+          "p": "In 2x + 3, what is the constant?",
+          "r": "3 (the number on its own)"
+        },
+        {
+          "p": "What are like terms?",
+          "r": "Terms with exactly the same letter(s), e.g. 3a and 5a"
+        },
+        {
+          "p": "Simplify 2a + 3b + a + 5b",
+          "r": "3a + 8b"
+        },
+        {
+          "p": "What does substitution mean?",
+          "r": "Replacing a letter with a number to find the value"
+        },
+        {
+          "p": "Write 4 × a × b in algebra",
+          "r": "4ab"
+        },
+        {
+          "p": "Area of a rectangle 3 by (a + 2)",
+          "r": "3a + 6"
+        },
+        {
+          "p": "Formula for distance",
+          "r": "d = st (distance = speed × time)"
+        },
+        {
+          "p": "Formula for average speed",
+          "r": "s = d ÷ t"
+        },
+        {
+          "p": "Solve 2x + 3 = 9",
+          "r": "x = 3"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Simplify x + 5 + x + 5",
+          "opciones": [
+            "2x + 10",
+            "x + 10",
+            "2x + 5",
+            "12x"
+          ],
+          "correcta": 0,
+          "explicacion": "x + x = 2x and 5 + 5 = 10."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Simplify 2a + 3b + a + 5b",
+          "opciones": [
+            "3a + 8b",
+            "11ab",
+            "2a + 8b",
+            "3a + 15b"
+          ],
+          "correcta": 0,
+          "explicacion": "2a + a = 3a and 3b + 5b = 8b."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Simplify 8y − 2y + 3",
+          "opciones": [
+            "6y + 3",
+            "9y",
+            "10y + 3",
+            "6y − 3"
+          ],
+          "correcta": 0,
+          "explicacion": "8y − 2y = 6y; the constant 3 stays."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Simplify 3g + 2f − 5g + 6f",
+          "opciones": [
+            "8f − 2g",
+            "8f + 2g",
+            "6fg",
+            "−2f + 8g"
+          ],
+          "correcta": 0,
+          "explicacion": "2f + 6f = 8f and 3g − 5g = −2g."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In the expression 2x + 3, what is the 2 called?",
+          "opciones": [
+            "The coefficient",
+            "The constant",
+            "The equation",
+            "The variable"
+          ],
+          "correcta": 0,
+          "explicacion": "The coefficient is the number in front of the letter."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In the expression 2x + 3, what is the 3 called?",
+          "opciones": [
+            "The constant",
+            "The coefficient",
+            "The term 2x",
+            "The power"
+          ],
+          "correcta": 0,
+          "explicacion": "A number on its own is the constant."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "2x + 3 = 9 is an expression.",
+          "correcta": false,
+          "explicacion": "It has an = sign, so it is an equation."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Solve 2x + 3 = 9",
+          "opciones": [
+            "x = 3",
+            "x = 4",
+            "x = 6",
+            "x = 12"
+          ],
+          "correcta": 0,
+          "explicacion": "2x = 9 − 3 = 6, so x = 3."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A rectangle has sides 2a + 1 and a + 3. What is its perimeter?",
+          "opciones": [
+            "6a + 8",
+            "3a + 4",
+            "6a + 4",
+            "2a² + 7a + 3"
+          ],
+          "correcta": 0,
+          "explicacion": "2(2a + 1) + 2(a + 3) = 4a + 2 + 2a + 6 = 6a + 8."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A triangle has sides 2x, 4x + 1 and 3x + 4. What is its perimeter?",
+          "opciones": [
+            "9x + 5",
+            "9x + 4",
+            "8x + 5",
+            "24x + 5"
+          ],
+          "correcta": 0,
+          "explicacion": "2x + 4x + 3x = 9x and 1 + 4 = 5."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "An equilateral triangle has sides of 3y − 1. What is its perimeter?",
+          "opciones": [
+            "9y − 3",
+            "9y − 1",
+            "3y − 3",
+            "6y − 2"
+          ],
+          "correcta": 0,
+          "explicacion": "3 × (3y − 1) = 9y − 3."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A rectangle is 5 by b. What is its area?",
+          "opciones": [
+            "5b",
+            "10 + 2b",
+            "5 + b",
+            "10b"
+          ],
+          "correcta": 0,
+          "explicacion": "Area = length × width = 5 × b = 5b (10 + 2b is the perimeter)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A rectangle is 3 by a + 2. What is its area?",
+          "opciones": [
+            "3a + 6",
+            "3a + 2",
+            "2a + 10",
+            "5a"
+          ],
+          "correcta": 0,
+          "explicacion": "3 × (a + 2) = 3a + 6."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In an algebra pyramid each box is the sum of the two boxes below it. What goes above 2a + 3 and 3a − 1?",
+          "opciones": [
+            "5a + 2",
+            "5a + 4",
+            "6a − 3",
+            "a − 4"
+          ],
+          "correcta": 0,
+          "explicacion": "2a + 3a = 5a and 3 − 1 = 2."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What goes above 4a + 5 and a + 1 in an algebra pyramid?",
+          "opciones": [
+            "5a + 6",
+            "4a + 6",
+            "5a + 4",
+            "4a² + 5"
+          ],
+          "correcta": 0,
+          "explicacion": "4a + a = 5a and 5 + 1 = 6."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "An L-shape is made of a rectangle 4a by a and a rectangle 3 by 5a + 1. What is its total area?",
+          "opciones": [
+            "4a² + 15a + 3",
+            "4a² + 5a + 4",
+            "5a + 15a + 3",
+            "20a + 3"
+          ],
+          "correcta": 0,
+          "explicacion": "4a × a = 4a² and 3(5a + 1) = 15a + 3."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the value of 2b + 3 when b = 3.",
+          "opciones": [
+            "9",
+            "6",
+            "8",
+            "23"
+          ],
+          "correcta": 0,
+          "explicacion": "2 × 3 + 3 = 9."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the value of 4ab when a = 2 and b = 3.",
+          "opciones": [
+            "24",
+            "9",
+            "423",
+            "14"
+          ],
+          "correcta": 0,
+          "explicacion": "4 × 2 × 3 = 24."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the value of 2c + 3b when b = 3 and c = 5.",
+          "opciones": [
+            "19",
+            "15",
+            "16",
+            "25"
+          ],
+          "correcta": 0,
+          "explicacion": "10 + 9 = 19."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the value of 10b − 4a when a = 2 and b = 3.",
+          "opciones": [
+            "22",
+            "6",
+            "26",
+            "38"
+          ],
+          "correcta": 0,
+          "explicacion": "30 − 8 = 22."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the value of −3c when c = 5.",
+          "opciones": [
+            "−15",
+            "15",
+            "−8",
+            "2"
+          ],
+          "correcta": 0,
+          "explicacion": "−3 × 5 = −15."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the value of 4y − z when y = −2 and z = −6.",
+          "opciones": [
+            "−2",
+            "−14",
+            "−11",
+            "2"
+          ],
+          "correcta": 0,
+          "explicacion": "4 × (−2) = −8, and −8 − (−6) = −8 + 6 = −2."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the value of z² + y² when y = −2 and z = −6.",
+          "opciones": [
+            "40",
+            "−40",
+            "32",
+            "−16"
+          ],
+          "correcta": 0,
+          "explicacion": "(−6)² = 36 and (−2)² = 4; squares are never negative, so 36 + 4 = 40."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Find the value of xyz when x = 3, y = −2 and z = −6.",
+          "opciones": [
+            "36",
+            "−36",
+            "−5",
+            "11"
+          ],
+          "correcta": 0,
+          "explicacion": "3 × (−2) × (−6) = 36 (two negatives make a positive)."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "When x = 3 and y = −2, x + y = 1.",
+          "correcta": true,
+          "explicacion": "3 + (−2) = 1."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Using d = st, find the distance when s = 30 mph and t = 2 hours.",
+          "opciones": [
+            "60 miles",
+            "15 miles",
+            "32 miles",
+            "60 km"
+          ],
+          "correcta": 0,
+          "explicacion": "30 × 2 = 60; the speed is in mph, so the distance is in miles."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Using d = st, find the distance when s = 65 mph and t = 0.5 hours.",
+          "opciones": [
+            "32.5 miles",
+            "130 miles",
+            "65.5 miles",
+            "30 miles"
+          ],
+          "correcta": 0,
+          "explicacion": "65 × 0.5 = 32.5 miles."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A car travels 210 miles in 3 hours. What is its average speed?",
+          "opciones": [
+            "70 mph",
+            "90 mph",
+            "630 mph",
+            "207 mph"
+          ],
+          "correcta": 0,
+          "explicacion": "s = d ÷ t = 210 ÷ 3 = 70 mph."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A runner covers 200 metres in 40 seconds. What is the average speed?",
+          "opciones": [
+            "5 m/s",
+            "5 mph",
+            "8000 m/s",
+            "160 m/s"
+          ],
+          "correcta": 0,
+          "explicacion": "200 ÷ 40 = 5; metres and seconds give metres per second."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Simplify 3g + 2f − 5g + 6f.",
+          "pista": "Group the f terms and the g terms separately.",
+          "claves": [
+            "8f-2g",
+            "8f - 2g",
+            "8f−2g",
+            "8f − 2g",
+            "-2g+8f",
+            "-2g + 8f",
+            "−2g+8f",
+            "−2g + 8f"
+          ],
+          "modelo": "8f − 2g",
+          "explicacion": "Collect the f terms (2f + 6f) and the g terms (3g − 5g)."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Using s = d ÷ t, find the average speed when d = 60 miles and t = 1.5 hours. Give the units.",
+          "pista": "Divide the distance by the time.",
+          "claves": [
+            "40"
+          ],
+          "modelo": "40 mph",
+          "explicacion": "60 ÷ 1.5 = 40, so 40 mph."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What is the difference between an expression and an equation?",
+          "pista": "Think about one symbol.",
+          "claves": [
+            "=",
+            "equal",
+            "equals"
+          ],
+          "modelo": "An equation has an = sign (e.g. 2x + 3 = 9); an expression does not (e.g. 2x + 3).",
+          "explicacion": "Only an equation contains an equals sign."
+        }
+      ]
+    },
+    {
+      "id": "organising-data",
+      "titulo": "Unit 7 · Organising and presenting data",
+      "resumen": [
+        "## Frequency tables",
+        "A **frequency table** shows how many times each value or category occurs. **Frequency** = how many.",
+        "- Christmas Day temperatures: lowest **Ottawa −14 °C**, highest **Bangkok 26 °C**, difference 26 − (−14) = **40 °C**.",
+        "- A **grouped frequency table** puts data into classes, e.g. weights 2–3 kg, 3–4 kg… Use a **tally** (𝍸 = 5) then count.",
+        "",
+        "## Two-way tables",
+        "A **two-way table** shows two kinds of information at once (e.g. flavour and type of cake). Each **row** and **column** adds up to its **total**, and the grand total is in the corner.",
+        "- To fill gaps: find a row or column with only **one** missing number and subtract.",
+        "",
+        "## Venn diagrams",
+        "Two overlapping circles. The **overlap** is for things in **both** groups; the space **outside** the circles (inside the box) is for **neither**.",
+        "- 20 adults, 12 have pets, 5 have both, 4 only children → only pets 12 − 5 = **7**, neither 20 − 4 − 5 − 7 = **4**.",
+        "",
+        "## Charts",
+        "- **Bar chart**: bars of equal width with gaps; the height shows the frequency.",
+        "- **Dual bar chart**: two bars side by side for each group (e.g. child and adult tickets), with a **key**.",
+        "- **Pie chart**: angles add to **360°**. Angle = frequency ÷ total × 360°. 180 people → each person is **2°**.",
+        "- **Waffle diagram**: a grid of squares; each square stands for the same amount and squares are shaded in proportion."
+      ],
+      "notas": [
+        {
+          "seccion": "Tables",
+          "tarjetas": [
+            {
+              "etiqueta": "📋 Frequency",
+              "titulo": "How many times",
+              "puntos": [
+                "Lowest: Ottawa **−14 °C**",
+                "Highest: Bangkok **26 °C**",
+                "Difference 26 − (−14) = **40 °C**"
+              ]
+            },
+            {
+              "etiqueta": "🗂️ Grouped",
+              "titulo": "Data in classes",
+              "puntos": [
+                "12 babies: 2–3 kg **2**, 3–4 kg **3**",
+                "4–5 kg **3**, 5–6 kg **1**, 6–7 kg **3**",
+                "Frequencies add to **12**"
+              ]
+            },
+            {
+              "etiqueta": "✖️ Two-way table",
+              "titulo": "Rows and columns",
+              "puntos": [
+                "Each row and column adds to its **total**",
+                "Find a line with **one** gap, then subtract",
+                "Grand total in the corner (**198** cakes)"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Key words",
+            "items": [
+              "frequency",
+              "tally",
+              "grouped frequency table",
+              "two-way table",
+              "Venn diagram",
+              "bar chart",
+              "dual bar chart",
+              "pie chart",
+              "waffle diagram",
+              "key"
+            ]
+          }
+        },
+        {
+          "seccion": "Venn diagrams",
+          "tarjetas": [
+            {
+              "etiqueta": "⭕ Overlap",
+              "titulo": "In both groups",
+              "puntos": [
+                "5 adults have children **and** pets",
+                "Goes in the middle"
+              ]
+            },
+            {
+              "etiqueta": "🐶 Only pets",
+              "titulo": "Subtract the overlap",
+              "puntos": [
+                "12 have pets, 5 also have children",
+                "Only pets = 12 − 5 = **7**"
+              ]
+            },
+            {
+              "etiqueta": "📦 Neither",
+              "titulo": "Outside the circles",
+              "puntos": [
+                "20 − 4 − 5 − 7 = **4**",
+                "Every number must add to the total"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Charts",
+          "tarjetas": [
+            {
+              "etiqueta": "📊 Bar chart",
+              "titulo": "Height = frequency",
+              "puntos": [
+                "Favourite colours of 20 children",
+                "Red 5, Blue 4, Green 3, Yellow 2, Other 6",
+                "Bars must add to the total (20)"
+              ]
+            },
+            {
+              "etiqueta": "📊📊 Dual bar chart",
+              "titulo": "Two bars per group",
+              "puntos": [
+                "Saturday: child 26, adult 15",
+                "Sunday: child 38, adult 21",
+                "Needs a **key**"
+              ]
+            },
+            {
+              "etiqueta": "🥧 Pie chart",
+              "titulo": "Angles add to 360°",
+              "puntos": [
+                "Angle = freq ÷ total × 360°",
+                "180 teenagers → **2°** each",
+                "60 teenagers → **120°**"
+              ]
+            },
+            {
+              "etiqueta": "🧇 Waffle",
+              "titulo": "Grid of squares",
+              "puntos": [
+                "Each square = same amount",
+                "Shade squares for each group"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What does frequency mean?",
+          "r": "How many times something happens"
+        },
+        {
+          "p": "What is a grouped frequency table?",
+          "r": "A frequency table where the data is put into classes (groups), e.g. 2–3 kg"
+        },
+        {
+          "p": "What is a two-way table?",
+          "r": "A table showing two sets of information at once, with row and column totals"
+        },
+        {
+          "p": "How do you fill a gap in a two-way table?",
+          "r": "Find a row or column with one gap and subtract from its total"
+        },
+        {
+          "p": "In a Venn diagram, what goes in the overlap?",
+          "r": "Things that belong to both groups"
+        },
+        {
+          "p": "In a Venn diagram, what goes outside the circles?",
+          "r": "Things that belong to neither group"
+        },
+        {
+          "p": "What is a dual bar chart?",
+          "r": "A bar chart with two bars side by side for each group, with a key"
+        },
+        {
+          "p": "Angles in a pie chart add up to…",
+          "r": "360°"
+        },
+        {
+          "p": "Formula for a pie chart angle",
+          "r": "Frequency ÷ total × 360°"
+        },
+        {
+          "p": "What is a waffle diagram?",
+          "r": "A grid of squares where each square represents the same amount"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "Christmas Day temperatures: London 6, Lisbon 9, Bangkok 26, Ottawa −14, Quito 13, Helsinki −5, New Delhi 15, Kathmandu 10 (°C). Which city is coldest?",
+          "opciones": [
+            "Ottawa",
+            "Helsinki",
+            "London",
+            "Lisbon"
+          ],
+          "correcta": 0,
+          "explicacion": "−14 °C is the lowest temperature."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Using the same temperatures (lowest −14 °C, highest 26 °C), what is the difference between the lowest and highest?",
+          "opciones": [
+            "40 °C",
+            "12 °C",
+            "26 °C",
+            "−40 °C"
+          ],
+          "correcta": 0,
+          "explicacion": "26 − (−14) = 26 + 14 = 40 °C."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which list puts −14, 6, −5, 26, 9 in order from lowest to highest?",
+          "opciones": [
+            "−14, −5, 6, 9, 26",
+            "−5, −14, 6, 9, 26",
+            "6, 9, 26, −5, −14",
+            "−14, 6, −5, 9, 26"
+          ],
+          "correcta": 0,
+          "explicacion": "The more negative a number, the lower it is."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many of these temperatures are 10 °C or higher: 6, 9, 26, −14, 13, −5, 15, 10?",
+          "opciones": [
+            "4",
+            "3",
+            "5",
+            "2"
+          ],
+          "correcta": 0,
+          "explicacion": "26, 13, 15 and 10 → 4 cities (10 counts, as it says 'or higher')."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Baby weights (kg): 2.7, 4.9, 3.2, 4.7, 2.9, 6.6, 3.6, 6.5, 4.2, 6.1, 5.3, 3.8. How many are in the class 6–7 kg?",
+          "opciones": [
+            "3",
+            "2",
+            "1",
+            "4"
+          ],
+          "correcta": 0,
+          "explicacion": "6.6, 6.5 and 6.1 → 3."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Using the same baby weights, how many are in the class 4–5 kg?",
+          "opciones": [
+            "3",
+            "2",
+            "4",
+            "1"
+          ],
+          "correcta": 0,
+          "explicacion": "4.9, 4.7 and 4.2 → 3."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In a grouped frequency table for 12 babies, the frequencies must add up to 12.",
+          "correcta": true,
+          "explicacion": "Every baby goes in exactly one class."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does a tally mark 𝍸 (four lines crossed by a fifth) stand for?",
+          "opciones": [
+            "5",
+            "4",
+            "6",
+            "10"
+          ],
+          "correcta": 0,
+          "explicacion": "Tallies are grouped in fives."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Bake sale: chocolate cakes total 90, with 75 cupcakes and 12 traybakes. How many chocolate large sponges?",
+          "opciones": [
+            "3",
+            "13",
+            "87",
+            "27"
+          ],
+          "correcta": 0,
+          "explicacion": "90 − 75 − 12 = 3."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Bake sale: large sponges total 15. Chocolate has 3 and vanilla has 10. How many fruit large sponges?",
+          "opciones": [
+            "2",
+            "5",
+            "12",
+            "28"
+          ],
+          "correcta": 0,
+          "explicacion": "15 − 3 − 10 = 2."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Bake sale: fruit cakes total 54, with 10 traybakes and 2 large sponges. How many fruit cupcakes?",
+          "opciones": [
+            "42",
+            "44",
+            "52",
+            "22"
+          ],
+          "correcta": 0,
+          "explicacion": "54 − 10 − 2 = 42."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Bake sale: there are 155 cupcakes: 75 chocolate and 42 fruit. How many vanilla cupcakes?",
+          "opciones": [
+            "38",
+            "17",
+            "80",
+            "113"
+          ],
+          "correcta": 0,
+          "explicacion": "155 − 75 − 42 = 38."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Bake sale: 198 cakes in total; chocolate 90 and fruit 54. How many vanilla cakes?",
+          "opciones": [
+            "54",
+            "108",
+            "144",
+            "44"
+          ],
+          "correcta": 0,
+          "explicacion": "198 − 90 − 54 = 54."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In a two-way table, what is the best first step to fill in the gaps?",
+          "opciones": [
+            "Find a row or column with only one missing number",
+            "Guess the biggest number",
+            "Add up every number in the table",
+            "Start with the grand total and divide by 3"
+          ],
+          "correcta": 0,
+          "explicacion": "With one gap you can subtract from the total."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "20 adults: 5 have children and pets, 12 have pets, 4 have only children. How many have only pets?",
+          "opciones": [
+            "7",
+            "12",
+            "17",
+            "5"
+          ],
+          "correcta": 0,
+          "explicacion": "12 − 5 = 7 (the 5 in the overlap are already counted in the 12)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "20 adults: 4 only children, 5 both, 7 only pets. How many have neither?",
+          "opciones": [
+            "4",
+            "0",
+            "8",
+            "16"
+          ],
+          "correcta": 0,
+          "explicacion": "20 − 4 − 5 − 7 = 4."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In a Venn diagram, people who belong to neither group are written outside the circles.",
+          "correcta": true,
+          "explicacion": "Inside the box but outside both circles."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "20 children chose a favourite colour: Red 5, Blue 4, Green 3, Other 6. How many chose Yellow?",
+          "opciones": [
+            "2",
+            "3",
+            "4",
+            "18"
+          ],
+          "correcta": 0,
+          "explicacion": "20 − 5 − 4 − 3 − 6 = 2."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Saturday: 26 child and 15 adult tickets. Sunday: 38 child and 21 adult tickets. Which chart compares child and adult tickets each day best?",
+          "opciones": [
+            "A dual bar chart",
+            "A single pie chart",
+            "A Venn diagram",
+            "A tally chart"
+          ],
+          "correcta": 0,
+          "explicacion": "A dual bar chart shows two bars side by side for each day."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "26 child tickets on Saturday made £143. How much is one child ticket?",
+          "opciones": [
+            "£5.50",
+            "£5",
+            "£6.50",
+            "£117"
+          ],
+          "correcta": 0,
+          "explicacion": "143 ÷ 26 = 5.5."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Child tickets cost £5.50. How much do 38 child tickets make?",
+          "opciones": [
+            "£209",
+            "£202",
+            "£190",
+            "£228"
+          ],
+          "correcta": 0,
+          "explicacion": "38 × 5.50 = 209."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "180 teenagers are shown on a pie chart. How many degrees represent one teenager?",
+          "opciones": [
+            "2°",
+            "0.5°",
+            "180°",
+            "1°"
+          ],
+          "correcta": 0,
+          "explicacion": "360 ÷ 180 = 2°."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Out of 180 teenagers, 60 eat 5 portions of fruit and veg a day. What angle is this on a pie chart?",
+          "opciones": [
+            "120°",
+            "60°",
+            "30°",
+            "100°"
+          ],
+          "correcta": 0,
+          "explicacion": "60 × 2° = 120°."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Out of 180 teenagers, 35 eat 3 portions a day. What angle is this on a pie chart?",
+          "opciones": [
+            "70°",
+            "35°",
+            "105°",
+            "17.5°"
+          ],
+          "correcta": 0,
+          "explicacion": "35 × 2° = 70°."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The angles in a pie chart always add up to 180°.",
+          "correcta": false,
+          "explicacion": "They add up to 360°, a full turn."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "20 adults: 5 have children and pets, 12 have pets, 4 have only children. How many have NO pets or children?",
+          "pista": "Work out 'only pets' first, then subtract everything from 20.",
+          "claves": [
+            "4",
+            "four"
+          ],
+          "modelo": "4",
+          "explicacion": "Only pets = 7; 20 − 4 − 5 − 7 = 4."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name TWO kinds of chart or diagram from this unit that can show data.",
+          "pista": "Think of the ones you drew or filled in.",
+          "claves": [
+            "bar",
+            "pie",
+            "waffle",
+            "venn",
+            "two-way",
+            "two way",
+            "pictogram"
+          ],
+          "minimo": 2,
+          "modelo": "Bar chart and pie chart (also: dual bar chart, waffle diagram, Venn diagram).",
+          "explicacion": "The unit uses bar charts, dual bar charts, pie charts, waffle diagrams and Venn diagrams."
+        }
+      ]
+    },
+    {
+      "id": "3d-shapes",
+      "titulo": "Unit 8 · Properties of three-dimensional shapes",
+      "resumen": [
+        "## Faces, edges and vertices",
+        "- A **face** is a flat (or curved) surface, an **edge** is where two faces meet and a **vertex** (plural **vertices**) is a corner.",
+        "- **Cuboid**: 6 faces, 12 edges, 8 vertices.",
+        "- **Square-based pyramid**: 5 faces, 8 edges, 5 vertices.",
+        "- **Triangular prism**: 5 faces, 9 edges, 6 vertices.",
+        "- **Sphere**: 1 curved face, 0 edges, 0 vertices.",
+        "",
+        "## Volume",
+        "**Volume** is the space inside a 3D shape, measured in **cubic units** (cm³, m³, mm³).",
+        "- **Volume of a cuboid = length × width × height**. 8 × 4 × 3 = **96 cm³**.",
+        "- Missing length: divide the volume by the other two lengths. 32 cm³ ÷ (4 × 4) = **2 cm**.",
+        "- Different cuboids can have the same volume: 36 cm³ could be 2 × 3 × 6 or 3 × 3 × 4.",
+        "- **Composite shapes**: split into cuboids (or take a piece away) and add the volumes.",
+        "- **Capacity**: 1000 cm³ = **1 litre**. A bath 160 × 40 × 50 cm holds 320 000 cm³ = **320 litres**.",
+        "",
+        "## Surface area",
+        "**Total surface area** = the area of all the faces added together, in **cm²**. A cuboid has 3 pairs of equal faces:",
+        "- **SA = 2 × (lw + lh + wh)**. Cheese 12 × 3 × 6 cm → 2 × (36 + 72 + 18) = **252 cm²**.",
+        "- Wrapping needs **more** than the surface area, because the film overlaps at the edges."
+      ],
+      "notas": [
+        {
+          "seccion": "Faces, edges and vertices",
+          "tarjetas": [
+            {
+              "etiqueta": "📦 Cuboid",
+              "titulo": "6 · 12 · 8",
+              "puntos": [
+                "**6** faces",
+                "**12** edges",
+                "**8** vertices"
+              ]
+            },
+            {
+              "etiqueta": "🔺 Square-based pyramid",
+              "titulo": "5 · 8 · 5",
+              "puntos": [
+                "**5** faces (1 square + 4 triangles)",
+                "**8** edges",
+                "**5** vertices"
+              ]
+            },
+            {
+              "etiqueta": "⛺ Triangular prism",
+              "titulo": "5 · 9 · 6",
+              "puntos": [
+                "**5** faces (2 triangles + 3 rectangles)",
+                "**9** edges",
+                "**6** vertices"
+              ]
+            },
+            {
+              "etiqueta": "⚽ Sphere",
+              "titulo": "1 · 0 · 0",
+              "puntos": [
+                "**1** curved face",
+                "**No** edges or vertices",
+                "Not a cylinder!"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Key words",
+            "items": [
+              "face",
+              "edge",
+              "vertex / vertices",
+              "cuboid",
+              "prism",
+              "pyramid",
+              "sphere",
+              "volume",
+              "capacity",
+              "surface area",
+              "cm³",
+              "cm²"
+            ]
+          }
+        },
+        {
+          "seccion": "Volume",
+          "tarjetas": [
+            {
+              "etiqueta": "🧊 Formula",
+              "titulo": "V = l × w × h",
+              "puntos": [
+                "Units: **cm³**, m³, mm³",
+                "8 × 4 × 3 = **96 cm³**",
+                "3 × 6 × 5 = **90 cm³**"
+              ]
+            },
+            {
+              "etiqueta": "🔙 Missing length",
+              "titulo": "Divide",
+              "puntos": [
+                "4 × 4 × x = 32 → **x = 2 cm**",
+                "6 × 2 × x = 48 → **x = 4 mm**",
+                "10 × 4 × x = 100 → **x = 2.5 m**"
+              ]
+            },
+            {
+              "etiqueta": "🧱 Composite",
+              "titulo": "Split it up",
+              "puntos": [
+                "Front area × depth",
+                "(8 × 12 − 2 × 2) × 18 = **1656 cm³**"
+              ]
+            },
+            {
+              "etiqueta": "🛁 Capacity",
+              "titulo": "1000 cm³ = 1 litre",
+              "puntos": [
+                "160 × 40 × 50 = 320 000 cm³",
+                "= **320 litres**"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Surface area",
+          "tarjetas": [
+            {
+              "etiqueta": "🎁 Total surface area",
+              "titulo": "Add all 6 faces",
+              "puntos": [
+                "SA = 2(lw + lh + wh)",
+                "Units: **cm²**"
+              ]
+            },
+            {
+              "etiqueta": "✏️ Examples",
+              "titulo": "Cuboids",
+              "puntos": [
+                "7 × 8 × 1 → **142 cm²**",
+                "9 × 3 × 3 → **126 cm²**",
+                "Cheese 12 × 3 × 6 → **252 cm²**"
+              ]
+            },
+            {
+              "etiqueta": "🧀 Wrapping",
+              "titulo": "Why you need more",
+              "puntos": [
+                "The film **overlaps** at the edges",
+                "So you need more than the surface area"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is a vertex?",
+          "r": "A corner where edges meet (plural: vertices)"
+        },
+        {
+          "p": "Faces, edges and vertices of a cuboid",
+          "r": "6 faces, 12 edges, 8 vertices"
+        },
+        {
+          "p": "Faces, edges and vertices of a square-based pyramid",
+          "r": "5 faces, 8 edges, 5 vertices"
+        },
+        {
+          "p": "Faces, edges and vertices of a triangular prism",
+          "r": "5 faces, 9 edges, 6 vertices"
+        },
+        {
+          "p": "Faces, edges and vertices of a sphere",
+          "r": "1 curved face, 0 edges, 0 vertices"
+        },
+        {
+          "p": "Formula for the volume of a cuboid",
+          "r": "Length × width × height"
+        },
+        {
+          "p": "Units of volume",
+          "r": "Cubic units, e.g. cm³, m³, mm³"
+        },
+        {
+          "p": "How many cm³ in 1 litre?",
+          "r": "1000 cm³"
+        },
+        {
+          "p": "What is total surface area?",
+          "r": "The total area of all the faces of a 3D shape"
+        },
+        {
+          "p": "Formula for the surface area of a cuboid",
+          "r": "2 × (lw + lh + wh)"
+        },
+        {
+          "p": "How do you find a missing length of a cuboid from its volume?",
+          "r": "Divide the volume by the other two lengths multiplied together"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "How many faces does a square-based pyramid have?",
+          "opciones": [
+            "5",
+            "4",
+            "6",
+            "8"
+          ],
+          "correcta": 0,
+          "explicacion": "1 square base + 4 triangular faces = 5."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many edges does a square-based pyramid have?",
+          "opciones": [
+            "8",
+            "5",
+            "6",
+            "12"
+          ],
+          "correcta": 0,
+          "explicacion": "4 round the base + 4 up to the top = 8."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many vertices does a cuboid have?",
+          "opciones": [
+            "8",
+            "6",
+            "12",
+            "4"
+          ],
+          "correcta": 0,
+          "explicacion": "A cuboid has 8 corners."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many edges does a cuboid have?",
+          "opciones": [
+            "12",
+            "8",
+            "6",
+            "10"
+          ],
+          "correcta": 0,
+          "explicacion": "4 on top, 4 on the bottom and 4 upright edges."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many edges does a triangular prism have?",
+          "opciones": [
+            "9",
+            "6",
+            "5",
+            "12"
+          ],
+          "correcta": 0,
+          "explicacion": "3 on each triangle + 3 joining them = 9."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many vertices does a triangular prism have?",
+          "opciones": [
+            "6",
+            "5",
+            "9",
+            "3"
+          ],
+          "correcta": 0,
+          "explicacion": "3 corners on each triangular end."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which shape has 1 curved face, no edges and no vertices?",
+          "opciones": [
+            "Sphere",
+            "Cylinder",
+            "Cone",
+            "Cube"
+          ],
+          "correcta": 0,
+          "explicacion": "A sphere is a ball; a cylinder has edges and flat faces."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A triangular prism has 5 faces.",
+          "correcta": true,
+          "explicacion": "2 triangles + 3 rectangles."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the formula for the volume of a cuboid?",
+          "opciones": [
+            "Length × width × height",
+            "Length + width + height",
+            "2 × (length + width)",
+            "Length × width"
+          ],
+          "correcta": 0,
+          "explicacion": "Multiply the three dimensions."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Cuboid A is 3 cm × 6 cm × 5 cm. What is its volume?",
+          "opciones": [
+            "90 cm³",
+            "14 cm³",
+            "90 cm²",
+            "45 cm³"
+          ],
+          "correcta": 0,
+          "explicacion": "3 × 6 × 5 = 90 cm³."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which cuboid has the greatest volume?",
+          "opciones": [
+            "8 × 4 × 3 cm",
+            "3 × 6 × 5 cm",
+            "6 × 6 × 2 cm",
+            "4 × 1 × 7 cm"
+          ],
+          "correcta": 0,
+          "explicacion": "96 cm³ beats 90, 72 and 28 cm³."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Four cuboids have volumes 90, 28, 72 and 96 cm³. What is their total volume?",
+          "opciones": [
+            "286 cm³",
+            "276 cm³",
+            "296 cm³",
+            "186 cm³"
+          ],
+          "correcta": 0,
+          "explicacion": "90 + 28 + 72 + 96 = 286 cm³."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A cuboid is 4 cm × 4 cm × x cm and its volume is 32 cm³. Find x.",
+          "opciones": [
+            "2 cm",
+            "8 cm",
+            "24 cm",
+            "4 cm"
+          ],
+          "correcta": 0,
+          "explicacion": "4 × 4 = 16 and 32 ÷ 16 = 2."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A cuboid is 6 mm × 2 mm × x mm and its volume is 48 mm³. Find x.",
+          "opciones": [
+            "4 mm",
+            "8 mm",
+            "40 mm",
+            "6 mm"
+          ],
+          "correcta": 0,
+          "explicacion": "6 × 2 = 12 and 48 ÷ 12 = 4."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A cuboid is 10 m × 4 m × x m and its volume is 100 m³. Find x.",
+          "opciones": [
+            "2.5 m",
+            "25 m",
+            "2 m",
+            "86 m"
+          ],
+          "correcta": 0,
+          "explicacion": "10 × 4 = 40 and 100 ÷ 40 = 2.5."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A 5 m × 2 m × 4 m cuboid has the same volume as a 10 m × 2 m × x m cuboid. Find x.",
+          "opciones": [
+            "2 m",
+            "4 m",
+            "1 m",
+            "40 m"
+          ],
+          "correcta": 0,
+          "explicacion": "5 × 2 × 4 = 40 and 40 ÷ (10 × 2) = 2."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these could be the dimensions of a cuboid with a volume of 36 cm³?",
+          "opciones": [
+            "3 cm, 3 cm, 4 cm",
+            "6 cm, 6 cm, 6 cm",
+            "2 cm, 3 cm, 4 cm",
+            "12 cm, 12 cm, 12 cm"
+          ],
+          "correcta": 0,
+          "explicacion": "3 × 3 × 4 = 36."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Two cuboids with different dimensions can have the same volume.",
+          "correcta": true,
+          "explicacion": "For example 2 × 3 × 6 and 3 × 3 × 4 are both 36 cm³."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A bathtub is 160 cm × 40 cm × 50 cm. 1000 cm³ = 1 litre. What is its capacity?",
+          "opciones": [
+            "320 litres",
+            "32 litres",
+            "3200 litres",
+            "250 litres"
+          ],
+          "correcta": 0,
+          "explicacion": "160 × 40 × 50 = 320 000 cm³, and 320 000 ÷ 1000 = 320."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A prism has a front face that is 8 cm × 12 cm with a 2 cm × 2 cm notch cut out, and it is 18 cm long. What is its volume?",
+          "opciones": [
+            "1656 cm³",
+            "1728 cm³",
+            "92 cm³",
+            "1584 cm³"
+          ],
+          "correcta": 0,
+          "explicacion": "Front area 96 − 4 = 92 cm², and 92 × 18 = 1656 cm³."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the total surface area of a cuboid 7 cm × 8 cm × 1 cm?",
+          "opciones": [
+            "142 cm²",
+            "56 cm³",
+            "71 cm²",
+            "112 cm²"
+          ],
+          "correcta": 0,
+          "explicacion": "2 × (56 + 7 + 8) = 2 × 71 = 142 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the total surface area of a cuboid 9 cm × 3 cm × 3 cm?",
+          "opciones": [
+            "126 cm²",
+            "81 cm²",
+            "63 cm²",
+            "108 cm²"
+          ],
+          "correcta": 0,
+          "explicacion": "2 × (27 + 27 + 9) = 126 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A block of cheese is 12 cm × 3 cm × 6 cm. What is its total surface area?",
+          "opciones": [
+            "252 cm²",
+            "216 cm²",
+            "126 cm²",
+            "216 cm³"
+          ],
+          "correcta": 0,
+          "explicacion": "2 × (36 + 72 + 18) = 2 × 126 = 252 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which units are used for surface area?",
+          "opciones": [
+            "cm²",
+            "cm³",
+            "cm",
+            "litres"
+          ],
+          "correcta": 0,
+          "explicacion": "Surface area is an area, so it uses square units."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "A cuboid is 8 cm × 4 cm × 3 cm. What is its volume? Give the units.",
+          "pista": "Multiply length, width and height.",
+          "claves": [
+            "96"
+          ],
+          "modelo": "96 cm³",
+          "explicacion": "8 × 4 × 3 = 96 cm³."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Marcel wants to wrap a block of cheese in plastic film. Why is the total surface area NOT a good measure of how much film he needs?",
+          "pista": "Think about what happens at the edges when you wrap something.",
+          "claves": [
+            "overlap",
+            "extra",
+            "more",
+            "fold",
+            "edge",
+            "gap"
+          ],
+          "modelo": "The film has to overlap and fold round the edges, so he needs more than the surface area.",
+          "explicacion": "Wrapping always needs extra film for overlaps and folds."
+        }
+      ]
     }
   ]
 }
