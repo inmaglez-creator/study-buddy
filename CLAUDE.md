@@ -27,6 +27,8 @@ Web estática (HTML + CSS + JS sin dependencias ni compilación) para preparar e
 
 Igual que el hub de Y6 SATs: **▶ Practice online** (test), **🖨 Print PDF** (hoja imprimible con 20 preguntas al azar, casillas, líneas para respuestas cortas y *answer key* en página aparte; se imprime/guarda como PDF desde el navegador — no funciona dentro de la vista previa de claude.ai, sí en GitHub Pages), **📖 Notes** (resúmenes de todos los temas del examen; botón *Print notes* que imprime todos los temas seguidos en formato compacto, unas 3 páginas) y **🃏 Flashcards**. Todo sale de los temas: no hay que crear nada aparte por recurso.
 
+Un examen puede llevar además `lab`: `{ "url", "titulo" }`, un quinto botón a una página interactiva. Existe `lab/scratch.html` (**Scratch Lab**: bloques, escenario y 12 misiones de secuencia, repetición, selección, eventos y variables; progreso en `localStorage`, clave `scratchLab`).
+
 ## Banco general y examen de fin de curso
 
 - Los temas de cada examen se añaden como temas **de la asignatura** (no del examen). Así cada examen alimenta el banco general de la asignatura.

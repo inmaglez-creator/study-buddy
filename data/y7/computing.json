@@ -1384,6 +1384,1366 @@
           "explicacion": "if + variable + == + value + colon."
         }
       ]
+    },
+    {
+      "id": "scratch-interface",
+      "titulo": "Scratch 1 · The interface and sprites",
+      "resumen": [
+        "## What is Scratch?",
+        "**Scratch** is a free programming language from MIT. Instead of typing code you snap **colourful blocks** together like puzzle pieces.",
+        "You can make **animations, stories and games**. The characters are called **sprites**.",
+        "",
+        "## The parts of the screen",
+        "- **Block palette**: all the blocks, sorted into coloured categories",
+        "- **Code area**: where you drag blocks to build **scripts**",
+        "- **Stage**: where the sprites act out your program (480 × 360)",
+        "- **Sprite pane**: the list of sprites, with name, x, y, size and direction",
+        "- **Green flag** starts the program; the **red stop sign** stops it",
+        "- Tabs: **Code**, **Costumes** and **Sounds**",
+        "",
+        "## Coordinates",
+        "The centre of the stage is **x: 0, y: 0**. **x** goes from −240 (left) to 240 (right); **y** goes from −180 (bottom) to 180 (top)."
+      ],
+      "notas": [
+        {
+          "seccion": "Scratch",
+          "tarjetas": [
+            {
+              "etiqueta": "🧩 Blocks",
+              "titulo": "Code you snap together",
+              "puntos": [
+                "No typing: **colourful blocks** fit like puzzle pieces",
+                "Free, made by **MIT**",
+                "For **animations, stories and games**"
+              ]
+            },
+            {
+              "etiqueta": "🐱 Sprites",
+              "titulo": "The characters",
+              "puntos": [
+                "A **sprite** is a character or object on the stage",
+                "Each sprite has its **own scripts**",
+                "**Costumes** = the different looks of a sprite"
+              ]
+            },
+            {
+              "etiqueta": "🎭 Stage",
+              "titulo": "Where the action happens",
+              "puntos": [
+                "480 wide × 360 high",
+                "**Backdrops** = backgrounds of the stage",
+                "The stage can have scripts too"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Words to know",
+            "items": [
+              "sprite",
+              "stage",
+              "backdrop",
+              "costume",
+              "script",
+              "block",
+              "program",
+              "green flag"
+            ]
+          }
+        },
+        {
+          "seccion": "The screen",
+          "tarjetas": [
+            {
+              "etiqueta": "🎨 Block palette",
+              "titulo": "Left side",
+              "puntos": [
+                "Blocks sorted by **colour and category**",
+                "Motion, Looks, Sound, Events, Control…",
+                "Drag a block out to use it"
+              ]
+            },
+            {
+              "etiqueta": "📝 Code area",
+              "titulo": "Middle",
+              "puntos": [
+                "Drop blocks here to make **scripts**",
+                "Blocks **click together** in order",
+                "Right-click → clean up blocks"
+              ]
+            },
+            {
+              "etiqueta": "🚩 Run and stop",
+              "titulo": "Above the stage",
+              "puntos": [
+                "**Green flag** = start",
+                "**Red stop sign** = stop everything",
+                "Full-screen button to show it off"
+              ]
+            },
+            {
+              "etiqueta": "🗂️ Tabs",
+              "titulo": "Code · Costumes · Sounds",
+              "puntos": [
+                "**Code**: the scripts",
+                "**Costumes**: paint or choose looks",
+                "**Sounds**: record or choose sounds"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Coordinates",
+          "tarjetas": [
+            {
+              "etiqueta": "📍 Centre",
+              "titulo": "x: 0, y: 0",
+              "puntos": [
+                "The middle of the stage",
+                "**x** = left ↔ right",
+                "**y** = down ↕ up"
+              ]
+            },
+            {
+              "etiqueta": "↔️ x",
+              "titulo": "−240 to 240",
+              "puntos": [
+                "Bigger x → further **right**",
+                "Negative x → **left** side",
+                "change x by 10 → moves right"
+              ]
+            },
+            {
+              "etiqueta": "↕️ y",
+              "titulo": "−180 to 180",
+              "puntos": [
+                "Bigger y → further **up**",
+                "Negative y → **bottom** half",
+                "change y by −10 → moves down"
+              ]
+            },
+            {
+              "etiqueta": "🧭 Direction",
+              "titulo": "90 = right",
+              "puntos": [
+                "**90** right · **−90** left",
+                "**0** up · **180** down",
+                "point in direction 90"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is Scratch?",
+          "r": "A free block-based programming language made by MIT."
+        },
+        {
+          "p": "What is a sprite?",
+          "r": "A character or object that you program in Scratch."
+        },
+        {
+          "p": "What is the stage?",
+          "r": "The area where the sprites perform your program."
+        },
+        {
+          "p": "What is a costume?",
+          "r": "One of the different looks of a sprite."
+        },
+        {
+          "p": "What is a backdrop?",
+          "r": "A background picture for the stage."
+        },
+        {
+          "p": "What does the green flag do?",
+          "r": "Starts the program."
+        },
+        {
+          "p": "What does the red stop sign do?",
+          "r": "Stops all the scripts."
+        },
+        {
+          "p": "What is a script?",
+          "r": "A stack of blocks joined together."
+        },
+        {
+          "p": "Coordinates of the centre of the stage",
+          "r": "x: 0, y: 0"
+        },
+        {
+          "p": "Size of the Scratch stage",
+          "r": "480 × 360 (x −240 to 240, y −180 to 180)"
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What is Scratch?",
+          "opciones": [
+            "A drawing program only",
+            "A type of keyboard",
+            "A search engine",
+            "A block-based programming language"
+          ],
+          "correcta": 3,
+          "explicacion": "Scratch lets you program by snapping blocks together."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In Scratch, what is a sprite?",
+          "opciones": [
+            "A type of loop",
+            "A sound effect",
+            "A character or object you program",
+            "The background of the stage"
+          ],
+          "correcta": 2,
+          "explicacion": "Sprites are the characters that act on the stage."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where do the sprites perform your program?",
+          "opciones": [
+            "In the sounds tab",
+            "In the menu bar",
+            "On the stage",
+            "In the block palette"
+          ],
+          "correcta": 2,
+          "explicacion": "The stage is where everything happens."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the block palette?",
+          "opciones": [
+            "A list of sprites",
+            "The paint editor",
+            "The list of blocks sorted into coloured categories",
+            "The area where sprites move"
+          ],
+          "correcta": 2,
+          "explicacion": "You drag blocks from the palette into the code area."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where do you build your scripts?",
+          "opciones": [
+            "In the sprite pane",
+            "In the code area",
+            "On the stage",
+            "In the backdrop library"
+          ],
+          "correcta": 1,
+          "explicacion": "Blocks are dropped and joined together in the code area."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which button starts a Scratch program?",
+          "opciones": [
+            "The green flag",
+            "The red stop sign",
+            "The full-screen button",
+            "The costume tab"
+          ],
+          "correcta": 0,
+          "explicacion": "Scripts that begin 'when green flag clicked' start running."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which button stops every script?",
+          "opciones": [
+            "The green flag",
+            "The save button",
+            "The sprite pane",
+            "The red stop sign"
+          ],
+          "correcta": 3,
+          "explicacion": "The stop sign stops all scripts."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a costume in Scratch?",
+          "opciones": [
+            "A background for the stage",
+            "A block that makes music",
+            "A saved project",
+            "One of the different looks of a sprite"
+          ],
+          "correcta": 3,
+          "explicacion": "Switching costumes makes a sprite look different, e.g. for walking."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a backdrop?",
+          "opciones": [
+            "A loop block",
+            "A variable",
+            "A background picture for the stage",
+            "A sprite's costume"
+          ],
+          "correcta": 2,
+          "explicacion": "Backdrops belong to the stage."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which tab do you use to choose or record sounds?",
+          "opciones": [
+            "Code",
+            "Backdrops",
+            "Sounds",
+            "Costumes"
+          ],
+          "correcta": 2,
+          "explicacion": "The Sounds tab holds a sprite's sounds."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What are the coordinates of the centre of the stage?",
+          "opciones": [
+            "x: 0, y: 0",
+            "x: 240, y: 180",
+            "x: 100, y: 100",
+            "x: −240, y: −180"
+          ],
+          "correcta": 0,
+          "explicacion": "The centre is (0, 0)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A sprite is at x: 200, y: 0. Where on the stage is it?",
+          "opciones": [
+            "Near the left edge",
+            "At the top",
+            "At the bottom",
+            "Near the right edge"
+          ],
+          "correcta": 3,
+          "explicacion": "Big positive x values are on the right."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A sprite is at x: 0, y: −150. Where on the stage is it?",
+          "opciones": [
+            "On the right",
+            "Near the bottom",
+            "Near the top",
+            "On the left"
+          ],
+          "correcta": 1,
+          "explicacion": "Negative y values are in the bottom half."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which direction does a sprite face when its direction is 90?",
+          "opciones": [
+            "Down",
+            "Right",
+            "Left",
+            "Up"
+          ],
+          "correcta": 1,
+          "explicacion": "90 is right, −90 is left, 0 is up and 180 is down."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How wide is the Scratch stage?",
+          "opciones": [
+            "360 steps",
+            "100 steps",
+            "1000 steps",
+            "480 steps (x from −240 to 240)"
+          ],
+          "correcta": 3,
+          "explicacion": "The stage is 480 × 360."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Each sprite has its own scripts.",
+          "correcta": true,
+          "explicacion": "You click a sprite in the sprite pane to see and edit its own code."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "In Scratch you have to type every instruction with the keyboard.",
+          "correcta": false,
+          "explicacion": "Scratch uses blocks that you drag and snap together."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The stage can have scripts as well as the sprites.",
+          "correcta": true,
+          "explicacion": "The stage has its own code, for example to change backdrops."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What is the name for a character that you program in Scratch?",
+          "pista": "The Scratch cat is one.",
+          "claves": [
+            "sprite"
+          ],
+          "modelo": "A sprite.",
+          "explicacion": "Sprites are the characters on the stage."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name TWO of the tabs above the block palette.",
+          "pista": "One of them is for changing how a sprite looks.",
+          "claves": [
+            "code",
+            "costume",
+            "sound"
+          ],
+          "minimo": 2,
+          "modelo": "Code, Costumes and Sounds.",
+          "explicacion": "The three tabs are Code, Costumes and Sounds."
+        }
+      ]
+    },
+    {
+      "id": "scratch-blocks",
+      "titulo": "Scratch 2 · Blocks: events, motion and looks",
+      "resumen": [
+        "## Block categories",
+        "Blocks are sorted by **colour**: **Motion** (blue), **Looks** (purple), **Sound** (pink), **Events** (yellow), **Control** (orange), **Sensing** (light blue), **Operators** (green) and **Variables** (dark orange).",
+        "",
+        "## Events start scripts",
+        "**Hat blocks** have a rounded top and go at the start of a script: **when green flag clicked**, **when space key pressed**, **when this sprite clicked**, **when I receive**.",
+        "**Broadcast** sends a message that other sprites can receive.",
+        "",
+        "## Motion and looks",
+        "- **move 10 steps**, **turn 15 degrees**, **go to x: y:**, **glide 1 secs to x: y:**, **change x by**, **if on edge, bounce**",
+        "- **say Hello! for 2 seconds**, **think**, **next costume**, **change size by**, **show** and **hide**",
+        "- **Animation**: switch costume + **wait** a little, again and again"
+      ],
+      "notas": [
+        {
+          "seccion": "Block colours",
+          "tarjetas": [
+            {
+              "etiqueta": "🔵 Motion",
+              "titulo": "Move the sprite",
+              "puntos": [
+                "move 10 steps",
+                "turn 15 degrees",
+                "go to x: 0 y: 0"
+              ]
+            },
+            {
+              "etiqueta": "🟣 Looks",
+              "titulo": "Change how it looks",
+              "puntos": [
+                "say Hello! for 2 seconds",
+                "next costume",
+                "show · hide"
+              ]
+            },
+            {
+              "etiqueta": "🟡 Events",
+              "titulo": "Start scripts",
+              "puntos": [
+                "when green flag clicked",
+                "when space key pressed",
+                "broadcast message"
+              ]
+            },
+            {
+              "etiqueta": "🟠 Control",
+              "titulo": "Wait, loops, if",
+              "puntos": [
+                "wait 1 seconds",
+                "repeat 10 · forever",
+                "if … then … else"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "More categories",
+            "items": [
+              "Sound = pink",
+              "Sensing = light blue",
+              "Operators = green",
+              "Variables = dark orange",
+              "My Blocks = red"
+            ]
+          }
+        },
+        {
+          "seccion": "Events",
+          "tarjetas": [
+            {
+              "etiqueta": "🎩 Hat blocks",
+              "titulo": "Rounded top",
+              "puntos": [
+                "Always at the **start** of a script",
+                "Nothing can go above them",
+                "They wait for something to happen"
+              ]
+            },
+            {
+              "etiqueta": "⌨️ Key pressed",
+              "titulo": "when space key pressed",
+              "puntos": [
+                "Runs when that key is pressed",
+                "Great for controlling a sprite",
+                "Arrow keys: up, down, left, right"
+              ]
+            },
+            {
+              "etiqueta": "📣 Broadcast",
+              "titulo": "Sprites talking",
+              "puntos": [
+                "**broadcast** sends a message",
+                "**when I receive** runs when it arrives",
+                "Used to start the next scene"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Motion and looks",
+          "tarjetas": [
+            {
+              "etiqueta": "🚶 Moving",
+              "titulo": "steps and coordinates",
+              "puntos": [
+                "move 10 steps → forwards",
+                "change x by 10 → right",
+                "glide = moves **smoothly**"
+              ]
+            },
+            {
+              "etiqueta": "🔁 Bouncing",
+              "titulo": "if on edge, bounce",
+              "puntos": [
+                "Turns round at the edge",
+                "Use inside **forever**",
+                "Keeps the sprite on the stage"
+              ]
+            },
+            {
+              "etiqueta": "💬 Talking",
+              "titulo": "say and think",
+              "puntos": [
+                "**say** = speech bubble",
+                "**think** = thought bubble",
+                "'for 2 seconds' waits before moving on"
+              ]
+            },
+            {
+              "etiqueta": "🎞️ Animation",
+              "titulo": "costumes + wait",
+              "puntos": [
+                "next costume",
+                "wait 0.2 seconds",
+                "repeat → it looks like walking"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What colour are Motion blocks?",
+          "r": "Blue."
+        },
+        {
+          "p": "What colour are Events blocks?",
+          "r": "Yellow."
+        },
+        {
+          "p": "What colour are Looks blocks?",
+          "r": "Purple."
+        },
+        {
+          "p": "What colour are Control blocks?",
+          "r": "Orange."
+        },
+        {
+          "p": "What is a hat block?",
+          "r": "A block with a rounded top that starts a script."
+        },
+        {
+          "p": "What does broadcast do?",
+          "r": "Sends a message that other sprites (or the stage) can receive."
+        },
+        {
+          "p": "What does glide do?",
+          "r": "Moves a sprite smoothly to a place over some seconds."
+        },
+        {
+          "p": "How do you animate a sprite?",
+          "r": "Use next costume and wait, repeated."
+        },
+        {
+          "p": "say vs think",
+          "r": "say shows a speech bubble; think shows a thought bubble."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What colour are the Motion blocks?",
+          "opciones": [
+            "Blue",
+            "Purple",
+            "Yellow",
+            "Green"
+          ],
+          "correcta": 0,
+          "explicacion": "Motion blocks such as 'move 10 steps' are blue."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What colour are the Events blocks?",
+          "opciones": [
+            "Blue",
+            "Pink",
+            "Green",
+            "Yellow"
+          ],
+          "correcta": 3,
+          "explicacion": "Events blocks like 'when green flag clicked' are yellow."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which category does 'say Hello! for 2 seconds' belong to?",
+          "opciones": [
+            "Events",
+            "Looks",
+            "Motion",
+            "Sound"
+          ],
+          "correcta": 1,
+          "explicacion": "say and think are purple Looks blocks."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which category has 'repeat', 'forever', 'wait' and 'if'?",
+          "opciones": [
+            "Sensing",
+            "Control",
+            "Events",
+            "Operators"
+          ],
+          "correcta": 1,
+          "explicacion": "Control blocks are orange."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which category has the green blocks for maths, such as + and 'pick random'?",
+          "opciones": [
+            "Variables",
+            "Motion",
+            "Sensing",
+            "Operators"
+          ],
+          "correcta": 3,
+          "explicacion": "Operators do calculations and comparisons."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which block is a hat block?",
+          "opciones": [
+            "next costume",
+            "wait 1 seconds",
+            "when green flag clicked",
+            "move 10 steps"
+          ],
+          "correcta": 2,
+          "explicacion": "Hat blocks have a rounded top and start a script."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where does a hat block go in a script?",
+          "opciones": [
+            "Inside a loop",
+            "At the very start",
+            "At the very end",
+            "In the middle"
+          ],
+          "correcta": 1,
+          "explicacion": "Hat blocks start scripts, so nothing can go above them."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "You want a sprite to jump when the space bar is pressed. Which block should start the script?",
+          "opciones": [
+            "when this sprite clicked",
+            "forever",
+            "when space key pressed",
+            "when green flag clicked"
+          ],
+          "correcta": 2,
+          "explicacion": "That event runs whenever the space key is pressed."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which block makes a script run when you click on the sprite?",
+          "opciones": [
+            "when green flag clicked",
+            "go to mouse-pointer",
+            "touching mouse-pointer?",
+            "when this sprite clicked"
+          ],
+          "correcta": 3,
+          "explicacion": "It is an Events hat block."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does the broadcast block do?",
+          "opciones": [
+            "Sends a message to other sprites",
+            "Plays a sound",
+            "Makes the sprite bigger",
+            "Stops the program"
+          ],
+          "correcta": 0,
+          "explicacion": "Sprites with 'when I receive' that message then run their script."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'move 10 steps' do?",
+          "opciones": [
+            "Turns the sprite 10 degrees",
+            "Waits 10 seconds",
+            "Moves the sprite forwards 10 steps",
+            "Moves the sprite 10 steps up"
+          ],
+          "correcta": 2,
+          "explicacion": "It moves in the direction the sprite is facing."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which block moves a sprite smoothly to a new position?",
+          "opciones": [
+            "turn 90 degrees",
+            "glide 1 secs to x: 100 y: 0",
+            "go to x: 100 y: 0",
+            "set x to 100"
+          ],
+          "correcta": 1,
+          "explicacion": "glide moves it over time; go to jumps straight there."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which block moves a sprite to the right?",
+          "opciones": [
+            "change y by −10",
+            "change x by 10",
+            "change y by 10",
+            "change x by −10"
+          ],
+          "correcta": 1,
+          "explicacion": "Increasing x moves to the right."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which block moves a sprite down?",
+          "opciones": [
+            "change y by 10",
+            "change x by 10",
+            "turn 15 degrees",
+            "change y by −10"
+          ],
+          "correcta": 3,
+          "explicacion": "Decreasing y moves down."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'if on edge, bounce' do?",
+          "opciones": [
+            "Turns the sprite round when it reaches the edge",
+            "Makes the sprite jump",
+            "Stops the program at the edge",
+            "Hides the sprite"
+          ],
+          "correcta": 0,
+          "explicacion": "It keeps a moving sprite on the stage."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the difference between 'say' and 'think'?",
+          "opciones": [
+            "say plays a sound, think does not",
+            "think moves the sprite",
+            "There is no difference",
+            "say shows a speech bubble, think shows a thought bubble"
+          ],
+          "correcta": 3,
+          "explicacion": "Both are Looks blocks with different bubbles."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which pair of blocks makes a sprite look as if it is walking?",
+          "opciones": [
+            "next costume and wait 0.2 seconds",
+            "show and hide",
+            "say and think",
+            "turn and glide"
+          ],
+          "correcta": 0,
+          "explicacion": "Changing costume with a short wait makes an animation."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A sprite runs 'say Hello! for 2 seconds' then 'move 10 steps'. When does it move?",
+          "opciones": [
+            "Before speaking",
+            "It never moves",
+            "After the 2 seconds",
+            "At the same time as speaking"
+          ],
+          "correcta": 2,
+          "explicacion": "'for 2 seconds' waits before the next block runs."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which block makes a sprite disappear from the stage?",
+          "opciones": [
+            "hide",
+            "show",
+            "stop all",
+            "clear"
+          ],
+          "correcta": 0,
+          "explicacion": "hide makes it invisible; show brings it back."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "go to x: 0 y: 0 sends the sprite to the centre of the stage.",
+          "correcta": true,
+          "explicacion": "(0, 0) is the centre."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A hat block can go in the middle of a script.",
+          "correcta": false,
+          "explicacion": "Hat blocks only go at the start."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What colour are the Looks blocks?",
+          "claves": [
+            "purple",
+            "violet",
+            "lilac"
+          ],
+          "modelo": "Purple.",
+          "explicacion": "Looks blocks such as say, think and next costume are purple."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Which TWO blocks would you repeat to make a sprite look like it is walking?",
+          "pista": "One changes the look, the other pauses.",
+          "claves": [
+            "costume",
+            "wait"
+          ],
+          "minimo": 2,
+          "modelo": "next costume and wait (a short time).",
+          "explicacion": "Changing costume and pausing makes the animation."
+        }
+      ]
+    },
+    {
+      "id": "scratch-concepts",
+      "titulo": "Scratch 3 · Sequencing, selection and repetition",
+      "resumen": [
+        "## Three key ideas",
+        "- **Sequencing**: the blocks run **in order**, from top to bottom. Changing the order changes what happens.",
+        "- **Selection**: the program makes a **decision** with **if … then** or **if … then … else**.",
+        "- **Repetition** (iteration): blocks are repeated with a **loop**: **repeat 10**, **forever** or **repeat until**.",
+        "",
+        "## Conditions and variables",
+        "Conditions are **hexagonal** (pointy) blocks that are **true or false**, e.g. **touching edge?**, **key space pressed?**, **score > 10**.",
+        "A **variable** stores a value that can change, e.g. **score**: **set score to 0**, **change score by 1**.",
+        "",
+        "## Testing and debugging",
+        "An **algorithm** is a set of steps to solve a problem. A **bug** is a mistake in a program; **debugging** is finding and fixing it. Always **test** your program."
+      ],
+      "notas": [
+        {
+          "seccion": "The three key ideas",
+          "tarjetas": [
+            {
+              "etiqueta": "➡️ Sequencing",
+              "titulo": "Order matters",
+              "puntos": [
+                "Blocks run from **top to bottom**",
+                "Change the order → different result",
+                "Like the steps of a recipe"
+              ]
+            },
+            {
+              "etiqueta": "🔀 Selection",
+              "titulo": "Making decisions",
+              "puntos": [
+                "**if** touching edge? **then** …",
+                "**if … then … else** → two paths",
+                "Only runs when the condition is **true**"
+              ]
+            },
+            {
+              "etiqueta": "🔁 Repetition",
+              "titulo": "Loops",
+              "puntos": [
+                "**repeat 10** → a set number of times",
+                "**forever** → never stops",
+                "**repeat until** → until something is true"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Words to know",
+            "items": [
+              "algorithm",
+              "sequence",
+              "selection",
+              "repetition",
+              "iteration",
+              "loop",
+              "condition",
+              "variable",
+              "bug",
+              "debugging",
+              "testing"
+            ]
+          }
+        },
+        {
+          "seccion": "Conditions and variables",
+          "tarjetas": [
+            {
+              "etiqueta": "⬡ Conditions",
+              "titulo": "True or false",
+              "puntos": [
+                "Hexagonal (pointy) blocks",
+                "touching colour? · key space pressed?",
+                "score > 10 · answer = 42"
+              ]
+            },
+            {
+              "etiqueta": "🔢 Variables",
+              "titulo": "A box that stores a value",
+              "puntos": [
+                "set score to 0 at the start",
+                "change score by 1 when you win a point",
+                "Shown on the stage"
+              ]
+            },
+            {
+              "etiqueta": "🎲 Random",
+              "titulo": "pick random 1 to 10",
+              "puntos": [
+                "Gives a different number each time",
+                "Green Operators block",
+                "Good for games"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Make it work",
+          "tarjetas": [
+            {
+              "etiqueta": "🐞 Bug",
+              "titulo": "A mistake",
+              "puntos": [
+                "The program does not do what you wanted",
+                "**Debugging** = finding and fixing it",
+                "Check the order of the blocks"
+              ]
+            },
+            {
+              "etiqueta": "🧪 Testing",
+              "titulo": "Try it out",
+              "puntos": [
+                "Run it with the green flag",
+                "Try different keys and answers",
+                "Fix, then test again"
+              ]
+            },
+            {
+              "etiqueta": "📋 Algorithm",
+              "titulo": "Plan first",
+              "puntos": [
+                "A set of **steps** to solve a problem",
+                "Write or draw it before coding",
+                "Then turn it into blocks"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "What is sequencing?",
+          "r": "Running instructions in the correct order."
+        },
+        {
+          "p": "What is selection?",
+          "r": "Making a decision with if … then (… else)."
+        },
+        {
+          "p": "What is repetition (iteration)?",
+          "r": "Repeating blocks using a loop."
+        },
+        {
+          "p": "Name three loop blocks",
+          "r": "repeat 10, forever, repeat until."
+        },
+        {
+          "p": "What is a condition?",
+          "r": "A question that is true or false, e.g. touching edge?"
+        },
+        {
+          "p": "What is a variable?",
+          "r": "A named store for a value that can change, e.g. score."
+        },
+        {
+          "p": "What is an algorithm?",
+          "r": "A set of steps to solve a problem."
+        },
+        {
+          "p": "What is a bug?",
+          "r": "A mistake in a program."
+        },
+        {
+          "p": "What is debugging?",
+          "r": "Finding and fixing bugs."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "What does sequencing mean in programming?",
+          "opciones": [
+            "Repeating instructions",
+            "Making a decision",
+            "Storing a value",
+            "Running instructions in the right order"
+          ],
+          "correcta": 3,
+          "explicacion": "In a sequence the blocks run one after another, top to bottom."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In which order do the blocks of a Scratch script run?",
+          "opciones": [
+            "From bottom to top",
+            "All at the same time",
+            "In a random order",
+            "From top to bottom"
+          ],
+          "correcta": 3,
+          "explicacion": "That is why the order of blocks matters."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does selection mean in programming?",
+          "opciones": [
+            "Choosing a sprite",
+            "Repeating blocks",
+            "Selecting a costume",
+            "Making a decision with if … then"
+          ],
+          "correcta": 3,
+          "explicacion": "The program chooses what to do depending on a condition."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does repetition mean in programming?",
+          "opciones": [
+            "Repeating blocks with a loop",
+            "Running blocks in order",
+            "Making a decision",
+            "Saving the project"
+          ],
+          "correcta": 0,
+          "explicacion": "Repetition is also called iteration."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which block repeats the blocks inside it a set number of times?",
+          "opciones": [
+            "if … then",
+            "wait 10 seconds",
+            "repeat 10",
+            "forever"
+          ],
+          "correcta": 2,
+          "explicacion": "repeat 10 runs its blocks exactly 10 times."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which loop never stops on its own?",
+          "opciones": [
+            "repeat until",
+            "if … then",
+            "forever",
+            "repeat 10"
+          ],
+          "correcta": 2,
+          "explicacion": "forever keeps going until you click the stop sign."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which loop keeps going until a condition becomes true?",
+          "opciones": [
+            "repeat 10",
+            "wait 1 seconds",
+            "repeat until",
+            "forever"
+          ],
+          "correcta": 2,
+          "explicacion": "repeat until touching edge? stops when the sprite touches the edge."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "repeat 4 { move 100 steps, turn 90 degrees } What shape does the sprite draw?",
+          "opciones": [
+            "A circle",
+            "A straight line",
+            "A square",
+            "A triangle"
+          ],
+          "correcta": 2,
+          "explicacion": "Four equal sides and four 90° turns make a square."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "repeat 3 { move 100 steps, turn 120 degrees } What shape is drawn?",
+          "opciones": [
+            "A hexagon",
+            "A line",
+            "An equilateral triangle",
+            "A square"
+          ],
+          "correcta": 2,
+          "explicacion": "3 sides and 3 × 120° = 360°."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A sprite runs repeat 5 { move 10 steps }. How far does it move altogether?",
+          "opciones": [
+            "15 steps",
+            "10 steps",
+            "5 steps",
+            "50 steps"
+          ],
+          "correcta": 3,
+          "explicacion": "5 × 10 = 50 steps."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which block should you use so that a sprite does something ONLY when it touches the edge?",
+          "opciones": [
+            "if touching edge? then",
+            "forever",
+            "repeat 10",
+            "when green flag clicked"
+          ],
+          "correcta": 0,
+          "explicacion": "That is selection: it only runs when the condition is true."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "When does the 'else' part of 'if … then … else' run?",
+          "opciones": [
+            "Always",
+            "Never",
+            "When the condition is false",
+            "When the condition is true"
+          ],
+          "correcta": 2,
+          "explicacion": "if runs the first part when true and the else part when false."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What shape are condition (true/false) blocks in Scratch?",
+          "opciones": [
+            "Rounded ends",
+            "Hat-shaped",
+            "C-shaped",
+            "Hexagonal (pointy ends)"
+          ],
+          "correcta": 3,
+          "explicacion": "Boolean blocks are pointy so they fit the hexagonal gaps in if and repeat until."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is a condition?",
+          "opciones": [
+            "key space pressed?",
+            "move 10 steps",
+            "next costume",
+            "say Hello!"
+          ],
+          "correcta": 0,
+          "explicacion": "It is either true or false."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A game shows a score. What is the best thing to store it in?",
+          "opciones": [
+            "A backdrop",
+            "A sound",
+            "A variable",
+            "A costume"
+          ],
+          "correcta": 2,
+          "explicacion": "A variable stores a value that can change."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which block should run at the start of a game so the score begins at zero?",
+          "opciones": [
+            "show variable score",
+            "set score to 0",
+            "change score by 1",
+            "change score by 0"
+          ],
+          "correcta": 1,
+          "explicacion": "set gives the variable a starting value; change adds to it."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What does 'change score by 1' do?",
+          "opciones": [
+            "Shows the score",
+            "Adds 1 to the score",
+            "Sets the score to 1",
+            "Takes 1 away from the score"
+          ],
+          "correcta": 1,
+          "explicacion": "change by adds the number to the current value."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A sprite should walk forever and turn round at the edge. Which script is best?",
+          "opciones": [
+            "if on edge, bounce, stop all",
+            "forever { move 10 steps, if on edge, bounce }",
+            "repeat 1 { move 10 steps }",
+            "move 10 steps, if on edge, bounce"
+          ],
+          "correcta": 1,
+          "explicacion": "The forever loop keeps it moving and bouncing."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is an algorithm?",
+          "opciones": [
+            "A Scratch backdrop",
+            "A set of steps to solve a problem",
+            "A type of sprite",
+            "A mistake in a program"
+          ],
+          "correcta": 1,
+          "explicacion": "You plan the algorithm, then turn it into code."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is a bug?",
+          "opciones": [
+            "A type of loop",
+            "A sound effect",
+            "A mistake in a program",
+            "A sprite that is an insect"
+          ],
+          "correcta": 2,
+          "explicacion": "Bugs make a program do the wrong thing."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is debugging?",
+          "opciones": [
+            "Deleting all the sprites",
+            "Adding more loops",
+            "Drawing a new costume",
+            "Finding and fixing mistakes in a program"
+          ],
+          "correcta": 3,
+          "explicacion": "Then you test again to check it works."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A script says 'move 10 steps' BEFORE 'when green flag clicked'. What is wrong?",
+          "opciones": [
+            "The move block must be pink",
+            "There should be no hat block",
+            "The hat block must be at the top",
+            "Nothing"
+          ],
+          "correcta": 2,
+          "explicacion": "Hat blocks start a script, so they must go first."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which green block gives a different number each time?",
+          "opciones": [
+            "wait 1 seconds",
+            "pick random 1 to 10",
+            "set score to 10",
+            "repeat 10"
+          ],
+          "correcta": 1,
+          "explicacion": "pick random is an Operators block, useful in games."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Changing the order of the blocks in a script can change what the program does.",
+          "correcta": true,
+          "explicacion": "That is why sequencing matters."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A 'repeat 10' loop runs its blocks forever.",
+          "correcta": false,
+          "explicacion": "It runs them exactly 10 times; forever never stops."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "You should test a program after fixing a bug.",
+          "correcta": true,
+          "explicacion": "Testing checks that the fix works and has not broken anything else."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What are the THREE key programming ideas in this unit?",
+          "pista": "One is about order, one about decisions and one about loops.",
+          "claves": [
+            "sequenc",
+            "selection",
+            "repetition",
+            "iteration",
+            "loop",
+            "decision"
+          ],
+          "minimo": 3,
+          "modelo": "Sequencing, selection and repetition (iteration).",
+          "explicacion": "Order, decisions and loops."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What do we call a mistake in a program?",
+          "claves": [
+            "bug",
+            "error"
+          ],
+          "modelo": "A bug.",
+          "explicacion": "Finding and fixing bugs is called debugging."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name a loop block that never stops on its own.",
+          "claves": [
+            "forever"
+          ],
+          "modelo": "forever",
+          "explicacion": "It keeps running until the stop sign is clicked."
+        }
+      ]
     }
   ]
 }

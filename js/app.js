@@ -221,6 +221,7 @@ function tarjetaExamen(e) {
         <a class="boton ${activo(nPreguntas)}" href="${base}/imprimir">🖨 Print PDF</a>
         <a class="boton ${activo(hayNotas)}" href="${base}/notas">📖 Notes</a>
         <a class="boton ${activo(hayTarjetas)}" href="${base}/tarjetas">🃏 Flashcards</a>
+        ${e.lab ? `<a class="boton" href="${esc(e.lab.url)}">${esc(e.lab.titulo)}</a>` : ''}
       </div>
     </div>`;
 }

@@ -288,6 +288,21 @@
         "tema-2-idiomas-de-etiqueta",
         "tema-3-fauna-en-verso"
       ]
+    },
+    {
+      "id": "computing-scratch",
+      "asignatura": "computing",
+      "titulo": "Computing test · Introduction to Scratch",
+      "fecha": "2026-11-24",
+      "temas": [
+        "scratch-interface",
+        "scratch-blocks",
+        "scratch-concepts"
+      ],
+      "lab": {
+        "url": "lab/scratch.html",
+        "titulo": "🧪 Scratch Lab"
+      }
     }
   ]
 }

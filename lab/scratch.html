@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scratch Lab · Study Buddy</title>
+<link rel="icon" href="../icono.svg">
+<style>
+:root{
+  --fondo:#f5f6fa; --sup:#fff; --sup2:#eef0f6; --texto:#1d2130; --suave:#5d6375; --borde:#dde0ea;
+  --acento:#3b5bdb; --ok:#2b8a3e; --okf:#e6f4ea; --err:#c92a2a; --errf:#fdecec;
+  --motion:#4c97ff; --looks:#9966ff; --events:#e6a800; --control:#ffab19; --sensing:#5cb1d6;
+  --vars:#ff8c1a; --pen:#0fbd8c; --hl:#ffe066; --radio:12px; --stage:#ffffff; --grid:#e3e7ef;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --fondo:#12141c; --sup:#1c1f2b; --sup2:#262a38; --texto:#e8eaf2; --suave:#9aa0b4; --borde:#2f3445;
+  --acento:#748ffc; --ok:#69db7c; --okf:#1d3324; --err:#ff8787; --errf:#3a1f22; --stage:#f8f9fc; --grid:#dfe3ec;
+}}
+:root[data-theme="dark"]{
+  --fondo:#12141c; --sup:#1c1f2b; --sup2:#262a38; --texto:#e8eaf2; --suave:#9aa0b4; --borde:#2f3445;
+  --acento:#748ffc; --ok:#69db7c; --okf:#1d3324; --err:#ff8787; --errf:#3a1f22; --stage:#f8f9fc; --grid:#dfe3ec;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--fondo);color:var(--texto);font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+body{padding:12px 16px 40px}
+a{color:var(--acento)}
+button,input,select{font:inherit;color:inherit}
+header{max-width:1280px;margin:0 auto 12px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+header h1{font-size:1.35rem;margin:0;flex:1}
+.app{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:250px minmax(0,1fr) minmax(0,500px);gap:12px;align-items:start}
+@media (max-width:1100px){.app{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.misiones{grid-column:1/-1}}
+@media (max-width:720px){.app{grid-template-columns:minmax(0,1fr)}}
+.panel{background:var(--sup);border:1px solid var(--borde);border-radius:var(--radio);padding:12px;min-width:0}
+.panel h2{font-size:1rem;margin:0 0 8px}
+.misiones ol{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+@media (max-width:1100px){.misiones ol{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}}
+.mision{width:100%;text-align:left;border:1px solid var(--borde);background:var(--sup2);border-radius:10px;padding:7px 9px;cursor:pointer;display:flex;gap:8px;align-items:center}
+.mision.activa{outline:2px solid var(--acento);background:var(--sup)}
+.mision .n{flex:none;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:var(--borde);font-size:.8rem;font-weight:700}
+.mision.hecha .n{background:var(--ok);color:#fff}
+.mision small{display:block;color:var(--suave);font-size:.75rem}
+.ficha{border-left:4px solid var(--acento);background:var(--sup2);border-radius:8px;padding:10px 12px;margin-bottom:10px}
+.ficha h3{margin:0 0 4px;font-size:1.05rem}
+.ficha .tag{display:inline-block;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--acento)}
+.ficha p{margin:4px 0}
+.ficha .botones{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.btn{border:1px solid var(--borde);background:var(--sup);border-radius:8px;padding:5px 10px;cursor:pointer}
+.btn:hover{border-color:var(--acento)}
+.btn.prim{background:var(--acento);color:#fff;border-color:var(--acento)}
+.estado{border-radius:8px;padding:8px 10px;margin-top:8px;font-weight:600}
+.estado.ok{background:var(--okf);color:var(--ok)}
+.estado.no{background:var(--errf);color:var(--err)}
+.pista{color:var(--suave);font-size:.9rem;margin-top:6px}
+.cats{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px}
+.cat{border:none;border-radius:999px;padding:3px 10px;color:#fff;cursor:pointer;font-size:.85rem;opacity:.65}
+.cat.activa{opacity:1;outline:2px solid var(--texto)}
+.paleta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px;min-height:40px}
+.pb{border:none;border-radius:8px;padding:6px 10px;color:#fff;cursor:pointer;font-size:.88rem;text-align:left;box-shadow:inset 0 -2px 0 rgba(0,0,0,.18)}
+.pb:active{transform:translateY(1px)}
+.ayuda{font-size:.82rem;color:var(--suave);margin:0 0 8px}
+.script{background:var(--sup2);border-radius:10px;padding:10px;min-height:120px;overflow-x:auto}
+.blq{display:flex;align-items:center;gap:5px;flex-wrap:wrap;color:#fff;border-radius:8px;padding:5px 6px 5px 9px;margin:3px 0;font-size:.9rem;box-shadow:inset 0 -2px 0 rgba(0,0,0,.18);width:max-content;max-width:100%}
+.blq input{width:56px;border:none;border-radius:999px;padding:1px 8px;background:#fff;color:#222;text-align:center}
+.blq input.txt{width:96px}
+.blq select{border:none;border-radius:6px;padding:1px 4px;background:rgba(255,255,255,.92);color:#222}
+.blq .ops{display:flex;gap:2px;margin-left:4px}
+.blq .ops button{border:none;background:rgba(0,0,0,.2);color:#fff;border-radius:5px;width:24px;height:24px;cursor:pointer;font-size:.8rem;padding:0}
+.blq.corriendo{outline:3px solid var(--hl);outline-offset:1px}
+.hat{border-top-left-radius:22px;border-top-right-radius:22px;padding-top:9px}
+.c{display:block;width:max-content;max-width:100%;border-radius:8px;margin:3px 0;box-shadow:inset 0 -2px 0 rgba(0,0,0,.18)}
+.c>.blq{box-shadow:none;margin:0}
+.c .dentro{margin-left:18px;padding:4px 6px 4px 6px;background:var(--sup2);border-radius:0 8px 8px 0;min-height:30px}
+.c .pie{height:14px;border-radius:0 0 8px 8px}
+.c .etq{color:#fff;font-size:.85rem;padding:2px 9px}
+.hueco{border:2px dashed var(--borde);border-radius:8px;padding:4px 8px;font-size:.8rem;color:var(--suave);cursor:pointer;margin:3px 0;width:max-content}
+.hueco.activo{border-color:var(--acento);color:var(--acento);background:var(--sup);font-weight:600}
+.stagebar{display:flex;gap:6px;align-items:center;margin-bottom:8px;flex-wrap:wrap}
+.flag{background:#4cbf56;color:#fff;border:none;border-radius:8px;padding:6px 12px;cursor:pointer;font-weight:700}
+.stop{background:#ec5959;color:#fff;border:none;border-radius:8px;padding:6px 12px;cursor:pointer;font-weight:700}
+canvas{width:100%;height:auto;aspect-ratio:4/3;display:block;border-radius:10px;border:1px solid var(--borde);background:var(--stage);touch-action:manipulation}
+.info{display:flex;gap:10px;flex-wrap:wrap;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85rem;margin-top:6px;color:var(--suave)}
+.info b{color:var(--texto)}
+label.chk{display:inline-flex;gap:4px;align-items:center;font-size:.85rem;color:var(--suave)}
+.rastro{margin-top:10px;max-height:190px;overflow:auto;font-size:.85rem;background:var(--sup2);border-radius:8px;padding:6px 10px}
+.rastro ol{margin:0;padding-left:22px}
+.rastro li{margin:1px 0}
+.vacio{color:var(--suave);font-style:italic}
+kbd{border:1px solid var(--borde);border-radius:4px;padding:0 4px;background:var(--sup);font-size:.85em}
+</style>
+</head>
+<body>
+<header>
+  <a class="btn" href="../#/examenes/computing-scratch">← Study Buddy</a>
+  <h1>🧪 Scratch Lab</h1>
+  <span class="ayuda" style="margin:0">Build scripts with blocks, run them, and complete the missions.</span>
+</header>
+
+<div class="app">
+  <section class="panel misiones" aria-label="Missions">
+    <h2>Missions</h2>
+    <ol id="lista"></ol>
+  </section>
+
+  <section class="panel" aria-label="Code">
+    <div id="ficha"></div>
+    <div class="cats" id="cats"></div>
+    <p class="ayuda">Tap a block to add it where the <b>dashed box</b> is highlighted. Tap a dashed box inside a loop or <i>if</i> to add blocks there.</p>
+    <div class="paleta" id="paleta"></div>
+    <h2>Script</h2>
+    <div class="script" id="script"></div>
+  </section>
+
+  <section class="panel" aria-label="Stage">
+    <div class="stagebar">
+      <button class="flag" id="bFlag" title="Green flag">🚩 Go</button>
+      <button class="stop" id="bStop" title="Stop">⏹ Stop</button>
+      <button class="btn" id="bEspacio" title="Press the space key">Press <kbd>space</kbd></button>
+      <button class="btn" id="bReset">↺ Reset sprite</button>
+    </div>
+    <canvas id="lienzo" width="480" height="360" aria-label="Stage"></canvas>
+    <div class="info">
+      <span>x: <b id="ix">0</b></span><span>y: <b id="iy">0</b></span>
+      <span>direction: <b id="idir">90</b></span><span>costume: <b id="icos">1</b></span>
+    </div>
+    <div class="stagebar" style="margin-top:6px">
+      <label class="chk"><input type="checkbox" id="cLento"> Slow motion (see each block run)</label>
+      <label class="chk"><input type="checkbox" id="cGrid" checked> x/y grid</label>
+    </div>
+    <div class="rastro" id="rastro"><span class="vacio">What the sprite did will appear here.</span></div>
+  </section>
+</div>
+
+<script>
+'use strict';
+// ---------- Block definitions ----------
+const COL = {motion:'var(--motion)', looks:'var(--looks)', events:'var(--events)', control:'var(--control)', sensing:'var(--sensing)', vars:'var(--vars)', pen:'var(--pen)'};
+const CATS = [['motion','Motion'],['looks','Looks'],['control','Control'],['vars','Variables'],['pen','Pen']];
+const CONDS = {edge:'touching edge?', space:'key space pressed?', score:'score > 5?', right:'x position > 100?'};
+const HATS = {flag:'when 🚩 clicked', space:'when space key pressed', click:'when this sprite clicked'};
+// t: template, a: default args, c: C-block kind
+const DEF = {
+  move:{cat:'motion', t:'move {n} steps', a:{n:10}},
+  right:{cat:'motion', t:'turn ↻ {n} degrees', a:{n:15}},
+  left:{cat:'motion', t:'turn ↺ {n} degrees', a:{n:15}},
+  goto:{cat:'motion', t:'go to x: {x} y: {y}', a:{x:0,y:0}},
+  glide:{cat:'motion', t:'glide {s} secs to x: {x} y: {y}', a:{s:1,x:100,y:100}},
+  chx:{cat:'motion', t:'change x by {n}', a:{n:10}},
+  chy:{cat:'motion', t:'change y by {n}', a:{n:10}},
+  point:{cat:'motion', t:'point in direction {n}', a:{n:90}},
+  bounce:{cat:'motion', t:'if on edge, bounce', a:{}},
+  sayfor:{cat:'looks', t:'say {txt} for {s} seconds', a:{txt:'Hello!', s:2}},
+  say:{cat:'looks', t:'say {txt}', a:{txt:'Hello!'}},
+  think:{cat:'looks', t:'think {txt}', a:{txt:'Hmm…'}},
+  next:{cat:'looks', t:'next costume', a:{}},
+  size:{cat:'looks', t:'change size by {n}', a:{n:10}},
+  show:{cat:'looks', t:'show', a:{}},
+  hide:{cat:'looks', t:'hide', a:{}},
+  wait:{cat:'control', t:'wait {s} seconds', a:{s:1}},
+  repeat:{cat:'control', t:'repeat {n}', a:{n:10}, c:1},
+  forever:{cat:'control', t:'forever', a:{}, c:1},
+  if:{cat:'control', t:'if {cond} then', a:{cond:'edge'}, c:1},
+  ifelse:{cat:'control', t:'if {cond} then', a:{cond:'edge'}, c:2},
+  until:{cat:'control', t:'repeat until {cond}', a:{cond:'edge'}, c:1},
+  stop:{cat:'control', t:'stop all', a:{}},
+  setv:{cat:'vars', t:'set score to {n}', a:{n:0}},
+  chv:{cat:'vars', t:'change score by {n}', a:{n:1}},
+  pendown:{cat:'pen', t:'pen down', a:{}},
+  penup:{cat:'pen', t:'pen up', a:{}},
+  clear:{cat:'pen', t:'erase all', a:{}},
+};
+const nuevo = op => ({op, a:{...DEF[op].a}, ...(DEF[op].c ? {body:[]} : {}), ...(DEF[op].c === 2 ? {els:[]} : {})});
+const B = (op, a = {}, body, els) => { const b = nuevo(op); Object.assign(b.a, a); if (body) b.body = body; if (els) b.els = els; return b; };
+
+// ---------- Missions ----------
+// Each check(r) receives the run record and returns true when the mission is complete.
+const MISIONES = [
+  {id:'hello', tag:'Sequencing', titulo:'Say hello', texto:'Make the sprite say <b>Hello!</b> for 2 seconds when the green flag is clicked.',
+   pista:'Use the purple Looks block <i>say Hello! for 2 seconds</i>, then press 🚩 Go.',
+   check:r => r.hat === 'flag' && r.dijo.some(t => /hello/i.test(t)),
+   sol:{hat:'flag', s:[B('sayfor')]}},
+  {id:'order', tag:'Sequencing', titulo:'Order matters', texto:'Make the sprite <b>move 100 steps</b> and <b>then</b> say <b>I moved!</b> The order of the blocks matters.',
+   pista:'Put <i>move 100 steps</i> first and <i>say … for 2 seconds</i> under it. Try swapping them to see the difference.',
+   check:r => r.hat === 'flag' && r.movio100 && r.dijoTras100,
+   sol:{hat:'flag', s:[B('goto',{x:0,y:0}), B('move',{n:100}), B('sayfor',{txt:'I moved!'})]}},
+  {id:'glide', tag:'Coordinates', titulo:'Glide to the corner', texto:'Start at the centre (<b>x: 0, y: 0</b>) and <b>glide</b> to the top-right area: <b>x: 150, y: 100</b>.',
+   pista:'Remember: bigger x = further right, bigger y = further up. Use <i>go to x: 0 y: 0</i> and then <i>glide 1 secs to x: 150 y: 100</i>.',
+   check:r => r.usados.has('glide') && Math.abs(r.fin.x - 150) < 1 && Math.abs(r.fin.y - 100) < 1,
+   sol:{hat:'flag', s:[B('goto'), B('glide',{s:1,x:150,y:100})]}},
+  {id:'square', tag:'Repetition', titulo:'Draw a square with a loop', texto:'Use <b>pen down</b> and a <b>repeat</b> loop to draw a <b>square</b> with sides of 100 steps.',
+   pista:'A square has 4 equal sides and 4 turns of 90°: <i>repeat 4 { move 100 steps, turn 90 degrees }</i>.',
+   check:r => r.usados.has('repeat') && r.lineas.length >= 4 && r.forma === 4,
+   sol:{hat:'flag', s:[B('clear'), B('goto',{x:-50,y:-50}), B('point',{n:90}), B('pendown'), B('repeat',{n:4},[B('move',{n:100}), B('left',{n:90})]), B('penup')]}},
+  {id:'triangle', tag:'Repetition', titulo:'Now a triangle', texto:'Draw an <b>equilateral triangle</b> with a loop. How many times must it repeat? How many degrees must it turn?',
+   pista:'3 sides, and the turns must add up to 360°: 360 ÷ 3 = 120.',
+   check:r => r.usados.has('repeat') && r.forma === 3,
+   sol:{hat:'flag', s:[B('clear'), B('goto',{x:-50,y:-50}), B('point',{n:90}), B('pendown'), B('repeat',{n:3},[B('move',{n:100}), B('left',{n:120})]), B('penup')]}},
+  {id:'animate', tag:'Repetition', titulo:'Animate the sprite', texto:'Make the sprite look as if it is <b>walking</b>: change costume and move, again and again.',
+   pista:'Inside <i>repeat 10</i> (or <i>forever</i>): <i>move 10 steps</i>, <i>next costume</i>, <i>wait 0.2 seconds</i>.',
+   check:r => r.cambiosDisfraz >= 4 && r.usados.has('wait') && (r.usados.has('repeat') || r.usados.has('forever')),
+   sol:{hat:'flag', s:[B('goto',{x:-150,y:0}), B('repeat',{n:10},[B('move',{n:20}), B('next'), B('wait',{s:0.2})])]}},
+  {id:'bounce', tag:'Repetition', titulo:'Bounce forever', texto:'Make the sprite move across the stage <b>forever</b> and turn round when it reaches the <b>edge</b>.',
+   pista:'<i>forever { move 10 steps, if on edge, bounce }</i>. Click ⏹ Stop to end it.',
+   check:r => r.usados.has('forever') && r.rebotes >= 2,
+   sol:{hat:'flag', s:[B('goto'), B('point',{n:90}), B('forever',{},[B('move',{n:10}), B('bounce')])]}},
+  {id:'until', tag:'Selection', titulo:'Stop at the edge', texto:'Use <b>repeat until touching edge?</b> to move the sprite until it reaches the edge. Then make it say <b>Edge!</b>',
+   pista:'<i>repeat until touching edge? { move 10 steps }</i>, then <i>say Edge! for 2 seconds</i> underneath (outside the loop).',
+   check:r => r.usados.has('until') && r.dijo.some(t => /edge/i.test(t)) && r.tocoBorde,
+   sol:{hat:'flag', s:[B('goto'), B('point',{n:90}), B('until',{cond:'edge'},[B('move',{n:10})]), B('sayfor',{txt:'Edge!'})]}},
+  {id:'ifelse', tag:'Selection', titulo:'Make a decision', texto:'Move the sprite to <b>x: 150</b>. Then use <b>if … then … else</b>: if <b>x position > 100</b> say <b>Right side!</b>, else say <b>Left side!</b>',
+   pista:'Choose the condition <i>x position > 100?</i> in the if block. Then try it with x: −150 to see the else part run.',
+   check:r => r.usados.has('ifelse') && r.condiciones.some(c => c.cond === 'right') && r.dijo.some(t => /right side|left side/i.test(t)),
+   sol:{hat:'flag', s:[B('goto',{x:150,y:0}), B('ifelse',{cond:'right'},[B('sayfor',{txt:'Right side!'})],[B('sayfor',{txt:'Left side!'})])]}},
+  {id:'score', tag:'Variables', titulo:'Keep the score', texto:'Set <b>score</b> to 0, then use a loop to add 1 to the score <b>6 times</b>. The score should end on <b>6</b>.',
+   pista:'<i>set score to 0</i> first, then <i>repeat 6 { change score by 1, wait 0.3 seconds }</i>.',
+   check:r => r.usados.has('setv') && r.score === 6,
+   sol:{hat:'flag', s:[B('setv',{n:0}), B('repeat',{n:6},[B('chv',{n:1}), B('wait',{s:0.3})])]}},
+  {id:'key', tag:'Events', titulo:'Jump with the space key', texto:'Change the hat block to <b>when space key pressed</b>. Make the sprite jump: up 50 and back down. Then press <kbd>space</kbd>.',
+   pista:'Choose <i>when space key pressed</i> in the yellow hat block. Then: <i>change y by 50</i>, <i>wait 0.3 seconds</i>, <i>change y by −50</i>.',
+   check:r => r.hat === 'space' && r.porTecla && r.usados.has('chy'),
+   sol:{hat:'space', s:[B('chy',{n:50}), B('wait',{s:0.3}), B('chy',{n:-50})]}},
+  {id:'free', tag:'Free play', titulo:'Your own project', texto:'Build anything you like! Ideas: draw a hexagon, make the sprite dance, or count to 10 with the score.',
+   pista:'Hexagon: repeat 6, turn 60 degrees. Every shape: the turns add up to 360°.',
+   check:() => false, sol:null},
+];
+
+// ---------- State ----------
+let guardado = {};
+try { guardado = JSON.parse(localStorage.getItem('scratchLab') || '{}'); } catch (e) {}
+const hechas = new Set(guardado.hechas || []);
+let misionI = Math.min(guardado.mision || 0, MISIONES.length - 1);
+let scripts = guardado.scripts || {};   // per mission: {hat, s}
+let cat = 'motion';
+let destino = null;   // array where palette blocks are added
+const guardar = () => { try { localStorage.setItem('scratchLab', JSON.stringify({hechas:[...hechas], mision:misionI, scripts})); } catch (e) {} };
+const actual = () => { const id = MISIONES[misionI].id; if (!scripts[id]) scripts[id] = {hat:'flag', s:[]}; return scripts[id]; };
+
+// ---------- UI: missions ----------
+const $ = id => document.getElementById(id);
+function pintaLista() {
+  $('lista').innerHTML = MISIONES.map((m, i) => `<li><button class="mision ${i === misionI ? 'activa' : ''} ${hechas.has(m.id) ? 'hecha' : ''}" data-i="${i}">
+    <span class="n">${hechas.has(m.id) ? '✓' : i + 1}</span><span>${m.titulo}<small>${m.tag}</small></span></button></li>`).join('');
+}
+$('lista').addEventListener('click', e => { const b = e.target.closest('.mision'); if (!b) return; parar(); misionI = +b.dataset.i; destino = null; guardar(); todo(); resetSprite(true); });
+function pintaFicha(estado) {
+  const m = MISIONES[misionI];
+  $('ficha').innerHTML = `<div class="ficha"><span class="tag">${m.tag}</span><h3>${misionI + 1}. ${m.titulo}</h3><p>${m.texto}</p>
+    <div class="botones"><button class="btn" id="bPista">💡 Hint</button>${m.sol ? '<button class="btn" id="bSol">👀 Show an answer</button>' : ''}<button class="btn" id="bBorrar">🗑 Clear script</button></div>
+    <div class="pista" id="pista" hidden>${m.pista}</div>
+    ${estado ? `<div class="estado ${estado.ok ? 'ok' : 'no'}">${estado.msg}</div>` : hechas.has(m.id) ? '<div class="estado ok">✓ Mission complete!</div>' : ''}</div>`;
+  $('bPista').onclick = () => { $('pista').hidden = !$('pista').hidden; };
+  if (m.sol) $('bSol').onclick = () => { if (actual().s.length && !confirm('Replace your script with an answer?')) return; scripts[m.id] = JSON.parse(JSON.stringify(m.sol)); destino = null; guardar(); pintaScript(); };
+  $('bBorrar').onclick = () => { if (!actual().s.length || confirm('Clear the whole script?')) { actual().s = []; destino = null; guardar(); pintaScript(); } };
+}
+
+// ---------- UI: palette ----------
+function pintaCats() {
+  $('cats').innerHTML = CATS.map(([k, n]) => `<button class="cat ${k === cat ? 'activa' : ''}" style="background:${COL[k]}" data-k="${k}">${n}</button>`).join('');
+  $('paleta').innerHTML = Object.entries(DEF).filter(([, d]) => d.cat === cat).map(([op, d]) =>
+    `<button class="pb" style="background:${COL[d.cat]}" data-op="${op}">${d.t.replace(/\{(\w+)\}/g, (_, k) => k === 'cond' ? '⬡' : '◯')}${d.c ? ' { }' : ''}</button>`).join('');
+}
+$('cats').addEventListener('click', e => { const b = e.target.closest('.cat'); if (b) { cat = b.dataset.k; pintaCats(); } });
+$('paleta').addEventListener('click', e => {
+  const b = e.target.closest('.pb'); if (!b) return;
+  const lista = destino || actual().s;
+  lista.push(nuevo(b.dataset.op)); guardar(); pintaScript();
+});
+
+// ---------- UI: script ----------
+let mapa = [];   // path -> block, used to highlight running blocks
+function campo(b, k) {
+  if (k === 'cond') return `<select data-k="cond">${Object.entries(CONDS).map(([v, t]) => `<option value="${v}" ${b.a.cond === v ? 'selected' : ''}>${t}</option>`).join('')}</select>`;
+  const txt = k === 'txt';
+  return `<input class="${txt ? 'txt' : ''}" data-k="${k}" ${txt ? '' : 'inputmode="decimal"'} value="${String(b.a[k]).replace(/"/g, '&quot;')}">`;
+}
+function htmlBloque(b, lista, i) {
+  const d = DEF[b.op], id = mapa.push({b, lista, i}) - 1;
+  const cuerpo = d.t.replace(/\{(\w+)\}/g, (_, k) => campo(b, k));
+  const ops = `<span class="ops"><button data-acc="up" title="Move up">↑</button><button data-acc="down" title="Move down">↓</button><button data-acc="del" title="Delete">✕</button></span>`;
+  const linea = `<div class="blq" data-id="${id}" style="background:${COL[d.cat]}">${cuerpo}${ops}</div>`;
+  if (!d.c) return linea;
+  return `<div class="c" style="background:${COL[d.cat]}">${linea}
+    <div class="dentro">${htmlLista(b.body)}</div>
+    ${d.c === 2 ? `<div class="etq">else</div><div class="dentro">${htmlLista(b.els)}</div>` : ''}
+    <div class="pie"></div></div>`;
+}
+function htmlLista(lista) {
+  const id = mapa.push({lista, hueco:true}) - 1;
+  return lista.map((b, i) => htmlBloque(b, lista, i)).join('') +
+    `<div class="hueco ${destino === lista ? 'activo' : ''}" data-hueco="${id}">${destino === lista ? '➕ new blocks go here' : '＋ add here'}</div>`;
+}
+function pintaScript() {
+  mapa = [];
+  const sc = actual();
+  if (!destino) destino = sc.s;
+  $('script').innerHTML = `<div class="blq hat" style="background:${COL.events}"><select id="selHat">${Object.entries(HATS).map(([v, t]) => `<option value="${v}" ${sc.hat === v ? 'selected' : ''}>${t}</option>`).join('')}</select></div>` + htmlLista(sc.s);
+  $('selHat').onchange = e => { sc.hat = e.target.value; guardar(); };
+}
+$('script').addEventListener('click', e => {
+  const h = e.target.closest('.hueco');
+  if (h) { destino = mapa[+h.dataset.hueco].lista; pintaScript(); return; }
+  const acc = e.target.dataset?.acc; if (!acc) return;
+  const {lista, i} = mapa[+e.target.closest('.blq').dataset.id];
+  if (acc === 'del') { const [q] = lista.splice(i, 1); if (contiene(q, destino)) destino = null; }
+  if (acc === 'up' && i > 0) [lista[i - 1], lista[i]] = [lista[i], lista[i - 1]];
+  if (acc === 'down' && i < lista.length - 1) [lista[i + 1], lista[i]] = [lista[i], lista[i + 1]];
+  guardar(); pintaScript();
+});
+const contiene = (b, lista) => !!b && (b.body === lista || b.els === lista || [...(b.body || []), ...(b.els || [])].some(x => contiene(x, lista)));
+$('script').addEventListener('input', e => {
+  const k = e.target.dataset.k; if (!k) return;
+  const {b} = mapa[+e.target.closest('.blq').dataset.id];
+  b.a[k] = k === 'txt' || k === 'cond' ? e.target.value : e.target.value;
+  guardar();
+});
+
+// ---------- Stage ----------
+const cv = $('lienzo'), g = cv.getContext('2d');
+const DISFRACES = ['🐱', '😺'];
+let spr, lineas, score, usaScore, bocadillo;
+function resetSprite(borrar) {
+  spr = {x:0, y:0, dir:90, size:100, cos:0, visible:true, pen:false};
+  if (borrar || !lineas) lineas = [];
+  score = 0; usaScore = false; bocadillo = null; dibuja();
+}
+function dibuja() {
+  const W = 480, H = 360;
+  g.clearRect(0, 0, W, H);
+  if ($('cGrid').checked) {
+    g.strokeStyle = getComputedStyle(document.documentElement).getPropertyValue('--grid'); g.lineWidth = 1;
+    for (let x = -200; x <= 200; x += 40) { g.beginPath(); g.moveTo(240 + x, 0); g.lineTo(240 + x, H); g.stroke(); }
+    for (let y = -160; y <= 160; y += 40) { g.beginPath(); g.moveTo(0, 180 - y); g.lineTo(W, 180 - y); g.stroke(); }
+    g.strokeStyle = '#aab2c4'; g.beginPath(); g.moveTo(240, 0); g.lineTo(240, H); g.moveTo(0, 180); g.lineTo(W, 180); g.stroke();
+    g.fillStyle = '#8a93a8'; g.font = '11px system-ui';
+    g.fillText('x: 240', W - 40, 175); g.fillText('x: −240', 4, 175); g.fillText('y: 180', 244, 12); g.fillText('y: −180', 244, H - 4); g.fillText('(0, 0)', 244, 175);
+  }
+  g.strokeStyle = '#0fbd8c'; g.lineWidth = 3; g.lineCap = 'round';
+  for (const [a, b] of lineas) { g.beginPath(); g.moveTo(240 + a.x, 180 - a.y); g.lineTo(240 + b.x, 180 - b.y); g.stroke(); }
+  if (spr.visible) {
+    g.save(); g.translate(240 + spr.x, 180 - spr.y); g.rotate((spr.dir - 90) * Math.PI / 180);
+    const tam = 46 * spr.size / 100; g.font = `${tam}px "Segoe UI Emoji","Apple Color Emoji",sans-serif`;
+    g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(DISFRACES[spr.cos], 0, 0);
+    g.restore();
+  }
+  if (bocadillo && spr.visible) {
+    g.font = '15px system-ui'; const w = Math.min(220, g.measureText(bocadillo.t).width + 20);
+    let bx = Math.min(240 + spr.x + 18, 480 - w - 4), by = Math.max(4, 180 - spr.y - 70);
+    g.fillStyle = '#fff'; g.strokeStyle = '#b8bfcc'; g.lineWidth = 2;
+    g.beginPath(); g.roundRect(bx, by, w, 34, bocadillo.piensa ? 17 : 10); g.fill(); g.stroke();
+    g.fillStyle = '#222'; g.textAlign = 'left'; g.textBaseline = 'middle'; g.fillText(bocadillo.t, bx + 10, by + 17, w - 16);
+  }
+  if (usaScore) { g.fillStyle = '#ff8c1a'; g.beginPath(); g.roundRect(6, 6, 96, 26, 6); g.fill(); g.fillStyle = '#fff'; g.font = 'bold 14px system-ui'; g.textAlign = 'left'; g.textBaseline = 'middle'; g.fillText('score: ' + score, 14, 19); }
+  $('ix').textContent = Math.round(spr.x); $('iy').textContent = Math.round(spr.y); $('idir').textContent = Math.round(spr.dir); $('icos').textContent = spr.cos + 1;
+}
+$('cGrid').onchange = dibuja;
+const radio = () => 20 * spr.size / 100;
+const tocaBorde = () => Math.abs(spr.x) + radio() >= 240 || Math.abs(spr.y) + radio() >= 180;
+const norm = d => { d = ((d + 180) % 360 + 360) % 360 - 180; return d === -180 ? 180 : d; };
+
+// ---------- Interpreter ----------
+let corrida = 0, teclas = new Set();
+let reg;
+const espera = ms => new Promise(r => setTimeout(r, ms));
+function rastro(t) { reg.rastro.push(t); }
+function pintaRastro() {
+  $('rastro').innerHTML = reg.rastro.length ? `<ol>${reg.rastro.slice(-60).map(t => `<li>${t}</li>`).join('')}</ol>` : '<span class="vacio">Nothing ran. Did you add blocks under the hat block?</span>';
+  $('rastro').scrollTop = 1e6;
+}
+function marca(b, on) { const i = mapa.findIndex(m => m.b === b); if (i >= 0) document.querySelector(`.blq[data-id="${i}"]`)?.classList.toggle('corriendo', on); }
+const num = v => { const n = parseFloat(String(v).replace(',', '.').replace('−', '-')); return isNaN(n) ? 0 : n; };
+function evalCond(c) {
+  const v = c === 'edge' ? tocaBorde() : c === 'space' ? teclas.has(' ') : c === 'score' ? score > 5 : spr.x > 100;
+  reg.condiciones.push({cond:c, v});
+  rastro(`checked <i>${CONDS[c]}</i> → <b>${v}</b>`);
+  return v;
+}
+async function paso(id, iter) {
+  if (id !== corrida) throw 'stop';
+  const ms = $('cLento').checked ? 450 : iter ? 33 : 0;
+  if (!ms) return;
+  pintaRastro(); dibuja();
+  await espera(ms);
+  if (id !== corrida) throw 'stop';
+}
+function linea(a, b) { if (spr.pen) lineas.push([{...a}, {...b}]); }
+async function ejecutaLista(lista, id) { for (const b of lista) await ejecuta(b, id); }
+async function ejecuta(b, id) {
+  if (id !== corrida) throw 'stop';
+  reg.usados.add(b.op); marca(b, true);
+  const a = b.a, ini = {x:spr.x, y:spr.y};
+  try {
+    switch (b.op) {
+      case 'move': { const n = num(a.n), r = spr.dir * Math.PI / 180; spr.x += n * Math.sin(r); spr.y += n * Math.cos(r); linea(ini, spr); if (Math.abs(n) >= 100) reg.movio100 = true; rastro(`moved ${n} steps → x: ${Math.round(spr.x)}, y: ${Math.round(spr.y)}`); reg.eventos.push({k:'move'}); break; }
+      case 'right': spr.dir = norm(spr.dir + num(a.n)); rastro(`turned right ${num(a.n)}° → direction ${Math.round(spr.dir)}`); reg.giros.push(num(a.n)); break;
+      case 'left': spr.dir = norm(spr.dir - num(a.n)); rastro(`turned left ${num(a.n)}° → direction ${Math.round(spr.dir)}`); reg.giros.push(num(a.n)); break;
+      case 'goto': spr.x = num(a.x); spr.y = num(a.y); linea(ini, spr); rastro(`went to x: ${spr.x}, y: ${spr.y}`); break;
+      case 'chx': spr.x += num(a.n); linea(ini, spr); rastro(`changed x by ${num(a.n)} → x: ${Math.round(spr.x)}`); break;
+      case 'chy': spr.y += num(a.n); linea(ini, spr); rastro(`changed y by ${num(a.n)} → y: ${Math.round(spr.y)}`); break;
+      case 'point': spr.dir = norm(num(a.n)); rastro(`pointed in direction ${spr.dir}`); break;
+      case 'glide': {
+        const s = Math.max(0, num(a.s)), fx = num(a.x), fy = num(a.y), t0 = performance.now();
+        rastro(`glided for ${s} s to x: ${fx}, y: ${fy}`);
+        while (true) {
+          const k = s ? Math.min(1, (performance.now() - t0) / (s * 1000)) : 1;
+          const ant = {x:spr.x, y:spr.y};
+          spr.x = ini.x + (fx - ini.x) * k; spr.y = ini.y + (fy - ini.y) * k; linea(ant, spr); dibuja();
+          if (k >= 1) break; await espera(16); if (id !== corrida) throw 'stop';
+        }
+        break;
+      }
+      case 'bounce': {
+        const r = radio(); let rebota = false;
+        if (Math.abs(spr.x) + r >= 240) { spr.dir = norm(-spr.dir); spr.x = Math.sign(spr.x) * (240 - r); rebota = true; }
+        if (Math.abs(spr.y) + r >= 180) { spr.dir = norm(180 - spr.dir); spr.y = Math.sign(spr.y) * (180 - r); rebota = true; }
+        if (rebota) { reg.rebotes++; rastro(`touched the edge and bounced → direction ${Math.round(spr.dir)}`); }
+        break;
+      }
+      case 'sayfor': case 'say': case 'think': {
+        const t = String(a.txt ?? ''); bocadillo = {t, piensa:b.op === 'think'}; reg.dijo.push(t);
+        if (reg.movio100) reg.dijoTras100 = true;
+        rastro(`${b.op === 'think' ? 'thought' : 'said'} “${t}”`);
+        if (b.op === 'sayfor') { pintaRastro(); dibuja(); await espera(num(a.s) * 1000); if (id !== corrida) throw 'stop'; bocadillo = null; }
+        break;
+      }
+      case 'next': spr.cos = (spr.cos + 1) % DISFRACES.length; reg.cambiosDisfraz++; rastro(`switched to costume ${spr.cos + 1}`); break;
+      case 'size': spr.size = Math.max(10, spr.size + num(a.n)); rastro(`changed size by ${num(a.n)} → ${spr.size}%`); break;
+      case 'show': spr.visible = true; rastro('appeared (show)'); break;
+      case 'hide': spr.visible = false; rastro('disappeared (hide)'); break;
+      case 'wait': rastro(`waited ${num(a.s)} s`); pintaRastro(); dibuja(); await espera(num(a.s) * 1000); break;
+      case 'repeat': { const n = Math.max(0, Math.floor(num(a.n))); rastro(`started a loop: repeat ${n}`); for (let k = 0; k < n; k++) { await ejecutaLista(b.body, id); await paso(id, true); } break; }
+      case 'forever': rastro('started a forever loop (click ⏹ Stop to end it)'); while (true) { await ejecutaLista(b.body, id); comprueba(false); await paso(id, true); }
+      case 'if': if (evalCond(a.cond)) await ejecutaLista(b.body, id); else rastro('condition false → skipped the blocks inside'); break;
+      case 'ifelse': if (evalCond(a.cond)) await ejecutaLista(b.body, id); else { rastro('condition false → ran the <b>else</b> part'); await ejecutaLista(b.els, id); } break;
+      case 'until': {
+        let vueltas = 0;
+        while (!evalCond(a.cond)) { await ejecutaLista(b.body, id); await paso(id, true); if (++vueltas > 2000) { rastro('stopped: the loop ran 2000 times'); break; } }
+        if (a.cond === 'edge' && tocaBorde()) reg.tocoBorde = true;
+        rastro('condition true → left the loop'); break;
+      }
+      case 'stop': rastro('stop all'); corrida++; throw 'stop';
+      case 'setv': score = num(a.n); usaScore = true; rastro(`set score to ${score}`); break;
+      case 'chv': score += num(a.n); usaScore = true; rastro(`changed score by ${num(a.n)} → score: ${score}`); break;
+      case 'pendown': spr.pen = true; rastro('put the pen down'); break;
+      case 'penup': spr.pen = false; rastro('lifted the pen up'); break;
+      case 'clear': lineas = []; rastro('erased all the pen lines'); break;
+    }
+    if (tocaBorde()) reg.tocoBorde = true;
+    await paso(id);
+  } finally { marca(b, false); }
+}
+function forma() {
+  // number of sides of a closed shape drawn with the pen
+  if (lineas.length < 3) return 0;
+  const p0 = lineas[0][0], pf = lineas[lineas.length - 1][1];
+  if (Math.hypot(p0.x - pf.x, p0.y - pf.y) > 2) return 0;
+  const giro = reg.giros.reduce((s, x) => s + x, 0);
+  const lados = lineas.filter(([a, b]) => Math.hypot(a.x - b.x, a.y - b.y) > 1);
+  const L = lados.map(([a, b]) => Math.hypot(a.x - b.x, a.y - b.y));
+  if (L.some(l => Math.abs(l - L[0]) > 1)) return 0;
+  return Math.abs(Math.abs(giro) - 360) < 1 ? lados.length : 0;
+}
+let mensaje = null;
+function comprueba(fin) {
+  const m = MISIONES[misionI];
+  reg.fin = {x:spr.x, y:spr.y}; reg.score = score; reg.lineas = lineas; reg.forma = forma();
+  let ok = false; try { ok = m.check(reg); } catch (e) {}
+  if (ok && !hechas.has(m.id)) { hechas.add(m.id); guardar(); pintaLista(); }
+  if (ok && reg.felicitado) return;
+  mensaje = null;
+  if (ok) { reg.felicitado = true; mensaje = {ok:true, msg:'🎉 Well done! Mission complete.' + (misionI < MISIONES.length - 1 ? ' Choose the next mission when you are ready.' : '')}; }
+  else if (fin && m.sol) mensaje = {ok:false, msg:'Not quite yet. Check the mission and try again — the 💡 Hint can help.'};
+  if (ok || fin) pintaFicha(mensaje);
+}
+async function corre(hat, porTecla) {
+  const sc = actual();
+  if (sc.hat !== hat) return;
+  const id = ++corrida;
+  reg = {hat, porTecla, usados:new Set(), dijo:[], eventos:[], giros:[], condiciones:[], rastro:[], rebotes:0, cambiosDisfraz:0, x0:spr.x, movio100:false, dijoTras100:false, tocoBorde:false};
+  bocadillo = null; pintaFicha(null);
+  rastro(`<b>${HATS[hat]}</b>`);
+  try { await ejecutaLista(sc.s, id); if (id === corrida) { dibuja(); comprueba(true); } }
+  catch (e) { if (e !== 'stop') { rastro('⚠️ ' + e); } comprueba(true); }
+  pintaRastro(); dibuja();
+}
+function parar() { corrida++; }
+$('bFlag').onclick = () => { if (actual().hat !== 'flag') { pintaFicha({ok:false, msg:'The script starts with “' + HATS[actual().hat] + '”, so the green flag does not start it.'}); return; } corre('flag'); };
+$('bStop').onclick = () => { parar(); bocadillo = null; dibuja(); };
+$('bReset').onclick = () => { parar(); resetSprite(true); };
+function pulsaEspacio() {
+  teclas.add(' '); setTimeout(() => teclas.delete(' '), 400);
+  if (actual().hat === 'space') corre('space', true);
+}
+$('bEspacio').onclick = pulsaEspacio;
+window.addEventListener('keydown', e => {
+  if (e.key === ' ' && !/INPUT|SELECT|TEXTAREA|BUTTON/.test(document.activeElement.tagName)) { e.preventDefault(); if (!e.repeat) pulsaEspacio(); }
+});
+cv.addEventListener('click', e => {
+  const r = cv.getBoundingClientRect(), x = (e.clientX - r.left) * 480 / r.width - 240, y = 180 - (e.clientY - r.top) * 360 / r.height;
+  if (Math.hypot(x - spr.x, y - spr.y) < 30 && actual().hat === 'click') corre('click');
+});
+
+function todo() { pintaLista(); pintaFicha(null); pintaCats(); pintaScript(); }
+resetSprite(true); todo();
+</script>
+</body>
+</html>
