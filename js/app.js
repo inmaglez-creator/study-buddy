@@ -232,7 +232,7 @@ const finalesDisponibles = () => estado.curso.asignaturas.filter(a => preguntasD
 // ---------- Vistas ----------
 
 function vistaInicio() {
-  const proximos = examenesOrdenados().filter(e => diasHasta(e.fecha) >= 0).slice(0, 3);
+  const proximos = examenesOrdenados().filter(e => diasHasta(e.fecha) >= 0);
   app.innerHTML = `
     <h1>${esc(estado.curso.nombre)}</h1>
     ${proximos.length ? `<h2>Upcoming exams</h2><div class="lista">${proximos.map(tarjetaExamen).join('')}</div>` : ''}
