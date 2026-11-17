@@ -2060,6 +2060,80 @@
               ]
             }
           ]
+        },
+        {
+          "seccion": "From the textbook (pp. 28–35)",
+          "tarjetas": [
+            {
+              "etiqueta": "📏 Expression",
+              "titulo": "x + 3",
+              "puntos": [
+                "A line made of **x** and **3** has length **x + 3**",
+                "Rectangle x by 5: perimeter **2x + 10**, area **5x**",
+                "**5x** means 5 × x — no × sign in algebra"
+              ]
+            },
+            {
+              "etiqueta": "👦 Ages",
+              "titulo": "Boy is y years old",
+              "puntos": [
+                "Sister 4 years older: **y + 4**",
+                "Brother 2 years younger: **y − 2**",
+                "Grandmother 8 times older: **8y**"
+              ]
+            },
+            {
+              "etiqueta": "🧮 BIDMAS",
+              "titulo": "Same order in algebra",
+              "puntos": [
+                "**B**rackets, **I**ndices, **D**ivision/**M**ultiplication, **A**ddition/**S**ubtraction",
+                "2 + 3 × 4 = **14** (not 20)",
+                "2a + 3 × 4a − a = 2a + 12a − a = **13a**"
+              ]
+            },
+            {
+              "etiqueta": "🔤 Three words",
+              "titulo": "Expression · formula · equation",
+              "puntos": [
+                "**3p** is an expression",
+                "**3p = s** is a formula (p = 5 → s = 15)",
+                "**3p = 9** is an equation (only true when p = 3)"
+              ]
+            },
+            {
+              "etiqueta": "📐 Rectangle formulae",
+              "titulo": "P = 2l + 2b, A = lb",
+              "puntos": [
+                "l = 3 cm, b = 5 cm → P = 6 + 10 = **16 cm**",
+                "Area A = l × b = **lb**",
+                "Getting a formula from a diagram = **deriving** it"
+              ]
+            },
+            {
+              "etiqueta": "⚡ Physics",
+              "titulo": "V = IR",
+              "puntos": [
+                "V = voltage (volts), I = current (amps), R = resistance (ohms)",
+                "I = 7, R = 60 → V = **420 volts**",
+                "1000 milliamps = 1 amp"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Words to know",
+            "items": [
+              "algebra",
+              "term",
+              "coefficient",
+              "solve",
+              "evaluate",
+              "substitute",
+              "variable",
+              "derive",
+              "BIDMAS",
+              "formulae"
+            ]
+          }
         }
       ],
       "tarjetas": [
@@ -2110,6 +2184,26 @@
         {
           "p": "Solve 2x + 3 = 9",
           "r": "x = 3"
+        },
+        {
+          "p": "What is a coefficient?",
+          "r": "The number in front of the letter, e.g. 5 in 5x."
+        },
+        {
+          "p": "What is a formula?",
+          "r": "A rule linking variables, e.g. 3p = s or P = 2l + 2b."
+        },
+        {
+          "p": "What does BIDMAS stand for?",
+          "r": "Brackets, Indices, Division/Multiplication, Addition/Subtraction."
+        },
+        {
+          "p": "Formula for the perimeter of a rectangle",
+          "r": "P = 2l + 2b"
+        },
+        {
+          "p": "What does 'evaluate' mean?",
+          "r": "Work out the value of an expression."
         }
       ],
       "preguntas": [
@@ -2487,6 +2581,407 @@
           ],
           "modelo": "An equation has an = sign (e.g. 2x + 3 = 9); an expression does not (e.g. 2x + 3).",
           "explicacion": "Only an equation contains an equals sign."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A line is made of a part of length x and a part of length 3. Which expression gives its total length?",
+          "opciones": [
+            "x3",
+            "x + 3",
+            "3x",
+            "x − 3"
+          ],
+          "correcta": 1,
+          "explicacion": "You add the two parts: x + 3."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A rectangle is x by 5. Which expression gives its perimeter, simplified?",
+          "opciones": [
+            "5x",
+            "x + 5",
+            "2x + 5",
+            "2x + 10"
+          ],
+          "correcta": 3,
+          "explicacion": "x + 5 + x + 5 = 2x + 10."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A rectangle is x by 5. Its area is 20 cm². Which equation can be formed?",
+          "opciones": [
+            "x = 20 + 5",
+            "5x = 20",
+            "x + 5 = 20",
+            "2x + 10 = 20"
+          ],
+          "correcta": 1,
+          "explicacion": "Area = 5 × x, so 5x = 20 (and x = 4)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A boy is y years old. His grandmother is 8 times older than him. Which expression gives her age?",
+          "opciones": [
+            "y + 8",
+            "y − 8",
+            "y ÷ 8",
+            "8y"
+          ],
+          "correcta": 3,
+          "explicacion": "8 times older means 8 × y = 8y."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A boy is y years old. His brother is 2 years younger. Which expression gives the brother's age?",
+          "opciones": [
+            "2y",
+            "2 − y",
+            "y − 2",
+            "y + 2"
+          ],
+          "correcta": 2,
+          "explicacion": "Younger means you subtract: y − 2."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A girl is x years old and her grandfather is y years old. Which expression gives their combined age in 5 years' time?",
+          "opciones": [
+            "x + y + 10",
+            "x + y + 5",
+            "5x + 5y",
+            "x + y"
+          ],
+          "correcta": 0,
+          "explicacion": "Each of them is 5 years older: (x + 5) + (y + 5) = x + y + 10."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "If a girl is x and her grandfather is y, the difference between their ages will be the same in 5 years' time.",
+          "correcta": true,
+          "explicacion": "Both get 5 years older, so the difference stays y − x."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Write an expression for the length of a line made of 4x, 2y and 3.",
+          "opciones": [
+            "4x + 5y",
+            "4x + 2y + 3",
+            "9xy",
+            "6xy + 3"
+          ],
+          "correcta": 1,
+          "explicacion": "Add the three parts; x and y are not like terms."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A rectangle has sides y + 3 and y + 2. What is its perimeter, simplified?",
+          "opciones": [
+            "4y + 5",
+            "y² + 5",
+            "4y + 10",
+            "2y + 5"
+          ],
+          "correcta": 2,
+          "explicacion": "2(y + 3) + 2(y + 2) = 2y + 6 + 2y + 4 = 4y + 10."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A rectangle is 6x by 4. What is its area?",
+          "opciones": [
+            "10x",
+            "24x",
+            "6x + 4",
+            "12x + 8"
+          ],
+          "correcta": 1,
+          "explicacion": "6x × 4 = 24x."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A rectangle 6x by 4 is cut in half into two rectangles 3x by 4. What is the perimeter of each small one?",
+          "opciones": [
+            "6x + 4",
+            "12x + 8",
+            "3x + 4",
+            "6x + 8"
+          ],
+          "correcta": 3,
+          "explicacion": "3x + 4 + 3x + 4 = 6x + 8, which is not half of 12x + 8."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Using BIDMAS, what is 2 + 3 × 4?",
+          "opciones": [
+            "14",
+            "20",
+            "24",
+            "9"
+          ],
+          "correcta": 0,
+          "explicacion": "Multiplication first: 3 × 4 = 12, then 2 + 12 = 14."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Simplify 2a + 3 × 4a − a.",
+          "opciones": [
+            "19a",
+            "4a",
+            "20a",
+            "13a"
+          ],
+          "correcta": 3,
+          "explicacion": "3 × 4a = 12a first, then 2a + 12a − a = 13a."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Simplify 2b − 5b + 7b − b.",
+          "opciones": [
+            "3b",
+            "5b",
+            "15b",
+            "−3b"
+          ],
+          "correcta": 0,
+          "explicacion": "2 − 5 + 7 − 1 = 3, so 3b."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Simplify 3c + 2b + 2c − 4b.",
+          "opciones": [
+            "5c − 2b",
+            "5c + 2b",
+            "3c",
+            "c − 2b"
+          ],
+          "correcta": 0,
+          "explicacion": "c terms: 3c + 2c = 5c; b terms: 2b − 4b = −2b."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Simplify 5d − 4f + 3e − 2d + f − 2e.",
+          "opciones": [
+            "3d − e − 3f",
+            "3d + e − 3f",
+            "3d + e + 3f",
+            "7d − 3f + e"
+          ],
+          "correcta": 1,
+          "explicacion": "d: 5 − 2 = 3; e: 3 − 2 = 1; f: −4 + 1 = −3."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "An L-shape is made of a rectangle 8 by j and a rectangle 3 by j. What is its total area?",
+          "opciones": [
+            "24j",
+            "8j + 3",
+            "11 + j",
+            "11j"
+          ],
+          "correcta": 3,
+          "explicacion": "8j + 3j = 11j."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A pupil works out an area as 12 + 6x − 10 + 4x − 8. This is the same as 10x − 6.",
+          "correcta": true,
+          "explicacion": "6x + 4x = 10x and 12 − 10 − 8 = −6."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which of these is a formula?",
+          "opciones": [
+            "3p",
+            "3p = 9",
+            "3 + p",
+            "3p = s"
+          ],
+          "correcta": 3,
+          "explicacion": "A formula links two variables; 3p = 9 is an equation and 3p is an expression."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Using the formula 3p = s, what is s when p = 8?",
+          "opciones": [
+            "5",
+            "24",
+            "11",
+            "38"
+          ],
+          "correcta": 1,
+          "explicacion": "3 × 8 = 24."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The equation 3p = 9 is true for any value of p.",
+          "correcta": false,
+          "explicacion": "An equation is only true for particular values: here only p = 3."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Evaluate 2a + 3b − c when a = 3, b = 4 and c = 5.",
+          "opciones": [
+            "23",
+            "3",
+            "15",
+            "13"
+          ],
+          "correcta": 3,
+          "explicacion": "6 + 12 − 5 = 13."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Evaluate 3ac + b/2 when a = 3, b = 4 and c = 5.",
+          "opciones": [
+            "47",
+            "45",
+            "26",
+            "62"
+          ],
+          "correcta": 0,
+          "explicacion": "3 × 3 × 5 = 45 and 4 ÷ 2 = 2, so 47."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Evaluate 4p − 3q when p = 2 and q = 3.",
+          "opciones": [
+            "−1",
+            "1",
+            "17",
+            "−17"
+          ],
+          "correcta": 0,
+          "explicacion": "8 − 9 = −1."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Evaluate p − q − r when p = 2, q = 3 and r = 5.",
+          "opciones": [
+            "0",
+            "−6",
+            "4",
+            "−10"
+          ],
+          "correcta": 1,
+          "explicacion": "2 − 3 − 5 = −6."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Evaluate pq + 10/r when p = 2, q = 3 and r = 5.",
+          "opciones": [
+            "8",
+            "7",
+            "4",
+            "11"
+          ],
+          "correcta": 0,
+          "explicacion": "pq = 6 and 10 ÷ 5 = 2, so 8."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Evaluate 24/q + p × r when p = 2, q = 3 and r = 5.",
+          "opciones": [
+            "18",
+            "50",
+            "13",
+            "40"
+          ],
+          "correcta": 0,
+          "explicacion": "24 ÷ 3 = 8 and 2 × 5 = 10, so 18."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Using P = 2l + 2b, what is the perimeter when l = 3 cm and b = 5 cm?",
+          "opciones": [
+            "8 cm",
+            "30 cm",
+            "16 cm",
+            "15 cm"
+          ],
+          "correcta": 2,
+          "explicacion": "2 × 3 + 2 × 5 = 6 + 10 = 16 cm."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A rectangle has l = 4.5 cm and b = 2 cm. What are its perimeter and area?",
+          "opciones": [
+            "13 cm and 9 cm²",
+            "9 cm and 13 cm²",
+            "6.5 cm and 9 cm²",
+            "13 cm and 18 cm²"
+          ],
+          "correcta": 0,
+          "explicacion": "P = 9 + 4 = 13 cm; A = 4.5 × 2 = 9 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A rectangle has l = 45 cm and b = 1 m. What is its area?",
+          "opciones": [
+            "450 cm²",
+            "290 cm²",
+            "4500 cm²",
+            "45 cm²"
+          ],
+          "correcta": 2,
+          "explicacion": "Change 1 m to 100 cm first: 45 × 100 = 4500 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Rectangle A has perimeter 6x + 4 and rectangle B has perimeter 2x + 10. When are the perimeters equal?",
+          "opciones": [
+            "Never",
+            "x = 1.5",
+            "x = 6",
+            "x = 3"
+          ],
+          "correcta": 1,
+          "explicacion": "6x + 4 = 2x + 10 → 4x = 6 → x = 1.5, so neither Marta nor Raul is always right."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Using V = IR, find V when I = 7 amps and R = 60 ohms.",
+          "opciones": [
+            "420 volts",
+            "67 volts",
+            "4200 volts",
+            "42 volts"
+          ],
+          "correcta": 0,
+          "explicacion": "7 × 60 = 420 volts."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Using V = IR, find V when I = 80 milliamps and R = 5000 ohms.",
+          "opciones": [
+            "400 000 volts",
+            "40 volts",
+            "4000 volts",
+            "400 volts"
+          ],
+          "correcta": 3,
+          "explicacion": "80 mA = 0.08 A, and 0.08 × 5000 = 400 volts."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "A girl is x years old and her grandfather is y years old. Write an expression for the grandfather's age 10 years ago.",
+          "pista": "Ten years ago he was younger.",
+          "claves": [
+            "y - 10",
+            "y-10",
+            "y − 10",
+            "y−10"
+          ],
+          "modelo": "y − 10",
+          "explicacion": "10 years ago you subtract 10 from his age."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Using V = IR, calculate V when I = 0.3 amps and R = 2000 ohms. Give the units.",
+          "pista": "0.3 × 2000 is the same as 3 × 200.",
+          "claves": [
+            "600"
+          ],
+          "modelo": "600 volts",
+          "explicacion": "0.3 × 2000 = 600 volts."
         }
       ]
     },
@@ -2629,6 +3124,83 @@
               ]
             }
           ]
+        },
+        {
+          "seccion": "From the textbook (pp. 36–53)",
+          "tarjetas": [
+            {
+              "etiqueta": "🍫 Tally chart",
+              "titulo": "Buttons in 25 packets",
+              "puntos": [
+                "Every **fifth** tally mark is drawn across the other four",
+                "36 buttons was the most common (frequency **10**)",
+                "Fill in the **tally** during the survey, the **frequency** at the end"
+              ]
+            },
+            {
+              "etiqueta": "📦 Grouped data",
+              "titulo": "Same size, no overlap",
+              "puntos": [
+                "Ages 71–80, 81–90… (care home: 12, 9, 6, 3)",
+                "Continuous: **14–15** means 14 up to but not including 15",
+                "Length and time are **continuous**; counts are **discrete**"
+              ]
+            },
+            {
+              "etiqueta": "🔲 Carroll diagram",
+              "titulo": "Opposite categories",
+              "puntos": [
+                "Multiple of 3 / not a multiple of 3",
+                "Even / odd",
+                "Each item fits in **exactly one** box"
+              ]
+            },
+            {
+              "etiqueta": "📊 Bar charts",
+              "titulo": "Height = frequency",
+              "puntos": [
+                "Same width; **categorical** or discrete data: bars **do not touch**",
+                "**Continuous** data: bars **touch**",
+                "**Dual**: bars side by side; **compound**: one bar split in two"
+              ]
+            },
+            {
+              "etiqueta": "🥧 Pie & waffle",
+              "titulo": "Fractions of the whole",
+              "puntos": [
+                "Sport 40 out of 120 = **1/3** of the circle",
+                "Waffle: shaded squares show the fraction",
+                "Needs a heading, a key and labels"
+              ]
+            },
+            {
+              "etiqueta": "📈 Other graphs",
+              "titulo": "Line, scatter, infographic",
+              "puntos": [
+                "**Line graph**: trend over time (sunflower ≈ 100 cm after 4½ weeks)",
+                "**Scatter graph**: is there a relationship between two variables?",
+                "**Infographic**: data in picture form (Everest 8848 m)"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Words to know",
+            "items": [
+              "tally",
+              "frequency",
+              "discrete",
+              "continuous",
+              "categorical",
+              "grouped",
+              "two-way table",
+              "Venn",
+              "Carroll",
+              "dual",
+              "compound",
+              "sample",
+              "representative"
+            ]
+          }
         }
       ],
       "tarjetas": [
@@ -2671,6 +3243,26 @@
         {
           "p": "What is a waffle diagram?",
           "r": "A grid of squares where each square represents the same amount"
+        },
+        {
+          "p": "What is a Carroll diagram?",
+          "r": "A table that sorts data into opposite categories, e.g. even/odd and multiple of 3/not."
+        },
+        {
+          "p": "When do the bars of a frequency diagram touch?",
+          "r": "When the data is continuous."
+        },
+        {
+          "p": "What is a compound bar chart?",
+          "r": "One bar per category, split into parts (e.g. girls and boys)."
+        },
+        {
+          "p": "What is a scatter graph used for?",
+          "r": "To see if there is a relationship between two variables."
+        },
+        {
+          "p": "What is a representative sample?",
+          "r": "A sample that shows the same properties as the whole population."
         }
       ],
       "preguntas": [
@@ -2983,6 +3575,384 @@
           "minimo": 2,
           "modelo": "Bar chart and pie chart (also: dual bar chart, waffle diagram, Venn diagram).",
           "explicacion": "The unit uses bar charts, dual bar charts, pie charts, waffle diagrams and Venn diagrams."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In a tally chart, why is every fifth tally mark drawn across the other four?",
+          "opciones": [
+            "To show a mistake",
+            "To mark the most common value",
+            "To make groups of 5 that are easy to count",
+            "To show the data is continuous"
+          ],
+          "correcta": 2,
+          "explicacion": "Groups of five make the tally quick to count."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "25 packets of chocolate buttons: 34 (3), 35 (4), 36 (10), 37 (5), 38 (3). How many packets had MORE than 36 buttons?",
+          "opciones": [
+            "18",
+            "15",
+            "8",
+            "5"
+          ],
+          "correcta": 2,
+          "explicacion": "37 and 38: 5 + 3 = 8."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "When grouping data, what must be true of the groups?",
+          "opciones": [
+            "Same size and no overlap",
+            "Different sizes",
+            "Each group must have the same frequency",
+            "There must be exactly 4 groups"
+          ],
+          "correcta": 0,
+          "explicacion": "The book says groups should be the same size and must not overlap."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Times to run 100 m are grouped 14–15, 15–16… Where does a time of exactly 15.0 seconds go?",
+          "opciones": [
+            "14–15",
+            "In both groups",
+            "It cannot be recorded",
+            "15–16"
+          ],
+          "correcta": 3,
+          "explicacion": "14–15 means from 14 up to but not including 15."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "The length of a worm, measured as accurately as possible, is discrete data.",
+          "correcta": false,
+          "explicacion": "Length can take any value, so it is continuous data."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Two-way table (maths test, 40 pupils): girls scored 0, 5, 7, 8 and 1 in the five bands. How many girls sat the test?",
+          "opciones": [
+            "20",
+            "40",
+            "21",
+            "19"
+          ],
+          "correcta": 2,
+          "explicacion": "0 + 5 + 7 + 8 + 1 = 21."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Boys scored 1, 4, 6 (up to 60%) and girls 0, 5, 7 (up to 60%). To pass you need more than 60%. How many failed?",
+          "opciones": [
+            "17",
+            "11",
+            "12",
+            "23"
+          ],
+          "correcta": 3,
+          "explicacion": "1 + 4 + 6 + 0 + 5 + 7 = 23."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "July midday temperatures: 26 °C (1 day), 27 °C (? days), 28 °C (8), 29 °C (6), 30 °C (7), 31 °C (2), 32 °C (4). How many days were 27 °C?",
+          "opciones": [
+            "4",
+            "2",
+            "1",
+            "3"
+          ],
+          "correcta": 3,
+          "explicacion": "July has 31 days: 31 − 28 = 3."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Using the same July data, how many days had a temperature of at least 29 °C?",
+          "opciones": [
+            "13",
+            "27",
+            "6",
+            "19"
+          ],
+          "correcta": 3,
+          "explicacion": "6 + 7 + 2 + 4 = 19."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Favourite animal: 7 children chose lion and 5 of them were boys. How many girls chose lion?",
+          "opciones": [
+            "7",
+            "2",
+            "12",
+            "5"
+          ],
+          "correcta": 1,
+          "explicacion": "7 − 5 = 2."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In the favourite-animal table, no girl chose 'Other'. A pupil chose rabbit (an 'Other' animal). Who answered?",
+          "opciones": [
+            "Impossible to tell",
+            "A teacher",
+            "A boy",
+            "A girl"
+          ],
+          "correcta": 2,
+          "explicacion": "The girls' 'Other' cell is 0, so it must have been a boy."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In a Venn diagram of the numbers 1–20 (multiples of 2 and of 3), which numbers go in the overlap?",
+          "opciones": [
+            "2, 3 and 6",
+            "3, 9 and 15",
+            "1, 5 and 7",
+            "6, 12 and 18"
+          ],
+          "correcta": 3,
+          "explicacion": "They are multiples of both 2 and 3."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "In a Carroll diagram of 1–20 (even/odd, multiple of 3/not), which numbers are odd multiples of 3?",
+          "opciones": [
+            "3, 9 and 15",
+            "6, 12 and 18",
+            "3, 6 and 9",
+            "1, 3 and 5"
+          ],
+          "correcta": 0,
+          "explicacion": "Odd and a multiple of 3: 3, 9 and 15."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Sports day Venn diagram: Track only 27, both 15, Field only 22, outside 5. How many pupils entered track events?",
+          "opciones": [
+            "42",
+            "27",
+            "64",
+            "15"
+          ],
+          "correcta": 0,
+          "explicacion": "27 + 15 = 42."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Book group Venn diagram: Fiction only 8, both 12, Non-fiction only 5. How many people are in the group?",
+          "opciones": [
+            "13",
+            "25",
+            "37",
+            "20"
+          ],
+          "correcta": 1,
+          "explicacion": "8 + 12 + 5 = 25; adding 20 + 17 counts the 12 twice."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Same book group: how many members like just one type of literature?",
+          "opciones": [
+            "25",
+            "20",
+            "13",
+            "12"
+          ],
+          "correcta": 2,
+          "explicacion": "8 + 5 = 13."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Why should the bars of a bar chart NOT touch when the data is categorical?",
+          "opciones": [
+            "To save space",
+            "Because the frequencies are small",
+            "Because it is a pie chart",
+            "The categories are separate, not a continuous scale"
+          ],
+          "correcta": 3,
+          "explicacion": "Gaps show separate categories; bars only touch for continuous data."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which chart shows each subject as ONE bar split into girls and boys?",
+          "opciones": [
+            "Dual bar chart",
+            "Scatter graph",
+            "Line graph",
+            "Compound bar chart"
+          ],
+          "correcta": 3,
+          "explicacion": "A compound bar chart divides each bar into parts."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Train lateness (100 trains): 0–5 min 54, 5–10 min 27, 10–15 min 13, 15–20 min 5, 20–25 min 1. How many were 10 minutes late or more?",
+          "opciones": [
+            "46",
+            "13",
+            "6",
+            "19"
+          ],
+          "correcta": 3,
+          "explicacion": "13 + 5 + 1 = 19."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A canteen sold 8 bottles of water on Monday. Water costs $1.20 and $19.20 was made over two days. How many were sold on Tuesday?",
+          "opciones": [
+            "8",
+            "16",
+            "10",
+            "12"
+          ],
+          "correcta": 0,
+          "explicacion": "19.20 ÷ 1.20 = 16 bottles, and 16 − 8 = 8."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Bread sold: brown 12, white 10, wholemeal 15, soda 3 (40 loaves). What fraction was wholemeal?",
+          "opciones": [
+            "3/8",
+            "15/8",
+            "1/4",
+            "3/10"
+          ],
+          "correcta": 0,
+          "explicacion": "15/40 = 3/8."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "120 students: Sport 40, Science 20, Maths 30, Art 15, Languages 15. What fraction of a pie chart is Maths?",
+          "opciones": [
+            "1/3",
+            "1/6",
+            "3/10",
+            "1/4"
+          ],
+          "correcta": 3,
+          "explicacion": "30/120 = 1/4."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Milk used by 160 houses: 60 houses use 3 litres. What fraction is this?",
+          "opciones": [
+            "3/8",
+            "3/16",
+            "1/3",
+            "6/10"
+          ],
+          "correcta": 0,
+          "explicacion": "60/160 = 3/8."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "90 students sat an exam: 1/2 found it OK and 1/3 found it hard. How many found it easy?",
+          "opciones": [
+            "10",
+            "15",
+            "30",
+            "45"
+          ],
+          "correcta": 1,
+          "explicacion": "1 − 1/2 − 1/3 = 1/6, and 1/6 of 90 = 15."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "A waffle diagram must always have one square for each person.",
+          "correcta": false,
+          "explicacion": "The book says the same number is not necessary; what matters is the fraction shaded."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which graph is usually used to show a trend over a period of time?",
+          "opciones": [
+            "Pie chart",
+            "Carroll diagram",
+            "Line graph",
+            "Venn diagram"
+          ],
+          "correcta": 2,
+          "explicacion": "Line graphs show change over time, e.g. a sunflower's height."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Toddlers' average height and mass: the points rise from left to right. What does this suggest?",
+          "opciones": [
+            "Taller toddlers tend to be heavier",
+            "Taller toddlers tend to be lighter",
+            "There is no relationship",
+            "All toddlers weigh the same"
+          ],
+          "correcta": 0,
+          "explicacion": "Points rising from left to right show that as one increases, so does the other."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which scatter graph would you expect for the value of a car and its age?",
+          "opciones": [
+            "Points going down from left to right",
+            "Points going up from left to right",
+            "Points scattered with no pattern",
+            "A straight horizontal line"
+          ],
+          "correcta": 0,
+          "explicacion": "As a car gets older its value falls."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Greenhouse temperatures every 2 hours: 12, 18, 26, 22, 32, 10 °C (10:00 to 20:00). Which result is probably wrong?",
+          "opciones": [
+            "22 °C at 16:00",
+            "32 °C at 18:00",
+            "12 °C at 10:00",
+            "26 °C at 14:00"
+          ],
+          "correcta": 1,
+          "explicacion": "It was already cooling at 16:00, so 32 °C at 18:00 does not fit the pattern."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Everest is 8848 m and K2 is 8611 m. How much taller is Everest?",
+          "opciones": [
+            "263 m",
+            "1237 m",
+            "237 m",
+            "337 m"
+          ],
+          "correcta": 2,
+          "explicacion": "8848 − 8611 = 237 m."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "A zoologist weighs 50 mice. 26% of them are males with a mass of 100–120 g. How many mice is that?",
+          "pista": "Find 26% of 50.",
+          "claves": [
+            "13"
+          ],
+          "modelo": "13 mice",
+          "explicacion": "26% of 50 = 0.26 × 50 = 13."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Is the time taken to run 100 m discrete or continuous data? Explain.",
+          "pista": "Think about how accurate a stopwatch can be.",
+          "claves": [
+            "continu",
+            "any value"
+          ],
+          "modelo": "Continuous, because time can take any value (14.9 s, 14.99 s…).",
+          "explicacion": "Measurements like time and length are continuous."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Name the diagram that sorts data into categories using overlapping circles inside a rectangle.",
+          "claves": [
+            "venn"
+          ],
+          "modelo": "A Venn diagram.",
+          "explicacion": "Things in both groups go in the overlap; things in neither go outside the circles."
         }
       ]
     },
@@ -3137,6 +4107,82 @@
               ]
             }
           ]
+        },
+        {
+          "seccion": "From the textbook (pp. 54–63)",
+          "tarjetas": [
+            {
+              "etiqueta": "🧊 Parts of a 3D shape",
+              "titulo": "Face · edge · vertex",
+              "puntos": [
+                "**Face**: flat or curved surface",
+                "**Edge**: where two faces meet",
+                "**Vertex**: corner where edges meet (plural **vertices**)"
+              ]
+            },
+            {
+              "etiqueta": "🥫 Cylinder",
+              "titulo": "3 · 2 · 0",
+              "puntos": [
+                "3 faces (2 flat, 1 curved)",
+                "2 edges, 0 vertices",
+                "Cone: 2 faces, 1 edge, 1 vertex"
+              ]
+            },
+            {
+              "etiqueta": "🔺 Pyramids",
+              "titulo": "Base with n sides",
+              "puntos": [
+                "Edges = **2n** (always even)",
+                "Faces = vertices = **n + 1**",
+                "Hexagonal: 7 faces, 12 edges, 7 vertices"
+              ]
+            },
+            {
+              "etiqueta": "🧱 Prisms",
+              "titulo": "Constant cross-section",
+              "puntos": [
+                "Same shape all the way through",
+                "Split composite shapes into **cuboids** and add",
+                "'n' shape: 80 + 72 + 80 = **232 cm³**"
+              ]
+            },
+            {
+              "etiqueta": "📦 Surface area",
+              "titulo": "Area of the 6 faces",
+              "puntos": [
+                "6 × 5 × 3 cuboid: 60 + 36 + 30 = **126 cm²**",
+                "Or add up the areas of its **net**",
+                "Cube of edge x: **A = 6x²**"
+              ]
+            },
+            {
+              "etiqueta": "🔍 Counter example",
+              "titulo": "One case is enough",
+              "puntos": [
+                "To prove a statement wrong, find **one** case where it fails",
+                "Square pyramid (5 faces, 8 edges) vs triangular prism (5 faces, 9 edges)",
+                "Same volume ≠ same surface area"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Words to know",
+            "items": [
+              "face",
+              "edge",
+              "vertex",
+              "vertices",
+              "cuboid",
+              "prism",
+              "cross-section",
+              "composite",
+              "net",
+              "volume",
+              "surface area",
+              "mm³ · cm³ · m³"
+            ]
+          }
         }
       ],
       "tarjetas": [
@@ -3183,6 +4229,26 @@
         {
           "p": "How do you find a missing length of a cuboid from its volume?",
           "r": "Divide the volume by the other two lengths multiplied together"
+        },
+        {
+          "p": "What is a face?",
+          "r": "A flat or curved surface on a 3D shape."
+        },
+        {
+          "p": "What is an edge?",
+          "r": "Where two faces meet."
+        },
+        {
+          "p": "What is a prism?",
+          "r": "A 3D shape with the same cross-section all the way through."
+        },
+        {
+          "p": "What is a net?",
+          "r": "The 2D shape that folds up to make a 3D shape."
+        },
+        {
+          "p": "Surface area of a cube with edge x",
+          "r": "A = 6x²"
         }
       ],
       "preguntas": [
@@ -3486,6 +4552,344 @@
           ],
           "modelo": "The film has to overlap and fold round the edges, so he needs more than the surface area.",
           "explicacion": "Wrapping always needs extra film for overlaps and folds."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Where do two faces of a 3D shape meet?",
+          "opciones": [
+            "At a net",
+            "At the cross-section",
+            "At an edge",
+            "At a vertex"
+          ],
+          "correcta": 2,
+          "explicacion": "An edge is where two faces meet; a vertex is a corner."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many faces, edges and vertices does a cylinder have?",
+          "opciones": [
+            "3, 3 and 2",
+            "1, 0 and 0",
+            "3, 2 and 0",
+            "2, 2 and 0"
+          ],
+          "correcta": 2,
+          "explicacion": "2 flat faces and 1 curved face, 2 edges, no vertices."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Which shape has two faces, one edge and one vertex?",
+          "opciones": [
+            "Square-based pyramid",
+            "Cone",
+            "Cylinder",
+            "Sphere"
+          ],
+          "correcta": 1,
+          "explicacion": "A cone has a flat base, a curved face, one edge and one vertex at the top."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many edges does a hexagonal-based pyramid have?",
+          "opciones": [
+            "6",
+            "7",
+            "18",
+            "12"
+          ],
+          "correcta": 3,
+          "explicacion": "6 edges round the base and 6 up to the top."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "How many faces does a hexagonal-based pyramid have?",
+          "opciones": [
+            "12",
+            "7",
+            "6",
+            "8"
+          ],
+          "correcta": 1,
+          "explicacion": "6 triangles plus the hexagonal base."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Every pyramid has an even number of edges.",
+          "correcta": true,
+          "explicacion": "A base with n sides gives n base edges and n sloping edges: 2n, always even."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Every pyramid has the same number of faces as vertices.",
+          "correcta": true,
+          "explicacion": "Both are n + 1: n triangles plus the base, and n base corners plus the top."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A friend says shapes with the same number of faces must have the same number of edges. Which pair proves this wrong?",
+          "opciones": [
+            "Two different cubes",
+            "Sphere and cylinder",
+            "Square-based pyramid and triangular prism",
+            "Cube and cuboid"
+          ],
+          "correcta": 2,
+          "explicacion": "Both have 5 faces, but 8 and 9 edges: a counter example."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A cuboid is made from 1 cm cubes: 3 long, 2 wide and 2 high. What is its volume?",
+          "opciones": [
+            "7 cm³",
+            "14 cm³",
+            "6 cm³",
+            "12 cm³"
+          ],
+          "correcta": 3,
+          "explicacion": "3 × 2 × 2 = 12 cubes of 1 cm³."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Calculate the volume of a cuboid with L = 10 cm, W = 10 mm and H = 4 cm.",
+          "opciones": [
+            "4000 cm³",
+            "24 cm³",
+            "40 cm³",
+            "400 cm³"
+          ],
+          "correcta": 2,
+          "explicacion": "10 mm = 1 cm, so 10 × 1 × 4 = 40 cm³."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Calculate the volume of a cuboid with L = 50 mm, W = 30 cm and H = 0.1 m.",
+          "opciones": [
+            "1500 cm³",
+            "150 cm³",
+            "15 000 cm³",
+            "80 cm³"
+          ],
+          "correcta": 0,
+          "explicacion": "5 cm × 30 cm × 10 cm = 1500 cm³."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A cuboid of volume 360 cm³ is 5 cm by 12 cm by x cm. Find x.",
+          "opciones": [
+            "7 cm",
+            "30 cm",
+            "72 cm",
+            "6 cm"
+          ],
+          "correcta": 3,
+          "explicacion": "5 × 12 = 60 and 360 ÷ 60 = 6."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A cuboid of volume 180 cm³ is 6 cm by 6 cm by y cm. Find y.",
+          "opciones": [
+            "12 cm",
+            "5 cm",
+            "6 cm",
+            "30 cm"
+          ],
+          "correcta": 1,
+          "explicacion": "6 × 6 = 36 and 180 ÷ 36 = 5."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A cuboid of length 12 cm has volume 768 cm³. Its width and height are both a cm. Find a.",
+          "opciones": [
+            "64 cm",
+            "6 cm",
+            "32 cm",
+            "8 cm"
+          ],
+          "correcta": 3,
+          "explicacion": "768 ÷ 12 = 64 = a × a, so a = 8."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A tank 50 cm × 25 cm has water 12 cm deep. A 10 cm cube is put in. What is the new depth?",
+          "opciones": [
+            "13 cm",
+            "12.08 cm",
+            "12.8 cm",
+            "22 cm"
+          ],
+          "correcta": 2,
+          "explicacion": "The cube pushes up 1000 cm³; 1000 ÷ (50 × 25) = 0.8 cm, so 12.8 cm."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A U-shaped prism has a front 6 cm wide and 6 cm high, with a 2 cm wide, 4 cm deep gap, and is 8 cm long. What is its volume?",
+          "opciones": [
+            "288 cm³",
+            "64 cm³",
+            "256 cm³",
+            "224 cm³"
+          ],
+          "correcta": 3,
+          "explicacion": "6 × 6 × 8 = 288 minus the gap 2 × 4 × 8 = 64 gives 224 cm³."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "An 8 cm cube has a 4 cm × 4 cm square hole cut all the way through it. What volume is left?",
+          "opciones": [
+            "384 cm³",
+            "512 cm³",
+            "448 cm³",
+            "128 cm³"
+          ],
+          "correcta": 0,
+          "explicacion": "512 − (4 × 4 × 8) = 512 − 128 = 384 cm³."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A cuboid 10 × 8 × 4 cm has an x by x by 4 cm piece cut from a corner. 199 cm³ is left. Find x.",
+          "opciones": [
+            "5 cm",
+            "11 cm",
+            "6 cm",
+            "5.5 cm"
+          ],
+          "correcta": 3,
+          "explicacion": "320 − 4x² = 199 → 4x² = 121 → x² = 30.25 → x = 5.5."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the surface area of a cuboid 6 cm × 3 cm × 5 cm?",
+          "opciones": [
+            "63 cm²",
+            "108 cm²",
+            "126 cm²",
+            "90 cm²"
+          ],
+          "correcta": 2,
+          "explicacion": "2(6×5) + 2(6×3) + 2(3×5) = 60 + 36 + 30 = 126 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the surface area of a cuboid 10 cm × 5 cm × 8 cm?",
+          "opciones": [
+            "170 cm²",
+            "230 cm²",
+            "340 cm²",
+            "400 cm²"
+          ],
+          "correcta": 2,
+          "explicacion": "2(50 + 80 + 40) = 340 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "What is the surface area of a cuboid 2 cm × 2 cm × 9 cm?",
+          "opciones": [
+            "44 cm²",
+            "80 cm²",
+            "36 cm²",
+            "40 cm²"
+          ],
+          "correcta": 1,
+          "explicacion": "2(4 + 18 + 18) = 80 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "The net of a cube has squares of side 5 cm. What is the cube's surface area?",
+          "opciones": [
+            "100 cm²",
+            "150 cm²",
+            "125 cm²",
+            "25 cm²"
+          ],
+          "correcta": 1,
+          "explicacion": "6 faces × 25 cm² = 150 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Using A = 6x², what is the surface area of a cube with edge 10 cm?",
+          "opciones": [
+            "360 cm²",
+            "600 cm²",
+            "60 cm²",
+            "1000 cm²"
+          ],
+          "correcta": 1,
+          "explicacion": "6 × 10² = 6 × 100 = 600 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A cube has edge 3 cm. If the edge is doubled, how many times bigger does the surface area become?",
+          "opciones": [
+            "2 times",
+            "8 times",
+            "6 times",
+            "4 times"
+          ],
+          "correcta": 3,
+          "explicacion": "54 cm² becomes 216 cm², which is 4 times bigger (2²)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "If the edge of a cube is made 10 times bigger, how many times bigger is its surface area?",
+          "opciones": [
+            "1000 times",
+            "60 times",
+            "100 times",
+            "10 times"
+          ],
+          "correcta": 2,
+          "explicacion": "Area grows by 10² = 100."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Cuboids with the same volume must have the same surface area.",
+          "correcta": false,
+          "explicacion": "1 × 1 × 8 and 2 × 2 × 2 both have volume 8 cm³, but surface areas 34 cm² and 24 cm²."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "A room is 8 m × 3 m × 3.5 m high. Paint covers 60 m² per pot. The walls and ceiling (without door and windows) are 97.78 m². How many pots for TWO coats?",
+          "opciones": [
+            "2",
+            "3",
+            "5",
+            "4"
+          ],
+          "correcta": 3,
+          "explicacion": "2 × 97.78 = 195.56 m²; 195.56 ÷ 60 = 3.26, so you must buy 4 pots."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What is the plural of vertex?",
+          "pista": "It ends in -ices.",
+          "claves": [
+            "vertices"
+          ],
+          "modelo": "Vertices",
+          "explicacion": "One vertex, two vertices."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What is the surface area of a cuboid 12 cm × 15 cm × 3 cm? Give the units.",
+          "pista": "Find the three different faces, then double.",
+          "claves": [
+            "522"
+          ],
+          "modelo": "522 cm²",
+          "explicacion": "2(180 + 36 + 45) = 2 × 261 = 522 cm²."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "What is special about the cross-section of a prism?",
+          "pista": "Imagine slicing it like a loaf of bread.",
+          "claves": [
+            "same",
+            "constant",
+            "identical"
+          ],
+          "modelo": "It is the same all the way through (a constant cross-section).",
+          "explicacion": "That is the book's definition of a prism."
         }
       ]
     }
