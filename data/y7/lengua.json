@@ -1,1 +1,2248 @@
-{ "temas": [] }
+{
+  "temas": [
+    {
+      "id": "tema-1-manos-a-la-obra",
+      "titulo": "Tema 1 · ¡Manos a la obra!",
+      "resumen": [
+        "## Palabras invariables",
+        "Las **preposiciones**, las **conjunciones** y las **interjecciones** son palabras **invariables**: no cambian nunca de forma (no tienen género, número, persona ni tiempo).",
+        "- **Preposiciones**: relacionan palabras de modo que una complementa a la otra (*café **con** leche*). Son: a, ante, bajo, cabe, con, contra, de, desde, durante, en, entre, hacia, hasta, mediante, para, por, según, sin, so, sobre, tras, versus y vía. Son un **grupo cerrado**.",
+        "- **Conjunciones**: relacionan palabras o grupos de palabras independientes. **Copulativas** (*y, e, ni*), **disyuntivas** (*o, u*), **adversativas** (*pero, sino*); también *si, porque, aunque*.",
+        "- **Interjecciones**: equivalen a un enunciado; expresan sentimientos, llaman la atención, saludan, animan o sorprenden: *¡Oh!* (sorpresa), *¡Ay!* (dolor), *¡Puaj!* (asco), *¡Uf!* (alivio), *¿Eh?* (duda). Suelen ir entre **signos de exclamación**.",
+        "",
+        "## El texto expositivo",
+        "**Explica y desarrolla un tema** para transmitir información (no para convencer). Lenguaje **claro**, registro **formal**, con ejemplos y descripciones; cada idea en un párrafo.",
+        "- **Introducción**: presenta el tema.",
+        "- **Cuerpo o desarrollo**: los párrafos que desarrollan el tema.",
+        "- **Conclusión**: resume las ideas principales.",
+        "Puede ser **oral**, **escrito** o audiovisual, para un público **experto** o **general**.",
+        "",
+        "## La exposición oral",
+        "Se prepara antes: buscar información fiable → **guion** → redacción → ensayos (sin aprenderla de memoria). También comunican los **elementos paratextuales**: gestos, tono y **volumen** de la voz, el espacio.",
+        "",
+        "## Otros contenidos",
+        "- **Campo semántico**: palabras de la misma clase relacionadas por su significado (*plancha, licuadora, aspirador* → electrodomésticos).",
+        "- **Puntos suspensivos (…)**: enumeración incompleta; interrumpir una oración para expresar sorpresa, suspense o duda; entre corchetes **[…]** indican que se ha suprimido parte del texto.",
+        "- **Conectores de contraste** (*pero, sin embargo, no obstante, en cambio*) y **de explicación** (*es decir, esto es, o sea, en otras palabras*).",
+        "",
+        "## Lecturas",
+        "- **El corrector líquido**: lo inventó **Bette Nesmith Graham**, secretaria del Texas Bank and Trust, al ver que la pintura blanca tapaba los desperfectos de las ventanas. En 1956 consiguió el compuesto, lo vendió como **Liquid Paper** y luego vendió la empresa a **Gillette** por 47,5 millones de dólares. En Europa se llama **Tipp-Ex**.",
+        "- **La máquina de escribir**: rodillo, palanca, carro, cinta entintada, tipos y teclado.",
+        "- **Ann Makosinski** (Canadá, 1997) inventó la **linterna hueca**, que se carga con el calor del cuerpo."
+      ],
+      "notas": [
+        {
+          "seccion": "Palabras invariables",
+          "tarjetas": [
+            {
+              "etiqueta": "🔗 Preposición",
+              "titulo": "Une y complementa",
+              "puntos": [
+                "Relaciona palabras: una complementa a la otra",
+                "*Café **con** leche*, *camina **hasta** allí*, *cara **de** triste*",
+                "Grupo **cerrado**: a, ante, bajo, con, de, desde, en, entre, hacia, hasta, para, por, según, sin, sobre, tras…"
+              ]
+            },
+            {
+              "etiqueta": "➕ Conjunción",
+              "titulo": "Une partes independientes",
+              "puntos": [
+                "**Copulativas**: y, e, ni",
+                "**Disyuntivas**: o, u",
+                "**Adversativas**: pero, sino",
+                "Otras: si, **porque** (causa), aunque"
+              ]
+            },
+            {
+              "etiqueta": "😮 Interjección",
+              "titulo": "Vale por una oración",
+              "puntos": [
+                "Expresa sentimientos, saluda, anima, llama la atención",
+                "¡Oh! sorpresa · ¡Ay! dolor · ¡Puaj! asco · ¡Uf! alivio · ¿Eh? duda",
+                "Suele ir entre **¡ !**"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Preposiciones",
+            "items": [
+              "a",
+              "ante",
+              "bajo",
+              "cabe",
+              "con",
+              "contra",
+              "de",
+              "desde",
+              "durante",
+              "en",
+              "entre",
+              "hacia",
+              "hasta",
+              "mediante",
+              "para",
+              "por",
+              "según",
+              "sin",
+              "so",
+              "sobre",
+              "tras",
+              "versus",
+              "vía"
+            ]
+          }
+        },
+        {
+          "seccion": "El texto expositivo",
+          "tarjetas": [
+            {
+              "etiqueta": "📘 Qué es",
+              "titulo": "Explica un tema",
+              "puntos": [
+                "Transmite **información**, no busca convencer",
+                "Lenguaje **claro** y registro **formal**",
+                "Ejemplos y descripciones; una idea por párrafo"
+              ]
+            },
+            {
+              "etiqueta": "🧱 Estructura",
+              "titulo": "Tres partes",
+              "puntos": [
+                "**Introducción**: presenta el tema",
+                "**Cuerpo o desarrollo**: desarrolla las ideas",
+                "**Conclusión**: resume las ideas principales"
+              ]
+            },
+            {
+              "etiqueta": "🎤 Exposición oral",
+              "titulo": "Se prepara",
+              "puntos": [
+                "Información fiable → **guion** → redacción → ensayos",
+                "No aprenderla de memoria (miedo escénico)",
+                "**Paratextuales**: gestos, tono, **volumen**, espacio"
+              ]
+            },
+            {
+              "etiqueta": "✅ Claves",
+              "titulo": "Al exponer",
+              "puntos": [
+                "Recorre al público con la vista",
+                "Volumen medio: ni gritar ni susurrar",
+                "Vocaliza; cambia la entonación",
+                "Pocas interjecciones y palabras imprecisas"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Vocabulario y ortografía",
+          "tarjetas": [
+            {
+              "etiqueta": "🗂️ Campo semántico",
+              "titulo": "Palabras de un mismo tema",
+              "puntos": [
+                "Misma clase de palabra y significado relacionado",
+                "*inventora, bombera, fontanera, dentista* → profesiones",
+                "*bombilla* o *pizarra* NO son profesiones"
+              ]
+            },
+            {
+              "etiqueta": "… Puntos suspensivos",
+              "titulo": "Tres usos",
+              "puntos": [
+                "Enumeración **incompleta**: *el Everest, el K2…*",
+                "Interrumpir: **sorpresa, suspense o duda**",
+                "**[…]**: se ha **suprimido** parte del texto"
+              ]
+            },
+            {
+              "etiqueta": "↔️ Conectores",
+              "titulo": "Organizan ideas",
+              "puntos": [
+                "**Contraste**: pero, sin embargo, no obstante, en cambio",
+                "**Explicación**: es decir, esto es, o sea, en resumen"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Las lecturas",
+          "tarjetas": [
+            {
+              "etiqueta": "🖊️ Corrector líquido",
+              "titulo": "Bette Nesmith Graham",
+              "puntos": [
+                "Secretaria en el **Texas Bank and Trust** (1946)",
+                "Idea: la pintura blanca tapaba fallos de las ventanas",
+                "1956: compuesto con un profesor de química → **Liquid Paper**",
+                "Vendido a **Gillette**: 47,5 millones $ · En Europa: **Tipp-Ex**"
+              ]
+            },
+            {
+              "etiqueta": "⌨️ Máquina de escribir",
+              "titulo": "Sus partes",
+              "puntos": [
+                "**Rodillo**: cilindro donde va el papel",
+                "**Carro**: se desplaza al imprimir",
+                "**Palanca**: mueve carro y rodillo",
+                "**Tipos**: varillas con letras · **Cinta entintada**"
+              ]
+            },
+            {
+              "etiqueta": "🔦 Ann Makosinski",
+              "titulo": "Inventora",
+              "puntos": [
+                "Nació en Canadá en 1997",
+                "**Linterna hueca**: se carga con el calor del cuerpo",
+                "Ganó la Feria de Ciencias de Google"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Palabras invariables",
+          "r": "Las que no cambian de forma: preposiciones, conjunciones e interjecciones."
+        },
+        {
+          "p": "Preposición",
+          "r": "Palabra que relaciona términos de modo que uno complementa al otro (con, de, hasta…)."
+        },
+        {
+          "p": "Conjunciones copulativas",
+          "r": "y, e, ni"
+        },
+        {
+          "p": "Conjunciones disyuntivas",
+          "r": "o, u"
+        },
+        {
+          "p": "Conjunciones adversativas",
+          "r": "pero, sino"
+        },
+        {
+          "p": "Interjección",
+          "r": "Palabra que equivale a un enunciado y expresa sentimientos, saluda, anima o sorprende."
+        },
+        {
+          "p": "Texto expositivo",
+          "r": "Texto que explica y desarrolla un tema para transmitir información."
+        },
+        {
+          "p": "Partes del texto expositivo",
+          "r": "Introducción, cuerpo o desarrollo y conclusión."
+        },
+        {
+          "p": "Campo semántico",
+          "r": "Conjunto de palabras de la misma clase relacionadas por su significado."
+        },
+        {
+          "p": "Usos de los puntos suspensivos",
+          "r": "Enumeración incompleta; sorpresa, suspense o duda; […] = texto suprimido."
+        },
+        {
+          "p": "Conectores de contraste",
+          "r": "pero, sin embargo, no obstante, en cambio, aun así"
+        },
+        {
+          "p": "Conectores de explicación",
+          "r": "es decir, esto es, o sea, en otras palabras, en resumen"
+        },
+        {
+          "p": "Elementos paratextuales",
+          "r": "Gestos, tono y volumen de la voz, espacio."
+        },
+        {
+          "p": "¿Quién inventó el corrector líquido?",
+          "r": "Bette Nesmith Graham (Liquid Paper; en Europa, Tipp-Ex)."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué tienen en común las preposiciones, las conjunciones y las interjecciones?",
+          "opciones": [
+            "Son formas de un verbo",
+            "Son palabras invariables: no cambian de forma",
+            "Tienen siempre género y número",
+            "Siempre van entre signos de exclamación"
+          ],
+          "correcta": 1,
+          "explicacion": "Las tres son palabras invariables."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál de estas palabras es una preposición?",
+          "opciones": [
+            "aunque",
+            "desde",
+            "pero",
+            "¡ay!"
+          ],
+          "correcta": 1,
+          "explicacion": "Desde está en la lista de preposiciones; pero y aunque son conjunciones."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "En «café con leche», ¿qué es «con»?",
+          "opciones": [
+            "una preposición",
+            "una conjunción",
+            "una interjección",
+            "un adjetivo"
+          ],
+          "correcta": 0,
+          "explicacion": "Con relaciona dos sustantivos: leche complementa a café."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué palabra NO es una preposición?",
+          "opciones": [
+            "porque",
+            "hacia",
+            "mediante",
+            "según"
+          ],
+          "correcta": 0,
+          "explicacion": "Porque es una conjunción."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué conjunciones son copulativas?",
+          "opciones": [
+            "pero, sino",
+            "si, porque",
+            "y, e, ni",
+            "o, u"
+          ],
+          "correcta": 2,
+          "explicacion": "Las copulativas suman: y, e, ni."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "En «¿Vas allí o te quedas aquí?», la conjunción «o» es…",
+          "opciones": [
+            "disyuntiva",
+            "copulativa",
+            "adversativa",
+            "una interjección"
+          ],
+          "correcta": 0,
+          "explicacion": "O y u son disyuntivas: presentan opciones."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "En «Quería salir, pero llovía», «pero» es una conjunción…",
+          "opciones": [
+            "adversativa",
+            "copulativa",
+            "disyuntiva",
+            "de lugar"
+          ],
+          "correcta": 0,
+          "explicacion": "Pero y sino son adversativas: expresan contraste."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué conjunción expresa causa?",
+          "opciones": [
+            "porque",
+            "pero",
+            "y",
+            "o"
+          ],
+          "correcta": 0,
+          "explicacion": "Porque introduce la causa de algo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "En el cómic, el niño dice «Aunque no me aclaraste que era una metáfora». ¿Qué expresa «aunque»?",
+          "opciones": [
+            "orden",
+            "lugar",
+            "contraste",
+            "adición"
+          ],
+          "correcta": 2,
+          "explicacion": "Aunque opone dos ideas: expresa contraste."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Para qué sirven las interjecciones?",
+          "opciones": [
+            "Para unir oraciones independientes",
+            "Para expresar sentimientos, saludar, animar o llamar la atención",
+            "Para relacionar dos sustantivos",
+            "Para indicar el número de algo"
+          ],
+          "correcta": 1,
+          "explicacion": "Las interjecciones equivalen a un enunciado completo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué expresa la interjección «¡Uf!»?",
+          "opciones": [
+            "duda",
+            "saludo",
+            "alivio",
+            "dolor"
+          ],
+          "correcta": 2,
+          "explicacion": "Según el libro, ¡Uf! expresa alivio."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué interjección usarías para expresar asco?",
+          "opciones": [
+            "¡Uf!",
+            "¿Eh?",
+            "¡Puaj!",
+            "¡Hola!"
+          ],
+          "correcta": 2,
+          "explicacion": "¡Puaj! expresa repugnancia."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Las interjecciones suelen escribirse entre signos de exclamación.",
+          "correcta": true,
+          "explicacion": "Por ejemplo: ¡Ojalá!, ¡Ay!"
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es un texto expositivo?",
+          "opciones": [
+            "Un cuento con personajes inventados",
+            "Un poema que expresa sentimientos",
+            "Un texto que explica y desarrolla un tema para transmitir información",
+            "Un texto que intenta convencer al lector"
+          ],
+          "correcta": 2,
+          "explicacion": "Los textos expositivos no buscan convencer, sino informar."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál es el orden de las partes de un texto expositivo?",
+          "opciones": [
+            "título, diálogo, final",
+            "planteamiento, nudo, desenlace",
+            "introducción, cuerpo o desarrollo, conclusión",
+            "conclusión, introducción, desarrollo"
+          ],
+          "correcta": 2,
+          "explicacion": "Es una estructura bastante fija que ayuda a comprenderlo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué parte del texto expositivo resume las ideas principales?",
+          "opciones": [
+            "el desarrollo",
+            "la conclusión",
+            "la introducción",
+            "el título"
+          ],
+          "correcta": 1,
+          "explicacion": "La conclusión resume lo explicado en el cuerpo."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Los textos expositivos usan un lenguaje claro y un registro formal.",
+          "correcta": true,
+          "explicacion": "Así cumplen su función informativa."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Para hacer una buena exposición oral hay que aprenderse el texto de memoria.",
+          "correcta": false,
+          "explicacion": "Es mejor no memorizarlo y reflexionar sobre las ideas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuáles son elementos paratextuales de una exposición oral?",
+          "opciones": [
+            "el título y los párrafos",
+            "las rimas y los versos",
+            "los gestos, el tono y el volumen de la voz",
+            "las preposiciones y las conjunciones"
+          ],
+          "correcta": 2,
+          "explicacion": "Aportan información además de las palabras."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es un campo semántico?",
+          "opciones": [
+            "Un grupo de palabras que riman",
+            "Palabras con el mismo número de sílabas",
+            "Palabras que vienen de otra lengua",
+            "Un conjunto de palabras de la misma clase relacionadas por su significado"
+          ],
+          "correcta": 3,
+          "explicacion": "Por ejemplo: plancha, licuadora y aspirador (electrodomésticos)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué palabra NO pertenece al campo semántico de las profesiones?",
+          "opciones": [
+            "fontanera",
+            "dentista",
+            "bombilla",
+            "bombera"
+          ],
+          "correcta": 2,
+          "explicacion": "Bombilla es un objeto, no una profesión."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué indican los puntos suspensivos entre corchetes […]?",
+          "opciones": [
+            "que se ha suprimido una parte del texto",
+            "que una enumeración está incompleta",
+            "una pregunta",
+            "que el texto es un poema"
+          ],
+          "correcta": 0,
+          "explicacion": "Es uno de los tres usos que da el libro."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Al abrir la caja, vi que dentro había… ¡una serpiente!» ¿Para qué se usan aquí los puntos suspensivos?",
+          "opciones": [
+            "Para indicar que falta texto",
+            "Para separar dos oraciones",
+            "Para interrumpir la oración y crear sorpresa o suspense",
+            "Para indicar una enumeración incompleta"
+          ],
+          "correcta": 2,
+          "explicacion": "Interrumpen la oración para expresar sorpresa, suspense o duda."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué conector es de contraste?",
+          "opciones": [
+            "o sea",
+            "en otras palabras",
+            "sin embargo",
+            "es decir"
+          ],
+          "correcta": 2,
+          "explicacion": "Sin embargo sirve para argumentar en contra."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Es decir» es un conector de…",
+          "opciones": [
+            "explicación",
+            "contraste",
+            "causa",
+            "tiempo"
+          ],
+          "correcta": 0,
+          "explicacion": "Los conectores de explicación introducen aclaraciones."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo se le ocurrió a Bette Nesmith Graham la idea del corrector líquido?",
+          "opciones": [
+            "Al pintar de blanco las ventanas del banco, vio que tapaba los desperfectos",
+            "Se lo propuso la empresa IBM",
+            "Lo vio en una feria de ciencias",
+            "Su hijo lo inventó en el colegio"
+          ],
+          "correcta": 0,
+          "explicacion": "Se dio cuenta de que la pintura blanca corregía los fallos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo se llama en Europa el corrector líquido?",
+          "opciones": [
+            "Gillette",
+            "Tipp-Ex",
+            "Liquid Paper",
+            "IBM"
+          ],
+          "correcta": 1,
+          "explicacion": "Por la empresa alemana que lo comercializó."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué parte de la máquina de escribir es la pieza cilíndrica de metal que gira y sobre la que se coloca el papel?",
+          "opciones": [
+            "el teclado",
+            "el rodillo",
+            "el carro",
+            "la palanca"
+          ],
+          "correcta": 1,
+          "explicacion": "El rodillo sujeta el papel."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué pieza de la máquina de escribir impregna de tinta los tipos?",
+          "opciones": [
+            "el carro",
+            "la cinta entintada",
+            "el rodillo",
+            "la palanca"
+          ],
+          "correcta": 1,
+          "explicacion": "Los tipos se impregnan de tinta en la cinta antes de golpear el papel."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué inventó Ann Makosinski?",
+          "opciones": [
+            "la máquina de escribir",
+            "una bombilla solar",
+            "una linterna que se carga con el calor del cuerpo",
+            "el corrector líquido"
+          ],
+          "correcta": 2,
+          "explicacion": "La llamó «linterna hueca» porque usó un tubo de aluminio vacío."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Nombra DOS clases de conjunciones.",
+          "pista": "Piensa en y, o, pero.",
+          "claves": [
+            "copulativa",
+            "disyuntiva",
+            "adversativa"
+          ],
+          "minimo": 2,
+          "modelo": "Copulativas (y, e, ni) y disyuntivas (o, u); también adversativas (pero, sino).",
+          "explicacion": "Las conjunciones pueden ser copulativas, disyuntivas o adversativas."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "¿Cuáles son las tres partes de un texto expositivo?",
+          "claves": [
+            "introduccion",
+            "cuerpo",
+            "desarrollo",
+            "conclusion"
+          ],
+          "minimo": 3,
+          "modelo": "Introducción, cuerpo o desarrollo y conclusión.",
+          "explicacion": "Esta estructura fija ayuda a comprender el texto."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Escribe tres preposiciones.",
+          "claves": [
+            "ante",
+            "bajo",
+            "cabe",
+            "con",
+            "contra",
+            "desde",
+            "durante",
+            "entre",
+            "hacia",
+            "hasta",
+            "mediante",
+            "para",
+            "por",
+            "segun",
+            "sin",
+            "sobre",
+            "tras",
+            "versus",
+            "via"
+          ],
+          "minimo": 3,
+          "modelo": "Por ejemplo: con, desde, hacia.",
+          "explicacion": "Las preposiciones forman un grupo cerrado: a, ante, bajo, con, de, desde…"
+        }
+      ]
+    },
+    {
+      "id": "tema-2-idiomas-de-etiqueta",
+      "titulo": "Tema 2 · Idiomas de etiqueta",
+      "resumen": [
+        "## Las lenguas",
+        "Los seres humanos nos **comunicamos** con el **lenguaje**. Una **lengua** es un **sistema o código lingüístico** que usa una comunidad de hablantes. El código puede ser **verbal** (palabras) o **no verbal** (imágenes, gestos, movimientos: **lengua de signos**, **braille**). Hay **más de siete mil** lenguas; tres de las más usadas son el **chino mandarín**, el **castellano** y el **inglés**.",
+        "",
+        "## El castellano o español",
+        "- Procede principalmente del **latín** (también influyó el **griego** antiguo).",
+        "- Empezó a hablarse en la zona **centro-norte** de la península ibérica en la **Edad Media**.",
+        "- España es el **cuarto** país con más hablantes, tras México, Colombia y Argentina.",
+        "- **1492**: lengua oficial de España; **Antonio de Nebrija** escribe la *Gramática castellana*. **1713**: se crea la **Real Academia Española (RAE)**.",
+        "- Las lenguas **cambian** con el tiempo. Hay **dialectos** del castellano, como el **andaluz** y el **canario**.",
+        "",
+        "## Otras lenguas oficiales de España",
+        "**Gallego** (Galicia; parecido al portugués), **euskera o vasco** (País Vasco y noroeste de Navarra; la única que **no viene del latín**), **catalán** (Cataluña e Islas Baleares), **valenciano** (variante del catalán, Comunidad Valenciana) y **aranés** (valle de Arán, Lleida).",
+        "",
+        "## El español de América",
+        "Llegó con el primer viaje de **Colón (1492)**. Se habla en **23** países americanos y es oficial en **19**. Algunas palabras cambian: *papa* (patata), *vos* (tú), *pochoclos/crispetas/canguil* (palomitas), *pitillo/bombilla/calimete* (pajita), *campera/chamarra/casaca* (chaqueta).",
+        "",
+        "## El blog y la página web",
+        "- **Blog**: sitio virtual a modo de diario personal. Tiene **entradas** ordenadas por **fecha** que los lectores pueden **comentar**.",
+        "- **Página web**: producto digital con contenidos elegidos con una intención (textos, vídeos, audios, **hipervínculos**). Partes: cabecera, cuerpo y pie. ¡No todo lo que hay en Internet es fiable!",
+        "",
+        "## Vocabulario",
+        "- **Extranjerismos**: palabras tomadas de otras lenguas: *selfi* (inglés), *garaje* (francés), *albóndiga* (árabe).",
+        "- **Neologismos**: palabras nuevas para realidades nuevas: *posturear*, *viralizar*.",
+        "- **Arcaísmos**: palabras antiguas en desuso: *conseja* (cuento).",
+        "",
+        "## Ortografía: b y v",
+        "- **b**: pretérito imperfecto de los verbos en **-ar** (*daba*); verbos *deber, haber, saber, beber, sorber*; delante de **l** o **r** (*habla, libro*).",
+        "- **v**: formas del verbo **ir** (*voy*); prefijos **vice-, vi-, viz-**; palabras que empiezan por **eva-, eve-, evi-, evo-**; después de **ad-** y **sub-**; adjetivos en **-ave, -avo, -eve, -evo, -ivo** (*grave, bravo, leve, nueva, abusivo*).",
+        "",
+        "## Cohesión",
+        "Mecanismos para relacionar las ideas de un texto: **sinónimos**, **repeticiones**, **hiperónimos** (*alimento* en lugar de *coliflor* y *huevos*) y **campos semánticos**."
+      ],
+      "notas": [
+        {
+          "seccion": "Las lenguas",
+          "tarjetas": [
+            {
+              "etiqueta": "🗣️ Lengua",
+              "titulo": "Código de una comunidad",
+              "puntos": [
+                "Sistema o **código lingüístico** para comunicarse",
+                "**Verbal**: palabras · **No verbal**: imágenes, gestos",
+                "Más de **7000** lenguas · las más usadas: chino mandarín, castellano, inglés"
+              ]
+            },
+            {
+              "etiqueta": "🇪🇸 Castellano",
+              "titulo": "Historia",
+              "puntos": [
+                "Viene sobre todo del **latín** (y del griego)",
+                "Nació en el **centro-norte** peninsular, **Edad Media**",
+                "**1492**: oficial + *Gramática* de **Nebrija**",
+                "**1713**: se crea la **RAE**"
+              ]
+            },
+            {
+              "etiqueta": "🌍 En el mundo",
+              "titulo": "Datos",
+              "puntos": [
+                "España: **4.º** país en hablantes (tras México, Colombia, Argentina)",
+                "América: llegó con **Colón, 1492**",
+                "Se habla en **23** países americanos; oficial en **19**"
+              ]
+            },
+            {
+              "etiqueta": "✋ Otros sistemas",
+              "titulo": "No verbales",
+              "puntos": [
+                "**Lengua de signos**: personas con discapacidad auditiva; se expresa con las manos",
+                "**Braille**: puntos en **relieve** para personas con discapacidad visual"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Lenguas de España",
+          "tarjetas": [
+            {
+              "etiqueta": "🐚 Gallego",
+              "titulo": "Galicia",
+              "puntos": [
+                "Se parece al **portugués**"
+              ]
+            },
+            {
+              "etiqueta": "⛰️ Euskera o vasco",
+              "titulo": "País Vasco y noroeste de Navarra",
+              "puntos": [
+                "La única que **NO viene del latín**"
+              ]
+            },
+            {
+              "etiqueta": "🌊 Catalán",
+              "titulo": "Cataluña e Islas Baleares",
+              "puntos": [
+                "El **valenciano** es una variante del catalán (Comunidad Valenciana)"
+              ]
+            },
+            {
+              "etiqueta": "🏔️ Aranés",
+              "titulo": "Valle de Arán (Lleida)",
+              "puntos": [
+                "Una de las **cinco** lenguas oficiales además del castellano"
+              ]
+            },
+            {
+              "etiqueta": "🗺️ Dialectos",
+              "titulo": "Variedades del castellano",
+              "puntos": [
+                "**Andaluz** y **canario**",
+                "Cambian vocabulario o pronunciación"
+              ]
+            }
+          ],
+          "chips": {
+            "titulo": "Español de América = España",
+            "items": [
+              "papa = patata",
+              "vos = tú",
+              "pochoclos / crispetas / canguil = palomitas",
+              "pitillo / bombilla / calimete = pajita",
+              "campera / chamarra / casaca = chaqueta"
+            ]
+          }
+        },
+        {
+          "seccion": "Textos digitales",
+          "tarjetas": [
+            {
+              "etiqueta": "📝 Blog",
+              "titulo": "Diario en la red",
+              "puntos": [
+                "Formado por **entradas**",
+                "Ordenadas por **fecha**",
+                "Los lectores dejan **comentarios**"
+              ]
+            },
+            {
+              "etiqueta": "🌐 Página web",
+              "titulo": "Contenidos con intención",
+              "puntos": [
+                "Textos, vídeos, audios e **hipervínculos** (enlaces)",
+                "Partes: **cabecera, cuerpo, pie**",
+                "Comprueba que la información sea **fiable**"
+              ]
+            },
+            {
+              "etiqueta": "📰 Noticias del libro",
+              "titulo": "Lecturas",
+              "puntos": [
+                "**Willy**, un loro **yaco**, hallado por la policía en Torrealquería porque repetía «¡Amanda!»",
+                "La **ONCE** y la Fundación Lego: piezas en **braille**; cada lote, **250** piezas"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Vocabulario y ortografía",
+          "tarjetas": [
+            {
+              "etiqueta": "✈️ Extranjerismo",
+              "titulo": "De otra lengua",
+              "puntos": [
+                "*selfi* (inglés), *garaje* (francés), *albóndiga* (árabe)",
+                "En el blog: *tuit*, *screenshot*"
+              ]
+            },
+            {
+              "etiqueta": "🆕 Neologismo",
+              "titulo": "Palabra nueva",
+              "puntos": [
+                "Para una realidad que no existía",
+                "*posturear*, *viralizar*"
+              ]
+            },
+            {
+              "etiqueta": "📜 Arcaísmo",
+              "titulo": "Palabra en desuso",
+              "puntos": [
+                "Se usaba en otras épocas",
+                "*conseja* = cuento"
+              ]
+            },
+            {
+              "etiqueta": "🅱️ Con b",
+              "titulo": "Reglas",
+              "puntos": [
+                "Imperfecto de verbos en **-ar**: *daba*",
+                "*deber, haber, saber, beber, sorber*",
+                "Delante de **l** o **r**: *habla, libro*"
+              ]
+            },
+            {
+              "etiqueta": "✌️ Con v",
+              "titulo": "Reglas",
+              "puntos": [
+                "Verbo **ir**: *voy*",
+                "**vice-, vi-, viz-** · **eva-, eve-, evi-, evo-**",
+                "Tras **ad-, sub-**: *advertencia*",
+                "Adjetivos **-ave, -avo, -eve, -evo, -ivo**"
+              ]
+            },
+            {
+              "etiqueta": "🧩 Cohesión",
+              "titulo": "Unir las ideas",
+              "puntos": [
+                "**Sinónimos**: autor famoso / célebre escritor",
+                "**Repeticiones** · **Campos semánticos**",
+                "**Hiperónimos**: *alimento* por *coliflor* y *huevos*"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Lengua",
+          "r": "Sistema o código lingüístico que usa una comunidad de hablantes para comunicarse."
+        },
+        {
+          "p": "¿De qué lengua procede el castellano?",
+          "r": "Principalmente del latín."
+        },
+        {
+          "p": "1492",
+          "r": "El castellano es lengua oficial de España, Nebrija escribe la Gramática castellana y llega a América."
+        },
+        {
+          "p": "1713",
+          "r": "Se crea la Real Academia Española (RAE)."
+        },
+        {
+          "p": "Lenguas oficiales de España además del castellano",
+          "r": "Gallego, euskera o vasco, catalán, valenciano y aranés."
+        },
+        {
+          "p": "Lengua de España que no viene del latín",
+          "r": "El euskera o vasco."
+        },
+        {
+          "p": "Dialectos del castellano",
+          "r": "Por ejemplo, el andaluz y el canario."
+        },
+        {
+          "p": "Español en América",
+          "r": "Se habla en 23 países y es oficial en 19."
+        },
+        {
+          "p": "Blog",
+          "r": "Sitio virtual a modo de diario personal, con entradas ordenadas por fecha que se pueden comentar."
+        },
+        {
+          "p": "Hipervínculo",
+          "r": "Enlace que lleva a otro sitio web."
+        },
+        {
+          "p": "Extranjerismo",
+          "r": "Palabra tomada de otra lengua: selfi, garaje, albóndiga."
+        },
+        {
+          "p": "Neologismo",
+          "r": "Palabra nueva para una realidad nueva: posturear."
+        },
+        {
+          "p": "Arcaísmo",
+          "r": "Palabra de otra época, hoy en desuso: conseja."
+        },
+        {
+          "p": "Mecanismos de cohesión",
+          "r": "Sinónimos, repeticiones, hiperónimos y campos semánticos."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es una lengua?",
+          "opciones": [
+            "Un texto que explica un tema",
+            "Un sistema o código lingüístico que usa una comunidad de hablantes para comunicarse",
+            "Un conjunto de palabras que riman",
+            "Solo el idioma oficial de un país"
+          ],
+          "correcta": 1,
+          "explicacion": "Cada comunidad de hablantes desarrolla su lengua."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál de estos es un código NO verbal?",
+          "opciones": [
+            "el castellano",
+            "el inglés",
+            "el chino mandarín",
+            "la lengua de signos"
+          ],
+          "correcta": 3,
+          "explicacion": "Los códigos no verbales se valen de imágenes, gestos o movimientos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuántas lenguas se hablan aproximadamente en el mundo?",
+          "opciones": [
+            "más de siete mil",
+            "unas cien",
+            "unas setecientas",
+            "solo veinte"
+          ],
+          "correcta": 0,
+          "explicacion": "El libro dice que hay más de siete mil."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿De qué lengua procede principalmente el castellano?",
+          "opciones": [
+            "del árabe",
+            "del inglés",
+            "del latín",
+            "del griego"
+          ],
+          "correcta": 2,
+          "explicacion": "El latín se hablaba en los territorios del imperio romano."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Dónde y cuándo empezó a hablarse el castellano?",
+          "opciones": [
+            "En Roma, en la Antigüedad",
+            "En el centro-norte de la península ibérica, en la Edad Media",
+            "En América, en 1492",
+            "En el sur de la península, en la Prehistoria"
+          ],
+          "correcta": 1,
+          "explicacion": "Después se extendió, sobre todo por América."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Desde qué año es el castellano lengua oficial de España?",
+          "opciones": [
+            "1964",
+            "1492",
+            "1713",
+            "1780"
+          ],
+          "correcta": 1,
+          "explicacion": "Ese mismo año Nebrija escribió la Gramática castellana."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Quién escribió la Gramática castellana?",
+          "opciones": [
+            "Gabriela Mistral",
+            "Federico García Lorca",
+            "Antonio de Nebrija",
+            "Cristóbal Colón"
+          ],
+          "correcta": 2,
+          "explicacion": "Registró las primeras normas para usar bien el idioma."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Desde cuándo existe la Real Academia Española (RAE)?",
+          "opciones": [
+            "1713",
+            "1492",
+            "1900",
+            "1998"
+          ],
+          "correcta": 0,
+          "explicacion": "La RAE observa y valida los cambios del idioma."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué puesto ocupa España entre los países con más hablantes de español?",
+          "opciones": [
+            "el segundo, tras México",
+            "el décimo",
+            "el cuarto, tras México, Colombia y Argentina",
+            "el primero"
+          ],
+          "correcta": 2,
+          "explicacion": "México es el país con más hablantes."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué son el andaluz y el canario?",
+          "opciones": [
+            "dialectos del castellano",
+            "lenguas cooficiales",
+            "lenguas que no vienen del latín",
+            "extranjerismos"
+          ],
+          "correcta": 0,
+          "explicacion": "Tienen particularidades de vocabulario o pronunciación."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál es la única lengua hablada en España que NO proviene del latín?",
+          "opciones": [
+            "el aranés",
+            "el euskera o vasco",
+            "el gallego",
+            "el catalán"
+          ],
+          "correcta": 1,
+          "explicacion": "Se habla en el País Vasco y en el noroeste de Navarra."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Dónde se habla el aranés?",
+          "opciones": [
+            "en Galicia",
+            "en las Islas Baleares",
+            "en Canarias",
+            "en el valle de Arán (Lleida)"
+          ],
+          "correcta": 3,
+          "explicacion": "Es una de las lenguas oficiales de España."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es el valenciano?",
+          "opciones": [
+            "una lengua que no viene del latín",
+            "un extranjerismo",
+            "una variante del catalán que se habla en la Comunidad Valenciana",
+            "un dialecto del castellano"
+          ],
+          "correcta": 2,
+          "explicacion": "Así lo explica el libro."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Con qué lengua presenta similitudes el gallego?",
+          "opciones": [
+            "con el inglés",
+            "con el euskera",
+            "con el árabe",
+            "con el portugués"
+          ],
+          "correcta": 3,
+          "explicacion": "Galicia limita con Portugal."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Además del castellano, en España hay otras cinco lenguas oficiales en sus territorios.",
+          "correcta": true,
+          "explicacion": "Gallego, euskera, catalán, valenciano y aranés."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Las lenguas se mantienen iguales a lo largo del tiempo.",
+          "correcta": false,
+          "explicacion": "Cambian para adaptarse a nuevas realidades y por la influencia de otras lenguas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿En cuántos países americanos se habla español y en cuántos es lengua oficial?",
+          "opciones": [
+            "Se habla en 10 y es oficial en 5",
+            "Se habla en 50 y es oficial en 40",
+            "Se habla en 23 y es oficial en 19",
+            "Se habla en 19 y es oficial en 23"
+          ],
+          "correcta": 2,
+          "explicacion": "Llegó a América con el primer viaje de Colón en 1492."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "En algunos países americanos se dice «papa». ¿Qué palabra usamos en España?",
+          "opciones": [
+            "patata",
+            "padre",
+            "pajita",
+            "palomita"
+          ],
+          "correcta": 0,
+          "explicacion": "También usan vos en lugar de tú."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Crispetas, pochoclos y canguil son formas americanas de decir…",
+          "opciones": [
+            "chaqueta",
+            "zumo",
+            "palomitas",
+            "pajita"
+          ],
+          "correcta": 2,
+          "explicacion": "Se usan en Colombia, Argentina y Ecuador."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Pitillo, bombilla y calimete son formas americanas de decir…",
+          "opciones": [
+            "abrigo",
+            "vaso",
+            "pajita",
+            "palomitas"
+          ],
+          "correcta": 2,
+          "explicacion": "Sirven para beber."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es el braille?",
+          "opciones": [
+            "Un tipo de blog",
+            "Un sistema de signos de puntos en relieve para personas con discapacidad visual",
+            "La lengua de signos de las personas sordas",
+            "Un dialecto del castellano"
+          ],
+          "correcta": 1,
+          "explicacion": "Así las personas con discapacidad visual acceden a la lectura."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es un blog?",
+          "opciones": [
+            "Un sitio virtual, a modo de diario personal, donde se publican entradas",
+            "Un periódico impreso",
+            "Un diccionario de la RAE",
+            "Un tipo de poema"
+          ],
+          "correcta": 0,
+          "explicacion": "Las entradas se ordenan por fecha y se pueden comentar."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo se llama cada publicación que hace el autor de un blog?",
+          "opciones": [
+            "hipervínculo",
+            "entrada",
+            "cabecera",
+            "titular"
+          ],
+          "correcta": 1,
+          "explicacion": "Las entradas se ordenan por fecha."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es un hipervínculo?",
+          "opciones": [
+            "un enlace que dirige a otro sitio web",
+            "un comentario de un lector",
+            "el título de una entrada",
+            "el pie de una página web"
+          ],
+          "correcta": 0,
+          "explicacion": "Es posible porque Internet es una red global de dispositivos conectados."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "Todos los datos que se publican en Internet son fiables.",
+          "correcta": false,
+          "explicacion": "Muchos no pasan verificaciones: hay que comprobar su validez."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es un extranjerismo?",
+          "opciones": [
+            "una palabra nueva, como posturear",
+            "una palabra antigua en desuso",
+            "una palabra que suena igual que otra",
+            "una palabra tomada de otra lengua, como selfi o garaje"
+          ],
+          "correcta": 3,
+          "explicacion": "Selfi viene del inglés y garaje, del francés."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es un neologismo?",
+          "opciones": [
+            "una palabra nueva para una realidad que no existía, como posturear",
+            "una palabra antigua, como conseja",
+            "una palabra de otra lengua, como garaje",
+            "un dialecto"
+          ],
+          "correcta": 0,
+          "explicacion": "Viralizar también es un neologismo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué palabra es un arcaísmo?",
+          "opciones": [
+            "posturear",
+            "tuit",
+            "conseja",
+            "selfi"
+          ],
+          "correcta": 2,
+          "explicacion": "Conseja se usaba para referirse a un cuento; hoy está en desuso."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por qué se escribe con b «daba»?",
+          "opciones": [
+            "Va delante de l o r",
+            "Es del verbo ir",
+            "Empieza por eva-",
+            "Es pretérito imperfecto de indicativo de un verbo terminado en -ar"
+          ],
+          "correcta": 3,
+          "explicacion": "Ejemplos: daba, cantaba, jugábamos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por qué «libro» y «habla» se escriben con b?",
+          "opciones": [
+            "Porque ese sonido va delante de r o de l",
+            "Porque son verbos en -ar",
+            "Porque empiezan por ad-",
+            "Porque son adjetivos"
+          ],
+          "correcta": 0,
+          "explicacion": "Se escriben con b las palabras con ese sonido delante de l o r."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál de estas palabras está bien escrita?",
+          "opciones": [
+            "evolución",
+            "ebolución",
+            "adbertencia",
+            "bicedirectora"
+          ],
+          "correcta": 0,
+          "explicacion": "Se escriben con v las palabras que empiezan por evo- (y tras ad-, y con vice-)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Los adjetivos terminados en -ave, -avo, -eve, -evo e -ivo se escriben con…",
+          "opciones": [
+            "con w",
+            "v: grave, bravo, leve, nueva, abusivo",
+            "b: grabe, brabo, lebe",
+            "con b o v, da igual"
+          ],
+          "correcta": 1,
+          "explicacion": "Es una de las normas de la v."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Escribir «alimento» en lugar de «coliflor y huevos» es un ejemplo de…",
+          "opciones": [
+            "extranjerismo",
+            "arcaísmo",
+            "hiperónimo",
+            "sinónimo"
+          ],
+          "correcta": 2,
+          "explicacion": "Un hiperónimo engloba a otras palabras."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo encontró la policía a Willy, el loro yaco?",
+          "opciones": [
+            "Lo vio un agente en un parque",
+            "Los vecinos le oyeron repetir el nombre de Amanda",
+            "Llevaba un chip con la dirección",
+            "Volvió volando solo a casa"
+          ],
+          "correcta": 1,
+          "explicacion": "Los yacos recuerdan y repiten palabras."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Escribe TRES lenguas oficiales de España además del castellano.",
+          "claves": [
+            "gallego",
+            "euskera",
+            "vasco",
+            "catalan",
+            "valenciano",
+            "aranes"
+          ],
+          "minimo": 3,
+          "modelo": "Gallego, euskera o vasco, catalán, valenciano y aranés.",
+          "explicacion": "Son cinco y son oficiales en sus territorios."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "¿De qué lengua procede principalmente el castellano?",
+          "claves": [
+            "latin"
+          ],
+          "modelo": "Del latín.",
+          "explicacion": "El latín se hablaba en los territorios del imperio romano; también influyó el griego antiguo."
+        }
+      ]
+    },
+    {
+      "id": "tema-3-fauna-en-verso",
+      "titulo": "Tema 3 · Fauna en verso",
+      "resumen": [
+        "## El nombre o sustantivo",
+        "Designa seres, objetos, lugares o ideas. Tiene **género** (masculino/femenino) y **número** (singular/plural). Clases:",
+        "- **Propio** (*India, Susana*) / **común** (*río, marsopa*)",
+        "- **Individual** (*pez*) / **colectivo** (*bandada, equipo, vajilla*)",
+        "- **Concreto** (*flor, lluvia*) / **abstracto** (*belleza, temor, justicia*)",
+        "- **Contable** (*colmillo, pezuña*) / **no contable** (*piel, pelaje, aliento*)",
+        "",
+        "## El adjetivo calificativo",
+        "Indica **cualidades** o estados del nombre y **concuerda** con él en género y número. Puede ser de **una terminación** (*audaz*) o de **dos** (*saltarín/saltarina*). **Grados**: **positivo** (*inesperada*), **comparativo** de superioridad (*más fiero que*), inferioridad (*menos fiero que*) e igualdad (*tan fiero como*), y **superlativo** (*muy degradado / degradadísimo*).",
+        "",
+        "## Los determinantes",
+        "Precisan al nombre y concuerdan con él. **Artículos** determinados (*el, la, los, las*) e indeterminados (*un, una, unos, unas*); **demostrativos** (*esta* cerca, *ese* distancia media, *aquellas* lejos); **posesivos** (*tus, nuestra, su*); **numerales** cardinales (*dos*) y ordinales (*primera*); **indefinidos** (*poca*). Nombres femeninos con **a-/ha- tónica** llevan *el/un* en singular: *el agua, un águila*.",
+        "",
+        "## La lírica",
+        "El **género lírico** expresa **sentimientos y emociones**. Se escribe en **versos**, con **ritmo** gracias a la **medida** y la **rima**.",
+        "- **Medida**: número de sílabas. Final **agudo** o monosílabo **+1**; **esdrújulo −1**; **sinalefa** (vocal final + vocal inicial = una sílaba).",
+        "- **Arte menor**: 8 sílabas o menos. **Arte mayor**: más de 8.",
+        "- **Rima** (desde la última vocal tónica): **consonante** (coinciden todos los sonidos) o **asonante** (solo las vocales).",
+        "- **Estrofas**: pareado (2 versos, aa), terceto (3, 11 sílabas, A-A), cuarteta (4, 8 sílabas, abab), redondilla (4, 8 sílabas, abba), serventesio (cuarteta de 11), cuarteto (redondilla de 11). **Soneto** (estrófico): 2 cuartetos + 2 tercetos. **Romance** (no estrófico): versos de 8 sílabas con rima asonante en los pares.",
+        "",
+        "## Recursos literarios",
+        "**Personificación** (cualidades humanas a cosas o animales), **comparación** (con *como, igual que*), **metáfora** (identifica dos cosas sin *como*), **hipérbole** (exageración) y **juegos de palabras** (el **calambur**).",
+        "",
+        "## Ortografía y vocabulario",
+        "- **Acentuación**: **agudas** con tilde si acaban en -n, -s o vocal (*compás*); **llanas** si acaban en consonante distinta de -n, -s (*néctar*); **esdrújulas** siempre (*brújula*).",
+        "- **Guion**: separa sílabas a final de línea sin dejar una vocal sola ni separar *ch, ll, rr*; une palabras compuestas (*teórico-práctico*).",
+        "- **Polisémicas** (*sierra*), **homógrafas** (*coso/coso*) y **homónimas** (*vaya/valla*).",
+        "",
+        "## Lecturas",
+        "- **Molai** (Jadav Payeng) empezó en **1979**, con **16 años**, a plantar árboles junto al río **Brahmaputra**; hoy el bosque ocupa **550 hectáreas**.",
+        "- **Lista Roja de la UICN** (creada en **1964**): 7 categorías; las amenazadas son **en peligro crítico, en peligro y vulnerable**. La especie más amenazada es el **rinoceronte de Java** (67 ejemplares)."
+      ],
+      "notas": [
+        {
+          "seccion": "El nombre",
+          "tarjetas": [
+            {
+              "etiqueta": "🏷️ Propio / común",
+              "titulo": "Nombra",
+              "puntos": [
+                "**Propio**: India, Susana, los Alpes",
+                "**Común**: río, marsopa, tiburones"
+              ]
+            },
+            {
+              "etiqueta": "🐟 Individual / colectivo",
+              "titulo": "Uno o un grupo",
+              "puntos": [
+                "**Individual**: pez, niña, tenedor",
+                "**Colectivo**: bandada, equipo, vajilla",
+                "rebaño → oveja · jauría → perro · orquesta → músico"
+              ]
+            },
+            {
+              "etiqueta": "🌸 Concreto / abstracto",
+              "titulo": "Se percibe o no",
+              "puntos": [
+                "**Concreto**: flor, raíz, lluvia",
+                "**Abstracto**: belleza, temor, justicia"
+              ]
+            },
+            {
+              "etiqueta": "🔢 Contable / no contable",
+              "titulo": "Se cuenta o se mide",
+              "puntos": [
+                "**Contable**: colmillo, pezuña",
+                "**No contable**: piel, pelaje, aliento"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Adjetivo y determinantes",
+          "tarjetas": [
+            {
+              "etiqueta": "🎨 Adjetivo",
+              "titulo": "Cualidades",
+              "puntos": [
+                "Concuerda en **género y número**",
+                "**Una terminación**: audaz · **Dos**: saltarín/saltarina"
+              ]
+            },
+            {
+              "etiqueta": "📶 Grados",
+              "titulo": "Intensidad",
+              "puntos": [
+                "**Positivo**: la nieve *inesperada*",
+                "**Comparativo**: *más… que* / *menos… que* / *tan… como*",
+                "**Superlativo**: *muy* degradado, degrad*adísimo*"
+              ]
+            },
+            {
+              "etiqueta": "👉 Artículo / demostrativo",
+              "titulo": "Determinantes",
+              "puntos": [
+                "**Artículo**: el, la (determinado) · un, una (indeterminado)",
+                "**Demostrativo**: *esta* (cerca), *ese* (media), *aquellas* (lejos)",
+                "*el agua*, *un águila* (a- tónica)"
+              ]
+            },
+            {
+              "etiqueta": "🎒 Posesivo / numeral / indefinido",
+              "titulo": "Determinantes",
+              "puntos": [
+                "**Posesivo**: tus, nuestra, su",
+                "**Numeral**: dos (cardinal), primera (ordinal)",
+                "**Indefinido**: poca agua"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "La lírica",
+          "tarjetas": [
+            {
+              "etiqueta": "📏 Medida",
+              "titulo": "Contar sílabas",
+              "puntos": [
+                "Final **agudo** o monosílabo: **+1**",
+                "Final **esdrújulo**: **−1**",
+                "**Sinalefa**: vocal + vocal = 1 sílaba",
+                "≤ 8 **arte menor** · > 8 **arte mayor**"
+              ]
+            },
+            {
+              "etiqueta": "🎵 Rima",
+              "titulo": "Desde la última vocal tónica",
+              "puntos": [
+                "**Consonante**: coinciden todos los sonidos (*callada / afelpada*)",
+                "**Asonante**: solo las vocales (*yerba / gacelas*)",
+                "Mayúscula = arte mayor · minúscula = arte menor · guion = no rima"
+              ]
+            },
+            {
+              "etiqueta": "🧱 Estrofas",
+              "titulo": "Esquemas",
+              "puntos": [
+                "**Pareado** 2 versos · **Terceto** 3 (11 síl.)",
+                "**Cuarteta** abab · **Redondilla** abba (8 síl.)",
+                "**Serventesio** y **cuarteto**: igual pero de 11 sílabas"
+              ]
+            },
+            {
+              "etiqueta": "📜 Poemas",
+              "titulo": "Estrófico o no",
+              "puntos": [
+                "**Soneto**: 2 cuartetos + 2 tercetos (estrófico)",
+                "**Romance**: versos de 8 sílabas, asonante en los pares (no estrófico)"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Recursos literarios",
+          "tarjetas": [
+            {
+              "etiqueta": "🧍 Personificación",
+              "titulo": "Rasgos humanos",
+              "puntos": [
+                "*Un árbol que me quería bien*",
+                "*La luna juega con la noche*"
+              ]
+            },
+            {
+              "etiqueta": "🟰 Comparación",
+              "titulo": "Con «como»",
+              "puntos": [
+                "*Sé tú como el calamar*",
+                "*Como un río crecido*"
+              ]
+            },
+            {
+              "etiqueta": "🔁 Metáfora",
+              "titulo": "Identifica sin «como»",
+              "puntos": [
+                "*Los ríos son rondas de niños*"
+              ]
+            },
+            {
+              "etiqueta": "💥 Hipérbole",
+              "titulo": "Exageración",
+              "puntos": [
+                "*Por tu amor me duele el aire*"
+              ]
+            },
+            {
+              "etiqueta": "🎲 Juegos de palabras",
+              "titulo": "Calambur",
+              "puntos": [
+                "*Es puma* → *espuma*",
+                "Juega con las sílabas o los significados"
+              ]
+            }
+          ]
+        },
+        {
+          "seccion": "Ortografía, vocabulario y lecturas",
+          "tarjetas": [
+            {
+              "etiqueta": "✍️ Tilde",
+              "titulo": "Acentuación",
+              "puntos": [
+                "**Agudas**: si acaban en -n, -s o vocal (*limón, compás*)",
+                "**Llanas**: si NO acaban en -n, -s o vocal (*néctar, Félix*)",
+                "**Esdrújulas**: siempre (*brújula, sólidos*)"
+              ]
+            },
+            {
+              "etiqueta": "➖ Guion",
+              "titulo": "Partir y unir",
+              "puntos": [
+                "No separar letras de una sílaba ni dejar una vocal sola",
+                "No separar ch, ll, rr: *pe-rro, ga-llina*",
+                "Une compuestos: *teórico-práctico*"
+              ]
+            },
+            {
+              "etiqueta": "🔤 Palabras",
+              "titulo": "Iguales o parecidas",
+              "puntos": [
+                "**Polisémicas**: *sierra* (montañas / herramienta)",
+                "**Homógrafas**: se escriben igual, origen distinto",
+                "**Homónimas**: suenan igual: *vaya / valla*"
+              ]
+            },
+            {
+              "etiqueta": "🌳 Molai",
+              "titulo": "Un bosque",
+              "puntos": [
+                "1979, **16 años**, río **Brahmaputra**",
+                "38 años plantando · **550 hectáreas**"
+              ]
+            },
+            {
+              "etiqueta": "🦏 Lista Roja",
+              "titulo": "UICN, 1964",
+              "puntos": [
+                "7 categorías; amenazadas: **peligro crítico, en peligro, vulnerable**",
+                "**Rinoceronte de Java**: solo 67",
+                "Anfibios: 41 % amenazados"
+              ]
+            }
+          ]
+        }
+      ],
+      "tarjetas": [
+        {
+          "p": "Nombre colectivo",
+          "r": "En singular nombra un conjunto: bandada, equipo, vajilla."
+        },
+        {
+          "p": "Nombre abstracto",
+          "r": "Designa ideas o realidades no materiales: belleza, temor, justicia."
+        },
+        {
+          "p": "Nombre no contable",
+          "r": "Sustancias que no se cuentan pero se miden o pesan: piel, pelaje."
+        },
+        {
+          "p": "Grados del adjetivo",
+          "r": "Positivo, comparativo (superioridad, inferioridad, igualdad) y superlativo."
+        },
+        {
+          "p": "Tipos de determinantes",
+          "r": "Artículo, demostrativo, posesivo, numeral e indefinido."
+        },
+        {
+          "p": "Género lírico",
+          "r": "Obras que expresan sentimientos y emociones profundos."
+        },
+        {
+          "p": "Arte menor / arte mayor",
+          "r": "Menor: 8 sílabas o menos. Mayor: más de 8."
+        },
+        {
+          "p": "Sinalefa",
+          "r": "Se cuenta una sola sílaba cuando una palabra acaba en vocal y la siguiente empieza por vocal."
+        },
+        {
+          "p": "Rima consonante",
+          "r": "Coinciden todos los sonidos desde la última vocal tónica."
+        },
+        {
+          "p": "Rima asonante",
+          "r": "Solo coinciden las vocales desde la última vocal tónica."
+        },
+        {
+          "p": "Soneto",
+          "r": "Poema estrófico de dos cuartetos y dos tercetos."
+        },
+        {
+          "p": "Romance",
+          "r": "Poema no estrófico de versos de 8 sílabas con rima asonante en los pares."
+        },
+        {
+          "p": "Metáfora",
+          "r": "Identifica dos seres u objetos sin usar «como»: Los ríos son rondas de niños."
+        },
+        {
+          "p": "Hipérbole",
+          "r": "Exagera un rasgo o cualidad."
+        },
+        {
+          "p": "Palabras homónimas",
+          "r": "Suenan igual pero se escriben distinto: vaya / valla."
+        }
+      ],
+      "preguntas": [
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué nombre es propio?",
+          "opciones": [
+            "belleza",
+            "India",
+            "río",
+            "bandada"
+          ],
+          "correcta": 1,
+          "explicacion": "Los nombres propios identifican una realidad concreta y se escriben con mayúscula."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué nombre es colectivo?",
+          "opciones": [
+            "bandada",
+            "pez",
+            "niña",
+            "tenedor"
+          ],
+          "correcta": 0,
+          "explicacion": "En singular se refiere a un conjunto de seres."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué nombre es abstracto?",
+          "opciones": [
+            "lluvia",
+            "raíz",
+            "flor",
+            "temor"
+          ],
+          "correcta": 3,
+          "explicacion": "Designa una idea, no algo que se perciba con los sentidos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué nombre es NO contable?",
+          "opciones": [
+            "tiburón",
+            "pelaje",
+            "colmillo",
+            "pezuña"
+          ],
+          "correcta": 1,
+          "explicacion": "Se puede medir o pesar, pero no contar."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Según el libro, «flor» es un nombre…",
+          "opciones": [
+            "propio, individual y abstracto",
+            "común, individual, concreto y contable",
+            "propio, colectivo y abstracto",
+            "común, colectivo y no contable"
+          ],
+          "correcta": 1,
+          "explicacion": "Es el ejemplo que da el libro."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál es el nombre individual de «jauría»?",
+          "opciones": [
+            "oveja",
+            "músico",
+            "isla",
+            "perro"
+          ],
+          "correcta": 3,
+          "explicacion": "Una jauría es un conjunto de perros."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuál es el nombre individual de «archipiélago»?",
+          "opciones": [
+            "árbol",
+            "pájaro",
+            "barco",
+            "isla"
+          ],
+          "correcta": 3,
+          "explicacion": "Un archipiélago es un conjunto de islas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Un lince audaz, una gata audaz»: el adjetivo «audaz» es de…",
+          "opciones": [
+            "grado superlativo",
+            "grado comparativo",
+            "una terminación",
+            "dos terminaciones"
+          ],
+          "correcta": 2,
+          "explicacion": "Tiene la misma forma para los dos géneros."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«El león es más fiero que la pantera.» ¿En qué grado está el adjetivo?",
+          "opciones": [
+            "positivo",
+            "comparativo de superioridad",
+            "comparativo de igualdad",
+            "superlativo"
+          ],
+          "correcta": 1,
+          "explicacion": "Más… que expresa superioridad."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«El puma es tan fiero como el jaguar.» ¿En qué grado está el adjetivo?",
+          "opciones": [
+            "superlativo",
+            "positivo",
+            "comparativo de igualdad",
+            "comparativo de inferioridad"
+          ],
+          "correcta": 2,
+          "explicacion": "Tan… como expresa igualdad."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Ese chiste es menos gracioso que un funeral.» ¿En qué grado está el adjetivo?",
+          "opciones": [
+            "superlativo",
+            "positivo",
+            "comparativo de inferioridad",
+            "comparativo de superioridad"
+          ],
+          "correcta": 2,
+          "explicacion": "Menos… que expresa inferioridad."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Mi prima Luisa es buenísima.» ¿En qué grado está el adjetivo?",
+          "opciones": [
+            "positivo",
+            "comparativo de igualdad",
+            "comparativo de superioridad",
+            "superlativo"
+          ],
+          "correcta": 3,
+          "explicacion": "El sufijo -ísimo forma el superlativo."
+        },
+        {
+          "tipo": "vf",
+          "enunciado": "En «la nieve inesperada», el adjetivo está en grado positivo.",
+          "correcta": true,
+          "explicacion": "Expresa la cualidad sin hablar de su intensidad."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué tipo de determinante es «aquellas» en «aquellas nubes»?",
+          "opciones": [
+            "posesivo",
+            "artículo indeterminado",
+            "demostrativo de lejanía",
+            "demostrativo de proximidad"
+          ],
+          "correcta": 2,
+          "explicacion": "Esta = cerca, ese = distancia media, aquel = lejos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué tipo de determinante es «nuestra» en «nuestra mochila»?",
+          "opciones": [
+            "numeral",
+            "indefinido",
+            "posesivo",
+            "demostrativo"
+          ],
+          "correcta": 2,
+          "explicacion": "Expresa a quién pertenece algo."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "En «la primera vez», «primera» es un determinante…",
+          "opciones": [
+            "indefinido",
+            "artículo",
+            "numeral ordinal",
+            "numeral cardinal"
+          ],
+          "correcta": 2,
+          "explicacion": "Los ordinales indican orden."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "En «poca agua», «poca» es un determinante…",
+          "opciones": [
+            "indefinido",
+            "numeral",
+            "posesivo",
+            "demostrativo"
+          ],
+          "correcta": 0,
+          "explicacion": "Expresa una cantidad sin concretarla."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por qué decimos «el agua» y «un águila» aunque son femeninas?",
+          "opciones": [
+            "Porque son extranjerismos",
+            "Porque son nombres femeninos que empiezan por a- tónica",
+            "Porque son masculinos",
+            "Porque son nombres colectivos"
+          ],
+          "correcta": 1,
+          "explicacion": "En plural vuelven a llevar las/unas: unas águilas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué expresa el género lírico?",
+          "opciones": [
+            "sentimientos y emociones profundos",
+            "noticias de actualidad",
+            "instrucciones para hacer algo",
+            "datos científicos"
+          ],
+          "correcta": 0,
+          "explicacion": "Usa el lenguaje de una manera especial."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué son los versos de arte menor?",
+          "opciones": [
+            "los de más de ocho sílabas",
+            "los que no riman",
+            "los de catorce sílabas",
+            "los de ocho sílabas o menos"
+          ],
+          "correcta": 3,
+          "explicacion": "Los de más de ocho sílabas son de arte mayor."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Si un verso termina en palabra aguda o monosílaba, al contar sílabas…",
+          "opciones": [
+            "se resta una",
+            "no cambia nada",
+            "se suman dos",
+            "se suma una"
+          ],
+          "correcta": 3,
+          "explicacion": "Por eso «tómala» se cuenta 3 − 1 = 2 y «ya» suma una."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Si un verso termina en palabra esdrújula, al contar sílabas…",
+          "opciones": [
+            "no cambia nada",
+            "se resta una",
+            "se suma una",
+            "se suman dos"
+          ],
+          "correcta": 1,
+          "explicacion": "Ejemplo: «tómala» = 3 − 1 = 2 sílabas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es la sinalefa?",
+          "opciones": [
+            "Separar una palabra a final de línea",
+            "Contar como una sílaba el final en vocal de una palabra y el principio en vocal de la siguiente",
+            "Sumar una sílaba al final del verso",
+            "Repetir sonidos al final de los versos"
+          ],
+          "correcta": 1,
+          "explicacion": "Por ejemplo: «la_ola» se une al medir."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Cuando en dos versos solo coinciden las vocales desde la última vocal tónica, la rima es…",
+          "opciones": [
+            "aguda",
+            "asonante",
+            "consonante",
+            "libre"
+          ],
+          "correcta": 1,
+          "explicacion": "Ejemplo: yerba / gacelas (e-a)."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Suavidad callada» / «de musgo afelpada»: ¿qué rima tienen?",
+          "opciones": [
+            "asonante",
+            "no riman",
+            "de arte mayor",
+            "consonante"
+          ],
+          "correcta": 3,
+          "explicacion": "Coinciden todos los sonidos: -ada."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué estrofa tiene cuatro versos de ocho sílabas con rima abba?",
+          "opciones": [
+            "pareado",
+            "terceto",
+            "redondilla",
+            "cuarteta"
+          ],
+          "correcta": 2,
+          "explicacion": "La cuarteta también tiene cuatro versos, pero su rima es abab."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuántos versos tiene un pareado?",
+          "opciones": [
+            "catorce",
+            "dos",
+            "tres",
+            "cuatro"
+          ],
+          "correcta": 1,
+          "explicacion": "Su rima es AA o aa."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cómo se organiza un soneto?",
+          "opciones": [
+            "en versos de 8 sílabas sin estrofas",
+            "en dos pareados",
+            "en dos cuartetos y dos tercetos",
+            "en cuatro redondillas"
+          ],
+          "correcta": 2,
+          "explicacion": "Es un poema estrófico."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es un romance?",
+          "opciones": [
+            "Un poema sin rima ni medida",
+            "Un poema no estrófico de versos de 8 sílabas con rima asonante en los pares",
+            "Un poema de dos cuartetos y dos tercetos",
+            "Una estrofa de dos versos"
+          ],
+          "correcta": 1,
+          "explicacion": "Ejemplo: el Romance sonámbulo de Lorca."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué es un serventesio?",
+          "opciones": [
+            "una redondilla de ocho sílabas",
+            "un terceto de arte menor",
+            "un pareado de arte mayor",
+            "una cuarteta con versos de once sílabas"
+          ],
+          "correcta": 3,
+          "explicacion": "Y el cuarteto es una redondilla de once sílabas."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Yo he conocido un árbol que me quería bien.» ¿Qué recurso literario es?",
+          "opciones": [
+            "comparación",
+            "hipérbole",
+            "calambur",
+            "personificación"
+          ],
+          "correcta": 3,
+          "explicacion": "Atribuye a un árbol un sentimiento humano."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Sé tú como el calamar.» ¿Qué recurso literario es?",
+          "opciones": [
+            "hipérbole",
+            "comparación",
+            "metáfora",
+            "personificación"
+          ],
+          "correcta": 1,
+          "explicacion": "Relaciona dos seres con la palabra como."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Los ríos son rondas de niños.» ¿Qué recurso literario es?",
+          "opciones": [
+            "metáfora",
+            "comparación",
+            "hipérbole",
+            "juego de palabras"
+          ],
+          "correcta": 0,
+          "explicacion": "Identifica dos cosas directamente, sin como."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Por tu amor me duele el aire.» ¿Qué recurso literario es?",
+          "opciones": [
+            "comparación",
+            "metáfora",
+            "personificación",
+            "hipérbole"
+          ],
+          "correcta": 3,
+          "explicacion": "Exagera el sentimiento."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Es puma y no es animal. Flota y vuela, ¿qué será?» (espuma). ¿Qué recurso se usa?",
+          "opciones": [
+            "comparación",
+            "rima asonante",
+            "calambur (juego de palabras)",
+            "hipérbole"
+          ],
+          "correcta": 2,
+          "explicacion": "Juega con la posición de las sílabas: es-puma / espuma."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por qué lleva tilde «limón»?",
+          "opciones": [
+            "Porque es un nombre",
+            "Es aguda y termina en -n",
+            "Es llana y termina en consonante",
+            "Es esdrújula"
+          ],
+          "correcta": 1,
+          "explicacion": "Las agudas llevan tilde si terminan en -n, -s o vocal."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Por qué lleva tilde «néctar»?",
+          "opciones": [
+            "Es aguda y termina en vocal",
+            "Es esdrújula",
+            "Es monosílaba",
+            "Es llana y termina en consonante distinta de -n o -s"
+          ],
+          "correcta": 3,
+          "explicacion": "Las llanas llevan tilde cuando no acaban en -n, -s o vocal."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué palabras llevan tilde siempre?",
+          "opciones": [
+            "las esdrújulas",
+            "las agudas",
+            "las llanas",
+            "las monosílabas"
+          ],
+          "correcta": 0,
+          "explicacion": "Ejemplos: brújula, libélula, sólidos."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué partición a final de línea es correcta?",
+          "opciones": [
+            "gal-lina",
+            "a-vestruz",
+            "pe-rro",
+            "per-ro"
+          ],
+          "correcta": 2,
+          "explicacion": "No se separan rr ni ll, ni se deja una vocal sola."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué tipo de palabra es «sierra» (cadena montañosa / herramienta)?",
+          "opciones": [
+            "polisémica",
+            "homónima",
+            "extranjerismo",
+            "arcaísmo"
+          ],
+          "correcta": 0,
+          "explicacion": "Una misma palabra con varios significados."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "«Vaya» (del verbo ir) y «valla» (cercado) son palabras…",
+          "opciones": [
+            "polisémicas",
+            "sinónimas",
+            "homógrafas",
+            "homónimas"
+          ],
+          "correcta": 3,
+          "explicacion": "Suenan igual pero se escriben de forma diferente."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Qué hizo Molai (Jadav Payeng) junto al río Brahmaputra?",
+          "opciones": [
+            "Abrir un zoo",
+            "Descubrir una especie nueva",
+            "Plantar un bosque que hoy ocupa unas 550 hectáreas",
+            "Construir un puente"
+          ],
+          "correcta": 2,
+          "explicacion": "Empezó en 1979, con dieciséis años."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "¿Cuáles son las tres categorías de especies amenazadas de la Lista Roja?",
+          "opciones": [
+            "en peligro, casi amenazada y preocupación menor",
+            "en peligro crítico, en peligro y vulnerable",
+            "extinta, casi amenazada y preocupación menor",
+            "extinta, vulnerable y casi amenazada"
+          ],
+          "correcta": 1,
+          "explicacion": "La Lista Roja de la UICN, creada en 1964, tiene siete categorías."
+        },
+        {
+          "tipo": "opcion",
+          "enunciado": "Según el libro, ¿cuál es la especie más amenazada?",
+          "opciones": [
+            "el yaco",
+            "el rinoceronte de Java",
+            "el tigre",
+            "el gorila"
+          ],
+          "correcta": 1,
+          "explicacion": "Solo quedan 67 ejemplares."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "¿Qué dos elementos se usan para dar ritmo a los versos?",
+          "claves": [
+            "medida",
+            "rima"
+          ],
+          "minimo": 2,
+          "modelo": "La medida y la rima.",
+          "explicacion": "La medida es el número de sílabas; la rima, la repetición de sonidos."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "Escribe un nombre colectivo.",
+          "claves": [
+            "bandada",
+            "equipo",
+            "vajilla",
+            "rebano",
+            "jauria",
+            "orquesta",
+            "archipielago",
+            "fresneda",
+            "manada",
+            "enjambre",
+            "ejercito",
+            "piara",
+            "arboleda",
+            "pinar",
+            "flota",
+            "coro",
+            "banda",
+            "multitud",
+            "cardumen",
+            "constelacion",
+            "biblioteca",
+            "alameda",
+            "olivar",
+            "familia",
+            "clase",
+            "gente",
+            "publico",
+            "tripulacion",
+            "profesorado",
+            "alumnado"
+          ],
+          "modelo": "Por ejemplo: bandada, equipo o vajilla.",
+          "explicacion": "Un nombre colectivo nombra en singular un conjunto de seres u objetos."
+        },
+        {
+          "tipo": "corta",
+          "enunciado": "¿Qué recurso literario consiste en exagerar un rasgo o cualidad?",
+          "claves": [
+            "hiperbole"
+          ],
+          "modelo": "La hipérbole.",
+          "explicacion": "Ejemplo: «Por tu amor me duele el aire»."
+        }
+      ]
+    }
+  ]
+}
