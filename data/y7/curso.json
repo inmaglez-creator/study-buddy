@@ -303,6 +303,19 @@
         "url": "lab/scratch.html",
         "titulo": "🧪 Scratch Lab"
       }
+    },
+    {
+      "id": "geography-unit-2",
+      "asignatura": "geography",
+      "titulo": "Geography test · Unit 2 How do we use our planet as a natural resource?",
+      "fecha": "2026-12-04",
+      "temas": [
+        "resources-rocks-coal",
+        "forests-soils",
+        "food-water",
+        "oil-electricity",
+        "sustainability"
+      ]
     }
   ]
 }
